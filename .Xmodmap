@@ -1,0 +1,14 @@
+!make apslock be esc
+remove Lock = Caps_Lock
+remove Control = Escape
+keysym Escape = Caps_Lock
+keysym Caps_Lock = Escape
+add Lock = Caps_Lock
+add Control = Escape
+!Swap right control and right alt
+remove Control = Control_R
+remove Mod1 = Alt_R
+keycode 105 = Alt_R
+keycode 108 = Control_R
+add Control = Control_R
+add Mod1 = Alt_R

@@ -1,0 +1,29 @@
+XTerm*faceName: Liberation Mono
+xterm*faceSize: 9
+!xterm*vt100*geometry: 80x60
+xterm*saveLines: 16000
+xterm*loginShell: true
+!supposed to allow sane copy/paste.
+XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+
+!fix alt key in xterm
+XTerm*metaSendsEscape: true
+
+*xterm*background: #333333
+*xterm*foreground: #ffffe2
+xterm.color0: #333333
+xterm*color8: #666666
+xterm.color1: #d15517
+xterm*color9: #d11723
+xterm.color2: #36b217
+xterm*color10: #00d56a
+xterm.color3: #d1b217
+xterm*color11: #ffea55
+xterm*color4: #55aaff
+xterm*color12: #1793d1
+xterm*color5: #b217d1
+xterm*color13: #d11793
+xterm.color6: #93d1b2
+xterm*color14: #17d1b2
+xterm*color7: #eeeeee
+xterm*color15: #ffffff
