@@ -1,0 +1,6 @@
+[user]
+	email = iankronquist@teleport.com
+	name = Ian Kronquist
+[core]
+	editor = vim
+	excludesfile = /home/ian/.gitignore
