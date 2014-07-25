@@ -1,0 +1,21 @@
+# vim: ft=zsh
+autoload promptinit
+promptinit
+setopt prompt_subst
+autoload -Uz vcs_info
+if vcs_info 2> /dev/null ; then
+	zstyle 'vcs_info:*' enable git
+	#zstyle 'vcs_info:*' formats "(%b)"
+	zstyle 'vcs_info:*' actionformats "(%b:%a)"
+	zstyle 'vcs_info:*' enable hg
+fi
+
+precmd_prompt () {
+	vcs_info
+	psvcs=$vcs_info_msg_0_
+
+}
+
+add-zsh-hook precmd precmd_prompt
+
+PROMPT='%F{green}%n:%F{blue}(%1~)${psvcs}☣ %f'
