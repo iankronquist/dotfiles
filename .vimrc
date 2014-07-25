@@ -11,5 +11,6 @@ autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t tw=80
 set cc=80
 set shiftwidth=4
 set tabstop=4
+set ai
 
 colorscheme seoul256
