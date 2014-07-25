@@ -1,34 +1,46 @@
 #
 # ~/.bashrc
 #
-
+#gpg -ear 'Your Name' foo.txt
+#gpg --output foo.txt --decrypt foo.txt.gpg
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 
 alias ll='ls -la'
 alias venv=virtualenv
 alias v='vim'
-alias pp='echo cd `pwd` | xclip'
+alias pp='echo cd `pwd` | pbcopy'
 alias sl='ls'
 alias opn=xdg-open
+alias rebash="source ~/.bashrc"
+#alias gg="cd ~/git"
+alias gg='. gg'
+alias gcc='gcc-4.8'
+#alias test="./manage.py test -s --noinput --logging-clear-handlers --with-id --with-progressive --progressive-advisories"
 #alias onid='ssh kronquii@shell.onid.oregonstate.edu'
 #alias ash='ssh -i ~/.ssh/ashkeys/id_rsa iankronquist@ash.osuosl.org'
 #alias engr='ssh kronquii@access.engr.oregonstate.edu'
 #alias sp="sudo pm-suspend"
-alias gitgraph="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(black)%s%C(reset) %C(black)- %an%C(reset)%C(bold red)%d%C(reset)' --all"
+alias gitgraph="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(black)- %an%C(reset)%C(bold red)%d%C(reset)' --all"
 alias gitlines="git ls-files | xargs wc -l"
 #alias wifi='sudo wifi-menu'
-alias p='fc -ln -2 | xclip'
+alias p='fc -ln -2 | pbcopy'
 alias connect='nmcli -p dev wifi connect'
 #alias connect\ access='connect OSU_Access'
 #alias connect\ resnet='connect OSU_ResNet'
 alias wifilist='nmcli -p dev wifi list'
 alias wifimodinmodout='sudo rmmod iwldvm && sudo rmmod iwlwifi && sleep 3 && sudo modprobe iwldvm && sudo modprobe iwlwifi'
-PATH=$PATH:~/bin:~/.gem/ruby/2.1.0/bin/:.
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export WORKON_HOME=~/venv
+export PATH="/usr/local/bin:$PATH:~/bin:~/.gem/ruby/2.1.0/bin/"
+# Add cabal binaries to your PATH:
+export PATH=~/.cabal/bin:$PATH
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-export RUBYOPT=rubygems
+#export RUBYOPT=rubygems
+export PYTHONSTARTUP=$HOME/.pythonrc.py
 
 #to get the current git branch, if any
 __git_ps1 () 
@@ -63,7 +75,7 @@ PS1='\[\033[0;32m\]\u:\[\033[0;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]â
 TERM='xterm-color'
 export EDITOR=vim
 
-[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
+#[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 
 #
 ## Reset
