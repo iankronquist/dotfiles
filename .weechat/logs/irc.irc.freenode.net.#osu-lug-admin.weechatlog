@@ -1,0 +1,494 @@
+2014-05-15 11:22:19	-->	muricula (kronquii@osuosl/staff/muricula) has joined #osu-lug-admin
+2014-05-15 11:22:19	--	Topic for #osu-lug-admin is "Interfacing osu lug with the campus bureaucracy | https://gist.github.com/edunham/9796518 because etherpad breaks a lot"
+2014-05-15 11:22:19	--	Topic set by edunham on Fri, 28 Mar 2014 14:43:19
+2014-05-15 11:22:19	--	Nicks #osu-lug-admin: [@chekkaa @jnoah akeym bryon deanj edunham frostsnow localhost00 MaraJade mathuin muricula mythmon Odysimus pono spectralsun]
+2014-05-15 11:22:19	--	Channel #osu-lug-admin: 15 nicks (2 ops, 0 halfops, 0 voices, 13 normals)
+2014-05-15 11:22:20	--	Channel created on Thu, 11 Aug 2011 11:03:29
+2014-05-15 12:10:04	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #osu-lug-admin
+2014-05-15 12:39:03	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #osu-lug-admin
+2014-05-15 14:18:17	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 256 seconds)
+2014-05-15 14:24:48	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-05-15 14:29:00	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-16 06:45:58	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-05-16 06:46:10	-->	bryon (bryon@osuosl/staff/bryon) has joined #osu-lug-admin
+2014-05-16 15:35:24	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-05-16 15:35:48	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-05-16 15:35:50	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-05-16 15:36:07	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osu-lug-admin
+2014-05-16 18:12:34	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Remote host closed the connection)
+2014-05-16 18:22:46	-->	brutal_chaos (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osu-lug-admin
+2014-05-16 18:22:46	--	Mode #osu-lug-admin [+o brutal_chaos] by ChanServ
+2014-05-16 18:39:00	--	brutal_chaos is now known as jnoah
+2014-05-18 15:13:38	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-05-18 15:13:42	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-05-18 15:13:48	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-05-18 15:13:49	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-05-18 15:13:53	<--	edunham (dunhame@osuosl/staff/edunham) has quit (*.net *.split)
+2014-05-18 15:13:55	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (*.net *.split)
+2014-05-18 15:19:37	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osu-lug-admin
+2014-05-18 15:19:37	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-05-18 15:19:37	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-18 15:19:37	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-05-18 15:19:37	-->	edunham (dunhame@osuosl/staff/edunham) has joined #osu-lug-admin
+2014-05-18 15:19:37	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osu-lug-admin
+2014-05-18 15:19:37	--	Mode #osu-lug-admin [+o chekkaa] by kornbluth.freenode.net
+2014-05-18 15:20:15	<--	edunham (dunhame@osuosl/staff/edunham) has quit (Write error: Broken pipe)
+2014-05-18 19:00:01	-->	edunham (dunhame@osuosl/staff/edunham) has joined #osu-lug-admin
+2014-05-19 02:36:21	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 256 seconds)
+2014-05-19 08:32:43	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 09:16:17	frostsnow	edunham: For the lawyer talk next week, Dunbar wants to know if we'll be recording it or if he should ask some people he knows to record the talk.
+2014-05-19 09:16:35	edunham	we hadn't planned to record it
+2014-05-19 09:16:53	edunham	speaking of which, could you confirm with lawyer that date still works etc.?
+2014-05-19 09:17:19	frostsnow	Yeah
+2014-05-19 09:19:49	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 256 seconds)
+2014-05-19 09:21:12	frostsnow	edunham: I BCC'd you so you'll have his e-mail just in case
+2014-05-19 09:22:30	edunham	frostsnow: thanks!
+2014-05-19 09:37:03	frostsnow	edunham: Confirmed
+2014-05-19 14:46:38	edunham	okay, jordane cannot do talk tomorrow because family medical things
+2014-05-19 14:47:01	edunham	our options are 1) have me do my 0 to merging/rebasing in an hour talk
+2014-05-19 14:47:19	edunham	or 2) have somebody (possibly me) grab Jordan's slides and talk on git plumbing
+2014-05-19 14:47:37	edunham	chekkaa, deanj, MaraJade, muricula thoughts?
+2014-05-19 14:57:51	@chekkaa	idk what git plumbing is
+2014-05-19 14:58:05	edunham	internals
+2014-05-19 14:58:08	edunham	advanced git stuff
+2014-05-19 14:58:23	@chekkaa	internals?
+2014-05-19 14:58:29	@chekkaa	like the algorithms it uses?
+2014-05-19 14:58:36	frostsnow	chekkaa: In contrast to "porcelain", which are the command-line tools "git (add|commit|merge)" which you usually use
+2014-05-19 14:58:58	@chekkaa	so APIs?
+2014-05-19 14:59:03	frostsnow	chekkaa: Lower-level tools for operating on git objects. I read about them a little bit but it went mostly over my head :P
+2014-05-19 14:59:19	@chekkaa	that's way over my head
+2014-05-19 14:59:24	@chekkaa	git is magic
+2014-05-19 15:03:24	akeym	is it really helpful to know that stuff?
+2014-05-19 15:04:11	edunham	it was a requested talk
+2014-05-19 15:04:34	akeym	well, i'm not questioning that
+2014-05-19 15:05:00	frostsnow	It could be useful if you need to make custom git things, or perhaps is something does wrong with a git repo. I'd imagine that the first option would be -much- closer to what the average LUG attendee could grok, though.
+2014-05-19 15:05:08	frostsnow	goes wrong*
+2014-05-19 15:05:22	akeym	i'm just curious "in what way would I benefit from this; who's the target audience"
+2014-05-19 15:06:15	edunham	uhh it was a requested talk?
+2014-05-19 15:06:18	edunham	"advanced git"
+2014-05-19 15:06:47	frostsnow	I'd think it's a deep enough subject that edunham would be better off giving her talk rather than reading an advanced topic from jordane's slides... but I'm also not going to be attending so I'm not officially voting
+2014-05-19 16:39:57	muricula	edunham: can I get a link to his slides? I'd probably just have you do your git basics talk then
+2014-05-19 16:40:20	edunham	muricula: https://github.com/jordane/git-talk-slides/blob/master/index.html#L188
+2014-05-19 16:47:47	muricula	edunham: how do I tell github to just serve that content to me? Reading html is kind of a pain when you really just care about the content
+2014-05-19 16:48:17	edunham	https://rawgit.com/jordane/git-talk-slides/master/index.html#/introduction
+2014-05-19 16:57:30	 *	muricula is not qualified to give that talk
+2014-05-19 16:58:52	 *	edunham could do it
+2014-05-19 21:29:21	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:29:21	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:29:32	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:29:32	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:29:56	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:29:56	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:30:21	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:30:21	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:30:32	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:30:32	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:30:44	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:30:44	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:30:55	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:30:55	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:35:02	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:35:02	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:35:14	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:35:14	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:35:26	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:35:26	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:35:38	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:35:39	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:35:50	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:35:50	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:40:35	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:40:37	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:40:49	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:40:49	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:41:00	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:41:02	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:41:12	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 21:41:13	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-05-19 21:44:07	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-19 22:00:05	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 252 seconds)
+2014-05-19 22:01:30	-->	localhost00 (~lo@shersonb.net) has joined #osu-lug-admin
+2014-05-20 09:19:29	edunham	muricula: could you share the officer nominations form responses spreadsheet with me on g-docs?
+2014-05-20 10:37:25	deanj	edunham: What people voted on was an "Advanced Git" talk. I think they were looking for a talk that goes further than your intro (repos in repos, merge conflicts/rebasing, making a patch and submitting it, etc).
+2014-05-20 11:03:13	edunham	yep
+2014-05-20 11:57:19	muricula	edunham: done
+2014-05-20 12:00:05	edunham	muricula++ thanks
+2014-05-20 16:49:35	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (Read error: Connection reset by peer)
+2014-05-20 16:49:53	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-05-20 21:00:35	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (Ping timeout: 252 seconds)
+2014-05-20 21:02:33	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-05-21 15:31:47	<--	edunham (dunhame@osuosl/staff/edunham) has quit (Disconnected by services)
+2014-05-21 15:33:54	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (Ping timeout: 265 seconds)
+2014-05-21 15:34:43	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (Ping timeout: 245 seconds)
+2014-05-21 15:36:59	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-05-21 16:09:10	-->	edunham (dunhame@osuosl/staff/edunham) has joined #osu-lug-admin
+2014-05-21 20:02:41	-->	chekkaa1 (~chekkaa@osuosl/staff/chekkaa) has joined #osu-lug-admin
+2014-05-21 20:02:41	--	Mode #osu-lug-admin [+o chekkaa1] by ChanServ
+2014-05-21 20:03:14	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 258 seconds)
+2014-05-21 20:03:14	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (Ping timeout: 258 seconds)
+2014-05-21 20:20:58	--	chekkaa1 is now known as chekkaa
+2014-05-23 04:18:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-23 04:18:59	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-05-24 01:05:43	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-24 01:05:57	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-05-26 17:40:31	<--	localhost00 (~lo@shersonb.net) has quit (Ping timeout: 252 seconds)
+2014-05-26 17:41:16	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-27 10:26:51	akeym	we need cool new stickerz
+2014-05-27 10:27:44	Odysimus	akeym++
+2014-05-27 10:38:15	spectralsun	how many official meetings are left for this term?
+2014-05-27 10:44:09	@chekkaa	spectralsun: just tonight I think
+2014-05-27 11:38:59	@jnoah	spectralsun: have you not received today's lug email?
+2014-05-27 11:39:09	@jnoah	it says tonight is the final for the term
+2014-05-27 11:39:23	spectralsun	ah, damn forum tab
+2014-05-27 11:39:32	edunham	spectralsun: tonight's the last official meeting
+2014-05-27 11:39:42	 *	spectralsun sets those to go straight to inbox
+2014-05-27 11:40:41	akeym	forum tab? gmail?
+2014-05-27 11:41:06	edunham	yeah gmail defaults mailing lists into forums
+2014-05-27 11:41:15	akeym	i don't have a forums tab
+2014-05-27 11:41:29	akeym	lug stuff goes straight to my inbox by default
+2014-05-27 11:45:48	@jnoah	first day those stupid tabs showed up, i got rid of them
+2014-05-27 11:46:40	@jnoah	for me, they are unneeded. we already have labels, and hey, maybe i want to see that stuff right when i open gmail rather than clicking everywhere to find it
+2014-05-27 11:47:21	@jnoah	more clicks does not a better UI make
+2014-05-27 11:47:52	@chekkaa	jnoah: tell that to google/youtube
+2014-05-27 11:48:04	@chekkaa	and microsoft
+2014-05-27 11:48:34	akeym	but nobody clicks any more!
+2014-05-27 11:48:37	akeym	its all taps!
+2014-05-27 11:49:11	@chekkaa	if that's what you live with, I feel sorry for you
+2014-05-27 11:49:35	akeym	http://www.youtube.com/watch?v=2fAE56npKj4
+2014-05-27 11:50:38	@jnoah	maybe that's google's new slogan ^
+2014-05-27 11:52:02	@jnoah	what would be more useful would be if they autolabeled email like that rather than taking it out of the inbox
+2014-05-27 11:52:32	@jnoah	/end mini-rant
+2014-05-27 11:52:49	akeym	emily isn't paying attention, quick, post non-lug-admin related links! http://www.youtube.com/watch?v=spSJc7vq6cY
+2014-05-27 11:53:28	edunham	guys.... seriously?
+2014-05-27 11:53:39	akeym	quick, run for it!
+2014-05-27 11:53:52	<--	akeym (akeym@unaffiliated/akeym) has left #osu-lug-admin
+2014-05-27 17:48:43	edunham	so tonight we're only streaming if someone else volunteers their webcam
+2014-05-27 17:49:00	edunham	'cause i'm Bad At Stuff and forgot to leave work soon enough to grab mine from my house, or the installdisks
+2014-05-27 18:08:27	edunham	technology fail; hangouts does not work.
+2014-05-28 15:37:55	edunham	deanj, MaraJade I added you guys to the lug group in osl ldap
+2014-05-28 15:37:57	edunham	just fyi
+2014-05-28 16:00:31	deanj	Awesome, thanks!
+2014-05-29 03:55:13	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 252 seconds)
+2014-05-29 21:06:14	<--	bryon (bryon@osuosl/staff/bryon) has quit (Ping timeout: 240 seconds)
+2014-05-29 21:06:31	-->	bryon (bryon@osuosl/staff/bryon) has joined #osu-lug-admin
+2014-05-29 23:40:33	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-29 23:40:33	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Client Quit)
+2014-05-29 23:42:34	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-30 01:03:54		irc: disconnected from server
+2014-05-30 01:04:34	--	#osu-lug-admin: Cannot join channel (+r) - you need to be identified with services
+2014-05-30 16:26:14	muricula	test
+2014-05-30 16:26:14	--	#osu-lug-admin: Cannot send to channel
+2014-05-30 16:26:21	-->	muricula (kronquii@osuosl/staff/muricula) has joined #osu-lug-admin
+2014-05-30 16:26:21	--	Topic for #osu-lug-admin is "Interfacing osu lug with the campus bureaucracy | https://gist.github.com/edunham/9796518 because etherpad breaks a lot"
+2014-05-30 16:26:21	--	Topic set by edunham on Fri, 28 Mar 2014 14:43:19
+2014-05-30 16:26:21	--	Nicks #osu-lug-admin: [@chekkaa @jnoah bryon deanj edunham frostsnow localhost00 MaraJade muricula mythmon Odysimus pop_n_fresh spectralsun]
+2014-05-30 16:26:21	--	Channel #osu-lug-admin: 13 nicks (2 ops, 0 halfops, 0 voices, 11 normals)
+2014-05-30 16:26:23	--	Channel created on Thu, 11 Aug 2011 11:03:29
+2014-05-30 16:26:30	muricula	.
+2014-05-30 17:50:01	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 252 seconds)
+2014-05-30 17:50:40	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-30 18:54:09	<--	frostsnow (~clinew@li592-125.members.linode.com) has quit (Quit: leaving)
+2014-05-30 20:46:43	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-05-30 20:48:15	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-05-30 21:00:25	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-30 21:00:27	--	mythmon_ is now known as mythmon
+2014-05-31 01:42:50	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 265 seconds)
+2014-05-31 01:48:14	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-05-31 21:24:12	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-31 21:24:54	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-01 17:16:58	<--	pop_n_fresh (voigte@osuosl/staff/popnfresh) has quit (Ping timeout: 240 seconds)
+2014-06-02 22:46:07	@jnoah	edunham: unofficial / hw help / etc meeting this term?
+2014-06-02 22:46:25	@jnoah	(traditional deadweek meeting)
+2014-06-02 22:47:42	edunham	jnoah: sure
+2014-06-02 22:47:50	edunham	also i need to contact election candidates :/
+2014-06-02 22:47:56	edunham	or delegate the contacting.
+2014-06-02 22:48:28	@jnoah	you haz a secretary :)
+2014-06-02 22:50:14	@chekkaa	hmm, I am debating whether to try and run for president or not
+2014-06-02 22:50:22	@chekkaa	I'm not sure I'd do enough stuff
+2014-06-02 22:51:27	edunham	chekkaa: remember how things were before me?
+2014-06-02 22:51:36	edunham	accept the nomination, and the club will decide :)
+2014-06-02 22:52:09	@chekkaa	iirc, almost every day was unofficial / hw help / etc
+2014-06-02 22:52:45	@jnoah	yeah, edunham kinda made lug a thing again
+2014-06-02 22:52:52	@jnoah	tough act to follow
+2014-06-02 22:52:55	@chekkaa	ikr
+2014-06-02 23:20:56	@jnoah	edunham: do we have the room?
+2014-06-02 23:21:11	edunham	ought to
+2014-06-02 23:21:26	@jnoah	sweet
+2014-06-02 23:21:52	@jnoah	but not necessarily reserved?
+2014-06-02 23:24:30	edunham	i don't remember.
+2014-06-02 23:25:17	edunham	chekkaa: hey mr treasurer, could you work on getting that reimbursement i sent you done before the end of the year please?
+2014-06-02 23:25:18	@jnoah	k
+2014-06-02 23:39:55	@chekkaa	sure
+2014-06-03 08:35:03	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-03 09:41:01	@jnoah	edunham: sending out an email? may want to so we can help the people if they need it
+2014-06-03 16:11:52	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-03 16:14:34	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Disconnected by services)
+2014-06-03 16:14:39	--	mythmon_ is now known as mythmon
+2014-06-04 10:48:54	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-04 10:49:13	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-05 08:16:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-05 08:16:59	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-05 14:14:22	deanj	chekkaa: This may be a bit later, but I think you'd make a great president! :)
+2014-06-05 14:14:39	@chekkaa	<3
+2014-06-05 22:15:37	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-05 22:15:41	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:15:44	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (*.net *.split)
+2014-06-05 22:15:45	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-05 22:15:47	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-05 22:21:42	<--	bryon (bryon@osuosl/staff/bryon) has quit (Write error: Broken pipe)
+2014-06-05 22:27:41	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-05 22:27:41	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-05 22:27:41	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-05 22:27:41	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-05 22:27:41	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osu-lug-admin
+2014-06-05 22:27:41	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-05 22:27:41	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osu-lug-admin
+2014-06-05 22:27:41	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-05 22:27:41	--	Mode #osu-lug-admin [+oo chekkaa jnoah] by asimov.freenode.net
+2014-06-05 22:28:56	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-05 22:29:00	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-05 22:29:06	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-05 22:33:48	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-05 22:33:49	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-05 22:33:49	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-05 22:33:49	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-05 22:33:49	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osu-lug-admin
+2014-06-05 22:33:49	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-05 22:33:49	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osu-lug-admin
+2014-06-05 22:33:49	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-05 22:33:49	--	Mode #osu-lug-admin [+oo chekkaa jnoah] by asimov.freenode.net
+2014-06-06 15:19:41	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (Quit: ZNC - http://znc.in)
+2014-06-06 23:13:46	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-07 02:01:21	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-07 02:01:25	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-07 02:01:30	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-07 02:01:31	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-06-07 02:01:43	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-07 02:01:43	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-07 02:01:43	--	Mode #osu-lug-admin [+oo jnoah chekkaa] by asimov.freenode.net
+2014-06-07 15:17:12	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-07 15:20:32	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Ping timeout: 240 seconds)
+2014-06-07 22:15:03	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 252 seconds)
+2014-06-07 22:25:06	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-07 22:25:13	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Excess Flood)
+2014-06-07 22:27:50	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-08 10:43:34	--	mythmon_ is now known as mythmon
+2014-06-10 04:06:53	-->	Weyoun (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-10 04:07:13	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 252 seconds)
+2014-06-10 10:57:07	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Quit: ZNC - http://znc.in)
+2014-06-10 10:57:18	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (Ping timeout: 240 seconds)
+2014-06-10 11:04:58	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-10 12:46:04	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-10 13:33:18	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-10 13:36:02	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-10 13:51:30	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Disconnected by services)
+2014-06-10 13:51:56	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-11 13:39:54	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-11 13:39:54	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-11 13:40:40	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osu-lug-admin
+2014-06-11 13:40:40	--	Mode #osu-lug-admin [+o jnoah] by ChanServ
+2014-06-11 20:15:31	-->	tschuy (~tschuye@osuosl/staff/tschuy) has joined #osu-lug-admin
+2014-06-11 20:15:56	tschuy	hey guys
+2014-06-11 20:16:11	tschuy	I was wondering if any of you would know who to contact about this
+2014-06-11 20:16:32	tschuy	The MU's site shows some PHP in the clear, including database URI, user, and password http://mu.oregonstate.edu/upload2.php
+2014-06-11 20:24:23	@jnoah	it shows the db user and pass. gg
+2014-06-11 20:24:55	@jnoah	tschuy: i'm not too sure, but if you ask in osl staff channel they *may* be able to direct you?
+2014-06-12 12:02:52	<--	Weyoun (~lo@2602:43:2952:6f00::1) has quit (*.net *.split)
+2014-06-12 12:03:02	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-15 22:54:03	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #osu-lug-admin
+2014-06-15 22:55:44	pop_n_fresh	What's the difficulty of getting a room in KEC for Lug Meetings this summer? I'm interested in running it (trying to anyway) and want to know the proper bureaucratic way to do things.
+2014-06-15 22:56:32	pop_n_fresh	^If somebody else already called dibs on running I'm okay stepping to the side. I just wanted to voice my interest.
+2014-06-15 23:44:46	spectralsun	pop_n_fresh++
+2014-06-16 02:24:58	localhost00	Not sure about official meetings, but informal gettogethers have been known to happen.
+2014-06-16 19:36:10	--	localhost00 is now known as Weyoun
+2014-06-17 01:19:50	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 01:19:57	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-17 01:19:58	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-17 01:22:40	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-17 01:22:40	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-17 01:22:40	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-17 01:22:40	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-17 01:22:40	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-17 01:27:55	<--	tschuy (~tschuye@osuosl/staff/tschuy) has quit (Write error: Broken pipe)
+2014-06-17 01:33:39	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-06-17 01:33:42	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-17 01:33:52	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 01:33:58	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-17 01:41:19	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-17 01:41:20	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-17 01:41:20	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-17 01:41:20	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-17 01:41:20	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-17 01:41:20	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-17 08:28:57	--	deanj is now known as johnsdea
+2014-06-17 08:29:02	--	johnsdea is now known as deanj
+2014-06-17 13:19:38	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-17 13:19:38	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-06-17 13:19:46	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 13:19:47	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 13:19:48	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 13:19:52	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-17 13:20:35	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-17 13:20:35	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-17 13:20:35	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-17 13:20:35	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-17 13:20:35	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-17 13:20:35	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-17 15:38:07	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Ping timeout: 245 seconds)
+2014-06-17 17:40:42	-->	bryon (bryon@osuosl/staff/bryon) has joined #osu-lug-admin
+2014-06-18 10:19:10	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-19 11:08:59	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-19 11:09:09	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-19 11:09:12	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-06-19 11:09:13	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-19 11:10:38	-->	bryon (bryon@osuosl/staff/bryon) has joined #osu-lug-admin
+2014-06-19 11:10:38	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-19 11:10:38	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-19 11:10:38	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-19 11:10:38	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-19 11:10:38	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-19 11:14:56	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-19 11:14:56	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-06-19 11:15:01	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-19 11:15:10	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-19 11:16:06	-->	bryon (bryon@osuosl/staff/bryon) has joined #osu-lug-admin
+2014-06-19 11:16:06	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-19 11:16:06	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-19 11:16:06	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-19 11:16:06	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-19 11:16:06	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-19 11:32:51	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Excess Flood)
+2014-06-19 11:34:30	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-20 00:47:21	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (Ping timeout: 272 seconds)
+2014-06-20 09:51:59	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-21 08:05:05	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (Ping timeout: 264 seconds)
+2014-06-21 08:15:15	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osu-lug-admin
+2014-06-21 09:40:29	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-21 09:40:48	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-21 09:45:01	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Ping timeout: 240 seconds)
+2014-06-21 09:49:35	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (Ping timeout: 252 seconds)
+2014-06-21 10:00:46	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osu-lug-admin
+2014-06-21 10:00:46	--	Mode #osu-lug-admin [+o jnoah] by ChanServ
+2014-06-21 10:02:55	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-21 10:40:05	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-21 10:40:24	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-21 16:51:49	<--	Weyoun (~lo@2602:43:2952:6f00::1) has quit (Read error: Connection reset by peer)
+2014-06-22 01:08:14	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 01:08:33	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-22 15:10:11	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 15:11:56	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-22 15:14:22	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (Ping timeout: 245 seconds)
+2014-06-22 15:28:30	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osu-lug-admin
+2014-06-22 17:04:37	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 17:04:56	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-22 23:09:13	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-24 11:33:27	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-24 11:33:39	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-24 16:44:24	--	mythmon_ is now known as mythmon
+2014-06-25 13:19:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Read error: Connection reset by peer)
+2014-06-25 13:19:58	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-25 19:21:17	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Quit: Goodbye!)
+2014-06-26 08:37:52	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-26 10:59:32	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Quit: Goodbye!)
+2014-06-26 11:31:11	-->	localhost00 (~lo@shersonb.net) has joined #osu-lug-admin
+2014-06-26 11:31:18	<--	localhost00 (~lo@shersonb.net) has quit (Excess Flood)
+2014-06-26 11:31:28	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-26 11:37:22	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Quit: Goodbye!)
+2014-06-26 11:37:47	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-26 11:46:06	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-26 11:46:12	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-06-26 11:46:14	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-26 11:46:18	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (*.net *.split)
+2014-06-26 11:46:19	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-26 11:46:21	<--	shirgan (shirlemo@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-26 11:47:03	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	Odysimus (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	bryon (bryon@osuosl/staff/bryon) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osu-lug-admin
+2014-06-26 11:47:03	-->	shirgan (shirlemo@shell.onid.oregonstate.edu) has joined #osu-lug-admin
+2014-06-26 11:47:03	--	Mode #osu-lug-admin [+o jnoah] by asimov.freenode.net
+2014-06-26 11:56:56	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-06-26 11:59:47	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osu-lug-admin
+2014-06-27 05:53:04	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Ping timeout: 260 seconds)
+2014-06-27 09:19:43	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-27 09:19:57	<--	localhost00 (~lo@2602:43:2952:6f00::1) has quit (Max SendQ exceeded)
+2014-06-27 09:20:15	-->	localhost00 (~lo@2602:43:2952:6f00::1) has joined #osu-lug-admin
+2014-06-27 10:14:16	edunham	okay admins and folks with hats, it's been pointed out that offensive remarks were being made in channel yesterday evening while i was offline
+2014-06-27 10:16:34	@jnoah	oh? I think I missed this too
+2014-06-27 10:16:42	edunham	if anyone with a hat catches such remarks being made at the time (before conversation has moved on), please kick the offender with a calm and polite message explaining what behavior violates which freenode policy and linking to http://freenode.net/policy.shtml
+2014-06-27 10:17:12	edunham	well actually best policy is to ping the person in PM first explaining that the remark wasn't acceptable
+2014-06-27 10:17:49	edunham	if hate speech etc. results from such a correction, pastebin the logs and drop the link here and... yeah.. things or something
+2014-06-27 11:00:35	bryon	uh oh, was it me? i think i might have let an f-bomb fly before realizing what channel i was in.
+2014-06-27 11:02:57	edunham	no.
+2014-06-27 11:03:04	bryon	ok whew
+2014-06-27 11:03:30	bryon	i let slip a "f*#$ off and die"
+2014-06-27 11:03:52	bryon	then was like, "That sounds like something alice would say"
+2014-06-27 11:03:55	bryon	then i shut up
+2014-06-27 11:04:59	shirgan	bryon: I saw that and thought it wasn't horribly out-of-line
+2014-06-27 11:05:18	shirgan	Like, it wasn't rude towards someone in the channel
+2014-06-27 11:05:40	bryon	true
+2014-06-27 11:05:42	shirgan	Avoiding swears is good but it wasn't the end of the world
+2014-06-27 11:05:48	bryon	it was very  much in-context for the convo
+2014-06-27 11:05:55	shirgan	Right
+2014-06-27 11:06:00	edunham	yeah saying a person should vs saying a tool should
+2014-06-27 11:06:08	edunham	generally direct, harrassing language to individuals or groups
+2014-06-27 11:06:57	edunham	bryon: also your description of it resembling another person's usual remarks is, although true, also kinda harrassing/needlessly specific and critical
+2014-06-27 11:07:05	edunham	so please don't phrase things that way
+2014-06-27 11:07:14	bryon	sure
+2014-06-27 11:07:34	bryon	i get that
+2014-06-27 11:10:42	edunham	ok, thanks.
+2014-06-27 11:12:33	@jnoah	edunham: does something need to be done? Or has this issue been taken care of?
+2014-06-27 11:13:04	edunham	jnoah: read backscroll. I have specified what action I think it'd be best for ops to take *during* incidents if they occur
+2014-06-27 11:13:13	edunham	I think that after things are over it's least disruptive to just ignore it
+2014-06-27 11:13:32	edunham	so action will need to be taken while things are occurring, if they occur in channel, but otherwise nothing needed.
+2014-06-27 11:14:56	mathuin	edunham: it is probably best after the fact to publicly ignore it but privately address the issue with the "offender".  This will allow you to respond to the "offended" if they are under the impression that nothing has been done to address the issue, without publicly reraising the stink.
+2014-06-27 11:14:56	deanj	I disagree. I think telling them that there were complaints and referring them to our policies/freenode policies is the correct action to take. Obviously not kicking or whatever this late in to the conflict, but definitely talking with the person about it.
+2014-06-27 11:15:14	@jnoah	Even if it's late, I think at least a PM with logs should be sent.
+2014-06-27 11:15:23	deanj	haha, mathuin and I said about the same thing at the same second.
+2014-06-27 11:16:01	mathuin	As long as the offended can be reassured that stuff is being handled, we're fine.
+2014-06-27 11:16:48	mathuin	Well, you are.  I'm just this guy. :-)
+2014-06-27 11:17:09	edunham	mathuin: you're just this guy with like a master's degree in how to open source humans.
+2014-06-27 11:17:17	deanj	mathuin++
+2014-06-27 11:17:27	mathuin	Aww, shucks. ;-)
+2014-06-27 13:52:21	-->	Odenthaa (~Odysimus@vps3.odysimus.com) has joined #osu-lug-admin
+2014-06-27 13:52:30	<--	Odysimus (~Odysimus@vps3.odysimus.com) has quit (*.net *.split)
+2014-06-27 13:52:31	--	Odenthaa is now known as Odysimus
+2014-06-27 14:16:07	--	bryon is now known as bkero
+2014-06-27 14:16:23	--	bkero is now known as bryon
+2014-06-27 14:37:38		irc: disconnected from server
+2014-06-27 14:38:18	--	#osu-lug-admin: Cannot join channel (+r) - you need to be identified with services

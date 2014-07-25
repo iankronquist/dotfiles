@@ -1,0 +1,2671 @@
+2014-05-15 11:12:01	-->	muricula (kronquii@osuosl/staff/muricula) has joined #osuosl-staff
+2014-05-15 11:12:01	--	Topic for #osuosl-staff is "!topic doesn't work"
+2014-05-15 11:12:01	--	Topic set by jordane on Tue, 08 Apr 2014 09:04:16
+2014-05-15 11:12:01	--	Nicks #osuosl-staff: [@Ramereth @Ramereth|mobile +armiller +bramwelt +bryon +deanj +jordane +lrr +mathuin +pwnguin Alan_S basic` bkero chance chekkaa edunham henderb irdan Jeff_S Jennjitzu jnoah kennric leel8on lucyw manatee MaraJade marineam muricula pono russell_h warthog9 zubriske]
+2014-05-15 11:12:01	--	Channel #osuosl-staff: 32 nicks (2 ops, 0 halfops, 8 voices, 22 normals)
+2014-05-15 11:12:01	--	URL for #osuosl-staff: https://wiki.osuosl.org
+2014-05-15 11:12:03	--	Channel created on Mon, 21 Jan 2008 04:54:51
+2014-05-15 11:27:36	+lrr	!check out
+2014-05-15 11:27:36	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-15 11:38:40	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-15 11:40:29	+bramwelt	Regarding DRM, this is what I was referring to yesterday: https://news.ycombinator.com/item?id=7751110
+2014-05-15 11:40:31	+bramwelt	pwnguin: ^
+2014-05-15 11:43:52	+pwnguin	so in this scenario, the playback device people just lose
+2014-05-15 11:44:06	+pwnguin	which is the opposite of what you were saying :P
+2014-05-15 12:03:13	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-15 12:05:20	+pwnguin	http://vincentbernat.github.io/lldpd/
+2014-05-15 12:10:17	lucyw	!check in
+2014-05-15 12:10:18	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-05-15 12:17:45	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-15 12:18:25	+bramwelt	!check out
+2014-05-15 12:18:25	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-15 12:39:38	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #osuosl-staff
+2014-05-15 12:50:13	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-15 12:51:17	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-15 13:17:31	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-15 13:59:18	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-15 13:59:19	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-05-15 14:19:03	pop_n_fresh	I've got a problem with Berkshelf [I think?] is anybody able to point me in the right direction to fix this problem?: http://pastebin.com/hWi7wpNX
+2014-05-15 14:21:49	@Ramereth	chance: is that a similar issue you had before? ^
+2014-05-15 14:21:50	@Ramereth	jordane: ^
+2014-05-15 14:25:24	pop_n_fresh	Ramereth: It is the same issue Chance and I were having earlier.
+2014-05-15 14:25:52	chance	apparently it cant find the runit cookbook
+2014-05-15 14:26:05	chance	its apparently looking at the site ''
+2014-05-15 14:26:16	chance	could be because i havent completely upgraded the berksfile in GWM
+2014-05-15 14:26:21	 *	chance shrugs
+2014-05-15 14:26:26	chance	finish the django tutorial
+2014-05-15 14:26:33	chance	we can try to debug that tomorrow or something
+2014-05-15 14:27:51	pop_n_fresh	Django Tutorial. I'm on it.
+2014-05-15 14:28:09	@Ramereth	jordane: isn't this something we were talking about earlier in -infra?
+2014-05-15 14:30:35	+jordane	pop_n_fresh: yeah, it just means that it failed to download the runit cookbook
+2014-05-15 14:31:59	pop_n_fresh	jordane: Okay. Is there an easy fix for this?
+2014-05-15 14:32:21	+jordane	pop_n_fresh: I'm not entirely sure why it fails to find it, for some it works and sometimes it doesn't
+2014-05-15 14:32:27	+jordane	I'd try again another time or two
+2014-05-15 14:33:10	pop_n_fresh	Sounds good. I'll come back to it tomorrow. Thanks.
+2014-05-15 17:01:04	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-15 17:05:06	muricula	!fire pycurses && pysnmp
+2014-05-15 17:05:07	 *	manatee fires pycurses && pysnmp!
+2014-05-15 17:44:33	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-15 18:41:15	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-16 06:45:55	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-05-16 06:45:58	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-05-16 06:46:09	-->	bryon (bryon@osuosl/staff/bryon) has joined #osuosl-staff
+2014-05-16 06:46:41	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-05-16 08:39:08	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-16 08:39:15	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-16 09:19:30	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-16 09:21:10	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-16 09:21:37	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-16 10:04:06	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-16 10:21:21	@Ramereth	looks like josh isn't feeling well
+2014-05-16 10:21:29	@Ramereth	can anyone help out with the booth setup?
+2014-05-16 10:23:56	edunham	uhh i'm in class till 11 but it might get out early
+2014-05-16 10:24:12	kennric	Ramereth: what help is needed? Where?
+2014-05-16 10:24:15	edunham	deanj: ^^ you said you might be around?
+2014-05-16 10:24:31	@Ramereth	we need to grab the two bamboo stands, and the osl banner
+2014-05-16 10:24:51	@Ramereth	and some swag (bottle openers, stickers, etc)
+2014-05-16 10:24:55	@Ramereth	some of the info sheets
+2014-05-16 10:25:00	@Ramereth	and bring them over to KEC
+2014-05-16 10:26:33	@Ramereth	the booth is across from the mural on the south side
+2014-05-16 10:27:21	+armiller	I can help
+2014-05-16 10:28:08	@Ramereth	the BSG will be setting up their stuff there too
+2014-05-16 10:28:12	@Ramereth	oh and bring the chromebook
+2014-05-16 10:28:16	@Ramereth	(and its power supply)
+2014-05-16 10:29:45	kennric	I am not seeing the banner or stands in themedia room,
+2014-05-16 10:30:01	kennric	note on the door says pono and josh have the banner and flyers
+2014-05-16 10:32:41	@Ramereth|mobile	So jordane and pono already got the stuff
+2014-05-16 10:32:56	@Ramereth|mobile	I'm here with then. So I think we're set
+2014-05-16 10:33:08	@Ramereth|mobile	Sorry for the false alarm
+2014-05-16 10:36:00	kennric	I think armiller is heading over anyway, so he doesn't need to bring anything at all?
+2014-05-16 10:36:12	kennric	chromebook?
+2014-05-16 10:37:22	@Ramereth	they have that too
+2014-05-16 10:37:37	+armiller	Cool. Well if you need anything let me know
+2014-05-16 10:37:38	@Ramereth	don't need more help. I think pono and jordane have it set for now
+2014-05-16 10:43:03	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-05-16 10:48:18	<--	gchaix (~gchaix@osuosl/staff/gchaix) has quit (Ping timeout: 240 seconds)
+2014-05-16 11:30:41	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-16 11:43:30	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-16 12:26:15	edunham	Ramereth: we don't have access to the slide show that josh put together, because nobody currently at the booth is on the mdeia mailing list
+2014-05-16 12:26:18	edunham	do you know where it is?
+2014-05-16 12:31:12	edunham	Ramereth: false alarm; found them
+2014-05-16 13:09:36	+jnoah	I'm headed home to get some sleep. i'll be back on later tonight or sometime Saturday
+2014-05-16 13:09:39	+jnoah	!check out
+2014-05-16 13:09:39	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-16 14:18:40	chance	jordane: ive got a chef attribute called 'packages' for GWM to install system packages it needs
+2014-05-16 14:18:53	chance	however, id like to be able to append to the list to install other non-required packages
+2014-05-16 14:19:02	chance	i say append because i dont want to overwrite the required ones
+2014-05-16 14:19:22	chance	how should i solve this problem. i was thinking having packages, and optional_packages
+2014-05-16 14:19:37	chance	but people can still override packages by accident, so im not sure it makes sense to have it as an attribute
+2014-05-16 14:19:50	+jordane	That's probably the best way. Chef doesn't really have a way to append to attributes
+2014-05-16 14:19:57	chance	yeah.
+2014-05-16 14:20:11	+jordane	http://docs.opscode.com/essentials_node_object_deep_merge.html talks about how attribute merging works
+2014-05-16 14:20:13	manatee	jordane's tiny URL is http://bit.ly/1nSDruN
+2014-05-16 14:20:17	+jordane	but there isn't anything too useful there.
+2014-05-16 14:20:26	chance	does it merge by default, or override if its a list?
+2014-05-16 14:20:33	+jordane	override.
+2014-05-16 14:20:38	+jordane	it only merges hashes
+2014-05-16 14:20:45	+jordane	if it isn't a hash, then it just overrides
+2014-05-16 14:20:52	+jordane	hashes are deep merged.
+2014-05-16 14:20:53	chance	thought so
+2014-05-16 14:21:29	chance	basically im on centOS at least, libffi-devel needs to be installed for TVAP on gwm
+2014-05-16 14:21:30	+jordane	"When items cannot be merged through substitution, the original data is overwritten."
+2014-05-16 14:21:42	chance	so im wondering if that should be an attribute or just in the recipe
+2014-05-16 14:21:59	+jordane	oh
+2014-05-16 14:22:01	+jordane	wait
+2014-05-16 14:22:08	+jordane	http://docs.opscode.com/essentials_node_object_deep_merge.html#addition
+2014-05-16 14:22:10	+jordane	that's new.
+2014-05-16 14:22:11	manatee	jordane's tiny URL is http://bit.ly/1nSDDu7
+2014-05-16 14:22:39	chance	simple answer: test
+2014-05-16 14:22:52	+jordane	yeah, i'd play around with it.
+2014-05-16 14:23:19	chance	xD
+2014-05-16 14:23:31	chance	i mean, ideally wheel would solve this
+2014-05-16 14:23:53	+jordane	omnibus solves it too :)
+2014-05-16 14:23:59	chance	but still, good to at least have the cookbook setup to work
+2014-05-16 14:24:06	chance	and then remove things as we resolve those problems
+2014-05-16 14:24:28	chance	seems it overrides
+2014-05-16 14:26:44	chance	i still have no clue what the different attribute types mean
+2014-05-16 14:33:33	+jordane	Yeah, that doc page I found is completely unhelpful
+2014-05-16 14:33:36	+jordane	I'll play around with it in a minute
+2014-05-16 14:58:55	chance	when should i bump cookbook versions?
+2014-05-16 14:59:22	chance	anytime there's a set of changes i want a server to see? or only if it was a change of API
+2014-05-16 15:08:04	chance	also do we have an ubuntu vagrantbox i can use for testing gwm on?
+2014-05-16 15:09:59	chance	actually forgot we have vagrant-osuosl which has those urls
+2014-05-16 15:30:33	+pwnguin	We need people to help tear down the OSL's booth at 4pm. anyone free to help?
+2014-05-16 15:35:27	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-05-16 15:35:29	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-05-16 15:35:46	<--	warthog9 (~warthog9@149.20.54.19) has quit (*.net *.split)
+2014-05-16 15:35:47	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-05-16 15:35:48	<--	bramwelt (~bramwelt@osuosl/staff/bramwelt) has quit (*.net *.split)
+2014-05-16 15:35:48	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-05-16 15:35:53	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-05-16 15:35:53	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-05-16 15:36:07	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-05-16 15:36:07	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-05-16 15:36:07	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osuosl-staff
+2014-05-16 15:36:07	-->	bramwelt (~bramwelt@osuosl/staff/bramwelt) has joined #osuosl-staff
+2014-05-16 15:36:07	--	Mode #osuosl-staff [+vv jordane deanj] by kornbluth.freenode.net
+2014-05-16 15:37:38	@Ramereth|mobile	Who is planning on helping armiller at 4 to carry stuff back to the office?
+2014-05-16 15:38:36	 *	pwnguin 
+2014-05-16 15:46:09	+pwnguin	it seems me and jordan are the only two in the office currently
+2014-05-16 15:46:31	@Ramereth|mobile	Sounds like a plan. Thanks!
+2014-05-16 16:57:48	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-16 18:12:34	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Remote host closed the connection)
+2014-05-16 18:12:50	-->	brutal_chaos (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-05-16 18:13:12	<--	brutal_chaos (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Client Quit)
+2014-05-16 18:15:20	-->	brutal_chaos (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-05-16 18:39:00	--	brutal_chaos is now known as jnoah
+2014-05-16 22:18:17	<--	warthog9 (~warthog9@149.20.54.19) has quit (Ping timeout: 264 seconds)
+2014-05-16 23:34:11	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-05-18 12:39:25	edunham	mathuin: what's PGD's license?
+2014-05-18 14:06:13	jnoah	edunham: does the source tree not say?
+2014-05-18 14:18:19	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-05-18 15:13:34	<--	warthog9 (~warthog9@149.20.54.19) has quit (*.net *.split)
+2014-05-18 15:13:37	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-05-18 15:13:38	<--	bramwelt (~bramwelt@osuosl/staff/bramwelt) has quit (*.net *.split)
+2014-05-18 15:13:38	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-05-18 15:13:44	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-05-18 15:13:46	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-05-18 15:13:48	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-05-18 15:13:49	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-05-18 15:13:49	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-05-18 15:13:50	<--	russell_h (~russell_h@osuosl/staff/russellh) has quit (*.net *.split)
+2014-05-18 15:13:53	<--	edunham (dunhame@osuosl/staff/edunham) has quit (*.net *.split)
+2014-05-18 15:19:37	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	bramwelt (~bramwelt@osuosl/staff/bramwelt) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	edunham (dunhame@osuosl/staff/edunham) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-05-18 15:19:37	-->	russell_h (~russell_h@osuosl/staff/russellh) has joined #osuosl-staff
+2014-05-18 15:19:37	--	Mode #osuosl-staff [+vv deanj jordane] by kornbluth.freenode.net
+2014-05-18 15:20:15	<--	edunham (dunhame@osuosl/staff/edunham) has quit (Write error: Broken pipe)
+2014-05-18 15:33:54	chance	jnoah: there is no license in the file
+2014-05-18 15:34:01	chance	also dont know what happened to edunham
+2014-05-18 18:59:37	-->	edunham (dunhame@osuosl/staff/edunham) has joined #osuosl-staff
+2014-05-19 08:00:25	bramwelt	!check in
+2014-05-19 08:00:26	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-05-19 08:14:55	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-19 08:39:19	+bramwelt	!check out
+2014-05-19 08:39:22	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-19 08:45:44	@Ramereth	bbl, got an appointment I need to run to. Be back right after 10a
+2014-05-19 08:45:51	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-19 09:17:21	edunham	jordane: friendly reminder that you're on LUG's schedule to speak about Git Plumbing tomorrow :)
+2014-05-19 09:17:26	edunham	does this still work for you?
+2014-05-19 09:53:41	chekkaa	!check in
+2014-05-19 09:53:44	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-05-19 09:56:16	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-19 10:03:08	lrr	!check in
+2014-05-19 10:03:09	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-19 10:18:12	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-19 10:40:49	gchaix	edunham: I'm not avoiding you regarding a LUG visit.  Things kinda went crazy busy on me :-(
+2014-05-19 10:53:52	edunham	gchaix: haha yeah, well we have the rest of the term scheduled
+2014-05-19 10:54:00	edunham	and I'm not going to be running LUG again next year
+2014-05-19 10:54:11	edunham	I'll put you in touch with the new officers once they get elected so they can schedule you :)
+2014-05-19 11:59:40	+pwnguin	!check out lunch
+2014-05-19 11:59:40	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-19 12:01:28	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-19 12:04:41	+lrr	!check out lunch
+2014-05-19 12:04:42	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-19 12:13:05	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-19 12:14:46	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-19 12:16:33	edunham	!check in
+2014-05-19 12:16:33	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-19 12:20:52	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-19 12:43:59	+chekkaa	!check out
+2014-05-19 12:44:06	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-05-19 12:54:38	<--	bkero (~bkero@osuosl/staff/bkero) has quit (Ping timeout: 240 seconds)
+2014-05-19 12:59:13	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-05-19 13:07:39	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-19 13:08:22	bramwelt	!check in
+2014-05-19 13:08:22	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-05-19 13:37:54	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-19 13:40:03	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-19 13:53:39	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-19 14:47:00	+jnoah	!check out
+2014-05-19 14:47:01	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-19 15:35:22	+edunham	!check out back in half an hour or so
+2014-05-19 15:35:22	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-19 15:47:56	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-19 15:54:38	edunham	!check in
+2014-05-19 15:54:39	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-19 17:03:42	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-19 17:03:47	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-19 17:04:40	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-19 17:17:18	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-19 17:21:32	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-19 17:30:05	+bramwelt	!check out
+2014-05-19 17:30:05	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-19 18:32:25	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-19 19:23:14	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Quit: WeeChat 0.4.2)
+2014-05-19 20:38:34	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-05-20 00:37:41	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-05-20 00:39:33	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-05-20 08:22:25	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-20 08:25:47	+mathuin	edunham: that's an interesting question re: PGD license.  Hmm!
+2014-05-20 08:33:51	@Ramereth	http://www.jonobacon.org/2014/05/19/goodbye-canonical-hello-xprize/
+2014-05-20 08:33:52	manatee	Ramereth's tiny URL is http://bit.ly/1j5qbLP
+2014-05-20 08:37:48	+mathuin	There is also no mention of a license in the paper announcing PGD to the world.  Hmm!
+2014-05-20 08:38:09	@Ramereth	manatee: hmm, ya that's a good question
+2014-05-20 08:38:13	@Ramereth	er mathuin ^^
+2014-05-20 08:38:32	@Ramereth	i may have to ask peter to see if he remembers if he even decided on that
+2014-05-20 08:38:55	+mathuin	That sounds like a good idea to me.  I'm about to search through the commit logs to see if there's any mention there.
+2014-05-20 08:42:34	@Ramereth	(08:41:29 AM) Peter Krenesky: i thought it did have one
+2014-05-20 08:42:34	@Ramereth	(08:42:00 AM) Peter Krenesky: i would assume GPL but Donnie is probably the person to ask
+2014-05-20 08:42:37	@Ramereth	(08:42:11 AM) Peter Krenesky: I don't really have a preference
+2014-05-20 08:43:05	@Ramereth	(08:42:55 AM) Peter Krenesky: unless you're picking something very obscure.  I'm against hipsters of all sorts.
+2014-05-20 08:43:08	@Ramereth	lol
+2014-05-20 08:44:18	+mathuin	Nice. :-)
+2014-05-20 08:45:02	+mathuin	Personally I lean towards MIT/X11 or GPLv2nofurther but it's not super-important to me personally.
+2014-05-20 08:45:42	@Ramereth	i just sent a DM to donnie
+2014-05-20 08:47:46	pwnguin	GPLv2 with an invite to discuss alternative arrangements with the commercialization office sounds fine to me ;)
+2014-05-20 08:51:21	+mathuin	... you know OCCD would love to draft an "example license".
+2014-05-20 08:53:03	+mathuin	!check out meeting
+2014-05-20 08:53:04	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-05-20 08:55:36	@Ramereth	mathuin: donnie is thinking GPL too but maybe AGPL ... also
+2014-05-20 08:55:39	@Ramereth	"I will need to look into a couple of compatibility issues with ways we're using some of the libraries."
+2014-05-20 08:55:44	@Ramereth	"I know that a userland library I wrote to use some of the data downloads has to be permissive"
+2014-05-20 08:56:09	@Ramereth	mathuin: if you have questions, you can also ping him in #osuosl dberkholz (not sure if he's on irc right now)
+2014-05-20 08:57:15	lrr	!check in
+2014-05-20 08:57:16	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-20 09:09:07	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-20 09:10:14	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-20 09:16:22	bramwelt	!check in
+2014-05-20 09:16:23	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-05-20 09:28:39	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-20 09:50:45	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-05-20 09:52:24	mathuin	!check in
+2014-05-20 09:52:25	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-05-20 09:56:39	+pwnguin	pop_n_fresh:
+2014-05-20 09:56:40	+pwnguin	err
+2014-05-20 09:56:43	+pwnguin	pono:
+2014-05-20 09:56:45	+pwnguin	http://nvie.com/posts/a-successful-git-branching-model/
+2014-05-20 09:56:52	+pwnguin	all kinds of fail today =(
+2014-05-20 09:57:29	+pono	Noo~ my handle is no longer unique for the first two characters
+2014-05-20 10:17:53	bryon	!check in
+2014-05-20 10:17:54	--	Mode #osuosl-staff [+v bryon] by ChanServ
+2014-05-20 10:22:41	+jordane	pono: I no longer recognize your individuality due to the non-uniqueness of the first two characters of your nick.
+2014-05-20 10:22:57	+jordane	You are now the pono-pop_n_fresh collective.
+2014-05-20 10:24:03	+bryon	sounds like a reggae dub band from the '90s
+2014-05-20 10:24:23	+jordane	hah
+2014-05-20 10:24:38	+jordane	I was thinking we should rename pono to one-of-two now.
+2014-05-20 10:24:54	@Ramereth	jordane++
+2014-05-20 10:25:48	 *	pono changes nick to mxyzptlk
+2014-05-20 10:28:59	 *	jordane changes nick to mxyzptlkk
+2014-05-20 10:35:04	+bryon	pono: i just forwarded you an email
+2014-05-20 10:35:42	+bryon	shall i just tell her that we're working on it and to disregard the initial email?
+2014-05-20 10:42:27	+pono	bryon: ty, I'm running through all the hosts we have access to to see whether we can make the changes.
+2014-05-20 10:42:45	+bryon	ok, lemme know w hat you find out and i'll reply to her
+2014-05-20 11:18:54	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 240 seconds)
+2014-05-20 11:42:21	+mathuin	So I'm trying to start node1 of vagrant-ganeti, and node1 times out.  When I try to vagrant ssh into it, ssh_exchange_identification times out.  Anyone know why?
+2014-05-20 11:43:36	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-20 11:47:20	+mathuin	http://biochem.science.oregonstate.edu/biochemistry-free-and-easy -- pages 44-53 discuss protein structure in a way that is easy to understand on the level required to work with PGD.
+2014-05-20 11:47:21	manatee	mathuin's tiny URL is http://bit.ly/1eX9Jgn
+2014-05-20 11:47:25	+mathuin	Oops. :-P
+2014-05-20 11:50:20	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-05-20 11:50:43	+lrr	!check out
+2014-05-20 11:50:43	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-20 11:53:15	pwnguin	irdan: http://swtch.com/~rsc/regexp/regexp1.html
+2014-05-20 11:54:07	pwnguin	the graph at the bottom ia also illustrative
+2014-05-20 11:59:52	jnoah	!check in
+2014-05-20 11:59:53	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-20 12:08:30	+mathuin	I destroyed all my vagrants and recreated node1 and it worked.  Whee!
+2014-05-20 12:20:07	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-20 12:34:40	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-05-20 12:55:33	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-20 13:21:12	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-05-20 13:21:26	+jnoah	!check out buenos
+2014-05-20 13:21:27	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-20 13:22:09	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-20 13:50:26	+bramwelt	!check out
+2014-05-20 13:50:26	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-20 13:56:29	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-20 14:09:48	pono	!check in
+2014-05-20 14:09:48	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-20 14:10:04	+mathuin	!check in
+2014-05-20 14:10:04	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-05-20 14:10:15	jnoah	!check in
+2014-05-20 14:10:15	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-20 15:09:45	+pono	!check out
+2014-05-20 15:09:45	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-05-20 16:44:19	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-20 17:01:01	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-05-20 17:23:46	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-20 17:26:38	+jnoah	!check out
+2014-05-20 17:26:39	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-20 17:59:27	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-20 18:17:33	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-20 18:19:07	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-05-21 08:16:13	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-21 09:27:40	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-21 09:42:31	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-21 10:00:10	lrr	!check in
+2014-05-21 10:00:11	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-21 10:56:04	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-05-21 10:56:16	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-21 11:05:54	edunham	!check in
+2014-05-21 11:05:55	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-21 11:13:41	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-21 12:00:26	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-21 12:08:17	+lrr	!check out lunch
+2014-05-21 12:08:17	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-21 12:24:07	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-21 12:37:10	+edunham	!onscreen http://big.assets.huffingtonpost.com/1120cat7.gif
+2014-05-21 12:47:43	+edunham	!check out food time
+2014-05-21 12:47:44	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-21 12:53:22	jnoah	!check in
+2014-05-21 12:53:23	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-21 14:48:19	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 240 seconds)
+2014-05-21 14:57:40	-->	pwnguin (jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-05-21 15:15:35	lrr	!check in
+2014-05-21 15:15:35	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-21 15:17:26	<--	pwnguin (jldugger@osuosl/staff/pwnguin) has quit (Quit: leaving)
+2014-05-21 15:17:54	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-05-21 15:31:47	<--	edunham (dunhame@osuosl/staff/edunham) has quit (Disconnected by services)
+2014-05-21 15:32:17	-->	edunham (dunhame@osuosl/staff/edunham) has joined #osuosl-staff
+2014-05-21 15:33:53	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (Ping timeout: 265 seconds)
+2014-05-21 15:34:43	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (Ping timeout: 245 seconds)
+2014-05-21 15:37:41	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-05-21 15:38:05	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-05-21 16:05:19	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Remote host closed the connection)
+2014-05-21 16:13:55	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-05-21 16:44:07	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-21 17:04:13	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-21 17:35:24	edunham	!check out (did i forget to clock in? oh well)
+2014-05-21 17:35:25	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-21 17:38:44	chance	fyi vnc is broken on staging until i can figure out whats wrong with our newest release of 1.1
+2014-05-21 17:55:15	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-21 18:26:16	+bryon	anybody in the noc currently?
+2014-05-21 18:27:32	+bryon	!check out
+2014-05-21 18:27:33	--	Mode #osuosl-staff [-v bryon] by ChanServ
+2014-05-21 18:42:29	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-21 19:35:55	+jnoah	!check out
+2014-05-21 19:35:56	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-21 20:02:41	-->	chekkaa1 (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-05-21 20:03:04	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Ping timeout: 258 seconds)
+2014-05-21 20:03:12	<--	russell_h (~russell_h@osuosl/staff/russellh) has quit (Ping timeout: 258 seconds)
+2014-05-21 20:03:13	<--	armiller (~armiller@osuosl/staff/armiller) has quit (Ping timeout: 258 seconds)
+2014-05-21 20:03:14	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 258 seconds)
+2014-05-21 20:04:01	-->	chance (~ecnahc515@chancez.net) has joined #osuosl-staff
+2014-05-21 20:04:08	<--	ChanServ has kicked chance (Invite only channel)
+2014-05-21 20:05:34	-->	russell_h (~russell_h@osuosl/staff/russellh) has joined #osuosl-staff
+2014-05-21 20:06:21	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-05-21 20:20:58	--	chekkaa1 is now known as chekkaa
+2014-05-21 21:37:34	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-05-22 07:46:15	bramwelt	!check in
+2014-05-22 07:46:16	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-05-22 08:17:57	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-22 10:08:08	--	Mode #osuosl-staff [+v bryon] by ChanServ
+2014-05-22 10:08:15	lrr	!check in derp
+2014-05-22 10:08:16	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-22 11:15:39	edunham	!check in
+2014-05-22 11:15:40	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-22 11:40:27	+lrr	!check out
+2014-05-22 11:40:28	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-22 11:49:51	+bramwelt	!check out
+2014-05-22 11:49:52	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-22 11:59:38	+edunham	!check out food
+2014-05-22 11:59:38	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-22 12:04:37	pwnguin	!check out lunches
+2014-05-22 12:04:37	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-22 12:22:19	+bryon	plural!
+2014-05-22 12:36:14	jnoah	!check in
+2014-05-22 12:36:15	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-22 13:59:38	edunham	!check in
+2014-05-22 13:59:38	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-22 14:02:49	@Ramereth	jordane just sent this to staff "My son, Emrys, was born this morning shortly after 8am. He weighs 2 lbs and 10 oz. He and Minnie are both doing very well. I'll send along a picture later."
+2014-05-22 14:02:53	@Ramereth	\o/
+2014-05-22 14:02:57	+edunham	:D
+2014-05-22 14:03:19	+jnoah	:)
+2014-05-22 14:53:40	+jnoah	pwnguin: instead of just saying the devs are doing the dashboard wrong, do you have any suggenstions?
+2014-05-22 14:55:29	pwnguin	on further though, rrd pngs are good enough for version 1.0
+2014-05-22 14:55:53	pwnguin	to the extent that anyone cares about rrd graphs
+2014-05-22 14:56:03	@Ramereth	what are you referring to exactly?
+2014-05-22 14:56:16	pwnguin	we were just chatting about why he had GIMP open
+2014-05-22 14:58:23	+jnoah	pwnguin: i mean in general. you've had negative opinions every time you've walked by when i've been working on the project
+2014-05-22 15:01:24	@Ramereth	yes, I would prefer if you have something negative to say to at least offer some type of positive alternative suggestion.
+2014-05-22 15:04:15	pwnguin	well, in the specific context I mentioned using inkscape and SVG instead of fixed pixel graphics already
+2014-05-22 15:05:34	pwnguin	and perhaps in version 2.0 we process the rrd DBs instead of letting rrddraw handle it
+2014-05-22 15:58:02	@Ramereth	alright, heading out a little sooner today. see ya'll tomorrow
+2014-05-22 15:58:07	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-22 16:56:22	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-05-22 17:00:13	Alan_S	Ramereth: you going to do a bbq this year?
+2014-05-22 17:05:04	pwnguin	iirc, he's out of town during dead week
+2014-05-22 17:06:21	+jnoah	perhaps during finals week then?
+2014-05-22 17:07:34	pwnguin	Friday May 30th is awards night
+2014-05-22 17:26:13	+jnoah	!check out dobc
+2014-05-22 17:26:14	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-22 17:26:23	+edunham	!check out
+2014-05-22 17:26:23	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-23 08:33:02	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-23 08:33:36	@Ramereth	Alan_S: i was thinking of doing something maybe later in the summer
+2014-05-23 08:56:58	lrr	!check in
+2014-05-23 08:56:58	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-23 09:27:45	bramwelt	If anyone would like to do some doc reviews, I have 4 PRs up on the docs repo: https://github.com/osuosl/docs/pulls
+2014-05-23 09:46:36	edunham	bramwelt++ docs++
+2014-05-23 09:51:42	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-23 10:05:34	edunham	I'll take a look and make sure it builds okay once I get in to work
+2014-05-23 10:13:23	edunham	wow it takes a long time to build the first time
+2014-05-23 10:13:28	 *	edunham may have lied about waiting until work
+2014-05-23 10:42:33	@Ramereth	edunham: ya it takes a while
+2014-05-23 10:42:44	@Ramereth	all those damn meeting pages...
+2014-05-23 10:50:09	edunham	aww yeah, the only errors are in the stuff fixed by the other PR
+2014-05-23 10:56:03	+lrr	!check out chovda
+2014-05-23 10:56:04	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-23 10:56:26	+pwnguin	!check out early lunch
+2014-05-23 10:56:27	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-23 11:28:47	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-05-23 11:42:56	leel8on	so, newbie question. do we work on monday?
+2014-05-23 11:59:29	@Ramereth	nope
+2014-05-23 12:01:45	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-23 12:16:58	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-05-23 12:19:34	lrr	!check in
+2014-05-23 12:19:35	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-23 12:28:00	jnoah	!check in
+2014-05-23 12:28:00	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-23 12:29:45	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-23 12:30:06	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-23 12:39:22	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #osuosl-staff
+2014-05-23 12:39:34	lucyw	!check in
+2014-05-23 12:39:34	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-05-23 12:39:50	pop_n_fresh	!check in
+2014-05-23 12:39:50	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-05-23 12:41:26	+jnoah	!check out have a great 3day!
+2014-05-23 12:41:27	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-23 12:57:26	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-23 12:59:16	+edunham	!check out
+2014-05-23 12:59:27	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-23 15:56:12	bramwelt	!check out
+2014-05-23 15:56:13	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-23 16:45:42	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-23 17:09:50	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-23 17:20:44	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-24 08:57:13	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 252 seconds)
+2014-05-24 13:10:52	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-05-25 21:47:50	+deanj	!check out
+2014-05-25 21:47:50	--	Mode #osuosl-staff [-v deanj] by ChanServ
+2014-05-26 11:49:11	+pop_n_fresh	!checkout
+2014-05-26 13:36:44	edunham	pop_n_fresh: need a space for manatee to devoice you
+2014-05-26 19:44:03	pwnguin	http://www.vqronline.org/reporting-articles/2014/05/linux-lettuce <-- found this on hackernews, mentions OSU
+2014-05-26 19:44:03	manatee	pwnguin's tiny URL is http://bit.ly/1onTQrq
+2014-05-26 19:44:23	pwnguin	the open source seed initiative ;)
+2014-05-27 08:02:34	zubriske	!check in
+2014-05-27 08:02:35	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-05-27 08:07:02	+mathuin	!check in
+2014-05-27 08:07:03	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-05-27 08:20:31	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-27 08:40:30	bramwelt	!check in
+2014-05-27 08:40:30	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-05-27 08:54:24	lrr	!check in
+2014-05-27 08:54:25	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-27 08:59:59	pwnguin	FYI: we're expecting tyler pruitt today
+2014-05-27 09:00:44	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-27 09:27:30	edunham	jenkins++
+2014-05-27 09:27:47	edunham	TIL that it validates cron expressions and goes "did you really mean..." if it looks malformed
+2014-05-27 09:28:16	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-27 09:34:46	+pwnguin	err, I guess rereading the email he might not be here till wednesday.
+2014-05-27 10:01:00	@Ramereth	pwnguin: did he email you directly?
+2014-05-27 10:02:41	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-27 10:03:02	+pwnguin	no, just a forwarded message that was sent to lance@ and justin@osuosl.org
+2014-05-27 10:03:19	+pwnguin	"Ideally I'd work 8-5, Wednesday and Thursday, and wrap up the few hours left Friday morning from 8-12."
+2014-05-27 10:03:42	@Ramereth	i just emailed him to confirm as I missed getting him setup at eecs first late last week. He should be able to start anytime as logn as he does the paperwork
+2014-05-27 10:24:31	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-27 11:16:45	+lucyw	!check in
+2014-05-27 11:16:45	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-05-27 11:17:10	+lucyw	jenkins++ that's a neat feature :)
+2014-05-27 11:48:07	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-27 11:57:27	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-27 12:08:38	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-27 12:13:59	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-27 12:36:48	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-05-27 13:02:57	+pop_n_fresh	edunham: What do we need for manatee?
+2014-05-27 13:03:30	edunham	pop_n_fresh: bramwelt can fill you in, or i could once i get out of class (~3:30pm)
+2014-05-27 13:03:44	edunham	basically we want jenkins to notify in channel
+2014-05-27 13:03:52	edunham	options are jenkinsbot or email manatee
+2014-05-27 13:04:02	edunham	bramwelt has been working on jenkinsbot
+2014-05-27 13:04:14	edunham	but it auths after joining channel, not before...
+2014-05-27 13:06:43	+pono	!check in
+2014-05-27 13:06:44	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-27 13:07:14	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-27 13:21:11	+pono	What is a good name for a Python + Curses, IPMI client?
+2014-05-27 13:21:15	+pono	mathuin ^^
+2014-05-27 13:21:20	+pono	I like Bear Metal Manager
+2014-05-27 13:21:26	+pono	Mainly for the coolest logo ever
+2014-05-27 13:21:32	@Ramereth	too many words
+2014-05-27 13:21:37	+mathuin	Gotta get some snake in there.
+2014-05-27 13:21:51	+pwnguin	BearMetal
+2014-05-27 13:22:00	+pwnguin	down to one word
+2014-05-27 13:25:33	@Ramereth	hmm, maybe
+2014-05-27 13:25:57	@Ramereth	guess it depends if you want to go with some latin-ish name, a name like that or use something like IPMI-$NAME
+2014-05-27 13:29:06	kennric	pono: you should talk with muricula abotu his snmp client design, it would be nice if the two projects could be compatible in the future under a single interface
+2014-05-27 13:29:43	+pono	muricula: You still in the bullpen?
+2014-05-27 13:29:44	@Ramereth	kennric++
+2014-05-27 13:31:13	jnoah	!check in
+2014-05-27 13:31:13	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-27 13:43:37	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-27 14:27:03	+pono	!check out midterm tomorrow, might be back in later today though
+2014-05-27 14:27:04	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-05-27 14:39:33	@Ramereth	btw i have the latest issue of the Drupal Watchdog magazine in my office. Anyone is welcome to take one
+2014-05-27 14:56:25	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-27 15:03:03	leel8on	making changes to wiki docs for supercell/openvpn access, if anyone would like to review the PR: https://github.com/osuosl/wiki/pull/5
+2014-05-27 15:19:57	edunham	!check in
+2014-05-27 15:19:57	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-27 15:59:59	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-27 16:40:15	+edunham	!check out (need ieee store stuff before they close at 5)
+2014-05-27 16:40:15	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-27 16:57:44	edunham	!check in ieeestore--
+2014-05-27 16:57:44	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-27 16:57:49	+edunham	closed at 4:45
+2014-05-27 16:58:35	+jnoah	:(
+2014-05-27 16:58:47	+pwnguin	there's a radio shack near staples, maybe they have something other than cell phones and radio controlled cars
+2014-05-27 16:59:11	+edunham	ehh i just need a lm386
+2014-05-27 16:59:22	+edunham	i'll try again tomorrow
+2014-05-27 16:59:38	+pwnguin	dont think i have one of those
+2014-05-27 17:01:31	+mathuin	That RS isn't as awesome as it should be in an engineering college town. :-(
+2014-05-27 17:02:07	+pwnguin	probably they just cant compete with free TI samples and the whole amazon thing for people who plan ahead
+2014-05-27 17:03:28	+pwnguin	and i suppose the IEEE Store
+2014-05-27 17:03:48	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-05-27 17:27:56	+edunham	!check out retrieving webcam then lug... there's an intellectual property lawyer tonight; it'll probably be interesting :)
+2014-05-27 17:27:57	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-27 17:40:25	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-27 17:47:18	+jnoah	!check out LUG!
+2014-05-27 17:47:18	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-27 18:36:14	+pop_n_fresh	edunham: Sounds good. I'm up for either one, I'm just not sure what it is.
+2014-05-27 19:20:14	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-28 08:24:45	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-28 09:10:31	@Ramereth	http://parking.oregonstate.edu/zonal-parking
+2014-05-28 09:10:41	@Ramereth	the new "final" parking zone plan
+2014-05-28 09:11:26	@Ramereth	looks like the big kerr lot will be slightly more expensive than last year
+2014-05-28 09:12:06	+pwnguin	lol
+2014-05-28 09:12:19	+pwnguin	there are _two_ carpool spaces
+2014-05-28 09:12:22	+pwnguin	in C zone
+2014-05-28 09:12:34	+pwnguin	perhaps thats per lot
+2014-05-28 09:13:25	@Ramereth	interesting, they're doing a graduated sales schedule too based on how long you've been a pass holder
+2014-05-28 09:13:50	@Ramereth	because each zone has a limited quantity
+2014-05-28 09:14:08	+pwnguin	maybe the economics professors will convince them to run an auction next year
+2014-05-28 09:14:25	@Ramereth	heh
+2014-05-28 09:14:37	+pwnguin	A lot would probably sell for a few thousand a space
+2014-05-28 09:16:54	+pwnguin	looks like everything reasonable near Kerr is A/B
+2014-05-28 09:17:51	+pwnguin	and even the parking garage is B / reshall
+2014-05-28 09:25:15	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-28 09:48:09	+bramwelt	!check out
+2014-05-28 09:48:09	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-28 10:03:28	jnoah	!check in
+2014-05-28 10:03:29	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-28 10:03:31	+jnoah	bramwelt: nooooo
+2014-05-28 10:03:37	+jnoah	i just made some coffee
+2014-05-28 10:04:05	lrr	!check in
+2014-05-28 10:04:06	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-28 10:08:11	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-28 10:28:17	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (Ping timeout: 252 seconds)
+2014-05-28 10:52:13	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-28 10:58:32	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-28 11:08:20	mathuin	!check in
+2014-05-28 11:08:21	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-05-28 11:41:28	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-28 11:45:11	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-28 12:10:52	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-28 12:13:41	+jnoah	!check out lunch
+2014-05-28 12:13:41	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-28 12:45:58	jnoah	!check in
+2014-05-28 12:45:59	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-28 12:48:31	deanj	jnoah: Want to meet up for food?
+2014-05-28 12:55:00	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-28 13:08:00	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-28 13:36:59	deanj	!check in
+2014-05-28 13:37:00	--	Mode #osuosl-staff [+v deanj] by ChanServ
+2014-05-28 13:47:38	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-05-28 14:19:02	edunham	!check in
+2014-05-28 14:19:02	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-28 14:21:22	lrr	!check in
+2014-05-28 14:21:23	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-28 14:23:29	+edunham	pwnguin, jordane wanna veto my proposed reply on https://support.osuosl.org/Ticket/Display.html?id=23834 or shall I send it?
+2014-05-28 14:24:35	bramwelt	!check in
+2014-05-28 14:24:36	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-05-28 14:25:30	+jordane	edunham: wfm
+2014-05-28 14:25:39	+edunham	ok
+2014-05-28 14:29:59	+edunham	also are we good to reject the status.io auction one?
+2014-05-28 14:30:01	+edunham	err
+2014-05-28 14:30:03	+edunham	source.io
+2014-05-28 14:30:05	+edunham	i can type i swear
+2014-05-28 14:31:14	+jordane	edunham: I'd just close it
+2014-05-28 14:31:20	+jordane	unless he emails again
+2014-05-28 14:48:20	+edunham	yep, just walked tyler through closing it
+2014-05-28 14:54:51	+edunham	hmm, TIL I have perms to add people to staff or owners in the cookbooks gh org but only to add devs in the osl org
+2014-05-28 15:29:57	-->	tschuy (~tschuye@osuosl/staff/tschuy) has joined #osuosl-staff
+2014-05-28 16:01:08	+jordane	interesting.
+2014-05-28 16:18:28	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-05-28 16:20:55	+pwnguin	!help
+2014-05-28 16:20:56	manatee	Commands: 8ball about admin asshat bash bc beer bettse bigscreen blame bookmark check cowsay date dc ddate define dice distro doublefacepalm drink echo facepalm fail figlet fire fob google googlefight googlepage group hacker hangman happyhour headshot help hope jem leekspin limerick lunch me msg nagios notice ohshit pandora ping praise proverb quote remindme rimshot s score seen tardhat topic topvhosts volume weather webcams whip wikipath wikipedia wi
+2014-05-28 16:20:56	manatee	wootoff wtf xrandr yoda zima
+2014-05-28 16:52:11	+bramwelt	!check out
+2014-05-28 16:52:12	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-28 16:56:12	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-28 17:02:22	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-28 17:09:14	+edunham	!check out
+2014-05-28 17:09:15	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-28 17:32:06	+lrr	!check out
+2014-05-28 17:32:07	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-28 18:25:55	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-05-29 08:09:18	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-05-29 08:42:24	pono	!check in
+2014-05-29 08:42:24	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-29 08:57:00	lrr	!check in
+2014-05-29 08:57:01	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-05-29 08:57:47	pruittt	!check in
+2014-05-29 08:57:48	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-05-29 09:15:36	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-29 09:23:55	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-29 09:55:17	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-05-29 10:12:58	+deanj	!check out
+2014-05-29 10:12:58	--	Mode #osuosl-staff [-v deanj] by ChanServ
+2014-05-29 10:23:44	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-29 11:36:01	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-29 11:40:38	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-05-29 11:42:35	chance	bryon: im gonna restart diamond i think, you got anything running you dont want to die?
+2014-05-29 11:45:12	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-05-29 11:57:18	+bryon	nope, go nuts
+2014-05-29 11:57:40	+bryon	why am i checked in...
+2014-05-29 11:57:43	+bryon	!check out
+2014-05-29 11:57:44	--	Mode #osuosl-staff [-v bryon] by ChanServ
+2014-05-29 12:15:36	+jnoah	!check out
+2014-05-29 12:15:37	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-29 12:33:04	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-05-29 12:50:12	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-05-29 13:09:25	edunham	!check in
+2014-05-29 13:09:25	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-29 13:39:53	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-29 13:40:12	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-05-29 14:32:58	+pono	!check out
+2014-05-29 14:32:58	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-05-29 15:29:54	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-29 15:36:26	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-29 15:58:25	+edunham	!check out
+2014-05-29 15:58:25	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-29 16:56:16	+pruittt	!check out
+2014-05-29 16:56:16	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-05-29 16:57:06	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-29 16:58:33	+jnoah	!check out
+2014-05-29 16:58:34	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-29 17:06:08	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-05-29 21:06:14	<--	bryon (bryon@osuosl/staff/bryon) has quit (Ping timeout: 240 seconds)
+2014-05-29 21:06:31	-->	bryon (bryon@osuosl/staff/bryon) has joined #osuosl-staff
+2014-05-29 21:06:34	<--	kennric (kennric@osuosl/staff/kennric) has quit (Ping timeout: 240 seconds)
+2014-05-29 21:07:02	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-05-30 01:03:54		irc: disconnected from server
+2014-05-30 01:04:30	--	#osuosl-staff: Cannot join channel (+i) - you must be invited
+2014-05-30 13:24:17	muricula	test
+2014-05-30 13:24:17	--	#osuosl-staff: Cannot send to channel
+2014-05-30 13:24:26	-->	muricula (kronquii@osuosl/staff/muricula) has joined #osuosl-staff
+2014-05-30 13:24:26	--	Topic for #osuosl-staff is "!topic doesn't work"
+2014-05-30 13:24:26	--	Topic set by jordane on Tue, 08 Apr 2014 09:04:16
+2014-05-30 13:24:26	--	Nicks #osuosl-staff: [@Ramereth @Ramereth|mobile +edunham +jnoah +jordane +lrr +pop_n_fresh Alan_S armiller basic` bkero bramwelt bryon chance chekkaa deanj gchaix henderb Jeff_S kennric leel8on lucyw manatee MaraJade marineam muricula pruittt pwnguin russell_h warthog9 zubriske]
+2014-05-30 13:24:26	--	Channel #osuosl-staff: 31 nicks (2 ops, 0 halfops, 5 voices, 24 normals)
+2014-05-30 13:24:27	--	URL for #osuosl-staff: https://wiki.osuosl.org
+2014-05-30 13:24:28	--	Channel created on Mon, 21 Jan 2008 04:54:51
+2014-05-30 13:25:13	lucyw	edunham: you'd need to be added as a user and given whichever privileges you need.
+2014-05-30 13:25:25	lucyw	I'm going to javastopII with the group,
+2014-05-30 13:25:32	+edunham	lucyw: okay, thanks
+2014-05-30 13:25:35	lucyw	but can give you those perms if I won't get in trouble for it
+2014-05-30 13:25:43	+edunham	haha, don't worry, you won't
+2014-05-30 13:25:51	 *	edunham puts on her best "I'm trustworthy" face
+2014-05-30 13:25:57	+edunham	no hurry though
+2014-05-30 13:26:57	 *	edunham working on other stuff
+2014-05-30 13:32:48	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 13:33:54	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 13:37:48	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 13:38:03	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 13:42:09	+jnoah	ALL IN THE NOC: free food at JavaII
+2014-05-30 13:42:27	+jnoah	there's a lot
+2014-05-30 13:42:28	muricula	bramwelt++ for free food
+2014-05-30 13:42:48	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 13:43:43	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 13:43:49	+edunham	!check out pursuing rumors of free food
+2014-05-30 13:43:50	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-30 13:47:46	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 13:48:01	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 13:51:39	bramwelt	muricula: welcome
+2014-05-30 13:52:48	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 13:53:49	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 13:57:46	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 13:57:50	+lrr	ah, much quieter channel
+2014-05-30 13:58:00	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:02:05	edunham	!check in much fee food, wow
+2014-05-30 14:02:05	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-05-30 14:02:49	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:03:35	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:05:54	+lrr	what kind of food is there?
+2014-05-30 14:07:47	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:08:04	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:12:18	lucyw	!check out
+2014-05-30 14:12:18	--	Mode #osuosl-staff [-v lucyw] by ChanServ
+2014-05-30 14:12:48	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:13:33	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:17:46	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:18:00	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:22:48	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:23:32	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:27:47	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:28:05	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:32:48	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:33:37	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:37:46	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-05-30 14:38:01	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-05-30 14:42:13	+jnoah	!check out
+2014-05-30 14:42:14	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-05-30 14:54:22	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-05-30 15:06:48	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-30 15:41:35	+edunham	hmm. I guess I should get some food and bring it to the bbq.
+2014-05-30 15:46:26	pwnguin	were you going?
+2014-05-30 15:48:09	+edunham	ehh i dunno
+2014-05-30 15:48:23	+edunham	you made it sound like an insufficient number of OSLers were planning to show up
+2014-05-30 15:48:36	+edunham	if that's the case, I'll go
+2014-05-30 15:48:52	+edunham	if not, I'd rather stay indoors with power and wifi and re-rewrite a chunk of lexer that i did wrong before
+2014-05-30 15:49:04	pwnguin	it depends on your perspective; perhaps fewer is better ;)
+2014-05-30 15:49:14	+edunham	I was just going to make an appearance, give 'em some cookies, leave.
+2014-05-30 15:49:39	+edunham	why would fewer be better?
+2014-05-30 15:50:22	pwnguin	fewer people's time spent
+2014-05-30 15:50:53	+edunham	heh, it's not like we're on the clock for it... are we?
+2014-05-30 15:51:10	pwnguin	well that just makes it even worse
+2014-05-30 15:51:26	pwnguin	job related, not relevant to your interests, and unpaid
+2014-05-30 16:06:35	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-05-30 16:13:33	bramwelt	!check out
+2014-05-30 16:13:34	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-05-30 16:26:22	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-05-30 16:49:30	kennric	I won't be making it to the bbq, prior engagement to watch a dance recital
+2014-05-30 16:51:30	+edunham	!check out
+2014-05-30 16:51:30	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-05-30 16:56:15	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-05-30 18:12:36	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-05-30 20:46:04	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-05-30 20:46:04	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-05-30 20:46:04	<--	russell_h (~russell_h@osuosl/staff/russellh) has quit (*.net *.split)
+2014-05-30 20:46:29	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-05-30 20:46:44	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-05-31 10:07:58	-->	russell_h (~russell_h@osuosl/staff/russellh) has joined #osuosl-staff
+2014-05-31 14:29:11	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-05-31 21:36:01	-->	kennric_ (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-05-31 21:37:28	<--	kennric (kennric@osuosl/staff/kennric) has quit (Write error: Broken pipe)
+2014-06-01 17:16:58	<--	pop_n_fresh (voigte@osuosl/staff/popnfresh) has quit (Ping timeout: 240 seconds)
+2014-06-01 22:42:20	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-02 01:54:07	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 260 seconds)
+2014-06-02 01:56:36	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 02:05:15	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-06-02 02:08:16	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 02:17:05	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 02:19:40	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 02:28:02	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 02:31:16	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 02:40:18	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 02:42:48	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 02:52:17	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 255 seconds)
+2014-06-02 02:54:51	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 03:04:13	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-06-02 03:06:22	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 03:15:53	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 03:18:21	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 03:27:50	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 255 seconds)
+2014-06-02 03:53:51	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 04:02:41	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 04:04:43	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 04:12:48	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 245 seconds)
+2014-06-02 04:16:07	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 04:25:15	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 04:27:25	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 04:36:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 260 seconds)
+2014-06-02 04:38:49	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 04:47:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 04:50:17	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 04:58:44	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 255 seconds)
+2014-06-02 05:02:02	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 05:10:18	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 245 seconds)
+2014-06-02 05:13:14	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 05:21:43	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 05:23:55	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 05:31:58	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 05:35:04	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 05:43:18	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 05:45:53	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 05:54:15	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 05:57:35	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 06:03:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 07:27:37	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-02 07:46:32	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-02 07:59:03	edunham	!check in
+2014-06-02 07:59:03	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-06-02 08:03:00	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 08:08:14	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-06-02 08:10:08	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 08:18:53	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 08:21:28	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 08:29:49	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 08:31:53	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 08:45:17	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 08:48:41	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 09:09:03	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-02 09:12:28	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 09:20:39	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-02 09:35:30	+edunham	!check out
+2014-06-02 09:35:39	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-06-02 09:55:34	+lrr	!check in
+2014-06-02 09:55:39	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-02 10:39:59	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 10:50:39	--	kennric_ is now known as kennric
+2014-06-02 11:33:38	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-02 11:51:19	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-02 11:53:05	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #osuosl-staff
+2014-06-02 12:08:42	+lrr	!check out
+2014-06-02 12:08:43	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-02 12:35:39	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-02 13:02:39	bramwelt	!check in
+2014-06-02 13:02:40	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-06-02 13:04:01	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-02 13:09:42	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-02 13:51:37	pop_n_fresh	I can't log into my osl gmail account. I definitely entered in the right login info but it doesn't want to work. Could I please get a password reset?
+2014-06-02 13:52:05	jnoah	pop_n_fresh: this happens from time to time on the workstations
+2014-06-02 13:52:10	jnoah	have you tried a different one?
+2014-06-02 13:52:38	pop_n_fresh	A different computer or a different account/
+2014-06-02 13:52:40	pop_n_fresh	?
+2014-06-02 13:54:22	 *	jnoah did not parse your question correctly at first
+2014-06-02 13:54:36	jnoah	I was thinking workstation, not gmail.
+2014-06-02 13:54:43	pop_n_fresh	It's okay. Who has the power to reset my password?
+2014-06-02 13:54:56	pop_n_fresh	^ for the OSL gmail accounts.
+2014-06-02 13:54:57	jnoah	pwnguin maybe?
+2014-06-02 13:55:14	jnoah	or any student sysadmin *i think*
+2014-06-02 13:55:20	+jordane	pop_n_fresh: done
+2014-06-02 13:56:56	pop_n_fresh	thank you jordane
+2014-06-02 13:57:58	+jordane	np
+2014-06-02 14:04:08	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-02 14:35:39	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-02 14:49:12	+bramwelt	!check out
+2014-06-02 14:49:13	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-06-02 15:21:33	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-02 16:19:46	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Quit: WeeChat 0.4.2)
+2014-06-02 16:20:17	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-02 16:43:05	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-02 17:01:09	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-02 18:57:31	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-03 08:09:56	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-03 08:35:08	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-03 08:42:46	pono	Running late, will be in around 9
+2014-06-03 08:54:27	bramwelt	jordane: I'd like the chef run not to conflict between NM and Gnome. Since we statically manage eth0, NM doesn't touch it. Is it really necissary to purge it then?
+2014-06-03 08:54:54	bramwelt	!check in
+2014-06-03 08:54:55	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-06-03 08:56:34	jordane	!check in
+2014-06-03 08:56:35	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-03 08:57:40	+jordane	bramwelt: good question. Not necessary to purge, but probably a good idea to disable it as a service.
+2014-06-03 09:00:37	+bramwelt	"update-rc.d -f network-manager remove"
+2014-06-03 09:01:19	+bramwelt	Er, we can just do a chef network-manager service disable. >_<
+2014-06-03 09:06:54	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-03 09:07:43	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-03 09:33:50	+jordane	yeah
+2014-06-03 09:35:36	+pono	mathuin: You dropped out of #osuosl-dev
+2014-06-03 09:35:46	+pono	Also, you use version 2.7.1 for PGD?
+2014-06-03 09:36:04	mathuin	Yes to 2.7.1 and I thought I rejoined dev.  Feh.
+2014-06-03 09:37:10	mathuin	Well, I can /who in there now and get results, so until I see other humans talk there, I'll keep my figners crossed.
+2014-06-03 09:40:28	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-03 09:46:03	+pono	mathuin: Oh, turns out _I_ was netsplit
+2014-06-03 10:02:40	mathuin	hahaha
+2014-06-03 10:03:16	mathuin	At least you didn't have someone try to log in with your nick with nickserv.
+2014-06-03 10:09:10	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-03 11:02:44	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-03 11:13:33	lucyw	!check in
+2014-06-03 11:13:33	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-03 11:42:50	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-03 11:46:39	+bramwelt	!check out
+2014-06-03 11:46:40	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-06-03 11:59:39	+lrr	!check out
+2014-06-03 11:59:39	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-03 12:34:14	chance	can a sysadmin tell me how to configure apache to accept / and go to a particular vhost?
+2014-06-03 12:34:21	chance	i though i had it, but apparently not
+2014-06-03 12:35:14	+pono	chance: Let me come out to the bullpen
+2014-06-03 12:35:49	+pono	!check out lunch
+2014-06-03 12:35:56	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-03 12:35:59	chance	pono: pwnguin is helping me
+2014-06-03 13:11:46	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-03 13:12:52	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-03 15:02:05	edunham	!check in
+2014-06-03 15:02:06	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-06-03 15:24:23	+pono	!check out
+2014-06-03 15:24:23	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-03 15:25:48	+edunham	!window
+2014-06-03 15:46:58	<--	pop_n_fresh (voigte@osuosl/staff/popnfresh) has quit (Ping timeout: 240 seconds)
+2014-06-03 16:15:08	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-03 16:47:33	+edunham	!check out (scary pile of schoolwork to do)
+2014-06-03 16:47:33	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-06-03 16:48:07	jnoah	edunham: good luck!
+2014-06-03 17:02:21	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-03 17:06:36	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-03 17:26:34	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-04 08:38:48	<--	gchaix (~gchaix@osuosl/staff/gchaix) has quit (Ping timeout: 276 seconds)
+2014-06-04 08:40:16	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-06-04 09:03:25	leel8on	!check in
+2014-06-04 09:03:26	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-04 09:36:03	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-04 11:44:40	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-04 11:57:26	+leel8on	!check out
+2014-06-04 11:57:26	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-04 12:41:47	edunham	!check in
+2014-06-04 12:41:47	--	Mode #osuosl-staff [+v edunham] by ChanServ
+2014-06-04 12:57:38	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-04 14:29:02	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-04 15:04:19	+edunham	!check out schoolwork
+2014-06-04 15:04:20	--	Mode #osuosl-staff [-v edunham] by ChanServ
+2014-06-04 15:30:14	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-04 15:56:45	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-04 16:45:13	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-04 18:42:38	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-04 19:07:55	+jnoah	!check out
+2014-06-04 19:07:55	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-05 08:05:07	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-05 09:02:04	lrr	!check in
+2014-06-05 09:02:04	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-05 09:24:49	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-05 09:31:42	pono	Running late, I'll be in around for my GSOC meeting
+2014-06-05 09:52:11	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-05 09:57:08	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-05 09:58:41	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-05 10:32:00	jnoah	!check in
+2014-06-05 10:32:00	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-05 11:20:56	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-05 11:42:18	+lrr	!check out
+2014-06-05 11:42:18	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-05 11:55:00	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-05 12:13:38	+jnoah	!check out (lunch)
+2014-06-05 12:13:38	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-05 12:16:09	+pono	!check out lunch
+2014-06-05 12:16:09	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-05 13:01:20	leel8on	!check in
+2014-06-05 13:01:21	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-05 13:03:14	pono	!check in
+2014-06-05 13:03:15	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-05 13:17:41	jnoah	!check in
+2014-06-05 13:17:42	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-05 14:01:17	+pono	!check out studying
+2014-06-05 14:01:17	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-05 14:07:40	+jnoah	where's the current manatee source at?
+2014-06-05 14:08:13	+pwnguin	ash
+2014-06-05 14:08:59	+jnoah	where on ash?
+2014-06-05 14:09:04	+pwnguin	/home/manatee
+2014-06-05 14:09:27	+pwnguin	/home/manatee/hackabot
+2014-06-05 14:10:42	+jnoah	we have a lot of uncommitted stuff
+2014-06-05 14:10:51	+pwnguin	we also dont own the repo
+2014-06-05 14:34:24	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-05 15:42:56	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-05 15:58:33	+leel8on	w
+2014-06-05 15:58:47	+leel8on	whats the process for creating a new user on fir?
+2014-06-05 15:59:00	+leel8on	is it just creating a local user?
+2014-06-05 16:56:14	+leel8on	!check out
+2014-06-05 16:56:15	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-05 17:09:11	+jnoah	jordane: http://ccsinjection.lepidum.co.jp/blog/2014-06-05/CCS-Injection-en/index.html is the article you were looking for earlier, i believe
+2014-06-05 17:09:12	manatee	jnoah's tiny URL is http://bit.ly/1nT1w5V
+2014-06-05 17:10:04	+jordane	jnoah: yeah, that is the one I was telling pono about
+2014-06-05 17:11:50	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-05 17:35:52	+jnoah	!check out
+2014-06-05 17:35:56	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-05 18:54:05	-->	kees (~kees@ubuntu/member/keescook) has joined #osuosl-staff
+2014-06-05 18:55:15	<--	kees (~kees@ubuntu/member/keescook) has quit (Remote host closed the connection)
+2014-06-05 18:56:29	-->	kees (~kees@ubuntu/member/keescook) has joined #osuosl-staff
+2014-06-05 18:57:16	<--	kees (~kees@ubuntu/member/keescook) has quit (Client Quit)
+2014-06-05 18:58:49	-->	kees (~kees@ubuntu/member/keescook) has joined #osuosl-staff
+2014-06-05 22:15:34	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-05 22:15:35	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-05 22:15:35	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-05 22:15:37	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-05 22:15:37	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-05 22:15:37	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-05 22:15:38	<--	bkero (~bkero@osuosl/staff/bkero) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	manatee (manatee@ash.osuosl.org) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:15:44	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-05 22:15:45	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-05 22:15:45	<--	henderb (henderb@osuosl/staff/henderb) has quit (*.net *.split)
+2014-06-05 22:15:46	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-05 22:21:42	<--	bryon (bryon@osuosl/staff/bryon) has quit (Write error: Broken pipe)
+2014-06-05 22:27:38	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	henderb (henderb@osuosl/staff/henderb) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-05 22:27:38	-->	Ramereth|mobile (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-05 22:27:38	--	Mode #osuosl-staff [+oo Ramereth Ramereth|mobile] by asimov.freenode.net
+2014-06-05 22:28:53	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-05 22:28:54	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-05 22:28:54	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-05 22:28:56	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-05 22:28:56	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-05 22:28:56	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-05 22:28:57	<--	bkero (~bkero@osuosl/staff/bkero) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	manatee (manatee@ash.osuosl.org) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	henderb (henderb@osuosl/staff/henderb) has quit (*.net *.split)
+2014-06-05 22:29:05	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-05 22:33:48	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	henderb (henderb@osuosl/staff/henderb) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-05 22:33:48	-->	Ramereth|mobile (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-05 22:33:48	--	Mode #osuosl-staff [+oo Ramereth Ramereth|mobile] by asimov.freenode.net
+2014-06-05 22:36:33	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Ping timeout: 240 seconds)
+2014-06-05 22:42:43	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-06 08:37:08	bramwelt	!check in
+2014-06-06 08:37:09	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-06-06 08:55:29	leel8on	!check in
+2014-06-06 08:55:30	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-06 09:35:19	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-06 09:38:50	+bramwelt	!check out
+2014-06-06 09:38:50	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-06-06 09:48:53	lrr	!check in
+2014-06-06 09:48:53	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-06 09:54:38	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-06 09:59:55	+leel8on	!check out
+2014-06-06 09:59:55	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-06 10:02:52	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-06 10:19:51	jnoah	!check in
+2014-06-06 10:19:51	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-06 10:22:52	+pwnguin	huh, i totally forgot that elsie starts today
+2014-06-06 10:23:19	+jnoah	she's cool people, i just met her on my way in
+2014-06-06 10:51:28	+jnoah	!check out CHOVDA (last one of the term)
+2014-06-06 10:51:29	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-06 10:52:14	+lrr	!check out chovdah
+2014-06-06 10:52:14	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-06 11:10:00	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #osuosl-staff
+2014-06-06 11:36:37	<--	pop_n_fresh (voigte@osuosl/staff/popnfresh) has quit (Quit: leaving)
+2014-06-06 11:41:06	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #osuosl-staff
+2014-06-06 12:42:30	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-06 12:52:17	jnoah	!check in
+2014-06-06 12:52:18	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-06 12:52:48	pop_n_fresh	!check in
+2014-06-06 12:52:49	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-06 14:03:08	lrr	!check in
+2014-06-06 14:03:09	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-06 14:46:45	+pop_n_fresh	!check out
+2014-06-06 14:46:46	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-06 16:26:48	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-06 17:04:27	+lrr	!check out
+2014-06-06 17:04:28	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-06 17:04:34	lrr	good luck on finals everyone!
+2014-06-06 17:26:51	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-06 17:27:04	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-07 01:06:07	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-07 01:06:48	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-07 01:58:37	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-07 01:58:38	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-07 01:58:38	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-07 01:58:39	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 01:58:39	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-06-07 01:58:39	<--	kees (~kees@ubuntu/member/keescook) has quit (*.net *.split)
+2014-06-07 01:58:40	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-07 01:58:40	<--	russell_h (~russell_h@osuosl/staff/russellh) has quit (*.net *.split)
+2014-06-07 01:58:54	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-07 01:58:54	-->	kees (~kees@ubuntu/member/keescook) has joined #osuosl-staff
+2014-06-07 01:58:54	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-07 01:58:54	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-07 01:58:54	-->	russell_h (~russell_h@osuosl/staff/russellh) has joined #osuosl-staff
+2014-06-07 01:58:54	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #osuosl-staff
+2014-06-07 01:58:54	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-07 01:58:54	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-07 01:58:54	--	Mode #osuosl-staff [+vv lucyw pwnguin] by asimov.freenode.net
+2014-06-07 02:01:12	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-07 02:01:13	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	kees (~kees@ubuntu/member/keescook) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	russell_h (~russell_h@osuosl/staff/russellh) has quit (*.net *.split)
+2014-06-07 02:01:18	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-07 02:01:20	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-07 02:01:20	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-07 02:01:21	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-07 02:01:21	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-07 02:01:21	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-07 02:01:22	<--	bkero (~bkero@osuosl/staff/bkero) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	manatee (manatee@ash.osuosl.org) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-07 02:01:29	<--	henderb (henderb@osuosl/staff/henderb) has quit (*.net *.split)
+2014-06-07 02:01:31	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-07 02:01:46	-->	Ramereth|mobile (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	henderb (henderb@osuosl/staff/henderb) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-07 02:01:46	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	kees (~kees@ubuntu/member/keescook) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	russell_h (~russell_h@osuosl/staff/russellh) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #osuosl-staff
+2014-06-07 02:01:47	--	Mode #osuosl-staff [+oovv Ramereth|mobile Ramereth jnoah lucyw] by asimov.freenode.net
+2014-06-07 02:01:47	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-07 02:01:47	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-07 02:01:47	--	Mode #osuosl-staff [+v pwnguin] by asimov.freenode.net
+2014-06-07 02:02:03	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-06-07 02:02:03	<--	kees (~kees@ubuntu/member/keescook) has quit (*.net *.split)
+2014-06-07 02:02:04	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-07 02:02:04	<--	russell_h (~russell_h@osuosl/staff/russellh) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 02:04:30	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-07 02:04:30	-->	kees (~kees@ubuntu/member/keescook) has joined #osuosl-staff
+2014-06-07 02:04:30	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-07 02:04:30	-->	russell_h (~russell_h@osuosl/staff/russellh) has joined #osuosl-staff
+2014-06-07 02:11:24	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-07 02:11:24	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #osuosl-staff
+2014-06-07 02:11:24	--	Mode #osuosl-staff [+v lucyw] by asimov.freenode.net
+2014-06-07 10:08:23	<--	bkero (~bkero@osuosl/staff/bkero) has quit (Ping timeout: 276 seconds)
+2014-06-07 13:11:43	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-06-08 06:59:30	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-08 12:38:03	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-09 01:01:34	<--	russell_h (~russell_h@osuosl/staff/russellh) has quit (Ping timeout: 240 seconds)
+2014-06-09 01:09:32	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-09 01:23:32	<--	kees (~kees@ubuntu/member/keescook) has quit (Ping timeout: 240 seconds)
+2014-06-09 01:59:07	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Ping timeout: 240 seconds)
+2014-06-09 02:09:28	-->	chance_z (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-09 02:14:37	--	chance_z is now known as chance
+2014-06-09 08:08:11	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-09 09:01:03	leel8on	!check in
+2014-06-09 09:01:15	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-09 09:03:29	kennric	!check in from portland
+2014-06-09 09:03:29	--	Mode #osuosl-staff [+v kennric] by ChanServ
+2014-06-09 09:16:14	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-09 09:59:48	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-09 10:01:13	+pwnguin	FYI, jeffrey's here until 2 for anyone who wants to introduce themselves
+2014-06-09 10:05:49	@Ramereth	i think he just tried to see me but I was talking to dolan. I'll swing by the NOC here in a few
+2014-06-09 10:09:22	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-09 10:41:25	-->	russell_h (~russell_h@osuosl/staff/russellh) has joined #osuosl-staff
+2014-06-09 10:51:49	pono	!check in
+2014-06-09 10:51:49	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-09 10:55:07	+jnoah	!check in
+2014-06-09 10:55:07	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-09 11:07:17	pop_n_fresh	!check in
+2014-06-09 11:07:18	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-09 11:11:13	+pono	pop_n_fresh: You in the bullpen?
+2014-06-09 11:12:14	+pop_n_fresh	Yep. I can move to not the bullpen if people need me.
+2014-06-09 12:02:26	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-09 12:03:23	+pono	!check out lunch
+2014-06-09 12:03:23	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-09 12:03:44	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-09 12:22:28	+leel8on	!check out
+2014-06-09 12:22:29	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-09 12:59:35	pono	!check in
+2014-06-09 12:59:35	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-09 13:12:30	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-09 13:18:52	<--	armiller (~armiller@osuosl/staff/armiller) has quit (Quit: WeeChat 0.4.3)
+2014-06-09 13:21:14	-->	kees (~kees@ubuntu/member/keescook) has joined #osuosl-staff
+2014-06-09 13:24:49	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-09 13:43:14	+pono	!check out
+2014-06-09 13:43:14	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-09 14:18:22	<--	armiller (~armiller@osuosl/staff/armiller) has quit (Quit: WeeChat 0.4.3)
+2014-06-09 14:19:21	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-09 14:40:14	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-09 15:08:00	@Ramereth	edunham: ping
+2014-06-09 15:09:27	+jnoah	!check in
+2014-06-09 15:09:27	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-09 15:44:12	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-09 16:01:40	bramwelt	!check out
+2014-06-09 16:01:41	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-06-09 17:06:13	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-09 17:40:49	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-09 17:49:44	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-09 18:09:47	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Remote host closed the connection)
+2014-06-09 18:10:20	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-09 18:16:08	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Remote host closed the connection)
+2014-06-09 18:17:04	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-09 18:55:01	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-09 20:36:18	+pop_n_fresh	!check out
+2014-06-09 20:36:19	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-10 07:41:59	lrr	derp, i need to pay more attention to my finals schedule. i've updated my calender for today to reflect my actual time in office today.
+2014-06-10 07:54:43	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-10 08:03:13	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-10 08:23:02	pwnguin	yes, you should probably know when your finals are if you wish to graduate
+2014-06-10 08:43:36	<--	manatee (manatee@ash.osuosl.org) has quit (Remote host closed the connection)
+2014-06-10 08:43:58	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-10 09:06:56	lrr	pwnguin: at least this time it was a beneficial mistake :)
+2014-06-10 09:07:22	lrr	!check in
+2014-06-10 09:07:23	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-10 09:07:26	pwnguin	!check in
+2014-06-10 09:07:27	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-10 09:07:49	leel8on	!check in
+2014-06-10 09:07:50	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-10 09:09:06	bramwelt	!check in
+2014-06-10 09:09:07	--	Mode #osuosl-staff [+v bramwelt] by ChanServ
+2014-06-10 09:16:51	+lucyw	!check in
+2014-06-10 09:16:52	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-10 10:47:40	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-10 10:49:00	+jnoah	!check in
+2014-06-10 10:49:01	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-10 10:49:01	<--	kennric (kennric@osuosl/staff/kennric) has quit (Quit: leaving)
+2014-06-10 10:49:51	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-10 10:57:07	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Quit: ZNC - http://znc.in)
+2014-06-10 11:02:45	+lucyw	Early lunch, anyone?
+2014-06-10 11:03:02	+lrr	i'll be doing lunch at 12
+2014-06-10 11:03:23	+jnoah	I could go at 12 (i'm currently snacking....>.>)
+2014-06-10 11:03:24	+lrr	maybe group lunch at 12 at buenos (if they're still open)?
+2014-06-10 11:03:24	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-10 11:13:46	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-10 11:22:38	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-10 11:58:55	<--	armiller (~armiller@osuosl/staff/armiller) has quit (Quit: WeeChat 0.4.3)
+2014-06-10 11:59:17	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-10 12:00:52	+leel8on	!check out
+2014-06-10 12:00:52	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-10 12:01:04	+pwnguin	!check out lunch
+2014-06-10 12:01:05	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-10 12:01:33	+jnoah	mk, lunch time
+2014-06-10 12:01:38	+lrr	!check out lunch
+2014-06-10 12:01:38	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-10 12:01:49	+jnoah	lrr, chance, pop_n_fresh whoever else would like to go
+2014-06-10 12:02:05	+jnoah	!check out lunch
+2014-06-10 12:02:06	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-10 12:05:40	jnoah	meet us at buenos, we're headed there now
+2014-06-10 12:07:55	pruittt	!check in
+2014-06-10 12:07:56	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-10 12:41:58	pop_n_fresh	!check in
+2014-06-10 12:41:59	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-10 12:50:34	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-10 13:08:03	jnoah	!check in
+2014-06-10 13:08:04	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-10 13:15:01	irdan	Ramereth: is the hackathon that's on the calendar this Thursday/Friday actually going on?
+2014-06-10 13:15:50	pwnguin	!check in
+2014-06-10 13:15:51	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-10 13:24:47	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-10 13:28:36	@Ramereth	irdan: yes, I was going to send an email out this afternoon about it
+2014-06-10 13:29:00	irdan	Ramereth: cool. with any luck I'll be in on friday
+2014-06-10 13:33:18	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-10 13:33:18	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-10 13:33:19	<--	henderb (henderb@osuosl/staff/henderb) has quit (*.net *.split)
+2014-06-10 13:33:36	@Ramereth	great
+2014-06-10 13:36:29	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-10 13:40:43	-->	henderb (henderb@osuosl/staff/henderb) has joined #osuosl-staff
+2014-06-10 13:51:30	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Disconnected by services)
+2014-06-10 13:51:56	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-10 13:54:22	<--	borcean (borcean@osuosl/staff/borcean) has quit (*.net *.split)
+2014-06-10 14:00:28	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-10 14:11:15	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-10 15:31:52	lrr	!check in
+2014-06-10 15:31:53	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-10 16:00:46	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-10 16:29:41	+jnoah	!check out
+2014-06-10 16:29:41	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-10 16:34:27	+lrr	!check out
+2014-06-10 16:34:27	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-10 17:28:45	+bramwelt	!check out
+2014-06-10 17:28:46	--	Mode #osuosl-staff [-v bramwelt] by ChanServ
+2014-06-10 17:33:45	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-10 17:50:32	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-10 20:09:05	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (Remote host closed the connection)
+2014-06-10 20:09:31	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-10 20:09:31	--	Mode #osuosl-staff [+o Ramereth] by ChanServ
+2014-06-10 22:59:56	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (Ping timeout: 252 seconds)
+2014-06-10 23:00:12	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (Ping timeout: 245 seconds)
+2014-06-11 01:31:31	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-11 02:09:31	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 240 seconds)
+2014-06-11 07:16:32	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-11 08:03:41	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-11 08:33:58	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-11 08:57:41	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-11 08:57:41	--	Mode #osuosl-staff [+o Ramereth] by ChanServ
+2014-06-11 08:58:23	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (Quit: I am laving earth for no raisin!)
+2014-06-11 08:59:28	jnoah	!check in
+2014-06-11 08:59:28	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-11 08:59:33	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-11 09:26:44	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-11 09:28:11	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-11 10:07:27	lrr	!check in
+2014-06-11 10:07:28	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-11 10:42:09	+jnoah	pono: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/virtualenvwrapper/virtualenvwrapper.plugin.zsh
+2014-06-11 11:26:18	+pop_n_fresh	For reasons I cannot determine my monitor's adapter is no longer broken.
+2014-06-11 11:27:15	+pono	pop_n_fresh: Because you told the people who could fix it.
+2014-06-11 11:28:47	+pwnguin	it was probably just not well seated
+2014-06-11 11:36:00	+pono	Anyone up for lunch at Pangaea around noon?
+2014-06-11 11:39:44	+pop_n_fresh	pono: Sure. I haven't eaten yet.
+2014-06-11 11:45:26	+lrr	pono: i thin kthere is a group heading to local boys around 1pm
+2014-06-11 11:45:52	+lrr	think there*
+2014-06-11 11:47:40	+pono	Ah.  But Pangaea is 30% off today!
+2014-06-11 11:50:56	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-11 11:55:55	+jnoah	pono: and 50% off on friday :)
+2014-06-11 12:03:44	+pono	!check out lunch
+2014-06-11 12:03:44	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-11 12:03:52	+pwnguin	!check lut
+2014-06-11 12:03:53	manatee	What?
+2014-06-11 12:03:55	+pwnguin	!check out
+2014-06-11 12:03:55	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-11 12:19:02	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-11 12:49:55	+jnoah	!check out lunch
+2014-06-11 12:49:55	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-11 12:50:38	+lrr	!check out lunch
+2014-06-11 12:50:39	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-11 12:52:28	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Remote host closed the connection)
+2014-06-11 12:57:15	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-11 12:59:34	pono	!check in
+2014-06-11 12:59:35	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-11 13:00:07	+pono	!remindme 180 go club
+2014-06-11 13:00:08	manatee	pono: ok...
+2014-06-11 13:03:38	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-11 13:18:53	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-11 13:39:53	<--	bkero (~bkero@osuosl/staff/bkero) has quit (*.net *.split)
+2014-06-11 13:39:54	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-11 13:39:54	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-11 13:39:54	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-11 13:40:14	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-06-11 13:40:39	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-06-11 13:44:48	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-11 14:04:50	lrr	!check in
+2014-06-11 14:04:51	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-11 14:18:27	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-11 14:18:27	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-11 14:18:47	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-11 14:44:37	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-11 14:44:47	jnoah	!check in
+2014-06-11 14:44:47	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-11 14:52:10	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-11 15:07:44	+pono	!check out
+2014-06-11 15:07:44	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-11 15:20:40	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #osuosl-staff
+2014-06-11 15:56:35	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-11 15:58:41	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-11 16:00:08	manatee	pono: Times up!! *go club*
+2014-06-11 16:12:50	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-11 17:08:01	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-11 17:10:28	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-11 17:56:10	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Remote host closed the connection)
+2014-06-11 17:56:57	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-11 18:30:33	+pop_n_fresh	!check out
+2014-06-11 18:30:34	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-11 19:10:01	<--	borcean (borcean@osuosl/staff/borcean) has quit (Ping timeout: 260 seconds)
+2014-06-11 19:13:00	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-11 20:36:16	-->	tschuy (~tschuye@osuosl/staff/tschuy) has joined #osuosl-staff
+2014-06-11 20:37:37	tschuy	any of you know who to contact about the MU's website?
+2014-06-11 20:37:44	tschuy	http://mu.oregonstate.edu/upload2.php
+2014-06-11 20:37:57	tschuy	database user, pass, and url in the clear :-/
+2014-06-11 20:38:20	chance	uh
+2014-06-11 20:38:22	chance	one sec
+2014-06-11 20:44:45	bramwelt	Ouch!
+2014-06-11 20:46:35	chance	i sent cws an email
+2014-06-11 20:47:20	+jnoah	i hope you notified them that the db username and pass were shown
+2014-06-11 20:47:27	+jnoah	!check out oops
+2014-06-11 20:47:27	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-11 21:57:17	chance	yep
+2014-06-12 08:33:30	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-12 09:28:20	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-12 09:28:34	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-12 10:17:17	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-12 10:44:36	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-12 10:51:31	pono	!check in derp
+2014-06-12 10:51:40	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-12 10:52:54	pop_n_fresh	!check in
+2014-06-12 10:52:55	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-12 11:30:23	+lrr	anyone up for lunch at noon?
+2014-06-12 11:37:20	+pono	lrr: I was planning on going to pangaea again since it's cheap.
+2014-06-12 11:37:56	jnoah	pono, lrr wait until ~1 and i'll go with
+2014-06-12 11:38:45	jnoah	(hopefully sooner, I just got outa bed and am walking to campus - Civ V...why you keep me up so late!?)
+2014-06-12 11:40:49	+pono	jnoah: Walk faster
+2014-06-12 11:49:21	+pop_n_fresh	I'm up for lunch.
+2014-06-12 11:52:40	chance	lrr: id be down
+2014-06-12 11:52:46	+lrr	jnoah: WALK FASTER
+2014-06-12 11:52:46	chance	im so hungry
+2014-06-12 11:52:55	+lrr	also, i have no idea where to eat
+2014-06-12 11:53:02	chance	jnoah: i dont know if we'll wait, we got hungry people (me)
+2014-06-12 11:53:08	chance	get yo butt up
+2014-06-12 12:04:40	bramwelt	lunch?
+2014-06-12 12:04:47	bramwelt	lunch lunch lunch?
+2014-06-12 12:05:34	+lrr	lunch!
+2014-06-12 12:05:43	+lrr	waiting on jnoad
+2014-06-12 12:05:47	+lrr	jnoah*
+2014-06-12 12:05:54	+lrr	why didn't i tab-complete the first time?
+2014-06-12 12:07:41	+pop_n_fresh	My body is ready for lunch.
+2014-06-12 12:09:40	+lrr	!check out lunch
+2014-06-12 12:09:41	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-12 12:11:41	jnoah	lrr, pono, chekkaa i've got bike, i'll be there in about 15ish
+2014-06-12 12:13:24	chekkaa	oh, is there lunching?
+2014-06-12 12:14:15	chekkaa	hmm, but there is also studying for final final tonight...
+2014-06-12 12:23:10	lrr	jnoah: beunos also chekkaa
+2014-06-12 12:23:47	jnoah	you've left?
+2014-06-12 12:25:51	jnoah	empty office suggests so, be there shortly
+2014-06-12 13:29:35	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-12 13:40:39	jnoah	HackAThon!
+2014-06-12 13:54:29	--	ChanServ has changed topic for #osuosl-staff from "!topic doesn't work" to "Afternoon VPN Hackathon"
+2014-06-12 14:00:51	+pono	!check out
+2014-06-12 14:00:51	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-12 14:09:36	Alan_S	http://hardware.slashdot.org/story/14/06/12/1918205/john-hawley-and-his-dr-who-inspired-robot-k-9-video
+2014-06-12 14:09:37	manatee	Alan_S's tiny URL is http://bit.ly/1lkOZVF
+2014-06-12 14:09:49	Alan_S	warthog9++
+2014-06-12 14:23:54	warthog9	Alan_S: it happens ;-)
+2014-06-12 14:24:13	warthog9	I'm fixing the minnowboard website or I'd be listening to the interview and reading the various slashdot comments
+2014-06-12 14:24:22	warthog9	I'm sure there's a reddit sub thread on my dog already
+2014-06-12 15:12:55	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-12 16:24:07	lrr	!check out
+2014-06-12 16:24:08	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-12 16:25:56	@Ramereth	OMG warthog9 is famouser!
+2014-06-12 16:47:29	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-12 16:47:43	warthog9	:-)
+2014-06-12 16:54:07	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-12 16:57:21	jnoah	!check out
+2014-06-12 16:57:22	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-12 18:13:28	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-12 21:45:12	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-13 08:14:24	lrr	jnoah, chekkaa: pizza at 12 in kerr today instead of chovda
+2014-06-13 08:28:14	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-13 09:05:54	jnoah	edunham: ^
+2014-06-13 09:11:27	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-13 09:30:00	pwnguin	!check in
+2014-06-13 09:30:00	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-13 09:57:55	lrr	!check in
+2014-06-13 09:57:55	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-13 11:15:48	+lrr	chance: there's free pizza in kerr today
+2014-06-13 11:18:56	chance	where
+2014-06-13 11:19:21	+lrr	chance: check your staff email. Ramereth sent it out
+2014-06-13 11:21:09	+pop_n_fresh	Kerr B211A
+2014-06-13 11:23:15	jnoah	conference room
+2014-06-13 11:24:27	chance	mmm pizza
+2014-06-13 11:25:03	edunham	is Josh around today?
+2014-06-13 11:27:03	+pwnguin	I actually don't recall; it's essentially his last day
+2014-06-13 11:29:13	@Ramereth	edunham: i think he was going to be in at some point
+2014-06-13 11:29:19	@Ramereth	he may come in a few days next week
+2014-06-13 11:32:37	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-13 11:35:20	edunham	okay, I'll be out by then :(
+2014-06-13 11:35:31	edunham	I just wanted to talk to him about the magic of <pre>
+2014-06-13 11:35:51	+pwnguin	yea, i think you're better off educating the replacement
+2014-06-13 11:39:02	jnoah	Ramereth, edunham According to Elsie, Josh won't be in today, but will be in Monday
+2014-06-13 11:46:58	edunham	oh well, I should drop by and actually meet Elsie anyways :)
+2014-06-13 11:47:03	edunham	is she on irc yet?
+2014-06-13 11:48:38	+pwnguin	probably not
+2014-06-13 11:49:31	+pwnguin	i might her cloak set up, its kinda been a blur with all the new hires
+2014-06-13 11:55:35	+jordane	she isn't on irc yet, I was gonna help her with that today.
+2014-06-13 12:02:00	+pop_n_fresh	pizza is here
+2014-06-13 12:42:07	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-13 12:50:00	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 276 seconds)
+2014-06-13 12:52:18	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-13 13:02:30	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-13 13:07:03	leel8on	!check in
+2014-06-13 13:07:05	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-13 13:19:07	@Ramereth	we ready for hackathon day #2?
+2014-06-13 13:19:14	 *	Ramereth is all lonely in the conf rm
+2014-06-13 13:42:40	 *	jordane heads over
+2014-06-13 14:00:42	 *	edunham fixed the blog post
+2014-06-13 14:09:06	+jordane	what was wrong with the blog post?
+2014-06-13 14:11:38	edunham	oh, I emailed a rough draft to Rachel with the assumption that it'd get formatted correctly and cleaned up
+2014-06-13 14:11:54	edunham	next I hear of it is a verbatim version of my pastebinned draft getting posted....
+2014-06-13 14:12:02	+jordane	ah, exciting.
+2014-06-13 14:12:05	edunham	the only real problem is that preformatted stuff wasn't preformatted, so it was hard to read
+2014-06-13 14:12:15	edunham	but I had an adventure in Drupal and now all is well
+2014-06-13 14:12:48	edunham	http://osuosl.org/blog/vim-trick-ftw
+2014-06-13 14:13:01	pwnguin	yes... now we post it to hackernews / proggit
+2014-06-13 14:13:13	edunham	pwnguin: noooooooo
+2014-06-13 14:13:20	edunham	I do not want to become famous for learning to :v/
+2014-06-13 14:13:55	@Ramereth	edunham: lol
+2014-06-13 14:15:35	edunham	lucyw: could you take a look at the kerning in our fixed-point font on the site?
+2014-06-13 14:15:47	edunham	I think letters in the words are a little too far apart, so it's not totally clear where the spaces are
+2014-06-13 14:18:36	edunham	I do not want to become famous for learning to :v/        >
+2014-06-13 14:18:49	edunham	oops
+2014-06-13 14:19:01	pwnguin	'please fix the kerning'
+2014-06-13 14:19:12	edunham	pwnguin: yes, that is my request.
+2014-06-13 14:19:22	edunham	it will probably be easiest to change which font is used
+2014-06-13 14:19:25	pwnguin	i feel like ive seen this on clientsfromhell before :P
+2014-06-13 14:19:36	edunham	err... thanks I think?
+2014-06-13 14:20:09	edunham	I think I've also heard a thing about lucy migrating toward being full dev instead of media+dev :P
+2014-06-13 14:20:14	 *	edunham wonders if she's contributing to why
+2014-06-13 14:28:22	kennric	66
+2014-06-13 14:53:55	+lrr	!check out
+2014-06-13 14:53:56	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-13 15:15:04	lucyw	edunham: certainly!  Let me know if you have one specifically in mind, elsewise I have a few that I think would work better.
+2014-06-13 15:15:28	edunham	I'm clueless about fonts :)
+2014-06-13 15:15:29	jnoah	kennric: 66?
+2014-06-13 15:15:59	lucyw	pwnguin: Eh, I think it's a valid request.  And not being able to read a site's content is super frustrating.
+2014-06-13 15:16:07	lucyw	kennric: 67?
+2014-06-13 17:06:30	jnoah	!check out
+2014-06-13 17:06:44	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-14 02:15:33	chekkaa	TIL :d and :v
+2014-06-14 02:15:45	jnoah	chekkaa: what are they?
+2014-06-14 02:15:48	chekkaa	-v is the grep flag for invert match, fyi
+2014-06-14 02:16:01	chekkaa	jnoah: http://osuosl.org/blog/vim-trick-ftw
+2014-06-14 02:16:11	jnoah	as in match all but this?
+2014-06-14 02:16:14	chekkaa	yes
+2014-06-14 02:16:25	jnoah	ooo, VERY good to know
+2014-06-14 09:57:47	edunham	:D
+2014-06-14 09:57:49	 *	edunham feels useful
+2014-06-14 21:04:43	pono	armiller: If you are interested, refurb 3dsXL for 135$ https://store.nintendo.com/ng3/browse/subcategory.jsp?categoryId=cat50005
+2014-06-16 04:58:43	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-06-16 08:33:44	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-16 08:34:09	zubriske	!check in
+2014-06-16 08:40:35	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-16 08:40:51	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-16 08:41:44	chekkaa	!check in 8:25
+2014-06-16 08:41:55	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-16 08:46:27	pono	!check in
+2014-06-16 08:46:27	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-16 08:49:32	+pono	!topic Happy Summer
+2014-06-16 08:49:39	+pono	:/
+2014-06-16 08:51:34	--	Ramereth has changed topic for #osuosl-staff from "Afternoon VPN Hackathon" to "Happy Summer!"
+2014-06-16 08:52:46	--	Ramereth has changed topic for #osuosl-staff from "Happy Summer!" to "Happy Summer! -- TIMESHEETS DUE TODAY"
+2014-06-16 08:55:15	+leel8on	!check in
+2014-06-16 08:55:15	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-16 08:57:24	@Ramereth	don't forget to click the submit button on your timesheet so I know its ready for me to approve it
+2014-06-16 08:57:32	@Ramereth	otherwise I'll click it by the end of today as-is
+2014-06-16 09:04:32	+pop_n_fresh	!check in
+2014-06-16 09:04:33	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-16 09:04:45	+pop_n_fresh	(I'll learn to check out one of these days)
+2014-06-16 09:06:17	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-16 09:09:38	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-16 09:36:18	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-16 09:38:32	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-16 09:50:25	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-16 10:01:17	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-16 10:01:20	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-16 11:19:55	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-16 12:00:40	+pono	!check out lunch
+2014-06-16 12:00:40	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-16 12:01:22	+pruittt	!check out
+2014-06-16 12:01:23	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-16 12:06:03	+leel8on	!check out lunch
+2014-06-16 12:06:03	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-16 12:19:39	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-16 12:20:58	+chekkaa	!check out lunch
+2014-06-16 12:20:59	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-16 12:31:31	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-16 12:48:51	+pop_n_fresh	!check out lunch
+2014-06-16 12:48:52	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-16 13:04:44	leel8on	!check in
+2014-06-16 13:04:44	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-16 13:06:00	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-16 13:26:42	pono	!check in
+2014-06-16 13:26:54	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-16 13:27:51	pop_n_fresh	!check in
+2014-06-16 13:27:51	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-16 13:28:12	chekkaa	!check in
+2014-06-16 13:28:12	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-16 13:28:57	deanj	Only been at Mozilla for a day, and I'm already using the mirrors. :)
+2014-06-16 13:29:35	+chekkaa	deanj: ?
+2014-06-16 13:30:06	deanj	mariadb
+2014-06-16 13:31:08	irdan	i'm heading out, i won't be in tuesday but should be back in on Wednesday
+2014-06-16 13:31:47	+pono	irdan: Cool, thanks for helping with the db stuff.
+2014-06-16 14:11:52	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 245 seconds)
+2014-06-16 14:11:52	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (Ping timeout: 245 seconds)
+2014-06-16 14:13:01	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-16 14:13:01	--	Mode #osuosl-staff [+o Ramereth] by ChanServ
+2014-06-16 14:24:52	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-16 14:26:00	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-16 14:47:57	+pono	!check out bbl in a long while
+2014-06-16 14:47:58	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-16 15:06:58	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-06-16 15:20:27	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-06-16 15:50:05	<--	gchaix (~gchaix@osuosl/staff/gchaix) has quit (Ping timeout: 264 seconds)
+2014-06-16 15:50:55	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-06-16 15:54:28	chekkaa	!check out
+2014-06-16 15:54:28	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-16 16:06:32	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-16 16:32:59	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-16 16:36:59	+leel8on	!check out back in about 15 min
+2014-06-16 16:36:59	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-16 16:46:55	+pop_n_fresh	!check out
+2014-06-16 16:46:56	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-16 16:57:55	leel8on	!check in
+2014-06-16 16:57:55	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-16 17:16:54	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-16 17:54:36	+leel8on	!check out
+2014-06-16 17:54:36	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-16 22:46:00	<--	warthog9 (~warthog9@149.20.54.19) has quit (Excess Flood)
+2014-06-16 22:48:06	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-06-16 22:51:58	<--	warthog9 (~warthog9@149.20.54.19) has quit (Excess Flood)
+2014-06-16 22:52:12	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-06-17 01:19:07	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-17 01:19:09	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-17 01:19:43	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-17 01:19:43	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-17 01:19:45	<--	manatee (manatee@ash.osuosl.org) has quit (*.net *.split)
+2014-06-17 01:19:48	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-17 01:19:49	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-17 01:19:50	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 01:19:50	<--	kees (~kees@ubuntu/member/keescook) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-17 01:19:52	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-17 01:19:53	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-17 01:19:53	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-17 01:19:54	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-17 01:19:54	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-17 01:19:59	<--	henderb (henderb@osuosl/staff/henderb) has quit (*.net *.split)
+2014-06-17 01:19:59	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-17 01:22:44	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	henderb (henderb@osuosl/staff/henderb) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-17 01:22:44	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-17 01:22:44	--	Mode #osuosl-staff [+ovv Ramereth mathuin pruittt] by asimov.freenode.net
+2014-06-17 01:23:43	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-17 01:23:43	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-17 01:27:55	<--	tschuy (~tschuye@osuosl/staff/tschuy) has quit (Write error: Broken pipe)
+2014-06-17 01:27:56	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Write error: Broken pipe)
+2014-06-17 01:33:43	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-17 01:33:45	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-17 01:33:46	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-17 01:33:46	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-17 01:33:47	<--	manatee (manatee@ash.osuosl.org) has quit (*.net *.split)
+2014-06-17 01:33:50	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-17 01:33:52	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-17 01:33:52	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-17 01:33:54	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-17 01:33:55	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-17 01:33:55	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-17 01:33:56	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-17 01:33:56	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-17 01:33:59	<--	henderb (henderb@osuosl/staff/henderb) has quit (*.net *.split)
+2014-06-17 01:33:59	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-17 01:42:13	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	henderb (henderb@osuosl/staff/henderb) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-17 01:42:13	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-17 01:42:13	--	Mode #osuosl-staff [+vvo pruittt mathuin Ramereth] by asimov.freenode.net
+2014-06-17 01:56:24	<--	manatee (manatee@ash.osuosl.org) has quit (Ping timeout: 255 seconds)
+2014-06-17 02:30:37	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-17 07:04:13	chekkaa	!check in
+2014-06-17 07:04:13	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-17 08:04:58	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-17 08:16:24	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-06-17 08:23:27	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-17 08:28:57	--	deanj is now known as johnsdea
+2014-06-17 08:29:02	--	johnsdea is now known as deanj
+2014-06-17 08:50:37	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-17 09:01:28	leel8on	!check in
+2014-06-17 09:01:28	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-17 09:05:57	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-17 09:23:50	pop_n_fresh	!check in
+2014-06-17 09:23:51	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-17 09:24:51	lucyw	!check in
+2014-06-17 09:24:52	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-17 09:24:59	lrr	!check in
+2014-06-17 09:24:59	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-17 09:25:02	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-17 09:26:15	pwnguin	!check in
+2014-06-17 09:26:15	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-17 09:27:53	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-17 09:28:52	+armiller	`/w 5
+2014-06-17 09:36:36	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-17 09:36:54	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-17 10:21:57	pono	!check in
+2014-06-17 10:21:58	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-17 11:54:46	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-17 11:55:00	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-17 11:59:05	+leel8on	!check out lunch
+2014-06-17 11:59:06	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-17 12:00:28	+lrr	!check out lunch
+2014-06-17 12:00:28	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-17 12:00:39	lrr	be back later this afternoon (errands)
+2014-06-17 12:09:19	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Quit: ZNC - http://znc.in)
+2014-06-17 12:11:05	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-17 12:52:01	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-17 13:02:20	leel8on	!check in
+2014-06-17 13:02:20	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-17 13:02:46	jnoah	!check in
+2014-06-17 13:02:47	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-17 13:03:45	+jnoah	hey all, I know we just switched to debian stable. Any chance for a change to testing? I was starting to use Github's text editor Atom, but am now unable to because glibc is too old. :/
+2014-06-17 13:19:34	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-17 13:19:35	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-17 13:19:40	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-17 13:19:40	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-17 13:19:41	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-17 13:19:44	<--	manatee (manatee@ash.osuosl.org) has quit (*.net *.split)
+2014-06-17 13:19:44	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-17 13:19:45	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-17 13:19:46	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-17 13:19:46	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 13:19:47	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 13:19:48	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-17 13:19:49	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-17 13:19:50	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-17 13:19:50	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-17 13:19:51	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-17 13:19:51	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-17 13:19:53	<--	henderb (henderb@osuosl/staff/henderb) has quit (*.net *.split)
+2014-06-17 13:19:53	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-17 13:20:34	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-17 13:20:34	--	Mode #osuosl-staff [+vvov pwnguin chekkaa Ramereth Ramereth] by asimov.freenode.net
+2014-06-17 13:20:34	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	henderb (henderb@osuosl/staff/henderb) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-17 13:20:34	--	Mode #osuosl-staff [+vvvv zubriske leel8on mathuin armiller] by asimov.freenode.net
+2014-06-17 13:20:34	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-17 13:20:34	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-17 13:20:34	--	Mode #osuosl-staff [+v pruittt] by asimov.freenode.net
+2014-06-17 13:25:36	pono	!check in derp
+2014-06-17 13:25:36	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-17 13:30:44	+jnoah	jordane: may i borrow you for a moment? The chef stuff we were working on during the hackathon seems to be getting further, but I'm running into other issues
+2014-06-17 13:32:28	jordane	jnoah: yeah, gimme 5
+2014-06-17 13:35:01	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-17 13:46:28	-->	turnerac (turnerac@osuosl/staff/turnerac) has joined #osuosl-staff
+2014-06-17 13:50:48	ElsieP	!check in
+2014-06-17 13:50:49	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-17 13:51:28	turnerac	!check in
+2014-06-17 13:51:28	--	Mode #osuosl-staff [+v turnerac] by ChanServ
+2014-06-17 13:54:28	lrr	!check in
+2014-06-17 13:54:29	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-17 14:13:03	+chekkaa	!check out
+2014-06-17 14:13:04	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-17 14:33:05	+turnerac	!check out
+2014-06-17 14:33:05	--	Mode #osuosl-staff [-v turnerac] by ChanServ
+2014-06-17 14:43:14	+pono	pop_n_fresh: http://debconf14.debconf.org/
+2014-06-17 14:45:56	+pop_n_fresh	Awesome. I'll look into it. TY
+2014-06-17 15:36:58	<--	henderb (henderb@osuosl/staff/henderb) has quit (Ping timeout: 240 seconds)
+2014-06-17 15:37:17	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (Ping timeout: 245 seconds)
+2014-06-17 15:37:19	<--	kennric (kennric@osuosl/staff/kennric) has quit (Ping timeout: 252 seconds)
+2014-06-17 15:37:52	<--	borcean (borcean@osuosl/staff/borcean) has quit (Ping timeout: 240 seconds)
+2014-06-17 15:38:07	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Ping timeout: 245 seconds)
+2014-06-17 15:38:25	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (Ping timeout: 252 seconds)
+2014-06-17 15:38:37	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (Ping timeout: 276 seconds)
+2014-06-17 15:38:37	<--	pono (pono@osuosl/staff/dspt) has quit (Ping timeout: 276 seconds)
+2014-06-17 15:38:39	<--	manatee (manatee@ash.osuosl.org) has quit (Ping timeout: 272 seconds)
+2014-06-17 15:38:39	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (Ping timeout: 272 seconds)
+2014-06-17 15:45:08	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (Quit: ElsieP)
+2014-06-17 15:50:28	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-17 15:58:51	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-17 15:59:33	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (Quit: leaving)
+2014-06-17 16:00:49	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-17 16:01:36	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-17 16:04:08	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-17 16:07:45	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-17 16:07:55	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-17 16:07:56	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (Client Quit)
+2014-06-17 16:09:08	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-17 16:09:49	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-17 16:13:45	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-17 16:16:21	<--	manatee (manatee@ash.osuosl.org) has quit (Excess Flood)
+2014-06-17 16:16:38	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-17 16:26:54	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-17 16:33:53	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-17 16:53:03	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-17 17:06:39	lrr	!check out
+2014-06-17 17:06:54	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-17 17:07:32	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-17 17:40:42	-->	bryon (bryon@osuosl/staff/bryon) has joined #osuosl-staff
+2014-06-17 20:02:16	+pop_n_fresh	!check out
+2014-06-17 20:02:16	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-17 23:19:48	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-17 23:19:48	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-17 23:19:48	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-17 23:19:48	<--	turnerac (turnerac@osuosl/staff/turnerac) has quit (*.net *.split)
+2014-06-17 23:23:58	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-17 23:23:58	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-17 23:23:58	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-17 23:23:58	-->	turnerac (turnerac@osuosl/staff/turnerac) has joined #osuosl-staff
+2014-06-18 07:52:35	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-18 08:07:49	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-06-18 08:17:38	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-18 08:17:52	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-18 08:20:18	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-18 08:28:21	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-18 08:28:50	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-18 08:29:11	pono	Running late, I forgot I made dough last night so I have to bake it now before it over rises.
+2014-06-18 08:29:21	@Ramereth	ElsieP: welcome!
+2014-06-18 08:29:32	@Ramereth	pono: lol that's an awesome excuse for being late
+2014-06-18 08:30:34	+jordane	pono: the drupal rack is probably running hot enough to bake the dough.
+2014-06-18 08:31:35	pono	Hah.  Next time I'll just bring the dough in then.
+2014-06-18 08:33:45	@Ramereth	"OoO: Baking dough"
+2014-06-18 08:47:05	lrr	!check in
+2014-06-18 08:47:06	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-18 08:50:32	+mathuin	You can put it in the fridge, but the results are not as good as you'd think.
+2014-06-18 08:50:43	+mathuin	We've done that, though. :-)
+2014-06-18 09:00:21	leel8on	!check in
+2014-06-18 09:00:22	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-18 09:02:25	pop_n_fresh	!check in
+2014-06-18 09:02:26	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-18 09:03:55	+pwnguin	!check in
+2014-06-18 09:03:55	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-18 09:18:39	borcean	!check in
+2014-06-18 09:18:40	--	Mode #osuosl-staff [+v borcean] by ChanServ
+2014-06-18 09:19:13	--	Mode #osuosl-staff [+v borcean] by ChanServ
+2014-06-18 09:37:30	pono	!check in
+2014-06-18 09:37:31	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-18 09:47:03	+jnoah	!check in
+2014-06-18 09:47:04	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-18 10:04:24	<--	gchaix (~gchaix@osuosl/staff/gchaix) has quit (Ping timeout: 240 seconds)
+2014-06-18 10:05:37	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-06-18 10:44:15	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-18 11:01:25	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-18 11:14:29	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-18 11:56:28	-->	akeym (akeym@unaffiliated/akeym) has joined #osuosl-staff
+2014-06-18 11:57:18	akeym	free cake b211a. suzanne is having a kid
+2014-06-18 11:57:53	akeym	or is it b211m? whatever
+2014-06-18 11:59:21	<--	akeym (akeym@unaffiliated/akeym) has left #osuosl-staff
+2014-06-18 12:01:08	-->	tschuy (~tschuye@osuosl/staff/tschuy) has joined #osuosl-staff
+2014-06-18 12:02:56	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-18 12:05:57	+pono	lucyw: protip $ sudo service lightdm restart
+2014-06-18 12:06:21	+leel8on	!check out lunch
+2014-06-18 12:06:21	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-18 12:09:24	+pwnguin	silver looks fine
+2014-06-18 12:10:23	+pwnguin	ah, htop was hiding kernel threads
+2014-06-18 12:10:29	tschuy	Lucy and I are going to Arnold for lunch
+2014-06-18 12:10:34	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-18 12:10:34	tschuy	anyone want to join?
+2014-06-18 12:11:01	+pono	!check out
+2014-06-18 12:11:02	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-18 12:11:32	+lrr	!check out lunch
+2014-06-18 12:11:32	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-18 12:18:05	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-18 12:35:30	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-06-18 13:03:59	leel8on	!check in
+2014-06-18 13:03:59	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-18 13:10:03	+jnoah	!check out (lunch)
+2014-06-18 13:10:04	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-18 13:10:05	jnoah	!check in
+2014-06-18 13:10:06	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-18 13:11:12	lrr	!check in
+2014-06-18 13:11:13	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-18 13:15:55	--	Mode #osuosl-staff [+v armiller] by ChanServ
+2014-06-18 13:28:30	pono	!check in
+2014-06-18 13:28:30	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-18 13:28:52	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-18 14:38:40	@Ramereth	dolan says there's still cake in the frig if you want some
+2014-06-18 14:41:15	+pwnguin	noted
+2014-06-18 15:56:32	+pwnguin	http://www.snia.org/sites/default/files/SNIA_DDF_Technical_Position_v2.0.pdf
+2014-06-18 15:56:33	manatee	pwnguin's tiny URL is http://bit.ly/1nkwdfh
+2014-06-18 16:00:15	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-18 16:03:56	+ElsieP	!check out
+2014-06-18 16:03:57	--	Mode #osuosl-staff [-v ElsieP] by ChanServ
+2014-06-18 16:04:04	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has left #osuosl-staff
+2014-06-18 16:08:39	+pwnguin	Ramereth: FYI, the only classes ginternal1/2 are in is ganeti_osuosl_internal
+2014-06-18 16:09:03	+pwnguin	they seem to not be in any nagios monitoring classes =/
+2014-06-18 16:10:28	+pwnguin	whoops, wrong chan
+2014-06-18 16:21:30	+pono	!check out
+2014-06-18 16:21:30	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-18 16:41:25	+borcean	!check out
+2014-06-18 16:41:25	--	Mode #osuosl-staff [-v borcean] by ChanServ
+2014-06-18 16:43:40	+armiller	!check out Have a good summer everyone!
+2014-06-18 16:43:41	--	Mode #osuosl-staff [-v armiller] by ChanServ
+2014-06-18 17:01:11	+lrr	!check out
+2014-06-18 17:01:12	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-18 17:07:34	+pop_n_fresh	!check out
+2014-06-18 17:07:35	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-18 17:22:05	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-18 17:33:35	+leel8on	!check out
+2014-06-18 17:33:36	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-18 17:58:42	+jnoah	!check out
+2014-06-18 17:58:43	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-18 18:20:15	+pwnguin	!check out
+2014-06-18 18:20:15	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-18 19:21:51	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-18 19:25:16	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-18 23:03:55	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-18 23:07:02	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-19 00:07:31	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 240 seconds)
+2014-06-19 07:56:34	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-19 07:57:50	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-19 08:07:14	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-06-19 08:16:01	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-19 08:21:40	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-19 08:30:57	jnoah	!check in
+2014-06-19 08:30:58	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-19 08:32:48	ElsieP	!check in
+2014-06-19 08:32:48	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-19 08:54:09	leel8on	!check in
+2014-06-19 08:54:10	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-19 09:03:49	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-19 09:09:39	--	Mode #osuosl-staff [+v borcean] by ChanServ
+2014-06-19 09:24:17	pono	Running late, will be in around 10
+2014-06-19 09:26:14	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-19 09:51:06	+borcean	pono: More dough? :P
+2014-06-19 09:54:53	+lucyw	!check in
+2014-06-19 09:54:53	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-19 10:00:43	pono	borcean: I wish, just bad at waking up.
+2014-06-19 10:00:45	pono	!check in
+2014-06-19 10:00:46	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-19 11:08:56	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-19 11:08:56	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-19 11:08:56	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-19 11:08:56	<--	turnerac (turnerac@osuosl/staff/turnerac) has quit (*.net *.split)
+2014-06-19 11:08:57	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-19 11:08:57	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-19 11:08:58	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-19 11:08:59	<--	gchaix (~gchaix@osuosl/staff/gchaix) has quit (*.net *.split)
+2014-06-19 11:08:59	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-19 11:08:59	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-19 11:09:01	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-19 11:09:01	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-19 11:09:02	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (*.net *.split)
+2014-06-19 11:09:03	<--	borcean (borcean@osuosl/staff/borcean) has quit (*.net *.split)
+2014-06-19 11:09:03	<--	tschuy (~tschuye@osuosl/staff/tschuy) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-19 11:09:06	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-19 11:09:10	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-19 11:09:12	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-19 11:09:14	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-19 11:10:48	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	tschuy (~tschuye@osuosl/staff/tschuy) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	turnerac (turnerac@osuosl/staff/turnerac) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-19 11:10:48	--	Mode #osuosl-staff [+vvvv ElsieP pono zubriske pruittt] by asimov.freenode.net
+2014-06-19 11:10:48	-->	bryon (bryon@osuosl/staff/bryon) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-19 11:10:48	--	Mode #osuosl-staff [+vvvv borcean leel8on jordane pwnguin] by asimov.freenode.net
+2014-06-19 11:10:48	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-19 11:10:48	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-19 11:10:48	--	Mode #osuosl-staff [+ov Ramereth Ramereth] by asimov.freenode.net
+2014-06-19 11:14:52	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-19 11:14:54	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-19 11:14:58	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-19 11:14:58	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-19 11:14:58	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-19 11:14:58	<--	turnerac (turnerac@osuosl/staff/turnerac) has quit (*.net *.split)
+2014-06-19 11:14:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-19 11:14:59	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-19 11:15:00	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-19 11:15:01	<--	gchaix (~gchaix@osuosl/staff/gchaix) has quit (*.net *.split)
+2014-06-19 11:15:01	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-19 11:15:01	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-19 11:15:03	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-19 11:15:03	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-19 11:15:04	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (*.net *.split)
+2014-06-19 11:15:05	<--	borcean (borcean@osuosl/staff/borcean) has quit (*.net *.split)
+2014-06-19 11:15:05	<--	tschuy (~tschuye@osuosl/staff/tschuy) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-19 11:15:08	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-19 11:15:11	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-19 11:16:16	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	tschuy (~tschuye@osuosl/staff/tschuy) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	turnerac (turnerac@osuosl/staff/turnerac) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-19 11:16:16	--	Mode #osuosl-staff [+vvvv ElsieP pono zubriske pruittt] by asimov.freenode.net
+2014-06-19 11:16:16	-->	bryon (bryon@osuosl/staff/bryon) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-19 11:16:16	--	Mode #osuosl-staff [+vvvv borcean leel8on jordane pwnguin] by asimov.freenode.net
+2014-06-19 11:16:16	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-19 11:16:16	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-19 11:16:16	--	Mode #osuosl-staff [+ov Ramereth Ramereth] by asimov.freenode.net
+2014-06-19 11:32:51	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Excess Flood)
+2014-06-19 11:34:30	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-19 11:42:05	lrr	lunch?
+2014-06-19 11:53:14	@Ramereth	lunch would be good
+2014-06-19 11:53:21	@Ramereth	where ya'll going?
+2014-06-19 11:54:24	+pono	Something close to OSU Federal on Monroe, I need to run over there this afternoon.
+2014-06-19 11:54:36	@Ramereth	youngs?
+2014-06-19 11:55:09	+pono	Sounds good to me.
+2014-06-19 11:55:14	lrr	jnoah and i were thinking young's
+2014-06-19 11:55:27	@Ramereth	i'm ready whenever
+2014-06-19 11:55:34	lrr	jnoah: FOODS
+2014-06-19 11:55:37	@Ramereth	been meaning to join lunch with you folks
+2014-06-19 11:55:56	+pono	I'm at a good stopping point.
+2014-06-19 11:57:12	lrr	!check out lunch
+2014-06-19 11:57:13	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-19 11:57:30	+pruittt	!check out lunch
+2014-06-19 11:57:31	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-19 11:57:43	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-19 11:57:54	+pono	!check out
+2014-06-19 11:57:55	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-19 11:58:02	+leel8on	!check out
+2014-06-19 11:58:03	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-19 11:59:08	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-19 12:55:56	+pwnguin	who wants new chairs?
+2014-06-19 12:56:00	lrr	i do!
+2014-06-19 12:56:02	lrr	i think
+2014-06-19 12:56:11	lrr	pwnguin: what's the catch?
+2014-06-19 12:56:14	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-19 12:56:16	+pwnguin	bexel hall 100
+2014-06-19 12:56:20	lrr	oh
+2014-06-19 12:56:26	+pwnguin	you have to come get them
+2014-06-19 12:56:29	lrr	lol
+2014-06-19 12:56:56	+pwnguin	seriouslt thougj
+2014-06-19 12:57:07	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-19 12:57:11	+pwnguin	need some people to haul chairs
+2014-06-19 12:57:30	+jnoah	!check in
+2014-06-19 12:57:30	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-19 12:57:43	+pono	Be right there
+2014-06-19 13:04:30	+pwnguin	tick
+2014-06-19 13:15:19	leel8on	!check in
+2014-06-19 13:15:19	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-19 13:15:27	lrr	!check in
+2014-06-19 13:15:28	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-19 13:15:44	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-19 13:20:00	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-19 13:28:58	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (Quit: ElsieP)
+2014-06-19 13:35:23	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-19 14:16:46	+pruittt	beep boop
+2014-06-19 15:00:07	+lrr	deanj: ping
+2014-06-19 15:01:03	+lrr	actually, nvm
+2014-06-19 15:02:17	tschuy	pono, install's done
+2014-06-19 15:02:23	+pono	tschuy: ty
+2014-06-19 15:58:14	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-19 16:08:45	ElsieP	!check out
+2014-06-19 16:08:46	--	Mode #osuosl-staff [-v ElsieP] by ChanServ
+2014-06-19 16:08:50	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has left #osuosl-staff
+2014-06-19 16:29:49	+lrr	!check out
+2014-06-19 16:29:50	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-19 16:44:47	+pono	!check out
+2014-06-19 16:44:47	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-19 16:56:25	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-19 17:05:32	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-19 17:41:29	--	Mode #osuosl-staff [-v mathuin] by ChanServ
+2014-06-19 17:50:34	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-19 18:45:40	+jnoah	!check out
+2014-06-19 18:45:41	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-19 20:22:22	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-19 23:34:53	chekkaa	!check in
+2014-06-19 23:34:53	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-19 23:35:23	jnoah	oh, hello chekkaa
+2014-06-19 23:46:42	+chekkaa	ohai
+2014-06-20 06:08:33	+chekkaa	!check out
+2014-06-20 06:08:33	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-20 07:10:35	+pruittt	!check in
+2014-06-20 07:10:36	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-20 07:53:26	chekkaa	!check in
+2014-06-20 07:53:27	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-20 08:05:34	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-20 08:08:43	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-20 08:09:59	ElsieP	!check in
+2014-06-20 08:09:59	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-20 08:17:56	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-20 08:21:03	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-20 08:42:27	lrr	!check in
+2014-06-20 08:42:27	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-20 08:51:27	pono	!check in
+2014-06-20 08:51:28	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-20 08:57:20	+leel8on	!check in
+2014-06-20 08:57:20	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-20 09:10:16	+pono	jordane: One of my favorite (names of) objects I worked with this year https://en.wikipedia.org/wiki/Polish_space
+2014-06-20 09:11:13	+jordane	huh. Those look neat.
+2014-06-20 09:13:09	+jordane	pono: but yeah, the canonical example my prof gave was the double complement of the infinite order polynomial space is the set of all continuous functions.
+2014-06-20 09:13:53	+jordane	Since any continuous function can be written as an infinite polynomial
+2014-06-20 09:14:11	+pruittt	... obviously!
+2014-06-20 09:14:12	+pono	Oh interesting.  I know that is the closure of the polynomials.
+2014-06-20 09:14:38	+jordane	Yeah, exactly.
+2014-06-20 09:24:43	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-20 10:25:06	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-20 10:44:06	jnoah	chekkaa: when're you leaving today?
+2014-06-20 10:44:13	jnoah	gonna be around for a noon lunch?
+2014-06-20 11:00:07	+chekkaa	!check out see y'all next tuesday
+2014-06-20 11:00:08	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-20 11:00:15	+pono	!check out early lunch
+2014-06-20 11:00:16	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-20 11:00:40	jnoah	!check ou
+2014-06-20 11:00:40	manatee	What?
+2014-06-20 11:00:42	jnoah	!check out
+2014-06-20 11:00:44	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-20 11:00:51	+lrr	!check out
+2014-06-20 11:00:52	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-20 11:15:32	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-20 11:17:27	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (Quit: ElsieP)
+2014-06-20 11:46:21	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-20 11:56:35	pono	!check in
+2014-06-20 11:56:35	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-20 11:57:28	jnoah	!check in
+2014-06-20 11:57:29	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-20 12:01:57	lrr	!check in
+2014-06-20 12:01:59	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-20 12:02:46	+leel8on	!check out
+2014-06-20 12:02:46	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-20 12:12:59	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-20 12:39:11	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-20 12:42:55	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-20 12:49:23	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-20 13:02:54	leel8on	!check in
+2014-06-20 13:02:55	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-20 13:28:00	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-20 13:32:12	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Remote host closed the connection)
+2014-06-20 13:49:26	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-20 13:53:22	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Remote host closed the connection)
+2014-06-20 13:59:41	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-20 14:00:24	+lrr	!check out \
+2014-06-20 14:00:25	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-20 14:00:28	lrr	have a good weekend!
+2014-06-20 14:27:04	+pono	!check out taking off early because I'm helping rtyler with a migration tomorrow
+2014-06-20 14:27:05	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-20 14:28:50	pono	See you all monday
+2014-06-20 14:57:53	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-20 15:03:07	+jnoah	I have some things I need to take care of. I'll be back on later this evening or tomorrow
+2014-06-20 15:03:09	+jnoah	!check out
+2014-06-20 15:03:10	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-20 16:29:37	+leel8on	!check out have a good weekend
+2014-06-20 16:29:37	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-20 17:00:25	ElsieP	!check out
+2014-06-20 17:00:26	--	Mode #osuosl-staff [-v ElsieP] by ChanServ
+2014-06-20 17:00:30	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has left #osuosl-staff
+2014-06-20 18:01:00	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-20 18:42:35	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-20 20:14:37	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-20 20:21:32	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-21 08:05:05	<--	bramwelt (~bramwelt@osuosl/staff/bramwelt) has quit (Ping timeout: 264 seconds)
+2014-06-21 08:05:05	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (Ping timeout: 264 seconds)
+2014-06-21 08:05:15	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Ping timeout: 264 seconds)
+2014-06-21 08:09:13	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-21 08:15:09	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osuosl-staff
+2014-06-21 09:04:15	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-21 09:45:01	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Ping timeout: 240 seconds)
+2014-06-21 09:45:31	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Ping timeout: 240 seconds)
+2014-06-21 09:45:31	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (Ping timeout: 240 seconds)
+2014-06-21 09:45:36	<--	armiller (~armiller@osuosl/staff/armiller) has quit (Ping timeout: 260 seconds)
+2014-06-21 09:54:08	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-21 09:54:54	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-21 10:00:08	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-21 10:00:20	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-06-21 12:48:36	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-21 20:01:03	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-21 20:05:50	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 264 seconds)
+2014-06-21 21:34:11	<--	russell_h (~russell_h@osuosl/staff/russellh) has left #osuosl-staff ("Textual IRC Client: www.textualapp.com")
+2014-06-21 22:01:27	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-22 09:23:32	<--	borcean (borcean@osuosl/staff/borcean) has quit (Ping timeout: 245 seconds)
+2014-06-22 09:24:21	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-22 09:24:22	<--	tschuy (~tschuye@osuosl/staff/tschuy) has quit (Ping timeout: 245 seconds)
+2014-06-22 15:14:22	<--	armiller (~armiller@osuosl/staff/armiller) has quit (Ping timeout: 245 seconds)
+2014-06-22 15:14:22	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Ping timeout: 245 seconds)
+2014-06-22 15:14:22	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (Ping timeout: 245 seconds)
+2014-06-22 15:19:27	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-22 15:28:24	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osuosl-staff
+2014-06-22 15:28:26	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-22 18:15:04	<--	warthog9 (~warthog9@149.20.54.19) has quit (Ping timeout: 240 seconds)
+2014-06-22 18:46:12	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-06-22 19:15:05	<--	bkero (~bkero@osuosl/staff/bkero) has quit (Ping timeout: 240 seconds)
+2014-06-22 19:17:49	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-22 19:31:00	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-22 21:15:48	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-06-22 23:31:19	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-23 08:06:10	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-23 08:17:22	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-23 08:33:38	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-23 08:35:22	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-23 08:40:12	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (Ping timeout: 245 seconds)
+2014-06-23 08:50:25	+lucyw	!check in
+2014-06-23 08:50:25	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-23 08:53:23	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-23 08:55:52	leel8on	!check in
+2014-06-23 08:55:52	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-23 08:59:15	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-23 09:38:43	ElsieP	!check in
+2014-06-23 09:38:43	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-23 09:45:52	@Ramereth	lucyw: you should have an email now
+2014-06-23 09:46:52	+lucyw	Ramereth: yep!  Thank you so muc
+2014-06-23 09:46:54	+lucyw	*much
+2014-06-23 10:26:08	pwnguin	any reason to keep josh or mel in the github org?
+2014-06-23 11:37:21	pwnguin	okay, google calendars should now be mostly done via groups
+2014-06-23 11:37:42	pwnguin	if anyone notices they're missing calendars or permissions, let me know so I can fix it
+2014-06-23 11:39:11	pwnguin	!topic Summer Term Begins! Also, GSoC midterm evaluations begin, due Friday
+2014-06-23 11:39:22	MaraJade	pwnguin: I can't seem to be able to add/remove/edit any calendars
+2014-06-23 11:39:29	MaraJade	calendar events*
+2014-06-23 11:39:57	pwnguin	whoops
+2014-06-23 11:40:02	pwnguin	you're not on the dev team!
+2014-06-23 11:40:11	pwnguin	fixed
+2014-06-23 11:40:32	MaraJade	thanks
+2014-06-23 11:43:12	+pruittt	!check out lunch
+2014-06-23 11:43:13	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-23 11:55:20	pop_n_fresh	!check in from home. I think I've got an hour or so to burn.
+2014-06-23 11:55:21	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-23 12:00:20	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-23 12:05:30	+pop_n_fresh	!check out
+2014-06-23 12:05:30	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-23 12:53:29	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-23 13:07:42	leel8on	!check in
+2014-06-23 13:07:43	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-23 13:12:29	pruittt	!check in
+2014-06-23 13:12:29	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-23 13:52:35	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-23 14:35:32	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-23 14:49:16	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-23 15:26:51	pono	!check in
+2014-06-23 15:27:04	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-23 15:33:42	+leel8on	!check out back in about 20 min
+2014-06-23 15:33:42	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-23 15:58:00	+ElsieP	!check out
+2014-06-23 15:58:01	--	Mode #osuosl-staff [-v ElsieP] by ChanServ
+2014-06-23 15:58:05	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has left #osuosl-staff
+2014-06-23 15:59:45	leel8on	!check in
+2014-06-23 15:59:45	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-23 16:14:52	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-23 16:20:09	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-23 17:01:32	+pruittt	!check out
+2014-06-23 17:01:32	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-23 17:09:46	lrr	!check out
+2014-06-23 17:09:46	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-23 17:11:34	+pono	!check out
+2014-06-23 17:11:34	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-23 17:40:58	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-23 17:55:19	+leel8on	!check out
+2014-06-23 17:55:19	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-23 18:04:49	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-24 08:18:26	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-24 08:25:06	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-24 08:25:45	ElsieP	!check in
+2014-06-24 08:25:46	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-24 08:42:28	pop_n_fresh	!check in
+2014-06-24 08:42:29	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-24 08:54:38	leel8on	!check in
+2014-06-24 08:54:39	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-24 08:58:50	+lucyw	!check in
+2014-06-24 08:58:51	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-24 09:19:42	zubriske	!check in
+2014-06-24 09:19:43	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-24 09:32:04	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-24 09:39:37	pono	!check in
+2014-06-24 09:39:38	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-24 09:46:48	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-24 09:49:59	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-24 10:03:39	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-24 10:56:03	+pwnguin	seems like the first task every new marketing hire assigns themselves is redoing the staff photos
+2014-06-24 11:00:11	lrr	!check in
+2014-06-24 11:00:11	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-24 11:43:06	--	Mode #osuosl-staff [-v lucyw] by ChanServ
+2014-06-24 11:43:09	+pop_n_fresh	!check out lunch
+2014-06-24 11:43:10	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-24 12:01:23	+ElsieP	!check out
+2014-06-24 12:01:24	--	Mode #osuosl-staff [-v ElsieP] by ChanServ
+2014-06-24 12:01:32	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has left #osuosl-staff
+2014-06-24 12:02:25	+pwnguin	https://github.com/flakshack/SysAdminBoard
+2014-06-24 12:03:29	+lrr	do need
+2014-06-24 12:03:56	+lrr	!check out lunch
+2014-06-24 12:03:56	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-24 12:24:42	+zubriske	!check out lunch
+2014-06-24 12:24:43	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-24 12:24:52	+pono	!check out
+2014-06-24 12:24:53	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-24 12:30:32	+leel8on	!check out lunch
+2014-06-24 12:30:32	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-24 12:33:53	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-24 12:34:25	pop_n_fresh	!check in
+2014-06-24 12:34:26	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-24 12:34:26	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-24 12:37:18	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-24 13:03:29	jnoah	!check in
+2014-06-24 13:03:30	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-24 13:09:26	lrr	!check in
+2014-06-24 13:09:26	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-24 13:28:41	leel8on	!check in
+2014-06-24 13:28:45	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-24 13:31:38	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-24 13:38:32	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-24 13:52:12	pono	!check in
+2014-06-24 13:52:12	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-24 13:57:04	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-24 13:57:20	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-24 16:01:40	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-24 16:15:16	+pono	!check out
+2014-06-24 16:15:16	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-24 16:15:25	pono	backing up db1 onto mysql1 now
+2014-06-24 16:48:12	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-24 17:04:09	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-24 17:05:10	+lrr	!check out
+2014-06-24 17:05:10	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-24 17:51:49	+leel8on	!check out
+2014-06-24 17:52:04	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-24 18:14:18	+pop_n_fresh	!check out
+2014-06-24 18:14:19	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-24 18:30:43	pwnguin	http://dns-api.com/ github based dns
+2014-06-24 19:11:19	--	Mode #osuosl-staff [-v jnoah] by ChanServ
+2014-06-24 22:19:13	-->	bramwelt (~bramwelt@osuosl/staff/bramwelt) has joined #osuosl-staff
+2014-06-24 22:44:53	chekkaa	!check in
+2014-06-24 22:44:54	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-24 23:08:13	<--	gchaix (~gchaix@osuosl/staff/gchaix) has quit (Ping timeout: 264 seconds)
+2014-06-24 23:09:37	-->	gchaix (~gchaix@osuosl/staff/gchaix) has joined #osuosl-staff
+2014-06-24 23:43:17	pwnguin	chekkaa: missed you at the meeting
+2014-06-25 01:04:01	+chekkaa	pwnguin: sorry about that, didn't see the email
+2014-06-25 01:05:32	+chekkaa	hmm, on a different note, does anyone know what happened to bigscreen?  It seems unpingable and the monitor stays black :(
+2014-06-25 04:12:53	+chekkaa	!check out bbl
+2014-06-25 04:12:54	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-25 05:11:10	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-25 08:04:07	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-25 08:17:31	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-25 08:18:25	ElsieP	!check in
+2014-06-25 08:18:26	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-25 08:43:41	pono	!check in
+2014-06-25 08:43:42	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-25 08:49:55	pwnguin	chekkaa: maybe it was off following a power outage on monday
+2014-06-25 08:56:54	leel8on	!check in
+2014-06-25 08:57:05	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-25 09:07:20	pop_n_fresh	!check in
+2014-06-25 09:07:21	--	Mode #osuosl-staff [+v pop_n_fresh] by ChanServ
+2014-06-25 09:12:02	+lucyw	!check in
+2014-06-25 09:12:06	--	Mode #osuosl-staff [+v lucyw] by ChanServ
+2014-06-25 09:14:17	MaraJade	!check in
+2014-06-25 09:14:17	--	Mode #osuosl-staff [+v MaraJade] by ChanServ
+2014-06-25 09:22:25	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-25 09:32:04	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-25 09:36:55	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (Quit: ElsieP)
+2014-06-25 09:56:40	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-25 11:25:58	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-25 11:42:16	 *	Ramereth lunches
+2014-06-25 11:42:19	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-25 11:45:04	+pop_n_fresh	!check out lunch
+2014-06-25 11:45:06	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-25 11:57:14	+pono	!check out
+2014-06-25 11:57:15	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-25 12:05:44	+leel8on	!check out
+2014-06-25 12:05:45	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-25 12:19:52	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-25 12:31:03	pop_n_fresh	!ckeck in
+2014-06-25 12:41:45	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-25 12:50:56	mathuin	!check in
+2014-06-25 12:50:56	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-06-25 12:58:42	+mathuin	is there a preferred place to report problems with the workstation rebuild?
+2014-06-25 13:02:09	pwnguin	Tim 'the Toolman' Taylor
+2014-06-25 13:02:17	+mathuin	Moar Powar.
+2014-06-25 13:02:26	pwnguin	i forget the rest of that bit
+2014-06-25 13:02:37	leel8on	!check in
+2014-06-25 13:02:38	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-25 13:04:23	pwnguin	you can probably also just send mail to support@
+2014-06-25 13:04:51	+mathuin	Okay.  Thanks!
+2014-06-25 13:16:28	<--	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has quit (Quit: ElsieP)
+2014-06-25 13:26:49	+mathuin	pono++
+2014-06-25 13:37:31	pono	!check in derp
+2014-06-25 13:37:32	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-25 13:50:58	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-25 15:18:19	--	Mode #osuosl-staff [-v zubriske] by ChanServ
+2014-06-25 15:27:08	+leel8on	!check out back in about 20-30 min
+2014-06-25 15:27:09	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-25 15:50:35	leel8on	!check in
+2014-06-25 15:50:35	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-25 15:59:42	+pono	!check out
+2014-06-25 15:59:43	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-25 17:07:57	pop_n_fresh	!check out
+2014-06-25 17:07:58	--	Mode #osuosl-staff [-v pop_n_fresh] by ChanServ
+2014-06-25 17:10:43	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-25 17:36:21	chekkaa	!check in
+2014-06-25 17:36:22	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-25 17:46:10	+leel8on	!check out
+2014-06-25 17:46:11	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-25 19:05:50	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-25 19:08:07	<--	warthog9 (~warthog9@149.20.54.19) has quit (Ping timeout: 245 seconds)
+2014-06-25 19:13:43	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-06-25 21:12:40	+chekkaa	!check out
+2014-06-25 21:12:41	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-25 21:13:57	chekkaa	errr, wtf
+2014-06-25 21:14:12	chekkaa	it looks like someone tried to clock time in while I was asleep
+2014-06-25 21:14:22	chekkaa	and it said it was from Student Health Services
+2014-06-25 21:14:24	chekkaa	o_O
+2014-06-25 21:29:03	+MaraJade	!check out fail
+2014-06-25 21:29:04	--	Mode #osuosl-staff [-v MaraJade] by ChanServ
+2014-06-25 21:51:12	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-25 22:22:46	chekkaa	!check in
+2014-06-25 22:22:46	--	Mode #osuosl-staff [+v chekkaa] by ChanServ
+2014-06-25 23:15:23	pono	!check in
+2014-06-25 23:15:24	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-26 00:33:15	+pono	!check out
+2014-06-26 00:33:15	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-26 00:35:58	+chekkaa	!check out
+2014-06-26 00:35:58	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-26 08:28:10	+mathuin	!check in
+2014-06-26 08:28:11	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-06-26 08:53:52	leel8on	!check in
+2014-06-26 08:53:53	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-26 09:12:50	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-26 09:14:21	MaraJade	!check in
+2014-06-26 09:14:22	--	Mode #osuosl-staff [+v MaraJade] by ChanServ
+2014-06-26 10:28:48	pono	!check in
+2014-06-26 10:28:48	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-26 10:47:37	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-26 11:07:11	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-26 11:24:11	lrr	!check in
+2014-06-26 11:24:11	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-26 11:46:06	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-26 11:46:06	<--	leel8on (leel8on@osuosl/staff/leel8on) has quit (*.net *.split)
+2014-06-26 11:46:07	<--	Jeff_S (~jeff@osuosl/staff/Jeff-S) has quit (*.net *.split)
+2014-06-26 11:46:09	<--	warthog9 (~warthog9@149.20.54.19) has quit (*.net *.split)
+2014-06-26 11:46:10	<--	pruittt (pruittt@osuosl/staff/pruittt) has quit (*.net *.split)
+2014-06-26 11:46:10	<--	zubriske (zubriske@osuosl/staff/zubriske) has quit (*.net *.split)
+2014-06-26 11:46:10	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-26 11:46:10	<--	turnerac (turnerac@osuosl/staff/turnerac) has quit (*.net *.split)
+2014-06-26 11:46:12	<--	bkero (~bkero@osuosl/staff/bkero) has quit (*.net *.split)
+2014-06-26 11:46:12	<--	borcean (borcean@osuosl/staff/borcean) has quit (*.net *.split)
+2014-06-26 11:46:12	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-26 11:46:12	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-26 11:46:13	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-26 11:46:14	<--	bramwelt (~bramwelt@osuosl/staff/bramwelt) has quit (*.net *.split)
+2014-06-26 11:46:14	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-26 11:46:15	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-26 11:46:15	<--	chance (~ecnahc515@osuosl/staff/ecnahc515) has quit (*.net *.split)
+2014-06-26 11:46:16	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	armiller (~armiller@osuosl/staff/armiller) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-26 11:46:19	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-26 11:46:20	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-26 11:46:21	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-26 11:46:22	<--	marineam (~marineam@osuosl/staff/marineam) has quit (*.net *.split)
+2014-06-26 11:47:02	-->	warthog9 (~warthog9@149.20.54.19) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	basic` (~basic@osuosl/staff/basic) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	bramwelt (~bramwelt@osuosl/staff/bramwelt) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	bkero (~bkero@osuosl/staff/bkero) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	armiller (~armiller@osuosl/staff/armiller) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	jordane (~jordane@osuosl/staff/jordane) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	borcean (borcean@osuosl/staff/borcean) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	chance (~ecnahc515@osuosl/staff/ecnahc515) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	pono (pono@osuosl/staff/dspt) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	turnerac (turnerac@osuosl/staff/turnerac) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	kennric (kennric@osuosl/staff/kennric) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	zubriske (zubriske@osuosl/staff/zubriske) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	pruittt (pruittt@osuosl/staff/pruittt) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	bryon (bryon@osuosl/staff/bryon) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	leel8on (leel8on@osuosl/staff/leel8on) has joined #osuosl-staff
+2014-06-26 11:47:02	--	Mode #osuosl-staff [+vvvv jordane mathuin pono leel8on] by asimov.freenode.net
+2014-06-26 11:47:02	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	Jeff_S (~jeff@osuosl/staff/Jeff-S) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	marineam (~marineam@osuosl/staff/marineam) has joined #osuosl-staff
+2014-06-26 11:47:02	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-26 11:47:02	--	Mode #osuosl-staff [+vov lrr Ramereth MaraJade] by asimov.freenode.net
+2014-06-26 11:48:15	<--	irdan (reicherd@osuosl/staff/irdan) has quit (*.net *.split)
+2014-06-26 11:56:56	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-06-26 11:56:57	<--	manatee (manatee@ash.osuosl.org) has quit (*.net *.split)
+2014-06-26 11:59:41	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #osuosl-staff
+2014-06-26 12:10:10	chekkaa	!check in
+2014-06-26 12:12:25	+leel8on	!check out lunch
+2014-06-26 12:13:03	pwnguin	!check out lunch
+2014-06-26 12:13:11	+lrr	!chec kout lunch
+2014-06-26 12:13:18	+lrr	!check out lunch
+2014-06-26 12:13:30	+lrr	:\ manatee isn't here
+2014-06-26 12:19:01	-->	manatee (manatee@ash.osuosl.org) has joined #osuosl-staff
+2014-06-26 12:58:37	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-26 13:02:29	+pono	!check out lunch
+2014-06-26 13:02:29	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-26 13:08:18	+lrr	!check in
+2014-06-26 13:08:18	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-26 13:11:20	+leel8on	!check in
+2014-06-26 13:11:20	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-26 13:18:24	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-26 13:32:19	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-26 13:40:42	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-26 14:22:58	pono	!check in
+2014-06-26 14:22:59	--	Mode #osuosl-staff [+v pono] by ChanServ
+2014-06-26 15:01:27	-->	irdan (reicherd@osuosl/staff/irdan) has joined #osuosl-staff
+2014-06-26 15:27:01	+pono	!check out more db stuff later tonight
+2014-06-26 15:27:11	--	Mode #osuosl-staff [-v pono] by ChanServ
+2014-06-26 15:48:39	--	Mode #osuosl-staff [-v jordane] by ChanServ
+2014-06-26 15:56:01	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-26 16:11:04	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 240 seconds)
+2014-06-26 16:11:17	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #osuosl-staff
+2014-06-26 16:27:43	+leel8on	!check out back in 20-30min
+2014-06-26 16:27:44	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-26 16:52:59	leel8on	!check in
+2014-06-26 16:52:59	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-26 17:01:09	+lrr	!check out
+2014-06-26 17:01:09	--	Mode #osuosl-staff [-v lrr] by ChanServ
+2014-06-26 17:20:07	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-26 17:25:58	chekkaa	ok, I keep getting random clock ins and outs on empcenter from Student Health Services
+2014-06-26 17:26:00	chekkaa	wtf
+2014-06-26 17:26:29	chekkaa	did someone screw up adding a new employee or something?
+2014-06-26 17:34:30	pwnguin	you should probably inform HR / empcenter support
+2014-06-26 17:34:37	chekkaa	I am emailing them now
+2014-06-26 17:52:32	+leel8on	!check out
+2014-06-26 17:52:32	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-26 18:27:11	--	Mode #osuosl-staff [-v pwnguin] by ChanServ
+2014-06-26 20:19:50	chekkaa	!check out
+2014-06-26 20:19:51	--	Mode #osuosl-staff [-v chekkaa] by ChanServ
+2014-06-26 23:09:44	+MaraJade	!check out failure
+2014-06-26 23:09:44	--	Mode #osuosl-staff [-v MaraJade] by ChanServ
+2014-06-26 23:36:52	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 245 seconds)
+2014-06-26 23:38:59	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-27 00:05:41	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-27 00:09:13	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #osuosl-staff
+2014-06-27 07:55:33	pruittt	!check in
+2014-06-27 07:55:33	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-27 08:13:16	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-27 08:19:40	--	Mode #osuosl-staff [+v mathuin] by ChanServ
+2014-06-27 08:20:32	-->	ElsieP (~Mae@8-4.ptpg.oregonstate.edu) has joined #osuosl-staff
+2014-06-27 08:20:37	ElsieP	!check in
+2014-06-27 08:20:37	--	Mode #osuosl-staff [+v ElsieP] by ChanServ
+2014-06-27 08:29:16	--	Mode #osuosl-staff [-v Ramereth] by ChanServ
+2014-06-27 08:47:11	--	Mode #osuosl-staff [+v zubriske] by ChanServ
+2014-06-27 08:53:25	leel8on	!check in
+2014-06-27 08:53:25	--	Mode #osuosl-staff [+v leel8on] by ChanServ
+2014-06-27 09:04:54	--	Mode #osuosl-staff [+v jordane] by ChanServ
+2014-06-27 09:11:51	MaraJade	!check in
+2014-06-27 09:11:52	--	Mode #osuosl-staff [+v MaraJade] by ChanServ
+2014-06-27 09:55:21	--	Mode #osuosl-staff [+v pwnguin] by ChanServ
+2014-06-27 10:27:38	--	Mode #osuosl-staff [+v Ramereth] by ChanServ
+2014-06-27 11:32:18	+pruittt	!check out lunch
+2014-06-27 11:32:18	--	Mode #osuosl-staff [-v pruittt] by ChanServ
+2014-06-27 12:00:29	+MaraJade	!check out lunch
+2014-06-27 12:00:30	--	Mode #osuosl-staff [-v MaraJade] by ChanServ
+2014-06-27 12:29:36	+leel8on	!check out lunch
+2014-06-27 12:30:23	pruittt	!check in
+2014-06-27 12:30:59	--	Mode #osuosl-staff [-v leel8on] by ChanServ
+2014-06-27 12:31:16	--	Mode #osuosl-staff [+v pruittt] by ChanServ
+2014-06-27 12:36:03	jnoah	!check in
+2014-06-27 12:36:04	--	Mode #osuosl-staff [+v jnoah] by ChanServ
+2014-06-27 12:43:12	<--	bkero (~bkero@osuosl/staff/bkero) has quit (Ping timeout: 240 seconds)
+2014-06-27 12:43:12	<--	borcean (borcean@osuosl/staff/borcean) has quit (Ping timeout: 240 seconds)
+2014-06-27 12:43:13	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (Ping timeout: 240 seconds)
+2014-06-27 12:43:23	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #osuosl-staff
+2014-06-27 12:51:59	MaraJade	!check in
+2014-06-27 12:52:10	--	Mode #osuosl-staff [+v MaraJade] by ChanServ
+2014-06-27 13:14:26	lrr	!check in
+2014-06-27 13:14:27	--	Mode #osuosl-staff [+v lrr] by ChanServ
+2014-06-27 13:47:26	-->	Ramereth|home (~lance@osuosl/staff/ramereth) has joined #osuosl-staff
+2014-06-27 13:47:26	--	Mode #osuosl-staff [+o Ramereth|home] by ChanServ
+2014-06-27 13:52:30	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-27 14:15:08	--	Ramereth|home is now known as Ramereth
+2014-06-27 14:16:07	--	bryon is now known as bkero
+2014-06-27 14:16:23	--	bkero is now known as bryon
+2014-06-27 14:37:38		irc: disconnected from server
+2014-06-27 14:38:14	--	#osuosl-staff: Cannot join channel (+i) - you must be invited

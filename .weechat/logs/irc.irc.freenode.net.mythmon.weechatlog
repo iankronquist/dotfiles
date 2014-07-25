@@ -1,0 +1,47 @@
+2014-06-09 13:02:17	mythmon	ping
+2014-06-09 13:04:52	mythmon	Would you be available to get on a video conference call with deanj, me, and some other sumo engineers next monday? (the 16th)
+2014-06-09 14:07:05	muricula	I would like to be, but I will likely be camping.
+2014-06-09 14:07:31	mythmon	ah
+2014-06-09 14:07:53	mythmon	when are you done camping?
+2014-06-09 14:10:12	muricula	I'm not 100% sure, I think that Friday. Can I get back to you later with more details?
+2014-06-09 14:18:19	mythmon	oh sure
+2014-06-09 14:18:40	mythmon	i was hoping to give you some input in the intern project selection, so dean doesn't steal the good project :)
+2014-06-09 14:21:11	muricula	I'm intersted in that Bayesian spam filter you were talking about...
+2014-06-09 14:21:25	mythmon	ok
+2014-06-09 14:21:44	mythmon	friday might be too long, since that's already a week into dean's project.
+2014-06-09 14:21:52	mythmon	s/project/internship/
+2014-06-09 14:22:19	mythmon	maybe we could talk about it this week, or I can just speak for you when i talk to dean and figure things out.
+2014-06-09 14:23:52	muricula	okay
+2014-06-09 14:24:30	mythmon	enjoy your camping!
+2014-06-09 14:26:30	muricula	thanks
+2014-06-12 11:19:51	muricula	Hey, I can make a meeting if it is early in the morning on Monday. Would 8:00AM work?
+2014-06-12 11:21:36	mythmon	that would probably be more trouble than it's worth.
+2014-06-12 11:22:07	mythmon	i talked to dean, i think i have figured out where we are going with projects.
+2014-06-12 11:22:47	muricula	Alright thank you.
+2014-06-17 01:19:51	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 13:19:48	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-21 09:40:29	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-21 10:40:05	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 01:08:14	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 10:53:37	muricula	What is appropriate dress for work? Is there anything in particular to wear or avoid wearing?
+2014-06-22 10:53:37	--	[mythmon] is away: Away
+2014-06-22 11:18:49	mythmon	most anything is fine.
+2014-06-22 11:19:44	mythmon	i generally wear jeans and tshirts.
+2014-06-22 11:22:33	muricula	thanks
+2014-06-22 15:10:11	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 17:04:37	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-24 11:33:27	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-25 13:19:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Read error: Connection reset by peer)
+2014-06-26 11:46:17	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-27 14:37:38		irc: disconnected from server
+2014-06-30 18:24:42	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-07-02 15:13:20	muricula	Hey, I can't find where test data/fixtures are being generated in the input fjord/feedback app
+2014-07-02 15:14:24	mythmon	input doesn't use fixtures, for the most part.
+2014-07-02 15:14:40	mythmon	generally tests that need data create the data they need, we have some helpers for that.
+2014-07-02 15:16:12	muricula	Let me look at the code again
+2014-07-02 15:25:35	mythmon	figure it out?
+2014-07-02 15:34:30	muricula	yes thanks
+2014-07-02 15:34:39	mythmon	cool

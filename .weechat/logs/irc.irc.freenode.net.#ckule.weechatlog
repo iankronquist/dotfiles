@@ -1,0 +1,2165 @@
+2014-05-29 17:07:01	-->	muricula (kronquii@osuosl/staff/muricula) has joined #ckule
+2014-05-29 17:07:01	--	Topic for #ckule is "Main Site: http://lojban.org/ | Lojban Only Channel: #jbosnu | Classes for beginners: #ckule | Word Lookup: http://vlasisku.lojban.org/ | Parse Checker: http://lojban.org/jboski | Offline lojbanic dictionary https://sites.google.com/site/slovlacukt/"
+2014-05-29 17:07:01	--	Topic set by xalbo (~eimi@mail.digitalkingdom.org) on Fri, 12 Apr 2013 07:02:25
+2014-05-29 17:07:01	--	Nicks #ckule: [@ChanServ @xalbo _andares banseljaj brendyyn ByronJohnson cipra cjay coyo dfedde djancak dRbiG edunham Erstarrung gerna gleki grimles icedp Imami jacus jnoah kantu korvys labyxu`e lahwran latro`a ldlework lukhas lunra mari_kiri matais mattp melbi_mlatu_ menturi mlatylorxu muricula mythmon nikis pendorid phma_ phryk pierreghz poelzi pythonsnake Rhymor rossi_ ryivhnn simpson sohum Sxem Tajha Tene TrueShiftBlue tsani tuningmind uuZIT v4hn_ valsi vlaste vmBenLubar wayneeseguin xatra xunlohu zahlman ZeReEbRiL]
+2014-05-29 17:07:01	--	Channel #ckule: 65 nicks (2 ops, 0 halfops, 0 voices, 63 normals)
+2014-05-29 17:07:03	--	Channel created on Fri, 12 Nov 2010 09:55:58
+2014-05-29 17:16:50	<--	rossi_ (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-29 17:24:25	<--	uuZIT (~uuZIT@p549FA16F.dip0.t-ipconnect.de) has quit (Quit: uuZIT)
+2014-05-29 17:39:02	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-05-29 17:43:43	-->	rossi_ (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-29 18:33:20	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-29 18:52:17	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-29 18:55:08	<--	rossi_ (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Quit: WeeChat 0.4.3)
+2014-05-29 18:55:47	<--	vmBenLubar (~vmBenLuba@mke-67-208-60-79.milwpc.com) has quit (Ping timeout: 240 seconds)
+2014-05-29 18:57:50	-->	vmBenLubar (~vmBenLuba@mke-66-97-126-182.milwpc.com) has joined #ckule
+2014-05-29 19:08:25	-->	v4hn (~v4hn@brln-4dbc156b.pool.mediaWays.net) has joined #ckule
+2014-05-29 19:09:19	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2014-05-29 19:11:31	<--	v4hn_ (~v4hn@brln-4d0cc4f9.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-05-29 19:39:20	<--	Imami (uid22580@gateway/web/irccloud.com/x-itronurbocnlqaha) has quit (Quit: Connection closed for inactivity)
+2014-05-29 20:11:43	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-05-29 21:00:11	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-05-29 21:29:31	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-ahyrvtrikcrxdyjl) has quit (Quit: Connection closed for inactivity)
+2014-05-29 21:34:04	<--	Sxem (~Sxem@pool-71-251-54-23.washdc.east.verizon.net) has quit (Ping timeout: 258 seconds)
+2014-05-29 22:13:24	-->	Rhymor_ (~felix@e180111177.adsl.alicedsl.de) has joined #ckule
+2014-05-29 22:16:45	<--	Rhymor (~felix@e180101199.adsl.alicedsl.de) has quit (Ping timeout: 276 seconds)
+2014-05-29 22:16:46	--	Rhymor_ is now known as Rhymor
+2014-05-29 22:20:41	-->	Taywee (~taylor@2601:1:8b80:10c5:3285:a9ff:fe90:4306) has joined #ckule
+2014-05-29 22:26:36	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-lfxysnknxtcriuos) has joined #ckule
+2014-05-29 22:45:52	<--	phma_ (~phma@2001:5b0:2143:d020:226:9eff:fec5:d505) has quit (Read error: Connection reset by peer)
+2014-05-29 22:46:28	-->	phma_ (~phma@2001:5b0:2143:d020:226:9eff:fec5:d505) has joined #ckule
+2014-05-29 22:51:20	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-29 22:52:18	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-29 22:53:02	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Client Quit)
+2014-05-29 22:53:37	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-29 23:07:50	<--	phma_ (~phma@2001:5b0:2143:d020:226:9eff:fec5:d505) has quit (Read error: Connection reset by peer)
+2014-05-29 23:08:09	-->	phma_ (~phma@2001:5b0:2143:d020:226:9eff:fec5:d505) has joined #ckule
+2014-05-29 23:08:34	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-05-29 23:51:45	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-05-30 00:28:44	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 255 seconds)
+2014-05-30 01:03:54		irc: disconnected from server
+2014-05-30 01:04:46	-->	muricula (kronquii@shell.onid.oregonstate.edu) has joined #ckule
+2014-05-30 01:04:46	--	Topic for #ckule is "Main Site: http://lojban.org/ | Lojban Only Channel: #jbosnu | Classes for beginners: #ckule | Word Lookup: http://vlasisku.lojban.org/ | Parse Checker: http://lojban.org/jboski | Offline lojbanic dictionary https://sites.google.com/site/slovlacukt/"
+2014-05-30 01:04:46	--	Topic set by xalbo (~eimi@mail.digitalkingdom.org) on Fri, 12 Apr 2013 07:02:25
+2014-05-30 01:04:46	--	Nicks #ckule: [@ChanServ @xalbo _andares banseljaj brendyyn ByronJohnson cipra cjay cntrational coyo dfedde djancak dRbiG edunham Erstarrung gerna gleki icedp Imami jacus jnoah kantu korvys labyxu`e lahwran ldlework lukhas lunra mari_kiri matais mattp melbi_mlatu_ muricula mythmon nikis pendorid phma_ phryk pierreghz poelzi pythonsnake Rhymor ryivhnn simpson sohum Tajha Taywee Tene TheSupernatural TrueShiftBlue tsani tuningmind v4hn valsi vlaste vmBenLubar wayneeseguin xatra xunlohu zahlman ZeReEbRiL]
+2014-05-30 01:04:46	--	Channel #ckule: 61 nicks (2 ops, 0 halfops, 0 voices, 59 normals)
+2014-05-30 01:05:14	--	Channel created on Fri, 12 Nov 2010 09:55:58
+2014-05-30 01:24:26	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-30 02:00:49	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-05-30 03:01:09	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-05-30 03:02:35	-->	palo (~palo@f052099231.adsl.alicedsl.de) has joined #ckule
+2014-05-30 03:07:20	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-05-30 03:08:15	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-05-30 03:11:06	-->	Ilmen (~kvirc@128.140.135.40) has joined #ckule
+2014-05-30 03:38:15	--	brendyyn is now known as brendyn
+2014-05-30 03:44:12	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-05-30 03:49:26	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-05-30 03:53:47	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-05-30 04:35:58	<--	Ilmen (~kvirc@128.140.135.40) has quit (Ping timeout: 240 seconds)
+2014-05-30 04:39:20	<--	Imami (uid22580@gateway/web/irccloud.com/x-uprpwjdkwchpwxgd) has quit (Quit: Connection closed for inactivity)
+2014-05-30 04:50:38	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-30 05:03:03	-->	Sxem (~Sxem@pool-71-251-54-23.washdc.east.verizon.net) has joined #ckule
+2014-05-30 05:06:17	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-05-30 05:09:57	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-05-30 05:23:59	-->	Ilmen (~kvirc@128.140.135.40) has joined #ckule
+2014-05-30 05:26:09	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-05-30 05:26:49	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: zzz)
+2014-05-30 05:37:06	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-05-30 06:05:06	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 06:16:42	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-30 06:22:37	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-05-30 06:41:37	-->	phma__ (~phma@2001:5b0:2144:ceb0:226:9eff:fec5:d505) has joined #ckule
+2014-05-30 06:43:25	<--	phma_ (~phma@2001:5b0:2143:d020:226:9eff:fec5:d505) has quit (Ping timeout: 252 seconds)
+2014-05-30 07:00:42	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 245 seconds)
+2014-05-30 07:08:04	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-05-30 07:17:14	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-30 07:21:15	<--	edunham (dunhame@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-30 07:21:15	-->	edunham (dunhame@osuosl/staff/edunham) has joined #ckule
+2014-05-30 07:29:57	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 07:46:17	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Remote host closed the connection)
+2014-05-30 07:50:40	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-05-30 08:24:55	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-05-30 08:29:09	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Remote host closed the connection)
+2014-05-30 08:36:52	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-05-30 08:37:14	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-05-30 08:41:12	-->	alynpost (~a@50-193-232-238-static.hfc.comcastbusiness.net) has joined #ckule
+2014-05-30 09:14:37	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: zzz)
+2014-05-30 09:17:08	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-30 09:20:49	-->	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has joined #ckule
+2014-05-30 09:44:13	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 09:49:23	-->	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-05-30 09:49:53	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Ping timeout: 255 seconds)
+2014-05-30 09:53:55	<--	palo (~palo@f052099231.adsl.alicedsl.de) has quit (Ping timeout: 260 seconds)
+2014-05-30 09:56:13	grimles	coi ro do
+2014-05-30 09:57:11	durka42	coi kelcnrocambo
+2014-05-30 09:59:40	grimles	.u'i la'e xamgu
+2014-05-30 10:00:20	durka42	la'e di'u *
+2014-05-30 10:00:30	grimles	oops
+2014-05-30 10:00:40	grimles	.u'i la'e si di'u
+2014-05-30 10:02:47	grimles	.i mi nitcu lo ckafi
+2014-05-30 10:04:10	durka42	lo ckafi cu traji
+2014-05-30 10:09:02	grimles	How would I say "I need *more* coffee?
+2014-05-30 10:10:55	durka42	hmm
+2014-05-30 10:11:10	durka42	mi djica lo nu lo ckafi cu zenba?
+2014-05-30 10:11:28	durka42	that's kind of awkward phrasing
+2014-05-30 10:11:34	<--	xatra (~xatra@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2014-05-30 10:12:12	durka42	.ei mi zenba lo ka ckafi pinxe "I need to increase in the property of coffee-drink"
+2014-05-30 10:12:29	tsani	^ ie.
+2014-05-30 10:12:41	durka42	knew I'd get your approval with a {ka}
+2014-05-30 10:12:45	@xalbo	https://groups.google.com/forum/#!searchin/lojban/baby$20words$20more/lojban/SLEJ0_H5j9E/tom3EcUVEO8J
+2014-05-30 10:12:49	tsani	(should be {ni} IMO.)
+2014-05-30 10:13:05	tsani	If you believe in binary ka, then zenba-ka = binxo
+2014-05-30 10:13:40	durka42	so then {ni} is better
+2014-05-30 10:13:45	tsani	or you can use extra-fancy indirect questions
+2014-05-30 10:13:51	durka42	tsani: I just learned yesterday that you consider binxo2 and galfi3 to be ka
+2014-05-30 10:13:58	tsani	:p
+2014-05-30 10:14:11	tsani	Which little birdie told you that?
+2014-05-30 10:14:22	durka42	latro'a
+2014-05-30 10:15:11	gleki	mi nitcu za'u lo ckafi
+2014-05-30 10:15:36	durka42	that's what I thought of first but that means "I need more of the coffees"
+2014-05-30 10:15:43	@xalbo	I like selpa'i's suggestion of {ziljmina} at the end of that thread.
+2014-05-30 10:17:23	gleki	durka42: how does your translation differs from what was intended?
+2014-05-30 10:18:16	gleki	in fact it is to be trnslated as "I need more of the quantities of coffee"
+2014-05-30 10:18:54	@xalbo	The outer quantifier seems to require that it be countable.
+2014-05-30 10:19:31	durka42	mi nitcu za'u kafka'u
+2014-05-30 10:20:34	<--	tsani (~tsani@bas2-montreal48-1128592465.dsl.bell.ca) has quit (Remote host closed the connection)
+2014-05-30 10:34:06	simpson	coi
+2014-05-30 10:35:33	simpson	mi pu cilre le valsi be zo "e'osai"
+2014-05-30 10:35:59	durka42	lu e'osai li'u *
+2014-05-30 10:36:02	durka42	coi
+2014-05-30 10:36:04	simpson	Not sure how well I put that sentence together. Anyway, {e'osai} is still {e'o sai}, right? So it's stressed as E'o sai?
+2014-05-30 10:36:24	simpson	Ah, right, it's still two words.
+2014-05-30 10:36:28	durka42	yeah, I believe so
+2014-05-30 10:36:43	durka42	also valsi2 is the meaning of the word
+2014-05-30 10:37:24	simpson	Ah. Should I have used {le nu} or {tu'a} to make the sumti then?
+2014-05-30 10:37:56	durka42	well, if you wanted "I learned the word {e'osai}" then I would use {no'u}
+2014-05-30 10:37:58	durka42	valsi no'u
+2014-05-30 10:37:59	valsi	no'u = non-restrictive appositive phrase marker: which incidentally is the same thing as ...
+2014-05-30 10:38:13	durka42	or just noi
+2014-05-30 10:38:17	durka42	mi cilre lu e'osai li'u noi valsi
+2014-05-30 10:38:44	durka42	oh except cilre2 is listed as a {du'u}… so maybe you do need tu'a
+2014-05-30 10:39:02	simpson	"I learned that..."
+2014-05-30 10:39:04	simpson	Yeah.
+2014-05-30 10:39:48	simpson	I still don't grok {tu'a}. It doesn't really specify how it works, but it's derived from the word for ground... it "grounds" an abstract bridi into a specific sumti?
+2014-05-30 10:42:25	durka42	hmm, that could be the etymology
+2014-05-30 10:42:34	durka42	{tu'a ko'a} expands to {lo su'u ko'a co'e}
+2014-05-30 10:43:14	@xalbo	The word {tu'a} has no relationship to the rafsi -tu'a- for {tumla}.
+2014-05-30 10:43:43	simpson	Oh.
+2014-05-30 10:43:54	@xalbo	Well, I can't disprove that that was part of the etymology, and it's an interesting mnemonic, but other than that, no relationship.
+2014-05-30 10:44:38	@xalbo	(This is why I try to be careful with the quotation marks I use. http://www.lojban.org/tiki/Writing+conventions )
+2014-05-30 10:44:39	simpson	I've been leaning a bit on the idea that some cmavo are etymologically related to gismu. Maybe it's bad, but I can't help but see a link between {pe'i} and {pensi} or {ka'e} and {kakne}.
+2014-05-30 10:44:49	durka42	ie
+2014-05-30 10:45:56	@xalbo	I think they're handy as mnemonics, but nothing else. {pe'i} is more closely related semantically to {jinvi} than to {pensi}, for instance.
+2014-05-30 10:49:22	@xalbo	ta'o nai, {.e'osai} is {.e'o sai}, yes. As far as stress goes, {.E'osai} would probably be the most common, but stress on cmavo is relatively free. You're never required to stress any syllable in cmavo, you can freely stress or not any non-final syllable, and you can often stress the final syllable too, except when you can't (specifically, when immediately followed by a tri-syllabic or longer brivla).
+2014-05-30 10:51:16	@xalbo	Yes, that's complicated. In short, you're permitted and always safe to stress the penultimate syllable in multisyllabic cmavo and leave monosyllabic cmavo unstressed, but there's more freedom than that.
+2014-05-30 10:52:09	simpson	ki'e
+2014-05-30 11:02:11	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-05-30 11:17:35	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-30 11:27:58	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-30 11:44:34	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 12:00:20	<--	phma__ (~phma@2001:5b0:2144:ceb0:226:9eff:fec5:d505) has quit (Read error: Connection reset by peer)
+2014-05-30 12:02:01	-->	phma__ (~phma@2001:5b0:215a:b0c0:226:9eff:fec5:d505) has joined #ckule
+2014-05-30 12:04:03	<--	Rhymor (~felix@e180111177.adsl.alicedsl.de) has left #ckule
+2014-05-30 12:06:58	-->	infoscav (~mycroft@185.3.146.213) has joined #ckule
+2014-05-30 12:35:38	<--	djancak (greetings@unaffiliated/djancak) has quit (Ping timeout: 240 seconds)
+2014-05-30 12:35:50	-->	Djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has joined #ckule
+2014-05-30 12:35:50	<--	Djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has quit (Changing host)
+2014-05-30 12:35:50	-->	Djancak (greetings@unaffiliated/djancak) has joined #ckule
+2014-05-30 12:35:57	--	Djancak is now known as djancak
+2014-05-30 12:49:33	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-lfxysnknxtcriuos) has quit (Quit: Connection closed for inactivity)
+2014-05-30 13:03:13	-->	Fauve (~Fauve@unaffiliated/fauve) has joined #ckule
+2014-05-30 13:15:32	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-05-30 13:17:00	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-05-30 13:18:02	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-30 13:20:47	-->	alynpost_ (~a@50-193-232-238-static.hfc.comcastbusiness.net) has joined #ckule
+2014-05-30 13:21:31	<--	alynpost (~a@50-193-232-238-static.hfc.comcastbusiness.net) has quit (Write error: Broken pipe)
+2014-05-30 13:21:32	<--	v4hn (~v4hn@brln-4dbc156b.pool.mediaWays.net) has quit (Write error: Broken pipe)
+2014-05-30 13:21:44	-->	v4hn (~v4hn@brln-4dbc156b.pool.mediaWays.net) has joined #ckule
+2014-05-30 13:23:49	<--	djancak (greetings@unaffiliated/djancak) has quit (Ping timeout: 257 seconds)
+2014-05-30 13:24:33	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-05-30 13:24:35	-->	Djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has joined #ckule
+2014-05-30 13:24:35	<--	Djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has quit (Changing host)
+2014-05-30 13:24:35	-->	Djancak (greetings@unaffiliated/djancak) has joined #ckule
+2014-05-30 13:24:42	--	Djancak is now known as djancak
+2014-05-30 13:37:39	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Remote host closed the connection)
+2014-05-30 13:41:37	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-05-30 13:45:00	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 14:02:22	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-05-30 14:02:56	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-30 14:04:19	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Read error: Connection reset by peer)
+2014-05-30 14:08:12	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-05-30 14:19:39	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-30 14:19:59	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-05-30 14:31:03	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-05-30 14:40:26	<--	alynpost_ (~a@50-193-232-238-static.hfc.comcastbusiness.net) has quit (Quit: leaving)
+2014-05-30 14:53:12	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-30 15:17:23	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-30 15:18:10	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 15:22:37	<--	Ilmen (~kvirc@128.140.135.40) has quit (Ping timeout: 252 seconds)
+2014-05-30 15:28:59	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-05-30 15:40:42	-->	Imami (uid22580@gateway/web/irccloud.com/x-diwclgitrhzgtkpt) has joined #ckule
+2014-05-30 15:53:32	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Quit: Leaving.)
+2014-05-30 16:11:35	-->	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has joined #ckule
+2014-05-30 16:25:48	<--	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has quit (Ping timeout: 240 seconds)
+2014-05-30 16:50:58	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-05-30 17:17:17	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-30 17:29:01	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Quit: lomicmenes)
+2014-05-30 17:33:46	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-05-30 17:42:52	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-05-30 17:44:32	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 17:46:40	<--	Fauve (~Fauve@unaffiliated/fauve) has quit (Quit: Vulnerant omnes, ultima necat.)
+2014-05-30 19:01:11	<--	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has quit (Ping timeout: 265 seconds)
+2014-05-30 19:07:07	-->	v4hn_ (~v4hn@brln-4d0cdbfe.pool.mediaWays.net) has joined #ckule
+2014-05-30 19:08:35	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 258 seconds)
+2014-05-30 19:10:19	<--	v4hn (~v4hn@brln-4dbc156b.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-05-30 19:17:44	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-30 19:44:51	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-30 20:46:03	<--	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-05-30 20:46:03	<--	jacus (~quassel@216.9.11.25) has quit (*.net *.split)
+2014-05-30 20:46:03	<--	cipra (~nodebot@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-05-30 20:46:03	<--	xalbo (~eimi@mail.digitalkingdom.org) has quit (*.net *.split)
+2014-05-30 20:46:04	<--	lukhas (~lucas@bearstech/lukhas) has quit (*.net *.split)
+2014-05-30 20:46:09	-->	lukhas (~lucas@rincevent.net) has joined #ckule
+2014-05-30 20:46:10	-->	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-05-30 20:46:51	<--	lukhas (~lucas@rincevent.net) has quit (Changing host)
+2014-05-30 20:46:51	-->	lukhas (~lucas@bearstech/lukhas) has joined #ckule
+2014-05-30 20:46:51	-->	cipra (~nodebot@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-05-30 20:47:12	-->	jacus (~quassel@216.9.11.25) has joined #ckule
+2014-05-30 20:48:18	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-05-30 20:51:10	-->	xalbo (~eimi@mail.digitalkingdom.org) has joined #ckule
+2014-05-30 20:51:10	--	Mode #ckule [+o xalbo] by ChanServ
+2014-05-30 20:53:30	-->	gleki_ (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-05-30 20:59:00	<--	djancak (greetings@unaffiliated/djancak) has quit (Excess Flood)
+2014-05-30 20:59:21	<--	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (Write error: Broken pipe)
+2014-05-30 20:59:21	-->	Djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has joined #ckule
+2014-05-30 20:59:21	<--	Djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has quit (Changing host)
+2014-05-30 20:59:21	-->	Djancak (greetings@unaffiliated/djancak) has joined #ckule
+2014-05-30 20:59:25	--	Djancak is now known as djancak
+2014-05-30 21:00:25	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-30 21:00:27	--	mythmon_ is now known as mythmon
+2014-05-30 21:01:07	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Quit: WeeChat 0.4.3)
+2014-05-30 21:21:32	<--	Sxem (~Sxem@pool-71-251-54-23.washdc.east.verizon.net) has quit (Ping timeout: 255 seconds)
+2014-05-30 21:35:00	-->	1JTAAAAAR (~sidju@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-05-30 22:16:43	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-05-30 22:27:10	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-05-30 22:54:04	-->	palo (~palo@f052100026.adsl.alicedsl.de) has joined #ckule
+2014-05-30 22:58:32	--	gleki_ is now known as gleki
+2014-05-30 23:00:38	<--	1JTAAAAAR (~sidju@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-05-30 23:24:52	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-05-31 00:14:06	-->	TheSuper_ (~thesupern@98.255.110.185) has joined #ckule
+2014-05-31 00:14:06	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Read error: Connection reset by peer)
+2014-05-31 00:40:25	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-05-31 01:05:07	<--	djancak (greetings@unaffiliated/djancak) has quit
+2014-05-31 01:06:10	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-31 01:22:48	<--	TheSuper_ (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-05-31 01:38:44	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-05-31 01:47:59	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-05-31 02:03:50	-->	korvys_ (~korvys@59.167.212.242) has joined #ckule
+2014-05-31 02:06:02	<--	korvys (~korvys@59.167.212.242) has quit (Ping timeout: 265 seconds)
+2014-05-31 02:41:28	-->	banselja- (~imami@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-05-31 02:41:58	-->	palo_ (~palo@f052100026.adsl.alicedsl.de) has joined #ckule
+2014-05-31 02:44:15	<--	palo (~palo@f052100026.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2014-05-31 02:44:16	<--	Taywee (~taylor@2601:1:8b80:10c5:3285:a9ff:fe90:4306) has quit (Ping timeout: 265 seconds)
+2014-05-31 02:44:16	<--	banseljaj (~imami@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (Ping timeout: 265 seconds)
+2014-05-31 02:44:35	--	banselja- is now known as banseljaj
+2014-05-31 02:45:15	-->	Taywee (~taylor@2601:1:8b80:10c5:3285:a9ff:fe90:4306) has joined #ckule
+2014-05-31 03:08:27	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-05-31 03:23:40	-->	Ilmen (~kvirc@37.252.203.178) has joined #ckule
+2014-05-31 03:39:44	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-05-31 03:49:28	<--	Ilmen (~kvirc@37.252.203.178) has quit (Ping timeout: 245 seconds)
+2014-05-31 04:12:56	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-31 04:23:38	-->	Ilmen (~kvirc@37.252.203.178) has joined #ckule
+2014-05-31 05:00:43	<--	Ilmen (~kvirc@37.252.203.178) has quit (Ping timeout: 245 seconds)
+2014-05-31 05:15:37	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-31 05:21:42	-->	Ilmen (~kvirc@37.252.203.178) has joined #ckule
+2014-05-31 05:22:04	Ilmen	coi
+2014-05-31 05:24:22	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-05-31 05:40:06	-->	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has joined #ckule
+2014-05-31 05:50:18	<--	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has quit (Ping timeout: 240 seconds)
+2014-05-31 05:52:22	-->	infoscav_ (~mycroft@5.22.135.149) has joined #ckule
+2014-05-31 05:53:57	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-31 05:54:59	<--	infoscav (~mycroft@185.3.146.213) has quit (Ping timeout: 255 seconds)
+2014-05-31 06:03:17	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-05-31 06:12:51	-->	Fauve (~Fauve@unaffiliated/fauve) has joined #ckule
+2014-05-31 06:39:09	-->	camxes (~nodebot@37.252.203.178) has joined #ckule
+2014-05-31 06:40:27	-->	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has joined #ckule
+2014-05-31 06:52:23	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-31 06:59:33	-->	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has joined #ckule
+2014-05-31 07:01:34	-->	wilfredh (uid159@gateway/web/irccloud.com/x-fankyxbzhlwxabfj) has joined #ckule
+2014-05-31 07:05:32	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-05-31 07:08:18	<--	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has quit (Ping timeout: 240 seconds)
+2014-05-31 07:09:19	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Read error: Connection reset by peer)
+2014-05-31 07:09:38	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-05-31 07:17:57	-->	djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has joined #ckule
+2014-05-31 07:17:57	<--	djancak (greetings@c-50-130-27-181.hsd1.al.comcast.net) has quit (Changing host)
+2014-05-31 07:17:57	-->	djancak (greetings@unaffiliated/djancak) has joined #ckule
+2014-05-31 07:19:41	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-31 07:39:18	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-05-31 07:48:42	-->	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has joined #ckule
+2014-05-31 07:58:50	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-05-31 08:10:13	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Read error: Connection reset by peer)
+2014-05-31 08:12:35	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2014-05-31 08:13:10	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-05-31 08:48:04	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-05-31 09:07:27	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-05-31 09:12:30	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-31 09:23:08	<--	wilfredh (uid159@gateway/web/irccloud.com/x-fankyxbzhlwxabfj) has quit (Quit: Connection closed for inactivity)
+2014-05-31 09:25:17	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-05-31 09:40:48	<--	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has quit (Ping timeout: 240 seconds)
+2014-05-31 10:28:53	-->	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has joined #ckule
+2014-05-31 10:30:21	<--	Fauve (~Fauve@unaffiliated/fauve) has quit (Quit: Vulnerant omnes, ultima necat.)
+2014-05-31 10:32:11	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Quit: lomicmenes)
+2014-05-31 10:32:34	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-05-31 10:34:41	<--	Ilmen (~kvirc@37.252.203.178) has quit (Ping timeout: 240 seconds)
+2014-05-31 10:34:59	<--	camxes (~nodebot@37.252.203.178) has quit (Ping timeout: 265 seconds)
+2014-05-31 10:53:04	simpson	coi
+2014-05-31 10:54:24	durka42	coi
+2014-05-31 10:55:32	simpson	Finding the right tanru is hard. I am thinking of translating the {glico valsi} "stardust".
+2014-05-31 10:55:42	simpson	{tarci} is definitely stars and stellar stuff.
+2014-05-31 10:55:43	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 245 seconds)
+2014-05-31 10:56:01	simpson	But is {pulce} or {purmo} the better way to get dust?
+2014-05-31 10:57:20	durka42	hmm
+2014-05-31 10:57:25	durka42	and stardust isn't really dust at all :p
+2014-05-31 10:57:55	simpson	Right! That's why I'm leaning towards {se tarci pulce} or {tarci pulce}, the pulverized remains of stars.
+2014-05-31 10:58:09	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-31 10:58:09	durka42	I think either of them would get the point across
+2014-05-31 10:58:41	durka42	some people might tell you to include pe'a
+2014-05-31 10:58:45	durka42	I'm not sure how often that's really used
+2014-05-31 10:58:46	durka42	valsi pe'a
+2014-05-31 10:58:47	valsi	pe'a = marks a construct as figurative (non-literal/metaphorical) speech/text.
+2014-05-31 10:58:52	simpson	{ma'a se tarci pulce}, "stardust we are."
+2014-05-31 10:59:06	simpson	Well, it is literal, isn't it?
+2014-05-31 11:00:35	durka42	yea pretty much :)
+2014-05-31 11:00:37	durka42	why {se tarci}?
+2014-05-31 11:00:56	simpson	Ah, I had misread {tarci}'s places.
+2014-05-31 11:01:00	simpson	valsi: tarci
+2014-05-31 11:01:01	valsi	tarci = x1 is a star/sun with stellar properties x2.
+2014-05-31 11:01:23	simpson	So I really do want x1 instead of x2.
+2014-05-31 11:02:49	durka42	yes
+2014-05-31 11:05:29	simpson	ki'e
+2014-05-31 11:12:59	Gleki_	stardust we are = {tarci pulce fa ma'a} (to preserve the order of words)
+2014-05-31 11:13:26	simpson	je'e
+2014-05-31 11:13:43	simpson	It just doesn't have the same cadence, so I wasn't as worried about whether it'd sound as pretty.
+2014-05-31 11:13:50	simpson	Also Lojban just tends to be pretty.
+2014-05-31 11:14:07	durka42	?
+2014-05-31 11:14:13	durka42	I always heard it as "we are stardust"
+2014-05-31 11:15:04	simpson	Either Carl Sagan or The Flower Kings said it as "stardust we are", and I don't remember who said it first.
+2014-05-31 11:15:21	simpson	...Wow, that sentence was a disaster.
+2014-05-31 11:15:24	durka42	je'e
+2014-05-31 11:16:52	simpson	le glico bangu cu nandu
+2014-05-31 11:41:38	<--	vlaste (~vlaste@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2014-05-31 11:41:51	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-05-31 11:45:44	-->	Ilmen (~kvirc@37.252.203.178) has joined #ckule
+2014-05-31 11:46:48	<--	Gleki_ (42f95158@gateway/web/freenode/ip.66.249.81.88) has quit (Ping timeout: 240 seconds)
+2014-05-31 12:03:11	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Quit: WeeChat 0.4.3)
+2014-05-31 12:55:47	-->	cntrational (~cntration@219.64.68.4) has joined #ckule
+2014-05-31 13:12:47	<--	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has quit (Quit: Leaving.)
+2014-05-31 13:13:55	-->	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has joined #ckule
+2014-05-31 13:21:09	<--	cntrational (~cntration@219.64.68.4) has quit (Ping timeout: 252 seconds)
+2014-05-31 13:25:54	-->	cntrational (~cntration@14.99.164.19) has joined #ckule
+2014-05-31 13:34:10	-->	Fauve (~Fauve@unaffiliated/fauve) has joined #ckule
+2014-05-31 13:41:37	<--	djancak (greetings@unaffiliated/djancak) has quit
+2014-05-31 13:44:09	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-31 14:29:30	-->	islav (~islav@alexburka.com) has joined #ckule
+2014-05-31 14:29:30	-->	anreg (~anreg@alexburka.com) has joined #ckule
+2014-05-31 14:30:53	-->	djancak (greetings@unaffiliated/djancak) has joined #ckule
+2014-05-31 14:39:05	<--	vmBenLubar (~vmBenLuba@mke-66-97-126-182.milwpc.com) has quit (Read error: Connection reset by peer)
+2014-05-31 14:49:00	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Quit: lomicmenes)
+2014-05-31 14:51:51	-->	vmBenLubar (~vmBenLuba@mke-66-97-126-182.milwpc.com) has joined #ckule
+2014-05-31 14:53:00	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Read error: Connection reset by peer)
+2014-05-31 14:53:37	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-05-31 14:57:34	-->	grimles (4c784bba@gateway/web/freenode/ip.76.120.75.186) has joined #ckule
+2014-05-31 14:57:59	grimles	coi
+2014-05-31 14:59:51	durka42	coi dricau
+2014-05-31 15:00:33	grimles	Take a look at more of the rock-paper-scissors translation?
+2014-05-31 15:00:46	durka42	re'i
+2014-05-31 15:01:02	grimles	lei kelci cu nacpoiba’u li pa jo’u li re jo’u li ci
+2014-05-31 15:02:11	grimles	does the { li pa jo'u ... } need to be lu..li'u?
+2014-05-31 15:03:17	durka42	you can do {li pa ce'o re ce'o ci}
+2014-05-31 15:03:45	durka42	cipra: li pa ce'o li re
+2014-05-31 15:03:45	cipra	([{li <pa BOI> LOhO} {ce'o <li (¹re BOI¹) LOhO>}] VAU)
+2014-05-31 15:03:52	durka42	gerna: li pa ce'o li re
+2014-05-31 15:03:52	gerna	not grammatical
+2014-05-31 15:04:04	durka42	gerna: li pa ce'o li re cu broda
+2014-05-31 15:04:04	gerna	not grammatical: li pa ce'o _li_ ⚠  re cu broda
+2014-05-31 15:04:23	durka42	so, without new grammar extensions apparently you can't connect li-numbers :p
+2014-05-31 15:04:29	durka42	but you can connect the numbers within the li
+2014-05-31 15:04:37	durka42	gerna: li pa ce'o re ce'o ci cu broda
+2014-05-31 15:04:37	gerna	(0[{li <(1[pa BOI] ce'o [re BOI])1 ce'o (1ci BOI)1> LO'O} cu {broda VAU}])0
+2014-05-31 15:05:24	durka42	ah, you can if you terminate it!
+2014-05-31 15:05:33	durka42	gerna: li pa lo'o ce'o li re lo'o ce'o li ci cu broda
+2014-05-31 15:05:34	gerna	(0[{<(1li [pa BOI] lo'o)1 ce'o (1li [re BOI] lo'o)1> ce'o <li (1ci BOI)1 LO'O>} cu {broda VAU}])0
+2014-05-31 15:05:44	durka42	but that's a lot of cmavo and I'm not sure there is any difference in meaning
+2014-05-31 15:06:26	Ilmen	co'o
+2014-05-31 15:07:43	grimles	durka42: Sorry, I'm confused. Is the { li pa jo'u ... } section incorrect?
+2014-05-31 15:08:29	grimles	durka42: you're saying use { ce'o } instead of { jo'u } ?
+2014-05-31 15:08:32	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Read error: Connection reset by peer)
+2014-05-31 15:08:39	durka42	by the current grammar, it's incorrect
+2014-05-31 15:08:55	durka42	I would use {ce'o} instead of {jo'u} to clarify that it's a sequence
+2014-05-31 15:09:13	durka42	but you need terminators {li pa lo'o ce'o li re} or only one li {li pa ce'o re}
+2014-05-31 15:10:22	grimles	li pa ce'o re ce’o ci ?
+2014-05-31 15:10:35	<--	Ilmen (~kvirc@37.252.203.178) has quit (Ping timeout: 240 seconds)
+2014-05-31 15:12:18	durka42	grimles: yes
+2014-05-31 15:12:42	grimles	Hmm, that seems a little strange
+2014-05-31 15:13:13	grimles	The number one <set logical and> two <set logical and> three
+2014-05-31 15:15:02	durka42	well
+2014-05-31 15:15:11	durka42	you probably shouldn't 100% take my word for it
+2014-05-31 15:15:18	durka42	we'll see if someone else speaks up and agrees or disagrees
+2014-05-31 15:15:33	grimles	.u'i
+2014-05-31 15:16:25	durka42	the rest of the sentence is good
+2014-05-31 15:16:30	grimles	ki'e all the same
+2014-05-31 15:16:40	grimles	there's isn't much more, so...yeah
+2014-05-31 15:17:24	grimles	ta'onai
+2014-05-31 15:17:33	grimles	ni’o ci mo’o lei kelci cu jarco lo cuxna pe le kelci
+2014-05-31 15:18:09	grimles	Not sure if the { pe le kelci } is needed
+2014-05-31 15:19:05	durka42	the problem with that one is {lei kelci} means they do it "as a mass"
+2014-05-31 15:19:14	durka42	you probably want {le kelci} so that it means each of them do it
+2014-05-31 15:19:33	grimles	je'e ki'e
+2014-05-31 15:19:39	durka42	I didn't mention that for the counting because they do it in unison :)
+2014-05-31 15:19:47	grimles	you're right, they should be treated as individuals for that
+2014-05-31 15:19:59	grimles	also accurate
+2014-05-31 15:21:23	grimles	what about { pe le kelci }?
+2014-05-31 15:22:37	durka42	it might be redundant
+2014-05-31 15:22:45	durka42	valsi vo'a
+2014-05-31 15:22:46	valsi	vo'a = pro-sumti: repeats 1st place of main bridi of this sentence.
+2014-05-31 15:23:15	durka42	le kelci cu jarco lo vo'a se cuxna - the players show _their_ choices
+2014-05-31 15:23:27	durka42	also I just realized you need {se cuxna} for "choices" instead of {cuxna} which means "choosers"
+2014-05-31 15:24:36	<--	Fauve (~Fauve@unaffiliated/fauve) has quit (Quit: Vulnerant omnes, ultima necat.)
+2014-05-31 15:25:00	grimles	je'e ki'e
+2014-05-31 15:27:46	grimles	would it be appropriate to use { le vo'a se cuxna } instead of { lo } ?
+2014-05-31 15:28:09	grimles	Since the choices I want to refer to are the ones prescribed by the instructions?
+2014-05-31 15:28:26	durka42	I'm not sure
+2014-05-31 15:47:32	<--	djancak (greetings@unaffiliated/djancak) has quit (Quit: djancak)
+2014-05-31 15:47:58	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-05-31 16:05:16	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-lqrfingrafuleogj) has joined #ckule
+2014-05-31 16:28:52	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-31 16:34:17	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-31 16:40:19	<--	cntrational (~cntration@14.99.164.19) has quit (Quit: gotta go)
+2014-05-31 16:56:40	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-05-31 17:01:19	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-31 17:02:44	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-05-31 17:31:15	grimles	How would you express the relationship between the 3 choices in rock-paper-scissors?
+2014-05-31 17:31:23	grimles	is using banli good enough?
+2014-05-31 17:38:19	-->	rprije (~rprije@168.70.13.174) has joined #ckule
+2014-05-31 17:49:04	grimles	something like { ge lo rokci cu banli lo jinci gi lo jinci cu banli lo pelji gi lo pelji cu banli lo rokci } ?
+2014-05-31 17:50:39	durka42	well you can't have more than one {gi} like that, I'd do separate sentences with {.ije}
+2014-05-31 17:50:47	durka42	and {banli} is not a comparison, for a comparison you need {zmadu}
+2014-05-31 17:54:23	grimles	whoops
+2014-05-31 17:54:29	grimles	not sure why I typed banli
+2014-05-31 17:54:43	grimles	ah, I was looking at balmau
+2014-05-31 17:54:49	grimles	je'e ki'e
+2014-05-31 17:55:26	durka42	balmau is good, or vlimau
+2014-05-31 17:56:35	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-05-31 17:56:35	<--	rprije (~rprije@168.70.13.174) has quit (Ping timeout: 260 seconds)
+2014-05-31 17:56:39	grimles	lo rokci cu zmadu lo jinci .ije lo jinci cu zmadu lo pelji .ije lo pelji cu zmadu lo rokci
+2014-05-31 17:56:57	durka42	ie
+2014-05-31 18:02:02	grimles	ki'e
+2014-05-31 18:02:06	-->	scbmirmiran (~Adium@142.213-62-69.ftth.swbr.surewest.net) has joined #ckule
+2014-05-31 18:06:05	<--	scbmirmiran (~Adium@142.213-62-69.ftth.swbr.surewest.net) has left #ckule
+2014-05-31 18:19:32	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-lqrfingrafuleogj) has quit (Quit: Connection closed for inactivity)
+2014-05-31 18:20:41	-->	rprije (~rprije@168.70.13.174) has joined #ckule
+2014-05-31 18:23:35	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-05-31 18:34:44	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-31 18:38:52	-->	palo (~palo@f052096228.adsl.alicedsl.de) has joined #ckule
+2014-05-31 18:41:59	<--	palo_ (~palo@f052100026.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2014-05-31 18:42:36	-->	latro`a_ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-05-31 18:46:01	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-05-31 18:46:19	-->	naours (~naours@mne69-8-82-247-36-161.fbx.proxad.net) has joined #ckule
+2014-05-31 18:49:29	<--	korvys_ (~korvys@59.167.212.242) has quit (Ping timeout: 264 seconds)
+2014-05-31 18:49:39	grimles	How would I say "Compare the choices to determine the winner." ?
+2014-05-31 18:51:28	-->	Latro__ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-05-31 18:54:35	<--	latro`a_ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-05-31 18:58:19	grimles	{ le kelci cu karbi lo cuxna ki’u lo jinga } ?
+2014-05-31 19:00:01	grimles	crap. forgot { se } in front of { cuxna } again
+2014-05-31 19:00:19	grimles	nope, that's not right
+2014-05-31 19:01:41	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-05-31 19:02:29	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 265 seconds)
+2014-05-31 19:04:02	<--	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has quit (Quit: Leaving.)
+2014-05-31 19:05:36	-->	v4hn (~v4hn@brln-4d0ccf6a.pool.mediaWays.net) has joined #ckule
+2014-05-31 19:08:45	<--	v4hn_ (~v4hn@brln-4d0cdbfe.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-05-31 19:19:47	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-05-31 19:30:55	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-05-31 19:35:52	<--	naours (~naours@mne69-8-82-247-36-161.fbx.proxad.net) has quit (Quit: Leaving.)
+2014-05-31 19:54:12	<--	Latro__ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 265 seconds)
+2014-05-31 20:04:09	-->	Latro__ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-05-31 20:09:41	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-05-31 20:14:02	<--	Latro__ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 255 seconds)
+2014-05-31 20:35:11	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-05-31 20:38:32	grimles	anyone want to weigh in?
+2014-05-31 20:57:32	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-05-31 21:24:12	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-31 21:24:57	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-05-31 21:25:09	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2014-05-31 21:44:00	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-05-31 21:53:07	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-05-31 22:25:42	<--	rprije (~rprije@168.70.13.174) has quit (Ping timeout: 240 seconds)
+2014-05-31 22:53:10	-->	rprije (~rprije@168.70.13.174) has joined #ckule
+2014-05-31 23:04:38	<--	rprije (~rprije@168.70.13.174) has quit (Ping timeout: 252 seconds)
+2014-05-31 23:19:33	grimles	.i .ei mi sipna
+2014-05-31 23:19:37	grimles	.i co'o
+2014-05-31 23:23:48	<--	grimles (4c784bba@gateway/web/freenode/ip.76.120.75.186) has quit (Ping timeout: 240 seconds)
+2014-05-31 23:53:09	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-06-01 00:25:42	<--	djancak (~djancak@unaffiliated/djancak) has quit (Quit: djancak)
+2014-06-01 00:26:05	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-01 00:37:18	-->	rprije (~rprije@168.70.13.174) has joined #ckule
+2014-06-01 00:50:33	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-06-01 01:04:10	-->	Yurock (~tengo@94-43-43-127.dsl.utg.ge) has joined #ckule
+2014-06-01 01:15:24	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-01 01:35:19	<--	rprije (~rprije@168.70.13.174) has quit (Ping timeout: 260 seconds)
+2014-06-01 01:41:58	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-01 01:52:49	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-06-01 02:10:31	-->	rprije (~rprije@168.70.13.174) has joined #ckule
+2014-06-01 02:30:43	<--	palo (~palo@f052096228.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2014-06-01 02:37:33	-->	Rhymor (~felix@e180110153.adsl.alicedsl.de) has joined #ckule
+2014-06-01 02:47:39	<--	rprije (~rprije@168.70.13.174) has quit (Ping timeout: 260 seconds)
+2014-06-01 03:01:36	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-01 03:14:20	<--	matais (~matais@ip82-139-125-221.lijbrandt.net) has quit (Ping timeout: 252 seconds)
+2014-06-01 03:32:33	-->	Wo0rmer (~Wo0rmer@unaffiliated/wo0rmer) has joined #ckule
+2014-06-01 03:33:12	-->	Ilmen (~kvirc@128.140.132.110) has joined #ckule
+2014-06-01 03:34:04	<--	Ilmen (~kvirc@128.140.132.110) has quit (Client Quit)
+2014-06-01 03:34:56	-->	Ilmen (~kvirc@128.140.132.110) has joined #ckule
+2014-06-01 04:10:36	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-01 04:24:53	<--	infoscav_ (~mycroft@5.22.135.149) has quit (Ping timeout: 264 seconds)
+2014-06-01 04:32:16	-->	korvys (~korvys@59.167.212.242) has joined #ckule
+2014-06-01 04:38:40	-->	palo (~palo@dslb-094-222-250-030.pools.arcor-ip.net) has joined #ckule
+2014-06-01 04:41:38	-->	rprije (~rprije@168.70.13.174) has joined #ckule
+2014-06-01 04:58:01	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-01 04:58:28	<--	palo (~palo@dslb-094-222-250-030.pools.arcor-ip.net) has quit (Ping timeout: 252 seconds)
+2014-06-01 06:01:04	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-01 06:07:01	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-01 06:18:31	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-01 06:37:08	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Quit: Leaving)
+2014-06-01 06:47:38	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-01 06:57:49	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-01 07:07:26	<--	Wo0rmer (~Wo0rmer@unaffiliated/wo0rmer) has left #ckule ("Leaving")
+2014-06-01 07:08:45	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-01 07:11:28	-->	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has joined #ckule
+2014-06-01 07:49:51	<--	rprije (~rprije@168.70.13.174) has quit
+2014-06-01 07:55:21	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Quit: Leaving)
+2014-06-01 07:59:31	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-01 08:02:23	<--	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has quit (Remote host closed the connection)
+2014-06-01 08:11:47	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-01 08:22:08	-->	uuZIT (~uuZIT@p549FAD9D.dip0.t-ipconnect.de) has joined #ckule
+2014-06-01 08:54:53	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 264 seconds)
+2014-06-01 09:18:09	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-01 09:22:07	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-06-01 09:32:03	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-01 10:16:13	-->	camxes (~nodebot@128.140.132.110) has joined #ckule
+2014-06-01 10:28:09	<--	islav (~islav@alexburka.com) has quit (Remote host closed the connection)
+2014-06-01 10:28:10	<--	anreg (~anreg@alexburka.com) has quit (Remote host closed the connection)
+2014-06-01 10:30:12	-->	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has joined #ckule
+2014-06-01 10:36:34	-->	lodnexus (~lodnexus@LPoitiers-156-85-24-81.w193-248.abo.wanadoo.fr) has joined #ckule
+2014-06-01 10:41:19	-->	tcepru (~tcepru@alexburka.com) has joined #ckule
+2014-06-01 10:41:36	<--	tcepru (~tcepru@alexburka.com) has quit (Remote host closed the connection)
+2014-06-01 10:42:07	-->	tcepru (~tcepru@alexburka.com) has joined #ckule
+2014-06-01 10:49:54	--	lodnexus is now known as lod_afk
+2014-06-01 11:03:55	<--	uuZIT (~uuZIT@p549FAD9D.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-06-01 11:15:18	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 240 seconds)
+2014-06-01 11:17:29	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-01 11:25:49	-->	phma (~phma@2001:5b0:2144:1d0:226:9eff:fec5:d505) has joined #ckule
+2014-06-01 11:26:35	-->	matais (~matais@ip82-139-125-221.lijbrandt.net) has joined #ckule
+2014-06-01 11:27:17	<--	phma__ (~phma@2001:5b0:215a:b0c0:226:9eff:fec5:d505) has quit (Ping timeout: 264 seconds)
+2014-06-01 11:38:39	-->	tan-fon (~androirc@184.151.111.250) has joined #ckule
+2014-06-01 11:51:36	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-01 11:58:29	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2014-06-01 12:04:07	--	lod_afk is now known as lod__
+2014-06-01 12:04:11	--	lod__ is now known as lodnexus
+2014-06-01 12:07:36	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: ciao)
+2014-06-01 12:27:56	<--	tan-fon (~androirc@184.151.111.250) has quit (Remote host closed the connection)
+2014-06-01 12:28:08	-->	tan-fon (~androirc@184.151.111.250) has joined #ckule
+2014-06-01 12:39:28	<--	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has quit (Quit: Leaving.)
+2014-06-01 12:53:05	-->	naours (~androirc@mne69-8-82-247-36-161.fbx.proxad.net) has joined #ckule
+2014-06-01 12:59:59	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-06-01 13:00:26	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-06-01 13:03:19	<--	tan-fon (~androirc@184.151.111.250) has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+2014-06-01 13:10:58	<--	djancak (~djancak@unaffiliated/djancak) has quit (Quit: djancak)
+2014-06-01 13:13:44	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-01 13:35:56	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-01 13:44:22	<--	lodnexus (~lodnexus@LPoitiers-156-85-24-81.w193-248.abo.wanadoo.fr) has quit
+2014-06-01 13:49:01	<--	matais (~matais@ip82-139-125-221.lijbrandt.net) has quit (Read error: Connection reset by peer)
+2014-06-01 13:49:13	-->	matais (~matais@ip82-139-125-221.lijbrandt.net) has joined #ckule
+2014-06-01 14:15:21	-->	infoscav (~mycroft@213.57.107.197) has joined #ckule
+2014-06-01 14:27:53	<--	naours (~androirc@mne69-8-82-247-36-161.fbx.proxad.net) has quit (Ping timeout: 264 seconds)
+2014-06-01 14:39:31	<--	infoscav (~mycroft@213.57.107.197) has quit (Ping timeout: 252 seconds)
+2014-06-01 14:44:07	<--	Rhymor (~felix@e180110153.adsl.alicedsl.de) has quit (Quit: Rhymor)
+2014-06-01 14:48:51	<--	ByronJohnson (~Byron@unaffiliated/bob0) has quit (Remote host closed the connection)
+2014-06-01 14:51:59	-->	ByronJohnson (~Byron@unaffiliated/bob0) has joined #ckule
+2014-06-01 14:55:14	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-06-01 14:59:51	<--	camxes (~nodebot@128.140.132.110) has quit (Remote host closed the connection)
+2014-06-01 15:03:41	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-nhoztzemlgegzorv) has joined #ckule
+2014-06-01 15:16:40	<--	Ilmen (~kvirc@128.140.132.110) has quit (Ping timeout: 252 seconds)
+2014-06-01 15:24:45	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Read error: Connection reset by peer)
+2014-06-01 15:26:47	<--	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has quit (*.net *.split)
+2014-06-01 15:26:47	<--	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has quit (*.net *.split)
+2014-06-01 15:37:08	-->	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has joined #ckule
+2014-06-01 15:37:08	-->	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has joined #ckule
+2014-06-01 17:00:53	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-01 17:05:02	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-01 17:43:16	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-01 18:00:17	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2014-06-01 19:04:57	-->	v4hn_ (~v4hn@brln-4db879f7.pool.mediaWays.net) has joined #ckule
+2014-06-01 19:08:17	<--	v4hn (~v4hn@brln-4d0ccf6a.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-01 19:23:56	-->	TehPers (4cdae543@gateway/web/freenode/ip.76.218.229.67) has joined #ckule
+2014-06-01 19:57:15	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-01 20:07:34	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-01 20:09:39	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-01 20:16:44	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 255 seconds)
+2014-06-01 20:29:33	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-nhoztzemlgegzorv) has quit (Quit: Connection closed for inactivity)
+2014-06-01 20:54:22	-->	infoscav (~mycroft@5.22.135.149) has joined #ckule
+2014-06-01 20:56:00	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-01 21:36:19	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 276 seconds)
+2014-06-01 21:42:23	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-06-01 22:11:16	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-06-01 22:35:36	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-01 23:20:33	<--	TehPers (4cdae543@gateway/web/freenode/ip.76.218.229.67) has quit (Quit: Page closed)
+2014-06-02 00:22:32	-->	naours (~dgallissi@LPoitiers-156-85-36-223.w193-248.abo.wanadoo.fr) has joined #ckule
+2014-06-02 00:41:20	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-02 01:15:50	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-02 01:32:04	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-02 01:40:53	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 01:46:08	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 255 seconds)
+2014-06-02 02:35:48	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-02 02:57:09	-->	Rhymor (~felix@e180102183.adsl.alicedsl.de) has joined #ckule
+2014-06-02 03:13:03	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-02 03:16:23	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-02 03:16:59	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-02 03:38:00	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-02 04:39:47	-->	Ilmen (~kvirc@37-1-169-103.ip.skylogicnet.com) has joined #ckule
+2014-06-02 04:59:49	-->	korvys_ (~korvys@59.167.212.242) has joined #ckule
+2014-06-02 05:01:43	<--	korvys (~korvys@59.167.212.242) has quit (Ping timeout: 260 seconds)
+2014-06-02 05:02:44	<--	Rhymor (~felix@e180102183.adsl.alicedsl.de) has quit (Quit: Rhymor)
+2014-06-02 05:08:34	<--	Ilmen (~kvirc@37-1-169-103.ip.skylogicnet.com) has quit (Ping timeout: 240 seconds)
+2014-06-02 05:22:54	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-02 05:34:16	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: going to take a bath, ciao)
+2014-06-02 05:38:17	-->	Ilmen (~kvirc@37-1-169-103.ip.skylogicnet.com) has joined #ckule
+2014-06-02 05:46:08	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Quit: Leaving)
+2014-06-02 05:46:42	-->	gobblette (~ulino@unaffiliated/brakumindulo) has joined #ckule
+2014-06-02 05:46:51	gobblette	coi
+2014-06-02 05:50:27	<--	gobblette (~ulino@unaffiliated/brakumindulo) has left #ckule
+2014-06-02 05:52:49	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-02 06:12:22	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 06:13:43	<--	infoscav (~mycroft@5.22.135.149) has quit (Ping timeout: 276 seconds)
+2014-06-02 06:30:46	-->	Rhymor (~felix@e180102183.adsl.alicedsl.de) has joined #ckule
+2014-06-02 06:39:06	-->	J__ (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-02 06:42:15	<--	djancak (~djancak@unaffiliated/djancak) has quit (Ping timeout: 240 seconds)
+2014-06-02 07:03:58	-->	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-02 07:58:29	<--	Yurock (~tengo@94-43-43-127.dsl.utg.ge) has quit (Read error: Connection reset by peer)
+2014-06-02 07:58:33	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-02 08:36:05	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-02 08:55:01	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Quit: Leaving.)
+2014-06-02 08:57:46	<--	naours (~dgallissi@LPoitiers-156-85-36-223.w193-248.abo.wanadoo.fr) has quit (Quit: Leaving.)
+2014-06-02 09:03:16	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 240 seconds)
+2014-06-02 09:15:17	-->	jbopre2000 (uid26695@gateway/web/irccloud.com/x-tbnqtffhfbwrhsih) has joined #ckule
+2014-06-02 09:21:14	-->	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has joined #ckule
+2014-06-02 09:29:21	grimles	coi ro do
+2014-06-02 09:33:08	@xalbo	coi
+2014-06-02 09:38:25	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-06-02 09:40:11	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-02 09:49:52	-->	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-02 09:50:41	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Read error: Connection reset by peer)
+2014-06-02 09:50:46	-->	durka421 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-02 09:51:13	-->	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-02 09:51:26	<--	durka421 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Read error: Connection reset by peer)
+2014-06-02 09:51:33	-->	durka422 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-02 09:51:35	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Read error: Connection reset by peer)
+2014-06-02 09:54:30	-->	smazga (~Laslo@2600:3c01:e000:73::1006) has joined #ckule
+2014-06-02 10:13:39	-->	palo (~palo@e177090009.adsl.alicedsl.de) has joined #ckule
+2014-06-02 10:23:35	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Quit: Leaving)
+2014-06-02 10:25:46	-->	lodnexus (~lodnexus@LPoitiers-156-85-24-81.w193-248.abo.wanadoo.fr) has joined #ckule
+2014-06-02 10:50:53	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-06-02 11:01:56	<--	phma (~phma@2001:5b0:2144:1d0:226:9eff:fec5:d505) has quit (Read error: No route to host)
+2014-06-02 11:02:15	-->	phma (~phma@2001:5b0:2144:1d0:226:9eff:fec5:d505) has joined #ckule
+2014-06-02 11:16:54	--	durka422 is now known as durka42
+2014-06-02 11:18:10	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-06-02 11:39:22	--	lodnexus is now known as lod_afk
+2014-06-02 11:43:11	-->	cardboard_box (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 11:47:49	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 276 seconds)
+2014-06-02 11:55:43	<--	lunra (~ircme@205.185.116.160) has quit (Remote host closed the connection)
+2014-06-02 11:55:51	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-02 12:01:07	<--	cardboard_box (~cntration@49.205.77.125) has quit (Ping timeout: 252 seconds)
+2014-06-02 12:23:29	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-02 12:25:18	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2014-06-02 12:25:30	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-02 12:29:38	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-02 12:36:33	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2014-06-02 12:39:36	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-02 12:56:21	--	lod_afk is now known as lodnexus
+2014-06-02 13:06:49	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Read error: Connection reset by peer)
+2014-06-02 13:06:52	-->	durka421 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-02 13:15:22	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 240 seconds)
+2014-06-02 13:15:37	--	durka421 is now known as durka42
+2014-06-02 13:17:40	<--	palo (~palo@e177090009.adsl.alicedsl.de) has quit (Quit: leaving)
+2014-06-02 13:19:10	-->	palo (~palo@e177090009.adsl.alicedsl.de) has joined #ckule
+2014-06-02 13:20:02	<--	palo (~palo@e177090009.adsl.alicedsl.de) has quit (Client Quit)
+2014-06-02 13:20:11	-->	palo (~palo@e177090009.adsl.alicedsl.de) has joined #ckule
+2014-06-02 13:22:59	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 13:36:59	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-02 13:37:26	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-02 13:53:20	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-02 13:58:58	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-02 13:59:16	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 240 seconds)
+2014-06-02 14:00:49	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-02 14:05:04	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Ping timeout: 252 seconds)
+2014-06-02 14:14:04	<--	palo (~palo@e177090009.adsl.alicedsl.de) has quit (Ping timeout: 276 seconds)
+2014-06-02 14:16:21	<--	Rhymor (~felix@e180102183.adsl.alicedsl.de) has quit (Quit: Rhymor)
+2014-06-02 14:35:31	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 276 seconds)
+2014-06-02 14:36:03	<--	lodnexus (~lodnexus@LPoitiers-156-85-24-81.w193-248.abo.wanadoo.fr) has quit
+2014-06-02 14:38:20	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 15:01:34	<--	cntrational (~cntration@49.205.77.125) has quit (Remote host closed the connection)
+2014-06-02 15:01:47	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 15:10:01	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-02 15:11:09	<--	Ilmen (~kvirc@37-1-169-103.ip.skylogicnet.com) has quit (Ping timeout: 265 seconds)
+2014-06-02 15:34:21	--	cntrational is now known as djcnt
+2014-06-02 15:53:23	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Quit: Leaving.)
+2014-06-02 16:00:40	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-06-02 16:19:00	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-02 16:25:24	<--	smazga (~Laslo@2600:3c01:e000:73::1006) has quit (Quit: rcirc on GNU Emacs 24.3.1)
+2014-06-02 16:27:36	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-yerfwfykxlnxiien) has joined #ckule
+2014-06-02 16:33:54	<--	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has quit (*.net *.split)
+2014-06-02 16:33:54	<--	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has quit (*.net *.split)
+2014-06-02 16:44:17	-->	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has joined #ckule
+2014-06-02 16:44:17	-->	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has joined #ckule
+2014-06-02 16:49:57	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-06-02 17:14:51	<--	_andares (~andares@unaffiliated/jacco) has quit (Read error: Network is unreachable)
+2014-06-02 17:15:12	-->	andares (~andares@unaffiliated/jacco) has joined #ckule
+2014-06-02 17:19:46	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-06-02 17:59:03	<--	djcnt (~cntration@49.205.77.125) has quit (Ping timeout: 245 seconds)
+2014-06-02 18:04:17	-->	djcnt (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 18:26:31	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-06-02 18:42:47	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-02 19:03:26	-->	v4hn (~v4hn@brln-4d0cc18b.pool.mediaWays.net) has joined #ckule
+2014-06-02 19:06:43	<--	v4hn_ (~v4hn@brln-4db879f7.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-02 19:28:46	--	djcnt is now known as cntrational
+2014-06-02 19:39:33	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-yerfwfykxlnxiien) has quit (Quit: Connection closed for inactivity)
+2014-06-02 20:01:43	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 252 seconds)
+2014-06-02 20:13:12	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-02 20:19:11	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 260 seconds)
+2014-06-02 20:51:34	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 21:08:35	<--	jacus (~quassel@216.9.11.25) has quit (Quit: No Ping reply in 180 seconds.)
+2014-06-02 21:08:42	-->	jacus (~quassel@216.9.11.25) has joined #ckule
+2014-06-02 21:13:27	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-02 21:19:56	<--	Taywee (~taylor@2601:1:8b80:10c5:3285:a9ff:fe90:4306) has quit (Ping timeout: 252 seconds)
+2014-06-02 21:35:51	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-06-02 21:39:50	-->	Taywee (~taylor@c-50-170-140-76.hsd1.co.comcast.net) has joined #ckule
+2014-06-02 21:41:58	-->	TehPers (~tehpers@76-218-229-67.lightspeed.sntcca.sbcglobal.net) has joined #ckule
+2014-06-02 21:47:58	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 265 seconds)
+2014-06-02 21:53:39	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Quit: WeeChat 0.4.3)
+2014-06-02 22:06:39	-->	palo (~palo@e177088031.adsl.alicedsl.de) has joined #ckule
+2014-06-02 22:09:41	<--	tcepru (~tcepru@alexburka.com) has quit (Ping timeout: 252 seconds)
+2014-06-02 22:11:05	<--	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has quit (Ping timeout: 264 seconds)
+2014-06-02 22:22:44	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 255 seconds)
+2014-06-02 22:29:51	-->	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has joined #ckule
+2014-06-02 22:31:30	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 22:40:07	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 260 seconds)
+2014-06-02 22:44:53	<--	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has quit (Ping timeout: 252 seconds)
+2014-06-02 22:51:45	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-02 22:52:01	--	TehPers is now known as tes
+2014-06-02 22:52:29	--	tes is now known as TehPers
+2014-06-02 22:52:42	<--	palo (~palo@e177088031.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2014-06-02 23:14:28	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has quit (Quit: Leaving.)
+2014-06-02 23:18:37	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 252 seconds)
+2014-06-02 23:43:11	<--	TehPers (~tehpers@76-218-229-67.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2014-06-02 23:52:34	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-03 00:12:07	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-03 00:33:16	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-03 00:46:05	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-voncfcyfmbqvhqne) has joined #ckule
+2014-06-03 01:50:58	-->	naours (~dgallissi@LPoitiers-156-85-36-223.w193-248.abo.wanadoo.fr) has joined #ckule
+2014-06-03 01:59:55	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-03 02:26:29	-->	Ilmen (~kvirc@128.140.130.15) has joined #ckule
+2014-06-03 02:26:59	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-03 03:00:43	-->	gobblette (~ulino@unaffiliated/brakumindulo) has joined #ckule
+2014-06-03 03:00:48	gobblette	coi
+2014-06-03 03:18:33	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-03 03:19:33	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-voncfcyfmbqvhqne) has quit (Quit: Connection closed for inactivity)
+2014-06-03 03:25:58	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-03 03:41:16	<--	coyo (unf@unaffiliated/bandu) has quit (Quit: ZNC - http://znc.in)
+2014-06-03 04:01:32	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-03 04:05:39	naours	coi gy
+2014-06-03 04:27:31	gobblette	ma cfari
+2014-06-03 04:45:17	naours	.uanai
+2014-06-03 04:51:11	<--	Ilmen (~kvirc@128.140.130.15) has quit (Ping timeout: 252 seconds)
+2014-06-03 05:10:01	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-03 05:14:09	-->	Ilmen (~kvirc@128.140.130.15) has joined #ckule
+2014-06-03 05:30:58	<--	Ilmen (~kvirc@128.140.130.15) has quit (Ping timeout: 240 seconds)
+2014-06-03 05:34:54	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-ekelrcskooiupaws) has joined #ckule
+2014-06-03 06:14:30	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-03 06:21:39	-->	Ilmen (~kvirc@128.140.130.15) has joined #ckule
+2014-06-03 06:28:20	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-03 06:30:34	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-03 06:32:51	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Ping timeout: 260 seconds)
+2014-06-03 07:04:28	menturi	Hello. Some pages on the lojban wiki says "This page describes La Bangu, an unofficial method of teaching Lojban. You've been warned." -- What does "official" mean? CLL?
+2014-06-03 07:08:14	gleki	menturi: yes
+2014-06-03 07:08:37	menturi	je'e
+2014-06-03 07:08:39	gleki	well, it is the official reference grammar.
+2014-06-03 07:08:52	gleki	there are no official methods of teaching lojban
+2014-06-03 07:08:58	menturi	Hehe okauy.
+2014-06-03 07:09:35	menturi	I just want to quickly say thank you for all the work you are putting into the wiki and the resources too!
+2014-06-03 07:10:54	-->	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-03 07:15:13	gleki	menturi: you are welcome to becoming a contributor to the wiki too
+2014-06-03 07:16:42	menturi	If I have something to contribute, I definitely will :)
+2014-06-03 07:23:17	-->	uuZIT (~uuZIT@p549FA352.dip0.t-ipconnect.de) has joined #ckule
+2014-06-03 07:25:08	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-03 07:31:20	-->	Rhymor (~felix@e180100044.adsl.alicedsl.de) has joined #ckule
+2014-06-03 07:33:05	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-03 07:34:43	-->	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has joined #ckule
+2014-06-03 08:00:37	<--	naours (~dgallissi@LPoitiers-156-85-36-223.w193-248.abo.wanadoo.fr) has quit (Quit: Leaving.)
+2014-06-03 08:20:24	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Quit: Leaving.)
+2014-06-03 08:20:31	-->	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-03 08:32:39	<--	v4hn (~v4hn@brln-4d0cc18b.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-03 08:35:39	-->	latro`a_ (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-03 08:39:17	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-06-03 08:46:01	<--	Ilmen (~kvirc@128.140.130.15) has quit (Read error: Connection reset by peer)
+2014-06-03 08:46:31	-->	Ilmen (~kvirc@128.140.130.15) has joined #ckule
+2014-06-03 09:01:25	-->	demize (kyrias@archlinux/op/demize) has joined #ckule
+2014-06-03 09:17:12	<--	uuZIT (~uuZIT@p549FA352.dip0.t-ipconnect.de) has quit (Ping timeout: 265 seconds)
+2014-06-03 09:17:39	grimles	coi
+2014-06-03 09:17:58	Ilmen	coi
+2014-06-03 09:26:22	grimles	.i ma nuzba
+2014-06-03 09:28:52	Ilmen	ba zi citka fa mi .i di'u nuzba :)
+2014-06-03 09:29:38	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-03 09:33:25	grimles	ki'e zo'o
+2014-06-03 09:33:40	<--	Ilmen (~kvirc@128.140.130.15) has quit (Read error: Connection reset by peer)
+2014-06-03 09:34:05	-->	Ilmen (~kvirc@128.140.130.15) has joined #ckule
+2014-06-03 09:38:47	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Quit: Leaving.)
+2014-06-03 09:45:40	-->	uuZIT (~uuZIT@p549FA352.dip0.t-ipconnect.de) has joined #ckule
+2014-06-03 09:46:08	-->	smazga (~Laslo@64.55.45.194) has joined #ckule
+2014-06-03 09:58:10	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-03 10:00:02	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Quit: Leaving)
+2014-06-03 10:09:50	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-03 10:18:53	<--	jbopre2000 (uid26695@gateway/web/irccloud.com/x-tbnqtffhfbwrhsih) has quit (Quit: Connection closed for inactivity)
+2014-06-03 10:23:55	-->	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has joined #ckule
+2014-06-03 10:25:18	-->	palo (~palo@e177088031.adsl.alicedsl.de) has joined #ckule
+2014-06-03 10:46:21	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Read error: Connection reset by peer)
+2014-06-03 10:51:44	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-03 11:09:34	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-ekelrcskooiupaws) has quit (Quit: Connection closed for inactivity)
+2014-06-03 11:11:10	<--	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-06-03 11:14:10	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-03 11:19:48	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-03 11:24:06	<--	durka42 (~durka42@SEAS269.wlan.seas.upenn.edu) has quit (Quit: Leaving.)
+2014-06-03 11:24:32	-->	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has joined #ckule
+2014-06-03 11:41:52	-->	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-03 11:50:25	<--	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has quit (Quit: pegasusParis)
+2014-06-03 11:50:45	-->	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-03 11:51:53	pegasusParis	valsi: ckule
+2014-06-03 11:51:53	valsi	ckule = x1 is school/institute/academy at x2 teaching subject(s) x3 to audien./commun. x4 operated by x5.
+2014-06-03 11:52:06	pegasusParis	.ui
+2014-06-03 11:58:35	-->	EddieKrueger (~Eddie@254.165.127.78.rev.sfr.net) has joined #ckule
+2014-06-03 11:58:46	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-06-03 12:00:58	pegasusParis	coi
+2014-06-03 12:01:11	simpson	coi
+2014-06-03 12:01:11	lomicmenes	coi
+2014-06-03 12:01:20	Ilmen	coi
+2014-06-03 12:01:28	lomicmenes	a'o xu do se pluka
+2014-06-03 12:01:53	EddieKrueger	coi
+2014-06-03 12:02:22	pegasusParis	mi gleki
+2014-06-03 12:02:48	lomicmenes	.ue xu do rusko
+2014-06-03 12:03:54	simpson	na go'i .i merko
+2014-06-03 12:04:33	pegasusParis	mi franso
+2014-06-03 12:04:41	pegasusParis	fraso
+2014-06-03 12:05:31	lomicmenes	Si je compte bien il y a deux élèves ce soir.
+2014-06-03 12:06:03	EddieKrueger	pour l'instant
+2014-06-03 12:06:31	pegasusParis	On attend,  ou pas ?
+2014-06-03 12:06:59	lomicmenes	vrai :)
+2014-06-03 12:07:38	-->	durka42 (~durka42@vagvlan504.0870.wlan.wireless-pennnet.upenn.edu) has joined #ckule
+2014-06-03 12:07:50	simpson	tavla fo la spobau .i gi'e tavla fo la gliban
+2014-06-03 12:08:00	simpson	...And now I'm wondering if there's an easier way to rattle off a list.
+2014-06-03 12:08:17	<--	durka42 (~durka42@vagvlan504.0870.wlan.wireless-pennnet.upenn.edu) has quit (Client Quit)
+2014-06-03 12:08:34	<--	latro`a_ (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-03 12:09:04	Ilmen	lo spobau xu .u'e
+2014-06-03 12:09:26	Ilmen	.i spofu bangu xu
+2014-06-03 12:09:45	Ilmen	ta'o coi
+2014-06-03 12:09:54	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-03 12:10:57	pegasusParis	Je m'amuse a créer des exercice https://docs.google.com/document/d/10Fgt6aXkut53UJ7h2ly6rm8zMGpYlW25vSzlSjmJxi0/edit?usp=docslist_api
+2014-06-03 12:11:23	lomicmenes	http://lite2.framapad.org/p/fasybau-%3Ejbobau
+2014-06-03 12:11:42	lomicmenes	On va essayer de faire un peu de thème aujourd'hui
+2014-06-03 12:13:01	lomicmenes	Ca vous va pour commencer ?
+2014-06-03 12:13:05	simpson	Ilmen: u'u lu sanbau li'u
+2014-06-03 12:13:17	Ilmen	ua je'e
+2014-06-03 12:13:20	pegasusParis	.ie
+2014-06-03 12:13:48	simpson	Why couldn't it have been {spaban} like other languages?
+2014-06-03 12:14:25	simpson	Oh, they're all using -bau-, not -ban-. Where did I hear {gliban} then?
+2014-06-03 12:14:32	Ilmen	Most language-lujvo are of the form [language short rafsi]+bau
+2014-06-03 12:14:44	Ilmen	glibau, sanbau, fasybau, ponbau...
+2014-06-03 12:14:52	simpson	je'e
+2014-06-03 12:14:53	lomicmenes	doi .ilmen do djica xu lo du'u cipcta lo xe fanva
+2014-06-03 12:15:01	Ilmen	(English, Spanish, French, Japanese...)
+2014-06-03 12:15:12	lomicmenes	And jbobau
+2014-06-03 12:16:59	Ilmen	ma xe fanva doi .lomicmenes.
+2014-06-03 12:17:20	@xalbo	simpson: {la .gliban.} is fine as a name, similar to {.lojban.} itself. Subtle differences, but either works.
+2014-06-03 12:17:37	simpson	xalbo: ki'e
+2014-06-03 12:19:52	lomicmenes	mi pacna lo du'u lo velcu'e cu fanva vi zoi .ky http://lite2.framapad.org/p/fasybau-%3Ejbobau ky.
+2014-06-03 12:21:03	-->	Lyne (~Krevette@114.120.14.109.rev.sfr.net) has joined #ckule
+2014-06-03 12:21:06	Lyne	coi
+2014-06-03 12:21:47	lomicmenes	coi lo clira jundi
+2014-06-03 12:22:20	lomicmenes	mi fanva vi zoi ky. http://lite2.framapad.org/p/fasybau-%3Ejbobau ky.
+2014-06-03 12:36:06	 *	EddieKrueger fanva lo pamai linji
+2014-06-03 12:36:35	EddieKrueger	(+ pu)
+2014-06-03 12:40:41	lomicmenes	Tu as vu la définition de cacra EddieKrueger ?
+2014-06-03 12:41:37	EddieKrueger	mm, oui mais il faut que je la revoie :)
+2014-06-03 12:42:15	EddieKrueger	j'ai fait une correction
+2014-06-03 12:45:17	lomicmenes	{ .i lo djedi cu traji clatei be lo crisa .e traji tortei be lo dunra}
+2014-06-03 12:45:35	lomicmenes	Je propose qu'on regarde un peu cette phrase Lyne, pegasusParis, EddieKrueger
+2014-06-03 12:45:37	EddieKrueger	lomi, le {.e} n'est pas celui qu'on utilise à l'intérieur d'un tanru ?
+2014-06-03 12:45:48	lomicmenes	Non
+2014-06-03 12:46:02	Lyne	(J'ai un gros rhume et un peu de mal à me concentrer, mais je vais essayer)
+2014-06-03 12:46:06	lomicmenes	0 l'intérieur d'un tanru c'est {jV}
+2014-06-03 12:46:24	Ilmen	".e" connecte les sumti
+2014-06-03 12:46:33	<--	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has quit (Ping timeout: 245 seconds)
+2014-06-03 12:46:37	lomicmenes	{.e} c'est pour joindre deux sumti
+2014-06-03 12:46:39	Ilmen	gi'e connecte les bridi
+2014-06-03 12:46:53	lomicmenes	Les bridi ou les brifa'o ?
+2014-06-03 12:46:58	EddieKrueger	et .ije ?
+2014-06-03 12:46:58	Ilmen	.ije connecte les phrase
+2014-06-03 12:47:20	EddieKrueger	un bridi c'est une phrase non ?
+2014-06-03 12:47:30	Ilmen	lomicmenes: les brifa'o si on veux
+2014-06-03 12:47:50	Lyne	Euh... Le jour est plus long en été et plus court en hiver
+2014-06-03 12:48:12	lomicmenes	Non
+2014-06-03 12:48:20	lomicmenes	C'est pas ce que je comprends.
+2014-06-03 12:49:03	lomicmenes	{lo djedi cu traji clatei be lo crisa} le jour est une longue période de l'été de type extrême
+2014-06-03 12:49:37	Lyne	Logique
+2014-06-03 12:49:48	Ilmen	Le mot "donri" ne serait-il pas plus adapté?
+2014-06-03 12:49:58	Ilmen	djedi ~= 24h
+2014-06-03 12:50:04	pegasusParis	{djedi } c est une journée de 24h mais le jour opposé a la nuit ?
+2014-06-03 12:50:11	Ilmen	donri = période ou le soleil est levé
+2014-06-03 12:50:17	lomicmenes	donri : x1 est la période diurne du jour x2 à l'endroit x3; adjectif: x1 est diurne
+2014-06-03 12:50:22	Ilmen	nicte = la nuit
+2014-06-03 12:50:28	Ilmen	(l'inverse de donri)
+2014-06-03 12:50:41	pegasusParis	ok
+2014-06-03 12:50:49	-->	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has joined #ckule
+2014-06-03 12:50:51	EddieKrueger	ke'e
+2014-06-03 12:51:33	lomicmenes	uanai
+2014-06-03 12:51:42	EddieKrueger	je'e
+2014-06-03 12:51:45	Ilmen	?
+2014-06-03 12:52:04	Ilmen	ma cpifu  doi la .lomicmenes.
+2014-06-03 12:52:12	Ilmen	s/cpifu/cfipu
+2014-06-03 12:52:46	lomicmenes	zo ke'e
+2014-06-03 12:52:55	Ilmen	ua je'e
+2014-06-03 12:53:00	lomicmenes	Bon
+2014-06-03 12:53:01	Ilmen	pe'i zo ki'e
+2014-06-03 12:53:26	Ilmen	(je crois qu'il a voulu utiliser «ki'e»)
+2014-06-03 12:53:47	EddieKrueger	(non, je voulais écrire je'e )
+2014-06-03 12:53:48	<--	palo (~palo@e177088031.adsl.alicedsl.de) has quit (Ping timeout: 240 seconds)
+2014-06-03 12:53:50	lomicmenes	Qu'est-ce que ça veut dire les jours sont plus longs en été ?
+2014-06-03 12:53:52	Ilmen	ua
+2014-06-03 12:54:44	EddieKrueger	pendant la période été, la période diurne a une durée plus longue
+2014-06-03 12:54:45	lomicmenes	"les jours sont plus longs en été"
+2014-06-03 12:55:29	lomicmenes	pendant la période d'été = {ca lo crisa} Tu es d'accord Ilmen ?
+2014-06-03 12:55:33	Lyne	La durée des jours est plus importante pendant la période d'été
+2014-06-03 12:55:56	Ilmen	lomicmenes: je préfèrerais {ze'a lo crisa}, mais "ca" marche aussi
+2014-06-03 12:56:15	-->	v4hn (~v4hn@brln-4d0cc18b.pool.mediaWays.net) has joined #ckule
+2014-06-03 12:56:32	EddieKrueger	lomi, au fait, je ne suis pas d'accord avec ta raduction  : {lo djedi cu traji clatei be lo crisa} le jour est une longue période de l'été de type extrême
+2014-06-03 12:56:35	Ilmen	(ze'a ~= pendant la période...)
+2014-06-03 12:57:03	EddieKrueger	le x2 de clatei désigne le début d'une période il me semble
+2014-06-03 12:57:45	lomicmenes	Tu as raison.
+2014-06-03 12:57:45	lomicmenes	Et du coup ça donne quelle traduction
+2014-06-03 12:57:47	lomicmenes	?
+2014-06-03 12:57:47	@xalbo	lo clani ku donri zo'e pe lo crisa
+2014-06-03 12:58:08	@xalbo	lo clani ku donri fi lo te crisa
+2014-06-03 12:58:51	lomicmenes	Je dois vous abandonner 10 minutes.
+2014-06-03 12:58:57	lomicmenes	Je reviens.
+2014-06-03 12:59:07	Ilmen	je'e co'o ru'e
+2014-06-03 12:59:53	EddieKrueger	au lieu de  ...période de l'été ... , ce serait ... période à partir de l'été ...
+2014-06-03 13:00:08	Ilmen	lo crisa donri cu bramau/clamau lo dunra donri
+2014-06-03 13:00:39	Ilmen	"les journées d'été sont plus grandes/longues que celles d'hiver
+2014-06-03 13:00:40	Ilmen	"
+2014-06-03 13:01:13	Ilmen	(il y a plein de manière différente de formuler cette phrase)
+2014-06-03 13:01:23	EddieKrueger	le sens n'est pas exactement celui de la phrase de départ : il n'y avait pas de comparaison explicite
+2014-06-03 13:02:02	Ilmen	"plus long en été.... plus coutrs en hivers"
+2014-06-03 13:02:34	Ilmen	mais c'est peut être "plus long [que la durée moyenne]
+2014-06-03 13:02:45	Ilmen	probablement en effet
+2014-06-03 13:02:53	EddieKrueger	si on avait voulu écrire "les jours sont plus long en été qu'en hiver", ben on l'aurait fait
+2014-06-03 13:03:25	Ilmen	dans ce cas, "lo crisa donri cu barda .i je lo dunra donri cu cmalu" est une traduction possible :)
+2014-06-03 13:03:57	EddieKrueger	mais barda et cmalu se rapporte à des dimensions, à de l'espace
+2014-06-03 13:04:14	@xalbo	lo crisa fa'u dunra donri cu barda fa'u cmalu
+2014-06-03 13:04:19	EddieKrueger	j'ai bien cherché clatei et tortei exprès
+2014-06-03 13:04:22	Ilmen	pas nécéssairement. "clani" aussi se réfère à l'espace
+2014-06-03 13:04:47	Ilmen	valsi barda
+2014-06-03 13:04:47	valsi	barda = x1 is big/large in property/dimension(s) x2 (ka) as compared with standard/norm x3.
+2014-06-03 13:04:57	@xalbo	lo crisa lo dunra cu zmadu lo ni lo donri pe ce'u cu clani
+2014-06-03 13:05:17	Ilmen	barda n'est pas exclusif à l'espace
+2014-06-03 13:05:29	Ilmen	on peut l'utiliser pour les durées aussi
+2014-06-03 13:05:50	EddieKrueger	oui remarque pour la proporiété de durée, ça va
+2014-06-03 13:07:13	Ilmen	Je suppose que "clani" marche aussi pour les durées, mais je trouve que "barda" est plus adapté. Le choix de "clani" semble influencé par le français/l'anglais
+2014-06-03 13:07:29	lomicmenes	di'a jundi
+2014-06-03 13:07:31	Ilmen	m'enfin ce n'est pas important je pense
+2014-06-03 13:07:46	Ilmen	coi
+2014-06-03 13:08:20	EddieKrueger	clani c'est le sens d'une longueur, (spatial uniquement) justement
+2014-06-03 13:08:56	Ilmen	{lo djedi cu traji clatei be lo crisa .e traji tortei be lo dunra} ---> pas grammatical; il faut utiliser {gi'e}
+2014-06-03 13:09:11	EddieKrueger	je'e
+2014-06-03 13:09:39	Ilmen	{lo crisa donri cu barda/bramau .i je ....} est suffisant
+2014-06-03 13:09:45	Ilmen	pe'i
+2014-06-03 13:09:51	lomicmenes	Donc on finit par {lo bramau cu donri ze'a lo crisa} ?
+2014-06-03 13:10:49	Ilmen	Je pense que "barda" est suffisant (grand *par rapport à la normale*)
+2014-06-03 13:11:34	Ilmen	bramau semble un peu superflu (mais pas incorrect)  :)
+2014-06-03 13:11:58	EddieKrueger	je ne trouve pas ça assez précis comme terme, puisqu'on dit 'long' on parle de durée explicitement
+2014-06-03 13:12:23	EddieKrueger	ou semi-explicitement, pusiqu'on utiliserait long pour une longueur aussi, mais vu le contexte :)
+2014-06-03 13:13:20	lomicmenes	Heu on ne sait pas si les jours sont vraiment longs en été.
+2014-06-03 13:13:33	Ilmen	"lo donri cu barda" est suffisament claire je pense; si tu veux être très précis tu peux toujours dire {lo barda cu ditcu lo donri}
+2014-06-03 13:13:36	lomicmenes	On sait juste qu'ils sont *plus* longs.
+2014-06-03 13:13:50	EddieKrueger	en fait je ne vois pas pourquoi vous voulez vous priver de {clatei} et {tortei} ici
+2014-06-03 13:14:11	Ilmen	valsi clatei
+2014-06-03 13:14:12	valsi	clatei = t1 is a long time/duration/interval/period/elapsed time from time/event t2 to time/event t3.
+2014-06-03 13:14:35	Ilmen	valsi temci
+2014-06-03 13:14:36	valsi	temci = x1 is the time-duration/interval/period/[elapsed time] from time/event x2 to time/event x3.
+2014-06-03 13:14:40	Ilmen	valsi ditcu
+2014-06-03 13:14:41	valsi	ditcu = x1 is the time-duration/interval/period/[elapsed time] of event x2.
+2014-06-03 13:15:01	Ilmen	{temci} indique la durée qui sépart deux évènements
+2014-06-03 13:15:12	Ilmen	{ditcu} indique la durée d'un évènement
+2014-06-03 13:15:27	lomicmenes	be'e
+2014-06-03 13:16:29	Ilmen	clatei est basé sur temci, donc c'est peut-être pas le mot le plus claire
+2014-06-03 13:16:34	lomicmenes	Pour moi {clatei} indique que la période est grande, mais pas qu'elle est *plus* grande, d'où l'utilisation de {bramau}
+2014-06-03 13:17:08	Ilmen	quand quelqu'un est grand, c'est qu'il est plus grand que la normale. Non?
+2014-06-03 13:17:21	lomicmenes	Parce que pour ce qu'on en sait les jours peuvent bien durer 12h15 en été et 11h45 en hiver.
+2014-06-03 13:17:50	lomicmenes	Si la normale est à 1m74 est-ce que quelqu'un de 1m75 est "grand" ?
+2014-06-03 13:17:58	lomicmenes	Pas franchement je trouve.
+2014-06-03 13:18:00	Ilmen	M'enfin, si vous préférez bramau, utilisez-le, y'a pas de problème ;-)
+2014-06-03 13:18:11	Ilmen	Inutile d'en débattre :)
+2014-06-03 13:18:15	lomicmenes	Il faut qu'il y ait un écart significatif à la moyenne...
+2014-06-03 13:18:17	lomicmenes	Bref
+2014-06-03 13:18:45	lomicmenes	Lyne et pegasusParis vous êtes encore là ?
+2014-06-03 13:18:51	EddieKrueger	pour le superlatif, c'est pour ça que j'avais utilisé {traji}
+2014-06-03 13:19:10	Lyne	Je suis physiquement là. Mais j'avoue que votre débat me dépasse un peu :/
+2014-06-03 13:19:33	Ilmen	lo crisa donri cu barda traji
+2014-06-03 13:19:42	lomicmenes	EddieKrueger: oui mais si tu as le choix entre un superlatif et un comparatif ?
+2014-06-03 13:20:36	EddieKrueger	mmm c'est peut-être pas superlatif que j'aurai du chercher, oui
+2014-06-03 13:20:56	Ilmen	"lo djedi cu cacra 24" --> vous avez oublié un "li" ;-)
+2014-06-03 13:21:19	pegasusParis	Oui mais je zappe.  Je n'ai pas le niveau.
+2014-06-03 13:21:57	EddieKrueger	je voulais pas metre {li} pour pas endormir Lyne :p
+2014-06-03 13:22:13	Ilmen	(en fait un nombre doit être précédé par "li" pour pouvoir être utilisé comme un sumti)
+2014-06-03 13:22:27	Ilmen	li pa = le nombre "1"
+2014-06-03 13:22:33	Lyne	(Merci Eddie, mais ne t'embête pas pour moi. J'ai le nez comme une fontaine et la tête comme un compteur à gaz)
+2014-06-03 13:22:41	Ilmen	uu
+2014-06-03 13:23:30	lomicmenes	Va te coucher Lyne.
+2014-06-03 13:23:37	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-xoafzcabtdoqotxe) has joined #ckule
+2014-06-03 13:23:43	lomicmenes	Le sommeil c'est important pour apprendre ?
+2014-06-03 13:23:51	Lyne	Pour guérir, en tous cas
+2014-06-03 13:24:11	lomicmenes	Il y a une corrélation...
+2014-06-03 13:24:12	pegasusParis	Moi je fabrique mon blog dans lequel je v mettre tous les outils pédagogique que je fabrique pour apprendre le lojban
+2014-06-03 13:24:12	Ilmen	.a'o ba zi kanro xruti  --- je te souhaite un rétablissement rapide
+2014-06-03 13:24:26	Lyne	ki'e
+2014-06-03 13:25:01	lomicmenes	Il est déjà en ligne ce blog ?
+2014-06-03 13:27:05	pegasusParis	Très bientôt
+2014-06-03 13:27:46	lomicmenes	Tu as regardé le lojban pour les êtres humains ?
+2014-06-03 13:29:01	pegasusParis	Oui c très bien
+2014-06-03 13:29:20	pegasusParis	J'ai pris le parti d'avance
+2014-06-03 13:29:57	pegasusParis	Avancer très lentement mais de créer des outils pour faire vivre la langue
+2014-06-03 13:30:29	lomicmenes	C'est clair que c'est une bonne idée.
+2014-06-03 13:34:03	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 252 seconds)
+2014-06-03 13:34:10	lomicmenes	valsi jmaji
+2014-06-03 13:34:10	valsi	jmaji = x1 (mass/jo'u) gathers/collects at location x2 from locations x3 (mass/jo'u).
+2014-06-03 13:34:17	lomicmenes	valsi jmagau
+2014-06-03 13:34:18	valsi	no results. http://vlasisku.lojban.org/jmagau
+2014-06-03 13:34:22	lomicmenes	valsi jajgau
+2014-06-03 13:34:23	valsi	jajgau = g1 collects j1 (mass) at j2 from j3.
+2014-06-03 13:34:44	<--	ldlework (~ldlework@108.166.107.128) has left #ckule ("0.4.1")
+2014-06-03 13:35:00	lomicmenes	valsi cmigau
+2014-06-03 13:35:00	valsi	cmigau = g1 puts together c1 into group c2.
+2014-06-03 13:36:57	lomicmenes	Je dois avouer que je ne sais pas trop comment traduire la deuxième ligne :)
+2014-06-03 13:37:15	EddieKrueger	je ferais le tanru {kancu cmigau}
+2014-06-03 13:37:48	lomicmenes	Je suis d'accord
+2014-06-03 13:38:17	Ilmen	jajgau est basé sur jmaji; jajgau = rassembler
+2014-06-03 13:38:32	lomicmenes	lo ratcu cu kancu cmigau lo djedi lo vo djedi
+2014-06-03 13:38:34	lomicmenes	?
+2014-06-03 13:40:01	EddieKrueger	{ li vo se cu kancu cmigau lo ratcu gi'e se cmene la .vodu. }
+2014-06-03 13:40:45	Ilmen	Le rat ajoute en comptant le jours au quatre jours?
+2014-06-03 13:40:59	EddieKrueger	ou plutôt { li vo cu kancu se cmigau lo ratcu gi'e se cmene la .vodu. }
+2014-06-03 13:41:12	lomicmenes	cmigau ce n'est pas ajouter.
+2014-06-03 13:41:22	Ilmen	ua il y a un rapport entre le mot "ra" et "rat", ou c'est un jeu de mots?
+2014-06-03 13:41:29	Lyne	(Dsl, je ferme le lojban. Je n'arrive plus du tout à suivre. Bonne nuit)
+2014-06-03 13:41:32	EddieKrueger	il y a un rapport
+2014-06-03 13:41:40	EddieKrueger	Bonne nuit Lyne
+2014-06-03 13:41:46	Ilmen	Bonne nuit et bon courage @Lyne
+2014-06-03 13:41:51	<--	Lyne (~Krevette@114.120.14.109.rev.sfr.net) has left #ckule ("Quitte")
+2014-06-03 13:41:51	Ilmen	di'ai
+2014-06-03 13:41:52	lomicmenes	a'o do ba kanro
+2014-06-03 13:42:10	EddieKrueger	C'est pour ça que j'ai pris ratcu pour ra
+2014-06-03 13:43:20	Ilmen	sinon tu peux essayer {ratcypre} (personne-rat)
+2014-06-03 13:43:31	Ilmen	(ratcu+prenu)
+2014-06-03 13:43:39	lomicmenes	{li vo} me pose problème.
+2014-06-03 13:43:43	EddieKrueger	oui, enfin éludons la question poru le moment :)
+2014-06-03 13:43:50	Ilmen	oki
+2014-06-03 13:43:58	lomicmenes	Parce que c'est vraiment un nombre.
+2014-06-03 13:44:03	EddieKrueger	C'est vrai
+2014-06-03 13:44:10	Ilmen	les quatres jours ---> lo djedi vo mei
+2014-06-03 13:44:11	lomicmenes	Or ce qu'on rassemble c'est une quantité de jours
+2014-06-03 13:44:19	Ilmen	"le groupe de 4 jours"
+2014-06-03 13:44:30	lomicmenes	C'est quoi la grammaire ?
+2014-06-03 13:44:38	lomicmenes	C'est un tanru ?
+2014-06-03 13:44:45	Ilmen	nombre+mei est un selbri
+2014-06-03 13:45:11	lomicmenes	valsi vomei
+2014-06-03 13:45:12	valsi	no results. http://vlasisku.lojban.org/vomei
+2014-06-03 13:45:14	Ilmen	re mei ~= être un duo
+2014-06-03 13:45:15	lomicmenes	valsi mei
+2014-06-03 13:45:16	valsi	mei = convert number to cardinality selbri; x1 is the mass formed from set x2 whose n member(s) are x3.
+2014-06-03 13:45:31	EddieKrueger	lo vomei alors
+2014-06-03 13:45:39	lomicmenes	dans ce cas on peut élidé djedi
+2014-06-03 13:45:45	lomicmenes	Exactement
+2014-06-03 13:46:14	EddieKrueger	{ lo vomei cu kancu se cmigau lo ratcu gi'e se cmene la .vodu. }
+2014-06-03 13:46:14	Ilmen	lo vo mei = le groupe de 4
+2014-06-03 13:46:28	lomicmenes	{lo ratcu cu kancu cmigau lo djedi lo vomei be me'e zo .vodu.}
+2014-06-03 13:47:03	EddieKrueger	Ah, j'avais oublié de parler des jours
+2014-06-03 13:47:09	lomicmenes	:)
+2014-06-03 13:47:34	Ilmen	"vodu" isn't a lojban word
+2014-06-03 13:48:00	Ilmen	valsi djedi (affix)
+2014-06-03 13:48:00	valsi	djedi (affix) = -dje-, -dei-
+2014-06-03 13:48:07	EddieKrueger	{ lo vomei cu kancu te cmigau lo djedi lo ratcu gi'e se cmene la .vodu. }
+2014-06-03 13:48:27	Ilmen	Un cmevla doit finir par une consonne
+2014-06-03 13:48:32	Ilmen	"la .vodus."
+2014-06-03 13:48:59	Ilmen	valsi vondei
+2014-06-03 13:48:59	valsi	vondei = x1 is a Thursday of week x2 in calendar x3.
+2014-06-03 13:49:29	Ilmen	vondei = être un jeudi
+2014-06-03 13:49:45	lomicmenes	Je crois qu'il y a eu trop de laxisme sur la création de cmevla dans khanat
+2014-06-03 13:49:46	EddieKrueger	Bah, là il faudra revoir la terminologie de Khanat je pense
+2014-06-03 13:50:05	lomicmenes	Je veux dire trop de laxisme sur la morphologie (consonne finale)
+2014-06-03 13:50:37	EddieKrueger	sauf si on l'intègre dans le lojban parlé au Khanat, du coup ce n'est plus un cmene
+2014-06-03 13:51:31	EddieKrueger	après tout l'idée c'est de créer une semaine de 4 jours, le mot pour semaine ne serait pas un nom propre
+2014-06-03 13:51:34	Ilmen	dans pire des cas, vous rajoutez un -d: redjed, cidjed
+2014-06-03 13:51:49	lomicmenes	Sinon EddieKrueger, dernièrement Ilmen m'avait signifiait que le x1 de {cmene} doit être du texte (d'où mon utilisation de {zo}). Or la .vodus. n'est pas du texte... Puisque c'est un groupement de 4 jours
+2014-06-03 13:52:06	Ilmen	valsi jeftu
+2014-06-03 13:52:06	valsi	jeftu = x1 is x2 weeks in duration (default is 1 week) by standard x3.
+2014-06-03 13:52:36	lomicmenes	valsi jeftu (affix)
+2014-06-03 13:52:37	valsi	jeftu (affix) = -jef-
+2014-06-03 13:52:40	Ilmen	zo .vodus. cmene la .vodus.
+2014-06-03 13:52:52	Ilmen	zo .ilmen. cmene la .ilmen.
+2014-06-03 13:53:51	-->	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has joined #ckule
+2014-06-03 13:54:06	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-06-03 13:54:09	lomicmenes	{lo vonjeftu} : la semaine de 4 jours... Mais le plus simple serait de redéfinir jeftu dans le standard khanat comme ayant 4 jours.
+2014-06-03 13:54:49	Ilmen	Je pense oui
+2014-06-03 13:55:26	lomicmenes	Après {vodus} peut être un nom propre pour "la semaine standard de khanat"... Je sais c'est un peu bizarre.
+2014-06-03 13:55:31	Ilmen	Dans le monde de Khanat, "jeftu" aura une durée différente, tout comme "djedi" aura probablement une durée différente
+2014-06-03 13:56:06	Ilmen	pareill e pour nanca
+2014-06-03 13:56:13	Ilmen	(année)
+2014-06-03 13:56:14	lomicmenes	Bon EddieKrueger je te charge d'un exercice pour la semaine prochaine du coup.
+2014-06-03 13:57:02	lomicmenes	modifier http://khaganat.net/um1/fr:mesure_du_temps en français pour que le lojban soit correct (en gros remplacer vodu).
+2014-06-03 13:57:21	lomicmenes	Et commencer la traduction de la page en lojban.
+2014-06-03 13:57:21	EddieKrueger	pour les noms des jours aussi en fait
+2014-06-03 13:57:30	lomicmenes	Ca te va ?
+2014-06-03 13:58:27	EddieKrueger	oui
+2014-06-03 13:58:36	lomicmenes	Cool.
+2014-06-03 13:58:56	Ilmen	valsi amber
+2014-06-03 13:58:57	valsi	dujricyblu = x1=d1=c1 is a quantity of amber (fossilized resin) of plants x2=c2=t1
+2014-06-03 13:59:10	EddieKrueger	jeftu vient de quelles racines ?
+2014-06-03 13:59:40	EddieKrueger	si il y en a ?
+2014-06-03 14:00:05	Ilmen	Alors là je sais pas
+2014-06-03 14:00:40	Ilmen	Je ne sais plus ou est la liste des étymologies
+2014-06-03 14:00:50	lomicmenes	http://en.wiktionary.org/wiki/jeftu
+2014-06-03 14:00:57	Ilmen	(il y en a une il me semble)
+2014-06-03 14:01:16	lomicmenes	Dans le wiktionary il y a l'étymologie souvent
+2014-06-03 14:01:27	<--	durka42 (~durka42@c-69-249-31-89.hsd1.nj.comcast.net) has left #ckule
+2014-06-03 14:01:28	Ilmen	cool
+2014-06-03 14:02:56	EddieKrueger	je pensais racines lojbanes, rafsi ^^, mais c'était idiot comme question en fait, puisqu'il s'agit d'un brivla
+2014-06-03 14:03:21	lomicmenes	D'un gismu
+2014-06-03 14:03:35	EddieKrueger	oui, plutôt ^
+2014-06-03 14:03:39	EddieKrueger	enfin précisément
+2014-06-03 14:03:45	lomicmenes	Les lujvo sont des brivla qui sont constitués de rafsi
+2014-06-03 14:03:50	Ilmen	-jef- est le rafsi
+2014-06-03 14:04:18	Ilmen	valsi jefyfa'o
+2014-06-03 14:04:19	valsi	jefyfa'o = x1 is the weekend of week x2
+2014-06-03 14:06:08	pegasusParis	Bon je n'arrive pas gérer un blog correctement depuis ma tablette.  Alors je mets tout dans mon pearltrees
+2014-06-03 14:06:46	pegasusParis	le jbo gosse de paris http://www.pearltrees.com/sirrah.spiritus/jbo-gosse-paris/id11826866
+2014-06-03 14:07:49	lomicmenes	C'est cool.
+2014-06-03 14:08:11	lomicmenes	Ce le serait encore plus avec les consignes des exercices non ?
+2014-06-03 14:10:24	pegasusParis	oui c un début
+2014-06-03 14:10:44	pegasusParis	Il y a des phrase a traduire
+2014-06-03 14:12:13	EddieKrueger	pour terminer un lujvo, il faut un rafsi CVV n'est-ce pas ?
+2014-06-03 14:12:22	lomicmenes	Non
+2014-06-03 14:13:00	lomicmenes	valsi spusku
+2014-06-03 14:13:01	valsi	spusku = x1 gives reply/answer/responds with x2 (sedu'u/text/lu'e concept) to x3 via expressive medium x4, about subject x5.
+2014-06-03 14:13:13	EddieKrueger	je'e
+2014-06-03 14:13:28	EddieKrueger	donc padje ou padei, à l'origine c'est indifférent
+2014-06-03 14:13:42	lomicmenes	Non ça ne va pas dans les deux cas.
+2014-06-03 14:13:52	lomicmenes	{pa} n'est pas un rafsi
+2014-06-03 14:14:01	lomicmenes	valsi pa (affix)
+2014-06-03 14:14:02	valsi	pa (affix) = -pav-
+2014-06-03 14:14:16	EddieKrueger	hum oui
+2014-06-03 14:14:23	lomicmenes	-> pavdei ou pavdje
+2014-06-03 14:14:36	lomicmenes	Le premier est plus facile à prononcer.
+2014-06-03 14:14:56	EddieKrueger	oui
+2014-06-03 14:15:07	lomicmenes	Il y a un algorithme pour choisir le meilleur lujvo à partir des différents rafsi possible.
+2014-06-03 14:15:15	lomicmenes	Mais je ne sais plus où on le trouve.
+2014-06-03 14:15:40	lomicmenes	Mais ça dois être pour ça qu'il y a plus de lujvo quie se termine en CVV
+2014-06-03 14:19:25	Ilmen	oui
+2014-06-03 14:20:10	Ilmen	http://jwodder.freeshell.org/lojban/jvozba.cgi?tanru=purci+temci&vlalei=brivla
+2014-06-03 14:20:27	Ilmen	^ exemple avec le lujvo purci+temci
+2014-06-03 14:20:48	EddieKrueger	jeftu n'a pas de rafsi qui se termine par une voyelle
+2014-06-03 14:21:07	Ilmen	Dans ce cas, il faut utiliser le rafsi long "jeftu"
+2014-06-03 14:21:18	Ilmen	les rafsi en trois lettres sont les rafsi courts
+2014-06-03 14:21:26	EddieKrueger	d'où le vonjeftu que tu avais proposé
+2014-06-03 14:21:31	Ilmen	tout les gismu peuvent servir de rafsi long
+2014-06-03 14:21:52	EddieKrueger	ça fait un peu allemand :) von quelque chose
+2014-06-03 14:22:15	Ilmen	purci+temci --> purcytemci / purcytei / purtemci / prutemci / purtei / prutei
+2014-06-03 14:22:25	Ilmen	et "prutei" est celui avec le meilleur score
+2014-06-03 14:22:30	Ilmen	(le score le plus bas)
+2014-06-03 14:23:02	Ilmen	donc c'est la forme à préférer
+2014-06-03 14:25:26	EddieKrueger	bien, je vous laisse
+2014-06-03 14:25:29	EddieKrueger	co'o ro do
+2014-06-03 14:26:24	Ilmen	co'o
+2014-06-03 14:27:02	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-03 14:27:43	<--	EddieKrueger (~Eddie@254.165.127.78.rev.sfr.net) has left #ckule ("Quitte")
+2014-06-03 14:33:38	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-03 14:34:11	lomicmenes	pegasusParis: tu es encore là ?
+2014-06-03 14:34:21	pegasusParis	Oui
+2014-06-03 14:34:32	lomicmenes	Je regarde la fin de la deuxième page.
+2014-06-03 14:34:51	lomicmenes	Tu apprends avec lojban for beginners ?
+2014-06-03 14:35:08	pegasusParis	Le save
+2014-06-03 14:35:19	pegasusParis	wave
+2014-06-03 14:36:18	pegasusParis	il y a des erreurs ?
+2014-06-03 14:36:37	lomicmenes	Pour moi on va assez systématiquement utiliser "lo" plutôt que "le"... mais ça c'est juste un avis.
+2014-06-03 14:37:06	lomicmenes	par contre tu utilises {lojban} comme un selbri, or c'est un cmevla.
+2014-06-03 14:37:28	lomicmenes	Le plus simple est d'utiliser {jbobau} ou {lojbo} à la place.
+2014-06-03 14:37:43	lomicmenes	Parce que {le lojban ckule} ce n'est pas correct
+2014-06-03 14:38:13	pegasusParis	Ok
+2014-06-03 14:40:29	pegasusParis	Je vais mettre plus de phrase a traduit.  Ce n'est pas simple de jongler  avec les sumti
+2014-06-03 14:40:43	pegasusParis	Faut exercer l'esprit
+2014-06-03 14:41:11	pegasusParis	Comprendre la grammaire ne suffit pas
+2014-06-03 14:42:02	<--	Rhymor (~felix@e180100044.adsl.alicedsl.de) has quit (Quit: Rhymor)
+2014-06-03 14:42:18	pegasusParis	Apres j'espère faire une méthode purement orale
+2014-06-03 14:43:13	pegasusParis	La méthode pour apprendre l'anglais de michel thomas est très bonne pout apprendre l'anglais
+2014-06-03 14:43:46	pegasusParis	Ce n'est que des questions et on apprend vite
+2014-06-03 14:45:29	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-03 14:45:47	pegasusParis	Si j'apprends le lojban et apres je fabrique des méthode d'apprentissage apres.  Je risque de ne pas avoir la motivation.
+2014-06-03 14:45:58	lomicmenes	C'est sûr.
+2014-06-03 14:46:45	lomicmenes	Est-ce que tu comptes faire ça de manière collaborative, ou plutôt de ton côté et présenté un produit fini aux futurs élèves ?
+2014-06-03 14:46:52	pegasusParis	Parcontre si je fabrique des outils pendant mon apprentissage c plus créatif et donc plus sympa
+2014-06-03 14:47:39	pegasusParis	Je pense prendrez des acteur qui jourons des faux élèves
+2014-06-03 14:47:53	lomicmenes	??
+2014-06-03 14:48:34	pegasusParis	On verra
+2014-06-03 14:48:45	pegasusParis	La je m'amuse
+2014-06-03 14:49:09	lomicmenes	a'o do se pluka
+2014-06-03 14:49:20	pegasusParis	Jai envie décrire une histoire pour apprendre les attitudinaux
+2014-06-03 14:49:29	lomicmenes	Les cnima'o
+2014-06-03 14:49:37	pegasusParis	Oui
+2014-06-03 14:50:19	pegasusParis	Monsieur i tombe amoureux de madame u
+2014-06-03 14:50:36	pegasusParis	Quelque chose dans ce genre
+2014-06-03 14:52:09	lomicmenes	Tiens nous au courant !
+2014-06-03 14:52:50	pegasusParis	Pas de problème
+2014-06-03 14:55:26	pegasusParis	Passe une bonne soirée
+2014-06-03 14:55:33	pegasusParis	Et a bientôt
+2014-06-03 14:56:33	Ilmen	co'o
+2014-06-03 14:57:46	pegasusParis	co'o
+2014-06-03 14:57:53	pegasusParis	merci
+2014-06-03 15:07:54	lomicmenes	co'o
+2014-06-03 15:08:01	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Quit: lomicmenes)
+2014-06-03 15:10:12	-->	latro`a_ (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-03 15:13:45	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-03 15:15:29	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-06-03 15:26:44	<--	Ilmen (~kvirc@128.140.130.15) has quit (Ping timeout: 252 seconds)
+2014-06-03 15:37:48	<--	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has quit (Ping timeout: 240 seconds)
+2014-06-03 16:11:55	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-06-03 16:14:34	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Disconnected by services)
+2014-06-03 16:14:39	--	mythmon_ is now known as mythmon
+2014-06-03 16:16:28	-->	Tene_ (~tene@mail.digitalkingdom.org) has joined #ckule
+2014-06-03 16:16:28	<--	Tene_ (~tene@mail.digitalkingdom.org) has quit (Changing host)
+2014-06-03 16:16:28	-->	Tene_ (~tene@poipu/supporter/slacker/tene) has joined #ckule
+2014-06-03 16:20:27	<--	Tene (~tene@poipu/supporter/slacker/tene) has quit (Write error: Broken pipe)
+2014-06-03 16:20:31	<--	matais (~matais@ip82-139-125-221.lijbrandt.net) has quit (Remote host closed the connection)
+2014-06-03 16:43:46	<--	smazga (~Laslo@64.55.45.194) has quit (Quit: rcirc on GNU Emacs 24.3.1)
+2014-06-03 16:47:00	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: zzz)
+2014-06-03 16:50:27	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-03 17:23:26	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-03 17:38:04	-->	infoscav (~mycroft@5.22.135.149) has joined #ckule
+2014-06-03 17:47:58	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: zzz)
+2014-06-03 18:39:34	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-xoafzcabtdoqotxe) has quit (Quit: Connection closed for inactivity)
+2014-06-03 18:48:07	<--	latro`a_ (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 276 seconds)
+2014-06-03 18:50:36	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-03 19:02:16	-->	v4hn_ (~v4hn@brln-4d0cd1fe.pool.mediaways.net) has joined #ckule
+2014-06-03 19:05:31	<--	v4hn (~v4hn@brln-4d0cc18b.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-03 19:11:29	<--	gobblette (~ulino@unaffiliated/brakumindulo) has quit (Quit: valete)
+2014-06-03 19:22:12	<--	uuZIT (~uuZIT@p549FA352.dip0.t-ipconnect.de) has quit (Quit: uuZIT)
+2014-06-03 19:49:44	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-03 19:58:55	-->	v4hn (~v4hn@brln-4dbc2688.pool.mediaWays.net) has joined #ckule
+2014-06-03 20:02:21	<--	v4hn_ (~v4hn@brln-4d0cd1fe.pool.mediaways.net) has quit (Ping timeout: 252 seconds)
+2014-06-03 20:13:32	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-03 20:16:28	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-03 20:32:34	--	Tene_ is now known as Tene
+2014-06-03 21:12:19	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-03 21:16:01	-->	palo (~palo@f052097034.adsl.alicedsl.de) has joined #ckule
+2014-06-03 21:26:57	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-06-03 22:01:35	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 255 seconds)
+2014-06-03 22:09:20	<--	palo (~palo@f052097034.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2014-06-03 22:48:11	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Quit: WeeChat 0.4.3)
+2014-06-03 23:12:45	<--	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-06-03 23:55:58	-->	jbopre2000 (uid26695@gateway/web/irccloud.com/x-mcrdhbjzjzliddok) has joined #ckule
+2014-06-04 00:11:41	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 264 seconds)
+2014-06-04 00:17:54	<--	J__ (~djancak@unaffiliated/djancak) has quit (Quit: J__)
+2014-06-04 00:19:16	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-04 00:28:14	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-04 00:47:28	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-ksglxfjfcqvqckuh) has joined #ckule
+2014-06-04 01:42:05	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-04 01:48:34	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (*.net *.split)
+2014-06-04 01:49:13	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-04 01:58:39	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-04 02:08:44	<--	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has quit (Ping timeout: 246 seconds)
+2014-06-04 02:11:58	-->	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has joined #ckule
+2014-06-04 02:14:12	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-04 02:44:27	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-04 02:47:26	-->	Ilmen (~kvirc@37.252.201.23) has joined #ckule
+2014-06-04 03:12:28	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-04 03:14:46	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-04 03:29:34	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-ksglxfjfcqvqckuh) has quit (Quit: Connection closed for inactivity)
+2014-06-04 03:49:50	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-04 03:53:13	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-04 03:53:48	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-04 04:06:08	-->	naours (~dgallissi@LPoitiers-156-85-36-223.w193-248.abo.wanadoo.fr) has joined #ckule
+2014-06-04 04:59:39	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-04 05:08:27	-->	latro`a_ (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-04 05:12:06	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 276 seconds)
+2014-06-04 05:15:37	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-04 05:39:23	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-04 05:59:09	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2014-06-04 06:45:55	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-04 06:50:43	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Ping timeout: 260 seconds)
+2014-06-04 08:21:48	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-04 08:37:29	-->	Rhymor (~felix@e180097111.adsl.alicedsl.de) has joined #ckule
+2014-06-04 08:38:56	<--	Ilmen (~kvirc@37.252.201.23) has quit (Ping timeout: 260 seconds)
+2014-06-04 09:04:29	<--	naours (~dgallissi@LPoitiers-156-85-36-223.w193-248.abo.wanadoo.fr) has quit (Quit: Leaving.)
+2014-06-04 09:32:37	-->	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has joined #ckule
+2014-06-04 09:34:49	grimles	coi ro do
+2014-06-04 09:38:54	<--	jbopre2000 (uid26695@gateway/web/irccloud.com/x-mcrdhbjzjzliddok) has quit (Quit: Connection closed for inactivity)
+2014-06-04 09:39:09	@xalbo	coi la .grimles.
+2014-06-04 09:39:27	@xalbo	coi la grimle
+2014-06-04 09:45:49	-->	urpect (~urpect@alexburka.com) has joined #ckule
+2014-06-04 09:45:49	-->	islav (~islav@alexburka.com) has joined #ckule
+2014-06-04 09:52:48	grimles	.i ma nuzba
+2014-06-04 09:56:03	@xalbo	.i ca lo purlamdei vanci mi jo'u ky. goi le speni be mi cu ve draci fi la .sheikspir. bu'u lo panka
+2014-06-04 09:56:24	@xalbo	.i ku'u pluja jufra
+2014-06-04 10:02:47	@xalbo	sa .i .u'u pluja jufra
+2014-06-04 10:03:00	@xalbo	Sorry, that was a long answer to a short question.
+2014-06-04 10:09:55	grimles	.u'i
+2014-06-04 10:10:21	-->	Ilmen (~kvirc@37.252.201.23) has joined #ckule
+2014-06-04 10:11:18	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Read error: Connection reset by peer)
+2014-06-04 10:12:04	grimles	Let's see if I got it right... "This evening me, K, and my spouse are going to a play of Shakespear in the park"
+2014-06-04 10:13:09	@xalbo	Very close. I said it's yesterday evening (although that's an error, I should have said {bavlamdei vanci}, tomorrow evening), and K is my spouse.
+2014-06-04 10:14:20	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-04 10:16:22	grimles	ah, ok. So goi is another way of specifying a relative clause?
+2014-06-04 10:17:39	@xalbo	{goi} takes two sumti, one on either side, and says that one is a variable to be assigned to the other.
+2014-06-04 10:17:54	grimles	Ah, interesting
+2014-06-04 10:17:58	@xalbo	(Though it's not strict about which side is which, which can be a little confusing)
+2014-06-04 10:18:50	@xalbo	so {le speni be mi be'o ku goi ky. [ge'u]} and {ky. goi le speni be mi [be'o] [ku] [ge'u]} both mean "My wife, call her K."
+2014-06-04 10:19:00	grimles	Well, it's used as an equivalency, right?
+2014-06-04 10:19:06	@xalbo	Yes.
+2014-06-04 10:19:28	Ilmen	X goi Y ~= X no'u ca'e Y
+2014-06-04 10:19:37	grimles	Ah, yeah I can see how that could be confusing
+2014-06-04 10:20:04	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Read error: Connection reset by peer)
+2014-06-04 10:20:29	grimles	.i xu ky. jbopre
+2014-06-04 10:21:24	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-04 10:23:02	@xalbo	na go'i .i pu zu ze'i tadni la .lojban. .i ku'i na cinri ky.
+2014-06-04 10:24:58	grimles	.uinaidai
+2014-06-04 10:28:49	@xalbo	.ie ru'e
+2014-06-04 10:31:11	grimles	.i do cilre lo jbobau mu'i ma
+2014-06-04 10:42:05	@xalbo	.i cinri mi .i mi nelci lo bangu .i pe'i mi pensi tai lo frica bau la .lojban.
+2014-06-04 10:47:13	grimles	.a'u
+2014-06-04 10:48:54	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-04 10:49:16	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-06-04 10:50:25	grimles	I feel like I'm losing steam in my lojban learning
+2014-06-04 10:50:53	grimles	the community here has been so caught up with fighting in #lojban that I haven't been able to really keep a conversation rolling
+2014-06-04 10:51:09	grimles	and I keep picking translation topics that are surprisingly difficult
+2014-06-04 10:51:33	grimles	and everyone I tell about lojban shrugs and tells me to learn a useful language...
+2014-06-04 10:52:32	simpson	"Useful" varies.
+2014-06-04 10:52:46	grimles	Indeed
+2014-06-04 10:52:53	@xalbo	I can completely understand.
+2014-06-04 10:53:20	grimles	but I live with two Ukrainians who speak Russian and Ukrainian all the time
+2014-06-04 10:53:28	@xalbo	I find that Lojban helps me conceptualize the world differently. When I start thinking in Lojban, I really do think of things as relationships among entities. As parameters to function calls.
+2014-06-04 10:54:01	@xalbo	"Beauty is in the eye of the beholder" is already baked into the fact that there's a melbi2.
+2014-06-04 10:55:04	@xalbo	"should" and "ought" start to seem like really complicated things, instead of the primitives that they naïvely seem.
+2014-06-04 10:56:26	grimles	xablo: sure, lojban has certainly helped to inform my understanding of language and communication, and I still find it very interesting.
+2014-06-04 10:57:51	grimles	But I can't help but feel it's a bit of a waste, considering I have no one to correspond with and no reason beyond curiosity to continue learning.
+2014-06-04 10:58:49	@xalbo	Yeah, I can completely sympathize.
+2014-06-04 11:04:24	grimles	wut do?
+2014-06-04 11:05:55	@xalbo	I don't know. I keep at it because I enjoy it, but it's hard to defend on any real pragmatic grounds.
+2014-06-04 11:08:08	simpson	In high school, a bunch of my friends learned Japanese instead of Spanish. Spanish was useful because there's lots of Spanish-speaking folk around there. Japanese wasn't useful, but it was fun.
+2014-06-04 11:08:13	simpson	Maybe that's all you need.
+2014-06-04 11:08:20	-->	coyo (unf@ryujin.darkdna.net) has joined #ckule
+2014-06-04 11:08:26	--	coyo is now known as Guest73769
+2014-06-04 11:11:49	--	Guest73769 is now known as bandu
+2014-06-04 11:12:18	<--	bandu (unf@ryujin.darkdna.net) has quit (Changing host)
+2014-06-04 11:12:18	-->	bandu (unf@unaffiliated/bandu) has joined #ckule
+2014-06-04 11:14:26	--	bandu is now known as coyo
+2014-06-04 11:24:23	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-xdvstdlbeqnhskml) has joined #ckule
+2014-06-04 11:26:55	<--	coyo (unf@unaffiliated/bandu) has left #ckule
+2014-06-04 11:30:29	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-04 11:35:22	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-04 11:35:24	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-04 11:41:58	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 240 seconds)
+2014-06-04 11:47:15	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-04 11:51:51	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Ping timeout: 276 seconds)
+2014-06-04 12:03:18	-->	kres (ae6de6d0@gateway/web/freenode/ip.174.109.230.208) has joined #ckule
+2014-06-04 12:03:47	kres	coi rodo
+2014-06-04 12:03:59	Ilmen	coi
+2014-06-04 12:05:02	kres	ma gleki do
+2014-06-04 12:05:13	Ilmen	nandu preti
+2014-06-04 12:05:41	Ilmen	valsi: gleki
+2014-06-04 12:05:41	valsi	gleki = x1 is happy/merry/glad/gleeful about x2 (event/state).
+2014-06-04 12:07:22	kres	.uu do gleki ma
+2014-06-04 12:07:53	Ilmen	ma gleki do = Who's happy about you? / ¿Quién está feliz por tú? / Qui est heureux pour toi? / ...
+2014-06-04 12:07:58	<--	Rhymor (~felix@e180097111.adsl.alicedsl.de) has quit (Quit: Rhymor)
+2014-06-04 12:07:59	Ilmen	je'e
+2014-06-04 12:10:14	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-04 12:10:18	Ilmen	.i mi gleki  lo .y nu tirna lo pluka zgike
+2014-06-04 12:11:37	Ilmen	.i ma bangu do
+2014-06-04 12:13:37	kres	.i glibau bangu mi
+2014-06-04 12:13:56	Ilmen	je'e
+2014-06-04 12:14:20	Ilmen	.i .e'u  lu  lo glibau ku bangu mi  li'u  :)
+2014-06-04 12:14:51	Ilmen	(I suggest «lo glibau ku bangu mi»)
+2014-06-04 12:15:07	<--	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has quit (Ping timeout: 252 seconds)
+2014-06-04 12:15:09	@xalbo	.i le tanru ku ji'a mapti
+2014-06-04 12:15:14	Ilmen	ie mapti
+2014-06-04 12:15:31	@xalbo	.i ku'i la'a na skudji
+2014-06-04 12:15:39	Ilmen	.i ku'i pe'i snuti
+2014-06-04 12:15:47	Ilmen	ie
+2014-06-04 12:16:06	Ilmen	ta'o coi do
+2014-06-04 12:17:17	kres	.i ki'e do
+2014-06-04 12:17:28	Ilmen	je'e fi'i  :)
+2014-06-04 12:20:28	Ilmen	.i  pu za ma  do  co'a cilre  fi la .lojban.  --- How long ago did you start learning Lojban?
+2014-06-04 12:25:03	Ilmen	xu lo cmalu   (a short [time]?)
+2014-06-04 12:32:09	kres	About 3 months still working on time. Thanks.
+2014-06-04 12:43:15	-->	EddieKrueger (~Eddie@31.13.138.88.rev.sfr.net) has joined #ckule
+2014-06-04 12:43:23	<--	EddieKrueger (~Eddie@31.13.138.88.rev.sfr.net) has left #ckule ("Quitte")
+2014-06-04 12:46:20	<--	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has quit (Read error: Connection reset by peer)
+2014-06-04 12:48:08	-->	ZeReEbRiL (~ZeReEbRiL@162.209.98.175) has joined #ckule
+2014-06-04 12:51:25	Ilmen	ua je'e
+2014-06-04 12:51:58	Ilmen	"about three months" = lo masti be li ji'i ci
+2014-06-04 12:52:37	Ilmen	"an amount of months of about three"
+2014-06-04 12:52:48	Ilmen	(literally)
+2014-06-04 12:56:25	grimles	I've been working on a translation for Rock Paper Scissors. durka42 has provided a lot of help
+2014-06-04 12:56:38	grimles	Wondering if anyone else would like to weigh in on the translation efforts
+2014-06-04 13:07:40	Ilmen	la bidju jo'u pelji jo'u jinci goi ko'a selkei .i sarcu fa lo nu su'o re prenu cu kelci zukte .i ro lo kelci cu pa mai sivni cuxna da lo bidju ce lo pelji ce lo jinci .i ca gi ro kelci ba'o cuxna gi pa da poi mapti mokca zo'i loi kelci cu simxu loka
+2014-06-04 13:08:11	Ilmen	whoops, I mis-hit the send button xD
+2014-06-04 13:08:25	Ilmen	s/zo'i/zo'u
+2014-06-04 13:09:04	Ilmen	...simxu lo ka ca da jungau lo du'u ma kau se cuxna
+2014-06-04 13:28:53	-->	lodnexus (~lodnexus@LPoitiers-156-85-24-81.w193-248.abo.wanadoo.fr) has joined #ckule
+2014-06-04 13:34:04	grimles	Ilmen: doesn't parse using jboski
+2014-06-04 13:34:38	Ilmen	gerna: la bidju jo'u pelji jo'u jinci goi ko'a selkei
+2014-06-04 13:34:38	gerna	(0[{la <(1[bidju jo'u pelji] jo'u jinci)1 (1goi ko'a GE'U)1> KU} CU {selkei VAU}])0
+2014-06-04 13:34:52	Ilmen	gerna: sarcu fa lo nu su'o re prenu cu kelci zukte
+2014-06-04 13:34:52	gerna	(0[sarcu {<fa (1lo [nu {<(2[su'o re] BOI)2 prenu KU> cu <(2kelci zukte)2 VAU>} KEI] KU)1> VAU}])0
+2014-06-04 13:35:07	Ilmen	gerna: ro lo kelci cu pa mai sivni cuxna da lo bidju ce lo pelji ce lo jinci
+2014-06-04 13:35:07	gerna	not grammatical: ro lo kelci cu pa mai sivni cuxna da lo bidju ce _lo_ ⚠  pelji ce lo jinci
+2014-06-04 13:35:49	Ilmen	cipra: lo bidju ce lo pelji ce lo jinci
+2014-06-04 13:35:49	cipra	([{lo bidju KU} {ce <lo pelji KU>} {ce <lo jinci KU>}] VAU)
+2014-06-04 13:35:59	Ilmen	gerna: lo bidju ce lo pelji ce lo jinci
+2014-06-04 13:35:59	gerna	not grammatical: lo bidju ce _lo_ ⚠  pelji ce lo jinci
+2014-06-04 13:36:11	Ilmen	la gerna cu bebna >_<
+2014-06-04 13:37:03	Ilmen	ti noi jufra cu gendra
+2014-06-04 13:39:58	@xalbo	gerna: lo bidju ku ce lo pelji ku ce lo jinci
+2014-06-04 13:39:59	gerna	(0[{<(1lo bidju ku)1 ce (1lo pelji ku)1> ce <lo jinci KU>} VAU])0
+2014-06-04 13:40:08	@xalbo	kujoi
+2014-06-04 13:40:47	<--	lodnexus (~lodnexus@LPoitiers-156-85-24-81.w193-248.abo.wanadoo.fr) has quit
+2014-06-04 13:40:57	Ilmen	Ah, this one
+2014-06-04 13:41:13	Ilmen	grimles: this is a bug of Gerna
+2014-06-04 13:41:26	Ilmen	it has a few bugs like this one
+2014-06-04 13:43:23	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-04 13:45:47	<--	urpect (~urpect@alexburka.com) has quit (Remote host closed the connection)
+2014-06-04 13:45:47	<--	islav (~islav@alexburka.com) has quit (Remote host closed the connection)
+2014-06-04 13:45:59	-->	tcepru (~tcepru@alexburka.com) has joined #ckule
+2014-06-04 13:45:59	-->	vlaste (~vlaste@alexburka.com) has joined #ckule
+2014-06-04 13:47:33	grimles	Well, there goes my hobby translation effort... :P
+2014-06-04 13:49:56	@xalbo	Why {bidju} instead of {rokci}?
+2014-06-04 13:52:04	-->	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has joined #ckule
+2014-06-04 13:54:58	Ilmen	well, rokci is more the substance than the shape; ideally it should be a combination of both rokci and bidju la'a
+2014-06-04 13:55:04	Ilmen	valsi rokci
+2014-06-04 13:55:05	valsi	rokci = x1 is a quantity of/is made of/contains rock/stone of type/composition x2 from location x3.
+2014-06-04 13:55:23	Ilmen	well, rokci works too yeah
+2014-06-04 13:55:33	Ilmen	rokci3 ...
+2014-06-04 13:56:24	Ilmen	rokci is fine, forgot everything I said :p
+2014-06-04 13:59:06	@xalbo	sudai
+2014-06-04 14:50:02	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 255 seconds)
+2014-06-04 14:54:05	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 255 seconds)
+2014-06-04 15:01:30	<--	kres (ae6de6d0@gateway/web/freenode/ip.174.109.230.208) has quit (Quit: Page closed)
+2014-06-04 15:02:25	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-04 15:03:40	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-06-04 15:28:18	<--	Ilmen (~kvirc@37.252.201.23) has quit (Ping timeout: 276 seconds)
+2014-06-04 15:37:21	-->	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has joined #ckule
+2014-06-04 15:49:34	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-xdvstdlbeqnhskml) has quit (Quit: Connection closed for inactivity)
+2014-06-04 15:53:07	<--	poelzi (poelzi@quamquam.org) has quit (Ping timeout: 240 seconds)
+2014-06-04 15:53:21	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-04 15:54:00	-->	poelzi (poelzi@quamquam.org) has joined #ckule
+2014-06-04 16:16:29	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 264 seconds)
+2014-06-04 16:21:47	-->	matais (~matais@ip82-139-125-221.lijbrandt.net) has joined #ckule
+2014-06-04 16:29:06	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-04 16:33:21	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Ping timeout: 240 seconds)
+2014-06-04 17:02:34	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-06-04 17:10:55	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-04 17:14:32	<--	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has left #ckule
+2014-06-04 18:08:51	<--	cntrational (~cntration@49.205.77.125) has quit (Ping timeout: 276 seconds)
+2014-06-04 18:13:26	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-04 18:23:10	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-04 19:14:11	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 255 seconds)
+2014-06-04 19:19:22	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: gotta go)
+2014-06-04 19:58:08	-->	v4hn_ (~v4hn@brln-4dbc3a97.pool.mediaWays.net) has joined #ckule
+2014-06-04 19:59:03	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-04 20:01:31	<--	v4hn (~v4hn@brln-4dbc2688.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-04 20:02:42	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-04 20:05:51	<--	latro`a_ (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 276 seconds)
+2014-06-04 20:11:49	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-04 20:22:33	<--	infoscav (~mycroft@5.22.135.149) has quit (Ping timeout: 240 seconds)
+2014-06-04 21:20:10	-->	latro`a_ (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-04 21:20:36	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 276 seconds)
+2014-06-04 21:24:15	--	latro`a_ is now known as latro`a
+2014-06-04 21:26:08	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 245 seconds)
+2014-06-04 21:54:09	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-04 22:20:57	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-csdnbdeelihbxney) has joined #ckule
+2014-06-04 22:54:58	-->	Abeardevil (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has joined #ckule
+2014-06-04 22:55:40	Abeardevil	Hello!
+2014-06-04 22:56:36	simpson	coi
+2014-06-04 22:59:10	Abeardevil	This is my first time looking into learning Lojban, so I don't know any of it yet.
+2014-06-04 23:01:45	simpson	No worries. Take your time.
+2014-06-04 23:01:58	simpson	#ckule is a school.
+2014-06-04 23:05:18	Abeardevil	So I heard. I just decided to pop in to meet other people interested in learning the language.
+2014-06-04 23:05:32	Abeardevil	Most people around me don't care about it. :P
+2014-06-04 23:07:14	simpson	That's common, unfortunately.
+2014-06-04 23:07:27	Abeardevil	I had imagined it would be.
+2014-06-04 23:07:46	Abeardevil	I hope it takes off. I'm really interested in learning. Reading the introductory brochure now.
+2014-06-04 23:10:38	Abeardevil	@simpson, do you have a favorite learning resource?
+2014-06-04 23:13:06	Abeardevil	Currently reading "Lojban for beginners"
+2014-06-04 23:15:12	simpson	Abeardevil: I read through the tutorial at lojban.org and another one I don't remember; the guide on Wikibooks is helpful as well.
+2014-06-04 23:15:43	simpson	Right now I'm reading through the official grammar (I'm a CS guy, so it's tasty to me) and using the Anki flash cards to build vocabulary.
+2014-06-04 23:16:22	Abeardevil	I'm a budding CS guy as well, actually. That's interesting.
+2014-06-04 23:16:31	Abeardevil	Though, I sort of expected to find a bunch in the lojban IRC.
+2014-06-04 23:26:41	Abeardevil	Wow. Attitudinal indicators are incredible.
+2014-06-04 23:28:43	simpson	.ie
+2014-06-04 23:31:01	Abeardevil	Haha.
+2014-06-04 23:31:11	Abeardevil	I mean .u'i
+2014-06-05 00:16:26	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-06-05 00:44:58	<--	zahlman (~karl@TOROON4425W-LP130-01-1279609730.dsl.bell.ca) has quit (Ping timeout: 240 seconds)
+2014-06-05 00:45:54	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-05 01:13:50	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-05 01:40:41	<--	phma (~phma@2001:5b0:2144:1d0:226:9eff:fec5:d505) has quit (Read error: Connection reset by peer)
+2014-06-05 01:42:00	-->	phma (~phma@dpc6744203159.direcpc.com) has joined #ckule
+2014-06-05 01:45:48	<--	Abeardevil (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has quit (Ping timeout: 240 seconds)
+2014-06-05 01:57:39	-->	xatra (~xatra@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-05 02:16:46	-->	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-05 02:22:59	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-05 02:26:57	-->	rossi (~rossi@colubris-intranet.scc.kit.edu) has joined #ckule
+2014-06-05 02:55:00	-->	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 03:00:15	<--	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-06-05 03:07:41	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-05 03:11:56	-->	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has joined #ckule
+2014-06-05 03:14:27	-->	ABeardevil (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has joined #ckule
+2014-06-05 03:25:43	<--	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2014-06-05 03:52:05	<--	rossi (~rossi@colubris-intranet.scc.kit.edu) has quit (Quit: WeeChat 0.4.3)
+2014-06-05 04:00:42	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-05 04:11:52	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-05 04:12:35	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-05 04:19:35	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-csdnbdeelihbxney) has quit (Quit: Connection closed for inactivity)
+2014-06-05 04:20:55	<--	ABeardevil (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has quit (Quit: Page closed)
+2014-06-05 04:47:21	<--	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-05 04:54:50	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-05 05:56:16	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: zzz)
+2014-06-05 06:06:01	-->	canidae (canidae@exent.net) has joined #ckule
+2014-06-05 06:06:50	<--	canidae (canidae@exent.net) has left #ckule
+2014-06-05 06:07:17	<--	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has quit (Quit: fe'o)
+2014-06-05 06:11:37	-->	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 06:37:55	<--	lunra (~ircme@205.185.116.160) has quit (Remote host closed the connection)
+2014-06-05 06:39:30	-->	rossi (~rossi@colubris-intranet.scc.kit.edu) has joined #ckule
+2014-06-05 06:43:44	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-05 06:49:31	-->	infoscav (~mycroft@5.22.135.149) has joined #ckule
+2014-06-05 07:20:33	<--	infoscav (~mycroft@5.22.135.149) has quit (Ping timeout: 276 seconds)
+2014-06-05 07:23:41	-->	uuZIT (~uuZIT@p549FA6F1.dip0.t-ipconnect.de) has joined #ckule
+2014-06-05 08:08:50	-->	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has joined #ckule
+2014-06-05 08:10:22	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-05 08:13:58	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-05 08:16:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-05 08:17:02	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-06-05 08:18:32	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Ping timeout: 260 seconds)
+2014-06-05 08:26:28	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-05 08:39:34	-->	palo (~palo@f052098098.adsl.alicedsl.de) has joined #ckule
+2014-06-05 09:01:08	<--	rossi (~rossi@colubris-intranet.scc.kit.edu) has quit (Ping timeout: 252 seconds)
+2014-06-05 09:08:36	-->	smazga (~Laslo@2600:3c01:e000:73::1006) has joined #ckule
+2014-06-05 09:08:45	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 252 seconds)
+2014-06-05 09:16:18	<--	lomicmenes (~Thunderbi@par69-4-82-227-117-231.fbx.proxad.net) has quit (Quit: lomicmenes)
+2014-06-05 09:19:16	-->	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has joined #ckule
+2014-06-05 09:38:12	grimles	coi
+2014-06-05 09:44:03	<--	palo (~palo@f052098098.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2014-06-05 09:45:25	@xalbo	coi gy.
+2014-06-05 09:50:36	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-05 10:12:17	simpson	coi
+2014-06-05 12:07:43	<--	korvys_ (~korvys@59.167.212.242) has quit (Ping timeout: 260 seconds)
+2014-06-05 12:17:53	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-05 12:27:55	<--	smazga (~Laslo@2600:3c01:e000:73::1006) has quit (Ping timeout: 240 seconds)
+2014-06-05 12:34:48	-->	smazga (~Laslo@64.55.45.194) has joined #ckule
+2014-06-05 12:47:47	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-05 12:49:56	<--	smazga (~Laslo@64.55.45.194) has quit (Read error: Connection reset by peer)
+2014-06-05 12:56:29	-->	camxes (~nodebot@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 13:08:45	<--	camxes (~nodebot@37-1-171-252.ip.skylogicnet.com) has quit (Read error: Connection reset by peer)
+2014-06-05 13:09:03	-->	camxes (~nodebot@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 13:09:05	<--	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has quit (Read error: Connection reset by peer)
+2014-06-05 13:13:31	-->	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 13:13:43	<--	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has quit (Read error: Connection reset by peer)
+2014-06-05 13:31:22	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Read error: Connection reset by peer)
+2014-06-05 13:44:59	-->	smazga (~Laslo@2600:3c01:e000:73::1006) has joined #ckule
+2014-06-05 13:46:49	-->	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 13:53:47	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-05 14:21:21	-->	Kres (ae6de6d0@gateway/web/freenode/ip.174.109.230.208) has joined #ckule
+2014-06-05 14:23:53	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has left #ckule ("Leaving")
+2014-06-05 14:45:48	<--	Kres (ae6de6d0@gateway/web/freenode/ip.174.109.230.208) has quit (Ping timeout: 240 seconds)
+2014-06-05 14:50:59	<--	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has quit (Read error: Connection reset by peer)
+2014-06-05 14:51:23	-->	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 14:52:01	<--	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has quit (Read error: Connection reset by peer)
+2014-06-05 14:52:15	-->	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has joined #ckule
+2014-06-05 14:52:39	<--	Ilmen (~kvirc@37-1-171-252.ip.skylogicnet.com) has quit (Read error: Connection reset by peer)
+2014-06-05 14:53:23	<--	camxes (~nodebot@37-1-171-252.ip.skylogicnet.com) has quit (Ping timeout: 240 seconds)
+2014-06-05 15:11:53	<--	djancak (~djancak@unaffiliated/djancak) has quit (Ping timeout: 240 seconds)
+2014-06-05 15:26:25	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 252 seconds)
+2014-06-05 15:27:22	-->	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has joined #ckule
+2014-06-05 15:44:42	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-05 15:58:11	-->	ABeardevil (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has joined #ckule
+2014-06-05 16:08:12	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-05 16:12:10	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-05 16:21:23	<--	smazga (~Laslo@2600:3c01:e000:73::1006) has quit (Quit: rcirc on GNU Emacs 24.3.1)
+2014-06-05 16:27:19	<--	uuZIT (~uuZIT@p549FA6F1.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-06-05 16:29:42	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-05 16:43:07	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-05 16:59:32	<--	ABeardevil (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has quit (Quit: Page closed)
+2014-06-05 17:00:29	-->	cribe (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has joined #ckule
+2014-06-05 18:06:48	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-05 18:11:51	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 276 seconds)
+2014-06-05 18:32:27	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-05 18:34:51	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-05 18:56:08	<--	vmBenLubar (~vmBenLuba@mke-66-97-126-182.milwpc.com) has quit (Ping timeout: 245 seconds)
+2014-06-05 18:58:02	-->	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has joined #ckule
+2014-06-05 19:13:35	-->	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has joined #ckule
+2014-06-05 19:14:43	-->	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has joined #ckule
+2014-06-05 19:18:33	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2014-06-05 19:49:35	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-wkwtcyioxcapxyin) has joined #ckule
+2014-06-05 19:56:37	-->	v4hn (~v4hn@brln-4dbad345.pool.mediaWays.net) has joined #ckule
+2014-06-05 19:59:57	<--	v4hn_ (~v4hn@brln-4dbc3a97.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-05 20:12:03	<--	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has quit (Ping timeout: 252 seconds)
+2014-06-05 20:23:47	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: gotta go)
+2014-06-05 20:25:05	<--	cribe (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has quit
+2014-06-05 20:27:54	-->	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has joined #ckule
+2014-06-05 20:29:39	<--	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has quit (Quit: Leaving.)
+2014-06-05 20:30:54	-->	cribe_phone (~cribe_and@99-57-206-95.lightspeed.knvltn.sbcglobal.net) has joined #ckule
+2014-06-05 20:33:57	<--	cribe_phone (~cribe_and@99-57-206-95.lightspeed.knvltn.sbcglobal.net) has quit (Client Quit)
+2014-06-05 20:34:45	-->	criba_fontaha (~cribe_and@99-57-206-95.lightspeed.knvltn.sbcglobal.net) has joined #ckule
+2014-06-05 20:41:21	<--	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has quit (Ping timeout: 276 seconds)
+2014-06-05 20:42:27	<--	criba_fontaha (~cribe_and@99-57-206-95.lightspeed.knvltn.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2014-06-05 21:11:04	-->	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has joined #ckule
+2014-06-05 21:20:57	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-06-05 21:38:59	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-05 21:49:45	<--	plcplc (~quassel@131-164-175-57-dynamic.dk.customer.tdc.net) has quit (Ping timeout: 240 seconds)
+2014-06-05 22:03:07	<--	poelzi (poelzi@quamquam.org) has quit (Ping timeout: 240 seconds)
+2014-06-05 22:04:03	-->	poelzi_ (poelzi@quamquam.org) has joined #ckule
+2014-06-05 22:04:04	--	poelzi_ is now known as poelzi
+2014-06-05 22:04:43	<--	melbi_mlatu_ (poelzi@quamquam.org) has quit (Ping timeout: 240 seconds)
+2014-06-05 22:15:32	<--	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has quit (*.net *.split)
+2014-06-05 22:15:33	<--	ByronJohnson (~Byron@unaffiliated/bob0) has quit (*.net *.split)
+2014-06-05 22:15:33	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-wkwtcyioxcapxyin) has quit (*.net *.split)
+2014-06-05 22:15:33	<--	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has quit (*.net *.split)
+2014-06-05 22:15:34	<--	v4hn (~v4hn@brln-4dbad345.pool.mediaWays.net) has quit (*.net *.split)
+2014-06-05 22:15:34	<--	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has quit (*.net *.split)
+2014-06-05 22:15:35	<--	xalbo (~eimi@mail.digitalkingdom.org) has quit (*.net *.split)
+2014-06-05 22:15:36	<--	pierreghz (~pierre@ratni.v4v.be) has quit (*.net *.split)
+2014-06-05 22:15:36	<--	ChanServ (ChanServ@services.) has quit (*.net *.split)
+2014-06-05 22:15:37	<--	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has quit (*.net *.split)
+2014-06-05 22:15:38	<--	demize (kyrias@archlinux/op/demize) has quit (*.net *.split)
+2014-06-05 22:15:39	<--	lahwran (~lahwran@python/site-packages/lahwran) has quit (*.net *.split)
+2014-06-05 22:15:39	<--	dRbiG (drbig@insomniac.pl) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	phryk (~phryk@valhalla.phryk.net) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has quit (*.net *.split)
+2014-06-05 22:15:41	<--	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has quit (*.net *.split)
+2014-06-05 22:15:41	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	Erstarrung (~castor@ks26581.kimsufi.com) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	pendorid (~pendo-rid@91.121.73.45) has quit (*.net *.split)
+2014-06-05 22:15:44	<--	lunra (~ircme@205.185.116.160) has quit (*.net *.split)
+2014-06-05 22:15:44	<--	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has quit (*.net *.split)
+2014-06-05 22:15:44	<--	Tene (~tene@poipu/supporter/slacker/tene) has quit (*.net *.split)
+2014-06-05 22:15:44	<--	lukhas (~lucas@bearstech/lukhas) has quit (*.net *.split)
+2014-06-05 22:15:46	<--	poelzi (poelzi@quamquam.org) has quit (*.net *.split)
+2014-06-05 22:15:46	<--	djancak (~djancak@unaffiliated/djancak) has quit (*.net *.split)
+2014-06-05 22:15:47	<--	Taywee (~taylor@c-50-170-140-76.hsd1.co.comcast.net) has quit (*.net *.split)
+2014-06-05 22:15:47	<--	valsi (~valsi@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-05 22:15:47	<--	mari_kiri (~mari@198.143.136.161) has quit (*.net *.split)
+2014-06-05 22:15:48	<--	cjay (cjay@nerdbox.nerd2nerd.org) has quit (*.net *.split)
+2014-06-05 22:15:49	<--	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-05 22:15:49	<--	nikis (niek@dreamworld.bergnetworks.com) has quit (*.net *.split)
+2014-06-05 22:15:50	<--	pythonsnake (~pythonsna@fedora/pythonsnake) has quit (*.net *.split)
+2014-06-05 22:15:50	<--	mattp (~mattp@fuchs.unfinished.org.uk) has quit (*.net *.split)
+2014-06-05 22:21:39	<--	dfedde (~duncan@107.170.52.63) has quit (Write error: Broken pipe)
+2014-06-05 22:27:26	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-05 22:27:26	-->	dfedde (~duncan@107.170.52.63) has joined #ckule
+2014-06-05 22:27:26	-->	melbi_mlatu (poelzi@quamquam.org) has joined #ckule
+2014-06-05 22:27:26	-->	poelzi (poelzi@quamquam.org) has joined #ckule
+2014-06-05 22:27:26	-->	v4hn (~v4hn@brln-4dbad345.pool.mediaWays.net) has joined #ckule
+2014-06-05 22:27:26	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-wkwtcyioxcapxyin) has joined #ckule
+2014-06-05 22:27:26	-->	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has joined #ckule
+2014-06-05 22:27:26	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-05 22:27:26	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-05 22:27:26	-->	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has joined #ckule
+2014-06-05 22:27:26	-->	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has joined #ckule
+2014-06-05 22:27:26	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-06-05 22:27:26	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-05 22:27:26	-->	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-05 22:27:26	-->	Tene (~tene@poipu/supporter/slacker/tene) has joined #ckule
+2014-06-05 22:27:26	-->	demize (kyrias@archlinux/op/demize) has joined #ckule
+2014-06-05 22:27:26	-->	Taywee (~taylor@c-50-170-140-76.hsd1.co.comcast.net) has joined #ckule
+2014-06-05 22:27:26	-->	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has joined #ckule
+2014-06-05 22:27:26	-->	ByronJohnson (~Byron@unaffiliated/bob0) has joined #ckule
+2014-06-05 22:27:26	-->	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has joined #ckule
+2014-06-05 22:27:26	-->	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-05 22:27:26	-->	xalbo (~eimi@mail.digitalkingdom.org) has joined #ckule
+2014-06-05 22:27:26	-->	lukhas (~lucas@bearstech/lukhas) has joined #ckule
+2014-06-05 22:27:26	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #ckule
+2014-06-05 22:27:26	-->	lahwran (~lahwran@python/site-packages/lahwran) has joined #ckule
+2014-06-05 22:27:26	-->	valsi (~valsi@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-05 22:27:26	-->	mari_kiri (~mari@198.143.136.161) has joined #ckule
+2014-06-05 22:27:26	-->	dRbiG (drbig@insomniac.pl) has joined #ckule
+2014-06-05 22:27:26	-->	pierreghz (~pierre@ratni.v4v.be) has joined #ckule
+2014-06-05 22:27:26	-->	nikis (niek@dreamworld.bergnetworks.com) has joined #ckule
+2014-06-05 22:27:26	-->	Erstarrung (~castor@ks26581.kimsufi.com) has joined #ckule
+2014-06-05 22:27:26	-->	pendorid (~pendo-rid@91.121.73.45) has joined #ckule
+2014-06-05 22:27:26	-->	pythonsnake (~pythonsna@fedora/pythonsnake) has joined #ckule
+2014-06-05 22:27:26	-->	ChanServ (ChanServ@services.) has joined #ckule
+2014-06-05 22:27:26	-->	phryk (~phryk@valhalla.phryk.net) has joined #ckule
+2014-06-05 22:27:26	-->	mattp (~mattp@fuchs.unfinished.org.uk) has joined #ckule
+2014-06-05 22:27:26	-->	cjay (cjay@nerdbox.nerd2nerd.org) has joined #ckule
+2014-06-05 22:27:26	--	Mode #ckule [+oo xalbo ChanServ] by asimov.freenode.net
+2014-06-05 22:28:50	<--	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has quit (*.net *.split)
+2014-06-05 22:28:51	<--	ByronJohnson (~Byron@unaffiliated/bob0) has quit (*.net *.split)
+2014-06-05 22:28:52	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-wkwtcyioxcapxyin) has quit (*.net *.split)
+2014-06-05 22:28:52	<--	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has quit (*.net *.split)
+2014-06-05 22:28:53	<--	dfedde (~duncan@107.170.52.63) has quit (*.net *.split)
+2014-06-05 22:28:53	<--	melbi_mlatu (poelzi@quamquam.org) has quit (*.net *.split)
+2014-06-05 22:28:53	<--	v4hn (~v4hn@brln-4dbad345.pool.mediaWays.net) has quit (*.net *.split)
+2014-06-05 22:28:53	<--	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has quit (*.net *.split)
+2014-06-05 22:28:54	<--	xalbo (~eimi@mail.digitalkingdom.org) has quit (*.net *.split)
+2014-06-05 22:28:55	<--	pierreghz (~pierre@ratni.v4v.be) has quit (*.net *.split)
+2014-06-05 22:28:55	<--	ChanServ (ChanServ@services.) has quit (*.net *.split)
+2014-06-05 22:28:56	<--	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has quit (*.net *.split)
+2014-06-05 22:28:57	<--	demize (kyrias@archlinux/op/demize) has quit (*.net *.split)
+2014-06-05 22:28:57	<--	lahwran (~lahwran@python/site-packages/lahwran) has quit (*.net *.split)
+2014-06-05 22:28:58	<--	dRbiG (drbig@insomniac.pl) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	phryk (~phryk@valhalla.phryk.net) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has quit (*.net *.split)
+2014-06-05 22:29:00	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (*.net *.split)
+2014-06-05 22:29:00	<--	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has quit (*.net *.split)
+2014-06-05 22:29:00	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	Erstarrung (~castor@ks26581.kimsufi.com) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	pendorid (~pendo-rid@91.121.73.45) has quit (*.net *.split)
+2014-06-05 22:29:03	<--	lunra (~ircme@205.185.116.160) has quit (*.net *.split)
+2014-06-05 22:29:03	<--	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has quit (*.net *.split)
+2014-06-05 22:29:03	<--	Tene (~tene@poipu/supporter/slacker/tene) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	lukhas (~lucas@bearstech/lukhas) has quit (*.net *.split)
+2014-06-05 22:29:05	<--	poelzi (poelzi@quamquam.org) has quit (*.net *.split)
+2014-06-05 22:29:05	<--	djancak (~djancak@unaffiliated/djancak) has quit (*.net *.split)
+2014-06-05 22:29:06	<--	Taywee (~taylor@c-50-170-140-76.hsd1.co.comcast.net) has quit (*.net *.split)
+2014-06-05 22:29:07	<--	valsi (~valsi@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-05 22:29:07	<--	mari_kiri (~mari@198.143.136.161) has quit (*.net *.split)
+2014-06-05 22:29:07	<--	cjay (cjay@nerdbox.nerd2nerd.org) has quit (*.net *.split)
+2014-06-05 22:29:08	<--	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-05 22:29:09	<--	nikis (niek@dreamworld.bergnetworks.com) has quit (*.net *.split)
+2014-06-05 22:29:09	<--	pythonsnake (~pythonsna@fedora/pythonsnake) has quit (*.net *.split)
+2014-06-05 22:29:09	<--	mattp (~mattp@fuchs.unfinished.org.uk) has quit (*.net *.split)
+2014-06-05 22:33:44	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-05 22:33:44	-->	dfedde (~duncan@107.170.52.63) has joined #ckule
+2014-06-05 22:33:44	-->	melbi_mlatu (poelzi@quamquam.org) has joined #ckule
+2014-06-05 22:33:44	-->	poelzi (poelzi@quamquam.org) has joined #ckule
+2014-06-05 22:33:44	-->	v4hn (~v4hn@brln-4dbad345.pool.mediaWays.net) has joined #ckule
+2014-06-05 22:33:44	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-wkwtcyioxcapxyin) has joined #ckule
+2014-06-05 22:33:44	-->	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has joined #ckule
+2014-06-05 22:33:44	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-05 22:33:44	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-05 22:33:44	-->	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has joined #ckule
+2014-06-05 22:33:44	-->	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has joined #ckule
+2014-06-05 22:33:44	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-06-05 22:33:44	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-05 22:33:44	-->	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-05 22:33:44	-->	Tene (~tene@poipu/supporter/slacker/tene) has joined #ckule
+2014-06-05 22:33:44	-->	demize (kyrias@archlinux/op/demize) has joined #ckule
+2014-06-05 22:33:44	-->	Taywee (~taylor@c-50-170-140-76.hsd1.co.comcast.net) has joined #ckule
+2014-06-05 22:33:44	-->	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has joined #ckule
+2014-06-05 22:33:44	-->	ByronJohnson (~Byron@unaffiliated/bob0) has joined #ckule
+2014-06-05 22:33:44	-->	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has joined #ckule
+2014-06-05 22:33:44	-->	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-05 22:33:44	-->	xalbo (~eimi@mail.digitalkingdom.org) has joined #ckule
+2014-06-05 22:33:44	-->	lukhas (~lucas@bearstech/lukhas) has joined #ckule
+2014-06-05 22:33:44	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #ckule
+2014-06-05 22:33:44	-->	lahwran (~lahwran@python/site-packages/lahwran) has joined #ckule
+2014-06-05 22:33:44	-->	valsi (~valsi@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-05 22:33:44	-->	mari_kiri (~mari@198.143.136.161) has joined #ckule
+2014-06-05 22:33:44	-->	dRbiG (drbig@insomniac.pl) has joined #ckule
+2014-06-05 22:33:44	-->	pierreghz (~pierre@ratni.v4v.be) has joined #ckule
+2014-06-05 22:33:44	-->	nikis (niek@dreamworld.bergnetworks.com) has joined #ckule
+2014-06-05 22:33:44	-->	Erstarrung (~castor@ks26581.kimsufi.com) has joined #ckule
+2014-06-05 22:33:44	-->	pendorid (~pendo-rid@91.121.73.45) has joined #ckule
+2014-06-05 22:33:44	-->	pythonsnake (~pythonsna@fedora/pythonsnake) has joined #ckule
+2014-06-05 22:33:44	-->	ChanServ (ChanServ@services.) has joined #ckule
+2014-06-05 22:33:44	-->	phryk (~phryk@valhalla.phryk.net) has joined #ckule
+2014-06-05 22:33:44	-->	mattp (~mattp@fuchs.unfinished.org.uk) has joined #ckule
+2014-06-05 22:33:44	-->	cjay (cjay@nerdbox.nerd2nerd.org) has joined #ckule
+2014-06-05 22:33:44	--	Mode #ckule [+oo xalbo ChanServ] by asimov.freenode.net
+2014-06-05 22:49:35	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-wkwtcyioxcapxyin) has quit (Quit: Connection closed for inactivity)
+2014-06-05 23:10:24	<--	banseljaj (~imami@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2014-06-05 23:10:32	-->	banseljaj (~imami@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-05 23:43:11	<--	lunra (~ircme@205.185.116.160) has quit (Remote host closed the connection)
+2014-06-05 23:43:26	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 00:07:29	<--	djancak (~djancak@unaffiliated/djancak) has quit (Read error: Connection reset by peer)
+2014-06-06 00:12:48	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-06 00:26:18	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 240 seconds)
+2014-06-06 01:35:32	<--	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has quit (Remote host closed the connection)
+2014-06-06 01:35:41	-->	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has joined #ckule
+2014-06-06 01:53:07	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 01:55:10	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-06 02:13:38	-->	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has joined #ckule
+2014-06-06 02:14:45	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-06 02:44:39	-->	phma_ (~phma@2001:5b0:2144:dbd0:226:9eff:fec5:d505) has joined #ckule
+2014-06-06 02:45:25	<--	phma (~phma@dpc6744203159.direcpc.com) has quit (Ping timeout: 240 seconds)
+2014-06-06 02:53:14	-->	phma__ (~phma@2001:5b0:2144:dbd0:226:9eff:fec5:d505) has joined #ckule
+2014-06-06 02:53:15	<--	phma_ (~phma@2001:5b0:2144:dbd0:226:9eff:fec5:d505) has quit (Read error: Connection reset by peer)
+2014-06-06 03:42:10	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-06 03:45:26	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-06-06 04:19:04	-->	Ilmen (~kvirc@213.180.252.213) has joined #ckule
+2014-06-06 04:54:50	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-06 05:05:16	<--	mlatylorxu (~mlatylorx@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-06-06 05:23:33	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-06 05:38:33	<--	pegasusParis (~pegasusPa@147.199.195.77.rev.sfr.net) has quit (Ping timeout: 252 seconds)
+2014-06-06 06:30:25	<--	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-06 07:21:27	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit
+2014-06-06 07:24:46	-->	jbopre2000 (uid26695@gateway/web/irccloud.com/x-ditilyunukhydxqo) has joined #ckule
+2014-06-06 07:26:13	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-06 08:02:56	-->	pegasusParis (~pegasusPa@254.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-06 08:18:56	<--	lunra (~ircme@205.185.116.160) has quit (Remote host closed the connection)
+2014-06-06 08:19:44	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 09:07:08	<--	djancak (~djancak@unaffiliated/djancak) has quit (Ping timeout: 255 seconds)
+2014-06-06 09:14:09	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 252 seconds)
+2014-06-06 09:14:50	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 09:19:17	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 252 seconds)
+2014-06-06 09:28:54	<--	jbopre2000 (uid26695@gateway/web/irccloud.com/x-ditilyunukhydxqo) has quit (Quit: Connection closed for inactivity)
+2014-06-06 09:32:03	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-06 09:41:07	-->	Ilmen|2 (~kvirc@213.180.252.213) has joined #ckule
+2014-06-06 09:41:40	<--	Ilmen|2 (~kvirc@213.180.252.213) has quit (Read error: Connection reset by peer)
+2014-06-06 09:42:03	-->	Ilmen|2 (~kvirc@213.180.252.213) has joined #ckule
+2014-06-06 09:42:47	<--	Ilmen|2 (~kvirc@213.180.252.213) has quit (Read error: Connection reset by peer)
+2014-06-06 09:44:35	<--	Ilmen (~kvirc@213.180.252.213) has quit (Ping timeout: 260 seconds)
+2014-06-06 09:56:44	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-06 10:16:03	-->	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has joined #ckule
+2014-06-06 10:17:01	grimles	coi ro do
+2014-06-06 10:33:15	@xalbo	coi
+2014-06-06 10:50:32	<--	latro`a (~latro`a@129-2-129-96.wireless.umd.edu) has quit (Ping timeout: 240 seconds)
+2014-06-06 10:51:45	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 11:00:08	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 240 seconds)
+2014-06-06 11:02:20	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 11:37:42	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 276 seconds)
+2014-06-06 11:44:40	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 11:59:59	<--	phma__ (~phma@2001:5b0:2144:dbd0:226:9eff:fec5:d505) has quit (Quit: Konversation terminated!)
+2014-06-06 12:22:39	-->	lunra_ (~ircme@205.185.116.160) has joined #ckule
+2014-06-06 12:23:56	<--	lunra (~ircme@205.185.116.160) has quit (Ping timeout: 240 seconds)
+2014-06-06 13:01:34	<--	xatra (~xatra@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (Ping timeout: 454 seconds)
+2014-06-06 13:01:35	<--	cipra (~nodebot@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (Ping timeout: 454 seconds)
+2014-06-06 13:01:43	-->	cipra (~nodebot@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-06 13:02:06	-->	xatra (~xatra@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-06 13:06:58	-->	Ilmen|2 (~kvirc@213.180.252.213) has joined #ckule
+2014-06-06 13:10:51	--	Ilmen|2 is now known as Ilmen|1
+2014-06-06 13:10:57	--	Ilmen|1 is now known as Ilmen|0
+2014-06-06 13:11:01	--	Ilmen|0 is now known as Ilmen
+2014-06-06 13:14:01	-->	Ilmen|2 (~kvirc@213.180.252.213) has joined #ckule
+2014-06-06 13:16:32	<--	Ilmen (~kvirc@213.180.252.213) has quit (Ping timeout: 240 seconds)
+2014-06-06 13:16:34	--	Ilmen|2 is now known as Ilmen
+2014-06-06 13:22:17	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-06 13:23:35	-->	ByronJoh1son (~Byron@unaffiliated/bob0) has joined #ckule
+2014-06-06 13:26:48	<--	ByronJohnson (~Byron@unaffiliated/bob0) has quit (Remote host closed the connection)
+2014-06-06 13:27:03	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-kzgdligzhkxdfbzo) has joined #ckule
+2014-06-06 13:51:45	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-06 13:56:37	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-06 14:01:33	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-06 14:05:52	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-06 14:16:47	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-06 14:24:22	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-06 14:36:07	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-06 14:36:24	<--	djancak (~djancak@unaffiliated/djancak) has quit (Read error: Connection reset by peer)
+2014-06-06 14:41:03	-->	djancak (~djancak@unaffiliated/djancak) has joined #ckule
+2014-06-06 14:48:57	<--	djancak (~djancak@unaffiliated/djancak) has quit (Ping timeout: 245 seconds)
+2014-06-06 14:59:22	<--	Imami (uid22580@gateway/web/irccloud.com/x-diwclgitrhzgtkpt) has quit (Quit: Connection closed for inactivity)
+2014-06-06 15:12:30	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-06 15:13:49	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-06-06 15:16:38	<--	Ilmen (~kvirc@213.180.252.213) has quit (Ping timeout: 240 seconds)
+2014-06-06 15:49:15	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-06 16:23:16	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-06 16:41:26	-->	wilfredh (uid159@gateway/web/irccloud.com/x-vbpcphekjwpvsbtl) has joined #ckule
+2014-06-06 17:40:43	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-06 17:51:36	-->	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has joined #ckule
+2014-06-06 19:04:56	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2014-06-06 19:19:03	-->	cribe (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has joined #ckule
+2014-06-06 19:23:08	<--	wilfredh (uid159@gateway/web/irccloud.com/x-vbpcphekjwpvsbtl) has quit (Quit: Connection closed for inactivity)
+2014-06-06 19:50:04	<--	andares (~andares@unaffiliated/jacco) has quit (Read error: Connection reset by peer)
+2014-06-06 19:50:37	-->	andares (~andares@unaffiliated/jacco) has joined #ckule
+2014-06-06 19:55:24	<--	andares (~andares@unaffiliated/jacco) has quit (Ping timeout: 260 seconds)
+2014-06-06 19:55:54	-->	v4hn_ (~v4hn@brln-4dbab4c0.pool.mediaWays.net) has joined #ckule
+2014-06-06 19:57:36	-->	TehPers (4cdae543@gateway/web/freenode/ip.76.218.229.67) has joined #ckule
+2014-06-06 19:59:07	<--	v4hn (~v4hn@brln-4dbad345.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-06 19:59:33	<--	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has quit (Quit: Leaving.)
+2014-06-06 20:09:58	-->	andares (~andares@unaffiliated/jacco) has joined #ckule
+2014-06-06 20:22:48	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-06 20:28:11	<--	cribe (6339ce5f@gateway/web/freenode/ip.99.57.206.95) has quit (Quit: Page closed)
+2014-06-06 20:37:02	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit
+2014-06-06 20:40:07	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-06 20:51:48	<--	grimles (32ccbc21@gateway/web/freenode/ip.50.204.188.33) has quit (Ping timeout: 240 seconds)
+2014-06-06 21:00:56	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-06 21:24:30	<--	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-06 21:41:47	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-06-06 22:49:49	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-06 23:06:55	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-06 23:27:54	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-06 23:37:21	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-06 23:39:24	-->	palo (~palo@e177088108.adsl.alicedsl.de) has joined #ckule
+2014-06-06 23:51:17	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-07 00:00:41	-->	Imami (uid22580@gateway/web/irccloud.com/x-lntkdwdimatvblhw) has joined #ckule
+2014-06-07 00:19:37	<--	palo (~palo@e177088108.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2014-06-07 00:20:28	-->	palo (~palo@e177088108.adsl.alicedsl.de) has joined #ckule
+2014-06-07 00:31:37	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-07 00:48:08	<--	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 252 seconds)
+2014-06-07 01:58:37	<--	gerna (~gerna@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-07 01:58:37	<--	labyxu`e (quassel@2600:3c02::f03c:91ff:feae:7393) has quit (*.net *.split)
+2014-06-07 01:58:37	<--	sohum (sohum@pdpc/supporter/active/sohum) has quit (*.net *.split)
+2014-06-07 01:58:38	<--	TrueShiftBlue (trueshiftb@segfault.net.nz) has quit (*.net *.split)
+2014-06-07 01:58:38	<--	pegasusParis (~pegasusPa@254.199.195.77.rev.sfr.net) has quit (*.net *.split)
+2014-06-07 01:58:38	<--	jacus (~quassel@216.9.11.25) has quit (*.net *.split)
+2014-06-07 01:58:39	<--	wayneeseguin (~wayneeseg@mp64.overnothing.com) has quit (*.net *.split)
+2014-06-07 01:58:40	<--	matais (~matais@ip82-139-125-221.lijbrandt.net) has quit (*.net *.split)
+2014-06-07 01:58:40	<--	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has quit (*.net *.split)
+2014-06-07 01:58:53	-->	pegasusParis (~pegasusPa@254.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-07 01:58:53	-->	matais (~matais@ip82-139-125-221.lijbrandt.net) has joined #ckule
+2014-06-07 01:58:53	-->	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has joined #ckule
+2014-06-07 01:58:53	-->	jacus (~quassel@216.9.11.25) has joined #ckule
+2014-06-07 01:58:53	-->	gerna (~gerna@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-07 01:58:53	-->	labyxu`e (quassel@2600:3c02::f03c:91ff:feae:7393) has joined #ckule
+2014-06-07 01:58:53	-->	sohum (sohum@pdpc/supporter/active/sohum) has joined #ckule
+2014-06-07 01:58:53	-->	wayneeseguin (~wayneeseg@mp64.overnothing.com) has joined #ckule
+2014-06-07 01:58:53	-->	TrueShiftBlue (trueshiftb@segfault.net.nz) has joined #ckule
+2014-06-07 01:58:55	<--	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has quit (*.net *.split)
+2014-06-07 02:01:12	<--	gerna (~gerna@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-07 02:01:12	<--	labyxu`e (quassel@2600:3c02::f03c:91ff:feae:7393) has quit (*.net *.split)
+2014-06-07 02:01:13	<--	sohum (sohum@pdpc/supporter/active/sohum) has quit (*.net *.split)
+2014-06-07 02:01:13	<--	TrueShiftBlue (trueshiftb@segfault.net.nz) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	pegasusParis (~pegasusPa@254.199.195.77.rev.sfr.net) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	jacus (~quassel@216.9.11.25) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	wayneeseguin (~wayneeseg@mp64.overnothing.com) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	matais (~matais@ip82-139-125-221.lijbrandt.net) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	Imami (uid22580@gateway/web/irccloud.com/x-lntkdwdimatvblhw) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	andares (~andares@unaffiliated/jacco) has quit (*.net *.split)
+2014-06-07 02:01:16	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-kzgdligzhkxdfbzo) has quit (*.net *.split)
+2014-06-07 02:01:16	<--	ByronJoh1son (~Byron@unaffiliated/bob0) has quit (*.net *.split)
+2014-06-07 02:01:16	<--	lunra_ (~ircme@205.185.116.160) has quit (*.net *.split)
+2014-06-07 02:01:16	<--	banseljaj (~imami@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-07 02:01:16	<--	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has quit (*.net *.split)
+2014-06-07 02:01:17	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (*.net *.split)
+2014-06-07 02:01:17	<--	palo (~palo@e177088108.adsl.alicedsl.de) has quit (*.net *.split)
+2014-06-07 02:01:17	<--	cipra (~nodebot@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-07 02:01:18	<--	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has quit (*.net *.split)
+2014-06-07 02:01:19	<--	v4hn_ (~v4hn@brln-4dbab4c0.pool.mediaWays.net) has quit (*.net *.split)
+2014-06-07 02:01:19	<--	dfedde (~duncan@107.170.52.63) has quit (*.net *.split)
+2014-06-07 02:01:19	<--	melbi_mlatu (poelzi@quamquam.org) has quit (*.net *.split)
+2014-06-07 02:01:20	<--	xalbo (~eimi@mail.digitalkingdom.org) has quit (*.net *.split)
+2014-06-07 02:01:20	<--	pierreghz (~pierre@ratni.v4v.be) has quit (*.net *.split)
+2014-06-07 02:01:20	<--	ChanServ (ChanServ@services.) has quit (*.net *.split)
+2014-06-07 02:01:21	<--	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has quit (*.net *.split)
+2014-06-07 02:01:23	<--	demize (kyrias@archlinux/op/demize) has quit (*.net *.split)
+2014-06-07 02:01:23	<--	lahwran (~lahwran@python/site-packages/lahwran) has quit (*.net *.split)
+2014-06-07 02:01:23	<--	dRbiG (drbig@insomniac.pl) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	phryk (~phryk@valhalla.phryk.net) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	TehPers (4cdae543@gateway/web/freenode/ip.76.218.229.67) has quit (*.net *.split)
+2014-06-07 02:01:25	<--	xatra (~xatra@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-07 02:01:25	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	Erstarrung (~castor@ks26581.kimsufi.com) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	pendorid (~pendo-rid@91.121.73.45) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	Tene (~tene@poipu/supporter/slacker/tene) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	lukhas (~lucas@bearstech/lukhas) has quit (*.net *.split)
+2014-06-07 02:01:29	<--	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has quit (*.net *.split)
+2014-06-07 02:01:30	<--	poelzi (poelzi@quamquam.org) has quit (*.net *.split)
+2014-06-07 02:01:30	<--	Taywee (~taylor@c-50-170-140-76.hsd1.co.comcast.net) has quit (*.net *.split)
+2014-06-07 02:01:31	<--	valsi (~valsi@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-07 02:01:31	<--	mari_kiri (~mari@198.143.136.161) has quit (*.net *.split)
+2014-06-07 02:01:31	<--	cjay (cjay@nerdbox.nerd2nerd.org) has quit (*.net *.split)
+2014-06-07 02:01:32	<--	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has quit (*.net *.split)
+2014-06-07 02:01:33	<--	nikis (niek@dreamworld.bergnetworks.com) has quit (*.net *.split)
+2014-06-07 02:01:33	<--	pythonsnake (~pythonsna@fedora/pythonsnake) has quit (*.net *.split)
+2014-06-07 02:01:33	<--	mattp (~mattp@fuchs.unfinished.org.uk) has quit (*.net *.split)
+2014-06-07 02:01:45	-->	cjay (cjay@nerdbox.nerd2nerd.org) has joined #ckule
+2014-06-07 02:01:45	-->	mattp (~mattp@fuchs.unfinished.org.uk) has joined #ckule
+2014-06-07 02:01:45	-->	phryk (~phryk@valhalla.phryk.net) has joined #ckule
+2014-06-07 02:01:45	-->	ChanServ (ChanServ@services.) has joined #ckule
+2014-06-07 02:01:45	-->	pythonsnake (~pythonsna@fedora/pythonsnake) has joined #ckule
+2014-06-07 02:01:45	-->	pendorid (~pendo-rid@91.121.73.45) has joined #ckule
+2014-06-07 02:01:45	-->	Erstarrung (~castor@ks26581.kimsufi.com) has joined #ckule
+2014-06-07 02:01:45	-->	nikis (niek@dreamworld.bergnetworks.com) has joined #ckule
+2014-06-07 02:01:45	-->	pierreghz (~pierre@ratni.v4v.be) has joined #ckule
+2014-06-07 02:01:45	-->	dRbiG (drbig@insomniac.pl) has joined #ckule
+2014-06-07 02:01:45	-->	mari_kiri (~mari@198.143.136.161) has joined #ckule
+2014-06-07 02:01:45	-->	valsi (~valsi@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-07 02:01:45	-->	lahwran (~lahwran@python/site-packages/lahwran) has joined #ckule
+2014-06-07 02:01:45	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #ckule
+2014-06-07 02:01:45	-->	lukhas (~lucas@bearstech/lukhas) has joined #ckule
+2014-06-07 02:01:45	-->	xalbo (~eimi@mail.digitalkingdom.org) has joined #ckule
+2014-06-07 02:01:45	-->	gleki (~gleki@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-07 02:01:45	-->	kantu (~stuart@pool-96-253-121-121.rcmdva.fios.verizon.net) has joined #ckule
+2014-06-07 02:01:45	-->	tuningmind (~tuningmin@2606:db00:0:8::60eb:613d) has joined #ckule
+2014-06-07 02:01:45	-->	Taywee (~taylor@c-50-170-140-76.hsd1.co.comcast.net) has joined #ckule
+2014-06-07 02:01:45	-->	demize (kyrias@archlinux/op/demize) has joined #ckule
+2014-06-07 02:01:45	-->	Tene (~tene@poipu/supporter/slacker/tene) has joined #ckule
+2014-06-07 02:01:45	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-06-07 02:01:45	-->	Tajha (~Tajha@pool-108-51-179-22.washdc.fios.verizon.net) has joined #ckule
+2014-06-07 02:01:45	-->	poelzi (poelzi@quamquam.org) has joined #ckule
+2014-06-07 02:01:45	-->	melbi_mlatu (poelzi@quamquam.org) has joined #ckule
+2014-06-07 02:01:45	-->	dfedde (~duncan@107.170.52.63) has joined #ckule
+2014-06-07 02:01:45	-->	banseljaj (~imami@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-07 02:01:45	-->	vmBenLubar (~vmBenLuba@mke-66-97-125-88.milwpc.com) has joined #ckule
+2014-06-07 02:01:45	-->	lunra_ (~ircme@205.185.116.160) has joined #ckule
+2014-06-07 02:01:45	-->	cipra (~nodebot@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-07 02:01:45	-->	xatra (~xatra@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-07 02:01:45	-->	ByronJoh1son (~Byron@unaffiliated/bob0) has joined #ckule
+2014-06-07 02:01:45	-->	xunlohu (uid24750@gateway/web/irccloud.com/x-kzgdligzhkxdfbzo) has joined #ckule
+2014-06-07 02:01:45	-->	v4hn_ (~v4hn@brln-4dbab4c0.pool.mediaWays.net) has joined #ckule
+2014-06-07 02:01:45	-->	TehPers (4cdae543@gateway/web/freenode/ip.76.218.229.67) has joined #ckule
+2014-06-07 02:01:45	-->	andares (~andares@unaffiliated/jacco) has joined #ckule
+2014-06-07 02:01:45	-->	Imami (uid22580@gateway/web/irccloud.com/x-lntkdwdimatvblhw) has joined #ckule
+2014-06-07 02:01:45	-->	palo (~palo@e177088108.adsl.alicedsl.de) has joined #ckule
+2014-06-07 02:01:45	-->	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has joined #ckule
+2014-06-07 02:01:45	-->	pegasusParis (~pegasusPa@254.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-07 02:01:45	-->	matais (~matais@ip82-139-125-221.lijbrandt.net) has joined #ckule
+2014-06-07 02:01:45	-->	jacus (~quassel@216.9.11.25) has joined #ckule
+2014-06-07 02:01:45	-->	gerna (~gerna@173-13-139-237-sfba.hfc.comcastbusiness.net) has joined #ckule
+2014-06-07 02:01:45	-->	labyxu`e (quassel@2600:3c02::f03c:91ff:feae:7393) has joined #ckule
+2014-06-07 02:01:45	-->	sohum (sohum@pdpc/supporter/active/sohum) has joined #ckule
+2014-06-07 02:01:45	-->	wayneeseguin (~wayneeseg@mp64.overnothing.com) has joined #ckule
+2014-06-07 02:01:45	--	Mode #ckule [+oo ChanServ xalbo] by asimov.freenode.net
+2014-06-07 02:01:45	-->	TrueShiftBlue (trueshiftb@segfault.net.nz) has joined #ckule
+2014-06-07 02:02:04	<--	matais (~matais@ip82-139-125-221.lijbrandt.net) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	pegasusParis (~pegasusPa@254.199.195.77.rev.sfr.net) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	jacus (~quassel@216.9.11.25) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	wayneeseguin (~wayneeseg@mp64.overnothing.com) has quit (*.net *.split)
+2014-06-07 02:04:30	-->	matais (~matais@ip82-139-125-221.lijbrandt.net) has joined #ckule
+2014-06-07 02:07:54	-->	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has joined #ckule
+2014-06-07 02:08:00	-->	wayneeseguin (~wayneeseg@mp64.overnothing.com) has joined #ckule
+2014-06-07 02:11:25	-->	pegasusParis (~pegasusPa@254.199.195.77.rev.sfr.net) has joined #ckule
+2014-06-07 02:11:25	-->	jacus (~quassel@216.9.11.25) has joined #ckule
+2014-06-07 02:24:42	<--	TehPers (4cdae543@gateway/web/freenode/ip.76.218.229.67) has quit (Quit: Page closed)
+2014-06-07 03:04:08	--	demize is now known as Einstein
+2014-06-07 03:06:34	--	Einstein is now known as einstein
+2014-06-07 03:08:46	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-07 03:20:42	-->	Ilmen (~kvirc@37-1-168-197.ip.skylogicnet.com) has joined #ckule
+2014-06-07 03:27:25	-->	uuZIT (~uuZIT@p549F8FE3.dip0.t-ipconnect.de) has joined #ckule
+2014-06-07 03:59:00	--	einstein is now known as demize
+2014-06-07 04:39:27	--	ByronJoh1son is now known as ByronJohnson
+2014-06-07 04:43:48	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-07 05:29:36	<--	xunlohu (uid24750@gateway/web/irccloud.com/x-kzgdligzhkxdfbzo) has quit (Quit: Connection closed for inactivity)
+2014-06-07 05:56:11	-->	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has joined #ckule
+2014-06-07 06:15:07	-->	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has joined #ckule
+2014-06-07 06:53:48	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-07 07:24:40	-->	cntrational (~cntration@49.205.77.125) has joined #ckule
+2014-06-07 07:52:02	-->	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has joined #ckule
+2014-06-07 08:06:01	<--	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has quit (*.net *.split)
+2014-06-07 08:06:09	-->	brendyn (brendyn@2400:8900::f03c:91ff:fedf:65b4) has joined #ckule
+2014-06-07 08:21:03	-->	infoscav (~mycroft@5.22.135.149) has joined #ckule
+2014-06-07 08:29:19	-->	tertu (~quassel@143.44.65.14) has joined #ckule
+2014-06-07 08:40:20	<--	palo (~palo@e177088108.adsl.alicedsl.de) has quit (Quit: leaving)
+2014-06-07 08:40:31	-->	palo (~palo@e177088108.adsl.alicedsl.de) has joined #ckule
+2014-06-07 09:01:44	<--	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-07 09:40:22	<--	cntrational (~cntration@49.205.77.125) has quit (Quit: bye)
+2014-06-07 09:47:57	-->	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has joined #ckule
+2014-06-07 09:59:22	<--	Imami (uid22580@gateway/web/irccloud.com/x-lntkdwdimatvblhw) has quit (Quit: Connection closed for inactivity)
+2014-06-07 10:04:03	<--	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-07 10:24:12	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-07 11:17:56	<--	palo (~palo@e177088108.adsl.alicedsl.de) has quit (Ping timeout: 276 seconds)
+2014-06-07 12:43:16	-->	Imami (uid22580@gateway/web/irccloud.com/x-iylmrlgrrlstpnds) has joined #ckule
+2014-06-07 12:43:18	<--	tertu (~quassel@143.44.65.14) has quit (Ping timeout: 240 seconds)
+2014-06-07 12:44:02	-->	tertu (~quassel@143.44.65.14) has joined #ckule
+2014-06-07 12:48:39	-->	tertu_ (~quassel@143.44.65.14) has joined #ckule
+2014-06-07 12:48:56	<--	tertu (~quassel@143.44.65.14) has quit (Ping timeout: 276 seconds)
+2014-06-07 12:50:09	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-07 13:11:28	<--	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-07 13:14:49	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-07 13:15:51	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-07 13:25:48	-->	rossi (~rossi@HSI-KBW-109-193-068-034.hsi7.kabel-badenwuerttemberg.de) has joined #ckule
+2014-06-07 13:38:21	-->	grimles (47ed5916@gateway/web/freenode/ip.71.237.89.22) has joined #ckule
+2014-06-07 13:39:15	grimles	.i coi ro do
+2014-06-07 13:49:29	Ilmen	coi
+2014-06-07 13:50:54	grimles	.i do mo
+2014-06-07 13:51:21	Ilmen	mi co'a jundi .i pu'o jdice lo du'u .ai zukte ma kau
+2014-06-07 13:52:07	Ilmen	(I'm starting to be attentive; am going to decide what to do
+2014-06-07 13:52:09	Ilmen	)
+2014-06-07 14:14:27	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit
+2014-06-07 14:19:21	grimles	How would one say "magic spell"? { makfa vlakemlerpoi } ? { makfa valsi } ? { makfa jufra } ?
+2014-06-07 14:21:00	grimles	There was a really good lujvo creator/deconstructor that I seem to have lost my link for
+2014-06-07 14:21:12	grimles	anyone have that link still?
+2014-06-07 14:21:25	grimles	.e'o
+2014-06-07 14:21:35	Ilmen	http://jwodder.freeshell.org/lojban/jvozba.cgi?tanru=purci+temci&vlalei=brivla
+2014-06-07 14:21:55	Ilmen	mintu xu
+2014-06-07 14:22:04	<--	tertu_ (~quassel@143.44.65.14) has quit (Read error: Connection reset by peer)
+2014-06-07 14:25:06	grimles	ki'e
+2014-06-07 14:25:56	grimles	.i go'i
+2014-06-07 14:34:38	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-07 14:50:25	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-06-07 14:52:22	-->	tertu (~quassel@143.44.65.14) has joined #ckule
+2014-06-07 15:09:58	<--	Ilmen (~kvirc@37-1-168-197.ip.skylogicnet.com) has quit (Ping timeout: 240 seconds)
+2014-06-07 15:17:15	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #ckule
+2014-06-07 15:20:32	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Ping timeout: 240 seconds)
+2014-06-07 16:14:54	menturi	coi
+2014-06-07 16:16:05	menturi	Question. Would {mi tavla baku caku} mean "I talk concurrently with some event now and will be talking concurrently with some event in the future." (in a wordy manner)?
+2014-06-07 16:34:01	menturi	gerna: mi klama fi'o kansa do
+2014-06-07 16:34:02	gerna	(0[mi CU {klama <(1[fi'o kansa FE'U] do)1 VAU>}])0
+2014-06-07 16:34:06	menturi	gerna: mi klama fi'o kansa
+2014-06-07 16:34:06	gerna	(0[mi CU {klama <(1[fi'o kansa FE'U] KU)1 VAU>}])0
+2014-06-07 16:34:35	menturi	gerna: mi klama do fi'o kansa
+2014-06-07 16:34:35	gerna	(0[mi CU {klama <(1do [{fi'o kansa FE'U} KU])1 VAU>}])0
+2014-06-07 16:34:51	menturi	gerna: mi klama ti fi'o kansa
+2014-06-07 16:34:51	gerna	(0[mi CU {klama <(1ti [{fi'o kansa FE'U} KU])1 VAU>}])0
+2014-06-07 16:34:53	menturi	gerna: mi klama ti fi'o kansa do
+2014-06-07 16:34:53	gerna	(0[mi CU {klama <(1ti [{fi'o kansa FE'U} do])1 VAU>}])0
+2014-06-07 16:36:25	menturi	gerna: mi klama fi'o kansa do ti
+2014-06-07 16:36:26	gerna	(0[mi CU {klama <(1[{fi'o kansa FE'U} do] ti)1 VAU>}])0
+2014-06-07 16:38:48	menturi	gerna: mi klama ba do klama ku
+2014-06-07 16:38:48	gerna	not grammatical: mi klama ba do _klama_ ⚠  ku
+2014-06-07 16:39:03	menturi	gerna: mi klama ba do klama
+2014-06-07 16:39:03	gerna	not grammatical: mi klama ba do _klama_ ⚠
+2014-06-07 16:39:22	menturi	gerna: mi klama ba lo nu do klama kei ku
+2014-06-07 16:39:22	gerna	(0[mi CU {klama <(1ba [lo {nu <do CU (2klama VAU)2> kei} ku])1 VAU>}])0
+2014-06-07 16:39:26	menturi	gerna: mi klama ba lo nu do klama kei ku ku
+2014-06-07 16:39:27	gerna	not grammatical: mi klama ba lo nu do klama kei ku _ku_ ⚠
+2014-06-07 16:41:28	menturi	ba isn't terminated?
+2014-06-07 16:41:56	menturi	gerna: klama baku
+2014-06-07 16:41:56	gerna	(0[klama {<ba ku> VAU}])0
+2014-06-07 16:42:03	menturi	gerna: klama ba klama ku
+2014-06-07 16:42:04	gerna	not grammatical: klama ba _klama_ ⚠  ku
+2014-06-07 16:42:13	menturi	Hm. Am I going crazy?
+2014-06-07 16:45:36	<--	tertu (~quassel@143.44.65.14) has quit (Ping timeout: 260 seconds)
+2014-06-07 16:46:30	-->	tertu (~quassel@143.44.65.14) has joined #ckule
+2014-06-07 17:03:22	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-07 17:05:24	menturi	Oh. I forgot lo.
+2014-06-07 17:05:33	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-07 17:32:51	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-07 17:46:25	<--	tertu (~quassel@143.44.65.14) has quit (Read error: Connection reset by peer)
+2014-06-07 17:47:39	-->	tertu (~quassel@143.44.65.14) has joined #ckule
+2014-06-07 17:58:00	<--	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has quit (Quit: Leaving.)
+2014-06-07 18:09:06	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit
+2014-06-07 18:14:53	-->	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has joined #ckule
+2014-06-07 18:56:07	<--	menturi (~Curt@108-95-96-45.lightspeed.bcvloh.sbcglobal.net) has quit (Ping timeout: 265 seconds)
+2014-06-07 19:00:55	-->	korvys (~korvys@59.167.212.242) has joined #ckule
+2014-06-07 19:02:43	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-07 19:18:32	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2014-06-07 19:18:33	-->	latro`a_ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-07 19:26:19	<--	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has quit (Quit: Leaving.)
+2014-06-07 19:54:19	-->	v4hn (~v4hn@brln-4dba92d3.pool.mediaWays.net) has joined #ckule
+2014-06-07 19:57:33	<--	v4hn_ (~v4hn@brln-4dbab4c0.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2014-06-07 20:04:48	<--	uuZIT (~uuZIT@p549F8FE3.dip0.t-ipconnect.de) has quit (Quit: uuZIT)
+2014-06-07 20:29:33	<--	Zearen (~zearen@c-98-239-129-128.hsd1.pa.comcast.net) has quit (Quit: Leaving.)
+2014-06-07 20:33:54	-->	zahlman (~karl@TOROON4425W-LP140-02-1279670628.dsl.bell.ca) has joined #ckule
+2014-06-07 20:47:20	<--	lunra_ (~ircme@205.185.116.160) has quit (Ping timeout: 260 seconds)
+2014-06-07 20:53:08	-->	lunra (~ircme@205.185.116.160) has joined #ckule
+2014-06-07 20:56:56	-->	ryivhnn (~ryivhnn@ppp59-167-111-247.static.internode.on.net) has joined #ckule
+2014-06-07 21:07:30	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-07 21:11:59	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Ping timeout: 252 seconds)
+2014-06-07 21:18:16	-->	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has joined #ckule
+2014-06-07 21:21:52	<--	latro`a_ (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2014-06-07 21:25:59	<--	grimles (47ed5916@gateway/web/freenode/ip.71.237.89.22) has quit (Quit: Page closed)
+2014-06-07 21:34:39	<--	tertu (~quassel@143.44.65.14) has quit (Ping timeout: 265 seconds)
+2014-06-07 21:57:48	<--	Sxem (~Sxem@pool-71-251-53-204.washdc.east.verizon.net) has quit (Ping timeout: 260 seconds)
+2014-06-07 22:04:59	-->	tertu (~quassel@143.44.65.14) has joined #ckule
+2014-06-07 22:25:12	<--	latro`a (~latro`a@pool-108-28-189-167.washdc.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2014-06-07 22:48:44	-->	TheSupernatural (~thesupern@98.255.110.185) has joined #ckule
+2014-06-07 23:00:06	<--	TheSupernatural (~thesupern@98.255.110.185) has quit (Remote host closed the connection)
+2014-06-07 23:11:32	<--	tertu (~quassel@143.44.65.14) has quit (Ping timeout: 260 seconds)
+2014-06-07 23:39:08	<--	andares (~andares@unaffiliated/jacco) has quit (Read error: Connection reset by peer)
+2014-06-07 23:39:46	-->	andares (~andares@unaffiliated/jacco) has joined #ckule

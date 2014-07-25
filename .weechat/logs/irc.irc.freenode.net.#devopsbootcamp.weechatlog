@@ -1,0 +1,989 @@
+2014-05-15 11:22:38	-->	muricula (kronquii@osuosl/staff/muricula) has joined #devopsbootcamp
+2014-05-15 11:22:38	--	Topic for #devopsbootcamp is "meeting tonight, KEC1007 (not displaced) | devopsbootcamp.osuosl.org"
+2014-05-15 11:22:38	--	Topic set by edunham on Thu, 24 Apr 2014 14:36:15
+2014-05-15 11:22:38	--	Nicks #devopsbootcamp: [@Ramereth @Ramereth|mobile Alan_S basic` bryon chekkaa deanj edunham frostsnow hamper haroldhues jnoah jordane kennric lrr lucyw MaraJade mathuin muricula mythmon pono pwnguin spectralsun toner23]
+2014-05-15 11:22:38	--	Channel #devopsbootcamp: 24 nicks (2 ops, 0 halfops, 0 voices, 22 normals)
+2014-05-15 11:22:39	--	Channel created on Tue, 15 Oct 2013 15:41:46
+2014-05-15 12:39:19	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #devopsbootcamp
+2014-05-15 14:56:04	edunham	Ramereth: on http://slides.osuosl.org/devopsbootcamp/12_configmgmt.html#9 it's unclear where you get it from or what file it goes in
+2014-05-15 14:57:09	@Ramereth	edunham: from typing that "puppet resource" command
+2014-05-15 14:57:13	edunham	oh ok
+2014-05-15 14:57:20	@Ramereth	feel free to fix it as you see fit
+2014-05-15 14:57:26	edunham	OH, that's what you meant about the comments
+2014-05-15 14:57:59	@Ramereth	ya... so maybe its not the best way to show it
+2014-05-15 14:58:11	@Ramereth	i'd recommend you make two seperate windows or something so its more apparent
+2014-05-15 14:58:18	edunham	uhoh... $ puppet resource user vagrant
+2014-05-15 14:58:19	edunham	Error: Could not run: undefined method `exists?' for nil:NilClass
+2014-05-15 14:58:31	@Ramereth	i.e. make one just be a :: block and the next be code-block:: puppet
+2014-05-15 14:58:33	edunham	in the VM...
+2014-05-15 14:58:44	@Ramereth	how did you install puppet?
+2014-05-15 14:58:49	@Ramereth	what version?
+2014-05-15 14:58:57	edunham	$ yum install puppet
+2014-05-15 14:59:05	edunham	it's puppet 3.6.0
+2014-05-15 14:59:40	@Ramereth	are you running it as root?
+2014-05-15 14:59:57	edunham	nope
+2014-05-15 15:00:13	edunham	ah, there we go
+2014-05-15 15:11:47	edunham	okay i fixed the formatting and got most of it to work in my VM
+2014-05-15 15:11:53	-->	GitHub39 (~GitHub39@192.30.252.36) has joined #devopsbootcamp
+2014-05-15 15:11:53	--	Notice(GitHub39): [website] edunham pushed 1 new commit to master: http://git.io/LeUjfA
+2014-05-15 15:11:53	--	Notice(GitHub39): website/master f79641f E. Dunham: Clean up formatting for clarity
+2014-05-15 15:11:53	<--	GitHub39 (~GitHub39@192.30.252.36) has left #devopsbootcamp
+2014-05-15 15:12:29	 *	edunham removes puppet from local vm
+2014-05-15 16:34:10	bryon	ugh, i have a wickedbad headache, so i will not be in attendance tonight
+2014-05-15 16:34:25	bryon	i'm going home and laying down. i'll just watch the video later.
+2014-05-15 16:36:02	@Ramereth	bryon: ok!
+2014-05-15 16:36:05	@Ramereth	edunham: we all set?
+2014-05-15 16:39:07	edunham	Ramereth: I think we're good!
+2014-05-15 16:39:31	edunham	bryon: I hope you feel better!
+2014-05-15 17:54:48	jordane	bryon: feel better!
+2014-05-15 17:56:16	edunham	tonight we are in 1005
+2014-05-15 17:56:42	--	ChanServ has changed topic for #devopsbootcamp from "meeting tonight, KEC1007 (not displaced) | devopsbootcamp.osuosl.org" to "meeting tonight, KEC1005 (engr expo setup) | devopsbootcamp.osuosl.org"
+2014-05-15 18:03:47	edunham	muricula: bootcamp?
+2014-05-15 18:39:18	-->	GitHub36 (~GitHub36@192.30.252.44) has joined #devopsbootcamp
+2014-05-15 18:39:18	--	Notice(GitHub36): [website] edunham pushed 1 new commit to master: http://git.io/s5Sx-w
+2014-05-15 18:39:18	--	Notice(GitHub36): website/master be319b4 E. Dunham: Lessons 11&12 links on curriculum site
+2014-05-15 18:39:18	<--	GitHub36 (~GitHub36@192.30.252.44) has left #devopsbootcamp
+2014-05-15 20:47:58	<--	hamper (~hamper@ec2-23-22-35-174.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-15 20:48:18	-->	hamper (~hamper@ec2-54-196-49-139.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-15 21:10:26	<--	hamper (~hamper@ec2-54-196-49-139.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-15 21:11:02	-->	hamper (~hamper@ec2-54-198-161-108.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-15 21:12:31	<--	hamper (~hamper@ec2-54-198-161-108.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-15 21:13:22	-->	hamper (~hamper@ec2-23-23-21-157.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-15 21:13:48	<--	hamper (~hamper@ec2-23-23-21-157.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-15 21:14:34	-->	hamper (~hamper@ec2-54-205-215-34.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-15 21:15:17	<--	hamper (~hamper@ec2-54-205-215-34.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-15 21:33:48	-->	hamper (~hamper@ec2-54-205-9-107.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-16 04:14:05	-->	john3213 (john3213@static-72-66-66-50.washdc.fios.verizon.net) has joined #devopsbootcamp
+2014-05-16 04:19:07	<--	john3213 (john3213@static-72-66-66-50.washdc.fios.verizon.net) has left #devopsbootcamp
+2014-05-16 06:45:58	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-05-16 06:46:10	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-05-16 09:16:27	@Ramereth	kennric: btw we ran into an issue getting the mysql parts to work last night. You might take a look when you get a chance
+2014-05-16 09:17:28	kennric	mysql parts of which?
+2014-05-16 09:17:38	kennric	orvsd cookbooks?
+2014-05-16 09:17:38	@Ramereth	the last few slides. gave me an error
+2014-05-16 09:17:44	kennric	oh, the slides
+2014-05-16 09:17:48	@Ramereth	ya the slides
+2014-05-16 09:17:49	kennric	hmmm
+2014-05-16 09:18:01	@Ramereth	we modified it slightly so you might take a look
+2014-05-16 09:18:12	kennric	mysql root password issues maybe?
+2014-05-16 09:18:21	@Ramereth	seemed like a syntax error
+2014-05-16 09:20:28	kennric	could be, I was running out of time for testing
+2014-05-16 09:22:13	@Ramereth	np, just would be nice to have it fixed at some point :)
+2014-05-16 15:35:27	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-05-16 15:35:47	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-05-16 15:35:48	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-05-16 15:35:52	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-05-16 15:36:06	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-05-16 15:36:06	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #devopsbootcamp
+2014-05-16 18:12:34	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Remote host closed the connection)
+2014-05-16 18:13:00	-->	brutal_chaos (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-05-16 18:13:12	<--	brutal_chaos (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Client Quit)
+2014-05-16 18:15:20	-->	brutal_chaos (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-05-16 18:39:00	--	brutal_chaos is now known as jnoah
+2014-05-16 21:58:26	<--	hamper (~hamper@ec2-54-205-9-107.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-16 21:58:43	-->	hamper (~hamper@ec2-54-225-13-192.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-17 08:53:57	-->	rodgerGamblin (~EnderSpik@c-71-59-223-135.hsd1.or.comcast.net) has joined #devopsbootcamp
+2014-05-17 09:02:59	rodgerGamblin	Hello, my name is Rodger Gamblin. I am a new student in the eCampus Computer Science postbacc program about to complete my first term of the program. I am very interested in joining DevOps boot camp as soon as I can, but I'm not exactly sure how to start, who to talk to, and what participation looks like since I'm an online student. Is it even possible for distance students to join or
+2014-05-17 09:02:59	rodgerGamblin	is this just a pie in the sky dream?
+2014-05-17 09:11:08	frostsnow	rodgerGamblin: I'm sure that you are welcome to watch and participate by watching the stream and being on the mailing list
+2014-05-17 09:16:55	rodgerGamblin	Neat! What stream?
+2014-05-17 09:17:57	frostsnow	IIRC, the talks are usually streamed.
+2014-05-17 09:18:35	rodgerGamblin	cool
+2014-05-17 09:19:08	frostsnow	There's also a mailing list that you will want to sign up for
+2014-05-17 09:44:11	edunham	rodgerGamblin: good morning! DevOps Bootcamp is wrapping up its in-person meetings for this year since the school year is almost over, but all of the videos of the talks are online
+2014-05-17 09:44:11	hamper	edunham: good morning!
+2014-05-17 09:44:25	--	ChanServ has changed topic for #devopsbootcamp from "meeting tonight, KEC1005 (engr expo setup) | devopsbootcamp.osuosl.org" to "devopsbootcamp.osuosl.org"
+2014-05-17 11:17:49	rodgerGamblin	How do I get in on next year? Just keep an eye on the mailing list?
+2014-05-17 11:32:56	edunham	you can actually use the videos, exercises, and channel to catch up for this year if you like
+2014-05-17 12:28:29	rodgerGamblin	neat!
+2014-05-17 13:31:50	frostsnow	And feel free to ask questions in here or #osu-lug if you have any
+2014-05-17 13:35:52	lrr	^^
+2014-05-17 18:27:15	<--	rodgerGamblin (~EnderSpik@c-71-59-223-135.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-05-17 22:07:11	<--	hamper (~hamper@ec2-54-225-13-192.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-17 22:07:32	-->	hamper (~hamper@ec2-54-211-23-12.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-18 04:21:39	-->	rodgerGamblin (~EnderSpik@c-71-59-223-135.hsd1.or.comcast.net) has joined #devopsbootcamp
+2014-05-18 15:13:37	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-05-18 15:13:38	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has quit (*.net *.split)
+2014-05-18 15:13:44	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-05-18 15:13:49	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-05-18 15:13:53	<--	edunham (dunhame@osuosl/staff/edunham) has quit (*.net *.split)
+2014-05-18 15:19:19	-->	edunham (dunhame@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-05-18 15:19:24	--	edunham is now known as 6JTAAQIDJ
+2014-05-18 15:19:32	-->	deanj (~johnsdea@osuosl/staff/johnsdea) has joined #devopsbootcamp
+2014-05-18 15:19:32	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-05-18 15:19:32	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-05-18 15:19:32	-->	edunham (dunhame@osuosl/staff/edunham) has joined #devopsbootcamp
+2014-05-18 15:19:32	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-05-18 15:20:15	<--	edunham (dunhame@osuosl/staff/edunham) has quit (Write error: Broken pipe)
+2014-05-18 15:55:27	--	6JTAAQIDJ is now known as edunham
+2014-05-18 15:55:31	<--	edunham (dunhame@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-18 15:55:31	-->	edunham (dunhame@osuosl/staff/edunham) has joined #devopsbootcamp
+2014-05-18 22:22:09	<--	hamper (~hamper@ec2-54-211-23-12.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-18 22:22:27	-->	hamper (~hamper@ec2-54-82-162-165.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-18 23:57:31	<--	rodgerGamblin (~EnderSpik@c-71-59-223-135.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-05-19 08:08:36	-->	rodgerGamblin (~EnderSpik@c-71-59-223-135.hsd1.or.comcast.net) has joined #devopsbootcamp
+2014-05-19 13:50:26	@Ramereth	edunham: will we need to use a full hour for the bootcamp meeting this week on wed?
+2014-05-19 13:51:51	edunham	Ramereth: I doubt it
+2014-05-19 13:52:20	edunham	we have the conference room from noon-1 but we can do either the first or second half of the hour, whatever works for you
+2014-05-19 13:56:33	@Ramereth	i ask because I want to use it from 12:30-1:30 for a media interview
+2014-05-19 13:57:04	edunham	okay np, we can be done by then
+2014-05-19 13:57:44	@Ramereth	sounds good. I just wanted to make sure :)
+2014-05-19 13:58:00	edunham	np, thanks for checking :)
+2014-05-19 13:58:13	@Ramereth	oh shoot, they have it held for 1-3p anyways. guess I"ll have to use the downstairs conf rm
+2014-05-19 18:46:10	<--	rodgerGamblin (~EnderSpik@c-71-59-223-135.hsd1.or.comcast.net) has quit
+2014-05-19 19:23:14	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Quit: WeeChat 0.4.2)
+2014-05-19 20:38:34	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-05-19 22:53:40	<--	hamper (~hamper@ec2-54-82-162-165.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-19 22:53:54	-->	hamper (~hamper@ec2-184-73-75-70.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-20 00:37:41	<--	hamper (~hamper@ec2-184-73-75-70.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-05-20 00:37:41	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-05-20 00:39:51	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-05-20 11:18:54	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 240 seconds)
+2014-05-20 15:34:52	-->	hamper (~hamper@ec2-54-196-255-181.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-21 10:46:33	edunham	meeting 12 - 12:30 this afternoon
+2014-05-21 11:57:49	-->	GitHub4 (~GitHub4@192.30.252.40) has joined #devopsbootcamp
+2014-05-21 11:57:49	--	Notice(GitHub4): [website] edunham pushed 1 new commit to master: http://git.io/tw93IA
+2014-05-21 11:57:49	--	Notice(GitHub4): website/master ad0e052 Emily Dunham: Outline for lesson 13
+2014-05-21 11:57:49	<--	GitHub4 (~GitHub4@192.30.252.40) has left #devopsbootcamp
+2014-05-21 11:57:56	edunham	Ramereth, kennric, deanj, muricula meeting soon! :)
+2014-05-21 11:58:12	kennric	yep
+2014-05-21 13:55:21	-->	GitHub49 (~GitHub49@192.30.252.37) has joined #devopsbootcamp
+2014-05-21 13:55:21	--	Notice(GitHub49): [website] edunham pushed 1 new commit to master: http://git.io/0J-UNg
+2014-05-21 13:55:21	--	Notice(GitHub49): website/master 2c9ef8a Emily Dunham: no wk14
+2014-05-21 13:55:21	<--	GitHub49 (~GitHub49@192.30.252.37) has left #devopsbootcamp
+2014-05-21 15:30:46	-->	edunham__ (dunhame@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-05-21 15:31:39	<--	edunham__ (dunhame@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-21 15:31:40	-->	edunham__ (dunhame@osuosl/staff/edunham) has joined #devopsbootcamp
+2014-05-21 15:31:47	<--	edunham (dunhame@osuosl/staff/edunham) has quit (Disconnected by services)
+2014-05-21 15:31:54	--	edunham__ is now known as edunham
+2014-05-21 15:32:31	-->	Alan_S_ (~alan_s@162.245.219.53) has joined #devopsbootcamp
+2014-05-21 15:33:54	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (Ping timeout: 265 seconds)
+2014-05-21 15:34:43	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (Ping timeout: 245 seconds)
+2014-05-21 15:36:59	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-05-21 15:38:05	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-05-21 15:47:31	<--	hamper (~hamper@ec2-54-196-255-181.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-21 15:47:47	-->	hamper (~hamper@ec2-54-237-231-7.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-21 15:49:33	<--	Alan_S_ (~alan_s@162.245.219.53) has quit (*.net *.split)
+2014-05-21 16:13:56	-->	Alan_S_ (~alan_s@162.245.219.53) has joined #devopsbootcamp
+2014-05-21 16:46:56	--	Alan_S_ is now known as Alan_s
+2014-05-21 16:47:01	--	Alan_s is now known as Alan_S
+2014-05-21 16:49:14	<--	Alan_S (~alan_s@162.245.219.53) has quit (Changing host)
+2014-05-21 16:49:15	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-05-21 17:26:24	-->	lucyw (wymanl@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-05-21 17:42:40	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-21 17:42:40	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #devopsbootcamp
+2014-05-21 20:02:43	-->	chekkaa1 (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-05-21 20:03:14	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 258 seconds)
+2014-05-21 20:15:38	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-05-21 20:20:58	--	chekkaa1 is now known as chekkaa
+2014-05-21 20:57:18	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-05-21 22:05:10	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-05-22 00:45:28	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-05-22 14:12:03	-->	GitHub62 (~GitHub62@192.30.252.37) has joined #devopsbootcamp
+2014-05-22 14:12:03	--	Notice(GitHub62): [website] edunham pushed 1 new commit to master: http://git.io/TO7ljQ
+2014-05-22 14:12:03	--	Notice(GitHub62): website/master 062e1ed Emily Dunham: Add feedback survey to front page
+2014-05-22 14:12:03	<--	GitHub62 (~GitHub62@192.30.252.37) has left #devopsbootcamp
+2014-05-22 15:55:54	<--	hamper (~hamper@ec2-54-237-231-7.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-22 15:56:12	-->	hamper (~hamper@ec2-54-82-91-84.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-22 16:55:28	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Quit: WeeChat 0.4.2)
+2014-05-22 16:56:22	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-05-22 17:17:31	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #devopsbootcamp
+2014-05-22 17:20:16	-->	GitHub83 (~GitHub83@192.30.252.44) has joined #devopsbootcamp
+2014-05-22 17:20:16	--	Notice(GitHub83): [website] edunham pushed 2 new commits to master: http://git.io/0m7Jyw
+2014-05-22 17:20:16	--	Notice(GitHub83): website/master 6a6c98b Emily Dunham: add pictures to lesson 13
+2014-05-22 17:20:16	--	Notice(GitHub83): website/master c517c1c Emily Dunham: Make the slides pretty
+2014-05-22 17:20:16	<--	GitHub83 (~GitHub83@192.30.252.44) has left #devopsbootcamp
+2014-05-22 17:59:24	edunham	remember boot camp tonight!
+2014-05-22 18:04:18	edunham	muricula, coming over?
+2014-05-22 18:10:19	-->	espeons (claytonh@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-05-22 18:22:54	pwnguin	https://github.com/reddit/reddit
+2014-05-22 18:30:01	pwnguin	'there are open source projects for literally everything'
+2014-05-22 18:30:14	pwnguin	/literally/ everything? challenge accepted
+2014-05-22 18:30:17	spectralsun	streaming link?
+2014-05-22 18:31:22	pwnguin	iirc, it's basically over
+2014-05-22 18:31:25	pwnguin	we're on the questions slide
+2014-05-22 18:47:42	pwnguin	https://launchpad.net/ubuntu/+bugs?field.tag=bitesize
+2014-05-22 18:49:25	jnoah	rosettacode ftw
+2014-05-22 18:52:48	jnoah	bryon: watchin' the streAm?
+2014-05-22 18:57:15	edunham	literally everything.
+2014-05-22 19:03:17	-->	ranksj_ (~ranksj@ip68-229-219-171.ok.ok.cox.net) has joined #devopsbootcamp
+2014-05-22 19:13:49	<--	espeons (claytonh@shell.onid.oregonstate.edu) has quit (Quit: Lost terminal)
+2014-05-22 19:17:16	<--	ranksj_ (~ranksj@ip68-229-219-171.ok.ok.cox.net) has quit (Quit: Leaving)
+2014-05-22 19:55:35	bryon	whoops, i forgot devops was today
+2014-05-22 19:55:42	bryon	oops
+2014-05-22 20:30:39	edunham	last one of the term, too
+2014-05-22 21:05:42	bryon	much derp
+2014-05-22 21:08:15	jnoah	hmm?
+2014-05-22 21:09:11	 *	bryon derped and forgot to go to the last bootcamp
+2014-05-22 21:13:45	jnoah	ah, yeah :/
+2014-05-22 21:14:39	jnoah	This one was easy going. Just an overview for starting out in the open source world with the knowledge obtained through the course
+2014-05-22 21:34:47	bryon	i'll have to watch the vid
+2014-05-22 21:41:32	jnoah	bryon: was there an email sent out for this bootcamp (i don't recall seeing one, but that isn't to say i didn't get one)
+2014-05-22 21:44:16	bryon	i don't recall. i see so much email, it all kind of blends together.
+2014-05-22 21:45:25	jnoah	yeah...
+2014-05-23 04:18:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-23 04:19:14	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-05-23 16:20:16	<--	hamper (~hamper@ec2-54-82-91-84.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-23 16:20:34	-->	hamper (~hamper@ec2-54-87-156-29.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-24 01:05:43	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-24 01:06:12	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-05-24 08:57:13	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 252 seconds)
+2014-05-24 08:58:03	-->	pwnguin (~jldugger@li259-193.members.linode.com) has joined #devopsbootcamp
+2014-05-24 13:10:48	<--	pwnguin (~jldugger@li259-193.members.linode.com) has quit (Changing host)
+2014-05-24 13:10:48	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #devopsbootcamp
+2014-05-24 17:10:18	<--	hamper (~hamper@ec2-54-87-156-29.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-24 17:10:40	-->	hamper (~hamper@ec2-54-82-53-2.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-25 14:38:45	-->	aboutGod (~aboutGod@static-72-66-66-50.washdc.fios.verizon.net) has joined #devopsbootcamp
+2014-05-25 14:43:52	<--	aboutGod (~aboutGod@static-72-66-66-50.washdc.fios.verizon.net) has left #devopsbootcamp
+2014-05-25 17:21:44	<--	hamper (~hamper@ec2-54-82-53-2.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-25 17:21:58	-->	hamper (~hamper@ec2-54-87-188-84.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-25 19:47:04	-->	krononaut (~krononaut@99-115-9-148.lightspeed.okcbok.sbcglobal.net) has joined #devopsbootcamp
+2014-05-25 19:50:09	<--	krononaut (~krononaut@99-115-9-148.lightspeed.okcbok.sbcglobal.net) has quit (Remote host closed the connection)
+2014-05-26 17:42:22	<--	hamper (~hamper@ec2-54-87-188-84.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-26 17:42:41	-->	hamper (~hamper@ec2-54-198-225-96.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-27 06:21:07	-->	aboutGod (~aboutGod@static-72-66-66-50.washdc.fios.verizon.net) has joined #devopsbootcamp
+2014-05-27 06:26:13	<--	aboutGod (~aboutGod@static-72-66-66-50.washdc.fios.verizon.net) has left #devopsbootcamp
+2014-05-27 18:14:21	<--	hamper (~hamper@ec2-54-198-225-96.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-27 18:14:37	-->	hamper (~hamper@ec2-54-227-168-59.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-28 17:31:14	-->	apexskier (~apexskier@glacier.camlittle.com) has joined #devopsbootcamp
+2014-05-28 18:30:03	<--	hamper (~hamper@ec2-54-227-168-59.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-28 18:30:23	-->	hamper (~hamper@ec2-50-17-14-184.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-29 15:29:59	-->	Alan_S_ (~alan_s@162.245.219.53) has joined #devopsbootcamp
+2014-05-29 15:30:25	<--	Alan_S_ (~alan_s@162.245.219.53) has quit (Client Quit)
+2014-05-29 18:56:33	<--	hamper (~hamper@ec2-50-17-14-184.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-29 18:56:53	-->	hamper (~hamper@ec2-23-20-30-194.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-29 20:17:21	-->	aboutGod (~aboutGod@static-72-66-66-50.washdc.fios.verizon.net) has joined #devopsbootcamp
+2014-05-29 20:22:28	<--	aboutGod (~aboutGod@static-72-66-66-50.washdc.fios.verizon.net) has left #devopsbootcamp
+2014-05-29 21:06:14	<--	bryon (bryon@osuosl/staff/bryon) has quit (Ping timeout: 240 seconds)
+2014-05-29 21:06:31	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-05-29 21:06:34	<--	kennric (kennric@osuosl/staff/kennric) has quit (Ping timeout: 240 seconds)
+2014-05-29 21:07:02	-->	kennric (kennric@osuosl/staff/kennric) has joined #devopsbootcamp
+2014-05-30 01:03:54		irc: disconnected from server
+2014-05-30 01:04:36	-->	muricula (kronquii@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-05-30 01:04:36	--	Topic for #devopsbootcamp is "devopsbootcamp.osuosl.org"
+2014-05-30 01:04:36	--	Topic set by edunham on Sat, 17 May 2014 09:44:25
+2014-05-30 01:04:36	--	Nicks #devopsbootcamp: [@Ramereth @Ramereth|mobile Alan_S apexskier basic` bryon chekkaa deanj edunham frostsnow hamper haroldhues jmt jnoah jordane kennric lrr lucyw MaraJade muricula mythmon pono pop_n_fresh pwnguin spectralsun toner23]
+2014-05-30 01:04:36	--	Channel #devopsbootcamp: 26 nicks (2 ops, 0 halfops, 0 voices, 24 normals)
+2014-05-30 01:04:58	--	Channel created on Tue, 15 Oct 2013 15:41:46
+2014-05-30 07:21:15	<--	edunham (dunhame@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-30 07:21:15	-->	edunham (dunhame@osuosl/staff/edunham) has joined #devopsbootcamp
+2014-05-30 13:14:29	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-30 13:14:29	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #devopsbootcamp
+2014-05-30 14:19:39	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-30 14:20:11	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-05-30 18:54:09	<--	frostsnow (~clinew@li592-125.members.linode.com) has quit (Quit: leaving)
+2014-05-30 19:30:08	<--	hamper (~hamper@ec2-23-20-30-194.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-30 19:30:26	-->	hamper (~hamper@ec2-54-198-58-239.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-30 19:57:25	-->	clinew (~clinew@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-05-30 19:59:03	<--	clinew (~clinew@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Client Quit)
+2014-05-30 20:02:31	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-05-30 20:48:30	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-05-30 20:52:51	-->	frostsno1 (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-05-30 20:59:21	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Write error: Broken pipe)
+2014-05-30 21:00:25	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-30 21:00:27	--	mythmon_ is now known as mythmon
+2014-05-30 21:09:00	--	frostsno1 is now known as frostsnow
+2014-05-30 21:17:50	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Quit: leaving)
+2014-05-30 22:20:22	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-05-31 10:58:25	--	jmt is now known as mathuin
+2014-05-31 11:13:19	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Quit: leaving)
+2014-05-31 14:53:13	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-05-31 14:56:43	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Client Quit)
+2014-05-31 14:57:06	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-05-31 16:45:30	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-05-31 16:47:28	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-05-31 19:57:43	<--	hamper (~hamper@ec2-54-198-58-239.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-31 19:57:59	-->	hamper (~hamper@ec2-54-211-189-107.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-05-31 21:24:12	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-05-31 21:25:09	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-05-31 21:36:01	-->	kennric_ (kennric@osuosl/staff/kennric) has joined #devopsbootcamp
+2014-05-31 21:37:28	<--	kennric (kennric@osuosl/staff/kennric) has quit (Write error: Broken pipe)
+2014-06-01 10:59:49	<--	pono (pono@ash.osuosl.org) has quit (Changing host)
+2014-06-01 10:59:49	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-01 17:16:58	<--	pop_n_fresh (voigte@osuosl/staff/popnfresh) has quit (Ping timeout: 240 seconds)
+2014-06-01 17:17:05	-->	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-01 20:21:55	<--	hamper (~hamper@ec2-54-211-189-107.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-01 20:22:17	-->	hamper (~hamper@ec2-54-234-103-163.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-02 01:54:07	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 260 seconds)
+2014-06-02 01:56:55	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 02:05:15	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-06-02 02:08:33	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 02:17:05	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 02:19:58	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 02:28:02	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 02:31:33	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 02:40:18	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 02:43:07	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 02:52:17	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 255 seconds)
+2014-06-02 02:55:07	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 03:04:13	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-06-02 03:06:39	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 03:15:53	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 03:18:37	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 03:27:50	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 255 seconds)
+2014-06-02 03:30:49	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 03:38:34	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 03:54:09	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 04:02:41	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 04:04:59	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 04:12:48	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 245 seconds)
+2014-06-02 04:16:26	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 04:25:15	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 04:27:41	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 04:36:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 260 seconds)
+2014-06-02 04:39:08	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 04:47:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 04:50:34	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 04:58:44	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 255 seconds)
+2014-06-02 05:02:20	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 05:10:18	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 245 seconds)
+2014-06-02 05:13:31	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 05:21:43	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 05:24:12	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 05:31:58	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 05:35:20	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 05:43:18	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 05:46:12	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 05:54:15	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-02 05:57:54	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 06:03:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 08:03:16	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 08:08:14	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 265 seconds)
+2014-06-02 08:10:26	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 08:18:53	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 08:21:44	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 08:29:49	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 08:32:11	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 08:45:17	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-02 08:49:00	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 09:12:28	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 252 seconds)
+2014-06-02 10:39:59	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 10:50:39	--	kennric_ is now known as kennric
+2014-06-02 11:52:15	<--	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-02 11:52:16	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #devopsbootcamp
+2014-06-02 16:19:46	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Quit: WeeChat 0.4.2)
+2014-06-02 16:20:17	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-02 18:57:10	-->	basic (~basic@2601:7:1380:835:225:90ff:fe52:2af) has joined #devopsbootcamp
+2014-06-02 18:57:31	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-02 20:59:06	<--	hamper (~hamper@ec2-54-234-103-163.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-02 20:59:26	-->	hamper (~hamper@ec2-54-82-99-184.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-03 07:33:04	<--	basic (~basic@2601:7:1380:835:225:90ff:fe52:2af) has quit (Changing host)
+2014-06-03 07:33:04	-->	basic (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-03 07:33:19	--	basic is now known as basic`
+2014-06-03 08:16:47	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-06-03 08:17:40	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-03 08:33:24	<--	mathuin (jmt@ash.osuosl.org) has quit (Changing host)
+2014-06-03 08:33:24	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-03 12:16:25	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-03 15:46:58	<--	pop_n_fresh (voigte@osuosl/staff/popnfresh) has quit (Ping timeout: 240 seconds)
+2014-06-03 15:47:04	-->	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-03 16:12:07	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-03 16:14:34	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Disconnected by services)
+2014-06-03 16:14:39	--	mythmon_ is now known as mythmon
+2014-06-03 21:11:52	<--	hamper (~hamper@ec2-54-82-99-184.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-03 21:12:13	-->	hamper (~hamper@ec2-54-87-145-36.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-04 10:48:54	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-04 10:49:28	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-04 22:00:48	<--	hamper (~hamper@ec2-54-87-145-36.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-04 22:01:08	-->	hamper (~hamper@ec2-54-82-123-25.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-05 08:16:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-05 08:17:14	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-05 20:03:21	<--	hamper (~hamper@ec2-54-82-123-25.compute-1.amazonaws.com) has quit (Ping timeout: 240 seconds)
+2014-06-05 22:15:34	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-05 22:15:37	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-05 22:15:37	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:15:40	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:15:41	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-05 22:15:42	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	toner23 (~toner@192.241.195.181) has quit (*.net *.split)
+2014-06-05 22:15:43	<--	apexskier (~apexskier@glacier.camlittle.com) has quit (*.net *.split)
+2014-06-05 22:15:45	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-05 22:15:45	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-05 22:15:47	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-05 22:21:41	<--	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has quit (Write error: Broken pipe)
+2014-06-05 22:21:42	<--	bryon (bryon@osuosl/staff/bryon) has quit (Write error: Broken pipe)
+2014-06-05 22:21:54	-->	bryon_ (bryon@ash.osuosl.org) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	kennric (kennric@osuosl/staff/kennric) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	apexskier (~apexskier@glacier.camlittle.com) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	haroldhues (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	toner23 (~toner@192.241.195.181) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	Ramereth|mobile (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-05 22:27:21	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-05 22:27:21	--	Mode #devopsbootcamp [+oo Ramereth Ramereth|mobile] by asimov.freenode.net
+2014-06-05 22:28:53	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-05 22:28:56	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-05 22:28:56	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:28:59	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-05 22:29:00	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-05 22:29:01	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	toner23 (~toner@192.241.195.181) has quit (*.net *.split)
+2014-06-05 22:29:02	<--	apexskier (~apexskier@glacier.camlittle.com) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-05 22:29:04	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-05 22:29:06	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-05 22:29:07	<--	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-05 22:33:42	-->	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	kennric (kennric@osuosl/staff/kennric) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	apexskier (~apexskier@glacier.camlittle.com) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	haroldhues (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	toner23 (~toner@192.241.195.181) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	Ramereth|mobile (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-05 22:33:42	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-05 22:33:42	--	Mode #devopsbootcamp [+oo Ramereth Ramereth|mobile] by asimov.freenode.net
+2014-06-05 23:12:33	-->	hamper (~hamper@ec2-54-205-16-19.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-06 11:08:49	<--	pop_n_fresh (voigte@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-06 11:08:49	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #devopsbootcamp
+2014-06-06 11:36:09	<--	pop_n_fresh (voigte@osuosl/staff/popnfresh) has left #devopsbootcamp
+2014-06-06 11:40:58	-->	pop_n_fresh (voigte@osuosl/staff/popnfresh) has joined #devopsbootcamp
+2014-06-06 12:06:04	<--	apexskier (~apexskier@glacier.camlittle.com) has left #devopsbootcamp
+2014-06-06 13:08:07	-->	apexskier (~apexskier@glacier.camlittle.com) has joined #devopsbootcamp
+2014-06-06 15:55:17	--	bryon_ is now known as bryon
+2014-06-06 15:55:31	<--	bryon (bryon@ash.osuosl.org) has quit (Changing host)
+2014-06-06 15:55:31	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-07 00:15:15	<--	hamper (~hamper@ec2-54-205-16-19.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-07 00:15:27	-->	hamper (~hamper@ec2-54-237-173-255.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-07 01:58:37	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-07 01:58:38	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-07 01:58:39	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 01:58:39	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-07 01:58:40	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-07 01:58:40	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-07 01:58:52	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-07 01:58:52	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-07 01:58:52	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-07 01:58:52	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-07 01:58:52	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #devopsbootcamp
+2014-06-07 01:58:52	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #devopsbootcamp
+2014-06-07 02:01:12	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-07 02:01:15	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-07 02:01:18	<--	kennric (kennric@osuosl/staff/kennric) has quit (*.net *.split)
+2014-06-07 02:01:21	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-07 02:01:21	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-07 02:01:24	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (*.net *.split)
+2014-06-07 02:01:25	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-07 02:01:26	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-07 02:01:27	<--	toner23 (~toner@192.241.195.181) has quit (*.net *.split)
+2014-06-07 02:01:27	<--	apexskier (~apexskier@glacier.camlittle.com) has quit (*.net *.split)
+2014-06-07 02:01:27	<--	hamper (~hamper@ec2-54-237-173-255.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-07 02:01:28	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-07 02:01:30	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-07 02:01:45	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	Ramereth|mobile (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	toner23 (~toner@192.241.195.181) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	haroldhues (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	kennric (kennric@osuosl/staff/kennric) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	apexskier (~apexskier@glacier.camlittle.com) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	hamper (~hamper@ec2-54-237-173-255.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #devopsbootcamp
+2014-06-07 02:01:45	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #devopsbootcamp
+2014-06-07 02:01:45	--	Mode #devopsbootcamp [+oo Ramereth|mobile Ramereth] by asimov.freenode.net
+2014-06-07 02:02:03	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-07 02:02:04	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-07 02:02:04	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 02:04:30	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-07 02:04:30	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-07 02:04:30	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-07 02:11:25	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-07 02:11:25	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #devopsbootcamp
+2014-06-07 15:17:27	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-07 15:20:32	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:34:33	<--	hamper (~hamper@ec2-54-237-173-255.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-08 00:34:50	-->	hamper (~hamper@ec2-54-82-144-53.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-08 06:59:30	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-08 07:00:07	-->	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has joined #devopsbootcamp
+2014-06-08 09:26:53	<--	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has quit (Changing host)
+2014-06-08 09:26:53	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-08 10:43:34	--	mythmon_ is now known as mythmon
+2014-06-08 17:11:49	<--	toner23 (~toner@192.241.195.181) has quit (Quit: WeeChat 0.4.2)
+2014-06-08 18:37:00	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Quit: leaving)
+2014-06-08 18:43:19	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-08 19:01:58	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Quit: whee)
+2014-06-08 19:02:16	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-09 01:04:08	<--	hamper (~hamper@ec2-54-82-144-53.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-09 01:04:27	-->	hamper (~hamper@ec2-54-227-61-139.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-09 01:09:32	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-09 01:12:37	-->	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has joined #devopsbootcamp
+2014-06-09 01:37:47	-->	bryon_ (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-09 01:38:43	<--	bryon (bryon@osuosl/staff/bryon) has quit (Ping timeout: 240 seconds)
+2014-06-09 02:25:33	<--	voidprism (fractal@eugeneweb.com) has quit (Ping timeout: 240 seconds)
+2014-06-09 02:25:40	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-09 09:22:26	<--	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has quit (Changing host)
+2014-06-09 09:22:26	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-09 18:57:17	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Quit: whee)
+2014-06-09 20:13:17	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-10 01:37:35	<--	hamper (~hamper@ec2-54-227-61-139.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-10 01:37:51	-->	hamper (~hamper@ec2-54-82-126-43.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-10 08:38:12	--	bryon_ is now known as bryon
+2014-06-10 10:49:01	<--	kennric (kennric@osuosl/staff/kennric) has quit (Quit: leaving)
+2014-06-10 10:57:07	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Quit: ZNC - http://znc.in)
+2014-06-10 11:05:22	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-10 13:33:18	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-10 13:33:19	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-10 13:33:28	-->	haroldhues (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-10 13:36:02	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-10 13:39:35	-->	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-10 13:49:55	-->	jmt (jmt@ash.osuosl.org) has joined #devopsbootcamp
+2014-06-10 13:50:37	--	jmt is now known as mathuin`
+2014-06-10 13:51:30	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Disconnected by services)
+2014-06-10 13:51:45	--	mathuin` is now known as mathuin
+2014-06-10 13:51:50	<--	mathuin (jmt@ash.osuosl.org) has quit (Changing host)
+2014-06-10 13:51:50	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-10 13:54:22	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-10 20:09:05	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (Remote host closed the connection)
+2014-06-10 20:09:31	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-10 22:59:56	<--	Ramereth|mobile (~lance@osuosl/staff/ramereth) has quit (Ping timeout: 252 seconds)
+2014-06-10 23:00:12	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (Ping timeout: 245 seconds)
+2014-06-10 23:01:24	-->	Ramereth (~lance@avenge.ramereth.net) has joined #devopsbootcamp
+2014-06-10 23:01:27	<--	Ramereth (~lance@avenge.ramereth.net) has quit (Changing host)
+2014-06-10 23:01:27	-->	Ramereth (~lance@osuosl/staff/ramereth) has joined #devopsbootcamp
+2014-06-11 01:31:31	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-11 02:09:31	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 240 seconds)
+2014-06-11 02:09:39	-->	pwnguin (~jldugger@li259-193.members.linode.com) has joined #devopsbootcamp
+2014-06-11 02:22:20	<--	hamper (~hamper@ec2-54-82-126-43.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-11 02:22:39	-->	hamper (~hamper@ec2-204-236-221-84.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-11 07:11:10	-->	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has joined #devopsbootcamp
+2014-06-11 07:16:26	<--	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has quit (Changing host)
+2014-06-11 07:16:26	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-11 08:33:55	<--	pwnguin (~jldugger@li259-193.members.linode.com) has quit (Changing host)
+2014-06-11 08:33:55	-->	pwnguin (~jldugger@osuosl/staff/pwnguin) has joined #devopsbootcamp
+2014-06-11 08:57:15	<--	Ramereth (~lance@osuosl/staff/ramereth) has quit (Quit: *poof*)
+2014-06-11 08:58:23	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (Quit: I am laving earth for no raisin!)
+2014-06-11 08:59:33	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-11 09:07:32	<--	apexskier (~apexskier@glacier.camlittle.com) has left #devopsbootcamp
+2014-06-11 12:56:38	-->	apexskier (~apexskier@glacier.camlittle.com) has joined #devopsbootcamp
+2014-06-11 13:39:54	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-11 13:39:54	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-11 13:39:55	<--	apexskier (~apexskier@glacier.camlittle.com) has quit (*.net *.split)
+2014-06-11 13:40:15	-->	chekkaa (~chekkaa@208.67.2.67) has joined #devopsbootcamp
+2014-06-11 13:40:23	-->	apexskier (~apexskier@glacier.camlittle.com) has joined #devopsbootcamp
+2014-06-11 13:40:24	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-06-11 14:18:27	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-11 14:18:27	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-11 14:19:02	-->	lucyw (wymanl@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-11 14:19:02	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-11 14:51:40	<--	chekkaa (~chekkaa@208.67.2.67) has quit (Changing host)
+2014-06-11 14:51:40	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-11 15:20:26	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-11 15:20:26	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #devopsbootcamp
+2014-06-11 15:38:01	--	bryon is now known as AlternateNick
+2014-06-11 15:40:44	--	AlternateNick is now known as bryon
+2014-06-11 19:44:38	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-11 19:46:52	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-12 03:05:12	<--	hamper (~hamper@ec2-204-236-221-84.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-12 03:05:30	-->	hamper (~hamper@ec2-54-87-168-3.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-12 10:10:11	<--	apexskier (~apexskier@glacier.camlittle.com) has left #devopsbootcamp ("Palaver http://palaverapp.com/")
+2014-06-13 03:30:04	<--	hamper (~hamper@ec2-54-87-168-3.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-13 03:30:16	-->	hamper (~hamper@ec2-54-224-218-81.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-13 12:50:00	<--	pwnguin (~jldugger@osuosl/staff/pwnguin) has quit (Ping timeout: 276 seconds)
+2014-06-13 17:29:07	-->	Cryptotap (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has joined #devopsbootcamp
+2014-06-14 03:38:15	<--	hamper (~hamper@ec2-54-224-218-81.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-14 03:38:35	-->	hamper (~hamper@ec2-67-202-32-172.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-14 04:20:38	-->	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has joined #devopsbootcamp
+2014-06-14 04:22:43	<--	Cryptotap (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has quit (Ping timeout: 240 seconds)
+2014-06-14 04:35:28	<--	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has quit (Read error: Connection reset by peer)
+2014-06-14 04:35:52	-->	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has joined #devopsbootcamp
+2014-06-14 04:37:25	<--	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has quit (Write error: Connection reset by peer)
+2014-06-14 04:37:41	-->	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has joined #devopsbootcamp
+2014-06-14 04:43:55	<--	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has quit (Ping timeout: 240 seconds)
+2014-06-14 04:46:51	-->	Cryptotap (~Kurt@c-73-53-60-225.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-14 05:03:13	-->	Cryptotap_ (~Kurt@c-73-53-60-225.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-14 05:04:50	<--	Cryptotap (~Kurt@c-73-53-60-225.hsd1.wa.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-06-14 07:13:29	<--	Cryptotap_ (~Kurt@c-73-53-60-225.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2014-06-14 07:13:55	-->	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has joined #devopsbootcamp
+2014-06-14 19:03:29	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-06-14 19:04:52	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-14 19:13:23	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-06-14 20:54:23	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-15 04:10:30	<--	hamper (~hamper@ec2-67-202-32-172.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-15 04:10:48	-->	hamper (~hamper@ec2-54-87-204-200.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-16 05:01:03	<--	hamper (~hamper@ec2-54-87-204-200.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-16 05:01:22	-->	hamper (~hamper@ec2-54-196-208-3.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-16 05:58:30	<--	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has quit (Read error: Connection reset by peer)
+2014-06-16 05:58:56	-->	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has joined #devopsbootcamp
+2014-06-16 06:27:02	<--	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has quit (Read error: Connection reset by peer)
+2014-06-16 06:27:29	-->	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has joined #devopsbootcamp
+2014-06-16 14:11:52	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 245 seconds)
+2014-06-16 14:16:26	-->	chekkaa (~chekkaa@208.67.2.67) has joined #devopsbootcamp
+2014-06-16 14:24:34	<--	chekkaa (~chekkaa@208.67.2.67) has quit (Changing host)
+2014-06-16 14:24:34	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-16 15:12:44	<--	deanj (~johnsdea@osuosl/staff/johnsdea) has left #devopsbootcamp ("WeeChat 0.3.7")
+2014-06-16 16:31:20	-->	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has joined #devopsbootcamp
+2014-06-16 16:34:43	<--	Cryptotap_ (~Kurt@2601:8:b080:aaa:483f:dea3:1357:a8d5) has quit (Ping timeout: 240 seconds)
+2014-06-16 21:40:29	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2014-06-16 21:57:45	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-17 01:19:07	<--	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has quit (*.net *.split)
+2014-06-17 01:19:07	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-17 01:19:43	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-17 01:19:47	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-17 01:19:49	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-17 01:19:50	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-17 01:19:51	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 01:19:54	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-17 01:19:55	<--	hamper (~hamper@ec2-54-196-208-3.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-06-17 01:19:57	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-17 01:19:59	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-17 01:23:20	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	hamper (~hamper@ec2-54-196-208-3.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-17 01:23:20	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-17 01:23:40	-->	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has joined #devopsbootcamp
+2014-06-17 01:23:40	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-17 01:33:40	<--	hamper (~hamper@ec2-54-196-208-3.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-06-17 01:33:42	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-17 01:33:43	<--	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has quit (*.net *.split)
+2014-06-17 01:33:43	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-17 01:33:46	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-17 01:33:49	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-17 01:33:52	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-17 01:33:52	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-17 01:33:53	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 01:33:56	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-17 01:33:59	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-17 01:42:02	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	hamper (~hamper@ec2-54-196-208-3.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has joined #devopsbootcamp
+2014-06-17 01:42:02	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-17 05:14:37	<--	hamper (~hamper@ec2-54-196-208-3.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-17 05:14:54	-->	hamper (~hamper@ec2-54-242-221-127.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-17 12:09:19	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Quit: ZNC - http://znc.in)
+2014-06-17 12:11:05	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-17 13:19:33	<--	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has quit (*.net *.split)
+2014-06-17 13:19:34	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-17 13:19:38	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-17 13:19:40	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-17 13:19:41	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-17 13:19:42	<--	hamper (~hamper@ec2-54-242-221-127.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-06-17 13:19:44	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-17 13:19:46	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-17 13:19:46	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (*.net *.split)
+2014-06-17 13:19:47	<--	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-17 13:19:47	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-17 13:19:48	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-17 13:19:48	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-17 13:19:51	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-17 13:19:53	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-17 13:20:28	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	hamper (~hamper@ec2-54-242-221-127.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	mathuin (jmt@osuosl/staff/mathuin) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-17 13:20:28	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-17 15:37:17	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (Ping timeout: 245 seconds)
+2014-06-17 15:37:38	<--	bryon (bryon@osuosl/staff/bryon) has quit (Ping timeout: 240 seconds)
+2014-06-17 15:38:07	<--	mathuin (jmt@osuosl/staff/mathuin) has quit (Ping timeout: 245 seconds)
+2014-06-17 15:38:37	<--	pono (pono@osuosl/staff/dspt) has quit (Ping timeout: 276 seconds)
+2014-06-17 15:58:51	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-17 16:06:50	-->	pono_ (pono@ash.osuosl.org) has joined #devopsbootcamp
+2014-06-17 17:40:42	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-17 18:37:01	--	haroldhu1s is now known as haroldhues
+2014-06-18 03:54:35	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-06-18 05:15:56	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-18 05:50:20	<--	hamper (~hamper@ec2-54-242-221-127.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-18 05:50:37	-->	hamper (~hamper@ec2-54-82-98-221.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-18 05:52:04	<--	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has quit (Read error: Connection reset by peer)
+2014-06-18 05:52:28	-->	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has joined #devopsbootcamp
+2014-06-18 08:27:56	--	pono_ is now known as pono
+2014-06-18 08:28:03	<--	pono (pono@ash.osuosl.org) has quit (Changing host)
+2014-06-18 08:28:03	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-18 22:45:42	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Quit: Hard drive swap)
+2014-06-18 23:03:55	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-18 23:07:18	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-18 23:16:18	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-19 00:07:31	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 240 seconds)
+2014-06-19 00:17:12	-->	chekkaa (~chekkaa@208.67.2.67) has joined #devopsbootcamp
+2014-06-19 02:25:07	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-19 02:27:17	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-19 02:32:27	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-06-19 02:33:35	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-19 06:01:34	<--	hamper (~hamper@ec2-54-82-98-221.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-19 11:08:57	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-19 11:08:57	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-19 11:08:59	<--	chekkaa (~chekkaa@208.67.2.67) has quit (*.net *.split)
+2014-06-19 11:08:59	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-19 11:08:59	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-19 11:09:01	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-19 11:09:04	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-19 11:09:05	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-19 11:09:09	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-19 11:09:10	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-19 11:09:10	<--	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has quit (*.net *.split)
+2014-06-19 11:10:46	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	chekkaa (~chekkaa@208.67.2.67) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-19 11:10:46	-->	haroldhues (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-19 11:14:52	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-19 11:14:52	<--	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has quit (*.net *.split)
+2014-06-19 11:14:56	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-19 11:14:59	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-19 11:14:59	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-19 11:15:01	<--	chekkaa (~chekkaa@208.67.2.67) has quit (*.net *.split)
+2014-06-19 11:15:01	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-19 11:15:01	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-19 11:15:03	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-19 11:15:07	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-19 11:16:14	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	chekkaa (~chekkaa@208.67.2.67) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-19 11:16:14	-->	haroldhues (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-19 19:22:29	<--	Crypt0tap (~Kurt@2601:8:b080:aaa:3820:3dc9:ad0a:a819) has quit (Read error: Connection reset by peer)
+2014-06-19 20:22:07	<--	chekkaa (~chekkaa@208.67.2.67) has quit (Changing host)
+2014-06-19 20:22:07	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-19 21:04:11	-->	hamper (~hamper@ec2-54-87-141-145.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-20 21:39:39	<--	hamper (~hamper@ec2-54-87-141-145.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-20 21:39:58	-->	hamper (~hamper@ec2-54-234-106-166.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-21 08:05:15	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Ping timeout: 264 seconds)
+2014-06-21 08:09:13	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-21 09:40:29	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-21 09:41:03	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-21 09:45:01	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Ping timeout: 240 seconds)
+2014-06-21 09:45:31	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Ping timeout: 240 seconds)
+2014-06-21 09:49:35	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (Ping timeout: 252 seconds)
+2014-06-21 09:54:54	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-21 10:00:30	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-06-21 10:03:11	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-21 10:40:05	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-21 10:40:39	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-21 20:01:03	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-21 20:05:50	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (Ping timeout: 264 seconds)
+2014-06-21 20:18:19	-->	chekkaa (~chekkaa@208.67.2.67) has joined #devopsbootcamp
+2014-06-21 22:01:29	<--	hamper (~hamper@ec2-54-234-106-166.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-21 22:01:43	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-21 22:01:46	-->	hamper (~hamper@ec2-54-197-222-97.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-21 22:06:40	<--	voidprism (fractal@eugeneweb.com) has quit (Ping timeout: 260 seconds)
+2014-06-21 22:07:04	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-22 01:08:14	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 01:08:48	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-22 15:10:11	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 15:12:10	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-22 15:14:22	<--	jordane (~jordane@osuosl/staff/jordane) has quit (Ping timeout: 245 seconds)
+2014-06-22 15:19:27	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-22 17:04:37	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-22 17:05:11	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-22 19:16:37	-->	Alan_S_ (~alan_s@107.158.233.114) has joined #devopsbootcamp
+2014-06-22 19:17:49	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-22 19:28:14	--	Alan_S_ is now known as Alan_S
+2014-06-22 19:29:50	<--	Alan_S (~alan_s@107.158.233.114) has quit (Changing host)
+2014-06-22 19:29:50	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-22 22:21:02	<--	hamper (~hamper@ec2-54-197-222-97.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-22 22:21:23	-->	hamper (~hamper@ec2-54-80-165-161.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-22 23:21:14	<--	chekkaa (~chekkaa@208.67.2.67) has quit (Quit: WeeChat 0.4.3-rc1)
+2014-06-22 23:21:24	-->	chekkaa (~chekkaa@208.67.2.67) has joined #devopsbootcamp
+2014-06-22 23:30:52	<--	chekkaa (~chekkaa@208.67.2.67) has quit (Changing host)
+2014-06-22 23:30:52	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-23 22:47:46	<--	hamper (~hamper@ec2-54-80-165-161.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-23 22:48:03	-->	hamper (~hamper@ec2-54-82-194-81.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-24 11:33:27	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-24 11:33:54	-->	mythmon_ (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-24 13:57:04	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 240 seconds)
+2014-06-24 13:57:36	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-24 16:44:24	--	mythmon_ is now known as mythmon
+2014-06-24 23:03:18	<--	hamper (~hamper@ec2-54-82-194-81.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-24 23:03:39	-->	hamper (~hamper@ec2-54-198-79-9.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-25 05:11:10	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 240 seconds)
+2014-06-25 07:11:12	-->	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has joined #devopsbootcamp
+2014-06-25 09:50:59	<--	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has quit (Changing host)
+2014-06-25 09:50:59	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-25 13:19:40	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Read error: Connection reset by peer)
+2014-06-25 13:20:12	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-25 19:08:04	<--	voidprism (fractal@eugeneweb.com) has quit (Ping timeout: 240 seconds)
+2014-06-25 19:08:58	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-25 23:36:25	<--	hamper (~hamper@ec2-54-198-79-9.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-25 23:36:40	-->	hamper (~hamper@ec2-54-227-183-205.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-26 11:46:06	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (*.net *.split)
+2014-06-26 11:46:12	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (*.net *.split)
+2014-06-26 11:46:14	<--	bryon (bryon@osuosl/staff/bryon) has quit (*.net *.split)
+2014-06-26 11:46:15	<--	chekkaa (~chekkaa@osuosl/staff/chekkaa) has quit (*.net *.split)
+2014-06-26 11:46:16	<--	pono (pono@osuosl/staff/dspt) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	jordane (~jordane@osuosl/staff/jordane) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	spectralsun (~spectrals@unaffiliated/spectralsun) has quit (*.net *.split)
+2014-06-26 11:46:17	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (*.net *.split)
+2014-06-26 11:46:19	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (*.net *.split)
+2014-06-26 11:46:19	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-26 11:46:21	<--	basic` (~basic@osuosl/staff/basic) has quit (*.net *.split)
+2014-06-26 11:46:57	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	chekkaa (~chekkaa@osuosl/staff/chekkaa) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	jordane (~jordane@osuosl/staff/jordane) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	spectralsun (~spectrals@unaffiliated/spectralsun) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	bryon (bryon@osuosl/staff/bryon) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	pono (pono@osuosl/staff/dspt) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	haroldhues (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-26 11:46:57	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-26 11:56:56	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-26 11:57:46	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-06-26 23:36:52	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 245 seconds)
+2014-06-26 23:39:15	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-27 00:05:41	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 264 seconds)
+2014-06-27 00:09:29	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-27 00:11:28	<--	hamper (~hamper@ec2-54-227-183-205.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-27 00:11:45	-->	hamper (~hamper@ec2-54-242-161-42.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-27 12:43:13	<--	lrr (stumped2@osuosl/staff/stumped2) has quit (Ping timeout: 240 seconds)
+2014-06-27 12:43:23	-->	lrr (stumped2@osuosl/staff/stumped2) has joined #devopsbootcamp
+2014-06-27 14:16:07	--	bryon is now known as bkero
+2014-06-27 14:16:23	--	bkero is now known as bryon
+2014-06-27 14:37:38		irc: disconnected from server
+2014-06-27 14:38:20	-->	muricula (kronquii@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-27 14:38:20	--	Topic for #devopsbootcamp is "devopsbootcamp.osuosl.org"
+2014-06-27 14:38:20	--	Topic set by edunham on Sat, 17 May 2014 09:44:25
+2014-06-27 14:38:20	--	Nicks #devopsbootcamp: [Alan_S basic` bryon chekkaa edunham frostsnow hamper haroldhues jnoah jordane lrr lucyw MaraJade muricula mythmon pono spectralsun voidprism]
+2014-06-27 14:38:20	--	Channel #devopsbootcamp: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2014-06-27 14:38:44	--	Channel created on Tue, 15 Oct 2013 15:41:46
+2014-06-27 17:23:11	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-27 17:23:11	-->	lucyw (wymanl@osuosl/staff/lucyw) has joined #devopsbootcamp
+2014-06-27 19:57:56	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-27 19:59:48	-->	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-27 23:54:36	<--	jnoah (~brutal_ch@osuosl/staff/brutal-chaos) has quit (Quit: WeeChat 0.4.3)
+2014-06-28 00:58:49	<--	hamper (~hamper@ec2-54-242-161-42.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-28 00:59:13	-->	hamper (~hamper@ec2-54-196-206-142.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-28 16:45:36	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (Ping timeout: 255 seconds)
+2014-06-28 17:04:06	-->	edunham_ (dunhame@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-28 17:04:17	<--	edunham (dunhame@osuosl/staff/edunham) has quit (Ping timeout: 240 seconds)
+2014-06-28 17:17:51	<--	hamper (~hamper@ec2-54-196-206-142.compute-1.amazonaws.com) has quit (Ping timeout: 260 seconds)
+2014-06-28 17:18:12	-->	hamper (~hamper@ec2-23-23-44-191.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-28 17:18:54	<--	frostsnow (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has quit (Ping timeout: 260 seconds)
+2014-06-28 17:19:01	-->	frostsno1 (~frostsnow@c-24-21-32-230.hsd1.wa.comcast.net) has joined #devopsbootcamp
+2014-06-28 17:20:48	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (Ping timeout: 260 seconds)
+2014-06-28 17:24:38	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-28 17:37:42	<--	MaraJade (goossenm@osuosl/staff/MaraJade) has quit (*.net *.split)
+2014-06-28 20:54:49	-->	MaraJade (goossenm@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-28 20:54:49	<--	MaraJade (goossenm@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-28 20:54:49	-->	MaraJade (goossenm@osuosl/staff/MaraJade) has joined #devopsbootcamp
+2014-06-28 22:37:41	<--	edunham_ (dunhame@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-28 22:37:41	-->	edunham_ (dunhame@osuosl/staff/edunham) has joined #devopsbootcamp
+2014-06-28 22:37:51	--	edunham_ is now known as edunham
+2014-06-28 22:47:36	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-29 02:42:14	-->	Alan_S_ (~alan_s@107.158.233.114) has joined #devopsbootcamp
+2014-06-29 02:45:22	<--	Alan_S (~alan_s@osuosl/staff/AlanS) has quit (*.net *.split)
+2014-06-29 12:29:01	--	frostsno1 is now known as frostsnow
+2014-06-29 13:28:28	-->	haroldhu1s (hoeftc@shell.onid.oregonstate.edu) has joined #devopsbootcamp
+2014-06-29 13:29:40	<--	haroldhues (hoeftc@shell.onid.oregonstate.edu) has quit (Ping timeout: 260 seconds)
+2014-06-29 17:20:38	<--	hamper (~hamper@ec2-23-23-44-191.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-29 17:20:58	-->	hamper (~hamper@ec2-75-101-203-0.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-30 09:10:56	--	Alan_S_ is now known as Alan_S
+2014-06-30 09:13:46	<--	Alan_S (~alan_s@107.158.233.114) has quit (Changing host)
+2014-06-30 09:13:46	-->	Alan_S (~alan_s@osuosl/staff/AlanS) has joined #devopsbootcamp
+2014-06-30 17:37:32	<--	hamper (~hamper@ec2-75-101-203-0.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-06-30 17:37:51	-->	hamper (~hamper@ec2-54-83-87-74.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-06-30 18:24:42	<--	mythmon (~mythmon@osuosl/staff/Mythmon) has quit (Remote host closed the connection)
+2014-06-30 18:25:18	-->	mythmon (~mythmon@osuosl/staff/Mythmon) has joined #devopsbootcamp
+2014-06-30 21:11:36	<--	voidprism (fractal@eugeneweb.com) has quit (*.net *.split)
+2014-06-30 21:22:47	-->	voidprism (fractal@eugeneweb.com) has joined #devopsbootcamp
+2014-07-01 16:29:47	<--	basic` (~basic@osuosl/staff/basic) has quit (Ping timeout: 245 seconds)
+2014-07-01 17:07:58	-->	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has joined #devopsbootcamp
+2014-07-01 18:14:22	<--	hamper (~hamper@ec2-54-83-87-74.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-07-01 18:14:39	-->	hamper (~hamper@ec2-54-237-151-220.compute-1.amazonaws.com) has joined #devopsbootcamp
+2014-07-01 21:41:04	<--	basic` (~basic@2601:7:1380:835:225:90ff:fe52:2af) has quit (Changing host)
+2014-07-01 21:41:04	-->	basic` (~basic@osuosl/staff/basic) has joined #devopsbootcamp

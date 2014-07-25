@@ -1,0 +1,78 @@
+2014-07-02 15:58:25	-->	muricula (kronquii@moz-2F636E0B.onid.oregonstate.edu) has joined #security
+2014-07-02 15:58:25	--	Topic for #security is "If you are told you have no clothes then logically you must be the Emperor | http://logbot.glob.com.au/?c=mozilla%23security"
+2014-07-02 15:58:25	--	Topic set by Jesse on Thu, 31 Oct 2013 18:47:19
+2014-07-02 15:58:25	--	Nicks #security: [@abillings @curtisk|afk @dveditz_ @joes @reed @yvan _6a68 _rs Aabha ack adamm adliwahid alexis alinah andym aoh arroway arthuredelstein attekett auscompgeek averez balrog bkerensa bobowen|afk brambles brianloveswords cade_away camd catlee-pto cdiehl chofmann ckarlof ckerschb CoreDuo Cork cr cviecco cviecco1 Cykesiopka davida davispuh dchan dcolebatch decoder deian derf dkl|afk dougt errietta evilpie felipe freakazoid freddyb fredy FreezingCold gavin geekboy GeKo gene gfritzsche ggp|away gkw glob|away gmaxwell gnorcie gregglind_away grobinson gsnedders HappyLoaf Hixie hrosik huseby irdan ivan jbonacci jcranmer jdschwa jedp jeff jesup jld johnath johns joshua-s jp jpierre03 jryans juanb jupenur justdave kaie kang kbrosnan keeler khuey|away kjozwiak kontaxis laura lipsin Logan logbot lonnen lsblakk ManishCloud Matti MattN MavJS maxli mccr8 mconnor mdoglio|pto mgoodwin micahg michal` mmayo mmc monte Ms2ger mt muricula mwobensmith mythmon NK nunofmn overbythere oyiptong pauljt pde piyushw popow psiinon qll r1cky rawplayer rforbes rnewman roentgen romaxa secretrobotron seth Sgeo shachaf st3fan stack tad tanvi tedd TheOne timeless tmh ToBeFree Tomcat|afk ttaubert tus twoxyo ulfr vincent vng w0ts0n willkg wzzx Yoric yury]
+2014-07-02 15:58:25	--	Channel #security: 163 nicks (6 ops, 0 halfops, 0 voices, 157 normals)
+2014-07-02 15:58:27	--	Channel created on Mon, 12 Aug 2013 21:00:24
+2014-07-02 15:58:53	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 15:59:03	-->	edehde (edehde@moz-51CBBF3.ewe-ip-backbone.de) has joined #security
+2014-07-02 15:59:42	muricula	ulfr: My friend irdan and I were interested in possibly working on the winter of security crypto project, and we were wondering what the time requirement would look like as well as what we'd be working on.
+2014-07-02 16:00:12	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:04:38	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:05:09	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:09:22	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:09:52	<--	Ms2ger (Ms2ger@moz-B4E13B19.adsl-dyn.isp.belgacom.be) has quit (Quit: nn)
+2014-07-02 16:10:57	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:11:15	-->	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has joined #security
+2014-07-02 16:13:09	<--	edehde (edehde@moz-51CBBF3.ewe-ip-backbone.de) has quit (Quit: Computing machinery has gone to sleep.)
+2014-07-02 16:16:13	<--	cviecco1 (Adium@moz-62518563.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 16:16:22	<--	grobinson (~grobinson@C6DB277E.A1BB2C95.87FFEFC6.IP) has quit (Ping timeout)
+2014-07-02 16:17:57	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:18:38	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:22:17	<--	mccr8 (mccr8@moz-62518563.mtv2.mozilla.com) has quit (Quit:)
+2014-07-02 16:23:51	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:25:12	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:25:52	<--	_6a68 (jhirsch@moz-BCE0307E.socal.res.rr.com) has quit (Quit: that's all folks)
+2014-07-02 16:26:54	-->	jrmuizel (jrmuizel@moz-4896AE87.cpe.teksavvy.com) has joined #security
+2014-07-02 16:28:01	-->	pcwalton (pcwalton@moz-DA87EE4.hsd1.ca.comcast.net) has joined #security
+2014-07-02 16:28:37	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:28:56	<--	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has quit (Input/output error)
+2014-07-02 16:29:22	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:30:16	<--	piyushw (Adium@moz-62518563.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 16:30:24	-->	piyushw (Adium@moz-62518563.mtv2.mozilla.com) has joined #security
+2014-07-02 16:32:36	<--	ggp|away (ggp@moz-DCF5CED8.dsl.telesp.net.br) has quit (Ping timeout)
+2014-07-02 16:32:53	-->	_6a68 (jhirsch@moz-BCE0307E.socal.res.rr.com) has joined #security
+2014-07-02 16:33:39	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:33:48	-->	ggp|away_ (ggp@F7701F31.8325C3EC.E4090502.IP) has joined #security
+2014-07-02 16:35:22	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:35:51	<--	pcwalton (pcwalton@moz-DA87EE4.hsd1.ca.comcast.net) has quit (Quit: pcwalton)
+2014-07-02 16:37:27	-->	gnorcie1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #security
+2014-07-02 16:37:27	<--	gnorcie (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Connection reset by peer)
+2014-07-02 16:40:33	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:41:00	<--	brianloveswords (brianloves@moz-251EE674.nycmny.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 16:41:06	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:42:56	-->	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has joined #security
+2014-07-02 16:46:02	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:46:19	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:48:46	--	khuey|away is now known as khuey
+2014-07-02 16:50:45	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 16:51:49	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 16:52:51	<--	piyushw (Adium@moz-62518563.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 16:56:38	-->	piyushw (Adium@moz-62518563.mtv2.mozilla.com) has joined #security
+2014-07-02 17:00:30	<--	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has quit (Ping timeout)
+2014-07-02 17:00:48	-->	mwobensmith (mwobensmit@moz-1479983A.dsl.dynamic.sonic.net) has joined #security
+2014-07-02 17:03:20	<--	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has quit (Input/output error)
+2014-07-02 17:09:45	-->	gnorcie (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #security
+2014-07-02 17:09:45	<--	gnorcie1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Connection reset by peer)
+2014-07-02 17:10:08	-->	gnorcie1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #security
+2014-07-02 17:10:11	<--	gnorcie (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Connection reset by peer)
+2014-07-02 17:10:17	-->	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has joined #security
+2014-07-02 17:10:55	--	geekboy is now known as geekboy|afk
+2014-07-02 17:14:31	-->	gnorcie (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #security
+2014-07-02 17:14:31	<--	gnorcie1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Connection reset by peer)
+2014-07-02 17:18:28	<--	jld (jld@moz-B94C75AD.xlerb.net) has quit (Ping timeout)
+2014-07-02 17:19:41	<--	ckerschb (ckerschb@moz-62518563.mtv2.mozilla.com) has left #security
+2014-07-02 17:20:34	<--	keeler (keeler@125EF623.B2666F0E.66399531.IP) has quit (Quit: WeeChat 0.4.3)
+2014-07-02 17:21:26	--	khuey is now known as khuey|away
+2014-07-02 17:21:28	<--	Cykesiopka (Cykesiopka@E8587C79.8DBACF1E.47C41102.IP) has quit (Ping timeout)
+2014-07-02 17:23:56	<--	tanvi (tanvi@moz-7116A215.dhcp.mtpk.ca.charter.com) has quit (Quit: Leaving.)
+2014-07-02 17:24:33	-->	jld (jld@moz-B94C75AD.xlerb.net) has joined #security
+2014-07-02 17:24:47	<--	arthuredelstein (arthur@moz-3C42CB4.oc.oc.cox.net) has quit (Quit: arthuredelstein)
+2014-07-02 17:24:52	-->	arthuredelstein (arthur@moz-3C42CB4.oc.oc.cox.net) has joined #security
+2014-07-02 17:25:41	<--	gnorcie (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has left #security
+2014-07-02 17:28:59	<--	arthuredelstein (arthur@moz-3C42CB4.oc.oc.cox.net) has quit (Quit: arthuredelstein)
+2014-07-02 17:31:17	<--	overbythere (textual@moz-BCF0A0EB.cable.virginm.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-02 17:31:25	<--	willkg (willkg@moz-94C51305.bstnma.fios.verizon.net) has quit (Quit: Leaving)
+2014-07-02 17:31:53	--	cade_away is now known as cade
+2014-07-02 17:32:48	--	cade is now known as cade_away
+2014-07-02 17:34:20	<--	jedp (jedp@moz-3AA8030E.dsl.dynamic.sonic.net) has quit (Quit: Computer has gone to sleep.)

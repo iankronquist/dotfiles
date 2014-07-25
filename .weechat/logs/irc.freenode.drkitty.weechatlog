@@ -1,0 +1,16 @@
+2014-05-12 16:46:26	drkitty	which part?
+2014-05-12 16:46:45	muricula	He asks us to "Use relational algebra to answer the questions that you have pointed out as important questions for your real-world application in Assignment #1. "
+2014-05-12 16:47:35	drkitty	I'd take it at face value.
+2014-05-12 16:47:48	drkitty	But don't try it for things that clearly can't be done in relational algebra
+2014-05-12 16:47:55	drkitty	like your example in #osu-lug
+2014-05-12 16:48:15	muricula	Yeah...
+2014-05-12 16:48:26	muricula	But I don't see any questions in the first assignment.
+2014-05-12 16:48:32	muricula	Which is confusing.
+2014-05-12 16:49:07	drkitty	"You also need to describe functionalities in the application such as adding or removing a class, changing the location of a buiding, or selecting all the courses that you have taken since Fall 2013."
+2014-05-12 16:49:16	drkitty	I believe that's what he's referring to.
+2014-05-12 16:50:10	muricula	That's what I thought. Part of what my application does is theoretically display the busiest periods of the day
+2014-05-12 16:51:35	drkitty	Well, don't write a relational algebra expression for that. I'm pretty sure the grader will understand.
+2014-05-12 16:53:35	muricula	I guess I will generate histograms like mythmon suggested
+2014-05-12 16:54:50	drkitty	Makes sense. Requirements can change based on technical limitations.
+2014-05-12 16:55:03	drkitty	features, rather
+2014-05-14 22:12:11		irc: disconnected from server

@@ -1,0 +1,1394 @@
+2014-05-28 15:36:44	-->	muricula (kronquii@osuosl/staff/muricula) has joined #truecrypt
+2014-05-28 15:36:44	--	Topic for #truecrypt is "Unofficial TrueCrypt channel | Site is potentially compromised so please excercise due diligence before downloading and installing | For now, we don't know any more than you do."
+2014-05-28 15:36:44	--	Topic set by tomaw (tom@freenode/staff/tomaw) on Wed, 28 May 2014 14:32:12
+2014-05-28 15:36:44	--	Nicks #truecrypt: [[Gentoo] [mbm] \mSg ^Simon^ ^Zaz _aeris_ _jack_ _KaszpiR_ _Straffer _Straffer2 aaaad111111 ack210 adampie Afforess ag4ve____ Ages ajh akamine_ Albori alexmarsev Amaranth amodE andreyv applegekko Ar0xA asdfasdf123 atimmer Aurigae awhitehttr awinee b00stfr3ak B1nny b3nw BabaTong bad_duck BarqsDew bby binaryatrocity bitconto BlackPanx_ blakkheim BlueMatt Bombo bond bontibon brianherman Bui_ c74d Caemyr CajunTechie calmcl1 camoy capri- CarlFK caseyjohnellis_ catatonic causasui Ceropean Chinese_soup chsados-work cladmonitor cnu_ code_name_linux coldcontrol coolbot95 CornFly Cpt-Oblivious crowell D0han d0wn_blog d1zzYLuLz dafuq dagerik dang4350 dannon Darky DarthL33tSA Dazzozo dD0T Deaygo degan der_baer derschulze digdilem discopig dmdx86 DongDiddler doughecka_ downey Drakonis dreadiscool DrJ drone_ dunder dwn ecron egypt emulateTHIS erry esde evad EvilWerezombie eyemiru Falor FatherSouth fgenesis fgqew12 flappity foobar1234 foxtrot fr4nc1sc0 Franz_Kafka FreezingCold frsk Fursje galnull gandr gcSpitfire genii ghilliard ghormoon girafe GorillaJoe GranPC grim gsand Guest23758 guest274357 Guest37659 Guest64528 gui77 guymann hawke haydnn hazardous hdm HD|Laptop headscratcher hesh hi117 hintss host Humean iloving IMF2000 INIT_6_ instantp10neer_ InvokeStatic itself ivan Jack007 jakob1 james41382 jan64 jasu0 jb_____ jcase jgowdy JodaZ joedd joel_s_c joepie91__ john_dough juham k0nane kalhouk kantlivelong karc kasper93 kayatwork Ketturi KevinT kevloral khear kian1 kmw knuffee kRush l3lu3 lahwran lakmuz lasermike026 lattera lechwalesa legov lexvegas liteman lkslawek localh0t lordnoid Lost601 loudest lowbyte maciek MagBo mailbrush mal`` mand0 marcpl Marin markedathome|wth mce9 McKay meeprat2 megal0maniac meh_ mekanismen mencken mg^^ milky minivanmegafun Modred moeyebus moloch_ Mombius mondschatten MooBaloo[OTT] motsu mrc0mmand MrPekka mssssm msy mtree5 mtu mudbound_dragon muricula n0rdlicht N9 Neg127 neilk nell neonrobot7 nerdguy newfoo newton Nitsuj noko obi ohawegtesdrgtxet Orwell84 oscalation oselotti^ OtherNick pajarillo pera pfak pheedbaQ phelps Phosphate phradol PigFarmAnimal plaw plus popey popj Pricey Pwnna qbi qsub qwrwanhnoiawsd r000t_ Raccoon Raefon Rallias Raven7 reanimus redwire reti rHermes risho rkornmeyer roastnewt ronjn rray RubyPanther rufoa ruukasu ruvil samson_ samu sbp schneier scoob sefischer Seifs_ semberal sers sharktopus ShutterQuick SiGNAL[DEAD] skanadian Sling snackoverflow Snokez soot soup90210 spinewire squanto stasiek stelvin SteveG storge Sulfat syncn tac0 tdreyer1 temp1234 The-Compiler theborger thedukezip TheShade ThiefMaster threeLetterMeyhe thrn Toger tomaw torsopantz tribut truecrypt TRUECRYPTDONTDIE tx^ Ueland Ultimation unixninja92 Uroth ValdikSS vanila vikinick vincent43 Vlad VoiDeD wefiojae Wessie weszlem widmo wkennington Wojo Wrocas x^e xPaw xyst Ymgve yukaia-work zi Zimsky zimzum znf zuxy zylche]
+2014-05-28 15:36:44	--	Channel #truecrypt: 349 nicks (0 ops, 0 halfops, 0 voices, 349 normals)
+2014-05-28 15:36:44	--	URL for #TrueCrypt: http://www.truecrypt.org
+2014-05-28 15:36:44	SteveG	schneier: if you had been working on such a huge project for years, you think that's how YOU would shut it down?
+2014-05-28 15:36:46	Uroth	I am using TC, and I wonder how I am will be affected by this, if there is a breach or if it is safe to continue to use
+2014-05-28 15:36:46	--	Channel created on Tue, 15 Jun 2010 15:50:23
+2014-05-28 15:36:46	storge	oscalation: we'll let you know as soon as we decide who shot JFK here
+2014-05-28 15:36:47	-->	shodan1 (~shodan@a83-161-67-65.adsl.xs4all.nl) has joined #truecrypt
+2014-05-28 15:36:49	moeyebus	truecrypt doesn't have an official IRC channel?
+2014-05-28 15:36:56	--	shodan1 is now known as shodan_
+2014-05-28 15:36:56	-->	dartraiden (~dartraide@109.172.98.69) has joined #truecrypt
+2014-05-28 15:36:58	-->	emma (~em@unaffiliated/emma) has joined #truecrypt
+2014-05-28 15:36:59	guymann	truecrypt doesn´t have any offocial channels iirc
+2014-05-28 15:36:59	[mbm]	eyemiru: yeah, dm-crypt works well
+2014-05-28 15:37:01	-->	Wuzzy (~Wuzzy@p549FA283.dip0.t-ipconnect.de) has joined #truecrypt
+2014-05-28 15:37:02	emma	what on earth happened?
+2014-05-28 15:37:03	Aurigae	thought here would be facts discussed but seems like a trollground
+2014-05-28 15:37:04	RubyPanther	schneier: I thought that Russian crackers always specify charsets because they're allergic to variable-width fonts?
+2014-05-28 15:37:06	shodan_	what happened
+2014-05-28 15:37:12	mg^^	would depend on why I was shutting it down...
+2014-05-28 15:37:14	jgowdy	[mbm]: when you're downloading binaries, how would adding a new backdoor matter?  there's no way to line up the compiled binaries with the source you distribute
+2014-05-28 15:37:19	RubyPanther	shodan_: "For now, we don't know any more than you do."
+2014-05-28 15:37:23	FatherSouth	If it were legit, why would they be saying that they were shutting down because Microsoft stopped releasing free security patches for XP?  How is that related at all?
+2014-05-28 15:37:24	vanila	emma: https://gist.github.com/ValdikSS/c13a82ca4a2d8b7e87ff
+2014-05-28 15:37:32	schneier	SteveG: Why not?
+2014-05-28 15:37:32	RubyPanther	shodan_: Lots of wild speculation and Martian mind-control beams
+2014-05-28 15:37:36	-->	shade1 (~shade@62.176.19.146) has joined #truecrypt
+2014-05-28 15:37:38	emma	vanila: was it a breach just of the website or the technology?
+2014-05-28 15:37:40	Wuzzy	Yeah what happened with truecrypt.org??
+2014-05-28 15:37:45	storge	emma: the truth is that we don't know for sure yet.
+2014-05-28 15:37:45	schneier	The page is clear and simple
+2014-05-28 15:37:46	moeyebus	RubyPanther: That probably is it.
+2014-05-28 15:37:52	-->	Mr_Psmith (~mr_psmith@108-250-16-37.lightspeed.clmboh.sbcglobal.net) has joined #truecrypt
+2014-05-28 15:37:53	vanila	emma, I believe it was defaced by amateurs, no one knows anything
+2014-05-28 15:37:53	schneier	it doesn't look "bad"
+2014-05-28 15:37:54	shodan_	RubyPanther: Untill I hear something I can belive I'll just do nothing drastic
+2014-05-28 15:37:54	jgowdy	And by the time anyone decompiled the binaries downloaded and figured it out, there would be *plenty* of TC 7.2 deployment
+2014-05-28 15:37:55	reanimus	jgowdy: people that use truecrypt would probably care when someone inevitably notices the backdoor
+2014-05-28 15:37:57	schneier	it just isn't fancy
+2014-05-28 15:38:02	oscalation	FatherSouth: because all other versions of windows have built in support for encrypting drives/files
+2014-05-28 15:38:06	RubyPanther	FatherSouth: How would we know if somebody has a secret XP fixation, or not? It seems unknowable to me.
+2014-05-28 15:38:06	Mr_Psmith	Does anyone know where I can get the OLD GPG signing key?
+2014-05-28 15:38:07	[Gentoo]	schneier: it does
+2014-05-28 15:38:12	[mbm]	jgowdy: not that hard to comple the source with similar if not identical compiler settings and then go and try to understand the differences in the resulting binaries
+2014-05-28 15:38:13	storge	schneier: it looks amateur hour, and it didn't look like that a few days ago
+2014-05-28 15:38:15	[Gentoo]	schneier: it looks like it was made by some scammer trying to be serious
+2014-05-28 15:38:18	<--	shade1 (~shade@62.176.19.146) has quit (Client Quit)
+2014-05-28 15:38:20	-->	ender| (krneki@2a01:260:4094:1:42:42:42:42) has joined #truecrypt
+2014-05-28 15:38:20	crowell	Mr_Psmith: they're the same key
+2014-05-28 15:38:27	jgowdy	reanimus: the backdoor wouldn't be in the distributed source, only in the distributed binaries
+2014-05-28 15:38:28	-->	none201421 (~josh@d44-234.uoregon.edu) has joined #truecrypt
+2014-05-28 15:38:28	Mr_Psmith	crowell: :-O
+2014-05-28 15:38:30	vanila	emma: they've put a new release out and it doesn't seem to be malicious but there's definitely something wrong
+2014-05-28 15:38:32	crowell	new binaries were signed under the same key
+2014-05-28 15:38:34	joepie91__	question: why is the shutdown announcement not in the same style as the old site, as usually happens for shutdowns?
+2014-05-28 15:38:36	schneier	[Gentoo]: or maybe it was made by someone who isn't familiar with webdesign?
+2014-05-28 15:38:38	moeyebus	oscalation: Yes, but: https://twitter.com/TheBlogPirate/status/471759810644283392
+2014-05-28 15:38:39	[Gentoo]	short and simple message would be more pro, not pages upon pages of MS shit
+2014-05-28 15:38:40	Wuzzy	crowell: And that’s the scary part ...
+2014-05-28 15:38:41	-->	celebril (~celebril@dynamic07.vpdn.csx.cam.ac.uk) has joined #truecrypt
+2014-05-28 15:38:43	jgowdy	We've seen, security flaws can be extremely small like return true/false
+2014-05-28 15:38:43	jan64	It was made to look like scam
+2014-05-28 15:38:44	FatherSouth	If they were planning on shutting down, what was the point of the huge security audit?
+2014-05-28 15:38:45	Mr_Psmith	crowell: I was told that a few hours prior someone uploaded a new public key?
+2014-05-28 15:38:45	reanimus	jgowdy: again, not hard to find a backdoor in a binary when you have its supposed source
+2014-05-28 15:38:48	--	torsopantz is now known as lilfunkman
+2014-05-28 15:38:49	celebril	PANIC
+2014-05-28 15:38:50	-->	jbisch (~joseph@107.170.79.147) has joined #truecrypt
+2014-05-28 15:38:51	crowell	Mr_Psmith: nope
+2014-05-28 15:38:53	SteveG	schneier: why mention XP EOL?  Why bother with the amateur tutorial on bitlocker?  Doesn't really add up.
+2014-05-28 15:38:53	vanila	JodaZ, because it's a defacement after a compromise :p
+2014-05-28 15:38:54	emma	schneier: Are you Bruce Schneier?
+2014-05-28 15:38:55	-->	janLo_ (~jan@x41a211c.wh16.tu-dresden.de) has joined #truecrypt
+2014-05-28 15:38:57	jgowdy	One bit difference, on JNZ vs JZ
+2014-05-28 15:38:58	zimzum	https://github.com/warewolf/truecrypt/compare/master...7.2
+2014-05-28 15:38:58	<--	mailbrush (~mailbrush@host86-183-160-7.range86-183.btcentralplus.com) has quit (Quit: mailbrush)
+2014-05-28 15:39:00	<--	[Gentoo] (~Gentoo@2001:470:681e::dead) has quit (Quit: [Gentoo])
+2014-05-28 15:39:03	joepie91__	FatherSouth: audit was not carried out or organized by truecrypt people, it was a third party effort
+2014-05-28 15:39:06	RubyPanther	storge: if they chose to quit and it is all legit, maybe they handed it over to amateurs so they could go on vacation?
+2014-05-28 15:39:09	storge	SteveG: linux hater skiddies
+2014-05-28 15:39:11	jgowdy	You're going to pick that up in a decompile?  Really?
+2014-05-28 15:39:16	schneier	emma: no
+2014-05-28 15:39:16	jan64	and, mostlikely dm-crypt and encfs are both backdoored.
+2014-05-28 15:39:20	shodan_	schneier: I would assume that the people behind truecrypt know a decent amount of webdesing. The page looked rushed not made by someone who doesn't know how to do html
+2014-05-28 15:39:21	FatherSouth	With the cooperation of the devs, though, right joepie91__?
+2014-05-28 15:39:27	shodan_	as if the author was in a hurry
+2014-05-28 15:39:34	-->	Amema (~EsotericF@box.tlnprojects.com) has joined #truecrypt
+2014-05-28 15:39:34	joepie91__	FatherSouth: I think in *communication* with the devs, rather than cooperation
+2014-05-28 15:39:34	crowell	do you know how to html?
+2014-05-28 15:39:35	qsub	lol i thought this was the official truecrypt channel
+2014-05-28 15:39:37	schneier	SteveG: Maybe they wanted to help people?
+2014-05-28 15:39:38	emma	schneier: okay just wondering :)
+2014-05-28 15:39:38	RubyPanther	When we know this little, it becomes easy to come up with possible explanations in any direction on any possible point
+2014-05-28 15:39:39	crowell	(how to meet ladies)
+2014-05-28 15:39:40	shodan_	and he/she knew they didn't have time to work on it after the push
+2014-05-28 15:39:40	<--	kRush (~kRush@unaffiliated/krush) has left #truecrypt ("Leaving")
+2014-05-28 15:39:41	nell	shodan_ maybe because the situation called for it
+2014-05-28 15:39:41	joepie91__	but I haven't looked at it too cosely
+2014-05-28 15:39:43	emma	I wonder if he's ever been on Freenode
+2014-05-28 15:39:44	reanimus	jgowdy: there are tools made for reversing for that specific purpose lol
+2014-05-28 15:39:45	joepie91__	closely *
+2014-05-28 15:39:48	Aurigae	so , anybody here considered that the author might has had a security problem which lead to the signed binary through stolen key? https://firstlook.org/theintercept/article/2014/03/20/inside-nsa-secret-efforts-hunt-hack-system-administrators/
+2014-05-28 15:39:54	cladmonitor	well the old truecrypt site look like a 14yr old in 1996 made it so lets not use that as a measureing stick.
+2014-05-28 15:39:54	celebril	I told you guys.
+2014-05-28 15:40:01	-->	S_GET (~Saucisson@2001:bc8:34b0:102::4) has joined #truecrypt
+2014-05-28 15:40:01	celebril	I told you guys shouldn't trust proprietary software.
+2014-05-28 15:40:02	Aurigae	just a thought
+2014-05-28 15:40:03	jgowdy	reanimus: well I guess the NSA has an uphill battle on their hands lol
+2014-05-28 15:40:17	crowell	celebril: and you trust things automatically because they're free?
+2014-05-28 15:40:19	shodan_	nell: maybe it was made in less then an hour because feds were about to show up seizing systems etc
+2014-05-28 15:40:20	moeyebus	They probably just got one of these: https://en.wikipedia.org/wiki/National_security_letter
+2014-05-28 15:40:26	<--	coldcontrol (~glacial@unaffiliated/coldcontrol) has left #truecrypt
+2014-05-28 15:40:26	<--	OtherNick (5a358e69@gateway/web/freenode/ip.90.53.142.105) has quit (Quit: Page closed)
+2014-05-28 15:40:34	celebril	crowell, by RMS' beard my freedom shall protect me.
+2014-05-28 15:40:34	kevloral	moeyebus: are the devs from the US?
+2014-05-28 15:40:37	jan64	I have to admit one thing, though.
+2014-05-28 15:40:37	qsub	first time people actually talking in this channel lol
+2014-05-28 15:40:41	<--	akamine_ (~androirc@80.215.133.199) has left #truecrypt ("AndroIRC")
+2014-05-28 15:40:42	Mr_Psmith	cladmonitor: rofl
+2014-05-28 15:40:42	storge	RT @NSA_PR: TRUECRYPT IS FINE PLEASE CONTINUE USING FOR ALL SECRET DOCUMENTS
+2014-05-28 15:40:48	r000t_	I'm selling librecrypt.com for $50
+2014-05-28 15:40:51	<--	gsand (~gsand@192.184.91.234) has left #truecrypt
+2014-05-28 15:40:51	guymann	lol
+2014-05-28 15:40:56	Mr_Psmith	lol
+2014-05-28 15:41:00	SteveG	heh
+2014-05-28 15:41:05	vikinick	r000t_: i think you are getting screwed there
+2014-05-28 15:41:08	moeyebus	kevloral: I think so, yes.
+2014-05-28 15:41:08	nell	schneier what do you think about dm-crypt
+2014-05-28 15:41:10	eyemiru	ever heard of FreeOTFE?
+2014-05-28 15:41:11	schneier	Truecrypt project was seemingly maintained for free by two people for 10 years, if they weren't doing it for the purposes of backdooring it they probably were doing it to help people.
+2014-05-28 15:41:12	jgowdy	no librecrypt.org?!
+2014-05-28 15:41:12	Wuzzy	Sourceforge says: Last Update: 3 hours ago …
+2014-05-28 15:41:14	jan64	whoever is responsible for truecrypt hack, created great bait.
+2014-05-28 15:41:18	vanila	eyemiru, yes, very suspicious
+2014-05-28 15:41:19	shodan_	celebril: have you praised rms today yet? https://rms.sexy
+2014-05-28 15:41:23	celebril	eyemiru, FreeOTFE's author went missing in 2013.
+2014-05-28 15:41:25	vanila	eyemiru, do you have any new information on it?
+2014-05-28 15:41:27	-->	trippeh_ (~atomt@t-1000.tomt.net) has joined #truecrypt
+2014-05-28 15:41:31	nell	RMS is the cyberchrist
+2014-05-28 15:41:33	kevloral	moeyebus: if that is the case, I agree with your NSL theory.
+2014-05-28 15:41:33	eyemiru	vanila: not really.
+2014-05-28 15:41:34	-->	amatecha (sid10006@gateway/web/irccloud.com/x-zocaeaogxyjsojdo) has joined #truecrypt
+2014-05-28 15:41:36	[mbm]	Wuzzy: updates are now about 4 hours old
+2014-05-28 15:41:37	-->	ricrjhl (~ricrjhl@2001:470:1f15:120e:176:1c90:6960:7a1c) has joined #truecrypt
+2014-05-28 15:41:41	-->	mintr (~mintr@m77-218-98-239.cust.tele2.se) has joined #truecrypt
+2014-05-28 15:41:43	schneier	nell: I'm probably not the person you want to ask, but I think it's good
+2014-05-28 15:41:50	celebril	shodan_, I make sweet libre love to an RMS sex doll all day ever day.
+2014-05-28 15:41:51	<--	GorillaJoe (4e5360f8@gateway/web/freenode/ip.78.83.96.248) has left #truecrypt
+2014-05-28 15:41:53	RubyPanther	Things can spin with no friction. We're in a frictionless information zone. Known knowns can be unknown unknowns without us even knowing that we don't know. The closest we can come is assuming we don't know anything, that renders known knowns, unknown knowns, known unknows, and unknown unknowns all into suspected possibilities
+2014-05-28 15:41:55	-->	pkutzner (~pkutzner@23-25-53-254-static.hfc.comcastbusiness.net) has joined #truecrypt
+2014-05-28 15:41:58	<--	khear (5b9cc2f6@gateway/web/freenode/ip.91.156.194.246) has quit (Quit: Page closed)
+2014-05-28 15:42:11	storge	RubyPanther: stop rumsfelding
+2014-05-28 15:42:15	InvokeStatic	ValdikSS, people think you're a dev
+2014-05-28 15:42:19	jgowdy	"freedom isn't free no there's a heafty fuckin fee"
+2014-05-28 15:42:31	SteveG	schneier: so why nuke everything on the site and just put up a cheezy single page that redirects to sf.net instead or remaining on truecrypt.org?  It doesn't make sense.
+2014-05-28 15:42:34	eyemiru	So, we've only got dm-crypt and Bitlocker. And old TC versions, right?
+2014-05-28 15:42:39	<--	girafe (girafe@ip-187.net-82-216-137.issy4.rev.numericable.fr) has quit (Quit: Leaving)
+2014-05-28 15:42:41	-->	Thamstras (~jangofett@host31-50-136-134.range31-50.btcentralplus.com) has joined #truecrypt
+2014-05-28 15:42:43	TheShade	InvokeStatic: I'm a dev as well then.
+2014-05-28 15:42:43	vanila	eyemiru, what do you mean?
+2014-05-28 15:42:46	blakkheim	eyemiru: no
+2014-05-28 15:42:48	eyemiru	to be secure
+2014-05-28 15:42:53	celebril	On a more serious note, does the OpenBSD wizards offer a disk encryption solution?  If I were to trust anybody it's the OpenBSD guys.
+2014-05-28 15:42:55	cladmonitor	well
+2014-05-28 15:42:57	jgowdy	to have the securities!
+2014-05-28 15:42:57	eyemiru	I'd assume that.
+2014-05-28 15:42:59	ruukasu	eyemiru, truecrypt is infinitely more secure than bitlocker
+2014-05-28 15:43:06	-->	dx (~dx@unaffiliated/dxdx) has joined #truecrypt
+2014-05-28 15:43:06	localh0t	if we drop the defacement theory, it looks like some dev went under heavy pressure and had no other choice but to shut down the entire proyect, maybe it was his best option (rather than backdoor the entire code?).
+2014-05-28 15:43:06	blakkheim	celebril: http://www.bsdnow.tv/tutorials/fde
+2014-05-28 15:43:10	nell	schneier I'm 70% through VALIS by philip k dick right now. I also read 3 of your books. what does a technologist do? :o
+2014-05-28 15:43:10	cladmonitor	dont use the word "secure" in here, its troll bait
+2014-05-28 15:43:11	vanila	eyemiru, the most important thing of all is that the algorithms for e.g. RSA and AES are publically known and understood
+2014-05-28 15:43:22	megal0maniac	ruukasu: It is. We have bitlocker source code
+2014-05-28 15:43:24	schneier	nell: I'm not the person you think I am
+2014-05-28 15:43:25	shodan_	schneier: Any clue if truecrypt had the potential of having backdoors implanted? Stuff like encryption weakening.
+2014-05-28 15:43:27	storge	nell: VALIS is a head trip isn't it
+2014-05-28 15:43:32	megal0maniac	Oh wait... No we don't
+2014-05-28 15:43:33	nell	schneier thats a thing that schneier would say
+2014-05-28 15:43:37	RubyPanther	storge: Surely this is a situation strange enough to render Rummy's World clear. Clearer than ours, anyway.
+2014-05-28 15:43:42	ValdikSS	InvokeStatic: no i'm not
+2014-05-28 15:43:44	<--	TRUECRYPTDONTDIE (d9d26e37@gateway/web/freenode/ip.217.210.110.55) has quit (Quit: Page closed)
+2014-05-28 15:43:46	Uroth	what should one use instead of truecrypt then? Bitlocker has a backdoor in it. as does most programs
+2014-05-28 15:43:51	SteveG	localh0t: which may be the case... and might explain why the site looks the way it does.
+2014-05-28 15:43:52	schneier	SteveG: maybe they quit and took out their servers too?
+2014-05-28 15:43:55	crowell	Uroth: stop spreading FUD
+2014-05-28 15:43:56	nell	VALIS is a headtrip indeed.
+2014-05-28 15:43:57	celebril	blakkheim, that should be ported for everybody's benefit.
+2014-05-28 15:43:59	truecrypt	diskcryptor
+2014-05-28 15:44:05	redwire	Hold on, do we believe TC is backdoored AND that the site was hacked? Isn't the source code still available to the devs for a fresh non-backdoored version to be released?
+2014-05-28 15:44:06	-->	multi_io (~olaf@pd95cc84c.dip0.t-ipconnect.de) has joined #truecrypt
+2014-05-28 15:44:06	blakkheim	celebril: feel free to
+2014-05-28 15:44:07	Uroth	fud?
+2014-05-28 15:44:13	-->	Turboknot13_ (~quassel@198.23.249.201) has joined #truecrypt
+2014-05-28 15:44:18	crowell	Uroth: http://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt
+2014-05-28 15:44:20	Jack007	n900b
+2014-05-28 15:44:22	loudest	TrueCrypt 7.1a seems to be safe
+2014-05-28 15:44:29	loudest	it's the previous version
+2014-05-28 15:44:33	-->	hegemoOn (~plonky@im-a.netmonk.org) has joined #truecrypt
+2014-05-28 15:44:35	-->	ThatRandomPerson (~eric@CPE602ad092746f-CM602ad092746c.cpe.net.cable.rogers.com) has joined #truecrypt
+2014-05-28 15:44:36	vanila	Why would you bother care about whether your crypto software is open source or not when you run it inside microsoft windows?
+2014-05-28 15:44:36	-->	Acolarh (~Acolarh@130.225.243.68) has joined #truecrypt
+2014-05-28 15:44:37	RubyPanther	Uroth: Everything has a back door, except the things that were socially or legally "engineered."
+2014-05-28 15:44:37	fgqew12	One Question: Why is there no FOSS ecnryption solution, that is easy to use, secure and cross plattform? Everyone tries to research other solutions. Developers and security experts could create something great.
+2014-05-28 15:44:37	-->	nukke (~enand@unaffiliated/enand) has joined #truecrypt
+2014-05-28 15:44:38	jgowdy	Claiming BitLocker has a backdoor without citing references qualifies as FUD, despite the common opinion that it does.
+2014-05-28 15:44:43	eyemiru	uh, opinions on diskcryptor?
+2014-05-28 15:44:48	reanimus	i have a solution: use DOS without networking :)
+2014-05-28 15:44:48	Uroth	if you dont think M$ have included a backdoor in bitlocker I feel sorry for you
+2014-05-28 15:44:49	jan64	schneier, still, what's the point in releasing new version?
+2014-05-28 15:44:55	ThatRandomPerson	Is truecrypt DEAD?
+2014-05-28 15:44:56	SteveG	schneier: I don't buy it.  This doesn't look like a thing where the devs all got together and decided to shut down the project.  There's something more to the story.
+2014-05-28 15:44:56	vanila	if you want to use a free software crypto program you should run a free OS too (e.g. GNU/Linux)
+2014-05-28 15:44:59	jan64	all it adds is warning boxes
+2014-05-28 15:45:05	megal0maniac	ThatRandomPerson: Read the damn topic
+2014-05-28 15:45:14	storge	SteveG: i agree. what it is i can't say.
+2014-05-28 15:45:16	<--	foobar1234 (0593c914@gateway/web/freenode/ip.5.147.201.20) has quit (Quit: Page closed)
+2014-05-28 15:45:22	jan64	(speaking about sourcecode)
+2014-05-28 15:45:23	Mr_Psmith	This may have been discussed, but if the real authors are in control of the signing keys, AND are not responsible for the current release, they could revoke the keys no?
+2014-05-28 15:45:24	RubyPanther	Having or not having a back door is not a useful distinction because everything MIGHT and you don't know. How do you know what trust is misplaced? The trust you have is misplaced.
+2014-05-28 15:45:30	reanimus	jan64: it also neuters its ability to encrypt things
+2014-05-28 15:45:32	ThatRandomPerson	megal0maniac: thanks!
+2014-05-28 15:45:38	-->	bpu (~bpu@37.235.48.149) has joined #truecrypt
+2014-05-28 15:45:38	jan64	not even the devil knows whats inside the binary
+2014-05-28 15:45:39	moeyebus	ThatRandomPerson: No, it's 0xDEAD
+2014-05-28 15:45:41	jan64	yeah, ik.
+2014-05-28 15:45:43	RubyPanther	FOSS has had backdoors in plain sight revealed already.
+2014-05-28 15:45:51	celebril	So how does it feel that all your paranoia and encryption are as easy to break as a single point of failure: the devs and their human nature?
+2014-05-28 15:45:52	jan64	still, doesn't change my question
+2014-05-28 15:45:53	<--	threeLetterMeyhe (~AndChat53@168-215-15-0.static.twtelecom.net) has quit (Quit: Bye)
+2014-05-28 15:45:55	-->	atg_ (~atg@modemcable232.246-80-70.mc.videotron.ca) has joined #truecrypt
+2014-05-28 15:45:56	RubyPanther	A random code review doesn't offer you any protections.
+2014-05-28 15:46:12	-->	zollipop (~martin.mc@67.40.91.217) has joined #truecrypt
+2014-05-28 15:46:12	guymann	hi jbisch :)
+2014-05-28 15:46:17	-->	tg230 (~bfree@192.227.143.226) has joined #truecrypt
+2014-05-28 15:46:23	nell	schneier are you at oregon
+2014-05-28 15:46:25	reanimus	celebril: the encryption hasn’t been proven to be broken lmao
+2014-05-28 15:46:26	SteveG	https://news.ycombinator.com/item?id=7812133
+2014-05-28 15:46:29	atg_	any updates?
+2014-05-28 15:46:30	jbisch	hi guymann
+2014-05-28 15:46:32	<--	TheShade (~shade@62.176.19.146) has quit (Remote host closed the connection)
+2014-05-28 15:46:35	Raven7	the whole thing is fishy
+2014-05-28 15:46:38	RubyPanther	encryption won't hide my data from the NSA, but hopefully it will hide my customers CC #s from the Russians
+2014-05-28 15:46:42	<--	PigFarmAnimal (~AnimalFar@unaffiliated/animalfarmpig) has left #truecrypt ("Leaving")
+2014-05-28 15:46:43	schneier	SteveG: as far as I am aware there was only 2 devs
+2014-05-28 15:46:44	Darky	Mr_Psmith: no, it's too late now
+2014-05-28 15:46:45	-->	dan64 (~dan64@dannyadam.com) has joined #truecrypt
+2014-05-28 15:46:55	soot	RubyPanther: gotta store the encryption keys somewhere
+2014-05-28 15:46:57	 *	soot votes my house
+2014-05-28 15:46:59	localh0t	SteveG yeah, they remained anonymous for quite a while (or at least, that's what we know), *perhaps* some people/fancy government agency figured out who the developers were
+2014-05-28 15:47:03	Mr_Psmith	Darky: It’s not too late if revoking the keys would send a message?
+2014-05-28 15:47:07	<--	celebril (~celebril@dynamic07.vpdn.csx.cam.ac.uk) has quit (Quit: Ex-Chat)
+2014-05-28 15:47:10	-->	trickyhero (~dw@d4-50-215-4.try.wideopenwest.com) has joined #truecrypt
+2014-05-28 15:47:15	nell	look forward to ur talk tonight schneier  :3 uwaa
+2014-05-28 15:47:26	Darky	Mr_Psmith: the hackers (if that's what they are) have the private key
+2014-05-28 15:47:27	-->	mikechelen (~none@bellhop.dreamhost.com) has joined #truecrypt
+2014-05-28 15:47:30	-->	InternMike (~paranoia@173.213.249.154) has joined #truecrypt
+2014-05-28 15:47:32	<--	Cpt-Oblivious (~chatzilla@31-151-71-109.dynamic.upc.nl) has quit (Quit: ChatZilla 0.9.90.1-rdmsoft [XULRunner 22.0/20130619132145])
+2014-05-28 15:47:35	Darky	you can't just revoke it
+2014-05-28 15:47:54	-->	countermute (~countermu@91-64-50-63-dynip.superkabel.de) has joined #truecrypt
+2014-05-28 15:47:57	jan64	"* [schneier] (~lol@93.174.95.82): root"
+2014-05-28 15:48:02	sharktopus	nell: that aint that schneier
+2014-05-28 15:48:04	Aurigae	Inside the NSA’s Secret Efforts to Hunt and Hack System Administrators  <-- google this, just a conspirance but who knows lol
+2014-05-28 15:48:18	nell	sharktopus he's hiding his powerlevel
+2014-05-28 15:48:19	<--	bad_duck (~arthur@212.43.240.102) has left #truecrypt
+2014-05-28 15:48:21	storge	conspirance?
+2014-05-28 15:48:21	Mr_Psmith	Darky: I understand that. I am suggesting that the actual developers , if they needed to stay hidden, could at least send a message by revoking the key
+2014-05-28 15:48:25	reanimus	it’s hard to tell whether or not they’ve been compromised explicitly because they’re anonymous… if the keys are revoked, we’ve no way of knowing if the new keys belong to the same dev
+2014-05-28 15:48:29	-->	dirbaio (~dirbaio@188.226.238.91) has joined #truecrypt
+2014-05-28 15:48:29	Aurigae	please consider the possibility a dev was vic
+2014-05-28 15:48:30	sharktopus	nell: hiding behind a gnaa tor exit node XD
+2014-05-28 15:48:33	-->	compn (~notabot@97.69.215.70) has joined #truecrypt
+2014-05-28 15:48:45	jgowdy	nell: what?! 9000?!
+2014-05-28 15:48:47	loudest	you guys be the judge if 7.2 is backdoored or not: https://github.com/loudest/truecrypt-7.2-diff/commit/5f42d208c44cf8d28ef304676f177d5c81038a83
+2014-05-28 15:48:48	moeyebus	Aurigae: a dev was vic?
+2014-05-28 15:48:54	loudest	that is the diff between 7.1a and 7.2 truecrypt
+2014-05-28 15:49:02	moeyebus	Aurigae: viciously raped by a gorilla?
+2014-05-28 15:49:04	reanimus	part of the reason we can trust GPG keys is because we can verify they belong to the person they claim to belong to
+2014-05-28 15:49:05	loudest	from the 7.1a source
+2014-05-28 15:49:06	vanila	nell, what's gnaa tor ?
+2014-05-28 15:49:14	jan64	loudest, can you confirm that binaries avialable for download are in fact built from that sourcecode?
+2014-05-28 15:49:16	reanimus	hard to do with the TC devs
+2014-05-28 15:49:24	sharktopus	the question is why export a new key
+2014-05-28 15:49:27	-->	como (~alex@cpe-68-173-182-67.nyc.res.rr.com) has joined #truecrypt
+2014-05-28 15:49:29	<--	tg230 (~bfree@192.227.143.226) has left #truecrypt ("WeeChat 0.4.3")
+2014-05-28 15:49:32	<--	bby (~tom@cpc4-pool12-2-0-cust202.15-1.cable.virginm.net) has quit (Remote host closed the connection)
+2014-05-28 15:49:34	Mr_Psmith	reanimus: agree. no web of trust
+2014-05-28 15:49:34	sharktopus	why change the org email
+2014-05-28 15:49:36	nell	vanila
+2014-05-28 15:49:37	-->	pp4el (~pp4l@c-24-11-157-247.hsd1.mi.comcast.net) has joined #truecrypt
+2014-05-28 15:49:39	sharktopus	it dont make no sense
+2014-05-28 15:49:42	RubyPanther	reanimus: I find it dubious that a identifying a biological pattern imparts any security anyways.
+2014-05-28 15:49:43	nell	gnaa stands for gay nigger association of america
+2014-05-28 15:49:44	-->	``Winslow (~Winslow@mail.unknowncheats.me) has joined #truecrypt
+2014-05-28 15:49:48	<--	jb_____ (~jb_____@c-98-219-49-203.hsd1.ga.comcast.net) has quit (Quit: Colloquy for iPad - http://colloquy.mobi)
+2014-05-28 15:49:50	jgowdy	true statement
+2014-05-28 15:49:54	ThatRandomPerson	nell WTF??
+2014-05-28 15:49:55	ValdikSS	Diff updated https://gist.github.com/ValdikSS/c13a82ca4a2d8b7e87ff
+2014-05-28 15:50:00	-->	haton (~user@79.109.232.132.dyn.user.ono.com) has joined #truecrypt
+2014-05-28 15:50:02	-->	braille (~Adium@67.180.150.242) has joined #truecrypt
+2014-05-28 15:50:04	nell	its a tor exit node
+2014-05-28 15:50:05	coolbot95	Well, I'm going to install a new hard disk now. And, like the rebel I am, I will TrueCrypt it using my existing TrueCrypt 7.1a.
+2014-05-28 15:50:06	RubyPanther	I mean, what if a person "isn't really who we thought they were," or "changed their mind about ______"
+2014-05-28 15:50:07	sharktopus	nell: ur language is so hurtful! i cant believe u use those words
+2014-05-28 15:50:12	<--	Guest37659 (~max@ANancy-257-1-66-22.w90-40.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2014-05-28 15:50:14	sharktopus	im so hurt now
+2014-05-28 15:50:34	atg_	where can I download the old version of truecrypt?
+2014-05-28 15:50:35	schneier	We might not be able to trust the GPG keys, but the source code is obviously not backdoored.
+2014-05-28 15:50:36	reanimus	RubyPanther: the point of GPG isn’t to make things magically perfect, they’re to verify identity and integrity of transmission
+2014-05-28 15:50:37	nell	(｀・ω・´)”
+2014-05-28 15:50:41	sharktopus	atg_: http://cyberside.planet.ee/truecrypt/
+2014-05-28 15:50:41	<--	redwire (~aIRChat_r@blk-224-241-162.eastlink.ca) has quit (Remote host closed the connection)
+2014-05-28 15:50:41	schneier	atg_: you don't want to.
+2014-05-28 15:50:44	-->	lexek (~Alexey@188.123.231.182) has joined #truecrypt
+2014-05-28 15:50:50	blakkheim	syakin
+2014-05-28 15:50:56	jgowdy	right, but how many people are running binaries built off the source code?
+2014-05-28 15:50:58	Mr_Psmith	ValdikSS: So the key was changed, but ultimately 7.2 got signed by the original key?
+2014-05-28 15:51:01	jan64	schneier, ms fanboy much?
+2014-05-28 15:51:03	multi_io	I really love TC's new recipe for Linux users
+2014-05-28 15:51:06	jgowdy	If you don't build it, the source code means dick
+2014-05-28 15:51:07	schneier	jan64: no
+2014-05-28 15:51:09	<--	Franz_Kafka (~kafka@unaffiliated/franz-kafka/x-7358703) has quit (Quit: Leaving)
+2014-05-28 15:51:09	RubyPanther	reanimus: I agree! So we still can't trust whatever was transmitted, even if we're sure it was unchanged during transmission.
+2014-05-28 15:51:16	mg^^	multi_io: "use whatever" doesn't cut it? :-)
+2014-05-28 15:51:19	jan64	so, did you hack the tc website?
+2014-05-28 15:51:22	schneier	I just can't see using unsupported crypto tools as a good idea :)
+2014-05-28 15:51:26	-->	redwire (~aIRChat_r@blk-224-241-162.eastlink.ca) has joined #truecrypt
+2014-05-28 15:51:34	<--	none201421 (~josh@d44-234.uoregon.edu) has quit (Quit: none201421)
+2014-05-28 15:51:39	<--	bpu (~bpu@37.235.48.149) has left #truecrypt
+2014-05-28 15:51:47	FatherSouth	are you Bruce Schneier?
+2014-05-28 15:51:50	pp4el	i thought tc was the gold standard
+2014-05-28 15:51:50	reanimus	RubyPanther: basically; if you don’t trust the other person, all bets are off. up until now we’ve implicitly trusted the TC devs (scary, eh?)
+2014-05-28 15:51:50	schneier	no
+2014-05-28 15:51:53	multi_io	mg^^: yeah, I'd go with "use everything at once" 8-D
+2014-05-28 15:51:55	localh0t	best option to do if you compiled the "trusty" truecrypt-7.1a from your computer is to stay like that and not open the volume for days until we better know what's happening
+2014-05-28 15:51:56	schneier	pp4el: no
+2014-05-28 15:52:04	vanila	nell, I'm sorry? What?
+2014-05-28 15:52:08	jan64	by unsupported, do you mean tools with community that founded costly crypto audit recently? :>
+2014-05-28 15:52:08	vanila	Are you trying to be funny?
+2014-05-28 15:52:13	nell	no go on google
+2014-05-28 15:52:16	SteveG	I wouldn't be surprised if someone picks up the project and continues on
+2014-05-28 15:52:18	vanila	I will not
+2014-05-28 15:52:25	nell	Then stay occluded.
+2014-05-28 15:52:28	coolbot95	"SourceForge sent emails on 22 May, they said they changed password algorithms and everybody should change their passwords." <-- This explains a lot.
+2014-05-28 15:52:28	<--	nukke (~enand@unaffiliated/enand) has left #truecrypt ("WeeChat 0.4.3")
+2014-05-28 15:52:34	RubyPanther	GPG therefore is very useful for example for communication between people who otherwise trust each other, for example co-workers. (if trust is broken, it is already - and separately - broken more deeply) But with strangers, we shouldn't trust them anyways.
+2014-05-28 15:52:35	atg_	Is it just me that interprets this sudden shut down of the project as the work of some secretive government organization?
+2014-05-28 15:52:36	-->	Satorin (~Satorin@unaffiliated/satorin) has joined #truecrypt
+2014-05-28 15:52:40	schneier	jan64: unsupported,  as in project discontinued
+2014-05-28 15:52:43	-->	cirrus] (~pur@unaffiliated/pur/x-3398080) has joined #truecrypt
+2014-05-28 15:52:45	atg_	Or am I being paranoid?
+2014-05-28 15:52:51	Darky	coolbot95: it's probably unrelated
+2014-05-28 15:52:56	coolbot95	:(
+2014-05-28 15:52:58	cirrus]	oh god
+2014-05-28 15:53:00	guest274357	TrueLoveCrypt sounds like a great fork name
+2014-05-28 15:53:01	-->	mindctrl (18b53cfc@gateway/web/freenode/ip.24.181.60.252) has joined #truecrypt
+2014-05-28 15:53:02	soot	atg_: some ppl have alluded to something like lavabit
+2014-05-28 15:53:04	schneier	atg_: why would govt want to shut it down?
+2014-05-28 15:53:08	dartraiden	lol, I picked a bad time to migrate from DiskCryptor to TrueCrypt...
+2014-05-28 15:53:10	-->	The_Blob (~blob@S010600c00cb01b8c.vs.shawcable.net) has joined #truecrypt
+2014-05-28 15:53:10	mg^^	atg_: well, if it's not compromised, that seems likely to me given the hastiness of the shutdown...
+2014-05-28 15:53:11	jan64	you can't really discontinue projects with source code out there
+2014-05-28 15:53:17	jgowdy	My wife just texted me a video of my son on an octopus mobile.  So we need to seriously consider the possibility that this isn't just a TrueCrypt hoax, but perhaps the universe is messed up
+2014-05-28 15:53:18	--	pp4el is now known as truecrypt-dev
+2014-05-28 15:53:20	jan64	if there is community willing to support it.
+2014-05-28 15:53:22	Darky	dartraiden: if you're using v7.1a you'll be okay
+2014-05-28 15:53:24	RubyPanther	reanimus: What I find scary is that even when our trust is explicitly shown to be misplaced, we still don't know "why" or "how" or "where" or "when"
+2014-05-28 15:53:24	cirrus]	tell me it's just a lame joke, deface, or something and that TC will keep running some day
+2014-05-28 15:53:30	atg_	schneier: actually, more of a lavabit thing
+2014-05-28 15:53:35	-->	pokemin (~christoph@port-92-195-52-15.dynamic.qsc.de) has joined #truecrypt
+2014-05-28 15:53:37	atg_	where the government pressures them for a back door
+2014-05-28 15:53:37	megal0maniac	jgowdy: I think you're onto something there
+2014-05-28 15:53:38	ohawegtesdrgtxet	come on guys, it is not that bad, the original crew is going to announce a new encrypting software, it is going to be using CSS3 \o/ yay
+2014-05-28 15:53:44	Raven7	 the org email change/ the bitlocker closed source recomend/ the XP comment/ the middle of an audit review/ the timing/ - its all a bit too much to believe
+2014-05-28 15:53:46	soot	jan64: they specifically say its *not secure* for use though
+2014-05-28 15:53:53	schneier	atg_: different situation
+2014-05-28 15:53:55	RubyPanther	If it is an NSA plot, that would be a huge relief; they already HAVE my customers CC #s, that is nothing on me. But if it is the Russians, maybe I'm screwed.
+2014-05-28 15:53:57	-->	terabit (~terabit@unaffiliated/terabit) has joined #truecrypt
+2014-05-28 15:53:58	<--	code_name_linux (~code_name@50.243.145.46) has quit (Quit: Leaving)
+2014-05-28 15:54:01	soot	schneier: how so?
+2014-05-28 15:54:02	jan64	in bold red times new roman
+2014-05-28 15:54:06	coolbot95	I wish the new fork will be called: TrueFuckOffNSAAndAllGovernmentsYouHaveNoBusinessEverLookingAtAnyFileOfMineOrInteractWithMeInAnyMannerWhatsoeverSoAgainFuckOffNSAAndGovernmentsCrypt.
+2014-05-28 15:54:07	soot	at this popint, everything is speculation.
+2014-05-28 15:54:07	storge	https://news.ycombinator.com/item?id=7812133
+2014-05-28 15:54:08	ValdikSS	Mr_Psmith: it was changed in the beginning but then replaced back on sf
+2014-05-28 15:54:09	crowell	RubyPanther: wow, h8r
+2014-05-28 15:54:09	jan64	right next to bit locker instructions
+2014-05-28 15:54:10	schneier	soot: lavabit produces a service
+2014-05-28 15:54:14	SteveG	I don't think a gov would pressure for a backdoor since it is an open source project.  Too likely to be discovered.
+2014-05-28 15:54:16	soot	and with anoynmous devs, who knows
+2014-05-28 15:54:17	soot	schneier: so?
+2014-05-28 15:54:24	mg^^	coolbot95: you forgot the hash at the front of that.
+2014-05-28 15:54:27	schneier	soot: hard to tell if a service is backdoored
+2014-05-28 15:54:27	coolbot95	Anonymous developers is a GOOD thing.
+2014-05-28 15:54:27	vanila	nell: Apologies. I misunderstood
+2014-05-28 15:54:31	HD|Laptop	SteveG: uh, Heartbleed?
+2014-05-28 15:54:31	jgowdy	megal0maniac: whew, it's some new mall rental thing.  likely the universe is okay
+2014-05-28 15:54:32	coolbot95	mg^^: No hashes here.
+2014-05-28 15:54:33	[mbm]	atg_: so what you're saying is that a prime target used truecrypt and now the government is after the truecrypt authors and this was placed as some sort of canary?
+2014-05-28 15:54:37	RubyPanther	crowell: It is the difference between real-world concerns and theoretical philosophical concerns
+2014-05-28 15:54:43	jan64	either way, we'll know after second phase of audit is done.
+2014-05-28 15:54:44	<--	Ar0xA (~ra@unaffiliated/sphaz) has quit (Ping timeout: 246 seconds)
+2014-05-28 15:54:46	vanila	So it's the name of a group...
+2014-05-28 15:54:54	megal0maniac	jgowdy: Too bad ^^
+2014-05-28 15:54:54	storge	i don't care who did it or for what reason, but i'm pretty confident whoever did it doesn't have enough orgasms.
+2014-05-28 15:54:58	SteveG	But, a gov might want it shut down since it is arguably the most ubiquitous open source crypto out there and they'd rather people not be using it.
+2014-05-28 15:55:05	stasiek	Sooo... still nothing from the devs?
+2014-05-28 15:55:07	<--	Toger (~jhmartin@backlot-kmtc.wip.dig.com) has quit (Read error: Connection reset by peer)
+2014-05-28 15:55:18	sbp	anybody have further information about this? http://www.reddit.com/r/netsec/comments/26pz9b/truecrypt_development_has_ended_052814/chtiifi — differences in the GPG keys
+2014-05-28 15:55:20	megal0maniac	stasiek: Who are the devs?
+2014-05-28 15:55:23	storge	SteveG: possibly, but it's a pretty brute way to do it
+2014-05-28 15:55:23	RubyPanther	I never fell for the idea that encryption could protect me from society, I only bought into the idea that it protected my data from certain types of direct assault
+2014-05-28 15:55:24	SteveG	storge: or whiskey ;-)
+2014-05-28 15:55:24	Darky	stasiek: we probably won't get any dev answer for a while
+2014-05-28 15:55:24	atg_	[mbm]: I think that the government tried to pressure the devs in putting a backdoor
+2014-05-28 15:55:28	nell	Yeap. Time to order chinese.
+2014-05-28 15:55:33	atg_	but the devs shut it down instead
+2014-05-28 15:55:41	terabit	you mean to tell me they can put a backdoor in openssl but not in truecrypt ? lol
+2014-05-28 15:55:43	coolbot95	I still feel annoyed by the fact that the Bitcoin developers are NOT anonymous. I mean, any of the core developers could be compromised by a home visit and made to add in malware.
+2014-05-28 15:55:44	soot	schneier: few people are qualified to audit TC
+2014-05-28 15:55:46	atg_	unfortunately, they are under a secret gag order like lavabit
+2014-05-28 15:55:51	[mbm]	atg_: that's possible
+2014-05-28 15:55:55	cirrus]	atg_, and they'd recommend a BitLocker? really?
+2014-05-28 15:56:01	terabit	atg_: already there already was one and they just found out
+2014-05-28 15:56:06	RubyPanther	terabit: I guess "open" sounds less secure than "true"
+2014-05-28 15:56:15	jan64	schneier, are you Matt Joyce, by any chance?
+2014-05-28 15:56:19	soot	I'd rather trust a service over a binary. I've seen enough obfuscated C submissions to realize that you can do creative stuff. Now give the NSA who has the top grads in the nation and my paranoia level goes off the charts.
+2014-05-28 15:56:22	[mbm]	cirrus]: maybe the bitlocker recommendation was the way of hinting that they were forced
+2014-05-28 15:56:22	coolbot95	WideOpenCrypt.
+2014-05-28 15:56:23	truecrypt-dev	Look at the qording.  It MAY have security issues
+2014-05-28 15:56:31	HD|Laptop	cirrus]: if you're not allowed to disclose "there is a bug" then this is a creative way of evasion
+2014-05-28 15:56:34	RubyPanther	"open" is like an open door, a crypt is like, a safe place to spend thousands of years
+2014-05-28 15:56:51	coolbot95	soot: You'd rather trust a service? What do you mean?
+2014-05-28 15:56:54	schneier	jan64: nope
+2014-05-28 15:57:03	jan64	damn
+2014-05-28 15:57:03	schneier	soot: I'm well aware
+2014-05-28 15:57:17	schneier	those same people are also qualified to audit bitlocker
+2014-05-28 15:57:20	RubyPanther	It is guaranteed to have "security issues," even the perception of problems is an Issue.
+2014-05-28 15:57:23	<--	gcSpitfire (~gcSpitfir@ip-176-198-57-143.unitymediagroup.de) has left #truecrypt
+2014-05-28 15:57:23	soot	coolbot95: well, I phrased that wrong, but there's how many lines of code in truecrypt?
+2014-05-28 15:57:27	Aurigae	SERIOUSLY, if the tool was broken its still very unlikely that the encryption is broken!
+2014-05-28 15:57:35	coolbot95	soot: I don't know. Many.
+2014-05-28 15:57:37	-->	hx0x (~hx0x@p4FE774C1.dip0.t-ipconnect.de) has joined #truecrypt
+2014-05-28 15:57:42	squanto	Aurigae:  that was totially illogical
+2014-05-28 15:57:48	<--	camoy (~camoy@ool-43515088.dyn.optonline.net) has left #truecrypt
+2014-05-28 15:57:51	vanila	Aurigae, if you misuse good encryption primitives, you can create something completely insecure
+2014-05-28 15:57:54	cirrus]	hmm
+2014-05-28 15:57:55	storge	Aurigae: uh
+2014-05-28 15:57:59	-->	truexfan81 (truexfan81@gateway/shell/cadoth.net/x-jupgttksuwwkzrik) has joined #truecrypt
+2014-05-28 15:57:59	squanto	suspicious behavior means the probability of misconduct goes up
+2014-05-28 15:58:00	-->	iphelix (~iphelix@unaffiliated/iphelix) has joined #truecrypt
+2014-05-28 15:58:01	squanto	not down
+2014-05-28 15:58:05	-->	shawniverson (~shawniver@199-204-84-217.nwcsinaa.metronetinc.net) has joined #truecrypt
+2014-05-28 15:58:05	cirrus]	what about the audit results?
+2014-05-28 15:58:08	<--	^Simon^ (~simon@2001:470:1f09:18de:49c0:98eb:3d5a:3a6f) has left #truecrypt ("Leaving")
+2014-05-28 15:58:14	guymann	n e hackers itc?
+2014-05-28 15:58:16	Wuzzy	I wonder if it is April 1st today. Because truecrypt.org looks like a bad bad bad joke =)
+2014-05-28 15:58:16	jan64	as schneier said once: The math is good
+2014-05-28 15:58:16	coolbot95	It is possible that the page was uploaded under direct gunpoint. I don't put anything past the police terror state that is the USA of today.
+2014-05-28 15:58:17	Aurigae	if the application is vulnerable it probably just means you can spawn a shell wit ha buffer overflow
+2014-05-28 15:58:17	-->	Ogma- (~Ogma@unaffiliated/ogma-) has joined #truecrypt
+2014-05-28 15:58:21	Raven7	still in the middle of the audit cirrus]
+2014-05-28 15:58:24	soot	cirrus]: that was for the code, not the analysis of the crypto. Crypto is easy to mess up.
+2014-05-28 15:58:24	jgowdy	okay, I feel like I'm getting dumber reading this now.
+2014-05-28 15:58:26	[mbm]	cirrus]: audit didn't turn up anything
+2014-05-28 15:58:32	jan64	so, if they were going to break it, they'd break the implementation.
+2014-05-28 15:58:32	crowell	guymann: hackerz in this chat wowe
+2014-05-28 15:58:33	cirrus]	hmm
+2014-05-28 15:58:36	RubyPanther	I agree with Aurigae. If the encryption turns out to have been weaker than we thought because the tool was broken, they might not need to break the encryption to get our data.
+2014-05-28 15:58:43	nell	HECK THE PLANET
+2014-05-28 15:58:44	Aurigae	you guys have no experience in exploiting , right?
+2014-05-28 15:58:47	<--	braille (~Adium@67.180.150.242) has quit (Quit: Leaving.)
+2014-05-28 15:58:48	-->	jbq (57720d3b@gateway/web/freenode/ip.87.114.13.59) has joined #truecrypt
+2014-05-28 15:58:50	guymann	/!\ hackers itc /!\
+2014-05-28 15:58:58	RubyPanther	Especially if the problem is a secret NSA key. If they have a key they _certainly_ don't need to break the encryption!
+2014-05-28 15:58:58	crowell	Aurigae: right ;)
+2014-05-28 15:59:03	schneier	good job opers
+2014-05-28 15:59:05	-->	Ussat (~Ussat@pdpc/supporter/active/ussat) has joined #truecrypt
+2014-05-28 15:59:09	Aurigae	well, cya
+2014-05-28 15:59:10	jgowdy	Send out a distress signal, hackers of the world unite!
+2014-05-28 15:59:11	jgowdy	lulz
+2014-05-28 15:59:11	<--	Aurigae (~rnner@p5DE47F28.dip0.t-ipconnect.de) has left #truecrypt
+2014-05-28 15:59:15	guymann	no ops itc lol
+2014-05-28 15:59:18	vanila	lol
+2014-05-28 15:59:20	crowell	ic ic
+2014-05-28 15:59:22	nell	HOPE is coming up in july
+2014-05-28 15:59:28	nell	:0
+2014-05-28 15:59:30	guymann	registered 3 yrs ago to noname
+2014-05-28 15:59:33	coolbot95	What the hell are those sounds? Are the Federales knocking in my door? Are they coming for my TrueCrypted hard disks?!
+2014-05-28 15:59:39	jan64	YES
+2014-05-28 15:59:39	localh0t	http://volatility-labs.blogspot.com.ar/2014/05/volatility-update-all-things.html
+2014-05-28 15:59:40	-->	braille (~Adium@67.180.150.242) has joined #truecrypt
+2014-05-28 15:59:46	<--	calmcl1 (1fdcc86d@gateway/web/freenode/ip.31.220.200.109) has left #truecrypt
+2014-05-28 15:59:47	[mbm]	nell: blackhat and defcon aren't far away either
+2014-05-28 15:59:48	RubyPanther	coolbot95: No, they already remote-copied them
+2014-05-28 15:59:56	-->	WeNDoR (wen_dor@unaffiliated/wendor) has joined #truecrypt
+2014-05-28 15:59:56	-->	vibee (~vibee@f055198112.adsl.alicedsl.de) has joined #truecrypt
+2014-05-28 16:00:00	coolbot95	RubyPanther: From the safe? Unplugged?
+2014-05-28 16:00:00	WeNDoR	any news ?
+2014-05-28 16:00:20	Raven7	coolbot95 what will u do
+2014-05-28 16:00:21	storge	WeNDoR: lots of news. all of it inconclusive.
+2014-05-28 16:00:22	RubyPanther	coolbot95: If they were always unplugged, they know exactly what data is(n't) on them ;)
+2014-05-28 16:00:29	-->	Optic (~Optic@2607:f748:1200:f8:21b:21ff:fe28:d964) has joined #truecrypt
+2014-05-28 16:00:30	WeNDoR	thanks storge
+2014-05-28 16:00:30	coolbot95	:|
+2014-05-28 16:00:39	jbq	do u know, that truecrypt website was also removed from the online archive? check: https://web.archive.org/web/*/truecrypt.org
+2014-05-28 16:00:42	coolbot95	I bet whoever is behind this... whatever it is, is in this channel right now.
+2014-05-28 16:00:45	-->	Journeyman (~Jman@99-168-109-64.lightspeed.ftwotx.sbcglobal.net) has joined #truecrypt
+2014-05-28 16:00:47	-->	X-722 (~X-722@unaffiliated/x-722) has joined #truecrypt
+2014-05-28 16:00:52	storge	coolbot95: you're psychic aren't you
+2014-05-28 16:00:55	jbq	it says: This URL has been excluded from the Wayback Machine.
+2014-05-28 16:00:56	atg_	jbq: wtf?
+2014-05-28 16:00:59	[mbm]	jbq: saw that but couldn't remember if it was ever there to begin with
+2014-05-28 16:01:05	coolbot95	jbq: That's not unusual. Requesting them to delete archives (or not make them in the first place) is common.
+2014-05-28 16:01:05	-->	Gu_______ (~textual@72-48-172-162.static.grandenetworks.net) has joined #truecrypt
+2014-05-28 16:01:14	jan64	coolbot95, take a look at schneier
+2014-05-28 16:01:17	cirrus]	hmm
+2014-05-28 16:01:18	RubyPanther	yeah there is a UI for that
+2014-05-28 16:01:18	<--	trickyhero (~dw@d4-50-215-4.try.wideopenwest.com) has quit (Ping timeout: 276 seconds)
+2014-05-28 16:01:18	[mbm]	jbq: that error pops up if a site as a robots.txt
+2014-05-28 16:01:19	squanto	jbq:  Interesting.  What's the significance of removal from archive?
+2014-05-28 16:01:21	coolbot95	jan64: What is that?
+2014-05-28 16:01:27	cirrus]	first Heartbleed
+2014-05-28 16:01:29	cirrus]	now TC
+2014-05-28 16:01:31	jan64	guy in this channel?
+2014-05-28 16:01:35	--	Gu_______ is now known as MacBEE
+2014-05-28 16:01:36	cirrus]	what will be next?
+2014-05-28 16:01:37	<--	truecrypt-dev (~pp4l@c-24-11-157-247.hsd1.mi.comcast.net) has quit (Remote host closed the connection)
+2014-05-28 16:01:42	coolbot95	jan64: Oh. Why would he be the one?
+2014-05-28 16:01:46	-->	pp4el (~pp4l@c-24-11-157-247.hsd1.mi.comcast.net) has joined #truecrypt
+2014-05-28 16:01:46	atg_	cirrus]: 1984
+2014-05-28 16:01:47	-->	|TheWolf| (~TheWolf@Wikipedia/TheWolf) has joined #truecrypt
+2014-05-28 16:01:49	storge	cirrus]: the internets themselves omg
+2014-05-28 16:01:53	cirrus]	atg_, :<
+2014-05-28 16:02:01	Raven7	was it on archive.org before? that is the question
+2014-05-28 16:02:05	-->	heraclitus (~halcyon@unaffiliated/heraclitis) has joined #truecrypt
+2014-05-28 16:02:09	jan64	I'm telling you this, from my intuition.
+2014-05-28 16:02:19	jan64	he's evil.
+2014-05-28 16:02:19	coolbot95	I wish archive.org would just blow up. It's major privacy violation.
+2014-05-28 16:02:24	WeNDoR	let's search archive.org for the archive.org site of truecrypt :))
+2014-05-28 16:02:25	The_Blob	jba if you look at http://truecrypt.sourceforge.net/robots.txt they are specifically disallowing archive.org, and archive.org will remove old copies if they see that if i recall correctly
+2014-05-28 16:02:29	lordnoid	it was not on archive.org before
+2014-05-28 16:02:30	vanila	coolbot95, it's a great site
+2014-05-28 16:02:30	soot	lol 'privacy'
+2014-05-28 16:02:34	heraclitus	is warewolf the official truecrypt repository on github?
+2014-05-28 16:02:37	soot	put it on a public website, bitch about your privacy
+2014-05-28 16:02:37	<--	haton (~user@79.109.232.132.dyn.user.ono.com) has quit (Read error: Connection reset by peer)
+2014-05-28 16:02:41	coolbot95	vanila: For nostalgia in some cases, yes.
+2014-05-28 16:02:43	jan64	 I wish NSA would just blow up. It's major privacy violation.
+2014-05-28 16:02:49	coolbot95	soot: You are narrow-minded.
+2014-05-28 16:02:52	vanila	http://who.is/whois/truecrypt.org
+2014-05-28 16:02:53	jan64	citing <coolbot95>
+2014-05-28 16:02:56	ohawegtesdrgtxet	aw shit https://web.archive.org/web/*/https://web.archive.org/web/*/truecrypt.org
+2014-05-28 16:02:58	-->	haton (~user@79.109.232.132.dyn.user.ono.com) has joined #truecrypt
+2014-05-28 16:03:00	guest274357	Whats next? Direct access via the TCP stack by the NSA!!! Woo more fud...../sarcasm
+2014-05-28 16:03:02	coolbot95	soot: You can only see the first, most obvious step.
+2014-05-28 16:03:04	<--	dreadiscool (4426ed24@gateway/web/freenode/ip.68.38.237.36) has quit (Quit: Page closed)
+2014-05-28 16:03:06	ValdikSS	Gist updated https://gist.github.com/ValdikSS/c13a82ca4a2d8b7e87ff
+2014-05-28 16:03:14	WeNDoR	lol ohawegtesdrgtxet :)))
+2014-05-28 16:03:16	[mbm]	jan64: um, isn't that kind of the point? keep tabs on other nations?
+2014-05-28 16:03:18	<--	BlackPanx_ (bce693ee@gateway/web/freenode/ip.188.230.147.238) has quit (Ping timeout: 240 seconds)
+2014-05-28 16:03:18	tx^	i heard we have some chrome hackers in here
+2014-05-28 16:03:23	soot	coolbot95: How so?
+2014-05-28 16:03:25	Raven7	lol ohawegtesdrgtxet
+2014-05-28 16:03:29	Ultimation	They changed the license
+2014-05-28 16:03:30	l3lu3	next: Al Gore will pull the plug on the whole interwebs
+2014-05-28 16:03:31	Ultimation	that is so strange
+2014-05-28 16:03:31	coolbot95	soot: It's not that damn simple.
+2014-05-28 16:03:38	soot	if you don't require auth, then it's public
+2014-05-28 16:03:38	jan64	why spy on 'muricans then?
+2014-05-28 16:03:42	soot	how did weev get out?
+2014-05-28 16:03:48	frsk	ValdikSS: "DNS record changed"? Which one(s)?
+2014-05-28 16:04:06	tx^	"Sure you didn't packet from my line? Man go fuck yourself I’m a hacker online."
+2014-05-28 16:04:17	john_dough	jan64, keeping us safe duh
+2014-05-28 16:04:47	storge	canary.
+2014-05-28 16:04:54	<--	adampie (~adampie@host109-149-139-218.range109-149.btcentralplus.com) has quit (Quit: Leaving)
+2014-05-28 16:05:03	pp4el	this whole thing is retarded
+2014-05-28 16:05:04	vanila	soot, maybe he subtracted 1 from all those integers he incremented
+2014-05-28 16:05:05	-->	gsand (~gsand@192.184.91.234) has joined #truecrypt
+2014-05-28 16:05:24	soot	or subtracted -66536
+2014-05-28 16:05:27	<--	Acolarh (~Acolarh@130.225.243.68) has quit (Ping timeout: 252 seconds)
+2014-05-28 16:05:29	-->	kbs (~user@c-50-156-117-107.hsd1.ca.comcast.net) has joined #truecrypt
+2014-05-28 16:05:29	vanila	lol
+2014-05-28 16:05:35	WeNDoR	so
+2014-05-28 16:05:37	-->	calmcl1 (1fdcc86d@gateway/web/freenode/ip.31.220.200.109) has joined #truecrypt
+2014-05-28 16:05:41	WeNDoR	what does this tell me https://github.com/warewolf/truecrypt/compare/master...7.2 ?
+2014-05-28 16:05:51	Ultimation	So
+2014-05-28 16:05:54	<--	bitconto (~bitconto@gateway/tor-sasl/bitconto) has quit (Ping timeout: 272 seconds)
+2014-05-28 16:05:58	Ultimation	Who has bets this is something to do with 1) the interview tonight
+2014-05-28 16:06:01	Ultimation	2) the hacker just released
+2014-05-28 16:06:10	Raven7	the timing is fishy
+2014-05-28 16:06:13	frsk	WeNDoR: What I think is the diff between 7.1 and 7.2
+2014-05-28 16:06:14	-->	captain_curly (~alex@151.236.24.57) has joined #truecrypt
+2014-05-28 16:06:16	[mbm]	jan64: official answer is they don't spy on everyone, they just record metadata which is then only used after they have a warrant
+2014-05-28 16:06:17	-->	majuscule (~dylan@dylansserver.com) has joined #truecrypt
+2014-05-28 16:06:24	ruukasu	what's this about a snowden interview?
+2014-05-28 16:06:27	ruukasu	what's going on?
+2014-05-28 16:06:29	pp4el	no the timing is a coincidence
+2014-05-28 16:06:38	tx^	3) the guy went on vacation, got owned, and doesn't have a clue this is happened.
+2014-05-28 16:06:41	heraclitus	NBC is doing an interview with snowden
+2014-05-28 16:06:45	Ultimation	it's still rumour stages, all coincidences are interesting
+2014-05-28 16:06:47	WeNDoR	frsk: it is the diff ... but it's pretty much and I don't understand everything ...
+2014-05-28 16:06:51	X-722	There is no such thing as coincidence.
+2014-05-28 16:06:53	heraclitus	so, is truecrypt fucked, or isn't it?
+2014-05-28 16:06:59	john_dough	why the fuck have they not cleared this up yet?
+2014-05-28 16:07:03	[mbm]	heraclitus: yes.
+2014-05-28 16:07:03	storge	if you don't hear from truecrypt devs soon, i think the warrant canary theory makes a lot of sense. --especially if we continue to not-hear from them.
+2014-05-28 16:07:04	Ussat	always fucked
+2014-05-28 16:07:05	heraclitus	the diff essentially rendered the binary useless
+2014-05-28 16:07:05	Ultimation	What if
+2014-05-28 16:07:11	Ussat	always was
+2014-05-28 16:07:15	Ultimation	http://www.theguardian.com/technology/2014/may/27/hacker-sabu-walks-free-sentenced-time-served
+2014-05-28 16:07:18	heraclitus	so, 7.2 is a real release?
+2014-05-28 16:07:18	Ultimation	If he was a truecrypt dev
+2014-05-28 16:07:20	Ultimation	and helped the fbi
+2014-05-28 16:07:21	-->	thecyndivee (~thecyndiv@unaffiliated/thevick) has joined #truecrypt
+2014-05-28 16:07:25	Ultimation	got out of jail
+2014-05-28 16:07:28	frsk	WeNDoR: It basically removes all the things you need to create a new encrypted volume
+2014-05-28 16:07:31	Ultimation	instantly tried to tell people it was no longer secure
+2014-05-28 16:07:38	-->	d3llf (~d3llf@178235097106.unknown.vectranet.pl) has joined #truecrypt
+2014-05-28 16:07:39	[mbm]	Ultimation: lol
+2014-05-28 16:07:41	heraclitus	glad I don't use truecrypt
+2014-05-28 16:07:50	Ultimation	#conspiracies
+2014-05-28 16:07:54	WeNDoR	frsk: it does. but does it do anything else ? some malicious things ?
+2014-05-28 16:07:56	reanimus	someone ought to rebuild it all from the ground up honestly
+2014-05-28 16:07:59	DongDiddler	pro conspiracy theory
+2014-05-28 16:08:08	reanimus	truecrypt felt like slapping a dial-up modem on a modern system
+2014-05-28 16:08:11	megal0maniac	reanimus: Sure, I'll get right on that
+2014-05-28 16:08:11	[mbm]	heraclitus: that's where I keep all my g'ubment secrets
+2014-05-28 16:08:14	frsk	WeNDoR: You're asking the wrong person, I don't do code :)
+2014-05-28 16:08:18	frsk	WeNDoR: sorry :)
+2014-05-28 16:08:19	heraclitus	lol [mbm]
+2014-05-28 16:08:24	-->	EdwardSnowden (~mep@94.197.121.22.threembb.co.uk) has joined #truecrypt
+2014-05-28 16:08:27	WeNDoR	frsk: thanks anyway :D
+2014-05-28 16:08:31	ValdikSS	frsk: http://who.is/domain-history/truecrypt.org
+2014-05-28 16:08:33	megal0maniac	Lol @ EdwardSnowden
+2014-05-28 16:08:35	truecrypt	hi ed
+2014-05-28 16:08:38	hawke	ValdikSS: you said, referring to the pdb, “The metadata looks correct” — which metadata is that, and how does it look correct?
+2014-05-28 16:08:40	reanimus	megal0maniac: good, i paid damn good nothing for this
+2014-05-28 16:08:40	<--	qwrwanhnoiawsd (ca9fa5e8@gateway/web/freenode/ip.202.159.165.232) has quit (Quit: Page closed)
+2014-05-28 16:08:42	EdwardSnowden	Hello
+2014-05-28 16:08:47	tx^	but all of the naked pictures of my friends' ex-wives are in truecrypt :(
+2014-05-28 16:08:48	-->	kaptah (kaptah@hilla.kapsi.fi) has joined #truecrypt
+2014-05-28 16:08:49	--	VoiDeD is now known as zz_VoiDeD
+2014-05-28 16:08:52	plaw	hi ed
+2014-05-28 16:08:53	reanimus	abort abort abort
+2014-05-28 16:08:55	--	zz_VoiDeD is now known as VoiDeD
+2014-05-28 16:09:17	-->	jayne (~jayne@freenode/staff/jayne) has joined #truecrypt
+2014-05-28 16:09:21	l3lu3	lol @ EdwardSnowden on some random uk ip
+2014-05-28 16:09:23	megal0maniac	I don't trust anything anymore
+2014-05-28 16:09:28	plaw	yay staff!!! thanks jayne :)
+2014-05-28 16:09:41	[mbm]	EdwardSnowden: dammit, did you forget about the 3-hop rule of privacy invasion?
+2014-05-28 16:09:43	--	megal0maniac is now known as EdwardScissorHan
+2014-05-28 16:09:44	EdwardSnowden	There happen to be FBI agents on this channel
+2014-05-28 16:09:53	[mbm]	now everyone in here is being monitored
+2014-05-28 16:09:53	Darky	>impling that's EdwardSnowden
+2014-05-28 16:09:54	X-722	No shit.
+2014-05-28 16:09:54	truecrypt	nope
+2014-05-28 16:09:55	jgowdy	jayne: You here to shut down this cesspool of paranoia?
+2014-05-28 16:09:55	soot	FBI agents are the nicest guys in the industry
+2014-05-28 16:09:57	john_dough	i see you on reddit ValdikSS
+2014-05-28 16:09:59	john_dough	lol
+2014-05-28 16:10:05	<--	frsk (fredrik@sup.frsk.net) has left #truecrypt (":-)")
+2014-05-28 16:10:11	-->	anthraxx42 (~anthraxx@static.88-198-3-17.clients.your-server.de) has joined #truecrypt
+2014-05-28 16:10:14	gsand	so I'm thinking what happened is this: maintainer got an ominous message to his personal residence, gag order. so he self discredited his own project in order to not sell out to "the man"
+2014-05-28 16:10:15	<--	braille (~Adium@67.180.150.242) has quit (Quit: Leaving.)
+2014-05-28 16:10:19	--	heraclitus is now known as FBI
+2014-05-28 16:10:24	--	FBI is now known as heraclitus
+2014-05-28 16:10:27	-->	ruukasu_ (~ruukasu@109.201.154.151) has joined #truecrypt
+2014-05-28 16:10:29	Ultimation	https://www.indiegogo.com/projects/the-truecrypt-audit#activity
+2014-05-28 16:10:30	soot	gsand: you're not the only one; also all speculation
+2014-05-28 16:10:33	fgenesis	gsand: +1
+2014-05-28 16:10:36	<--	ruukasu_ (~ruukasu@109.201.154.151) has quit (Read error: Connection reset by peer)
+2014-05-28 16:10:38	atg_	ValdikSS: what happened there?
+2014-05-28 16:10:44	-->	zerwas (~zerwas@unaffiliated/zerwas) has joined #truecrypt
+2014-05-28 16:10:44	<--	vibee (~vibee@f055198112.adsl.alicedsl.de) has quit (Quit: Leaving)
+2014-05-28 16:10:53	EdwardSnowden	shit
+2014-05-28 16:10:54	-->	pepee (~qzerty@unaffiliated/pepee) has joined #truecrypt
+2014-05-28 16:10:56	<--	MacBEE (~textual@72-48-172-162.static.grandenetworks.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-05-28 16:11:01	jayne	jgowdy: I'm here mostly just so I have scrollback in case something related to this channel needs staffer attention
+2014-05-28 16:11:02	heraclitus	oh hai EdwardSnowden
+2014-05-28 16:11:03	john_dough	http://www.reddit.com/r/netsec/comments/26pz9b/truecrypt_development_has_ended_052814
+2014-05-28 16:11:04	storge	gsand: the defacement if done by a creator could itself be a warning to us
+2014-05-28 16:11:05	Zimsky	gsand: I think it has something to do with those crystal pyramids in the atlantic ocean
+2014-05-28 16:11:07	coolbot95	I HAVE TO TYPE THIS REALLY FAST BECAUSE A NSA AGENT IS STANDING WITH A GUN POINTED AT MY HEAD THIS IS ALL A HOAX MADE BY THE GOVE*BLAM*
+2014-05-28 16:11:08	heraclitus	never thought I'd see you on here :P
+2014-05-28 16:11:09	-->	Pies (~Pies@srv229.opcja.pl) has joined #truecrypt
+2014-05-28 16:11:10	X-722	  >implying implications w/ "EdwardSnowden" - TONIGHT, on freenode!
+2014-05-28 16:11:13	jgowdy	jayne: right on
+2014-05-28 16:11:16	-->	KrzaQ (~krzaq@krzaq.cc) has joined #truecrypt
+2014-05-28 16:11:17	vikinick	[mbm]: implying that there isn't currently someone monitoring the chat on this channel
+2014-05-28 16:11:26	soot	why would that matter vikinick?
+2014-05-28 16:11:28	eyemiru	reddit is down?
+2014-05-28 16:11:31	Ultimation	https://twitter.com/NSA_PR/status/471780751067738112
+2014-05-28 16:11:32	gsand	storge: pretty obvious.
+2014-05-28 16:11:32	--	EdwardScissorHan is now known as megal0maniac
+2014-05-28 16:11:32	soot	do you have something to hide?
+2014-05-28 16:11:42	truecrypt	yep, down
+2014-05-28 16:11:46	reanimus	lol @ NSA PR
+2014-05-28 16:11:48	<--	newfoo (5dc1166a@gateway/web/freenode/ip.93.193.22.106) has quit (Ping timeout: 240 seconds)
+2014-05-28 16:11:48	-->	[aspirin] (~aspirin@204.110.218.7) has joined #truecrypt
+2014-05-28 16:11:51	WeNDoR	eyemiru: isup.me/reddit.com
+2014-05-28 16:11:51	<--	ruukasu (~ruukasu@unaffiliated/ruukasu) has quit (Disconnected by services)
+2014-05-28 16:11:52	[mbm]	john_dough: reddit is down! must be a conspiracy
+2014-05-28 16:11:52	jayne	did someone check that the domain didn't just expire and someone else registered it?
+2014-05-28 16:11:52	fgenesis	01:11 < vikinick> [mbm]: implying that there isn't currently someone monitoring the chat on this channel
+2014-05-28 16:11:54	truecrypt	they are installing bitlocker
+2014-05-28 16:11:56	 *	fgenesis takes off pants
+2014-05-28 16:11:57	jgowdy	hahah, first truecrypt, now reddit?!
+2014-05-28 16:11:59	-->	Jimlad (51ae84c7@gateway/web/freenode/ip.81.174.132.199) has joined #truecrypt
+2014-05-28 16:12:00	john_dough	reddit not down!
+2014-05-28 16:12:02	WeNDoR	[mbm]: isup.me/reddit.com
+2014-05-28 16:12:05	john_dough	im surfing hard atm
+2014-05-28 16:12:08	Ultimation	reddits just got load issues
+2014-05-28 16:12:15	-->	drewh (~drewh@24.114.27.194) has joined #truecrypt
+2014-05-28 16:12:15	EdwardSnowden	You have joined #truecrypt
+2014-05-28 16:12:15	EdwardSnowden	The topic is 'Unofficial TrueCrypt channel | Site is potentially compromised so please excercise due diligence before downloading and installing | For now, we don't know any more than you do.' (set by tomaw!tom@freenode/staff/tomaw on 28 May 2014 22:32:12)
+2014-05-28 16:12:15	EdwardSnowden	WeNDoR: frsk: thanks anyway :D
+2014-05-28 16:12:15	EdwardSnowden	ValdikSS: frsk: http://who.is/domain-history/truecrypt.org
+2014-05-28 16:12:15	EdwardSnowden	megal0maniac: Lol @ EdwardSnowden
+2014-05-28 16:12:15	<--	EdwardSnowden (~mep@94.197.121.22.threembb.co.uk) has quit (Excess Flood)
+2014-05-28 16:12:16	Ultimation	i was getting a few server busys
+2014-05-28 16:12:18	john_dough	all this activity
+2014-05-28 16:12:19	tx^	yeha, a load of shit
+2014-05-28 16:12:19	gsand	if he has essentially no choice in the matter, might as well discredit oneself.
+2014-05-28 16:12:25	-->	Anticimex (anticimex@netforce.millnert.se) has joined #truecrypt
+2014-05-28 16:12:25	hawke	Hmm…if coolbot95 was being shot he wouldn’t have bothered to type "*BLAM*", he’d have just kinda-sort-almost heard it.
+2014-05-28 16:12:36	-->	ekse (~ekse@64.6.103.182) has joined #truecrypt
+2014-05-28 16:12:41	-->	djjd (~mep@94.197.121.22.threembb.co.uk) has joined #truecrypt
+2014-05-28 16:12:42	vikinick	soot: nope, its just that if it was a hacker, I would guess he would be here
+2014-05-28 16:12:42	hawke	voice recognition maybe?
+2014-05-28 16:12:45	<--	Deaygo (~Deaygo@mcbouncer.com) has left #truecrypt ("WeeChat 0.3.7")
+2014-05-28 16:12:47	[mbm]	WeNDoR: TIL I'm the target of all this? still down for me (maintence page..)
+2014-05-28 16:12:47	Darky	the funny thing is that coolbot95 joined this channel before the site got defaced... hmm
+2014-05-28 16:12:52	megal0maniac	jayne: Then what about github? And sourceforge?
+2014-05-28 16:13:05	obi	okay, so the windows binary does not seem to start transmission of any data
+2014-05-28 16:13:06	mrc0mmand	http://www.phoronix.com/scan.php?page=news_item&px=MTcwMzY
+2014-05-28 16:13:10	ValdikSS	hawke: compiled with the same compiler version
+2014-05-28 16:13:10	-->	alcedine (~alcedine@151.236.26.17) has joined #truecrypt
+2014-05-28 16:13:12	WeNDoR	[mbm]: try via VPN or simething
+2014-05-28 16:13:18	joepie91__	jayne: Registration date : 2003-11-22 14:18:12 Expiration date   : 2023-11-22 14:18:12
+2014-05-28 16:13:19	megal0maniac	jayne: And it was updated last on November 2013
+2014-05-28 16:13:20	jayne	megal0maniac: oh, have those changed, too?
+2014-05-28 16:13:21	-->	caligula213 (~peter@unaffiliated/caligula213) has joined #truecrypt
+2014-05-28 16:13:27	megal0maniac	jayne: Everything has changed
+2014-05-28 16:13:32	jayne	hm.
+2014-05-28 16:13:35	vikinick	[mbm]: me too
+2014-05-28 16:13:40	megal0maniac	And the devs are anon so it's anyone's guess
+2014-05-28 16:13:43	djjd	???????????
+2014-05-28 16:13:45	djjd	??????
+2014-05-28 16:13:46	<--	compn (~notabot@97.69.215.70) has left #truecrypt
+2014-05-28 16:13:47	djjd	????????
+2014-05-28 16:13:47	-->	Guest46443 (~james@ec2-50-19-211-93.compute-1.amazonaws.com) has joined #truecrypt
+2014-05-28 16:13:50	djjd	rewr
+2014-05-28 16:13:52	djjd	Fffdfsdf
+2014-05-28 16:13:53	gsand	the devs were probably found out
+2014-05-28 16:13:54	vikinick	"emergency maintenance" apparently
+2014-05-28 16:13:55	<--	atimmer (~atimmer@ip5651f64a.adsl-surfen.hetnet.nl) has quit (Quit: atimmer)
+2014-05-28 16:13:57	gsand	*definitely
+2014-05-28 16:13:58	djjd	z
+2014-05-28 16:13:58	djjd	x
+2014-05-28 16:13:59	djjd	c
+2014-05-28 16:14:03	-->	sandinak (~sandinak@keep.sandsecurity.com) has joined #truecrypt
+2014-05-28 16:14:05	megal0maniac	kick djjd
+2014-05-28 16:14:14	megal0maniac	\o/ someone op me!
+2014-05-28 16:14:16	djjd	12
+2014-05-28 16:14:16	djjd	3
+2014-05-28 16:14:17	djjd	4
+2014-05-28 16:14:17	-->	mlowijs (5ed791eb@gateway/web/freenode/ip.94.215.145.235) has joined #truecrypt
+2014-05-28 16:14:17	djjd	6
+2014-05-28 16:14:21	djjd	d
+2014-05-28 16:14:21	djjd	5
+2014-05-28 16:14:22	djjd	67
+2014-05-28 16:14:22	djjd	8
+2014-05-28 16:14:29	<--	mtu (~mbueker@p5DE6143A.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2014-05-28 16:14:31	djjd	1
+2014-05-28 16:14:32	moeyebus	megal0maniac: Nobody has +o
+2014-05-28 16:14:34	-->	ruukasu (~ruukasu@unaffiliated/ruukasu) has joined #truecrypt
+2014-05-28 16:14:34	djjd	1
+2014-05-28 16:14:35	djjd	2
+2014-05-28 16:14:35	djjd	34
+2014-05-28 16:14:35	djjd	6
+2014-05-28 16:14:36	djjd	67
+2014-05-28 16:14:36	djjd	3
+2014-05-28 16:14:37	vikinick	:(
+2014-05-28 16:14:39	 *	genii smacks djjd
+2014-05-28 16:14:45	sandinak	 /ignore is a cool thing yall
+2014-05-28 16:14:46	djjd	2/whhois genii
+2014-05-28 16:14:46	ThatRandomPerson	KICK HIM!
+2014-05-28 16:14:46	megal0maniac	Who let their 2yr old use their laptop?
+2014-05-28 16:14:48	atg_	djjd is a nsa agent trying to DOS the channel
+2014-05-28 16:14:50	 *	vikinick smacks djjd with a rainbow trout
+2014-05-28 16:14:55	megal0maniac	atg_: Lol
+2014-05-28 16:14:56	<--	gsand (~gsand@192.184.91.234) has left #truecrypt
+2014-05-28 16:15:05	Zimsky	atg_: I don't think "DOS" is really quite accurate
+2014-05-28 16:15:08	Satorin	I'm losing sleep because of this; TrueCrypt why?
+2014-05-28 16:15:10	djjd	1
+2014-05-28 16:15:11	djjd	2
+2014-05-28 16:15:11	djjd	3
+2014-05-28 16:15:11	djjd	4
+2014-05-28 16:15:11	BabaTong	SmartScreen in Win 8.1 blocks the 7.2 binary
+2014-05-28 16:15:12	djjd	5
+2014-05-28 16:15:12	djjd	6
+2014-05-28 16:15:12	djjd	7
+2014-05-28 16:15:12	djjd	8
+2014-05-28 16:15:12	djjd	0
+2014-05-28 16:15:16	john_dough	such cool
+2014-05-28 16:15:19	djjd	1
+2014-05-28 16:15:19	Zimsky	you forgot 9
+2014-05-28 16:15:19	djjd	2
+2014-05-28 16:15:19	john_dough	very speed
+2014-05-28 16:15:19	djjd	3
+2014-05-28 16:15:20	djjd	4
+2014-05-28 16:15:20	[mbm]	atg_: if that's true we have nothing to worry about from the NSA
+2014-05-28 16:15:20	djjd	5
+2014-05-28 16:15:20	djjd	4
+2014-05-28 16:15:21	john_dough	wow
+2014-05-28 16:15:21	djjd	3
+2014-05-28 16:15:21	djjd	2
+2014-05-28 16:15:21	WeNDoR	djjd: almost counted to 10 :D
+2014-05-28 16:15:21	djjd	1
+2014-05-28 16:15:22	djjd	2
+2014-05-28 16:15:22	djjd	3
+2014-05-28 16:15:22	djjd	4
+2014-05-28 16:15:22	guymann	lol
+2014-05-28 16:15:23	djjd	5
+2014-05-28 16:15:24	WeNDoR	but not really
+2014-05-28 16:15:25	WeNDoR	:))
+2014-05-28 16:15:27	jgowdy	jayne: this guy is messing up the paranoia
+2014-05-28 16:15:28	john_dough	muted
+2014-05-28 16:15:28	-->	UltimateNate (UltimateNa@unaffiliated/ultimatenate) has joined #truecrypt
+2014-05-28 16:15:29	-->	tt (~tt@freenode/staff/ttuttle) has joined #truecrypt
+2014-05-28 16:15:29	WeNDoR	.kick djjd
+2014-05-28 16:15:34	foxtrot	lol
+2014-05-28 16:15:35	WeNDoR	no chanserv here ?
+2014-05-28 16:15:39	guymann	no ops no rules
+2014-05-28 16:15:40	djjd	1
+2014-05-28 16:15:41	msy	djjd: please stop spamming
+2014-05-28 16:15:41	djjd	2
+2014-05-28 16:15:41	djjd	3
+2014-05-28 16:15:41	djjd	4
+2014-05-28 16:15:41	djjd	5
+2014-05-28 16:15:42	ohawegtesdrgtxet	ccccombobreaker
+2014-05-28 16:15:42	djjd	4
+2014-05-28 16:15:42	djjd	3
+2014-05-28 16:15:42	djjd	2
+2014-05-28 16:15:43	djjd	1
+2014-05-28 16:15:43	djjd	2
+2014-05-28 16:15:44	genii	WeNDoR: Just tomaw
+2014-05-28 16:15:44	djjd	3
+2014-05-28 16:15:44	djjd	4
+2014-05-28 16:15:44	truecrypt	*** poops on djjd ***
+2014-05-28 16:15:45	storge	djjd: you do know how easy it is to ignore someone, right?
+2014-05-28 16:15:45	djjd	4
+2014-05-28 16:15:45	djjd	3
+2014-05-28 16:15:46	djjd	2
+2014-05-28 16:15:46	djjd	1
+2014-05-28 16:15:49	moeyebus	WeNDoR: /ignore him
+2014-05-28 16:15:49	-->	cryptolynx (~cryptolyn@50.23.115.111) has joined #truecrypt
+2014-05-28 16:15:51	-->	Corey (~Corey@freenode/staff/corey) has joined #truecrypt
+2014-05-28 16:15:51	--	Mode #truecrypt [+o tt] by ChanServ
+2014-05-28 16:15:56	foxtrot	thank you tt
+2014-05-28 16:15:57	WeNDoR	gee
+2014-05-28 16:15:57	john_dough	YES
+2014-05-28 16:15:58	jgowdy	this is freenode, no ops no rules isn't really true
+2014-05-28 16:16:02	UltimateNate	djjd: stfu
+2014-05-28 16:16:03	djjd	1
+2014-05-28 16:16:03	WeNDoR	ignore it is :D
+2014-05-28 16:16:03	djjd	2
+2014-05-28 16:16:03	djjd	3
+2014-05-28 16:16:03	vikinick	well
+2014-05-28 16:16:04	djjd	4
+2014-05-28 16:16:04	sandinak	danke
+2014-05-28 16:16:04	djjd	4
+2014-05-28 16:16:07	--	Mode #truecrypt [+o Corey] by ChanServ
+2014-05-28 16:16:08	--	Mode #truecrypt [+q *!*@94.197.121.22.threembb.co.uk] by Corey
+2014-05-28 16:16:08	--	Mode #truecrypt [-o Corey] by Corey
+2014-05-28 16:16:08	<--	redwire (~aIRChat_r@blk-224-241-162.eastlink.ca) has quit (Remote host closed the connection)
+2014-05-28 16:16:12	john_dough	ty
+2014-05-28 16:16:12	@tt	damnit Corey :(
+2014-05-28 16:16:13	--	Mode #truecrypt [-o tt] by tt
+2014-05-28 16:16:15	vikinick	that would do it
+2014-05-28 16:16:16	foxtrot	that is legit
+2014-05-28 16:16:17	Corey	tt: Erry'd!
+2014-05-28 16:16:22	tt	;_;
+2014-05-28 16:16:29	foxtrot	so
+2014-05-28 16:16:30	john_dough	THE GODS HAVE SPOKEN
+2014-05-28 16:16:35	foxtrot	about truecrypt xD
+2014-05-28 16:16:38	plaw	<3 @/fn/staff :)
+2014-05-28 16:16:39	<--	djjd (~mep@94.197.121.22.threembb.co.uk) has quit (Client Quit)
+2014-05-28 16:16:40	truecrypt	what about me?
+2014-05-28 16:16:45	jgowdy	+q, we want KLINE!  lulz
+2014-05-28 16:16:50	foxtrot	y u so cause havoc
+2014-05-28 16:16:50	megal0maniac	Even me
+2014-05-28 16:16:52	WeNDoR	lol @ truecrypt
+2014-05-28 16:16:56	calmcl1	Truecrypt: We don't trust you.
+2014-05-28 16:17:00	-->	roylaurie (~roylaurie@ip68-7-10-212.sd.sd.cox.net) has joined #truecrypt
+2014-05-28 16:17:00	guymann	lol
+2014-05-28 16:17:01	truecrypt	:(
+2014-05-28 16:17:05	plaw	calmcl1++
+2014-05-28 16:17:08	pp4el	oh but you can trust me
+2014-05-28 16:17:09	foxtrot	7.3 or riot
+2014-05-28 16:17:10	WeNDoR	truecrypt: y u do drugs again !
+2014-05-28 16:17:12	megal0maniac	 /o megal0maniac
+2014-05-28 16:17:13	plaw	yeah we don't trust you but we're paying attention
+2014-05-28 16:17:16	WeNDoR	stahp !
+2014-05-28 16:17:16	--	pp4el is now known as truecrypt2
+2014-05-28 16:17:24	ohawegtesdrgtxet	THE GODS HAVE SPOKEN, USE BITLOCKER THEY SAY
+2014-05-28 16:17:30	--	atg_ is now known as bitlocker
+2014-05-28 16:17:32	Raven7	ya , right
+2014-05-28 16:17:32	BabaTong	well I don't know how reliable SmartScreen is
+2014-05-28 16:17:33	john_dough	rot13*
+2014-05-28 16:17:35	BabaTong	but it blocks 7.2
+2014-05-28 16:17:36	bitlocker	why don’t you guys trust me?
+2014-05-28 16:17:38	BabaTong	in windows 8.1
+2014-05-28 16:17:38	-->	tomax (~srock@d50-92-64-41.bchsia.telus.net) has joined #truecrypt
+2014-05-28 16:17:38	calmcl1	pp4el: keep going until truecrypt7.2? ;)
+2014-05-28 16:17:39	Satorin	legit xor
+2014-05-28 16:17:40	<--	Modred (~modred@fsf/member/Modred) has quit (Quit: leaving)
+2014-05-28 16:17:42	-->	ntucker (~quassel@67.207.137.89) has joined #truecrypt
+2014-05-28 16:17:43	<--	spinewire (~spinewire@cpc6-pnth2-2-0-cust177.5-2.cable.virginm.net) has quit (Quit: Bye)
+2014-05-28 16:17:46	Wuzzy	THE GODS SEEM TO BE HIGH ON DRUGS THEN =D
+2014-05-28 16:17:49	ohawegtesdrgtxet	i use double xor
+2014-05-28 16:17:53	bitlocker	I’m totally legit you guys
+2014-05-28 16:17:54	vikinick	would have been even better had Corey just gone in, muted someone, made tt an operator, and left
+2014-05-28 16:17:56	bitlocker	even truecrypt said so
+2014-05-28 16:17:58	john_dough	md5 or die
+2014-05-28 16:18:01	tomax	spammer report to freenode room
+2014-05-28 16:18:02	Ultimation	decrypt using back up cd's or installed software
+2014-05-28 16:18:05	Ultimation	or just
+2014-05-28 16:18:07	fgqew12	quite funny, indiegogo says:   "p.s. We hope to have some *big* announcements this week, so stay tuned."   12 hrs ago
+2014-05-28 16:18:08	foxtrot	In a world of 1's and 0's, are you a 0? OR THE 1
+2014-05-28 16:18:10	Ultimation	burn all your hard drives with thermite
+2014-05-28 16:18:11	foxtrot	dunudnudn
+2014-05-28 16:18:11	storge	 Everyone freaking out about #TrueCrypt, don’t worry, I got you covered. My post on #TrueCrypt alternatives http://grugq.tumblr.com/post/60464139008/alternative-truecrypt-implementations
+2014-05-28 16:18:11	Ultimation	and start again
+2014-05-28 16:18:13	Journeyman	has anyone found anything malicious in the source code diffs yet?
+2014-05-28 16:18:14	-->	uw (~uw@unaffiliated/uw) has joined #truecrypt
+2014-05-28 16:18:17	tomax	or be blacklisted
+2014-05-28 16:18:18	localh0t	@matthew_d_green "An alternative is that somebody was about to de-anonymize the Truecrypt devs and this is their response."
+2014-05-28 16:18:19	truecrypt2	i think corey is a freenod oper
+2014-05-28 16:18:20	Darky	fgqew12: it was unrelated
+2014-05-28 16:18:22	Anticimex	fgqew12: unrelated
+2014-05-28 16:18:24	WeNDoR	bitlocker: we don't trust you because you no open-source
+2014-05-28 16:18:25	storge	not *my* post, but @thegrugq
+2014-05-28 16:18:26	-->	Avon (~Avon@unaffiliated/avon) has joined #truecrypt
+2014-05-28 16:18:26	<--	haton (~user@79.109.232.132.dyn.user.ono.com) has quit (Read error: Connection reset by peer)
+2014-05-28 16:18:31	uw	whats the deal with truecrypt's website?
+2014-05-28 16:18:36	guymann	uw, /topic
+2014-05-28 16:18:41	john_dough	lol
+2014-05-28 16:18:41	<--	soup90210 (d8f68434@gateway/web/cgi-irc/kiwiirc.com/ip.216.246.132.52) has left #truecrypt
+2014-05-28 16:18:44	vikinick	truecrypt2: yup
+2014-05-28 16:18:51	john_dough	do you even internet doe
+2014-05-28 16:18:53	<--	shodan_ (~shodan@a83-161-67-65.adsl.xs4all.nl) has left #truecrypt ("WeeChat 0.4.3")
+2014-05-28 16:18:54	-->	honey (~Honey@unaffiliated/wtf-honey) has joined #truecrypt
+2014-05-28 16:18:55	 *	bitlocker opens trench coat, exposing his dick
+2014-05-28 16:18:59	calmcl1	The trouble being, I suppose that the fanboys at Lifehacker are going to be spending the night editing half of their "truecrypt++!" articles, Minitrue-style :P
+2014-05-28 16:18:59	guymann	lewd
+2014-05-28 16:19:00	sandinak	hunter2
+2014-05-28 16:19:01	bitlocker	Is that good enough for you WeNDoR ?
+2014-05-28 16:19:13	-->	monody (~k@blk-7-212-141.eastlink.ca) has joined #truecrypt
+2014-05-28 16:19:14	<--	mlowijs (5ed791eb@gateway/web/freenode/ip.94.215.145.235) has quit (Quit: Page closed)
+2014-05-28 16:19:15	-->	ruomad (~ruomad@sge78-4-88-174-228-141.fbx.proxad.net) has joined #truecrypt
+2014-05-28 16:19:15	megal0maniac	Journeyman: There's nothing obvious, but there's also no way to confirm that the binary is built from that source
+2014-05-28 16:19:19	honey	*******
+2014-05-28 16:19:20	-->	haton (~user@79.109.232.132.dyn.user.ono.com) has joined #truecrypt
+2014-05-28 16:19:20	honey	what?
+2014-05-28 16:19:26	sandinak	honey ;)
+2014-05-28 16:19:27	-->	d_proust (~d_proust@204.244.246.87) has joined #truecrypt
+2014-05-28 16:19:28	hawke	storge: you misspelled “deux”
+2014-05-28 16:19:33	d_proust	Oy vey
+2014-05-28 16:19:35	honey	hi all.
+2014-05-28 16:19:37	stasiek	Guys it's all ok now: https://twitter.com/NSA_PR/status/471780751067738112
+2014-05-28 16:19:39	storge	hawke: no i didn't
+2014-05-28 16:19:46	-->	boreq (~filip@87-206-180-37.dynamic.chello.pl) has joined #truecrypt
+2014-05-28 16:19:54	pepee	/msg nickserv identify hunter2
+2014-05-28 16:19:54	[mbm]	megal0maniac: go compile that source and see how much your binary differs
+2014-05-28 16:19:55	<--	lordnoid (~lordnoid@52D94568.cm-11-1b.dynamic.ziggo.nl) has quit (Read error: Connection reset by peer)
+2014-05-28 16:19:57	pepee	err
+2014-05-28 16:20:01	uw	oih..
+2014-05-28 16:20:03	-->	indigoparadox (~indigopar@2001:470:8ddb:11:216:3eff:fe7e:1114) has joined #truecrypt
+2014-05-28 16:20:05	WeNDoR	bitlocker: why you have no balls ???
+2014-05-28 16:20:06	X-722	lolz
+2014-05-28 16:20:08	megal0maniac	[mbm]: Don't have toolchain etc
+2014-05-28 16:20:09	<--	d_proust (~d_proust@204.244.246.87) has quit (Client Quit)
+2014-05-28 16:20:16	bitlocker	WeNDoR: nsa took them
+2014-05-28 16:20:17	-->	b00l7 (~d_proust@204.244.246.87) has joined #truecrypt
+2014-05-28 16:20:20	b00l7	Hello.
+2014-05-28 16:20:23	Ultimation	I want to go to bed
+2014-05-28 16:20:24	mce9	stasiek: lmao
+2014-05-28 16:20:24	-->	Inquisitor911 (~Inquisito@99-61-173-248.lightspeed.iplsin.sbcglobal.net) has joined #truecrypt
+2014-05-28 16:20:26	Ultimation	but I want to watch this unfold
+2014-05-28 16:20:26	megal0maniac	pepee: Time for password change
+2014-05-28 16:20:27	[mbm]	megal0maniac: so, basically you're just spreading fud?
+2014-05-28 16:20:30	Ultimation	I hope there are answers
+2014-05-28 16:20:34	hawke	storge: “Tomb: cryptsetup wrapper shellscript, part deaux”
+2014-05-28 16:20:34	john_dough	i cant work with this channel open
+2014-05-28 16:20:35	Ultimation	Ps when is the snowden interview on?
+2014-05-28 16:20:38	Ultimation	in how many hours?
+2014-05-28 16:20:38	john_dough	too much activity
+2014-05-28 16:20:43	john_dough	10est
+2014-05-28 16:20:47	<--	ntucker (~quassel@67.207.137.89) has left #truecrypt ("http://quassel-irc.org - Chat comfortably. Anywhere.")
+2014-05-28 16:20:48	boreq	lilke 2 hours?
+2014-05-28 16:20:48	megal0maniac	[mbm]: No, I'm saying that nobody has confirmed that the binary == the source
+2014-05-28 16:20:48	storge	hawke: i didn't write that
+2014-05-28 16:20:48	Ultimation	whats the current est time
+2014-05-28 16:20:49	pepee	lol WeNDoR
+2014-05-28 16:20:52	boreq	give time in UTC
+2014-05-28 16:20:57	Ultimation	GMT plz
+2014-05-28 16:20:57	WeNDoR	pepee: was worth a try ?
+2014-05-28 16:20:58	b00l7	So.
+2014-05-28 16:21:00	indigoparadox	Does anyone know if there's a backup of the repo anywhere? Maybe someone pulled it with git or hg's convert extensions?
+2014-05-28 16:21:03	-->	heavysidecar (~heavyside@unaffiliated/heavysidecar) has joined #truecrypt
+2014-05-28 16:21:03	b00l7	Is it happening?
+2014-05-28 16:21:09	Ultimation	ITS HAPPENING
+2014-05-28 16:21:10	WeNDoR	bitlocker: that's why we dont't trust you. we can't trust someone who lost his balls to the NSA
+2014-05-28 16:21:12	vikinick	Ultimation: it happened already, but it airs depending on your time zone, 10EST
+2014-05-28 16:21:12	pepee	WeNDoR, not really, but OK
+2014-05-28 16:21:13	boreq	the happening is NOW.
+2014-05-28 16:21:17	<--	Journeyman (~Jman@99-168-109-64.lightspeed.ftwotx.sbcglobal.net) has quit (Quit: Leaving)
+2014-05-28 16:21:19	hawke	storge: oh, I missed the “not my post” :-p
+2014-05-28 16:21:20	X-722	Ids habbeding
+2014-05-28 16:21:22	Ultimation	vikinick, yeah, i knew that, but I am not eST
+2014-05-28 16:21:23	<--	kevloral (~kevloral@90.82-130-168.dynamic.clientes.euskaltel.es) has left #truecrypt
+2014-05-28 16:21:25	storge	hawke: :)
+2014-05-28 16:21:26	Ultimation	currently i am in BST
+2014-05-28 16:21:31	WeNDoR	pepee: you know ... for security reasons :))
+2014-05-28 16:21:31	hawke	my bad. ;-)
+2014-05-28 16:21:35	-->	Journeyman (~Journeyma@99-168-109-64.lightspeed.ftwotx.sbcglobal.net) has joined #truecrypt
+2014-05-28 16:21:37	b00l7	So, is the default kernel encryption in linux good?
+2014-05-28 16:21:44	truecrypt2	dmcrypt
+2014-05-28 16:21:48	b00l7	yeah, that
+2014-05-28 16:21:49	-->	artsy_shibe (kvirc@unaffiliated/artsyshibe) has joined #truecrypt
+2014-05-28 16:21:52	-->	dtg01100 (~david@71-80-41-217.dhcp.davl.vt.charter.com) has joined #truecrypt
+2014-05-28 16:21:55	calmcl1	UTC=GMT. UK currently GMT+1.
+2014-05-28 16:21:59	truecrypt2	yeah just disable luks
+2014-05-28 16:22:03	localh0t	Plot twist: The TrueCrypt scandal is really a promotion for Watch_Dogs.
+2014-05-28 16:22:04	localh0t	haha
+2014-05-28 16:22:06	-->	jaripekka (d5f386f1@gateway/web/freenode/ip.213.243.134.241) has joined #truecrypt
+2014-05-28 16:22:06	-->	Andorin (~andorin@unaffiliated/andorin) has joined #truecrypt
+2014-05-28 16:22:07	Ultimation	b0017 just build some custom bespoke hardware with a gieger counter and you're set for life
+2014-05-28 16:22:08	ohawegtesdrgtxet	:D
+2014-05-28 16:22:17	vikinick	Ultimation: probably should be airing right now or soon for you
+2014-05-28 16:22:19	tomax	nsa loves truecript no security
+2014-05-28 16:22:20	-->	guest_____ (6de0ac47@gateway/web/freenode/ip.109.224.172.71) has joined #truecrypt
+2014-05-28 16:22:24	coolbot95	What the hell is Watch_Dogs?
+2014-05-28 16:22:24	calmcl1	Apologies, UK in GMT currently. 00:22.
+2014-05-28 16:22:32	b00l7	Wash_Doge
+2014-05-28 16:22:32	coolbot95	WatchDogeCoin?
+2014-05-28 16:22:37	hawke	coolbot95: a game
+2014-05-28 16:22:45	uw	so do people who dev truecrypt even know about this?
+2014-05-28 16:22:47	hawke	coolbot95: recently released
+2014-05-28 16:22:49	ohawegtesdrgtxet	coolbot95: it is a company that develops DogeCrypt
+2014-05-28 16:22:51	<--	dafuq (5ce47033@gateway/web/freenode/ip.92.228.112.51) has quit (Quit: Page closed)
+2014-05-28 16:22:54	Ultimation	uw, no one knows
+2014-05-28 16:22:58	<--	artsy_shibe (kvirc@unaffiliated/artsyshibe) has left #truecrypt ("nil")
+2014-05-28 16:22:58	tomax	watch dogs a new hacking game you own the city
+2014-05-28 16:22:59	Ultimation	hm ok cheers vikinick
+2014-05-28 16:23:00	WeNDoR	coolbot95: a game ?
+2014-05-28 16:23:01	uw	..
+2014-05-28 16:23:10	Ultimation	devs are anonymous
+2014-05-28 16:23:14	Ultimation	and not the we are legion kind
+2014-05-28 16:23:15	-->	annn (4e66f140@gateway/web/freenode/ip.78.102.241.64) has joined #truecrypt
+2014-05-28 16:23:18	<--	truecrypt (97fa1c42@gateway/web/freenode/ip.151.250.28.66) has quit (Ping timeout: 240 seconds)
+2014-05-28 16:23:18	foxtrot	haha
+2014-05-28 16:23:19	Ultimation	although they may be...
+2014-05-28 16:23:22	bitlocker	btw guys, same thing happened to https://en.wikipedia.org/wiki/FreeOTFE
+2014-05-28 16:23:31	john_dough	tomax, rather a GTA clone, hold X to hack... isnt really hacking
+2014-05-28 16:23:34	<--	cryptolynx (~cryptolyn@50.23.115.111) has quit (Remote host closed the connection)
+2014-05-28 16:23:38	-->	agrfoic1 (442a4e63@gateway/web/freenode/ip.68.42.78.99) has joined #truecrypt
+2014-05-28 16:23:41	calmcl1	coolbot95 - a game, recent cracked torrent released hiding GPU-based bitcoin miner.
+2014-05-28 16:23:46	john_dough	she main character is def a skiddie
+2014-05-28 16:23:46	foxtrot	bitlocker, you checked about Rubberhose?
+2014-05-28 16:23:55	hx0x	truecrypt2: disabled luks, but forgot why
+2014-05-28 16:23:56	john_dough	the*
+2014-05-28 16:24:02	Inquisitor911	So, any word on whether or not this "no longer secure" ordeal is legit?
+2014-05-28 16:24:03	b00l7	Ah, rubberhose cryptography?
+2014-05-28 16:24:03	uw	Ultimation, Who's driving?!  BEAR'S DRIVING!
+2014-05-28 16:24:04	[mbm]	bitlocker: guess the question becomes "why now?"
+2014-05-28 16:24:05	tomax	smart phone hacking the city security grid
+2014-05-28 16:24:06	-->	irungentoo (~irungento@unaffiliated/irungentoo) has joined #truecrypt
+2014-05-28 16:24:19	<--	_Straffer2 (~S@2602:306:3bef:1ab0:2ca2:50fe:d8cd:5d4a) has quit (Ping timeout: 240 seconds)
+2014-05-28 16:24:23	<--	roylaurie (~roylaurie@ip68-7-10-212.sd.sd.cox.net) has left #truecrypt
+2014-05-28 16:24:25	WeNDoR	Inquisitor911: nothing for sure yet
+2014-05-28 16:24:36	alcedine	b00l7: cryptanalysis. Cryptography itself by that method would be kind of difficult to execute.
+2014-05-28 16:24:39	-->	qqpp (~qqpp@89.214.184.88) has joined #truecrypt
+2014-05-28 16:24:39	truecrypt2	hx0x it puts the luks header in places which makes plausible deniability impossible
+2014-05-28 16:24:41	hawke	john_dough: 'press X to hack' — seems legit script kiddie stuff. ;-)
+2014-05-28 16:24:43	john_dough	tomax, he gets handed a phone with root to everything irrc
+2014-05-28 16:24:55	john_dough	hawke, def metasploit style
+2014-05-28 16:24:56	hx0x	truecrypt2: ah that was it! :)
+2014-05-28 16:25:01	-->	tornate (bc6e4de8@gateway/web/freenode/ip.188.110.77.232) has joined #truecrypt
+2014-05-28 16:25:02	Andorin	I'm thinking that this is a Lavabit situation, so what arguments against that theory are there?
+2014-05-28 16:25:10	vanila	real hackers press Y
+2014-05-28 16:25:10	-->	diazamet (~diazamet@p5488F12B.dip0.t-ipconnect.de) has joined #truecrypt
+2014-05-28 16:25:14	john_dough	i was hoping so much more for that game
+2014-05-28 16:25:18	john_dough	le sigh
+2014-05-28 16:25:19	-->	reiv (~reiv@ip-78-102-241-64.net.upcbroadband.cz) has joined #truecrypt
+2014-05-28 16:25:21	-->	Proselyte (~proselyte@97-93-232-75.dhcp.ftwo.tx.charter.com) has joined #truecrypt
+2014-05-28 16:25:24	truecrypt2	Y
+2014-05-28 16:25:26	-->	lelele (6154c14a@gateway/web/freenode/ip.97.84.193.74) has joined #truecrypt
+2014-05-28 16:25:27	-->	Anoniem4l (~Ano@208.64.66.92) has joined #truecrypt
+2014-05-28 16:25:28	vanila	lol
+2014-05-28 16:25:28	coolbot95	Sigh.
+2014-05-28 16:25:30	hawke	vanila: real hackers press up up down down left right left right B A
+2014-05-28 16:25:31	 *	heraclitus goes back to using LUKS happily 
+2014-05-28 16:25:40	WeNDoR	gn8
+2014-05-28 16:25:40	jan64	Andorin, p. much their whole new website
+2014-05-28 16:25:40	-->	vezzy (~vezzy@c-73-49-23-248.hsd1.fl.comcast.net) has joined #truecrypt
+2014-05-28 16:25:42	<--	heavysidecar (~heavyside@unaffiliated/heavysidecar) has quit (Quit: Ex-Chat)
+2014-05-28 16:25:44	bitlocker	https://twitter.com/matthew_d_green
+2014-05-28 16:25:46	<--	uw (~uw@unaffiliated/uw) has left #truecrypt ("Leaving")
+2014-05-28 16:25:47	<--	CajunTechie (~cajuntech@2602:30a:c041:63a0:fa0f:41ff:fe1b:d48a) has quit (Quit: Leaving)
+2014-05-28 16:25:54	jan64	+ Why now?
+2014-05-28 16:25:54	Andorin	jan64: What do you mean?
+2014-05-28 16:25:56	-->	utopian (~time@nc-76-3-124-12.dhcp.embarqhsd.net) has joined #truecrypt
+2014-05-28 16:26:00	<--	annn (4e66f140@gateway/web/freenode/ip.78.102.241.64) has quit (Client Quit)
+2014-05-28 16:26:03	Wuzzy	REAL hackers work in the woods, hacking down trees. ... (ha ha ha …)
+2014-05-28 16:26:04	tomax	you also can access other players in the game
+2014-05-28 16:26:07	jan64	bitlocker guide, for example
+2014-05-28 16:26:10	eyemiru	uh, not even the driver page from AMD works ... wtf is happening?
+2014-05-28 16:26:12	--	Mode #truecrypt [+o Corey] by ChanServ
+2014-05-28 16:26:12	--	Mode #truecrypt [-q *!*@94.197.121.22.threembb.co.uk] by Corey
+2014-05-28 16:26:12	--	Mode #truecrypt [-o Corey] by Corey
+2014-05-28 16:26:13	<--	qsub (~qsub@76-10-141-184.dsl.teksavvy.com) has quit (Quit: Leaving...)
+2014-05-28 16:26:18	Anoniem4l	chop that tree down then!
+2014-05-28 16:26:18	-->	sk (~sk@c-76-119-179-213.hsd1.ma.comcast.net) has joined #truecrypt
+2014-05-28 16:26:19	jan64	new decrypt only binaries
+2014-05-28 16:26:20	irungentoo	this is most likely the only truecrypt dev getting bored of developing it
+2014-05-28 16:26:23	storge	Andorin: this could be a an uglified developer-sent warrant canary. hard to know. if we go a long time without hearing from that, i find it more and more likely.
+2014-05-28 16:26:31	storge	from them*
+2014-05-28 16:26:35	<--	utopian (~time@nc-76-3-124-12.dhcp.embarqhsd.net) has left #truecrypt
+2014-05-28 16:26:38	<--	Ultimation (~Ultimatio@unaffiliated/ultimation) has quit (Read error: Connection reset by peer)
+2014-05-28 16:26:39	-->	IBangRMS (5b262726@gateway/web/freenode/ip.91.38.39.38) has joined #truecrypt
+2014-05-28 16:26:44	<--	Uroth (4d69e424@gateway/web/cgi-irc/kiwiirc.com/ip.77.105.228.36) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-05-28 16:27:02	-->	joepie91___ (5064fe45@gateway/web/freenode/ip.80.100.254.69) has joined #truecrypt
+2014-05-28 16:27:02	b00l7	Hello, IBangRMS
+2014-05-28 16:27:03	jan64	nah.
+2014-05-28 16:27:06	Andorin	storge: I agree... I'm just trying to get my perspective peer-reviewed to be sure I'm not going full conspiratard
+2014-05-28 16:27:11	coolbot95	The only thing that's for sure is that the excuse given is not the real reason.
+2014-05-28 16:27:11	ThatRandomPerson	Hi IBangRMS!
+2014-05-28 16:27:13	-->	dardevelin (~dardeveli@a95-95-54-194.cpe.netcabo.pt) has joined #truecrypt
+2014-05-28 16:27:27	honey	Andorin, long time no see.
+2014-05-28 16:27:28	[mbm]	irungentoo: but wouldn't that just be abandonment?
+2014-05-28 16:27:33	coolbot95	Using a term such as "conspiratard", if anything, makes you appear like an idiot.
+2014-05-28 16:27:33	Andorin	Hi honey :)
+2014-05-28 16:27:36	storge	Andorin: well, it's a more logical theory than ZOMG NSA CORNHOLED A BACKDOOR
+2014-05-28 16:27:38	honey	hiya :)
+2014-05-28 16:27:38	<--	ruomad (~ruomad@sge78-4-88-174-228-141.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-05-28 16:27:42	-->	mancha (mancha@unaffiliated/mancha) has joined #truecrypt
+2014-05-28 16:27:45	tomax	hack their computer
+2014-05-28 16:27:46	-->	redwire (~aIRChat_r@blk-224-241-162.eastlink.ca) has joined #truecrypt
+2014-05-28 16:27:51	tomax	backdoor software
+2014-05-28 16:27:51	-->	jack_guru (~jack@cust-209-37.on4.ontelecoms.gr) has joined #truecrypt
+2014-05-28 16:27:53	b00l7	irungentoo is here?
+2014-05-28 16:27:54	--	ThatRandomPerson is now known as IBangRMSToo
+2014-05-28 16:27:55	storge	Andorin: but as with stuff like this, hard to know until time passes
+2014-05-28 16:27:55	mancha	well folks, spill the beans. what's up
+2014-05-28 16:27:56	<--	coolbot95 (~coolbot95@gateway/tor-sasl/coolbot95) has quit (Quit: coolbot95)
+2014-05-28 16:27:57	truecrypt2	redwire stfu retard
+2014-05-28 16:28:04	tomax	like blackshades
+2014-05-28 16:28:04	redwire	Excuse me?
+2014-05-28 16:28:06	john_dough	nmap layer 2 backplane raid10
+2014-05-28 16:28:08	redwire	I just got here.
+2014-05-28 16:28:10	IBangRMSToo	hi irungentoo!
+2014-05-28 16:28:10	<--	semberal (~semberal@216.240.161.68) has quit (Quit: ZNC - http://znc.in)
+2014-05-28 16:28:13	truecrypt2	redwire stfu retard
+2014-05-28 16:28:16	<--	d3llf (~d3llf@178235097106.unknown.vectranet.pl) has quit (Ping timeout: 265 seconds)
+2014-05-28 16:28:17	irungentoo	hello everyone
+2014-05-28 16:28:22	-->	kookokok (6c303311@gateway/web/freenode/ip.108.48.51.17) has joined #truecrypt
+2014-05-28 16:28:27	IBangRMS	NSA, NWO and the US NGO will enslave us all!
+2014-05-28 16:28:28	-->	_Straffer2 (~S@99-190-241-171.lightspeed.nsvltn.sbcglobal.net) has joined #truecrypt
+2014-05-28 16:28:31	-->	d3llf (~d3llf@178235097106.unknown.vectranet.pl) has joined #truecrypt
+2014-05-28 16:28:32	<--	soot (~soot@whatsmyeip.com) has left #truecrypt
+2014-05-28 16:28:33	eyemiru	nice, WOT went from green to yellow within an hour. :D
+2014-05-28 16:28:33	redwire	A bot?
+2014-05-28 16:28:34	honey	tomax, my stalker. lol
+2014-05-28 16:28:34	<--	diazamet (~diazamet@p5488F12B.dip0.t-ipconnect.de) has quit (Client Quit)
+2014-05-28 16:28:43	IBangRMS	first they take our Truecrypt, and then our freedom!
+2014-05-28 16:28:43	redwire	Hey irungentoo
+2014-05-28 16:28:45	<--	UltimateNate (UltimateNa@unaffiliated/ultimatenate) has left #truecrypt ("UltimateZNC Owner - UltimateZNC Website: https://sites.google.com/site/ultimateznc/ - The Ultimate ZNC service.")
+2014-05-28 16:28:46	-->	semberal (~semberal@216.240.161.68) has joined #truecrypt
+2014-05-28 16:28:46	mancha	a 1042 bit dsa key isn't exactly state of the art. it could have gotten cracked.
+2014-05-28 16:28:48	<--	lechwalesa (3e8584a4@gateway/web/freenode/ip.62.133.132.164) has quit (Ping timeout: 240 seconds)
+2014-05-28 16:28:49	<--	Orwell84 (~Peter@5248D4A9.cm-4-1d.dynamic.ziggo.nl) has quit (Quit: Leaving.)
+2014-05-28 16:28:49	-->	JCTheDenthog (~AndChat21@208.73.31.18) has joined #truecrypt
+2014-05-28 16:28:50	 *	bitlocker cries.  No one wants to use me :(
+2014-05-28 16:28:58	tomax	kisses honey missed you
+2014-05-28 16:28:59	Wuzzy	@mancha: The truth is: Nobody really knows. :-( But there is a lot of speculation. Maybe this helps: https://gist.github.com/ValdikSS/c13a82ca4a2d8b7e87ff
+2014-05-28 16:29:02	 *	eyemiru wants to use diskcrypter
+2014-05-28 16:29:03	-->	bla123 (8af6028a@gateway/web/freenode/ip.138.246.2.138) has joined #truecrypt
+2014-05-28 16:29:05	jan64	that's because you are ugly.
+2014-05-28 16:29:06	storge	bitlocker: i'll use you you little leather minx
+2014-05-28 16:29:07	-->	donics (~donics@c-76-118-238-185.hsd1.ma.comcast.net) has joined #truecrypt
+2014-05-28 16:29:10	IBangRMS	WE WILL ALL DIE
+2014-05-28 16:29:15	IBangRMSToo	bitlocker: You're proprietary garbage!
+2014-05-28 16:29:16	jan64	no shit, sherlock.
+2014-05-28 16:29:16	-->	doggles (~astra@S0106602ad0960f71.va.shawcable.net) has joined #truecrypt
+2014-05-28 16:29:24	Andorin	storge: agreed that we actually know very little. but the implication that the federal govt is shutting down popular privacy apps/services is frightening
+2014-05-28 16:29:27	irungentoo	my hypothesis is that the truecrypt devs started truecrypt because at the time there was no real way to encrypt drives on all the major operating systems
+2014-05-28 16:29:28	IBangRMS	THE FBI WILL FUCK US ALL
+2014-05-28 16:29:29	mancha	Wuzzy: thanks.
+2014-05-28 16:29:30	bitlocker	bitlocker: but you trust windows right?
+2014-05-28 16:29:33	-->	lbft (~lbft@unaffiliated/lbft) has joined #truecrypt
+2014-05-28 16:29:35	-->	ruomad (~ruomad@sge78-4-88-174-228-141.fbx.proxad.net) has joined #truecrypt
+2014-05-28 16:29:39	<--	tt (~tt@freenode/staff/ttuttle) has left #truecrypt
+2014-05-28 16:29:40	tomax	nice buns honey
+2014-05-28 16:29:52	IBangRMS	WHAT CAN WE DO TO ESCAPE THIS MADNESS?!
+2014-05-28 16:29:58	<--	Raefon (~phil@72-24-176-68.cpe.cableone.net) has quit (Quit: Leaving)
+2014-05-28 16:30:03	-->	krasnozer (~krasnozer@91.179.221.171) has joined #truecrypt
+2014-05-28 16:30:03	meh_	Microsoft buying TC confirmed
+2014-05-28 16:30:05	jan64	Better FBI, than gays from European Parliment
+2014-05-28 16:30:07	<--	Thamstras (~jangofett@host31-50-136-134.range31-50.btcentralplus.com) has quit (Quit: Leaving)
+2014-05-28 16:30:07	IBangRMS	THIS IS A SECRET NATO OPERATION ON HUMANITY
+2014-05-28 16:30:08	heraclitus	IBangRMS, commit suicide?
+2014-05-28 16:30:08	joepie91___	completely baseless theory: could this have been an automated dead man's switch?
+2014-05-28 16:30:08	irungentoo	IBangRMS, install gentoo
+2014-05-28 16:30:12	vezzy	Is this irungentoo of Tox?
+2014-05-28 16:30:13	tx^	what did the woman at the beach say to michael jackson?
+2014-05-28 16:30:17	<--	ekse (~ekse@64.6.103.182) has left #truecrypt ("WeeChat 0.4.2")
+2014-05-28 16:30:18	<--	joepie91__ (5064fe45@gateway/web/freenode/ip.80.100.254.69) has quit (Ping timeout: 240 seconds)
+2014-05-28 16:30:18	jack_guru	come on, they could not have suggested bitlocker
+2014-05-28 16:30:18	storge	Andorin: maybe. from what i have been reading about truecrypts so-far auditing, it looks a little like we can use more better alternatives anyway
+2014-05-28 16:30:20	heraclitus	gentoo rulez
+2014-05-28 16:30:21	tx^	get out of my son
+2014-05-28 16:30:21	honey	nice tan?
+2014-05-28 16:30:22	-->	Thamstras (~jangofett@host31-50-136-134.range31-50.btcentralplus.com) has joined #truecrypt
+2014-05-28 16:30:23	sandinak	so one way or the other .. this will (hopefully) start some dialog to get something as good as what we precieved Truecrypt to be .. and perhaps better
+2014-05-28 16:30:25	irungentoo	vezzy, yes
+2014-05-28 16:30:25	IBangRMS	CONTROLLED BY THE US AND THEIR EU VESSELS
+2014-05-28 16:30:27	<--	galnull (~galnull@162-232-144-14.lightspeed.hstntx.sbcglobal.net) has left #truecrypt ("Leaving")
+2014-05-28 16:30:29	bitlocker	jack_guru: I’m hurt
+2014-05-28 16:30:36	IBangRMS	ONLY PUTIN CAN SAVE US NOW
+2014-05-28 16:30:38	<--	Guest64528 (~james@ec2-50-19-211-93.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-28 16:30:38	<--	Phosphate (~james@ec2-50-19-211-93.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-28 16:30:38	<--	Guest46443 (~james@ec2-50-19-211-93.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2014-05-28 16:30:39	guest274357	Joepie, i wondered that too
+2014-05-28 16:30:42	Andorin	storge: all I've heard about the audit is that so far they haven't found any backdoors or malicious code
+2014-05-28 16:30:43	sandinak	at least the conversation will start moving forward
+2014-05-28 16:30:49	<--	IBangRMSToo (~eric@CPE602ad092746f-CM602ad092746c.cpe.net.cable.rogers.com) has quit (Quit: IBangRMSToo)
+2014-05-28 16:30:49	-->	am4d (~am4d@host86-176-229-63.range86-176.btcentralplus.com) has joined #truecrypt
+2014-05-28 16:30:53	<--	qqpp (~qqpp@89.214.184.88) has quit (Quit: WeeChat 0.4.3)
+2014-05-28 16:30:56	<--	[aspirin] (~aspirin@204.110.218.7) has quit (Quit: leaving)
+2014-05-28 16:30:57	<--	hx0x (~hx0x@p4FE774C1.dip0.t-ipconnect.de) has quit (Quit: bbq)
+2014-05-28 16:31:12	Wuzzy	@IBangRMS: In soviet russia, harddisks decrypt YOU
+2014-05-28 16:31:15	bla123	Check the new release. The 7.2 one. The weird one. The license has been altered. It's FOSS now. Had restrictions before that made it incompatible
+2014-05-28 16:31:16	eyemiru	lol
+2014-05-28 16:31:17	jack_guru	bitlocker, hahaha, no hard feelings but you are microsoft
+2014-05-28 16:31:21	joepie91___	guest274357: for a DMS, it would make sense to flat-out say "discontinued, insecure" because you are no longer capable of ensuring its security (whether because dead or otherwise)
+2014-05-28 16:31:42	ivan	does anyone have a copy of truecrypt.org or forums.truecrypt.org? archiveteam could use a copy
+2014-05-28 16:31:43	joepie91___	it would also explain the tacky-ness of the announcement, as you'd generally want to make a DMS non-obvious
+2014-05-28 16:31:49	<--	dtg01100 (~david@71-80-41-217.dhcp.davl.vt.charter.com) has quit (Ping timeout: 258 seconds)
+2014-05-28 16:31:53	-->	qsub (~qsub@76-10-141-184.dsl.teksavvy.com) has joined #truecrypt
+2014-05-28 16:31:53	-->	hx0x (~hx0x@p4FE774C1.dip0.t-ipconnect.de) has joined #truecrypt
+2014-05-28 16:31:53	joepie91___	and thus pushed from some external system
+2014-05-28 16:31:56	<--	semberal (~semberal@216.240.161.68) has quit (Client Quit)
+2014-05-28 16:31:58	-->	laaa-win8 (~L3A@cpe-98-154-237-88.socal.res.rr.com) has joined #truecrypt
+2014-05-28 16:32:06	IBangRMS	THIS IS THE SECOND STEP! AFTER DRUGGING US WITH THEIR CHEMTRAILS, THEY TAKE OUR DATA AND ANALYZE OUR PERSONAL LIVES!
+2014-05-28 16:32:07	-->	pmd` (~pmd@44.251.187.81.in-addr.arpa) has joined #truecrypt
+2014-05-28 16:32:11	jan64	ivan, why in the hell did you excluded it from webarchive in the first place?
+2014-05-28 16:32:11	tomax	the russian copy of advengers movie online
+2014-05-28 16:32:11	<--	como (~alex@cpe-68-173-182-67.nyc.res.rr.com) has quit (Ping timeout: 255 seconds)
+2014-05-28 16:32:14	joepie91___	ivan: any idea what's up with the wayback saying "nope"?
+2014-05-28 16:32:14	vezzy	joepie91__: unlikely to be a switch, the new binary and all
+2014-05-28 16:32:17	JCTheDenthog	Oooooooooooooooooooooooh shit niggas
+2014-05-28 16:32:18	jan64	D:
+2014-05-28 16:32:23	ivan	jan64: I didn't exclude it
+2014-05-28 16:32:25	joepie91___	vezzy: DMS could very well auto-build-and-sign
+2014-05-28 16:32:28	-->	semberal (~semberal@216.240.161.68) has joined #truecrypt
+2014-05-28 16:32:29	jan64	someone did.
+2014-05-28 16:32:30	ivan	joepie91___: someone excluded it
+2014-05-28 16:32:32	-->	jorgec (~id@unaffiliated/jorgec) has joined #truecrypt
+2014-05-28 16:32:33	 *	ValdikSS is neither Snowden (although from Russia) nor TrueCrypt developer
+2014-05-28 16:32:40	joepie91___	ivan: from crawling, not just from display?
+2014-05-28 16:32:43	ivan	joepie91___: they also block the serach engines from caching
+2014-05-28 16:32:50	b00l7	So, dmcrypt is secure, correct?
+2014-05-28 16:32:51	vezzy	except that
+2014-05-28 16:32:54	ivan	joepie91___: I guess both but sometimes someone at archive.org crawls anyway
+2014-05-28 16:32:56	--	popj is now known as boss
+2014-05-28 16:32:59	-->	ThatRandomPerson (~eric@CPE602ad092746f-CM602ad092746c.cpe.net.cable.rogers.com) has joined #truecrypt
+2014-05-28 16:32:59	--	ThatRandomPerson is now known as IBangRMSToo
+2014-05-28 16:33:00	-->	savoca (uid26541@gateway/web/irccloud.com/x-ymuzvombifldxrlj) has joined #truecrypt
+2014-05-28 16:33:00	jan64	ah, so you do respect robots.txt
+2014-05-28 16:33:03	jan64	that's just stupid.
+2014-05-28 16:33:07	tomax	downloads IBangRMS hard drive
+2014-05-28 16:33:12	vezzy	this would mean they would be actively maintaining the DMS alongside TrueCrypt itself?
+2014-05-28 16:33:12	irungentoo	if you trust microsoft enough to use truecrypt on windows, bitlocker is a good suggestion for you
+2014-05-28 16:33:14	joepie91___	jan64: this wasn't a robots.txt exclusion as far as I can tell
+2014-05-28 16:33:26	--	boss is now known as Guest72387
+2014-05-28 16:33:26	<--	semberal (~semberal@216.240.161.68) has quit (Client Quit)
+2014-05-28 16:33:28	joepie91___	it just says "excluded", not "excluded because of robots.txt" (which it normally does for robots.txt exclusion)
+2014-05-28 16:33:32	vezzy	>2014
+2014-05-28 16:33:36	vezzy	>not using GELI on FreeBSD
+2014-05-28 16:33:45	vezzy	get with the times
+2014-05-28 16:33:47	-->	csssuf|hexchat (~csssuf@pool-173-71-208-93.clppva.fios.verizon.net) has joined #truecrypt
+2014-05-28 16:33:52	-->	Icarus (d0491d0a@gateway/web/freenode/ip.208.73.29.10) has joined #truecrypt
+2014-05-28 16:33:52	<--	Icarus (d0491d0a@gateway/web/freenode/ip.208.73.29.10) has quit (Client Quit)
+2014-05-28 16:33:52	-->	Marshalrusty (~Yuriy@phpbb/manager/pdpc.21for7.marshalrusty) has joined #truecrypt
+2014-05-28 16:33:56	hazardous	why are there 400 people here
+2014-05-28 16:33:59	-->	semberal (~semberal@216.240.161.68) has joined #truecrypt
+2014-05-28 16:34:00	hazardous	it was like 40 this morning
+2014-05-28 16:34:04	megal0maniac	hazardous: Topic
+2014-05-28 16:34:05	IBangRMS	ALL OF YOU! AQUIRE TINFOIL NOW! THIS IS THE ONLY CHEAP AND EFFECTIVE WAY TO SHIELD YOU FROM THE ELECTROMAGNETIC WAVES!
+2014-05-28 16:34:08	cladmonitor	no timelouts, thats why
+2014-05-28 16:34:08	Raven7	why only 400
+2014-05-28 16:34:09	joepie91___	pointed out by other person: DMS would not explain the bitlocker suggestion or "because XP end" announcement
+2014-05-28 16:34:10	blakkheim	vezzy please don't represent bsd users as /g/ people
+2014-05-28 16:34:10	csssuf|hexchat	hazardous: take a guess
+2014-05-28 16:34:16	cladmonitor	timeouts*
+2014-05-28 16:34:20	<--	Sulfat (~oxyd@unaffiliated/sulfat) has quit (Quit: Quitte)
+2014-05-28 16:34:22	-->	Frampis (frampis@reformiklubi.fi) has joined #truecrypt
+2014-05-28 16:34:22	joepie91___	so I guess we can bin that theory
+2014-05-28 16:34:25	ohawegtesdrgtxet	ValdikSS is working for SchutzStaffel as double agent at KGB in Russia
+2014-05-28 16:34:27	-->	ICARUSFOUNDYOU (d0491d0a@gateway/web/freenode/ip.208.73.29.10) has joined #truecrypt
+2014-05-28 16:34:28	IBangRMS	TAKE ALL YOU MONEY OF THE BANKS!
+2014-05-28 16:34:30	hazardous	csssuf|hexchat: i'm just here for the drama, we're not permitted to use tc at work, only bitlocker ("must be approved") lol
+2014-05-28 16:34:32	IBangRMS	THEY CONTROL THEM!
+2014-05-28 16:34:34	ICARUSFOUNDYOU	ICARUS FOUND YOU
+2014-05-28 16:34:36	Wuzzy	Had truecrypt ever have an official channel?
+2014-05-28 16:34:37	-->	^wald0 (~^wald0@unaffiliated/wald0/x-7689991) has joined #truecrypt
+2014-05-28 16:34:38	<--	BabaTong (~BabaTong@s01.srsitdept.com) has left #truecrypt
+2014-05-28 16:34:39	IBangRMS	AND BUY GOLD!
+2014-05-28 16:34:48	csssuf|hexchat	hazardous: lol, i suspect most people are here for the drama
+2014-05-28 16:34:51	jan64	actually, about buying gold
+2014-05-28 16:34:55	jan64	it's not a bad idea.
+2014-05-28 16:35:00	<--	redwire (~aIRChat_r@blk-224-241-162.eastlink.ca) has left #truecrypt ("aIRChat client parted.")
+2014-05-28 16:35:09	jan64	gold, or other valuable metals.
+2014-05-28 16:35:11	<--	laaa-win8 (~L3A@cpe-98-154-237-88.socal.res.rr.com) has left #truecrypt ("Leaving")
+2014-05-28 16:35:11	Andorin	PC World has picked up the truecrypt story http://www.pcworld.com/article/2241300/truecrypt-now-encouraging-users-to-use-microsofts-bitlocker.html
+2014-05-28 16:35:13	reiv	Tinfoil hats are useless, they actually concentrate the waves in your brain, you will fry your brain, aluminium hat nigger
+2014-05-28 16:35:16	cladmonitor	^ by the most financially volitile mineral quick!
+2014-05-28 16:35:19	cladmonitor	buy*
+2014-05-28 16:35:23	genii	jan64: fancy coloured diamonds
+2014-05-28 16:35:24	-->	vxitch (~vxi@unaffiliated/vxitch) has joined #truecrypt
+2014-05-28 16:35:24	tomax	bit coins are easy to download
+2014-05-28 16:35:37	<--	calmcl1 (1fdcc86d@gateway/web/freenode/ip.31.220.200.109) has quit (Quit: Page closed)
+2014-05-28 16:35:37	jan64	same
+2014-05-28 16:35:39	Sling	gold isn't a mineral ;)
+2014-05-28 16:35:39	IBangRMS	WHEN THE CURRENT SYSTEM COLLAPSES YOU WILL BE GLAD THAT YOU BELIEVED ME
+2014-05-28 16:35:40	reanimus	There’s always LUKS
+2014-05-28 16:35:45	JCTheDenthog	@ICARUSFOUNDYOU do you even GEP gun?
+2014-05-28 16:35:50	<--	mintr (~mintr@m77-218-98-239.cust.tele2.se) has left #truecrypt
+2014-05-28 16:35:50	-->	mintr (~mintr@m77-218-98-239.cust.tele2.se) has joined #truecrypt
+2014-05-28 16:35:53	IBangRMS	AND THIS WILL HAPPEN SOON
+2014-05-28 16:35:57	-->	krav (~krav@unaffiliated/kravlin) has joined #truecrypt
+2014-05-28 16:36:05	storge	what an absurd channel.
+2014-05-28 16:36:06	bitlocker	perhaps the truecrypt devs feared that their backdoor would be discovered...
+2014-05-28 16:36:07	IBangRMS	NATO IS WORKING ON IT, WITH THEIR AGRESSION AND PROPAGANDA TOWARDS RUSSIA
+2014-05-28 16:36:13	Andorin	And The Register has a piece on it as well http://www.theregister.co.uk/2014/05/28/truecrypt_hack/
+2014-05-28 16:36:16	jan64	not NATO
+2014-05-28 16:36:19	<--	mancha (mancha@unaffiliated/mancha) has left #truecrypt
+2014-05-28 16:36:19	cladmonitor	its an element, stfu :P
+2014-05-28 16:36:20	jan64	european union
+2014-05-28 16:36:26	-->	braille (~Adium@67.180.150.242) has joined #truecrypt
+2014-05-28 16:36:27	Andorin	The Register is also saying that 7.2 is compromised
+2014-05-28 16:36:37	hazardous	it is compromised
+2014-05-28 16:36:38	ICARUSFOUNDYOU	Richard Stallman's body is currently being dissected by MJ12 scientists
+2014-05-28 16:36:39	vxitch	Andorin: link?
+2014-05-28 16:36:40	csssuf|hexchat	well, seeing as it only lets you decrypt things that seems rather odd
+2014-05-28 16:36:44	Andorin	vxitch: http://www.theregister.co.uk/2014/05/28/truecrypt_hack/
+2014-05-28 16:36:47	vxitch	ty
+2014-05-28 16:36:49	IBangRMS	THE THIRD WORLD WAR, PROVOKED BY THE US CONTROLLED NATO AND THEIR EU VESSELS WILL START SOON
+2014-05-28 16:36:51	Sling	ICARUSFOUNDYOU: you know he isn't even dead yet, right
+2014-05-28 16:36:54	IBangRMS	BE PREPARED!
+2014-05-28 16:36:54	<--	meh_ (4f883d63@gateway/web/freenode/ip.79.136.61.99) has quit (Quit: Page closed)
+2014-05-28 16:36:56	irungentoo	the 7.2 sources don't seem compromised though I only skimmed over the diff
+2014-05-28 16:36:59	ValdikSS		
+2014-05-28 16:36:59	IBangRMS	THIS IS ONLY THE FIRST STEP!
+2014-05-28 16:37:00	ValdikSS	rgaloppini 2 hours ago | link | parent
+2014-05-28 16:37:01	genii	More crippled than compromised
+2014-05-28 16:37:02	ValdikSS	Providing some details from SourceForge:
+2014-05-28 16:37:03	ValdikSS	1. We have had no contact with the TrueCrypt project team (and thus no complaints).
+2014-05-28 16:37:05	ValdikSS	2. We see no indicator of account compromise; current usage is consistent with past usage.
+2014-05-28 16:37:06	ValdikSS	3. Our recent SourceForge forced password change was triggered by infrastructure improvements not a compromise. FMI see http://sourceforge.net/blog/forced-password-change/
+2014-05-28 16:37:06	Andorin	oh lol
+2014-05-28 16:37:08	ValdikSS	Thank you,
+2014-05-28 16:37:08	<--	Ussat (~Ussat@pdpc/supporter/active/ussat) has left #truecrypt ("Leaving")
+2014-05-28 16:37:08	Andorin	"We ran the executable in a virtual machine so that you don't have to, and on Windows 8.1 it was blocked by the SmartScreen feature, suggesting it may contain malware."
+2014-05-28 16:37:09	ValdikSS	The SourceForge Team communityteam@sourceforge.net
+2014-05-28 16:37:17	savoca	irungentoo: can you mirror me 7.1 sources?
+2014-05-28 16:37:18	<--	Guest72387 (59f8a897@gateway/web/freenode/ip.89.248.168.151) has quit (Ping timeout: 240 seconds)
+2014-05-28 16:37:23	Sling	ValdikSS: unconfirmed though
+2014-05-28 16:37:35	-->	Guest___ (~textual@72-48-172-162.static.grandenetworks.net) has joined #truecrypt
+2014-05-28 16:37:40	<--	moloch_ (~moloch@50.247.103.42) has quit (Remote host closed the connection)
+2014-05-28 16:37:40	Andorin	ValdikSS: Link?
+2014-05-28 16:37:43	-->	str_t (~str_t@24-116-233-132.cpe.cableone.net) has joined #truecrypt
+2014-05-28 16:37:45	--	Guest___ is now known as MacBeEo
+2014-05-28 16:37:51	<--	mintr (~mintr@m77-218-98-239.cust.tele2.se) has quit (Remote host closed the connection)
+2014-05-28 16:38:05	ICARUSFOUNDYOU	Sling: My systems are analyzing slices of his brain as we speak
+2014-05-28 16:38:09	ICARUSFOUNDYOU	your movement will die
+2014-05-28 16:38:14	ICARUSFOUNDYOU	and so will you

@@ -1,0 +1,206 @@
+2014-07-02 13:56:48	-->	muricula (kronquii@moz-2F636E0B.onid.oregonstate.edu) has joined #servicedesk
+2014-07-02 13:56:48	--	Topic for #servicedesk is "#servicedesk Mozilla Service Desk - a part of the greater End User Services team || say "servicedesk" for immediate assistance ||  office hours M-F 8-6 PT || https://mozilla.service-now.com/"
+2014-07-02 13:56:48	--	Topic set by csorenson on Fri, 24 May 2013 15:38:35
+2014-07-02 13:56:48	--	Nicks #servicedesk: [@csorenson @hlangi @jbraddock @pdang abr adam adamlofting adamm aelliott aignacio AirMozillaMTV2 alainez albert alexis alinah1 Ami_Ty_ andym arog AsaDotzler ashish ashlee asobolev ato__ axel bajaj Becca bholley bkero blassey Boriss brambles brosnan bwalker carlosdp cassandra chance chilts clee clytn CocoMo cshields|afk curtisk cyee daleharvey davida dbialer dcamp dcurado ddemerson deanj decoder dhylands dietrich digitarald dmarcos dmoore dolske dria dumitru epierce ericz erikvold felipe Fill fox2mike fredy funnel gavin gaye gfritzsche Gijs glandium glob|away gozala gps gregglind HappyLoaf ivan Jaime janx jaws jbonacci jcarpenter jcollings jen jhford jlin joes John-Galt johnath johns jpierre03 jrgm jst justdave KattT kbrosnan khuey kinger kthiessen|mtg laura lightsofapollo limed Lindsay lmandel lonnen lsblakk lucyeoh luwang lviana mardi mars mdoglio|pto mhenretty mikedeboer mikeh mjrosenb mpoessy mreid mschroeder muffinresearch muricula mythmon natim nchapman negge nli nli-- nmatsakis|away oremj ozten paulnispel phlsa przemek RaFromBRC ralphdaub rbarnes rbryce rdandu reed retornam rfeeley Richard rolaes rory rtucker|camping rvitillo sancus secretrobotron selenamarie seth soap stormy sydpolk tad TheOne tobytailor Tomcat|afk ttaubert Tycho ulfr Unfocused vdoan vinh w0ts0n wchen wenzel williamq|out williamr|out winniea ybon yvan yzen zz_seif]
+2014-07-02 13:56:48	--	Channel #servicedesk: 174 nicks (4 ops, 0 halfops, 0 voices, 170 normals)
+2014-07-02 13:56:50	--	Channel created on Mon, 12 Aug 2013 21:00:25
+2014-07-02 13:57:25	muricula	servicedesk: Hey I added a key to login.mozilla.org but I can't ssh to people.mozilla.com
+2014-07-02 13:57:56	 *	muricula is an intern, which may be part of the problem
+2014-07-02 14:00:06	<--	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 14:01:00	-->	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:01:14	mpoessy	muricula: https://mana.mozilla.org/wiki/display/SD/Accessing+people.mozilla.org+on+a+Mac?src=search
+2014-07-02 14:02:04	mpoessy	muricula: pls take a look at the mana page. if you haven't already you need to have your SSH key added to your LDAP account
+2014-07-02 14:02:48	-->	mayabarrow (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:02:54	-->	dbialer1 (Adium@A435F4BA.A7D499EC.2321E71E.IP) has joined #servicedesk
+2014-07-02 14:03:31	<--	dbialer (Adium@A435F4BA.A7D499EC.2321E71E.IP) has quit (Ping timeout)
+2014-07-02 14:04:26	<--	epierce (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 14:05:11	<--	dbialer1 (Adium@A435F4BA.A7D499EC.2321E71E.IP) has quit (Connection reset by peer)
+2014-07-02 14:05:27	<--	jrgm (chatzilla@moz-62518563.mtv2.mozilla.com) has quit (Ping timeout)
+2014-07-02 14:06:13	-->	lilyc (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:06:53	-->	dbialer (Adium@A435F4BA.A7D499EC.2321E71E.IP) has joined #servicedesk
+2014-07-02 14:07:36	<--	bholley (bholley@32EFA1FF.F0338C73.AECC5372.IP) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-02 14:07:56	-->	bholley (bholley@32EFA1FF.F0338C73.AECC5372.IP) has joined #servicedesk
+2014-07-02 14:08:02	<--	bholley (bholley@32EFA1FF.F0338C73.AECC5372.IP) has quit (Quit: bholley)
+2014-07-02 14:08:09	-->	jrgm (chatzilla@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:08:37	<--	phlsa (phlsa@moz-36C2062B.dynamic.mnet-online.de) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-02 14:09:13	<--	jcarpenter (jcarpenter@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving...)
+2014-07-02 14:09:55	chance	does moz have wrist rests already, or is that an external order?
+2014-07-02 14:10:02	<--	lucyeoh (lucyeoh@FCCEA34F.7672369.D8E68FF6.IP) has quit (Ping timeout)
+2014-07-02 14:10:25	-->	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:11:48	-->	simona (Adium@moz-52914EE9.cpe.net.cable.rogers.com) has joined #servicedesk
+2014-07-02 14:12:51	-->	epierce (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:13:06	<--	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 14:13:15	-->	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:13:25	@hlangi	chance: you can ask in #wpr
+2014-07-02 14:14:23	<--	simona (Adium@moz-52914EE9.cpe.net.cable.rogers.com) has quit (Quit: Leaving.)
+2014-07-02 14:14:40	<--	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 14:15:10	-->	lucyeoh (lucyeoh@13F2CEC5.7672369.D8E68FF6.IP) has joined #servicedesk
+2014-07-02 14:16:17	<--	khuey (khuey@moz-DB4A9C19.scl3.mozilla.com) has quit (Ping timeout)
+2014-07-02 14:17:10	--	kthiessen|mtg is now known as kthiessen
+2014-07-02 14:18:33	<--	rbarnes (rbarnes@BA2E35F6.5E7AC5F4.FAA4474F.IP) has quit (Input/output error)
+2014-07-02 14:18:51	<--	clee (clee@moz-62518563.mtv2.mozilla.com) has quit (Quit: clee)
+2014-07-02 14:19:09	<--	aelliott (aelliott@moz-73476B80.hfc.comcastbusiness.net) has quit (Ping timeout)
+2014-07-02 14:19:27	-->	asobolev1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:19:27	-->	khuey (khuey@moz-DB4A9C19.scl3.mozilla.com) has joined #servicedesk
+2014-07-02 14:19:31	--	curtisk is now known as curtisk|afk
+2014-07-02 14:19:31	<--	asobolev (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Connection reset by peer)
+2014-07-02 14:19:58	-->	habber (habber@moz-C07D5168.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:20:30	-->	rbarnes (rbarnes@BA2E35F6.5E7AC5F4.FAA4474F.IP) has joined #servicedesk
+2014-07-02 14:20:31	-->	jcarpenter (jcarpenter@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:22:13	-->	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:25:27	<--	KattT (Katt_Taylo@125EF623.B2666F0E.66399531.IP) has quit (Quit: Leaving.)
+2014-07-02 14:28:28	<--	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has quit (Ping timeout)
+2014-07-02 14:29:01	--	gregglind is now known as gregglind_away
+2014-07-02 14:29:15	-->	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:29:18	-->	aelliott (aelliott@moz-73476B80.hfc.comcastbusiness.net) has joined #servicedesk
+2014-07-02 14:29:19	<--	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has left #servicedesk
+2014-07-02 14:30:01	-->	KattT (Katt_Taylo@125EF623.B2666F0E.66399531.IP) has joined #servicedesk
+2014-07-02 14:30:38	-->	jcollings1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 14:30:38	<--	jcollings (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Connection reset by peer)
+2014-07-02 14:31:01	muricula	mpoessy: thanks
+2014-07-02 14:31:06	<--	rbarnes (rbarnes@BA2E35F6.5E7AC5F4.FAA4474F.IP) has quit (Input/output error)
+2014-07-02 14:33:32	<--	winniea (Adium@moz-1FF2B740.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-07-02 14:34:06	-->	simona (Adium@moz-52914EE9.cpe.net.cable.rogers.com) has joined #servicedesk
+2014-07-02 14:35:09	<--	Lindsay (Instantbir@moz-62518563.mtv2.mozilla.com) has quit (Ping timeout)
+2014-07-02 14:36:20	--	williamr|out is now known as williamr
+2014-07-02 14:36:23	<--	rfeeley (rfeeley@13F2CEC5.7672369.D8E68FF6.IP) has quit (Connection reset by peer)
+2014-07-02 14:36:41	-->	rfeeley (rfeeley@13F2CEC5.7672369.D8E68FF6.IP) has joined #servicedesk
+2014-07-02 14:36:42	<--	adamlofting (uid23939@moz-5F4AA75A.irccloud.com) has quit (Quit: Connection closed for inactivity)
+2014-07-02 14:36:56	-->	piyushw (Adium@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:37:01	--	gregglind_away is now known as gregglind
+2014-07-02 14:37:02	<--	simona (Adium@moz-52914EE9.cpe.net.cable.rogers.com) has quit (Quit: Leaving.)
+2014-07-02 14:40:37	piyushw	hello servicedesk, so we have WebStorm (http://www.jetbrains.com/webstorm/buy/) Open Source Mozilla license?
+2014-07-02 14:41:20	-->	Lindsay (Instantbir@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:41:57	<--	aelliott (aelliott@moz-73476B80.hfc.comcastbusiness.net) has quit (Ping timeout)
+2014-07-02 14:42:08	mpoessy	piyushw: we do not have a license. please submit a service now request if you would like a license
+2014-07-02 14:42:38	piyushw	mpoessy: Thanks!
+2014-07-02 14:44:55	--	williamr is now known as williamr|out
+2014-07-02 14:45:53	mpoessy	piyushw:  yw np
+2014-07-02 14:48:29	-->	clee (clee@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:49:24	-->	mruttley (mruttley@785CEFA1.6C0BE84B.472E66D7.IP) has joined #servicedesk
+2014-07-02 14:49:55	<--	jcarpenter (jcarpenter@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving...)
+2014-07-02 14:53:57	<--	Becca (becca@13F2CEC5.7672369.D8E68FF6.IP) has quit (Quit: Becca)
+2014-07-02 14:55:46	-->	aplohman (aplohman@FCCEA34F.7672369.D8E68FF6.IP) has joined #servicedesk
+2014-07-02 14:56:42	<--	aplohman (aplohman@FCCEA34F.7672369.D8E68FF6.IP) has quit (Quit: aplohman)
+2014-07-02 14:57:31	-->	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 14:57:43	-->	dianeb (dianeb@moz-C19EE07B.public.monkeybrains.net) has joined #servicedesk
+2014-07-02 14:57:43	<--	kfong (mozilla@moz-62518563.mtv2.mozilla.com) has left #servicedesk
+2014-07-02 14:58:07	-->	Eli (eperelman@B659F71B.9B5F38B0.20F9FC3E.IP) has joined #servicedesk
+2014-07-02 14:58:35	Eli	servicedesk how can i get vpn access to be able to view http://selenium.qa.mtv2.mozilla.com:8080/view/B2G Perf/ ?
+2014-07-02 14:59:13	<--	piyushw (Adium@moz-62518563.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 15:00:12	<--	jrgm (chatzilla@moz-62518563.mtv2.mozilla.com) has quit (Ping timeout)
+2014-07-02 15:02:10	-->	jrgm (chatzilla@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 15:02:54	<--	jcollings1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 15:05:38	<--	clee (clee@moz-62518563.mtv2.mozilla.com) has quit (Quit: clee)
+2014-07-02 15:05:40	<--	lucyeoh (lucyeoh@13F2CEC5.7672369.D8E68FF6.IP) has quit (Quit: lucyeoh)
+2014-07-02 15:05:48	<--	rfeeley (rfeeley@13F2CEC5.7672369.D8E68FF6.IP) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-02 15:08:39	-->	jedp (jedp@moz-3AA8030E.dsl.dynamic.sonic.net) has joined #servicedesk
+2014-07-02 15:08:41	--	gregglind is now known as gregglind_away
+2014-07-02 15:09:19	<--	dianeb (dianeb@moz-C19EE07B.public.monkeybrains.net) has left #servicedesk
+2014-07-02 15:11:30	<--	habber (habber@moz-C07D5168.p2p.sfo1.mozilla.com) has quit (Quit: habber)
+2014-07-02 15:12:36	-->	aelliott (aelliott@moz-73476B80.hfc.comcastbusiness.net) has joined #servicedesk
+2014-07-02 15:12:52	-->	clee (clee@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 15:14:35	--	gregglind_away is now known as gregglind
+2014-07-02 15:14:37	--	gregglind is now known as gregglind_away
+2014-07-02 15:16:23	<--	Ami_Ty_ (Amie@moz-62518563.mtv2.mozilla.com) has quit (Quit: Ami_Ty_)
+2014-07-02 15:16:37	<--	aelliott (aelliott@moz-73476B80.hfc.comcastbusiness.net) has quit (Quit: Anti-social ATM)
+2014-07-02 15:18:00	<--	ralphdaub (Adium@125EF623.B2666F0E.66399531.IP) has quit (Quit: Leaving.)
+2014-07-02 15:18:23	-->	Ami_Ty_ (Amie@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 15:18:36	--	khuey is now known as khuey|away
+2014-07-02 15:18:42	<--	bkero (bkero@B09BE30.721446DC.5E72ECD5.IP) has quit (Ping timeout)
+2014-07-02 15:23:19	-->	aelliott (aelliott@moz-73476B80.hfc.comcastbusiness.net) has joined #servicedesk
+2014-07-02 15:28:06	<--	asobolev1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 15:36:32	<--	Tycho (Adium@moz-EE5DBC28.cable.teksavvy.com) has quit (Quit: Leaving.)
+2014-07-02 15:37:07	<--	mruttley (mruttley@785CEFA1.6C0BE84B.472E66D7.IP) has quit (Quit: mruttley)
+2014-07-02 15:37:59	<--	lilyc (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has left #servicedesk
+2014-07-02 15:39:09	-->	mruttley (mruttley@785CEFA1.6C0BE84B.472E66D7.IP) has joined #servicedesk
+2014-07-02 15:42:10	<--	kinger (Adium@moz-A46A2FE7.dynamic.t-2.net) has quit (Quit: Leaving.)
+2014-07-02 15:44:56	<--	mruttley (mruttley@785CEFA1.6C0BE84B.472E66D7.IP) has quit (Quit: mruttley)
+2014-07-02 15:45:28	-->	Tycho (Adium@moz-EE5DBC28.cable.teksavvy.com) has joined #servicedesk
+2014-07-02 15:45:42	<--	Tycho (Adium@moz-EE5DBC28.cable.teksavvy.com) has quit (Input/output error)
+2014-07-02 15:48:55	<--	przemek (pabratowsk@moz-615D672C.dsl.bell.ca) has quit (Quit: przemek)
+2014-07-02 15:51:41	<--	alinah1 (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 15:51:43	<--	Lindsay (Instantbir@moz-62518563.mtv2.mozilla.com) has quit (Ping timeout)
+2014-07-02 15:51:44	-->	alinah (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 15:53:28	--	paulnispel is now known as paulnispel|brb
+2014-07-02 15:55:16	<--	jrgm (chatzilla@moz-62518563.mtv2.mozilla.com) has quit (Ping timeout)
+2014-07-02 15:56:08	-->	jrgm (chatzilla@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 16:00:29	-->	jcarpenter (jcarpenter@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 16:03:25	<--	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has left #servicedesk
+2014-07-02 16:11:15	-->	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has joined #servicedesk
+2014-07-02 16:18:06	-->	sturner (Adium@moz-B4B431C5.dhcp.embarqhsd.net) has joined #servicedesk
+2014-07-02 16:18:19	-->	ralphdaub (Adium@125EF623.B2666F0E.66399531.IP) has joined #servicedesk
+2014-07-02 16:21:01	--	paulnispel|brb is now known as paulnispel
+2014-07-02 16:21:06	<--	rdandu (uid19154@moz-A42E5B7B.irccloud.com) has quit (Quit: Connection closed for inactivity)
+2014-07-02 16:22:42	muricula	mpoessy: I'm on site at Mtn. View in the second floor kitchen
+2014-07-02 16:24:10	muricula	Where are you?
+2014-07-02 16:28:13	-->	bholley (bholley@32EFA1FF.F0338C73.AECC5372.IP) has joined #servicedesk
+2014-07-02 16:28:16	mpoessy	muricula: i am in sf. please feel free to stop by the service desk in mtv
+2014-07-02 16:28:56	<--	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has quit (Input/output error)
+2014-07-02 16:28:58	muricula	okay thanks
+2014-07-02 16:29:27	<--	Ami_Ty_ (Amie@moz-62518563.mtv2.mozilla.com) has quit (Quit: Ami_Ty_)
+2014-07-02 16:30:01	mpoessy	muricula:  np. everything looks good on our end. it could be you might have to deleted your key and create a new one.
+2014-07-02 16:30:09	-->	Ami_Ty_ (Amie@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 16:30:32	<--	lmandel (lmandel@7083BA87.1F93A08E.ADB88A9.IP) has quit (Input/output error)
+2014-07-02 16:30:33	-->	asobolev (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 16:30:53	-->	lmandel (lmandel@7083BA87.1F93A08E.ADB88A9.IP) has joined #servicedesk
+2014-07-02 16:31:00	<--	clee (clee@moz-62518563.mtv2.mozilla.com) has quit (Quit: clee)
+2014-07-02 16:32:02	<--	asobolev (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 16:32:52	<--	epierce (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 16:33:31	-->	clee (clee@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 16:33:40	-->	asobolev (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 16:33:47	<--	Gijs (gijs@moz-6FA91913.range86-173.btcentralplus.com) has quit (Quit: sleep)
+2014-07-02 16:33:57	<--	bholley (bholley@32EFA1FF.F0338C73.AECC5372.IP) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-02 16:34:59	<--	jcarpenter (jcarpenter@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving...)
+2014-07-02 16:35:54	--	chilts is now known as chilts|afk
+2014-07-02 16:37:49	-->	epierce (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 16:38:20	--	williamr|out is now known as williamr
+2014-07-02 16:40:03	-->	bholley (bholley@32EFA1FF.F0338C73.AECC5372.IP) has joined #servicedesk
+2014-07-02 16:41:32	-->	habber (habber@85BDB6C0.7F902A53.1AC1566F.IP) has joined #servicedesk
+2014-07-02 16:41:54	-->	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 16:42:24	<--	yzen (yzen@moz-F62769B5.cpe.pppoe.ca) has quit (Ping timeout)
+2014-07-02 16:42:56	-->	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has joined #servicedesk
+2014-07-02 16:45:34	<--	bajaj (bajaj_afk@moz-24157589.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 16:45:38	-->	bajaj (bajaj_afk@moz-24157589.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 16:47:09	-->	lilyc (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 16:47:23	<--	Jaime (Jaime@3CADABED.4FA81D0A.23E4ADD5.IP) has quit (Quit: Jaime)
+2014-07-02 16:48:46	--	khuey|away is now known as khuey
+2014-07-02 16:48:53	-->	lucyeoh (lucyeoh@moz-5C9F417E.cpe.pppoe.ca) has joined #servicedesk
+2014-07-02 16:54:06	-->	winniea (Adium@moz-1FF2B740.hsd1.ca.comcast.net) has joined #servicedesk
+2014-07-02 16:56:48	<--	aelliott (aelliott@moz-73476B80.hfc.comcastbusiness.net) has quit (Quit: Anti-social ATM)
+2014-07-02 16:56:58	<--	lviana (Adium@moz-62518563.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 16:59:38	<--	winniea (Adium@moz-1FF2B740.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-07-02 16:59:56	<--	AsaDotzler (textual@moz-62518563.mtv2.mozilla.com) has quit (Connection reset by peer)
+2014-07-02 17:00:19	-->	AsaDotzler (textual@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 17:00:55	-->	asobolev1 (Adium@moz-C07D5168.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 17:01:26	<--	asobolev (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Ping timeout)
+2014-07-02 17:03:20	<--	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has quit (Input/output error)
+2014-07-02 17:03:34	-->	asobolev (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 17:04:25	<--	asobolev1 (Adium@moz-C07D5168.p2p.sfo1.mozilla.com) has quit (Ping timeout)
+2014-07-02 17:06:13	<--	lucyeoh (lucyeoh@moz-5C9F417E.cpe.pppoe.ca) has quit (Quit: lucyeoh)
+2014-07-02 17:06:23	-->	winniea (Adium@moz-1FF2B740.hsd1.ca.comcast.net) has joined #servicedesk
+2014-07-02 17:08:52	<--	Ami_Ty_ (Amie@moz-62518563.mtv2.mozilla.com) has quit (Quit: Ami_Ty_)
+2014-07-02 17:10:17	-->	rbarnes (rbarnes@moz-5E1F5C28.washdc.fios.verizon.net) has joined #servicedesk
+2014-07-02 17:10:59	-->	rdandu (uid19154@moz-A42E5B7B.irccloud.com) has joined #servicedesk
+2014-07-02 17:11:04	-->	Ami_Ty_ (Amie@moz-62518563.mtv2.mozilla.com) has joined #servicedesk
+2014-07-02 17:12:11	<--	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 17:13:06	-->	alainez (alainez@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 17:13:22	<--	winniea (Adium@moz-1FF2B740.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-07-02 17:16:19	<--	lilyc (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 17:16:23	-->	lilyc (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #servicedesk
+2014-07-02 17:16:55	-->	dianeb (dianeb@moz-C19EE07B.public.monkeybrains.net) has joined #servicedesk
+2014-07-02 17:18:57	<--	dianeb (dianeb@moz-C19EE07B.public.monkeybrains.net) has left #servicedesk
+2014-07-02 17:20:39	-->	lucyeoh (lucyeoh@moz-5C9F417E.cpe.pppoe.ca) has joined #servicedesk
+2014-07-02 17:21:26	--	khuey is now known as khuey|away
+2014-07-02 17:22:34	<--	aignacio (aignacio@moz-D2114C59.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-07-02 17:22:54	<--	Ami_Ty_ (Amie@moz-62518563.mtv2.mozilla.com) has quit (Quit: Ami_Ty_)
+2014-07-02 17:25:58	<--	CocoMo (CocoMo@moz-62518563.mtv2.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 17:26:13	<--	clee (clee@moz-62518563.mtv2.mozilla.com) has quit (Quit: clee)
+2014-07-02 17:26:50	<--	KattT (Katt_Taylo@125EF623.B2666F0E.66399531.IP) has quit (Quit: Leaving.)
+2014-07-02 17:28:32	-->	bkero (bkero@B09BE30.721446DC.5E72ECD5.IP) has joined #servicedesk
+2014-07-02 17:28:57	<--	epierce (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 17:29:42	<--	habber (habber@85BDB6C0.7F902A53.1AC1566F.IP) has quit (Quit: habber)
+2014-07-02 17:31:44	<--	lilyc (Adium@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-07-02 17:32:12	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-07-02 17:34:20	<--	jedp (jedp@moz-3AA8030E.dsl.dynamic.sonic.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 17:35:33	<--	sturner (Adium@moz-B4B431C5.dhcp.embarqhsd.net) has quit (Quit: Leaving.)

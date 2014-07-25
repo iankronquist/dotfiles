@@ -1,0 +1,247 @@
+2014-05-17 17:17:12	lucyw	https://www.youtube.com/watch?v=cVtw9zbsRkY  You might enjoy this song
+2014-05-17 17:17:56	lucyw	http://lyricstranslate.com/en/shock-shock.html  lyrics and translation, as the lyrics can be hard to understand and I think are very high quality
+2014-05-17 17:18:29	lucyw	(listen first, then read).
+2014-05-17 17:22:15	lucyw	https://www.youtube.com/watch?v=2Io9Pz3i4hg
+2014-05-17 17:22:20	lucyw	For when you're done with the last one
+2014-05-17 17:42:06	lucyw	http://classes.engr.oregonstate.edu/eecs/spring2014/eecs162-001/assign/assign4.pdf
+2014-05-17 18:40:13	lucyw	Hey, when are people leaving?
+2014-05-17 18:40:21	lucyw	As in do you know/can you ask?
+2014-05-18 09:48:45	lucyw	I have to admit, it's difficult to see what everyone's problems with HTML and CSS are.  They feel very simple -- almost childish in many ways -- yet garner many complaints and posts like that.  Are people just trying to be funny/like to complain about things?  Are there actual flaws with the way CSS operates that I just don't know about or see?
+2014-05-18 09:48:57	lucyw	Actually, that's a question for lug.
+2014-05-18 13:59:51	muricula	They suck! Have you ever tried to create an interactive webpage which responds to user input dynamically? If you just want to mark up text pictures and video with some nice colors that's simple.
+2014-05-18 14:05:57	muricula	However those tools really weren't designed for the sorts of things people want to do these days, and each new version brings a variety of awkward hacks of new features to half fix these. Really it's a problem with poorly designed tools which did not anticpate the actual needs of the future.
+2014-05-18 14:09:31	muricula	People complain about the quircks of javascript all the time, and for good reason. Also, even if you think you have something which works it probably uses tech which doesn't work, or worse yet works differently, in different browsers
+2014-05-18 14:09:52	muricula	Performance isn't great either.
+2014-05-18 14:12:12	muricula	Doing stuff like this is a pain in the ass:
+2014-05-18 14:12:14	muricula	https://devart.withgoogle.com/
+2014-05-18 16:17:00	muricula	http://aeon.co/magazine/living-together/james-somers-web-developer-money/
+2014-05-18 16:17:13	muricula	What do you think
+2014-05-18 16:17:14	muricula	?
+2014-05-18 19:43:46	lucyw	I mean...most programming is kind of a pain in the ass, if you look at it as a series of hacks and strange things having to do with obscure commands in order to get to a fairly simple result which is what you want.
+2014-05-18 19:44:27	lucyw	But at the same time, trying to achieve efficiency and simplicity and beauty with those hacks, and piece them together in just the right way, is part of the fun and makes the result all the more rewarding.
+2014-05-18 19:46:17	lucyw	I guess my point in the above is that I don't understand how other programming languages are different.  Perhaps this demonstrates a complete lack of understanding as to how languages operate, or what distinguishes a language which encourages non-hackish behavior from a language like CSS or Javascript.
+2014-05-18 19:47:26	lucyw	But from my point of view, html, CSS, and javascript (particularly with jquery, and the DOM), are very user-friendly and accessible ways to make something.  Much more so than C++ or Haskell, certainly.
+2014-05-18 19:48:26	lucyw	I mean, honestly, most of what I do feels straight-up silly.  I'm getting paid to tell one div to be red, one to be green, one to be positioned just so, etc.
+2014-05-18 19:48:41	lucyw	I'll read the article now.
+2014-05-18 20:03:23	muricula	http://www.staff.science.uu.nl/~Gadda001/goodtheorist/index.html
+2014-05-18 20:06:47	lucyw	 I know exactly what should be taught to the beginning student. The names and topics of the absolutely necessary lecture courses are easy to list, and this is what I have done below. It is my intention to search on the web where the really useful papers and books are, preferably downloadable as well. This way, the costs of becoming a theoretical physicist should not exceed much the price of a computer
+2014-05-18 20:06:49	lucyw	with internet connection, a printer, and lots of paper and pens.
+2014-05-18 20:07:56	lucyw	This is how all classes should be taught and treated, I believe.  It infuriates me to no end that we have to PAY for textbooks (knowledge in a mostly obsolete and unnecessarily expensive form), and that the internet is so often discredited in academic settings.
+2014-05-18 20:08:12	lucyw	being that I believe we've had this conversation before, I'll leave my rant at that.
+2014-05-18 20:38:16	lucyw	https://www.youtube.com/watch?v=kvEvATBiQ5U  if you're hard up for music
+2014-05-18 21:43:53	muricula	would you be interested in reading through this?
+2014-05-19 09:30:30	lucyw	Reading through what?  Also thank you so much for taking care of scoby and putting it in front of my door :)  much appreciated
+2014-05-19 10:26:40	muricula	reading through the online course at the link I sent you.
+2014-05-19 10:28:15	lucyw	Very much so, and I'm (likely) going to start here http://www.staff.science.uu.nl/~Gadda001/goodtheorist/compphys.html
+2014-05-19 10:28:37	lucyw	I mean, we'll see what manifests, and how much time I have, but certainly.
+2014-05-19 15:09:14	lucyw	http://grads.iges.org/grads/downloads.html hey, how should I do this....the Centos one?  Source?  I'm uncertain...
+2014-05-19 16:40:49	muricula	ftp://cola.gmu.edu/grads/2.0/grads-2.0.2-bin-CentOS5.8-x86_64.tar.gz
+2014-05-19 16:42:42	muricula	So, you want the centos one. That means it's a .rpm (which is just like a .deb except in a different format for rhel/centos)
+2014-05-19 16:43:01	muricula	Actually wait, you're running ubuntu, right?
+2014-05-19 16:43:30	muricula	If so, search the repositories to see if it's packaged. Otherwise just compile it from source
+2014-05-19 16:44:46	muricula	Okay, just install this package from the ubuntu repos http://packages.ubuntu.com/trusty/grads
+2014-05-19 21:23:01	lucyw	hey, Jeff and I are not sure what's happening.  There something about outputting into a binary file
+2014-05-20 11:19:27	lucyw	If Kitzhaber is re-elected and serves out his term, he will become the second longest-serving governor in U.S. history.  ~Wikipedia
+2014-05-20 11:19:43	lucyw	http://blog.lib.umn.edu/cspg/smartpolitics/2013/12/kitzhaber_launches_bid_to_beco.php actual source
+2014-05-20 11:23:02	lucyw	Ifeanyichukwu Diru: the only Democratic candidate who filed to challenge Kitzhaber, does not appear to be actively campaigning and did not respond to repeated attempts to contact him.
+2014-05-20 11:23:12	lucyw	http://www.heraldandnews.com/news/oregon/governor-candidate-profiles/article_f6685498-d8a5-11e3-a7a1-0019bb2963f4.html
+2014-05-20 11:23:31	lucyw	Bizarre...but made the decision easy?
+2014-05-20 21:27:01	lucyw	http://www.scientificamerican.com/article/how-to-make-graphene-in-your-kitchen-blender/
+2014-05-21 15:33:54	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (Ping timeout: 265 seconds)
+2014-05-21 17:42:40	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-22 10:40:37	lucyw	Now officially part of dev team (I guess?  Ken is including me on the schedule, which seems to be about as official as it gets around here).
+2014-05-22 10:41:07	lucyw	Luckiest girl in the world, man.
+2014-05-22 12:03:38	muricula	lucyw: you should come to the dev meetings then. Not to say that they're terribly helpful but you might feel more like part of the team.
+2014-05-22 12:03:54	muricula	I just highlighted you in a pm. duh
+2014-05-22 13:06:27	lucyw	nbd. And I have a class (which I actually have to go to) at the current time, otherwise I would
+2014-05-22 13:06:48	lucyw	But they're moving around the schedule for all the new people.
+2014-05-23 21:15:34	lucyw	32% voter turn out, lowest in 54 years
+2014-05-23 21:15:41	lucyw	Point of interest.
+2014-05-26 23:18:25	muricula	voters--
+2014-05-26 23:18:33	muricula	shitty turnout
+2014-05-27 15:44:56	lucyw	Hey, are you going to the "farewell to the Europeans" thing?  I was planning on going, and wouldn't mind company walking to and from.
+2014-05-27 16:01:45	muricula	what is this?
+2014-05-27 16:29:14	lucyw	It's a party that's being thrown for my Zumba friends because they're going back to spain at the end of June.  Facebook said you were invited.
+2014-05-27 16:37:57	muricula	when is it?
+2014-05-27 17:00:36	lucyw	Friday at 8
+2014-05-27 17:00:39	lucyw	I think
+2014-05-28 10:08:26	lucyw	Hey, out of curiosity, is databases mysql?  Or a different flavor of sql?
+2014-05-28 10:24:26	lucyw	Hey, not sure if you're in omgmanatees, but a group of us is going to Eugene tonight to see a talk on security
+2014-05-28 10:24:31	lucyw	pm edunham if you want to come
+2014-05-28 10:24:46	lucyw	http://ohc.uoregon.edu/S_2014-Schneier.html ?
+2014-05-28 10:24:49	lucyw	no question mark
+2014-05-29 13:42:54	lucyw	lunch soon?
+2014-05-29 13:47:22	muricula	I have class soon
+2014-05-29 13:47:37	muricula	so now or not at all probably
+2014-05-30 01:03:54		irc: disconnected from server
+2014-05-30 13:14:29	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-05-30 14:35:29	lucyw	GUESS WHO IS NOW PROJECT LEAD ON FENESTRA
+2014-05-30 14:35:40	lucyw	I have responsibilities and leadership and such
+2014-05-30 14:35:41	lucyw	:D
+2014-05-30 14:35:46	lucyw	wut wuuuut
+2014-05-30 16:10:03	muricula	is this "ask and thou shall receive"?
+2014-05-31 01:34:07	lucyw	I mean...basically.
+2014-05-31 01:34:44	lucyw	But hey, I'm getting somewhere!
+2014-05-31 01:35:31	lucyw	ps. this is a degu http://upload.wikimedia.org/wikipedia/commons/8/83/2007-12-09_%2820%29_Degu.JPG
+2014-05-31 01:35:36	lucyw	so cute :3
+2014-05-31 15:21:45	muricula	why are you sending me pictures of desert squirrels?
+2014-05-31 15:56:52	lucyw	They were cute?  I don't remember why...
+2014-05-31 19:03:11	muricula	https://github.com/iankronquist/trakcat
+2014-06-02 17:05:11	lucyw	Hey, how much do you know about nagios
+2014-06-02 17:05:13	lucyw	?
+2014-06-03 13:01:52	muricula	lucyw: nothing
+2014-06-03 13:02:37	muricula	You should join #osusec
+2014-06-03 18:25:44	muricula	If you don't mind my asking, have you had a crush on me for a while and I was just oblivious?
+2014-06-03 18:27:34	lucyw	Remember when I did the same thing over winter break?  It never really went away.  I just try not to make you uncomfortable, and am fine with just being friends if that's all you'd like to be.
+2014-06-03 18:28:00	lucyw	But I'm glad you didn't notice--it would have been awkward if you had.
+2014-06-03 21:28:08	lucyw	https://www.youtube.com/watch?v=LFq0bz2MlRc
+2014-06-04 21:34:39	lucyw	Day changed to Wed, 04 Jun 2014
+2014-06-04 21:34:41	lucyw	01:26:56 jnoah | they say that your kiss is like a pill, designed to change the way that i feel
+2014-06-04 21:34:43	lucyw	01:27:24 jnoah | for every heartache you've got the cure. that's why i put my trust in you.
+2014-06-04 21:34:45	lucyw	01:28:15 jnoah | everybody's lookin' for what they want. and everybody's lookin' for what they need
+2014-06-04 21:34:47	lucyw	01:28:48 jnoah | gotta keep lookin' for what i want. gotta keep lookin' for what i want
+2014-06-04 21:34:49	lucyw	01:29:20 jnoah | i don't even know your name. so i will call you medicine. you can ease my pain.
+2014-06-04 21:34:51	lucyw	01:29:37     * | jnoah is done. sorry. random lyrics from a song on right now
+2014-06-04 21:34:53	lucyw	01:32:55 jnoah | (i invited you to the beer channel. yes. you can't drink, but it'd be nice if you were there :P)
+2014-06-04 21:34:55	lucyw	02:06:17 jnoah | ignore ^
+2014-06-04 21:34:57	lucyw	02:06:39 jnoah | it all boils down to: i want to be able to dance to http://youtu.be/d-W0OCRIauM
+2014-06-04 23:25:14	lucyw	http://www.gameswithwords.org/WhichEnglish/
+2014-06-04 23:58:29	muricula	www.tolerance.org/hidden_bias/tutorials/04.
+2014-06-04 23:58:32	muricula	html
+2014-06-05 11:18:43	lucyw	Hey, where are you at in terms of the bandwidth usage widget?  Would help from jnoah be useful?
+2014-06-05 13:43:27	muricula	I have no idea what you're talking about?
+2014-06-05 13:43:34	muricula	s/?//g
+2014-06-05 13:46:51	lucyw	Well, https://docs.google.com/document/d/1G5wfvZlda7aabRNwu5Jlw8MBICGt7qO0OmB5ZFxsiCY/edit <--you and Jack were talking about having some kind of widget to display (I assume in a graph form) power consumption per project, and given that you commented on it and I know you're working with snmp I assumed it was towards this
+2014-06-05 13:47:49	lucyw	I think I even asked you about the end goal and you said it was for fenestra (I might be making that up though)
+2014-06-05 15:07:00	muricula	You are making the second part up
+2014-06-05 15:07:42	muricula	Yeah, you don't know what I'm up to. Eventually there will be a json api which someone will be able to write a fenestra plugin for, but I am not working on that.
+2014-06-05 15:08:57	lucyw	regardless, would you like jnoah's help?
+2014-06-05 15:09:45	lucyw	well, you can ask for it if you'd like I suppose.
+2014-06-05 15:11:54	muricula	no, it isn't possible to do that at this point in time. If he needs something to do, tell him to PM me, I think I can find a way for him to help the pdumaster project
+2014-06-05 15:34:44	muricula	also, what was that last night? a copy pasta ail?
+2014-06-05 15:34:54	muricula	*fail
+2014-06-05 17:31:10	lucyw	No--you just commented on how close jnoah and I are, and quite frankly he makes me really uncomfortable sometimes.
+2014-06-05 17:32:16	lucyw	I don't know if you especially care--I didn't expect you to, but you said something to the effect of "you guys are always talking to each other", and I wanted to clarify the status of my friendship with him.
+2014-06-05 19:53:33	muricula	huh
+2014-06-05 19:54:36	muricula	I still think that it would be difficult for you to say something to make me uncomfortable.
+2014-06-05 19:54:58	lucyw	I think I already did, a little bit.
+2014-06-05 19:57:54	muricula	no, I don't think so 
+2014-06-05 20:03:34	lucyw	<3
+2014-06-05 20:04:10	muricula	meh
+2014-06-05 20:04:46	muricula	♥
+2014-06-05 20:07:16	lucyw	Haha, you win :)
+2014-06-05 20:11:16	lucyw	11100010:10011001:10100000
+2014-06-05 20:11:21	lucyw	well, that didn't work as hoped
+2014-06-05 20:15:00	muricula	what?
+2014-06-05 20:17:08	lucyw	That is the question.
+2014-06-05 20:21:41	lucyw	Also, I think this challenge will end one of two ways: 1. I say something that actually makes you uncomfortable, and therefore makes us both uncomfortable, or 2. I don't succeed and...well, don't succeed
+2014-06-05 20:22:18	lucyw	So...I choose that latter.  Unless there's some incentive to continue, but currently there isn't.  Also, that was an excellent post.
+2014-06-07 01:58:39	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 02:01:14	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 02:04:25	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-07 23:06:06	lucyw	music recommendations?
+2014-06-08 00:15:09	muricula	hmm
+2014-06-08 00:15:26	muricula	rodrgo y gabriela, tamacun or hanuman
+2014-06-08 00:17:10	muricula	So it seems to me that I am likely to drift apart from this group of friends next year. Part of me wants for that not to happen, and part of me wants to wander off anyway
+2014-06-08 00:18:04	muricula	It's interesting to think about how this may play out, but without the lounge as a common home I think some of us will be scattered to the winds
+2014-06-08 00:24:00	lucyw	Well, do you think they're very good friends?
+2014-06-08 00:25:08	lucyw	I imagine you'll stay close to people who are worth making the effort to see, and just say hi in passing to those who aren't.  But...c'est la vie.  One is silver and the other is gold.
+2014-06-08 00:25:13	lucyw	Or however that song went.
+2014-06-08 21:29:50	muricula	Mildly personal question, in your eyes how close a friend am I to you?
+2014-06-08 21:40:51	lucyw	Oh no!  Not personal questions!  Well...my answer depends a bit on the context for the question, but you're certainly someone I feel very comfortable around, care very much about, and who has had a significant impact on my life, all of which I consider to be primary qualities in a close friend
+2014-06-08 21:42:55	lucyw	In terms of how that will change in the future, I imagine that will rely on how our respective activities align--I could certainly see you going to Mozilla or landing some other amazing job after school, moving somewhere else, and only getting an email every few months asking how things are.
+2014-06-08 21:44:32	lucyw	But....if it's about the stupid beach thing to day (or the broader topic of this social group's relations), it makes me a little sad that you (and others) were excluded so deliberately, and I think points to how...not superficial, but fair-weather most of the friendships are.
+2014-06-08 21:45:45	lucyw	In that way, I think you're right about most drifting apart.
+2014-06-08 21:46:09	lucyw	And now I pose the same question to you.
+2014-06-08 21:48:46	muricula	Sorry this had nothing to do with the beach.
+2014-06-08 21:49:39	muricula	But you are correct in your assessment of this group
+2014-06-08 21:49:59	muricula	You and Evan are (somewhat obviously) my closest friends right now
+2014-06-08 21:52:17	muricula	There are few people in this group who I will make an effort to keep in touch with. A good example would be Raven, we are on the way to being fair friends, but I don't see her keeping in touch next year.
+2014-06-08 21:54:00	muricula	You're right about respective activities, we will certainly see each other regularly through school at the very least because of work. Beyond that it is difficult to speculate.
+2014-06-08 21:56:28	lucyw	Well, such is most things--it's difficult to know what our lives will be like a year from now, much less further into the future.  But I certainly hope to remain close friends with you and Evan (as if there's anyone who wishes to lose friends who are close to them).
+2014-06-08 22:19:48	lucyw	And...well, of course, the slight possibility of being a little more than friends
+2014-06-08 22:28:14	muricula	lucyw. I don't think I could stand being in a relationship with you. With anyone really, but especially you.
+2014-06-08 22:30:57	lucyw	Haha, ok :)
+2014-06-08 22:57:19	lucyw	sorry for asking--it just seemed as though you'd perhaps reconsidered.
+2014-06-08 23:40:12	muricula	sorry to say something in such a way as to lead you to believe I was leading you on.
+2014-06-08 23:40:40	muricula	I ask because in the past some of my best friends have not necessarily considered me one of their best friends
+2014-06-09 14:16:36	muricula	do you feel proud of what you have accomplished this year?
+2014-06-09 14:55:36	lucyw	Well, what qualifies as a best friend?  Or why would you consider tschuy and I in that category, rather?
+2014-06-09 14:56:14	lucyw	Well...yes and no.  It's hard to feel proud where I'm at compared to my peers (ie. you, chance, emily, etc.)
+2014-06-09 14:57:27	lucyw	At the same time I've certainly come a long way, both in how I view my education, how I take control of that education, and the sheer amount of knowledge in this field that I've gained.
+2014-06-09 14:59:13	lucyw	I'm also proud of many of my activities: volunteering for the elementary school, starting the women in tech group, working for the osl.  I'd certainly highlight those in a positive reflection.
+2014-06-09 15:02:28	lucyw	But....I've got a looooooong way to go.
+2014-06-09 15:02:33	lucyw	And now I pose the question to you.
+2014-06-09 15:05:09	muricula	It is pretty obvious to me what friends I feel closest to.
+2014-06-09 15:08:08	muricula	No, I don't feel proud of what I've done. I think I've failed myself a lot this year, and I have not come as far as I wanted.  Pride in my work is incredibly valuable to me, but I am not proud of what I have accomplished in school, at the OSL, or outside of school.
+2014-06-09 15:42:04	lucyw	Why do you think that happened?  It seems like you have a clear sense of where you'd like to go, and resources that could help you get there.
+2014-06-09 15:49:39	muricula	I'm not sure I know where I'd like to go actually. There is a well paved and easy path out of here to a job as a programmer. The question is, should I take it or do something more interesting?
+2014-06-09 15:49:57	muricula	I'm not sure I worked hard enough at some of the things which reall mattered.
+2014-06-09 15:50:13	lucyw	Such as your kernel?
+2014-06-09 15:50:36	muricula	That's one thing. Another is work on ORVSD etc.
+2014-06-09 15:51:13	 *	muricula is feeling emotional this week, which is quite unusual and in some ways unseettling.
+2014-06-09 15:57:03	lucyw	Why do you think that is?  Emotional in what way? (if you don't mind my asking)
+2014-06-09 16:00:39	lucyw	Also, in regards to doing more interesting things, I think we both know the answer.  I think you were expecting more of your professors, and given Jennifer and whoever else they have teaching were uninspired and disappointed.  But I think (hope) that there's someone here who can 1. Be a mentor to you and 2. give you some awesome/interesting research to do
+2014-06-09 16:00:45	lucyw	It's just a matter of finding that person.
+2014-06-09 16:02:12	lucyw	Keep in mind, too, that they may be at a different university--one of the nice things about the state university system is that most of your credits will probably transfer around, so...don't be afraid to ask the CAT people if there's anyone there who they think would be better suited to that task (if you haven't already)
+2014-06-09 18:09:22	muricula	I haven't asked the cat people yet, but I will be keeping PSU in mind.
+2014-06-09 18:10:06	muricula	Sad and frustrated is how I feel, but that doesn't seem like quite the whole story.
+2014-06-09 18:28:30	lucyw	Well, I'm sorry.  I hope going to mozilla turns things around a bit--it will definitely be a refreshing break from school/people-at-school, and should hopefully be a good challenge.  Anything I can do to help?
+2014-06-09 18:41:22	muricula	no. Thanks for talking though
+2014-06-10 09:20:49	lucyw	Hey, do you have a twitter account I could use for testing per chance?
+2014-06-10 10:24:46	lucyw	Nevermind--I just set one up.  Other question, though: what do you think of Ken and Justin Dugger?
+2014-06-10 12:35:38	muricula	muricula has a twitter
+2014-06-10 12:38:46	muricula	Ken and Justin are very different people. Lance runs the OSL because he is a charitable person and a saint. Ken is probably here because it's a good job (even if there are better ones in the industry) and he has family here I think. Ken is very hands off, and I like that.
+2014-06-10 12:39:35	muricula	Justin is very smart, but a total ass. However, if he agrees with something you say or gives assent to your project then it must be a good idea.
+2014-06-10 12:39:47	muricula	what do you think of them
+2014-06-10 12:39:48	muricula	?
+2014-06-10 12:47:57	lucyw	Well, I was talking to Ken about fenestra, and I realized that while I too really appreciate his hands-off-ness, as it gives me license to do pretty much whatever as long as I keep github straight, I don't think he actually....does very much
+2014-06-10 12:48:52	lucyw	In terms of accomplishing things.  In a way, I have really mixed feelings about it--I don't *want* him to do more, because it'd probably involve badgering me, but at the same time don't know that I have a whole lot of respect for him.
+2014-06-10 12:50:03	lucyw	Justin is more or less the same, though you trade knowledge for irritation.
+2014-06-10 12:51:49	muricula	Justin does a lot more than Ken, you just don't see it since he does it with the sys admins.
+2014-06-10 12:52:22	muricula	You're right though. I suspect that you, like me, respect those who do significant things.
+2014-06-10 12:52:41	muricula	(which brings me back to my accomplishments over the course of the year)
+2014-06-10 12:57:04	muricula	Also, a more hands on boss can also be a good thing. Last summer I wrote a peice of software which offered terminal averse windows users a way to get info, run tests, and change device settings for a display module. Every day my boss would come over with a new idea or new functionality for the application.
+2014-06-10 13:00:19	lucyw	Definitely--and I do wish there were more projects to work on, or at least more ideas for projects (Speaking of which, I've been trying to think of some good+useful ones to suggest once fenestra and the site templates are done--if you have any ideas, I'd love to hear them)
+2014-06-10 13:00:46	lucyw	In that way, I wish there was more direction/guidance.
+2014-06-10 13:01:23	muricula	Well I have a chef coobook you could fix or, if that sounds boring, there is the PDU master project.
+2014-06-10 13:01:58	muricula	PDU master is interesting because it runs the gammit from a low level protocol, to a json webserver.
+2014-06-10 13:02:23	muricula	(gammit or gammut? I've seen both)
+2014-06-10 13:04:02	muricula	(gamut is correct, http://etymonline.com/index.php?allowed_in_frame=0&search=gamut&searchmode=none
+2014-06-10 13:04:04	muricula	)
+2014-06-10 13:14:02	lucyw	Ooo, sure.
+2014-06-10 13:14:17	lucyw	I can take on PDU master
+2014-06-10 13:14:57	muricula	Finish fenestra and ask Ken. I can get you started, and Emily can explain some stuff too.
+2014-06-10 13:15:33	muricula	http://git.osuosl.org/?p=gitolite/pdumaster.git;a=summary
+2014-06-10 13:19:00	lucyw	M'k, sounds good.
+2014-06-11 14:18:27	<--	lucyw (wymanl@osuosl/staff/lucyw) has quit (*.net *.split)
+2014-06-11 15:20:26	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-11 19:22:25	lucyw	https://www.youtube.com/watch?v=DkFJE8ZdeG8
+2014-06-25 09:58:39	lucyw	Do you think we should make a concious and concerted effort to preserve languages, written or spoken? Does it depend on the language, or circumstances, or are all languages created equal?
+2014-06-25 15:05:30	muricula	What brings this up?
+2014-06-25 15:07:12	muricula	Languages live, change, and die. We should endeavor to preserve remnents of languages for future study. It is impossible to preserve all languages, but we should provide enough material to the future that languages can be studied and if desired reborn.
+2014-06-25 15:08:24	muricula	https://en.wikipedia.org/wiki/Hebrew
+2014-06-25 15:14:15	muricula	https://en.wikipedia.org/wiki/List_of_revived_languages
+2014-06-25 15:15:37	muricula	By the way, the majority of those languages listed are in their death throes, or are zombies like Latin.
+2014-06-25 16:05:01	lucyw	https://medium.com/@eteraz/the-death-of-the-urdu-script-9ce935435d90
+2014-06-25 16:05:53	lucyw	And yes--I'd imagine resurrecting a language would be only slightly easier than resurrecting a person, particularly considering it'd be a very artificial process.
+2014-06-25 16:06:22	lucyw	That's an interesting wiki page though! I didn't know of most of them.
+2014-06-25 16:08:39	lucyw	I find it interesting, though, how people labor to preserve what is (animal species is another prime example which comes to mind, though is an almost entirely separate issue given the manner in which most animals are dying and the larger puzzle which their extinction is a piece of).
+2014-06-27 14:37:38		irc: disconnected from server
+2014-06-27 17:23:11	<--	lucyw (wymanl@shell.onid.oregonstate.edu) has quit (Changing host)
+2014-06-30 20:35:51	muricula	http://thewebrocks.com/dinocards/#dino1
+2014-06-30 20:36:32	muricula	http://blog.seanmartell.com/2013/09/17/mozilla-is-my-dinosaur/
+2014-06-30 20:39:47	muricula	It's really cute. There's a bunch of similar pictures around the office
+2014-07-01 08:50:43	lucyw	Awwww!  Que lindo :3
+2014-07-01 08:51:00	lucyw	Did you read Calvin and Hobbes as a kid?
+2014-07-01 10:40:17	muricula	That's how I learned to read
+2014-07-01 10:45:51	lucyw	Well, that explains a lot
+2014-07-01 10:54:05	muricula	How did you learn to read?
+2014-07-01 13:01:17	lucyw	Well, Atlas Shrugged was my first book, then I started getting into Tolstoy and just went from there.
+2014-07-01 13:02:20	lucyw	Did you ever read the "My father's dragon" books? Those were how both my brother and I learned.
+2014-07-01 13:02:22	muricula	Hah hah. Really, what was one of the first books you read?
+2014-07-01 13:02:54	muricula	No I didn't
+2014-07-01 13:04:02	lucyw	Just books like that. Pippi Longstocking, judy bloom (blume?), etc.
+2014-07-01 13:04:57	muricula	okay
+2014-07-01 13:07:07	lucyw	Sorry--not as exciting as Calvin and Hobbes.
+2014-07-01 15:21:10	lucyw	http://vocabulary.ugent.be/

@@ -1,0 +1,1059 @@
+2014-04-29 13:32:50		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, ruby, tcl, xfer
+2014-04-29 13:33:01		irc: server freenoce created (temporary server, NOT SAVED!)
+2014-04-29 13:39:33		irc: server irc.mozilla.org created (temporary server, NOT SAVED!)
+2014-04-29 13:56:41	=!=	Error: unknown command "win" (type /help for help)
+2014-04-29 13:56:43	=!=	Error: unknown command "win" (type /help for help)
+2014-04-29 14:03:38	=!=	Error: unknown command "win" (type /help for help)
+2014-04-29 14:14:27		Options saved to weechat.conf
+2014-04-29 14:14:27		Options saved to plugins.conf
+2014-04-29 14:14:27		Options saved to xfer.conf
+2014-04-29 14:14:27		Options saved to logger.conf
+2014-04-29 14:14:27		Options saved to aspell.conf
+2014-04-29 14:14:27		Options saved to alias.conf
+2014-04-29 14:14:27		Options saved to irc.conf
+2014-04-29 14:14:27		Options saved to charset.conf
+2014-04-29 14:16:07	=!=	Error: unknown command "win" (type /help for help)
+2014-04-29 14:34:23	=!=	Error: unknown command "win" (type /help for help)
+2014-04-29 14:53:28	=!=	Error: unknown command "win" (type /help for help)
+2014-04-29 14:59:44	=!=	Error: unknown command "win" (type /help for help)
+2014-04-29 14:59:50	=!=	Error: unknown command "butffer" (type /help for help)
+2014-04-29 21:32:26		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, ruby, tcl, xfer
+2014-04-29 21:32:59		irc: server irc.mozilla.com created (temporary server, NOT SAVED!)
+2014-04-29 21:33:05	=!=	irc: command "join" must be executed on connected irc server
+2014-04-29 21:33:34		irc: server irc.mozilla.org created (temporary server, NOT SAVED!)
+2014-04-30 12:37:52	=!=	Error: unknown command "win" (type /help for help)
+2014-04-30 12:43:06		Options saved to weechat.conf
+2014-04-30 12:43:06		Options saved to plugins.conf
+2014-04-30 12:43:06		Options saved to xfer.conf
+2014-04-30 12:43:06		Options saved to logger.conf
+2014-04-30 12:43:06		Options saved to aspell.conf
+2014-04-30 12:43:06		Options saved to alias.conf
+2014-04-30 12:43:06		Options saved to irc.conf
+2014-04-30 12:43:06		Options saved to charset.conf
+2014-04-30 21:02:07	=!=	Error: unknown command "win" (type /help for help)
+2014-04-30 22:10:49	=!=	Error: unknown command "buff" (type /help for help)
+2014-04-30 22:24:57	=!=	Error: unknown command "win" (type /help for help)
+2014-05-01 16:41:37	=!=	Error: unknown command "win" (type /help for help)
+2014-05-02 13:12:37	=!=	Error: unknown command "a" (type /help for help)
+2014-05-02 13:12:48		Alias "a" => "buffer" created
+2014-05-04 19:40:25	=!=	Error: unknown command "win" (type /help for help)
+2014-05-14 13:20:27		Options saved to weechat.conf
+2014-05-14 13:20:27		Options saved to plugins.conf
+2014-05-14 13:20:27		Options saved to xfer.conf
+2014-05-14 13:20:27		Options saved to logger.conf
+2014-05-14 13:20:27		Options saved to aspell.conf
+2014-05-14 13:20:27		Options saved to alias.conf
+2014-05-14 13:20:27		Options saved to irc.conf
+2014-05-14 13:20:27		Options saved to charset.conf
+2014-05-15 10:56:54		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, ruby, tcl, xfer
+2014-05-15 10:57:06	=!=	Error: unknown command "restore" (type /help for help)
+2014-05-15 10:57:10		weechat internal commands:
+2014-05-15 10:57:10		   away - toggle away status
+2014-05-15 10:57:10		   bar - manage bars
+2014-05-15 10:57:10		   buffer - manage buffers
+2014-05-15 10:57:10		   command - launch explicit WeeChat or plugin command
+2014-05-15 10:57:10		   debug - control debug for core/plugins
+2014-05-15 10:57:10		   filter - filter messages in buffers, to hide/show them according to tags or regex
+2014-05-15 10:57:10		   help - display help about commands and options
+2014-05-15 10:57:10		   history - show buffer command history
+2014-05-15 10:57:10		   input - functions for command line
+2014-05-15 10:57:10		   key - bind/unbind keys
+2014-05-15 10:57:10		   layout - save/apply/reset layout for buffers and windows
+2014-05-15 10:57:10		   mute - execute a command silently
+2014-05-15 10:57:10		   plugin - list/load/unload plugins
+2014-05-15 10:57:10		   proxy - manage proxies
+2014-05-15 10:57:10		   quit - quit WeeChat
+2014-05-15 10:57:10		   reload - reload configuration files from disk
+2014-05-15 10:57:10		   save - save configuration files to disk
+2014-05-15 10:57:10		   set - set config options
+2014-05-15 10:57:10		   unset - unset/reset config options
+2014-05-15 10:57:10		   upgrade - upgrade WeeChat without disconnecting from servers
+2014-05-15 10:57:10		   uptime - show WeeChat uptime
+2014-05-15 10:57:10		   version - show WeeChat version and compilation date
+2014-05-15 10:57:10		   wait - schedule a command execution in future
+2014-05-15 10:57:10		   window - manage windows
+2014-05-15 10:57:10		Other commands:
+2014-05-15 10:57:10		   a - buffer
+2014-05-15 10:57:10		   AAWAY - allserv /away
+2014-05-15 10:57:10		   admin - find information about the administrator of the server
+2014-05-15 10:57:10		   alias - create an alias for a command
+2014-05-15 10:57:10		   allchan - execute a command on all channels of all connected servers
+2014-05-15 10:57:10		   allserv - execute a command on all connected servers
+2014-05-15 10:57:10		   AME - allchan /me
+2014-05-15 10:57:10		   AMSG - allchan /msg *
+2014-05-15 10:57:10		   ANICK - allserv /nick
+2014-05-15 10:57:10		   aspell - aspell plugin configuration
+2014-05-15 10:57:10		   ban - ban nicks or hosts
+2014-05-15 10:57:10		   BYE - quit
+2014-05-15 10:57:10		   C - buffer clear
+2014-05-15 10:57:10		   charset - change charset for current buffer
+2014-05-15 10:57:10		   CHAT - dcc chat
+2014-05-15 10:57:10		   CL - buffer clear
+2014-05-15 10:57:10		   CLOSE - buffer close
+2014-05-15 10:57:10		   connect - connect to IRC server(s)
+2014-05-15 10:57:10		   ctcp - send a CTCP message (Client-To-Client Protocol)
+2014-05-15 10:57:10		   cycle - leave and rejoin a channel
+2014-05-15 10:57:10		   dcc - start DCC (file or chat)
+2014-05-15 10:57:10		   dehalfop - remove half channel operator status from nickname(s)
+2014-05-15 10:57:10		   deop - remove channel operator status from nickname(s)
+2014-05-15 10:57:10		   devoice - remove voice from nickname(s)
+2014-05-15 10:57:10		   die - shutdown the server
+2014-05-15 10:57:10		   disconnect - disconnect from IRC server(s)
+2014-05-15 10:57:10		   EXIT - quit
+2014-05-15 10:57:10		   halfop - give half channel operator status to nickname(s)
+2014-05-15 10:57:10		   IG - ignore
+2014-05-15 10:57:10		   ignore - ignore nicks/hosts from servers or channels
+2014-05-15 10:57:10		   info - get information describing the server
+2014-05-15 10:57:10		   invite - invite a nick on a channel
+2014-05-15 10:57:10		   ison - check if a nickname is currently on IRC
+2014-05-15 10:57:10		   J - join
+2014-05-15 10:57:10		   join - join a channel
+2014-05-15 10:57:10		   K - kick
+2014-05-15 10:57:10		   KB - kickban
+2014-05-15 10:57:10		   kick - forcibly remove a user from a channel
+2014-05-15 10:57:10		   kickban - kicks and bans a nick from a channel
+2014-05-15 10:57:10		   kill - close client-server connection
+2014-05-15 10:57:10		   LEAVE - part
+2014-05-15 10:57:10		   links - list all servernames which are known by the server answering the query
+2014-05-15 10:57:10		   list - list channels and their topic
+2014-05-15 10:57:10		   logger - logger plugin configuration
+2014-05-15 10:57:10		   lua - list/load/unload scripts
+2014-05-15 10:57:10		   lusers - get statistics about the size of the IRC network
+2014-05-15 10:57:10		   M - msg
+2014-05-15 10:57:10		   map - show a graphical map of the IRC network
+2014-05-15 10:57:10		   me - send a CTCP action to the current channel
+2014-05-15 10:57:10		   me - send a CTCP action to remote host
+2014-05-15 10:57:10		   mode - change channel or user mode
+2014-05-15 10:57:10		   motd - get the "Message Of The Day"
+2014-05-15 10:57:10		   msg - send message to a nick or channel
+2014-05-15 10:57:10		   MUB - unban *
+2014-05-15 10:57:10		   N - names
+2014-05-15 10:57:10		   names - list nicknames on channels
+2014-05-15 10:57:10		   nick - change current nickname
+2014-05-15 10:57:10		   notice - send notice message to user
+2014-05-15 10:57:10		   op - give channel operator status to nickname(s)
+2014-05-15 10:57:10		   oper - get operator privileges
+2014-05-15 10:57:10		   part - leave a channel
+2014-05-15 10:57:10		   perl - list/load/unload scripts
+2014-05-15 10:57:10		   ping - ping server
+2014-05-15 10:57:10		   pong - answer to a ping message
+2014-05-15 10:57:10		   python - list/load/unload scripts
+2014-05-15 10:57:10		   Q - query
+2014-05-15 10:57:10		   query - send a private message to a nick
+2014-05-15 10:57:10		   quote - send raw data to server without parsing
+2014-05-15 10:57:10		   reconnect - reconnect to server(s)
+2014-05-15 10:57:10		   REDRAW - window refresh
+2014-05-15 10:57:10		   rehash - tell the server to reload its config file
+2014-05-15 10:57:10		   restart - tell the server to restart itself
+2014-05-15 10:57:10		   ruby - list/load/unload scripts
+2014-05-15 10:57:10		   sajoin - forces a user to join channel(s)
+2014-05-15 10:57:10		   samode - change mode on channel, without having operator status
+2014-05-15 10:57:10		   sanick - forces a user to use another nick
+2014-05-15 10:57:10		   sapart - forces a user to leave channel(s)
+2014-05-15 10:57:10		   saquit - forces a user to quit server with a reason
+2014-05-15 10:57:10		   SAY - msg *
+2014-05-15 10:57:10		   server - list, add or remove IRC servers
+2014-05-15 10:57:10		   service - register a new service
+2014-05-15 10:57:10		   servlist - list services currently connected to the network
+2014-05-15 10:57:10		   SIGNOFF - quit
+2014-05-15 10:57:10		   squery - deliver a message to a service
+2014-05-15 10:57:10		   squit - disconnect server links
+2014-05-15 10:57:10		   stats - query statistics about server
+2014-05-15 10:57:10		   summon - give users who are on a host running an IRC server a message asking them to please join IRC
+2014-05-15 10:57:10		   T - topic
+2014-05-15 10:57:10		   tcl - list/load/unload scripts
+2014-05-15 10:57:10		   time - query local time from server
+2014-05-15 10:57:10		   topic - get/set channel topic
+2014-05-15 10:57:10		   trace - find the route to specific server
+2014-05-15 10:57:10		   UB - unban
+2014-05-15 10:57:10		   unalias - remove aliases
+2014-05-15 10:57:10		   unban - unban nicks or hosts
+2014-05-15 10:57:10		   userhost - return a list of information about nicknames
+2014-05-15 10:57:10		   users - list of users logged into the server
+2014-05-15 10:57:10		   V - command core version
+2014-05-15 10:57:10		   version - give the version info of nick or server (current or specified)
+2014-05-15 10:57:10		   voice - give voice to nickname(s)
+2014-05-15 10:57:10		   W - who
+2014-05-15 10:57:10		   wallops - send a message to all currently connected users who have set the 'w' user mode for themselves
+2014-05-15 10:57:10		   WC - window merge
+2014-05-15 10:57:10		   who - generate a query which returns a list of information
+2014-05-15 10:57:10		   whois - query information about user(s)
+2014-05-15 10:57:10		   whowas - ask for information about a nickname which no longer exists
+2014-05-15 10:57:10		   WI - whois
+2014-05-15 10:57:10		   WII - whois $1 $1
+2014-05-15 10:57:10		   WW - whowas
+2014-05-15 10:57:10		   xfer - xfer control
+2014-05-15 10:57:21		Options reloaded from weechat.conf
+2014-05-15 10:57:21		Options reloaded from plugins.conf
+2014-05-15 10:57:21		Options reloaded from xfer.conf
+2014-05-15 10:57:21		Options reloaded from logger.conf
+2014-05-15 10:57:21		Options reloaded from aspell.conf
+2014-05-15 10:57:21		Options reloaded from alias.conf
+2014-05-15 10:57:21		Options reloaded from irc.conf
+2014-05-15 10:57:21		Options reloaded from charset.conf
+2014-05-15 10:59:11		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2014-05-15 11:00:58	=!=	Error: configuration option "irc.freenode.net.autoconnect" not found
+2014-05-15 11:00:58	=!=	Error with command "set" (try /help set)
+2014-05-15 11:01:04	=!=	Error: configuration option "irc.freenode.net" not found
+2014-05-15 11:01:04	=!=	Error with command "set" (try /help set)
+2014-05-15 11:01:19	=!=	Error: configuration option "irc.freenode.autoconnect" not found
+2014-05-15 11:01:19	=!=	Error with command "set" (try /help set)
+2014-05-15 11:02:19		Option changed: irc.server.freenode.autoconnect = on
+2014-05-15 11:02:29	=!=	Error: configuration option "aspell.check.enabled" not found
+2014-05-15 11:02:29	=!=	Error with command "set" (try /help set)
+2014-05-15 11:03:24		Option changed: irc.server.freenode.nicks = "muricula, muricula`s_ghost"
+2014-05-15 11:03:46		Option changed: irc.server.freenode.command = "/msg nickserv identify l1ttl3r4t"
+2014-05-15 11:04:07	=!=	irc: server "freenode" already exists, can't create it!
+2014-05-15 11:04:16		irc: server mozilla created
+2014-05-15 11:04:37		Option changed: irc.server.freenode.nicks = "muricula, iankronquist"
+2014-05-15 11:05:04		Option changed: irc.server.freenode.nicks = "muricula, muricula`s_ghost"
+2014-05-15 11:05:18		Option changed: irc.server.mozilla.nicks = "muricula, iankronquist"
+2014-05-15 11:05:30		Option changed: irc.server.mozilla.autoconnect = on
+2014-05-15 12:44:24	=!=	Error: configuration option "weechat.bar.nicklist" not found
+2014-05-15 12:44:24	=!=	Error with command "set" (try /help set)
+2014-05-15 12:45:18	=!=	Error: configuration option "weechat.bar.look_nicklist" not found
+2014-05-15 12:45:18	=!=	Error with command "set" (try /help set)
+2014-05-15 12:46:21		Options saved to weechat.conf
+2014-05-15 12:46:21		Options saved to plugins.conf
+2014-05-15 12:46:21		Options saved to xfer.conf
+2014-05-15 12:46:21		Options saved to logger.conf
+2014-05-15 12:46:22		Options saved to aspell.conf
+2014-05-15 12:46:22		Options saved to alias.conf
+2014-05-15 12:46:22		Options saved to irc.conf
+2014-05-15 12:46:22		Options saved to charset.conf
+2014-05-15 15:03:09		Options saved to weechat.conf
+2014-05-15 15:03:09		Options saved to plugins.conf
+2014-05-15 15:03:09		Options saved to xfer.conf
+2014-05-15 15:03:09		Options saved to logger.conf
+2014-05-15 15:03:09		Options saved to aspell.conf
+2014-05-15 15:03:09		Options saved to alias.conf
+2014-05-15 15:03:09		Options saved to irc.conf
+2014-05-15 15:03:09		Options saved to charset.conf
+2014-05-15 23:00:46	=!=	Error: unknown command "last" (type /help for help)
+2014-05-19 00:54:35	=!=	Error: unknown command "prism" (type /help for help)
+2014-05-27 16:00:18	=!=	irc: unknown option for "ignore" command
+2014-05-28 10:37:17	=!=	Error: unknown command "" (type /help for help)
+2014-06-01 17:25:55		Buffers list:
+2014-06-01 17:25:55		  [1] (core) weechat (notify: all)
+2014-06-01 17:25:55		  [1] (irc) server.irc.freenode.net (notify: all)
+2014-06-01 17:25:55		  [1] (irc) server.mozilla (notify: all)
+2014-06-01 17:25:55		  [2] (irc) irc.freenode.net.#osu-lug (notify: all)
+2014-06-01 17:25:55		  [3] (irc) irc.freenode.net.#osuosl-dev (notify: all)
+2014-06-01 17:25:55		  [4] (irc) irc.freenode.net.#osuosl-staff (notify: all)
+2014-06-01 17:25:55		  [5] (irc) irc.freenode.net.#osuosl-infra (notify: all)
+2014-06-01 17:25:55		  [6] (irc) mozilla.#interns (notify: all)
+2014-06-01 17:25:55		  [7] (irc) irc.freenode.net.##omgmanatees (notify: all)
+2014-06-01 17:25:55		  [8] (irc) irc.freenode.net.#osu-lug-admin (notify: all)
+2014-06-01 17:25:55		  [9] (irc) irc.freenode.net.#devopsbootcamp (notify: all)
+2014-06-01 17:25:55		  [10] (irc) irc.freenode.net.#CAHamper (notify: all)
+2014-06-01 17:25:55		  [11] (irc) irc.freenode.net.edunham (notify: all)
+2014-06-01 17:25:55		  [12] (irc) irc.freenode.net.localhost00 (notify: all)
+2014-06-01 17:25:55		  [13] (irc) irc.freenode.net.lucyw (notify: all)
+2014-06-01 17:25:55		  [14] (irc) irc.freenode.net.Weyoun (notify: all)
+2014-06-01 17:25:55		  [15] (irc) irc.freenode.net.#osuosl-gsoc (notify: all)
+2014-06-01 17:25:55		  [16] (irc) irc.freenode.net.pono (notify: all)
+2014-06-01 17:25:55		  [17] (irc) irc.freenode.net.#osuosl-students (notify: all)
+2014-06-01 17:25:55		  [18] (irc) irc.freenode.net.tschuy (notify: all)
+2014-06-01 17:25:55		  [19] (irc) irc.freenode.net.#ckule (notify: all)
+2014-06-01 17:25:55		  [20] (irc) irc.freenode.net.##turkish (notify: all)
+2014-06-01 17:25:55		  [21] (irc) mozilla.#sumodev (notify: all)
+2014-06-01 17:25:55		  [22] (irc) irc.freenode.net.##php (notify: all)
+2014-06-01 17:25:55		  [23] (irc) irc.freenode.net.hamper (notify: all)
+2014-06-30 09:02:52	=!=	Error: unknown command "" (type /help for help)
+2014-06-30 09:36:16		[irc]  /server  [list [servername]] | [listfull [servername]] | [add servername hostname[/port] [-temp] [-option[=value]] [-nooption]] | [copy servername newservername] | [rename servername newservername] | [keep servername] | [del servername] | [deloutq] | [jump] | [raw]
+2014-06-30 09:36:16		list, add or remove IRC servers
+2014-06-30 09:36:16		      list: list servers (without argument, this list is displayed)
+2014-06-30 09:36:16		  listfull: list servers with detailed info for each server
+2014-06-30 09:36:16		       add: create a new server
+2014-06-30 09:36:16		servername: server name, for internal and display use
+2014-06-30 09:36:16		  hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2014-06-30 09:36:16		      temp: create temporary server (not saved)
+2014-06-30 09:36:16		    option: set option for server (for boolean option, value can be omitted)
+2014-06-30 09:36:16		  nooption: set boolean option to 'off' (for example: -nossl)
+2014-06-30 09:36:16		      copy: duplicate a server
+2014-06-30 09:36:16		    rename: rename a server
+2014-06-30 09:36:16		      keep: keep server in config file (for temporary servers only)
+2014-06-30 09:36:16		       del: delete a server
+2014-06-30 09:36:16		   deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2014-06-30 09:36:16		      jump: jump to server buffer
+2014-06-30 09:36:16		       raw: open buffer with raw IRC data
+2014-06-30 09:36:16		Examples:
+2014-06-30 09:36:16		  /server listfull
+2014-06-30 09:36:16		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2014-06-30 09:36:16		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2014-06-30 09:36:16		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2014-06-30 09:36:16		  /server add freenode3 irc.freenode.net -password=mypass
+2014-06-30 09:36:16		  /server copy oftc oftcbis
+2014-06-30 09:36:16		  /server rename oftc newoftc
+2014-06-30 09:36:16		  /server del freenode
+2014-06-30 09:36:16		  /server deloutq
+2014-06-30 09:36:22		weechat internal commands:
+2014-06-30 09:36:22		   away - toggle away status
+2014-06-30 09:36:22		   bar - manage bars
+2014-06-30 09:36:22		   buffer - manage buffers
+2014-06-30 09:36:22		   command - launch explicit WeeChat or plugin command
+2014-06-30 09:36:22		   debug - control debug for core/plugins
+2014-06-30 09:36:22		   filter - filter messages in buffers, to hide/show them according to tags or regex
+2014-06-30 09:36:22		   help - display help about commands and options
+2014-06-30 09:36:22		   history - show buffer command history
+2014-06-30 09:36:22		   input - functions for command line
+2014-06-30 09:36:22		   key - bind/unbind keys
+2014-06-30 09:36:22		   layout - save/apply/reset layout for buffers and windows
+2014-06-30 09:36:22		   mute - execute a command silently
+2014-06-30 09:36:22		   plugin - list/load/unload plugins
+2014-06-30 09:36:22		   proxy - manage proxies
+2014-06-30 09:36:22		   quit - quit WeeChat
+2014-06-30 09:36:22		   reload - reload configuration files from disk
+2014-06-30 09:36:22		   save - save configuration files to disk
+2014-06-30 09:36:22		   set - set config options
+2014-06-30 09:36:22		   unset - unset/reset config options
+2014-06-30 09:36:22		   upgrade - upgrade WeeChat without disconnecting from servers
+2014-06-30 09:36:22		   uptime - show WeeChat uptime
+2014-06-30 09:36:22		   version - show WeeChat version and compilation date
+2014-06-30 09:36:22		   wait - schedule a command execution in future
+2014-06-30 09:36:22		   window - manage windows
+2014-06-30 09:36:22		Other commands:
+2014-06-30 09:36:22		   a - buffer
+2014-06-30 09:36:22		   AAWAY - allserv /away
+2014-06-30 09:36:22		   admin - find information about the administrator of the server
+2014-06-30 09:36:22		   alias - create an alias for a command
+2014-06-30 09:36:22		   allchan - execute a command on all channels of all connected servers
+2014-06-30 09:36:22		   allserv - execute a command on all connected servers
+2014-06-30 09:36:22		   AME - allchan /me
+2014-06-30 09:36:22		   AMSG - allchan /msg *
+2014-06-30 09:36:22		   ANICK - allserv /nick
+2014-06-30 09:36:22		   aspell - aspell plugin configuration
+2014-06-30 09:36:22		   ban - ban nicks or hosts
+2014-06-30 09:36:22		   BYE - quit
+2014-06-30 09:36:22		   C - buffer clear
+2014-06-30 09:36:22		   charset - change charset for current buffer
+2014-06-30 09:36:22		   CHAT - dcc chat
+2014-06-30 09:36:22		   CL - buffer clear
+2014-06-30 09:36:22		   CLOSE - buffer close
+2014-06-30 09:36:22		   connect - connect to IRC server(s)
+2014-06-30 09:36:22		   ctcp - send a CTCP message (Client-To-Client Protocol)
+2014-06-30 09:36:22		   cycle - leave and rejoin a channel
+2014-06-30 09:36:22		   dcc - start DCC (file or chat)
+2014-06-30 09:36:22		   dehalfop - remove half channel operator status from nickname(s)
+2014-06-30 09:36:22		   deop - remove channel operator status from nickname(s)
+2014-06-30 09:36:22		   devoice - remove voice from nickname(s)
+2014-06-30 09:36:22		   die - shutdown the server
+2014-06-30 09:36:22		   disconnect - disconnect from IRC server(s)
+2014-06-30 09:36:22		   EXIT - quit
+2014-06-30 09:36:22		   halfop - give half channel operator status to nickname(s)
+2014-06-30 09:36:22		   IG - ignore
+2014-06-30 09:36:22		   ignore - ignore nicks/hosts from servers or channels
+2014-06-30 09:36:22		   info - get information describing the server
+2014-06-30 09:36:22		   invite - invite a nick on a channel
+2014-06-30 09:36:22		   ison - check if a nickname is currently on IRC
+2014-06-30 09:36:22		   J - join
+2014-06-30 09:36:22		   join - join a channel
+2014-06-30 09:36:22		   K - kick
+2014-06-30 09:36:22		   KB - kickban
+2014-06-30 09:36:22		   kick - forcibly remove a user from a channel
+2014-06-30 09:36:22		   kickban - kicks and bans a nick from a channel
+2014-06-30 09:36:22		   kill - close client-server connection
+2014-06-30 09:36:22		   LEAVE - part
+2014-06-30 09:36:22		   links - list all servernames which are known by the server answering the query
+2014-06-30 09:36:22		   list - list channels and their topic
+2014-06-30 09:36:22		   logger - logger plugin configuration
+2014-06-30 09:36:22		   lua - list/load/unload scripts
+2014-06-30 09:36:22		   lusers - get statistics about the size of the IRC network
+2014-06-30 09:36:22		   M - msg
+2014-06-30 09:36:22		   map - show a graphical map of the IRC network
+2014-06-30 09:36:22		   me - send a CTCP action to the current channel
+2014-06-30 09:36:22		   me - send a CTCP action to remote host
+2014-06-30 09:36:22		   mode - change channel or user mode
+2014-06-30 09:36:22		   motd - get the "Message Of The Day"
+2014-06-30 09:36:22		   msg - send message to a nick or channel
+2014-06-30 09:36:22		   MUB - unban *
+2014-06-30 09:36:22		   N - names
+2014-06-30 09:36:22		   names - list nicknames on channels
+2014-06-30 09:36:22		   nick - change current nickname
+2014-06-30 09:36:22		   notice - send notice message to user
+2014-06-30 09:36:22		   op - give channel operator status to nickname(s)
+2014-06-30 09:36:22		   oper - get operator privileges
+2014-06-30 09:36:22		   part - leave a channel
+2014-06-30 09:36:22		   perl - list/load/unload scripts
+2014-06-30 09:36:22		   ping - ping server
+2014-06-30 09:36:22		   pong - answer to a ping message
+2014-06-30 09:36:22		   python - list/load/unload scripts
+2014-06-30 09:36:22		   Q - query
+2014-06-30 09:36:22		   query - send a private message to a nick
+2014-06-30 09:36:22		   quote - send raw data to server without parsing
+2014-06-30 09:36:22		   reconnect - reconnect to server(s)
+2014-06-30 09:36:22		   REDRAW - window refresh
+2014-06-30 09:36:22		   rehash - tell the server to reload its config file
+2014-06-30 09:36:22		   restart - tell the server to restart itself
+2014-06-30 09:36:22		   ruby - list/load/unload scripts
+2014-06-30 09:36:22		   sajoin - forces a user to join channel(s)
+2014-06-30 09:36:22		   samode - change mode on channel, without having operator status
+2014-06-30 09:36:22		   sanick - forces a user to use another nick
+2014-06-30 09:36:22		   sapart - forces a user to leave channel(s)
+2014-06-30 09:36:22		   saquit - forces a user to quit server with a reason
+2014-06-30 09:36:22		   SAY - msg *
+2014-06-30 09:36:22		   server - list, add or remove IRC servers
+2014-06-30 09:36:22		   service - register a new service
+2014-06-30 09:36:22		   servlist - list services currently connected to the network
+2014-06-30 09:36:22		   SIGNOFF - quit
+2014-06-30 09:36:22		   squery - deliver a message to a service
+2014-06-30 09:36:22		   squit - disconnect server links
+2014-06-30 09:36:22		   stats - query statistics about server
+2014-06-30 09:36:22		   summon - give users who are on a host running an IRC server a message asking them to please join IRC
+2014-06-30 09:36:22		   T - topic
+2014-06-30 09:36:22		   tcl - list/load/unload scripts
+2014-06-30 09:36:22		   time - query local time from server
+2014-06-30 09:36:22		   topic - get/set channel topic
+2014-06-30 09:36:22		   trace - find the route to specific server
+2014-06-30 09:36:22		   UB - unban
+2014-06-30 09:36:22		   unalias - remove aliases
+2014-06-30 09:36:22		   unban - unban nicks or hosts
+2014-06-30 09:36:22		   userhost - return a list of information about nicknames
+2014-06-30 09:36:22		   users - list of users logged into the server
+2014-06-30 09:36:22		   V - command core version
+2014-06-30 09:36:22		   version - give the version info of nick or server (current or specified)
+2014-06-30 09:36:22		   voice - give voice to nickname(s)
+2014-06-30 09:36:22		   W - who
+2014-06-30 09:36:22		   wallops - send a message to all currently connected users who have set the 'w' user mode for themselves
+2014-06-30 09:36:22		   WC - window merge
+2014-06-30 09:36:22		   who - generate a query which returns a list of information
+2014-06-30 09:36:22		   whois - query information about user(s)
+2014-06-30 09:36:22		   whowas - ask for information about a nickname which no longer exists
+2014-06-30 09:36:22		   WI - whois
+2014-06-30 09:36:22		   WII - whois $1 $1
+2014-06-30 09:36:22		   WW - whowas
+2014-06-30 09:36:22		   xfer - xfer control
+2014-06-30 09:36:27		weechat internal commands:
+2014-06-30 09:36:27		   away - toggle away status
+2014-06-30 09:36:27		   bar - manage bars
+2014-06-30 09:36:27		   buffer - manage buffers
+2014-06-30 09:36:27		   command - launch explicit WeeChat or plugin command
+2014-06-30 09:36:27		   debug - control debug for core/plugins
+2014-06-30 09:36:27		   filter - filter messages in buffers, to hide/show them according to tags or regex
+2014-06-30 09:36:27		   help - display help about commands and options
+2014-06-30 09:36:27		   history - show buffer command history
+2014-06-30 09:36:27		   input - functions for command line
+2014-06-30 09:36:27		   key - bind/unbind keys
+2014-06-30 09:36:27		   layout - save/apply/reset layout for buffers and windows
+2014-06-30 09:36:27		   mute - execute a command silently
+2014-06-30 09:36:27		   plugin - list/load/unload plugins
+2014-06-30 09:36:27		   proxy - manage proxies
+2014-06-30 09:36:27		   quit - quit WeeChat
+2014-06-30 09:36:27		   reload - reload configuration files from disk
+2014-06-30 09:36:27		   save - save configuration files to disk
+2014-06-30 09:36:27		   set - set config options
+2014-06-30 09:36:27		   unset - unset/reset config options
+2014-06-30 09:36:27		   upgrade - upgrade WeeChat without disconnecting from servers
+2014-06-30 09:36:27		   uptime - show WeeChat uptime
+2014-06-30 09:36:27		   version - show WeeChat version and compilation date
+2014-06-30 09:36:27		   wait - schedule a command execution in future
+2014-06-30 09:36:27		   window - manage windows
+2014-06-30 09:36:27		Other commands:
+2014-06-30 09:36:27		   a - buffer
+2014-06-30 09:36:27		   AAWAY - allserv /away
+2014-06-30 09:36:27		   admin - find information about the administrator of the server
+2014-06-30 09:36:27		   alias - create an alias for a command
+2014-06-30 09:36:27		   allchan - execute a command on all channels of all connected servers
+2014-06-30 09:36:27		   allserv - execute a command on all connected servers
+2014-06-30 09:36:27		   AME - allchan /me
+2014-06-30 09:36:27		   AMSG - allchan /msg *
+2014-06-30 09:36:27		   ANICK - allserv /nick
+2014-06-30 09:36:27		   aspell - aspell plugin configuration
+2014-06-30 09:36:27		   ban - ban nicks or hosts
+2014-06-30 09:36:27		   BYE - quit
+2014-06-30 09:36:27		   C - buffer clear
+2014-06-30 09:36:27		   charset - change charset for current buffer
+2014-06-30 09:36:27		   CHAT - dcc chat
+2014-06-30 09:36:27		   CL - buffer clear
+2014-06-30 09:36:27		   CLOSE - buffer close
+2014-06-30 09:36:27		   connect - connect to IRC server(s)
+2014-06-30 09:36:27		   ctcp - send a CTCP message (Client-To-Client Protocol)
+2014-06-30 09:36:27		   cycle - leave and rejoin a channel
+2014-06-30 09:36:27		   dcc - start DCC (file or chat)
+2014-06-30 09:36:27		   dehalfop - remove half channel operator status from nickname(s)
+2014-06-30 09:36:27		   deop - remove channel operator status from nickname(s)
+2014-06-30 09:36:27		   devoice - remove voice from nickname(s)
+2014-06-30 09:36:27		   die - shutdown the server
+2014-06-30 09:36:27		   disconnect - disconnect from IRC server(s)
+2014-06-30 09:36:27		   EXIT - quit
+2014-06-30 09:36:27		   halfop - give half channel operator status to nickname(s)
+2014-06-30 09:36:27		   IG - ignore
+2014-06-30 09:36:27		   ignore - ignore nicks/hosts from servers or channels
+2014-06-30 09:36:27		   info - get information describing the server
+2014-06-30 09:36:27		   invite - invite a nick on a channel
+2014-06-30 09:36:27		   ison - check if a nickname is currently on IRC
+2014-06-30 09:36:27		   J - join
+2014-06-30 09:36:27		   join - join a channel
+2014-06-30 09:36:27		   K - kick
+2014-06-30 09:36:27		   KB - kickban
+2014-06-30 09:36:27		   kick - forcibly remove a user from a channel
+2014-06-30 09:36:27		   kickban - kicks and bans a nick from a channel
+2014-06-30 09:36:27		   kill - close client-server connection
+2014-06-30 09:36:27		   LEAVE - part
+2014-06-30 09:36:27		   links - list all servernames which are known by the server answering the query
+2014-06-30 09:36:27		   list - list channels and their topic
+2014-06-30 09:36:27		   logger - logger plugin configuration
+2014-06-30 09:36:27		   lua - list/load/unload scripts
+2014-06-30 09:36:27		   lusers - get statistics about the size of the IRC network
+2014-06-30 09:36:27		   M - msg
+2014-06-30 09:36:27		   map - show a graphical map of the IRC network
+2014-06-30 09:36:27		   me - send a CTCP action to the current channel
+2014-06-30 09:36:27		   me - send a CTCP action to remote host
+2014-06-30 09:36:27		   mode - change channel or user mode
+2014-06-30 09:36:27		   motd - get the "Message Of The Day"
+2014-06-30 09:36:27		   msg - send message to a nick or channel
+2014-06-30 09:36:27		   MUB - unban *
+2014-06-30 09:36:27		   N - names
+2014-06-30 09:36:27		   names - list nicknames on channels
+2014-06-30 09:36:27		   nick - change current nickname
+2014-06-30 09:36:27		   notice - send notice message to user
+2014-06-30 09:36:27		   op - give channel operator status to nickname(s)
+2014-06-30 09:36:27		   oper - get operator privileges
+2014-06-30 09:36:27		   part - leave a channel
+2014-06-30 09:36:27		   perl - list/load/unload scripts
+2014-06-30 09:36:27		   ping - ping server
+2014-06-30 09:36:27		   pong - answer to a ping message
+2014-06-30 09:36:27		   python - list/load/unload scripts
+2014-06-30 09:36:27		   Q - query
+2014-06-30 09:36:27		   query - send a private message to a nick
+2014-06-30 09:36:27		   quote - send raw data to server without parsing
+2014-06-30 09:36:27		   reconnect - reconnect to server(s)
+2014-06-30 09:36:27		   REDRAW - window refresh
+2014-06-30 09:36:27		   rehash - tell the server to reload its config file
+2014-06-30 09:36:27		   restart - tell the server to restart itself
+2014-06-30 09:36:27		   ruby - list/load/unload scripts
+2014-06-30 09:36:27		   sajoin - forces a user to join channel(s)
+2014-06-30 09:36:27		   samode - change mode on channel, without having operator status
+2014-06-30 09:36:27		   sanick - forces a user to use another nick
+2014-06-30 09:36:27		   sapart - forces a user to leave channel(s)
+2014-06-30 09:36:27		   saquit - forces a user to quit server with a reason
+2014-06-30 09:36:27		   SAY - msg *
+2014-06-30 09:36:27		   server - list, add or remove IRC servers
+2014-06-30 09:36:27		   service - register a new service
+2014-06-30 09:36:27		   servlist - list services currently connected to the network
+2014-06-30 09:36:27		   SIGNOFF - quit
+2014-06-30 09:36:27		   squery - deliver a message to a service
+2014-06-30 09:36:27		   squit - disconnect server links
+2014-06-30 09:36:27		   stats - query statistics about server
+2014-06-30 09:36:27		   summon - give users who are on a host running an IRC server a message asking them to please join IRC
+2014-06-30 09:36:27		   T - topic
+2014-06-30 09:36:27		   tcl - list/load/unload scripts
+2014-06-30 09:36:27		   time - query local time from server
+2014-06-30 09:36:27		   topic - get/set channel topic
+2014-06-30 09:36:27		   trace - find the route to specific server
+2014-06-30 09:36:27		   UB - unban
+2014-06-30 09:36:27		   unalias - remove aliases
+2014-06-30 09:36:27		   unban - unban nicks or hosts
+2014-06-30 09:36:27		   userhost - return a list of information about nicknames
+2014-06-30 09:36:27		   users - list of users logged into the server
+2014-06-30 09:36:27		   V - command core version
+2014-06-30 09:36:27		   version - give the version info of nick or server (current or specified)
+2014-06-30 09:36:27		   voice - give voice to nickname(s)
+2014-06-30 09:36:27		   W - who
+2014-06-30 09:36:27		   wallops - send a message to all currently connected users who have set the 'w' user mode for themselves
+2014-06-30 09:36:27		   WC - window merge
+2014-06-30 09:36:27		   who - generate a query which returns a list of information
+2014-06-30 09:36:27		   whois - query information about user(s)
+2014-06-30 09:36:27		   whowas - ask for information about a nickname which no longer exists
+2014-06-30 09:36:27		   WI - whois
+2014-06-30 09:36:27		   WII - whois $1 $1
+2014-06-30 09:36:27		   WW - whowas
+2014-06-30 09:36:27		   xfer - xfer control
+2014-06-30 09:36:30		[irc]  /server  [list [servername]] | [listfull [servername]] | [add servername hostname[/port] [-temp] [-option[=value]] [-nooption]] | [copy servername newservername] | [rename servername newservername] | [keep servername] | [del servername] | [deloutq] | [jump] | [raw]
+2014-06-30 09:36:30		list, add or remove IRC servers
+2014-06-30 09:36:30		      list: list servers (without argument, this list is displayed)
+2014-06-30 09:36:30		  listfull: list servers with detailed info for each server
+2014-06-30 09:36:30		       add: create a new server
+2014-06-30 09:36:30		servername: server name, for internal and display use
+2014-06-30 09:36:30		  hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2014-06-30 09:36:30		      temp: create temporary server (not saved)
+2014-06-30 09:36:30		    option: set option for server (for boolean option, value can be omitted)
+2014-06-30 09:36:30		  nooption: set boolean option to 'off' (for example: -nossl)
+2014-06-30 09:36:30		      copy: duplicate a server
+2014-06-30 09:36:30		    rename: rename a server
+2014-06-30 09:36:30		      keep: keep server in config file (for temporary servers only)
+2014-06-30 09:36:30		       del: delete a server
+2014-06-30 09:36:30		   deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2014-06-30 09:36:30		      jump: jump to server buffer
+2014-06-30 09:36:30		       raw: open buffer with raw IRC data
+2014-06-30 09:36:30		Examples:
+2014-06-30 09:36:30		  /server listfull
+2014-06-30 09:36:30		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2014-06-30 09:36:30		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2014-06-30 09:36:30		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2014-06-30 09:36:30		  /server add freenode3 irc.freenode.net -password=mypass
+2014-06-30 09:36:30		  /server copy oftc oftcbis
+2014-06-30 09:36:30		  /server rename oftc newoftc
+2014-06-30 09:36:30		  /server del freenode
+2014-06-30 09:36:30		  /server deloutq
+2014-06-30 09:40:14	=!=	irc: server "mozilla" already exists, can't create it!
+2014-06-30 09:44:51		Options saved to weechat.conf
+2014-06-30 09:44:51		Options saved to plugins.conf
+2014-06-30 09:44:51		Options saved to xfer.conf
+2014-06-30 09:44:51		Options saved to logger.conf
+2014-06-30 09:44:51		Options saved to aspell.conf
+2014-06-30 09:44:51		Options saved to alias.conf
+2014-06-30 09:44:51		Options saved to irc.conf
+2014-06-30 09:44:51		Options saved to charset.conf
+2014-07-02 12:45:07	=!=	Error: unknown command "relay" (type /help for help)
+2014-07-02 16:54:35	=!=	Error: configuration option "irc.freenode.net.autoconnect" not found
+2014-07-02 16:54:35	=!=	Error with command "set" (try /help set)
+2014-07-02 17:04:13	=!=	No help available, "relay" is not a command or an option
+2014-07-02 17:10:24	=!=	Error: unknown command "weeget" (type /help for help)
+2014-07-02 17:10:34	=!=	Error: unknown command "script" (type /help for help)
+2014-07-02 17:10:38		weechat internal commands:
+2014-07-02 17:10:38		   away - toggle away status
+2014-07-02 17:10:38		   bar - manage bars
+2014-07-02 17:10:38		   buffer - manage buffers
+2014-07-02 17:10:38		   command - launch explicit WeeChat or plugin command
+2014-07-02 17:10:38		   debug - control debug for core/plugins
+2014-07-02 17:10:38		   filter - filter messages in buffers, to hide/show them according to tags or regex
+2014-07-02 17:10:38		   help - display help about commands and options
+2014-07-02 17:10:38		   history - show buffer command history
+2014-07-02 17:10:38		   input - functions for command line
+2014-07-02 17:10:38		   key - bind/unbind keys
+2014-07-02 17:10:38		   layout - save/apply/reset layout for buffers and windows
+2014-07-02 17:10:38		   mute - execute a command silently
+2014-07-02 17:10:38		   plugin - list/load/unload plugins
+2014-07-02 17:10:38		   proxy - manage proxies
+2014-07-02 17:10:38		   quit - quit WeeChat
+2014-07-02 17:10:38		   reload - reload configuration files from disk
+2014-07-02 17:10:38		   save - save configuration files to disk
+2014-07-02 17:10:38		   set - set config options
+2014-07-02 17:10:38		   unset - unset/reset config options
+2014-07-02 17:10:38		   upgrade - upgrade WeeChat without disconnecting from servers
+2014-07-02 17:10:38		   uptime - show WeeChat uptime
+2014-07-02 17:10:38		   version - show WeeChat version and compilation date
+2014-07-02 17:10:38		   wait - schedule a command execution in future
+2014-07-02 17:10:38		   window - manage windows
+2014-07-02 17:10:38		Other commands:
+2014-07-02 17:10:38		   a - buffer
+2014-07-02 17:10:38		   AAWAY - allserv /away
+2014-07-02 17:10:38		   admin - find information about the administrator of the server
+2014-07-02 17:10:38		   alias - create an alias for a command
+2014-07-02 17:10:38		   allchan - execute a command on all channels of all connected servers
+2014-07-02 17:10:38		   allserv - execute a command on all connected servers
+2014-07-02 17:10:38		   AME - allchan /me
+2014-07-02 17:10:38		   AMSG - allchan /msg *
+2014-07-02 17:10:38		   ANICK - allserv /nick
+2014-07-02 17:10:38		   aspell - aspell plugin configuration
+2014-07-02 17:10:38		   ban - ban nicks or hosts
+2014-07-02 17:10:38		   BYE - quit
+2014-07-02 17:10:38		   C - buffer clear
+2014-07-02 17:10:38		   charset - change charset for current buffer
+2014-07-02 17:10:38		   CHAT - dcc chat
+2014-07-02 17:10:38		   CL - buffer clear
+2014-07-02 17:10:38		   CLOSE - buffer close
+2014-07-02 17:10:38		   connect - connect to IRC server(s)
+2014-07-02 17:10:38		   ctcp - send a CTCP message (Client-To-Client Protocol)
+2014-07-02 17:10:38		   cycle - leave and rejoin a channel
+2014-07-02 17:10:38		   dcc - start DCC (file or chat)
+2014-07-02 17:10:38		   dehalfop - remove half channel operator status from nickname(s)
+2014-07-02 17:10:38		   deop - remove channel operator status from nickname(s)
+2014-07-02 17:10:38		   devoice - remove voice from nickname(s)
+2014-07-02 17:10:38		   die - shutdown the server
+2014-07-02 17:10:38		   disconnect - disconnect from IRC server(s)
+2014-07-02 17:10:38		   EXIT - quit
+2014-07-02 17:10:38		   halfop - give half channel operator status to nickname(s)
+2014-07-02 17:10:38		   IG - ignore
+2014-07-02 17:10:38		   ignore - ignore nicks/hosts from servers or channels
+2014-07-02 17:10:38		   info - get information describing the server
+2014-07-02 17:10:38		   invite - invite a nick on a channel
+2014-07-02 17:10:38		   ison - check if a nickname is currently on IRC
+2014-07-02 17:10:38		   J - join
+2014-07-02 17:10:38		   join - join a channel
+2014-07-02 17:10:38		   K - kick
+2014-07-02 17:10:38		   KB - kickban
+2014-07-02 17:10:38		   kick - forcibly remove a user from a channel
+2014-07-02 17:10:38		   kickban - kicks and bans a nick from a channel
+2014-07-02 17:10:38		   kill - close client-server connection
+2014-07-02 17:10:38		   LEAVE - part
+2014-07-02 17:10:38		   links - list all servernames which are known by the server answering the query
+2014-07-02 17:10:38		   list - list channels and their topic
+2014-07-02 17:10:38		   logger - logger plugin configuration
+2014-07-02 17:10:38		   lua - list/load/unload scripts
+2014-07-02 17:10:38		   lusers - get statistics about the size of the IRC network
+2014-07-02 17:10:38		   M - msg
+2014-07-02 17:10:38		   map - show a graphical map of the IRC network
+2014-07-02 17:10:38		   me - send a CTCP action to the current channel
+2014-07-02 17:10:38		   me - send a CTCP action to remote host
+2014-07-02 17:10:38		   mode - change channel or user mode
+2014-07-02 17:10:38		   motd - get the "Message Of The Day"
+2014-07-02 17:10:38		   msg - send message to a nick or channel
+2014-07-02 17:10:38		   MUB - unban *
+2014-07-02 17:10:38		   N - names
+2014-07-02 17:10:38		   names - list nicknames on channels
+2014-07-02 17:10:38		   nick - change current nickname
+2014-07-02 17:10:38		   notice - send notice message to user
+2014-07-02 17:10:38		   op - give channel operator status to nickname(s)
+2014-07-02 17:10:38		   oper - get operator privileges
+2014-07-02 17:10:38		   part - leave a channel
+2014-07-02 17:10:38		   perl - list/load/unload scripts
+2014-07-02 17:10:38		   ping - ping server
+2014-07-02 17:10:38		   pong - answer to a ping message
+2014-07-02 17:10:38		   python - list/load/unload scripts
+2014-07-02 17:10:38		   Q - query
+2014-07-02 17:10:38		   query - send a private message to a nick
+2014-07-02 17:10:38		   quote - send raw data to server without parsing
+2014-07-02 17:10:38		   reconnect - reconnect to server(s)
+2014-07-02 17:10:38		   REDRAW - window refresh
+2014-07-02 17:10:38		   rehash - tell the server to reload its config file
+2014-07-02 17:10:38		   restart - tell the server to restart itself
+2014-07-02 17:10:38		   ruby - list/load/unload scripts
+2014-07-02 17:10:38		   sajoin - forces a user to join channel(s)
+2014-07-02 17:10:38		   samode - change mode on channel, without having operator status
+2014-07-02 17:10:38		   sanick - forces a user to use another nick
+2014-07-02 17:10:38		   sapart - forces a user to leave channel(s)
+2014-07-02 17:10:38		   saquit - forces a user to quit server with a reason
+2014-07-02 17:10:38		   SAY - msg *
+2014-07-02 17:10:38		   server - list, add or remove IRC servers
+2014-07-02 17:10:38		   service - register a new service
+2014-07-02 17:10:38		   servlist - list services currently connected to the network
+2014-07-02 17:10:38		   SIGNOFF - quit
+2014-07-02 17:10:38		   squery - deliver a message to a service
+2014-07-02 17:10:38		   squit - disconnect server links
+2014-07-02 17:10:38		   stats - query statistics about server
+2014-07-02 17:10:38		   summon - give users who are on a host running an IRC server a message asking them to please join IRC
+2014-07-02 17:10:38		   T - topic
+2014-07-02 17:10:38		   tcl - list/load/unload scripts
+2014-07-02 17:10:38		   time - query local time from server
+2014-07-02 17:10:38		   topic - get/set channel topic
+2014-07-02 17:10:38		   trace - find the route to specific server
+2014-07-02 17:10:38		   UB - unban
+2014-07-02 17:10:38		   unalias - remove aliases
+2014-07-02 17:10:38		   unban - unban nicks or hosts
+2014-07-02 17:10:38		   userhost - return a list of information about nicknames
+2014-07-02 17:10:38		   users - list of users logged into the server
+2014-07-02 17:10:38		   V - command core version
+2014-07-02 17:10:38		   version - give the version info of nick or server (current or specified)
+2014-07-02 17:10:38		   voice - give voice to nickname(s)
+2014-07-02 17:10:38		   W - who
+2014-07-02 17:10:38		   wallops - send a message to all currently connected users who have set the 'w' user mode for themselves
+2014-07-02 17:10:38		   WC - window merge
+2014-07-02 17:10:38		   who - generate a query which returns a list of information
+2014-07-02 17:10:38		   whois - query information about user(s)
+2014-07-02 17:10:38		   whowas - ask for information about a nickname which no longer exists
+2014-07-02 17:10:38		   WI - whois
+2014-07-02 17:10:38		   WII - whois $1 $1
+2014-07-02 17:10:38		   WW - whowas
+2014-07-02 17:10:38		   xfer - xfer control
+2014-07-02 17:11:18	=!=	Error with command "aspell" (try /help aspell)
+2014-07-02 17:11:23		[aspell]  /aspell  dictlist | enable lang | disable | addword [lang] word
+2014-07-02 17:11:23		aspell plugin configuration
+2014-07-02 17:11:23		dictlist: show installed dictionaries
+2014-07-02 17:11:23		  enable: enable aspell on current buffer
+2014-07-02 17:11:23		 disable: disable aspell on current buffer
+2014-07-02 17:11:23		 addword: add a word in your personal aspell dictionary
+2014-07-02 17:11:23		Input line beginning with a '/' is not checked, except for some commands.
+2014-07-02 17:11:34		aspell: "irc.server.irc.freenode.net" => en
+2014-07-02 17:11:49		aspell: warning: dictionary "tr" is not available on your system
+2014-07-02 17:11:49	=!=	aspell: error: No word lists can be found for the language "tr".
+2014-07-02 17:11:49	=!=	aspell: error: No word lists can be found for the language "tr".
+2014-07-02 17:11:49		aspell: "irc.server.irc.freenode.net" => tr
+2014-07-02 17:12:06		aspell: "irc.server.irc.freenode.net" => en
+2014-07-02 17:14:25		weechat internal commands:
+2014-07-02 17:14:25		   away - toggle away status
+2014-07-02 17:14:25		   bar - manage bars
+2014-07-02 17:14:25		   buffer - manage buffers
+2014-07-02 17:14:25		   command - launch explicit WeeChat or plugin command
+2014-07-02 17:14:25		   debug - control debug for core/plugins
+2014-07-02 17:14:25		   filter - filter messages in buffers, to hide/show them according to tags or regex
+2014-07-02 17:14:25		   help - display help about commands and options
+2014-07-02 17:14:25		   history - show buffer command history
+2014-07-02 17:14:25		   input - functions for command line
+2014-07-02 17:14:25		   key - bind/unbind keys
+2014-07-02 17:14:25		   layout - save/apply/reset layout for buffers and windows
+2014-07-02 17:14:25		   mute - execute a command silently
+2014-07-02 17:14:25		   plugin - list/load/unload plugins
+2014-07-02 17:14:25		   proxy - manage proxies
+2014-07-02 17:14:25		   quit - quit WeeChat
+2014-07-02 17:14:25		   reload - reload configuration files from disk
+2014-07-02 17:14:25		   save - save configuration files to disk
+2014-07-02 17:14:25		   set - set config options
+2014-07-02 17:14:25		   unset - unset/reset config options
+2014-07-02 17:14:25		   upgrade - upgrade WeeChat without disconnecting from servers
+2014-07-02 17:14:25		   uptime - show WeeChat uptime
+2014-07-02 17:14:25		   version - show WeeChat version and compilation date
+2014-07-02 17:14:25		   wait - schedule a command execution in future
+2014-07-02 17:14:25		   window - manage windows
+2014-07-02 17:14:25		Other commands:
+2014-07-02 17:14:25		   a - buffer
+2014-07-02 17:14:25		   AAWAY - allserv /away
+2014-07-02 17:14:25		   admin - find information about the administrator of the server
+2014-07-02 17:14:25		   alias - create an alias for a command
+2014-07-02 17:14:25		   allchan - execute a command on all channels of all connected servers
+2014-07-02 17:14:25		   allserv - execute a command on all connected servers
+2014-07-02 17:14:25		   AME - allchan /me
+2014-07-02 17:14:25		   AMSG - allchan /msg *
+2014-07-02 17:14:25		   ANICK - allserv /nick
+2014-07-02 17:14:25		   aspell - aspell plugin configuration
+2014-07-02 17:14:25		   ban - ban nicks or hosts
+2014-07-02 17:14:25		   BYE - quit
+2014-07-02 17:14:25		   C - buffer clear
+2014-07-02 17:14:25		   charset - change charset for current buffer
+2014-07-02 17:14:25		   CHAT - dcc chat
+2014-07-02 17:14:25		   CL - buffer clear
+2014-07-02 17:14:25		   CLOSE - buffer close
+2014-07-02 17:14:25		   connect - connect to IRC server(s)
+2014-07-02 17:14:25		   ctcp - send a CTCP message (Client-To-Client Protocol)
+2014-07-02 17:14:25		   cycle - leave and rejoin a channel
+2014-07-02 17:14:25		   dcc - start DCC (file or chat)
+2014-07-02 17:14:25		   dehalfop - remove half channel operator status from nickname(s)
+2014-07-02 17:14:25		   deop - remove channel operator status from nickname(s)
+2014-07-02 17:14:25		   devoice - remove voice from nickname(s)
+2014-07-02 17:14:25		   die - shutdown the server
+2014-07-02 17:14:25		   disconnect - disconnect from IRC server(s)
+2014-07-02 17:14:25		   EXIT - quit
+2014-07-02 17:14:25		   halfop - give half channel operator status to nickname(s)
+2014-07-02 17:14:25		   IG - ignore
+2014-07-02 17:14:25		   ignore - ignore nicks/hosts from servers or channels
+2014-07-02 17:14:25		   info - get information describing the server
+2014-07-02 17:14:25		   invite - invite a nick on a channel
+2014-07-02 17:14:25		   ison - check if a nickname is currently on IRC
+2014-07-02 17:14:25		   J - join
+2014-07-02 17:14:25		   join - join a channel
+2014-07-02 17:14:25		   K - kick
+2014-07-02 17:14:25		   KB - kickban
+2014-07-02 17:14:25		   kick - forcibly remove a user from a channel
+2014-07-02 17:14:25		   kickban - kicks and bans a nick from a channel
+2014-07-02 17:14:25		   kill - close client-server connection
+2014-07-02 17:14:25		   LEAVE - part
+2014-07-02 17:14:25		   links - list all servernames which are known by the server answering the query
+2014-07-02 17:14:25		   list - list channels and their topic
+2014-07-02 17:14:25		   logger - logger plugin configuration
+2014-07-02 17:14:25		   lua - list/load/unload scripts
+2014-07-02 17:14:25		   lusers - get statistics about the size of the IRC network
+2014-07-02 17:14:25		   M - msg
+2014-07-02 17:14:25		   map - show a graphical map of the IRC network
+2014-07-02 17:14:25		   me - send a CTCP action to the current channel
+2014-07-02 17:14:25		   me - send a CTCP action to remote host
+2014-07-02 17:14:25		   mode - change channel or user mode
+2014-07-02 17:14:25		   motd - get the "Message Of The Day"
+2014-07-02 17:14:25		   msg - send message to a nick or channel
+2014-07-02 17:14:25		   MUB - unban *
+2014-07-02 17:14:25		   N - names
+2014-07-02 17:14:25		   names - list nicknames on channels
+2014-07-02 17:14:25		   nick - change current nickname
+2014-07-02 17:14:25		   notice - send notice message to user
+2014-07-02 17:14:25		   op - give channel operator status to nickname(s)
+2014-07-02 17:14:25		   oper - get operator privileges
+2014-07-02 17:14:25		   part - leave a channel
+2014-07-02 17:14:25		   perl - list/load/unload scripts
+2014-07-02 17:14:25		   ping - ping server
+2014-07-02 17:14:25		   pong - answer to a ping message
+2014-07-02 17:14:25		   python - list/load/unload scripts
+2014-07-02 17:14:25		   Q - query
+2014-07-02 17:14:25		   query - send a private message to a nick
+2014-07-02 17:14:25		   quote - send raw data to server without parsing
+2014-07-02 17:14:25		   reconnect - reconnect to server(s)
+2014-07-02 17:14:25		   REDRAW - window refresh
+2014-07-02 17:14:25		   rehash - tell the server to reload its config file
+2014-07-02 17:14:25		   restart - tell the server to restart itself
+2014-07-02 17:14:25		   ruby - list/load/unload scripts
+2014-07-02 17:14:25		   sajoin - forces a user to join channel(s)
+2014-07-02 17:14:25		   samode - change mode on channel, without having operator status
+2014-07-02 17:14:25		   sanick - forces a user to use another nick
+2014-07-02 17:14:25		   sapart - forces a user to leave channel(s)
+2014-07-02 17:14:25		   saquit - forces a user to quit server with a reason
+2014-07-02 17:14:25		   SAY - msg *
+2014-07-02 17:14:25		   server - list, add or remove IRC servers
+2014-07-02 17:14:25		   service - register a new service
+2014-07-02 17:14:25		   servlist - list services currently connected to the network
+2014-07-02 17:14:25		   SIGNOFF - quit
+2014-07-02 17:14:25		   squery - deliver a message to a service
+2014-07-02 17:14:25		   squit - disconnect server links
+2014-07-02 17:14:25		   stats - query statistics about server
+2014-07-02 17:14:25		   summon - give users who are on a host running an IRC server a message asking them to please join IRC
+2014-07-02 17:14:25		   T - topic
+2014-07-02 17:14:25		   tcl - list/load/unload scripts
+2014-07-02 17:14:25		   time - query local time from server
+2014-07-02 17:14:25		   topic - get/set channel topic
+2014-07-02 17:14:25		   trace - find the route to specific server
+2014-07-02 17:14:25		   UB - unban
+2014-07-02 17:14:25		   unalias - remove aliases
+2014-07-02 17:14:25		   unban - unban nicks or hosts
+2014-07-02 17:14:25		   userhost - return a list of information about nicknames
+2014-07-02 17:14:25		   users - list of users logged into the server
+2014-07-02 17:14:25		   V - command core version
+2014-07-02 17:14:25		   version - give the version info of nick or server (current or specified)
+2014-07-02 17:14:25		   voice - give voice to nickname(s)
+2014-07-02 17:14:25		   W - who
+2014-07-02 17:14:25		   wallops - send a message to all currently connected users who have set the 'w' user mode for themselves
+2014-07-02 17:14:25		   WC - window merge
+2014-07-02 17:14:25		   who - generate a query which returns a list of information
+2014-07-02 17:14:25		   whois - query information about user(s)
+2014-07-02 17:14:25		   whowas - ask for information about a nickname which no longer exists
+2014-07-02 17:14:25		   WI - whois
+2014-07-02 17:14:25		   WII - whois $1 $1
+2014-07-02 17:14:25		   WW - whowas
+2014-07-02 17:14:25		   xfer - xfer control
+2014-07-02 17:14:37		python scripts loaded:
+2014-07-02 17:14:37		  (none)
+2014-07-02 17:14:49	=!=	python: script "autojoin" not found
+2014-07-02 17:15:15	=!=	python: script "autojoin" not found
+2014-07-02 17:15:25		[python]  /python  [list [name]] | [listfull [name]] | [load filename] | [autoload] | [reload [name]] | [unload [name]]
+2014-07-02 17:15:25		list/load/unload scripts
+2014-07-02 17:15:25		filename: script (file) to load
+2014-07-02 17:15:25		name: a script name
+2014-07-02 17:15:25		Without argument, this command lists all loaded scripts.
+2014-07-02 17:15:31		python scripts loaded:
+2014-07-02 17:15:31		  (none)
+2014-07-02 17:15:39		python scripts loaded:
+2014-07-02 17:15:39		  (none)
+2014-07-02 17:15:54	=!=	python: script "autojoin" not found
+2014-07-02 17:15:57		python: loading script "/nfs/chernobyl/u2/k/kronquii/.weechat/python/autoload/autojoin.py"
+2014-07-02 17:15:57		python: registered script "autojoin", version 0.2.5 (Configure autojoin for all servers according to currently joined channels)
+2014-07-02 17:16:08		python: loading script "/nfs/chernobyl/u2/k/kronquii/.weechat/python/autoconnect.py"
+2014-07-02 17:16:08		python: registered script "autoconnect", version 0.2.3 (reopens servers and channels opened last time weechat closed)
+2014-07-02 17:16:18	=!=	python: unknown option for command "python"
+2014-07-02 17:16:35	=!=	python: script "autoconnect.py" not loaded
+2014-07-02 17:16:48		python scripts loaded:
+2014-07-02 17:16:48		  autoconnect v0.2.3 - reopens servers and channels opened last time weechat closed
+2014-07-02 17:16:48		  autojoin v0.2.5 - Configure autojoin for all servers according to currently joined channels
+2014-07-02 17:17:18		python: unloading script "autojoin"
+2014-07-02 17:17:18		python: script "autojoin" unloaded
+2014-07-02 17:17:23		python scripts loaded:
+2014-07-02 17:17:23		  autoconnect v0.2.3 - reopens servers and channels opened last time weechat closed
+2014-07-02 17:17:31	=!=	Error: unknown command "autoconnect" (type /help for help)
+2014-07-02 17:17:37		weechat internal commands:
+2014-07-02 17:17:37		   away - toggle away status
+2014-07-02 17:17:37		   bar - manage bars
+2014-07-02 17:17:37		   buffer - manage buffers
+2014-07-02 17:17:37		   command - launch explicit WeeChat or plugin command
+2014-07-02 17:17:37		   debug - control debug for core/plugins
+2014-07-02 17:17:37		   filter - filter messages in buffers, to hide/show them according to tags or regex
+2014-07-02 17:17:37		   help - display help about commands and options
+2014-07-02 17:17:37		   history - show buffer command history
+2014-07-02 17:17:37		   input - functions for command line
+2014-07-02 17:17:37		   key - bind/unbind keys
+2014-07-02 17:17:37		   layout - save/apply/reset layout for buffers and windows
+2014-07-02 17:17:37		   mute - execute a command silently
+2014-07-02 17:17:37		   plugin - list/load/unload plugins
+2014-07-02 17:17:37		   proxy - manage proxies
+2014-07-02 17:17:37		   quit - quit WeeChat
+2014-07-02 17:17:37		   reload - reload configuration files from disk
+2014-07-02 17:17:37		   save - save configuration files to disk
+2014-07-02 17:17:37		   set - set config options
+2014-07-02 17:17:37		   unset - unset/reset config options
+2014-07-02 17:17:37		   upgrade - upgrade WeeChat without disconnecting from servers
+2014-07-02 17:17:37		   uptime - show WeeChat uptime
+2014-07-02 17:17:37		   version - show WeeChat version and compilation date
+2014-07-02 17:17:37		   wait - schedule a command execution in future
+2014-07-02 17:17:37		   window - manage windows
+2014-07-02 17:17:37		Other commands:
+2014-07-02 17:17:37		   a - buffer
+2014-07-02 17:17:37		   AAWAY - allserv /away
+2014-07-02 17:17:37		   admin - find information about the administrator of the server
+2014-07-02 17:17:37		   alias - create an alias for a command
+2014-07-02 17:17:37		   allchan - execute a command on all channels of all connected servers
+2014-07-02 17:17:37		   allserv - execute a command on all connected servers
+2014-07-02 17:17:37		   AME - allchan /me
+2014-07-02 17:17:37		   AMSG - allchan /msg *
+2014-07-02 17:17:37		   ANICK - allserv /nick
+2014-07-02 17:17:37		   aspell - aspell plugin configuration
+2014-07-02 17:17:37		   ban - ban nicks or hosts
+2014-07-02 17:17:37		   BYE - quit
+2014-07-02 17:17:37		   C - buffer clear
+2014-07-02 17:17:37		   charset - change charset for current buffer
+2014-07-02 17:17:37		   CHAT - dcc chat
+2014-07-02 17:17:37		   CL - buffer clear
+2014-07-02 17:17:37		   CLOSE - buffer close
+2014-07-02 17:17:37		   connect - connect to IRC server(s)
+2014-07-02 17:17:37		   ctcp - send a CTCP message (Client-To-Client Protocol)
+2014-07-02 17:17:37		   cycle - leave and rejoin a channel
+2014-07-02 17:17:37		   dcc - start DCC (file or chat)
+2014-07-02 17:17:37		   dehalfop - remove half channel operator status from nickname(s)
+2014-07-02 17:17:37		   deop - remove channel operator status from nickname(s)
+2014-07-02 17:17:37		   devoice - remove voice from nickname(s)
+2014-07-02 17:17:37		   die - shutdown the server
+2014-07-02 17:17:37		   disconnect - disconnect from IRC server(s)
+2014-07-02 17:17:37		   EXIT - quit
+2014-07-02 17:17:37		   halfop - give half channel operator status to nickname(s)
+2014-07-02 17:17:37		   IG - ignore
+2014-07-02 17:17:37		   ignore - ignore nicks/hosts from servers or channels
+2014-07-02 17:17:37		   info - get information describing the server
+2014-07-02 17:17:37		   invite - invite a nick on a channel
+2014-07-02 17:17:37		   ison - check if a nickname is currently on IRC
+2014-07-02 17:17:37		   J - join
+2014-07-02 17:17:37		   join - join a channel
+2014-07-02 17:17:37		   K - kick
+2014-07-02 17:17:37		   KB - kickban
+2014-07-02 17:17:37		   kick - forcibly remove a user from a channel
+2014-07-02 17:17:37		   kickban - kicks and bans a nick from a channel
+2014-07-02 17:17:37		   kill - close client-server connection
+2014-07-02 17:17:37		   LEAVE - part
+2014-07-02 17:17:37		   links - list all servernames which are known by the server answering the query
+2014-07-02 17:17:37		   list - list channels and their topic
+2014-07-02 17:17:37		   logger - logger plugin configuration
+2014-07-02 17:17:37		   lua - list/load/unload scripts
+2014-07-02 17:17:37		   lusers - get statistics about the size of the IRC network
+2014-07-02 17:17:37		   M - msg
+2014-07-02 17:17:37		   map - show a graphical map of the IRC network
+2014-07-02 17:17:37		   me - send a CTCP action to the current channel
+2014-07-02 17:17:37		   me - send a CTCP action to remote host
+2014-07-02 17:17:37		   mode - change channel or user mode
+2014-07-02 17:17:37		   motd - get the "Message Of The Day"
+2014-07-02 17:17:37		   msg - send message to a nick or channel
+2014-07-02 17:17:37		   MUB - unban *
+2014-07-02 17:17:37		   N - names
+2014-07-02 17:17:37		   names - list nicknames on channels
+2014-07-02 17:17:37		   nick - change current nickname
+2014-07-02 17:17:37		   notice - send notice message to user
+2014-07-02 17:17:37		   op - give channel operator status to nickname(s)
+2014-07-02 17:17:37		   oper - get operator privileges
+2014-07-02 17:17:37		   part - leave a channel
+2014-07-02 17:17:37		   perl - list/load/unload scripts
+2014-07-02 17:17:37		   ping - ping server
+2014-07-02 17:17:37		   pong - answer to a ping message
+2014-07-02 17:17:37		   python - list/load/unload scripts
+2014-07-02 17:17:37		   Q - query
+2014-07-02 17:17:37		   query - send a private message to a nick
+2014-07-02 17:17:37		   quote - send raw data to server without parsing
+2014-07-02 17:17:37		   reconnect - reconnect to server(s)
+2014-07-02 17:17:37		   REDRAW - window refresh
+2014-07-02 17:17:37		   rehash - tell the server to reload its config file
+2014-07-02 17:17:37		   restart - tell the server to restart itself
+2014-07-02 17:17:37		   ruby - list/load/unload scripts
+2014-07-02 17:17:37		   sajoin - forces a user to join channel(s)
+2014-07-02 17:17:37		   samode - change mode on channel, without having operator status
+2014-07-02 17:17:37		   sanick - forces a user to use another nick
+2014-07-02 17:17:37		   sapart - forces a user to leave channel(s)
+2014-07-02 17:17:37		   saquit - forces a user to quit server with a reason
+2014-07-02 17:17:37		   SAY - msg *
+2014-07-02 17:17:37		   server - list, add or remove IRC servers
+2014-07-02 17:17:37		   service - register a new service
+2014-07-02 17:17:37		   servlist - list services currently connected to the network
+2014-07-02 17:17:37		   SIGNOFF - quit
+2014-07-02 17:17:37		   squery - deliver a message to a service
+2014-07-02 17:17:37		   squit - disconnect server links
+2014-07-02 17:17:37		   stats - query statistics about server
+2014-07-02 17:17:37		   summon - give users who are on a host running an IRC server a message asking them to please join IRC
+2014-07-02 17:17:37		   T - topic
+2014-07-02 17:17:37		   tcl - list/load/unload scripts
+2014-07-02 17:17:37		   time - query local time from server
+2014-07-02 17:17:37		   topic - get/set channel topic
+2014-07-02 17:17:37		   trace - find the route to specific server
+2014-07-02 17:17:37		   UB - unban
+2014-07-02 17:17:37		   unalias - remove aliases
+2014-07-02 17:17:37		   unban - unban nicks or hosts
+2014-07-02 17:17:37		   userhost - return a list of information about nicknames
+2014-07-02 17:17:37		   users - list of users logged into the server
+2014-07-02 17:17:37		   V - command core version
+2014-07-02 17:17:37		   version - give the version info of nick or server (current or specified)
+2014-07-02 17:17:37		   voice - give voice to nickname(s)
+2014-07-02 17:17:37		   W - who
+2014-07-02 17:17:37		   wallops - send a message to all currently connected users who have set the 'w' user mode for themselves
+2014-07-02 17:17:37		   WC - window merge
+2014-07-02 17:17:37		   who - generate a query which returns a list of information
+2014-07-02 17:17:37		   whois - query information about user(s)
+2014-07-02 17:17:37		   whowas - ask for information about a nickname which no longer exists
+2014-07-02 17:17:37		   WI - whois
+2014-07-02 17:17:37		   WII - whois $1 $1
+2014-07-02 17:17:37		   WW - whowas
+2014-07-02 17:17:37		   xfer - xfer control
+2014-07-02 17:19:56		Option changed: irc.server.freenode.autojoin = "#osuosl"
+2014-07-02 17:20:44		Option changed: irc.server.freenode.autojoin = "#osuosl-dev #osuosl-infra #osu-lug"
+2014-07-02 17:21:11		Option changed: irc.server.freenode.autojoin = "#omgmanatees #osu-lug-admin"
+2014-07-02 17:22:18		Option changed: irc.server.freenode.autojoin = "#osulug #osuosl-dev #omgmanatees #osuosl-infra #osuosl-staff #osuosl #osu-lug-admin"
+2014-07-02 17:24:01		Option changed: irc.server.mozilla.autojoin = "#sumodev"
+2014-07-02 17:25:24		Option changed: irc.server.mozilla.autojoin = "#sumodev #webdev #interns #security"

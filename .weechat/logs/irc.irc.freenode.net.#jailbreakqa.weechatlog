@@ -1,0 +1,2075 @@
+2014-07-01 20:12:23	-->	muricula (kronquii@shell.onid.oregonstate.edu) has joined #jailbreakqa
+2014-07-01 20:12:23	--	Topic for #jailbreakqa is "JailbreakQA: help with jailbreaking, as part of http://www.jailbreakqa.com/ | Please do not ask about anything related to piracy, future jailbreaks/unlocks, iOS betas, bypassing passcodes, or bypassing activation lock | Rules: http://is.gd/iwBl2G"
+2014-07-01 20:12:23	--	Topic set by britta (~ubuntu@ec2-50-17-165-87.compute-1.amazonaws.com) on Mon, 23 Jun 2014 14:08:57
+2014-07-01 20:12:23	--	Nicks #jailbreakqa: [@autocorrect @britta @Crazytiler @farahtwiggy @iFlames @pangu +acfrazier +angelXwind +caughtinflux +coolstar +csssuf +cybr1d +dirkg +EnigmaFX +fr0st- +GreySyntax +hack +Hashtastrophe +iAdam1n +iFlames-iPhone +iH8sn0w +JonSeals +justinred +kirb +MuscleNerd +Nexuist +ProtoSphere +rpetrich +Sina +x56 _u2pop_ ac3xx-fn ahtanu- apocolipse Aranel bluesm boubbin chaos___________ compilingEntropy computerality Cykey D4RK-PH0ENiX datrix deanfx|afk DeviantTwo devnu11 diytto EncryptedCurse Essobi ExeciN expr FalTam Fe4r flugger- fwlinksbot gates goeo_ GrandMstrBud grobii ground gueriLLaPunK Guest14030__ Guest29301 Guest29372 Guest4102 h121h HeN heth hoodie insanj isa56k_ ituneserrorsbot ivan`` J3SS JohnWayne jolleyjoe_znc kathorga Kian klept0 levifig m4o4 macgirl mancha_ minimoose MistaMike MrBitcoins msy muricula Neal_ Nick ONX patterson PepperPots___ pumba pwnsrv qabot quentin rmc08 robics rweichler Sagitt Sarks seejy sfan5 ShapeShifter499 shingshang SonicD Spydar007 Synergiance sysrage Tatsh The0x539 TheMadcapper tklbot tomaw trash80_ trench ttwj_ twodayslate_ UnterPerro WouterDS ws2k3 YeahRight]
+2014-07-01 20:12:23	--	Channel #jailbreakqa: 123 nicks (6 ops, 0 halfops, 24 voices, 93 normals)
+2014-07-01 20:12:25	--	Channel created on Mon, 03 Oct 2011 18:08:34
+2014-07-01 20:13:37	muricula	Hey, I just jailbroke a 3gs with p0sixpwn and unlocked it with ultrasn0w, but I can't get service
+2014-07-01 20:14:04	muricula	What do I need to do to get service?
+2014-07-01 20:14:17	@pangu	what's the baseband?
+2014-07-01 20:14:30	+hack	6.6.6 !
+2014-07-01 20:15:10	qabot	[Medicdavidson] For The Love Of God, Please Help ( http://jbqa.me/questions/281922 )
+2014-07-01 20:15:33	+hack	^
+2014-07-01 20:15:48	 *	hack takes that a sign
+2014-07-01 20:16:05	muricula	pangu: the baseband is 05.16.08, the ios version is 6.1.6
+2014-07-01 20:16:28	+hack	well ultrasn0w don't work for 0516
+2014-07-01 20:16:54	+hack	what is the first 5 of your sn muricula
+2014-07-01 20:16:57	muricula	Hmm... Okay, how do I get service?
+2014-07-01 20:17:25	muricula	the first 5 digits of the serial number are 87210
+2014-07-01 20:17:36	-->	ws (465b9b31@gateway/web/cgi-irc/kiwiirc.com/ip.70.91.155.49) has joined #jailbreakqa
+2014-07-01 20:17:41	-->	pretty_function (~pretty_fu@115.252.136.3) has joined #jailbreakqa
+2014-07-01 20:18:49	<--	ws (465b9b31@gateway/web/cgi-irc/kiwiirc.com/ip.70.91.155.49) has quit (Client Quit)
+2014-07-01 20:19:17	+justinred	muricula: you are SOL.
+2014-07-01 20:19:22	@pangu	muricula: you can't. you need an imei unlock
+2014-07-01 20:19:22	@autocorrect	pangu: Reliable unlock sellers: https://ghostbin.com/paste/jkfqw
+2014-07-01 20:19:46	muricula	pangu: what's an imei unlock.
+2014-07-01 20:19:46	@autocorrect	muricula: Reliable unlock sellers: https://ghostbin.com/paste/jkfqw
+2014-07-01 20:19:55	@pangu	paid unlock
+2014-07-01 20:20:04	muricula	Also, I assume that means Shit Out of Luck
+2014-07-01 20:20:04	@pangu	no free ones for a device that new
+2014-07-01 20:20:43	muricula	Okay... why is that? Is the new jailbreak not open source or something?
+2014-07-01 20:21:07	@pangu	no, it's a long story, but if you flash the baseband you brick the phone forever
+2014-07-01 20:21:39	+hack	yea, stay far away from that
+2014-07-01 20:21:46	+justinred	ohai. slideback is out, a replacement for appslide.
+2014-07-01 20:21:53	muricula	pangu: where can I learn about the long story?
+2014-07-01 20:21:58	@pangu	you can't unlock with ultrasn0w without flashing the baseband, this only works on 3gs's made before about mid-2011
+2014-07-01 20:22:34	@pangu	muricula: the story won't help you, there are no loopholes, but hang on...
+2014-07-01 20:22:51	+hack	the 3gs has 4 production years, the 2011 week 35+ devices where fixed
+2014-07-01 20:23:02	+hack	so if you flash a phones that's to new it's a brick
+2014-07-01 20:23:09	+hack	phone *
+2014-07-01 20:23:48	+hack	a real brick, not just a n00b brick
+2014-07-01 20:23:53	+justinred	lol
+2014-07-01 20:27:17	@pangu	muricula: if you must know, read this: http://www.jailbreakqa.com/questions/65072/after-3gs-baseband-update-615-phone-now-is-blank-imei-wifi-bluetooth
+2014-07-01 20:27:23	muricula	pangu: Hang on?
+2014-07-01 20:27:50	@pangu	hang on means wait for me to look something up. see link.
+2014-07-01 20:28:00	muricula	oops I think I was ninja'd
+2014-07-01 20:28:01	+hack	lol
+2014-07-01 20:28:09	@pangu	;p
+2014-07-01 20:28:49	@pangu	I had to go to theiphoneguy's profile and look at his favorites, I knew it'd be there ;p
+2014-07-01 20:29:59	muricula	Can a carrier unlock the device or free/fix the baseband?
+2014-07-01 20:30:10	+hack	lol
+2014-07-01 20:30:51	+justinred	I didn't know that I can look at other users profiles. :P
+2014-07-01 20:30:54	muricula	I've heard that the carrier can unlock the device.
+2014-07-01 20:30:56	+justinred	I mean favorites.
+2014-07-01 20:31:08	@pangu	yes, and yes
+2014-07-01 20:31:36	@pangu	muricula: what carrier is it locked to?
+2014-07-01 20:31:41	muricula	Okay, I'll look into that. Thanks.
+2014-07-01 20:31:58	+justinred	Comronwit Toopgranjank You have way too many favorites.
+2014-07-01 20:32:04	@pangu	lol
+2014-07-01 20:32:06	muricula	I think AT&T. Can I check in settings?
+2014-07-01 20:32:33	@pangu	yeah but that's no guarantee
+2014-07-01 20:32:48	@pangu	you can call apple they will tell you for free
+2014-07-01 20:32:56	+justinred	what's the model in settings/general/about?
+2014-07-01 20:33:00	@pangu	sites can check too but charge a dollar or two
+2014-07-01 20:33:24	muricula	Also, can I just uninstall ultrasn0w via cydia or do I need to restore the device from a backup?
+2014-07-01 20:34:04	-->	Knightbreather (a6936201@gateway/web/cgi-irc/kiwiirc.com/ip.166.147.98.1) has joined #jailbreakqa
+2014-07-01 20:34:49	+justinred	you can uninstall it in cydia.
+2014-07-01 20:34:58	muricula	cool, thank you guys
+2014-07-01 20:35:31	<--	Knightbreather (a6936201@gateway/web/cgi-irc/kiwiirc.com/ip.166.147.98.1) has quit (Client Quit)
+2014-07-01 20:38:00	<--	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2014-07-01 20:39:04	qabot	[knightbreather] Alarm tweak to open an app ( http://jbqa.me/questions/281940 )
+2014-07-01 20:40:21	-->	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has joined #jailbreakqa
+2014-07-01 20:42:45	--	Topic for #jailbreakqa is "JailbreakQA: help with jailbreaking, as part of http://www.jailbreakqa.com/ | Please do not ask about anything related to piracy, future jailbreaks/unlocks, iOS betas, bypassing passcodes, or bypassing activation lock | Rules: http://is.gd/iwBl2G"
+2014-07-01 20:42:45	--	Topic set by britta (~ubuntu@ec2-50-17-165-87.compute-1.amazonaws.com) on Mon, 23 Jun 2014 14:08:57
+2014-07-01 20:44:06	-->	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has joined #jailbreakqa
+2014-07-01 20:44:06	--	Mode #jailbreakqa [+v ProtoSphere] by ChanServ
+2014-07-01 20:53:38	-->	wiredless (~textual@99-109-10-16.lightspeed.wepbfl.sbcglobal.net) has joined #jailbreakqa
+2014-07-01 20:54:46	<--	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has quit (Ping timeout: 244 seconds)
+2014-07-01 21:00:10	-->	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has joined #jailbreakqa
+2014-07-01 21:07:34	-->	oldvirus (~blackbear@67.221.255.97) has joined #jailbreakqa
+2014-07-01 21:10:44	-->	dracopolis (682071d7@gateway/web/cgi-irc/kiwiirc.com/ip.104.32.113.215) has joined #jailbreakqa
+2014-07-01 21:11:17	dracopolis	hi i can't get tiny umbrella to open on my macbook air
+2014-07-01 21:12:34	@britta	dracopolis: what happens when you try?
+2014-07-01 21:12:38	qabot	[Zac] ailbreak and unlock tools. ( http://jbqa.me/questions/281959 )
+2014-07-01 21:12:53	@britta	dracopolis: also what are you using tiny umbrella for? you might not need it, or there might be an alternative you can use
+2014-07-01 21:13:01	dracopolis	it says reticulating spines and crashes
+2014-07-01 21:13:11	dracopolis	I'm trying to kick it out of recovery mode
+2014-07-01 21:13:18	dracopolis	my iPhone i mean
+2014-07-01 21:13:35	<--	Sarks (~Anghel_xs@static062038157188.dsl.hol.gr) has quit (Quit: Connection reset by beer)
+2014-07-01 21:13:47	@britta	how did it end up there?
+2014-07-01 21:14:02	dracopolis	idk its been happening for a while
+2014-07-01 21:14:18	@britta	also you are using tinyumbrella from http://blog.firmwareumbrella.com/ right?
+2014-07-01 21:14:27	@britta	recovery mode can sometimes indicate hardware problem
+2014-07-01 21:14:29	dracopolis	it just does it on its own, I've narrowed it down to me shaking my phone to hard
+2014-07-01 21:14:35	@britta	weird!
+2014-07-01 21:14:36	dracopolis	yes I'm using that
+2014-07-01 21:15:08	@britta	which iphone version?
+2014-07-01 21:15:22	dracopolis	iphone 4s, iOS 7
+2014-07-01 21:16:12	@britta	maybe make sure your computer has a recent version of java
+2014-07-01 21:16:22	dracopolis	ok ill try that
+2014-07-01 21:18:29	Dream	dracopolis:  I had that issue once, the port was being used by some other service, you have to open task manager and stop whatever is running on that certain port.
+2014-07-01 21:19:23	dracopolis	ok, and yes my java is the latest version currently
+2014-07-01 21:20:19	wiredless	anything running like a torrent program?
+2014-07-01 21:20:39	dracopolis	torrent program?
+2014-07-01 21:20:48	wiredless	bit torrent
+2014-07-01 21:20:50	@pangu	I don't think TU (or any other tool) can fix recovery on A5+ devices
+2014-07-01 21:21:23	wiredless	or a file sharing program
+2014-07-01 21:21:35	wiredless	im guessing windows?
+2014-07-01 21:21:39	@pangu	but if shaking it causes it, you have something loose
+2014-07-01 21:21:59	-->	Sarks (Sarks@static062038157188.dsl.hol.gr) has joined #jailbreakqa
+2014-07-01 21:22:41	dracopolis	most likely, I'm going to have my phone checked later
+2014-07-01 21:22:49	wiredless	could be an app related to the motion sensor?
+2014-07-01 21:22:50	@pangu	wiredless: that only affects the tss server, which is obsolete anyway
+2014-07-01 21:23:01	@pangu	the port 80 I mean
+2014-07-01 21:23:33	dracopolis	oh my phone just came back on...
+2014-07-01 21:23:40	<--	gueriLLaPunK (~hi@guerillapunk.loves.bananas.and.being.inside.ur.seriesoftub.es) has quit (Ping timeout: 260 seconds)
+2014-07-01 21:23:44	@pangu	it's possessed
+2014-07-01 21:23:54	dracopolis	well thanks for your guys help
+2014-07-01 21:23:59	wiredless	SATAN!
+2014-07-01 21:24:05	@pangu	;p
+2014-07-01 21:24:28	<--	bluesm (uid13438@gateway/web/irccloud.com/x-bdjjsagyeyhtigte) has quit (Quit: Connection closed for inactivity)
+2014-07-01 21:24:29	wiredless	odd error thos from tu
+2014-07-01 21:24:33	dracopolis	yeah like pang said its probably something loose
+2014-07-01 21:24:41	oldvirus	satan rules the false gods
+2014-07-01 21:24:58	<--	EnigmaFX (~EnigmaFX@37.59.65.54) has quit (Read error: Connection reset by peer)
+2014-07-01 21:25:16	wiredless	my guitar rig was possessed
+2014-07-01 21:25:30	wiredless	or had a gremlin
+2014-07-01 21:25:37	oldvirus	nsa owns your ohone
+2014-07-01 21:25:47	dracopolis	ok well bye guys
+2014-07-01 21:25:48	oldvirus	phone
+2014-07-01 21:26:04	<--	dracopolis (682071d7@gateway/web/cgi-irc/kiwiirc.com/ip.104.32.113.215) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-01 21:26:08	wiredless	runs virus sweep
+2014-07-01 21:27:17	-->	EnigmaFX (~EnigmaFX@108.178.32.130) has joined #jailbreakqa
+2014-07-01 21:27:58	Dream	pangu: that crashing error does usually indicate port 80 is blocked
+2014-07-01 21:28:01	oldvirus	http://www.bing.com/search?setmkt=en-US&q=cell-phone-hacking
+2014-07-01 21:29:06	<--	minimoose (~minimoose@pool-98-111-130-87.phlapa.fios.verizon.net) has quit (Quit: minimoose)
+2014-07-01 21:29:25	oldvirus	http://www.hackingacellphone.com/
+2014-07-01 21:29:55	@pangu	Dream: yeah but TU is useless for a 4s anyway, so it's moot
+2014-07-01 21:30:47	Dream	pangu: yea
+2014-07-01 21:31:18	oldvirus	http://www.spybubble.com/cell-phone-spy.php
+2014-07-01 21:38:41	-->	Haifisch (~haifisch@24-205-218-210.dhcp.crcy.nv.charter.com) has joined #jailbreakqa
+2014-07-01 21:42:23	+hack	my damn cable keeps going out
+2014-07-01 21:42:33	+hack	guy outside keeps getting yelled at
+2014-07-01 21:42:56	 *	hack fells bad for him
+2014-07-01 21:42:57	+hack	lol
+2014-07-01 21:43:38	-->	marvin (uid3963@gateway/web/irccloud.com/x-nmjsgmzdobpvkfwu) has joined #jailbreakqa
+2014-07-01 21:43:38	--	Mode #jailbreakqa [+o marvin] by ChanServ
+2014-07-01 21:54:15	<--	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has quit (Ping timeout: 248 seconds)
+2014-07-01 21:54:33	wiredless	cable guy?
+2014-07-01 21:55:21	-->	smgs|z10 (~yaaic@117.219.58.243) has joined #jailbreakqa
+2014-07-01 21:56:55	smgs|z10	thanks hack
+2014-07-01 21:57:12	smgs|z10	incase i missed yed
+2014-07-01 21:57:21	smgs|z10	yesterday*
+2014-07-01 21:57:48	+hack	get everything work ok smgs|z10 ?
+2014-07-01 21:58:31	smgs|z10	yes
+2014-07-01 21:58:35	+hack	awesome
+2014-07-01 21:58:55	smgs|z10	device is like new. everything that i instlled i hv to install again
+2014-07-01 21:59:06	+hack	that's the fun part to me
+2014-07-01 21:59:07	smgs|z10	but that is not an issue
+2014-07-01 21:59:15	+hack	yeah, not at all
+2014-07-01 21:59:28	-->	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has joined #jailbreakqa
+2014-07-01 21:59:41	wiredless	pkgbackup damnit
+2014-07-01 21:59:44	wiredless	lol
+2014-07-01 21:59:45	+hack	ok, i'll bbl. got to go pick up chriswty
+2014-07-01 21:59:49	smgs|z10	lol, jailbreak did not lead to two things so might not do it
+2014-07-01 21:59:53	+hack	christy *
+2014-07-01 22:00:05	smgs|z10	cya
+2014-07-01 22:00:33	smgs|z10	sometimes you get personal on irc, not advised though. ;-p
+2014-07-01 22:00:54	wiredless	oh it gets personal
+2014-07-01 22:01:06	wiredless	all too offten
+2014-07-01 22:03:00	smgs|z10	two things are: ussd support and second is being able to install app etc without giving credit card details
+2014-07-01 22:03:25	qabot	[OFWGKTA87] Cydia won't install anything. How can this be fixed? ( http://jbqa.me/questions/281968 )
+2014-07-01 22:04:16	<--	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has quit (Client Quit)
+2014-07-01 22:04:25	wiredless	ussd?
+2014-07-01 22:04:37	smgs|z10	a sec.
+2014-07-01 22:05:26	smgs|z10	my sim service provider wants me to send/call *123# etc so that i am able to check remaining data etc
+2014-07-01 22:05:40	smgs|z10	you get it?
+2014-07-01 22:06:26	wiredless	i c
+2014-07-01 22:07:02	smgs|z10	calling *123# etc is ussd in practical, full form can be Googled
+2014-07-01 22:07:41	smgs|z10	at present i have to remove sim, insert it in another also make it big from micro, then ussd and then put it back into ipad,
+2014-07-01 22:07:57	smgs|z10	another phone*
+2014-07-01 22:08:00	wiredless	gotcha
+2014-07-01 22:08:57	smgs|z10	thid ipad is gifted and i wont buy any apple product in future because of these two limitationd
+2014-07-01 22:09:18	wiredless	never heard that term ussd
+2014-07-01 22:10:42	wiredless	to each his own
+2014-07-01 22:11:01	wiredless	at some point in life you have to be held accountable
+2014-07-01 22:11:24	wiredless	ie enter card info
+2014-07-01 22:12:57	<--	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2014-07-01 22:13:39	<--	smgs|z10 (~yaaic@117.219.58.243) has quit (Ping timeout: 255 seconds)
+2014-07-01 22:19:55	Spydar007	Gm
+2014-07-01 22:20:05	+hack	pm me card info
+2014-07-01 22:20:11	+hack	i'll enter it for you
+2014-07-01 22:20:17	wiredless	lol
+2014-07-01 22:24:45	<--	Sagitt (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has quit (Quit: See you later!)
+2014-07-01 22:28:14	-->	mnaveedz (5660353b@gateway/web/cgi-irc/kiwiirc.com/ip.86.96.53.59) has joined #jailbreakqa
+2014-07-01 22:29:27	<--	rmc08 (~Rob@unaffiliated/rmc08) has quit (Quit: Leaving)
+2014-07-01 22:29:57	<--	mnaveedz (5660353b@gateway/web/cgi-irc/kiwiirc.com/ip.86.96.53.59) has quit (Client Quit)
+2014-07-01 22:30:44	qabot	[frisbeemelon] "Waiting for response" -- well, what response does Pangu want exactly? ( http://jbqa.me/questions/281982 )
+2014-07-01 22:32:39	-->	smgs|z10 (~yaaic@117.219.58.243) has joined #jailbreakqa
+2014-07-01 22:33:59	-->	meteochu (~bacon@S0106c8fb26436370.vc.shawcable.net) has joined #jailbreakqa
+2014-07-01 22:33:59	<--	meteochu (~bacon@S0106c8fb26436370.vc.shawcable.net) has quit (Changing host)
+2014-07-01 22:33:59	-->	meteochu (~bacon@unaffiliated/theandy) has joined #jailbreakqa
+2014-07-01 22:36:45	qabot	[grkkboy] Jailbreak 7.1.2? Or stay on 7.1.1! ( http://jbqa.me/questions/281984 )
+2014-07-01 22:39:31	@Crazytiler	 Damn pangu certainly brought the "user errors" out the wood work :(
+2014-07-01 22:39:41	@Crazytiler	Gm
+2014-07-01 22:42:23	<--	oldvirus (~blackbear@67.221.255.97) has quit
+2014-07-01 22:45:11	@Crazytiler	Hack still after a movie to watch ....http://www.imdb.com/title/tt2209764/
+2014-07-01 22:45:23	smgs|z10	gm crazy
+2014-07-01 22:45:41	@Crazytiler	Ello
+2014-07-01 22:46:22	Synergiance	Crazytiler: better than software errors
+2014-07-01 22:46:52	@Crazytiler	Na prefer software errors not as face palm
+2014-07-01 22:47:11	@Crazytiler	I can deal with software better than numptys
+2014-07-01 22:47:40	@Crazytiler	Easier /faster to fix
+2014-07-01 22:47:50	Synergiance	with numptys just add some text to a tutorial, copy/pasta the link lmao
+2014-07-01 22:48:25	@Crazytiler	There's the issue of inability to read though with many
+2014-07-01 22:48:37	Synergiance	oh ya, that's true
+2014-07-01 22:52:15	qabot	[Ranks] Remove dock ( http://jbqa.me/questions/281990 )
+2014-07-01 22:52:46	Spydar007	Morning Crazytiler
+2014-07-01 22:53:08	qabot	[Babygirl69] Jail break ( http://jbqa.me/questions/281991 )
+2014-07-01 22:53:34	-->	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has joined #jailbreakqa
+2014-07-01 22:55:21	Dream	Hi, I'm going to restore my iphone 5, all I need is to save my contacts, nothing else, what's the easiest way? Can I just do a backup of my contacts? Also, are you supposed to sync after the jailbreak or before?
+2014-07-01 22:55:36	Spydar007	Dream: iCloud
+2014-07-01 22:56:01	Dream	So go into iCloud on my device, save vobta
+2014-07-01 22:56:07	Spydar007	Setting > iCloud. Turn in Contacts and nothing else.
+2014-07-01 22:56:21	Spydar007	Then go into Storage and Backup and hit Backup
+2014-07-01 22:57:05	Dream	Spydar007: then after I hit backup, I just restore then turn iCloud on?
+2014-07-01 22:57:48	qabot	[Atmount] Dock & Folders ( http://jbqa.me/questions/281996 )
+2014-07-01 22:57:54	Spydar007	 Yeah
+2014-07-01 22:57:58	Spydar007	Should work
+2014-07-01 22:58:13	Dream	Ok thanks a million 😊
+2014-07-01 22:58:23	-->	naschine (~naschine@unaffiliated/naschine) has joined #jailbreakqa
+2014-07-01 22:59:07	Spydar007	Np Dream
+2014-07-01 23:00:16	<--	Dream (~Dream@ip68-8-67-210.sd.sd.cox.net) has quit (Quit: Leaving)
+2014-07-01 23:02:07	qabot	[vilo] Ios 7.1.2 - ayecon - anybody know if this them is working or causes any problems? ( http://jbqa.me/questions/281997 )
+2014-07-01 23:03:35	<--	EnigmaFX (~EnigmaFX@108.178.32.130) has quit (Ping timeout: 248 seconds)
+2014-07-01 23:04:25	<--	Haifisch (~haifisch@24-205-218-210.dhcp.crcy.nv.charter.com) has quit (Remote host closed the connection)
+2014-07-01 23:05:59	-->	EnigmaFX (~EnigmaFX@176.31.76.49) has joined #jailbreakqa
+2014-07-01 23:06:58	<--	smgs|z10 (~yaaic@117.219.58.243) has quit (Ping timeout: 264 seconds)
+2014-07-01 23:07:27	-->	smgs|z10 (~yaaic@117.219.58.243) has joined #jailbreakqa
+2014-07-01 23:08:35	--	Mode #jailbreakqa [+v EnigmaFX] by ChanServ
+2014-07-01 23:10:03	qabot	[Chrisrivera61] IOS 8 beta 2 ( http://jbqa.me/questions/282005 )
+2014-07-01 23:10:12	-->	iDaniel (uid25588@gateway/web/irccloud.com/x-feubrtaeljbncqar) has joined #jailbreakqa
+2014-07-01 23:10:29	-->	pythech (uid34949@gateway/web/irccloud.com/x-nbeyykilvnznlliq) has joined #jailbreakqa
+2014-07-01 23:11:27	smgs|z10	crazy johny is nice
+2014-07-01 23:11:49	smgs|z10	wish to see all his movies
+2014-07-01 23:19:33	<--	smgs|z10 (~yaaic@117.219.58.243) has quit (Ping timeout: 240 seconds)
+2014-07-01 23:22:14	-->	smgs|z10 (~yaaic@117.219.58.243) has joined #jailbreakqa
+2014-07-01 23:25:03	smgs|z10	crazy u.already saw that movie?
+2014-07-01 23:29:11	<--	smgs|z10 (~yaaic@117.219.58.243) has quit (Ping timeout: 248 seconds)
+2014-07-01 23:32:32	<--	EnigmaFX (~EnigmaFX@176.31.76.49) has quit (Read error: Connection reset by peer)
+2014-07-01 23:33:59	-->	EnigmaFX (~EnigmaFX@37.59.65.58) has joined #jailbreakqa
+2014-07-01 23:37:15	Spydar007	!tss iPhone3,1
+2014-07-01 23:37:16	fwlinksbot	Spydar007: Firmwares currently being signed for iPhone3,1: 7.1.2 [11D257] and 7.1.1 [11D201].
+2014-07-01 23:37:25	Spydar007	7.1.1 still signed them
+2014-07-01 23:37:29	Spydar007	*then
+2014-07-01 23:48:42	-->	smgs|z10 (~yaaic@117.224.240.87) has joined #jailbreakqa
+2014-07-01 23:49:11	@Crazytiler	smgs|z10: yes I have
+2014-07-01 23:49:56	smgs|z10	so soon man, i am envious
+2014-07-01 23:51:04	smgs|z10	crazytiler: ipad is used by my 2 year old and 6 year old kids
+2014-07-01 23:51:40	-->	bluesm (uid13438@gateway/web/irccloud.com/x-eufrvrdeaimzoeno) has joined #jailbreakqa
+2014-07-01 23:52:51	@Crazytiler	smgs|z10: it came out in April
+2014-07-01 23:53:28	smgs|z10	ohhh, oops, how was it?
+2014-07-01 23:55:42	-->	gi1 (~gi1@2-238-75-36.ip243.fastwebnet.it) has joined #jailbreakqa
+2014-07-02 00:02:33	<--	smgs|z10 (~yaaic@117.224.240.87) has quit (Ping timeout: 240 seconds)
+2014-07-02 00:04:18	-->	smgs|z10 (~yaaic@117.224.240.87) has joined #jailbreakqa
+2014-07-02 00:05:32	<--	meteochu (~bacon@unaffiliated/theandy) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-02 00:19:43	<--	GrandMstrBud (41655fac@gateway/web/cgi-irc/kiwiirc.com/ip.65.101.95.172) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-02 00:19:54	<--	marvin (uid3963@gateway/web/irccloud.com/x-nmjsgmzdobpvkfwu) has quit (Quit: Connection closed for inactivity)
+2014-07-02 00:27:57	gi1	'lo peepz
+2014-07-02 00:28:05	gi1	i need an advice
+2014-07-02 00:28:06	gi1	i
+2014-07-02 00:28:14	gi1	've bought an icade controller
+2014-07-02 00:28:39	gi1	and it works good with imame and mame4all
+2014-07-02 00:29:10	gi1	but if i try to use blutrol, any game crashes as soon i try to use the joy or any button
+2014-07-02 00:29:59	gi1	is available a blutrol alternative? (i'm on 7.1.1 jb)
+2014-07-02 00:32:48	<--	smgs|z10 (~yaaic@117.224.240.87) has quit (Ping timeout: 244 seconds)
+2014-07-02 00:34:14	-->	smgs|z10 (~yaaic@117.224.25.129) has joined #jailbreakqa
+2014-07-02 00:36:08	@Crazytiler	No alternatives .....gotta wait till stuff updated
+2014-07-02 00:46:04	-->	Ken (ae317941@gateway/web/cgi-irc/kiwiirc.com/ip.174.49.121.65) has joined #jailbreakqa
+2014-07-02 00:46:05	<--	Ken (ae317941@gateway/web/cgi-irc/kiwiirc.com/ip.174.49.121.65) has quit (Client Quit)
+2014-07-02 00:47:11	gi1	according to this doc https://docs.zoho.com/sheet/published.do?rid=yjvcr05b6df3bf7784cd7b1fa807cbb25436b&mode=html
+2014-07-02 00:47:20	gi1	blutrol should work, but is not true
+2014-07-02 00:47:39	-->	Ken (ae317941@gateway/web/cgi-irc/kiwiirc.com/ip.174.49.121.65) has joined #jailbreakqa
+2014-07-02 00:47:53	<--	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has quit (Quit:   Bye-bye... So I sez to him...   The real way that it should be done is to...)
+2014-07-02 00:48:11	gi1	i mean, the app doesn't crash, but all the app you're tring to use will crash if blutrol is active
+2014-07-02 00:48:12	--	Ken is now known as Guest94311
+2014-07-02 00:48:15	Guest94311	Hello?
+2014-07-02 00:48:20	@autocorrect	"Ok i uninstalled the mobile substrate..But almost all tweaks that i want to install, need mobile substrate.. Is there any alternative tweak for mobile substrate?"
+2014-07-02 00:49:40	<--	Guest94311 (ae317941@gateway/web/cgi-irc/kiwiirc.com/ip.174.49.121.65) has quit (Client Quit)
+2014-07-02 00:52:16	@Crazytiler	gi1: just because its on the list doesn't mean it's fully functioning with everything
+2014-07-02 00:52:39	@Crazytiler	Many tweaks on that list work but only partially
+2014-07-02 00:53:00	gi1	i know, but the meaning of that tweak is to use virtual touch using an external bt device
+2014-07-02 00:53:17	gi1	and it doesn't work, so basically the tweak doesn't work at all
+2014-07-02 00:53:43	@Crazytiler	Yes but it may work with alot of games or other controllers
+2014-07-02 00:53:47	gi1	at least in 7.1.x
+2014-07-02 00:54:43	@Crazytiler	Try contacting the dev and ask them. We can't help with incompatibility issues that's down to the devs
+2014-07-02 00:55:04	gi1	yea i know, i was hoping some1 had same problem and already found a solution...
+2014-07-02 00:55:26	@Crazytiler	Solution is an update from dev
+2014-07-02 00:56:29	gi1	;)
+2014-07-02 00:59:09	<--	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 01:01:35	+hack	that movie was a trip Crazytiler
+2014-07-02 01:01:38	+hack	lol
+2014-07-02 01:02:35	+hack	Johnny deep plays some weird roles
+2014-07-02 01:02:48	@Crazytiler	Yeah just watched it
+2014-07-02 01:03:06	+hack	Johnny Depp *
+2014-07-02 01:03:09	+hack	yea same
+2014-07-02 01:03:09	@Crazytiler	Suppose he can pick snd choose ...he's worth enough
+2014-07-02 01:03:26	+hack	yeah
+2014-07-02 01:03:58	+hack	i'm thinking about buying mywi again
+2014-07-02 01:04:16	+hack	just wondering if i'm going to have to pay for 8.0 also
+2014-07-02 01:04:17	+hack	lol
+2014-07-02 01:05:21	@Crazytiler	Mmmm yeah ... Or at least a discount .... Pester the dev....works for me for getting free paid tweaks .... I just mention I help out here lol
+2014-07-02 01:05:55	+hack	i don't like to bother people
+2014-07-02 01:06:20	@Crazytiler	I just say if we've got the tweak we can assist in any problems rather then user bothering them xD
+2014-07-02 01:06:29	+hack	if i want it the app, i'll just buy it
+2014-07-02 01:06:41	<--	wiredless (~textual@99-109-10-16.lightspeed.wepbfl.sbcglobal.net) has quit (Quit: Tired if this S!~@#)
+2014-07-02 01:07:00	+hack	i think mywi is the 3rd most expensive app i'v bought
+2014-07-02 01:07:09	+hack	tomtom was the first
+2014-07-02 01:07:22	@Crazytiler	I live by "if you don't ask you don't get" and in shops if they don't oil eg I go elsewhere
+2014-07-02 01:07:22	@autocorrect	eg
+2014-07-02 01:07:37	@Crazytiler	Oblige*
+2014-07-02 01:07:39	+hack	lol
+2014-07-02 01:07:42	+justinred	well mywi is better than those unupdated bluetooth sharing apps that I purchased before.
+2014-07-02 01:07:49	+justinred	at least it gets updated.
+2014-07-02 01:07:50	+hack	^
+2014-07-02 01:08:10	+hack	don't i get a discount for owning an older copy  :3
+2014-07-02 01:08:17	+justinred	and those were expensive.
+2014-07-02 01:08:26	+hack	yeah
+2014-07-02 01:09:00	@Crazytiler	Ha I love watching antiques roadshow for all the folk that bring in stuff thinking it's worth a fortune only to find out it's either fake or just utter crsp
+2014-07-02 01:09:23	+hack	lol
+2014-07-02 01:10:23	qabot	[Ajeeb] Problem with intube?? ( http://jbqa.me/questions/282023 )
+2014-07-02 01:14:47	<--	patterson (~patterson@c-67-188-24-218.hsd1.ca.comcast.net) has quit (Ping timeout: 248 seconds)
+2014-07-02 01:16:17	@Crazytiler	Goung on a 2week cruise soon NO INTERNET :( need to stock up on reading material and tv/movies
+2014-07-02 01:17:42	+justinred	lol. yeah. call and mobile internet on cruises are highway robbery.
+2014-07-02 01:19:45	@Crazytiler	£35-50GBP per 100min
+2014-07-02 01:21:13	+iAdam1n	Anyone noticed 7.1.2 battery drains quicker?
+2014-07-02 01:21:13	@autocorrect	iAdam1n: http://www.overthought.org/blog/2014/the-ultimate-guide-to-solving-ios-battery-drain
+2014-07-02 01:21:20	+iAdam1n	meh w/e
+2014-07-02 01:21:26	+justinred	use to only call when am near land where I can get roaming rates. cheaper than roaming from the ship.
+2014-07-02 01:23:12	@Crazytiler	yeah going to take my mobile as they've just dropped roaming charges last week on virgin. Data is 250mb for £20 roaming
+2014-07-02 01:23:39	+iAdam1n	I suppose I will restore and setup as new again -.-
+2014-07-02 01:27:16	qabot	[D3ATH2020] Theos error 2 ( http://jbqa.me/questions/282025 )
+2014-07-02 01:27:52	-->	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has joined #jailbreakqa
+2014-07-02 01:27:52	--	Mode #jailbreakqa [+v ProtoSphere] by ChanServ
+2014-07-02 01:35:50	qabot	[TrevorGonzo] Safe mode? ( http://jbqa.me/questions/282027 )
+2014-07-02 01:40:36	-->	Gf55 (75def219@gateway/web/cgi-irc/kiwiirc.com/ip.117.222.242.25) has joined #jailbreakqa
+2014-07-02 01:40:50	Gf55	Is pangu available for 7.1.2
+2014-07-02 01:40:59	Gf55	???
+2014-07-02 01:41:37	@britta	yes it works for 7.1.2
+2014-07-02 01:41:41	Gf55	okk
+2014-07-02 01:42:02	Gf55	How i get full version of mewseek
+2014-07-02 01:42:13	Gf55	2.8.4 version
+2014-07-02 01:42:37	Gf55	its tells to registration after 10 downloads
+2014-07-02 01:42:54	Gf55	???
+2014-07-02 01:43:16	Gf55	britta help me??
+2014-07-02 01:43:31	<--	Gf55 (75def219@gateway/web/cgi-irc/kiwiirc.com/ip.117.222.242.25) has quit (Client Quit)
+2014-07-02 01:43:59	qabot	[PepsiPudge] "Failed to fetch" ( http://jbqa.me/questions/282030 )
+2014-07-02 01:53:02	-->	smgs_ (~yaaic@117.229.175.224) has joined #jailbreakqa
+2014-07-02 01:53:10	<--	smgs|z10 (~yaaic@117.224.25.129) has quit (Ping timeout: 264 seconds)
+2014-07-02 01:53:28	<--	iDaniel (uid25588@gateway/web/irccloud.com/x-feubrtaeljbncqar) has quit (Quit: Connection closed for inactivity)
+2014-07-02 01:58:24	<--	smgs_ (~yaaic@117.229.175.224) has quit (Remote host closed the connection)
+2014-07-02 02:00:16	qabot	[ishreyas] Apps disappeared from home screen ( http://jbqa.me/questions/282032 )
+2014-07-02 02:05:25	qabot	[catrpillr] Cydia was not installed with Pangu. ( http://jbqa.me/questions/282035 )
+2014-07-02 02:06:35	-->	sjeezpwn (uid27855@gateway/web/irccloud.com/x-bnqsvaxgiivsjkdn) has joined #jailbreakqa
+2014-07-02 02:16:24	-->	LucaTM (~Luca@ppp-244-18.33-151.iol.it) has joined #jailbreakqa
+2014-07-02 02:19:07	<--	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2014-07-02 02:22:10	ExeciN	Can the white/black/gold strips on the back of the iPhone 5S be replaced?
+2014-07-02 02:23:52	qabot	[Rhythmrice] How do i update and app i got from PP25 ( http://jbqa.me/questions/282052 )
+2014-07-02 02:26:11	<--	autocorrect (autocorrec@97-89-129-19.dhcp.gnvl.sc.charter.com) has quit (Ping timeout: 272 seconds)
+2014-07-02 02:26:57	<--	pangu (~pwner@97-89-129-19.dhcp.gnvl.sc.charter.com) has quit (Ping timeout: 240 seconds)
+2014-07-02 02:27:00	<--	farahtwiggy (~farahtwig@97-89-129-19.dhcp.gnvl.sc.charter.com) has quit (Ping timeout: 260 seconds)
+2014-07-02 02:35:18	ExeciN	Can the black/white/gold strips of the back of the iPhone 5S be replaced or is it part of the aluminum housing?
+2014-07-02 02:36:43	-->	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has joined #jailbreakqa
+2014-07-02 02:36:43	--	Mode #jailbreakqa [+v ProtoSphere] by ChanServ
+2014-07-02 03:01:34	<--	naschine (~naschine@unaffiliated/naschine) has quit (Ping timeout: 264 seconds)
+2014-07-02 03:22:04	-->	satxmike (~Satxmike@cpe-70-114-9-92.satx.res.rr.com) has joined #jailbreakqa
+2014-07-02 03:24:55	-->	SpaaceCore (~SpaaceCor@171.23.148.91.dyn.marticonet.sk) has joined #jailbreakqa
+2014-07-02 03:41:08	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 03:46:38	<--	satxmike (~Satxmike@cpe-70-114-9-92.satx.res.rr.com) has quit (Quit: Later)
+2014-07-02 03:52:38	-->	DaBeast^ (~chatzilla@91.176.171.205) has joined #jailbreakqa
+2014-07-02 04:02:20	qabot	[gdvkid] How to completely kill a process ?? ( http://jbqa.me/questions/282081 )
+2014-07-02 04:06:03	-->	Sagitt (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has joined #jailbreakqa
+2014-07-02 04:10:04	<--	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2014-07-02 04:12:17	<--	pretty_function (~pretty_fu@115.252.136.3) has quit (Remote host closed the connection)
+2014-07-02 04:27:53	-->	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has joined #jailbreakqa
+2014-07-02 04:27:53	--	Mode #jailbreakqa [+v ProtoSphere] by ChanServ
+2014-07-02 04:34:12	-->	iash (75c7cd44@gateway/web/cgi-irc/kiwiirc.com/ip.117.199.205.68) has joined #jailbreakqa
+2014-07-02 04:35:11	iash	guys
+2014-07-02 04:35:16	iash	need help
+2014-07-02 04:36:38	iash	?
+2014-07-02 04:38:41	<--	iash (75c7cd44@gateway/web/cgi-irc/kiwiirc.com/ip.117.199.205.68) has quit (Client Quit)
+2014-07-02 04:43:15	-->	Sagitt_Mac (~Sagitt@host208-39-dynamic.1-87-r.retail.telecomitalia.it) has joined #jailbreakqa
+2014-07-02 04:46:19	-->	Sagitt_ (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has joined #jailbreakqa
+2014-07-02 04:46:21	<--	Sagitt (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has quit (Read error: Connection reset by peer)
+2014-07-02 04:47:02	<--	LucaTM (~Luca@ppp-244-18.33-151.iol.it) has quit (Remote host closed the connection)
+2014-07-02 04:48:36	-->	asdada (75c7cd44@gateway/web/cgi-irc/kiwiirc.com/ip.117.199.205.68) has joined #jailbreakqa
+2014-07-02 04:50:05	asdada	any2 here?
+2014-07-02 04:50:35	<--	Sagitt_Mac (~Sagitt@host208-39-dynamic.1-87-r.retail.telecomitalia.it) has quit (Ping timeout: 272 seconds)
+2014-07-02 04:52:13	<--	asdada (75c7cd44@gateway/web/cgi-irc/kiwiirc.com/ip.117.199.205.68) has quit (Client Quit)
+2014-07-02 05:00:01	<--	Synergiance (~syn@24-151-101-8.dhcp.nwtn.ct.charter.com) has quit (Quit: 500 - Internal Server Error)
+2014-07-02 05:03:28	qabot	[Flononymus] iPhone 4 is restarting since 2 days ( http://jbqa.me/questions/282084 )
+2014-07-02 05:05:59	-->	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has joined #jailbreakqa
+2014-07-02 05:17:03	<--	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 05:21:56	-->	Ninji (~Ninja@unaffiliated/ninji) has joined #jailbreakqa
+2014-07-02 05:22:07	Ninji	YO long time no see
+2014-07-02 05:22:48	qabot	[Raj2mann] restore 7.1.1 after jailbreak ( http://jbqa.me/questions/282085 )
+2014-07-02 05:39:36	-->	minimoose (~minimoose@74-95-191-62-Philadelphia.hfc.comcastbusiness.net) has joined #jailbreakqa
+2014-07-02 05:50:39	-->	farahtwiggy (~farahtwig@97-89-129-19.dhcp.gnvl.sc.charter.com) has joined #jailbreakqa
+2014-07-02 05:50:39	--	Mode #jailbreakqa [+o farahtwiggy] by ChanServ
+2014-07-02 05:50:41	-->	pwner (~pwner@97-89-129-19.dhcp.gnvl.sc.charter.com) has joined #jailbreakqa
+2014-07-02 05:50:46	--	Mode #jailbreakqa [+o pwner] by ChanServ
+2014-07-02 05:54:12	-->	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has joined #jailbreakqa
+2014-07-02 06:01:37	klept0	http://i.imgur.com/vM4oQbQ.jpg
+2014-07-02 06:01:37	klept0	SFW
+2014-07-02 06:03:41	-->	iDaniel (uid25588@gateway/web/irccloud.com/x-bviadkeaykkrpppx) has joined #jailbreakqa
+2014-07-02 06:17:05	-->	smgs|z10 (~yaaic@117.219.104.149) has joined #jailbreakqa
+2014-07-02 06:21:03	<--	smgs|z10 (~yaaic@117.219.104.149) has quit (Ping timeout: 240 seconds)
+2014-07-02 06:23:23	qabot	[maheshidig] Upgrade and Jailbreak 7.0.6 to 7.1 - Sprint - I5 - Pangu ( http://jbqa.me/questions/282097 )
+2014-07-02 06:25:59	qabot	[orisha83] SBSettings problem on iPhone 4s running iOS 7.1.2 ( http://jbqa.me/questions/282098 )
+2014-07-02 06:33:47	 *	iDaniel learned st new the hard way again
+2014-07-02 06:34:00	goeo_	wat
+2014-07-02 06:53:43	-->	cool_name (uid15180@gateway/web/irccloud.com/x-fidiyziiimqelxpr) has joined #jailbreakqa
+2014-07-02 06:55:28	-->	rmc08 (~Rob@unaffiliated/rmc08) has joined #jailbreakqa
+2014-07-02 06:58:43	<--	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 06:59:54	<--	ProtoSphere (~protosphe@CPE-110-148-143-14.vxl8.lon.bigpond.net.au) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-02 07:04:49	<--	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 07:15:05	fwlinksbot	[Update] iOS 7.1.2 (11D257c) for Apple TV 3 is no longer being signed by Apple. http://www.icj.me/ios/7.1.2
+2014-07-02 07:15:28	seejy	apple r srsly breaking signing
+2014-07-02 07:15:28	seejy	:P
+2014-07-02 07:18:36	The0x539	what the help
+2014-07-02 07:19:14	-->	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-xoonlcljlrzizpzv) has joined #jailbreakqa
+2014-07-02 07:19:14	<--	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-xoonlcljlrzizpzv) has quit (Changing host)
+2014-07-02 07:19:14	-->	JBkid|Cloud (uid28648@unaffiliated/jbguy) has joined #jailbreakqa
+2014-07-02 07:19:14	<--	JBkid|Cloud (uid28648@unaffiliated/jbguy) has quit (Changing host)
+2014-07-02 07:19:14	-->	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-xoonlcljlrzizpzv) has joined #jailbreakqa
+2014-07-02 07:19:25	JBkid|Cloud	Hi
+2014-07-02 07:20:05	fwlinksbot	[Update] iOS 7.1.2 (11D257c) for Apple TV 3 is now being signed by Apple. http://www.icj.me/ios/7.1.2
+2014-07-02 07:20:23	+dirkg	someone bumped the server
+2014-07-02 07:21:14	JBkid|Cloud	Can someone guide me with shsh blobs restoring
+2014-07-02 07:21:33	JBkid|Cloud	iPhone 4 on 7.1.1 no shsh blobs
+2014-07-02 07:22:00	JBkid|Cloud	Want to get shsh blobs so I can do a full restore to 7.1.1 still cos I wanna JB with pangu
+2014-07-02 07:22:03	Spydar007	JBkid|Cloud; where od you want to go to
+2014-07-02 07:22:14	<--	cybr1d (uid5622@gateway/web/irccloud.com/x-cvbvbrophrhpjoge) has quit (Quit: Connection closed for inactivity)
+2014-07-02 07:22:20	JBkid|Cloud	I want to stay on 7.1.1
+2014-07-02 07:22:24	Spydar007	JBkid|Cloud: wat
+2014-07-02 07:22:27	Spydar007	just restore with iTunes
+2014-07-02 07:22:28	JBkid|Cloud	Cos I already have that ipsw
+2014-07-02 07:22:52	The0x539	you can jb 712 with pangu
+2014-07-02 07:22:52	JBkid|Cloud	And my internet is dead slow and will take 2 hours to download 7.1.2
+2014-07-02 07:22:58	JBkid|Cloud	I knw
+2014-07-02 07:23:01	Spydar007	JBkid|Cloud: just restore tih iTunes ten
+2014-07-02 07:23:04	Spydar007	*with
+2014-07-02 07:23:07	Spydar007	**tthen
+2014-07-02 07:23:09	Spydar007	**then
+2014-07-02 07:23:25	JBkid|Cloud	Them it will take 2hours to download 7.1.2
+2014-07-02 07:23:29	-->	ablibakla (2e102534@gateway/web/cgi-irc/kiwiirc.com/ip.46.16.37.52) has joined #jailbreakqa
+2014-07-02 07:23:36	ablibakla	please help accidentally installed cydia, because i accidentaly update  d to iso 9 becUse i was bored wen i was in jail after robing your bank, then i installed something called ifle in cydia and went to / and deleted everythifn thought it uninstalls cydia but it didn't now i'm stuck and no money to pay new phone since cops took everything pls help
+2014-07-02 07:23:36	ablibakla	 nigga don't wAnna lose my plans for robbing next bank
+2014-07-02 07:23:37	JBkid|Cloud	But I have 7.1.1 already so might as well restore to that
+2014-07-02 07:23:54	The0x539	ablibakla: u WOT m8
+2014-07-02 07:23:55	Spydar007	Yes JBkid|Cloud
+2014-07-02 07:24:02	Spydar007	why do you need blobs JBkid|Cloud
+2014-07-02 07:24:22	ablibakla	rhe0z593: pls help
+2014-07-02 07:24:39	JBkid|Cloud	To restore to 7.1.1 not 7.1.2
+2014-07-02 07:24:43	Spydar007	JBkid|Cloud: am i /ignored?
+2014-07-02 07:24:46	Spydar007	!tss iPhone3,1
+2014-07-02 07:24:46	fwlinksbot	Spydar007: Firmwares currently being signed for iPhone3,1: 7.1.2 [11D257] and 7.1.1 [11D201].
+2014-07-02 07:24:47	Spydar007	7.
+2014-07-02 07:24:55	Spydar007	7.1.1 is still signed JBkid|Cloud
+2014-07-02 07:24:56	ablibakla	anybody?
+2014-07-02 07:24:59	JBkid|Cloud	Ohhhh yeeeeeehhhh
+2014-07-02 07:25:00	Spydar007	so just shift restore
+2014-07-02 07:25:04	JBkid|Cloud	Thanks Spydar007
+2014-07-02 07:25:10	Spydar007	hang on ablibakla
+2014-07-02 07:25:15	JBkid|Cloud	Didnt realise still being signed
+2014-07-02 07:25:26	Spydar007	not for long though
+2014-07-02 07:25:28	Spydar007	so be quick
+2014-07-02 07:25:35	ablibakla	spydar070: ok mate
+2014-07-02 07:25:48	Spydar007	why don't you want to go to 7.1.2 JBkid|Cloud/
+2014-07-02 07:25:49	Spydar007	?
+2014-07-02 07:26:11	Spydar007	britta: ping
+2014-07-02 07:26:19	ablibakla	HOW FUCKING SLOW ARE YOU SUPPORT GUYS?!?!?!?
+2014-07-02 07:26:22	Spydar007	ops: ping
+2014-07-02 07:26:24	JBkid|Cloud	Anyone pangu with a 5c?
+2014-07-02 07:26:30	JBkid|Cloud	Tested pangu?
+2014-07-02 07:26:31	ablibakla	you are getting paid!!!!!
+2014-07-02 07:26:34	Spydar007	JBkid|Cloud: 5c works
+2014-07-02 07:26:39	ablibakla	pls help need my plans
+2014-07-02 07:26:41	JBkid|Cloud	Spydar007: cos it takes me ages to download that ipsw when I already have 7.1.-
+2014-07-02 07:26:45	Spydar007	ablibakla: calm down
+2014-07-02 07:26:48	ablibakla	Y IS NO
+2014-07-02 07:26:50	JBkid|Cloud	We aren't getting paid
+2014-07-02 07:26:54	ablibakla	BODY ANSWING
+2014-07-02 07:26:58	Spydar007	ablibakla: tthere is no such thing as iOS 9
+2014-07-02 07:27:10	ablibakla	jbkid|cloud why are you here then?
+2014-07-02 07:27:11	JBkid|Cloud	I hope britta is recording this
+2014-07-02 07:27:25	The0x539	and it's impossible to install cydia on accident
+2014-07-02 07:27:26	ablibakla	spydar700: ido something
+2014-07-02 07:27:33	ablibakla	can't remember
+2014-07-02 07:27:33	Spydar007	someone opped ping
+2014-07-02 07:27:52	JBkid|Cloud	I got their ip
+2014-07-02 07:27:56	Spydar007	ablibakla: there is no such thing as iOS 9
+2014-07-02 07:27:58	JBkid|Cloud	Let's get the cops
+2014-07-02 07:27:58	The0x539	unless you accidentally clicked on jailbreakme.com when it worked
+2014-07-02 07:28:01	ablibakla	what us oped?
+2014-07-02 07:28:03	The0x539	but really?
+2014-07-02 07:28:03	JBkid|Cloud	ablibakla!2e102534@gateway/web/cgi-irc/kiwiirc.com/ip.46.16.37.52
+2014-07-02 07:28:16	JBkid|Cloud	He said he's robbing bank
+2014-07-02 07:28:24	ablibakla	jbkid|cloud i am in jail
+2014-07-02 07:28:30	The0x539	not just bank
+2014-07-02 07:28:31	JBkid|Cloud	And
+2014-07-02 07:28:36	The0x539	YOUR bank
+2014-07-02 07:28:39	qabot	[anuragg271] need urgent help ( http://jbqa.me/questions/282108 )
+2014-07-02 07:28:42	ablibakla	you guys know nothing
+2014-07-02 07:28:43	Spydar007	ablibakla: you can't just chat and do things on your phone in jail
+2014-07-02 07:28:48	Spydar007	we arentt stupid you know
+2014-07-02 07:28:49	<--	ablibakla (2e102534@gateway/web/cgi-irc/kiwiirc.com/ip.46.16.37.52) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-02 07:28:49	The0x539	and "next" bank
+2014-07-02 07:28:54	Spydar007	thank god
+2014-07-02 07:28:58	JBkid|Cloud	Yay
+2014-07-02 07:29:01	The0x539	grate god
+2014-07-02 07:29:05	Spydar007	he is a troll
+2014-07-02 07:29:08	Spydar007	for sure
+2014-07-02 07:29:14	The0x539	well yeah
+2014-07-02 07:29:17	Spydar007	needed an op to quiet him
+2014-07-02 07:29:53	<--	DaBeast^ (~chatzilla@91.176.171.205) has quit (Ping timeout: 252 seconds)
+2014-07-02 07:30:21	JBkid|Cloud	He was offending people
+2014-07-02 07:30:40	JBkid|Cloud	Said n*gg4
+2014-07-02 07:30:49	JBkid|Cloud	Tilerone doesn't like that word
+2014-07-02 07:30:53	JBkid|Cloud	*crazytiler
+2014-07-02 07:35:57	 *	Spydar007 activates nick-that-is-hard-to-type mode /nick |337 /me activated nick-that-is-hard-to-type mode
+2014-07-02 07:36:04	Spydar007	argh fuck
+2014-07-02 07:36:08	JBkid|Cloud	Is it possible to do a offline restore?
+2014-07-02 07:36:12	@iFlames	no
+2014-07-02 07:36:16	 *	Spydar007 activates nick-that-is-hard-to-type mode
+2014-07-02 07:36:16	--	Spydar007 is now known as |337
+2014-07-02 07:36:20	 *	|337 activated nick-that-is-hard-to-type mode
+2014-07-02 07:36:24	|337	:)
+2014-07-02 07:36:30	|337	no JBkid|Cloud
+2014-07-02 07:36:44	@iFlames	JBkid|Cloud: if offline restores were possible, the probably we wouldnt have required SHSH :)
+2014-07-02 07:36:48	 *	JBkid|Cloud activated nick-that-is-hard-to-type mode
+2014-07-02 07:36:48	|337	iTunes checks Apple's servers to verify restore.
+2014-07-02 07:36:54	JBkid|Cloud	Oh
+2014-07-02 07:36:59	|337	NO U JBkid|Cloud
+2014-07-02 07:37:02	JBkid|Cloud	Sigh
+2014-07-02 07:41:26	-->	GrandMstrBud (41655fac@gateway/web/cgi-irc/kiwiirc.com/ip.65.101.95.172) has joined #jailbreakqa
+2014-07-02 07:45:13	JBkid|Cloud	Bud
+2014-07-02 07:45:32	JBkid|Cloud	Inabit
+2014-07-02 07:45:34	<--	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-xoonlcljlrzizpzv) has quit
+2014-07-02 07:49:14	qabot	[cfromm123] Lock Screen Slide Up Apps/Reachability SpringBoard Prototype Settings For iOS 7.x.x (Ported From iOS 8 As a Tweak) ( http://jbqa.me/questions/282112 )
+2014-07-02 07:56:40	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 07:57:04	-->	alokaba (c7ffd30f@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.15) has joined #jailbreakqa
+2014-07-02 07:57:19	alokaba	he guys
+2014-07-02 07:57:24	alokaba	pls help me
+2014-07-02 07:57:33	alokaba	i get eeror
+2014-07-02 07:57:36	alokaba	pls fix
+2014-07-02 07:57:58	alokaba	i am vrry smart nixe guy
+2014-07-02 07:58:08	alokaba	i can code
+2014-07-02 07:58:17	alokaba	so pls help me
+2014-07-02 07:58:24	alokaba	i can help u latr maby
+2014-07-02 07:58:45	alokaba	ANYONE?
+2014-07-02 07:58:55	alokaba	THIS CHANLE IS LIKE DEAD!
+2014-07-02 07:59:02	alokaba	HELLO?
+2014-07-02 07:59:05	alokaba	OLS HELP!
+2014-07-02 07:59:06	alokaba	HELP
+2014-07-02 07:59:20	alokaba	I GET LIKESIMETHIGN WITH LOW
+2014-07-02 07:59:25	alokaba	AND BATTERY
+2014-07-02 07:59:34	alokaba	I HAVE BOUGHT NEW IOHONE 7
+2014-07-02 07:59:41	alokaba	PLEADR HERLLP MEE HOWTO FIX
+2014-07-02 08:00:23	alokaba	HELLO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2014-07-02 08:00:35	alokaba	I HAVE NO IDE HOW TO FIX
+2014-07-02 08:00:50	alokaba	WHAT IS THIS BULLSHIT
+2014-07-02 08:01:13	alokaba	SPYDAR007 MY BROTTHWR SAID YOU SAID THAT U ARE NO IDIOTS
+2014-07-02 08:01:16	@farahtwiggy	-ChanServ-	 Please include your device type, generation, and iOS version in your question. Note that there is a 428 character limit per message. Not everyone listed is at the keyboard at any moment, so please WAIT 10 MINUTES if you don't get an immediate answer.
+2014-07-02 08:01:20	alokaba	BUT YOU ARE
+2014-07-02 08:01:40	alokaba	farahrwiggu: WHY DI U POST TYAT?
+2014-07-02 08:01:50	alokaba	IT IS ON TOP OF THIS PAGE ANYWAYS!!!!
+2014-07-02 08:01:56	@farahtwiggy	you are violating the rules of this channel please read this is your last and only warning http://www.jailbreakqa.com/questions/195155/jailbreakqa-irc-channel
+2014-07-02 08:02:01	@Crazytiler	Because your impatient
+2014-07-02 08:02:19	alokaba	WHAT DOES IMPATIENT MAEN?
+2014-07-02 08:02:32	@farahtwiggy	stop yelling
+2014-07-02 08:02:37	@farahtwiggy	remove caps now
+2014-07-02 08:02:38	alokaba	FARAHTWIJU: MY BROWSER DOESN'T WORK
+2014-07-02 08:02:38	klept0	it means most of us are now ignoring you for posting in caps and being a douche
+2014-07-02 08:02:50	-->	smgs|z10 (~yaaic@117.238.237.207) has joined #jailbreakqa
+2014-07-02 08:02:50	klept0	to put it bluntly
+2014-07-02 08:02:54	alokaba	what is Doucjr?
+2014-07-02 08:03:06	alokaba	i am best guy of the worl
+2014-07-02 08:03:10	alokaba	i am milionar
+2014-07-02 08:03:23	alokaba	i am no poor paid supporting guy
+2014-07-02 08:03:25	alokaba	so pls help
+2014-07-02 08:03:30	|337	alokaba: thank you for your kind words
+2014-07-02 08:03:32	--	Mode #jailbreakqa [+b *!*@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.15] by farahtwiggy
+2014-07-02 08:03:32	<--	farahtwiggy has kicked alokaba (Your behavior is not conducive to the desired environment.)
+2014-07-02 08:03:35	@Crazytiler	Alokaba either ask a question or leave .
+2014-07-02 08:03:44	|337	Finally
+2014-07-02 08:03:47	|337	Ty farah
+2014-07-02 08:03:59	--	Mode #jailbreakqa [-b *!*@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.15] by farahtwiggy
+2014-07-02 08:04:10	@farahtwiggy	gotta change the ban
+2014-07-02 08:04:23	@farahtwiggy	just up to walk puppy and go back to sleep
+2014-07-02 08:06:10	-->	alokaba (50bb6af4@gateway/web/cgi-irc/kiwiirc.com/ip.80.187.106.244) has joined #jailbreakqa
+2014-07-02 08:06:17	alokaba	WHATT DEOS +B MEAN?
+2014-07-02 08:06:28	alokaba	MY BUTLER IS IN THE SHOWER ATM
+2014-07-02 08:06:32	alokaba	SO I CANT ASK HIM
+2014-07-02 08:06:34	@farahtwiggy	i am banning you because you just keep changing names and ips
+2014-07-02 08:06:36	|337	farahtwiggy ^
+2014-07-02 08:06:39	@farahtwiggy	please leave
+2014-07-02 08:06:40	alokaba	I GOT CANNOR SEND TO CHAN
+2014-07-02 08:06:44	alokaba	LEAVE WHAT?
+2014-07-02 08:06:50	<--	farahtwiggy has kicked alokaba (Your behavior is not conducive to the desired environment.)
+2014-07-02 08:07:01	qabot	[mattialabo] hidden app: Tencent Weibo Account Migration? ( http://jbqa.me/questions/282113 )
+2014-07-02 08:07:02	--	Mode #jailbreakqa [+q alokaba!*@*] by Crazytiler
+2014-07-02 08:08:41	<--	SpaaceCore (~SpaaceCor@171.23.148.91.dyn.marticonet.sk) has quit (Quit: Leaving)
+2014-07-02 08:09:41	-->	alokaba (c7ffd30f@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.15) has joined #jailbreakqa
+2014-07-02 08:10:15	<--	alokaba (c7ffd30f@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.15) has quit (Client Quit)
+2014-07-02 08:11:05	-->	alokaba_ (c7ffd30f@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.15) has joined #jailbreakqa
+2014-07-02 08:11:08	alokaba_	u guys suck
+2014-07-02 08:11:16	--	Mode #jailbreakqa [+q alokaba_!*@*] by Crazytiler
+2014-07-02 08:11:35	<--	Crazytiler has kicked alokaba_ (boring)
+2014-07-02 08:12:47	|337	"Boring"
+2014-07-02 08:12:53	|337	You got that right Crazytiler
+2014-07-02 08:13:00	-->	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has joined #jailbreakqa
+2014-07-02 08:15:34	-->	Will0401 (uid21789@gateway/web/irccloud.com/x-lrqjfyjpwdeowexx) has joined #jailbreakqa
+2014-07-02 08:15:34	--	Mode #jailbreakqa [+v Will0401] by ChanServ
+2014-07-02 08:19:33	<--	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has quit (Ping timeout: 240 seconds)
+2014-07-02 08:22:04	<--	smgs|z10 (~yaaic@117.238.237.207) has quit (Read error: Connection reset by peer)
+2014-07-02 08:23:16	+Will0401	I don't think I've ever seen it this quiet before.
+2014-07-02 08:23:22	-->	autocorrect (autocorrec@97-89-129-19.dhcp.gnvl.sc.charter.com) has joined #jailbreakqa
+2014-07-02 08:23:22	--	Mode #jailbreakqa [+o autocorrect] by ChanServ
+2014-07-02 08:23:27	-->	smgs|z10 (~yaaic@117.219.100.14) has joined #jailbreakqa
+2014-07-02 08:25:51	@pwner	!ban orangutan
+2014-07-02 08:26:44	@pwner	!ban orangutan*@*@*
+2014-07-02 08:26:45	--	Mode #jailbreakqa [+b *!orangutan*@*@*] by autocorrect
+2014-07-02 08:26:58	@pwner	testing
+2014-07-02 08:27:10	@pwner	that will auto-expire in an hour
+2014-07-02 08:27:25	@pwner	so good method for trolls with short attention spans
+2014-07-02 08:27:48	+Will0401	So half the internet
+2014-07-02 08:27:59	--	Mode #jailbreakqa [-b *!orangutan*@*@*] by pwner
+2014-07-02 08:28:11	@pwner	no, just some primates
+2014-07-02 08:30:59	|337	lol
+2014-07-02 08:31:28	-->	ismoketilers (c7ffd30e@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.14) has joined #jailbreakqa
+2014-07-02 08:31:40	ismoketilers	HELLO GUYS
+2014-07-02 08:32:10	ismoketilers	SUP
+2014-07-02 08:32:11	@autocorrect	erhypes
+2014-07-02 08:32:14	-->	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has joined #jailbreakqa
+2014-07-02 08:32:27	ismoketilers	HAVE YOU GOT SOME FRESH TILERA FOR ME?
+2014-07-02 08:32:36	ismoketilers	TILERS*
+2014-07-02 08:32:47	ismoketilers	I AM ADDICTED TO SMOKING TILERS
+2014-07-02 08:33:00	+Will0401	...?
+2014-07-02 08:33:08	@pwner	!ban ismoketilers
+2014-07-02 08:33:08	--	Mode #jailbreakqa [+b ismoketilers!*c7ffd30e@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.14] by autocorrect
+2014-07-02 08:33:08	<--	autocorrect has kicked ismoketilers (ismoketilers)
+2014-07-02 08:33:28	@pwner	Will0401: that's why
+2014-07-02 08:33:29	+Will0401	insulting Crazytiler?
+2014-07-02 08:33:39	@pwner	no, just a troll
+2014-07-02 08:34:06	@iFlames	lol
+2014-07-02 08:35:06	-->	ismokepwners (c7ffd30e@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.14) has joined #jailbreakqa
+2014-07-02 08:35:20	ismokepwners	GOT SOME FRESH PWNERS?
+2014-07-02 08:35:25	ismokepwners	NEED SOME
+2014-07-02 08:35:27	@pwner	yep
+2014-07-02 08:35:28	ismokepwners	YOU SUCK
+2014-07-02 08:35:34	ismokepwners	KTHX
+2014-07-02 08:35:35	+Will0401	lol
+2014-07-02 08:35:51	+Will0401	has this guy been going at it all day?
+2014-07-02 08:36:03	@pwner	watch this bruh
+2014-07-02 08:36:06	@pwner	!ban *!*@*199.255.211.*
+2014-07-02 08:36:06	--	Mode #jailbreakqa [+b *!*@*199.255.211.*] by autocorrect
+2014-07-02 08:36:19	<--	ismokepwners (c7ffd30e@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.14) has quit (Client Quit)
+2014-07-02 08:36:57	@pwner	Will0401: apparently. I just got here
+2014-07-02 08:37:23	+Will0401	by the looks of it, I would think so
+2014-07-02 08:37:36	+Will0401	oh and pwner you're probably going to hate me
+2014-07-02 08:37:41	+Will0401	but I'm back on Vista
+2014-07-02 08:37:46	@pwner	lmao
+2014-07-02 08:38:06	@pwner	I took a friend of mine from vista to 7 night before last
+2014-07-02 08:38:23	+Will0401	I've upgraded like 19 times and it didn't work once
+2014-07-02 08:38:31	@pwner	why not
+2014-07-02 08:38:42	@Crazytiler	Awwww missed it ... Was busy with my kid
+2014-07-02 08:38:48	@pwner	do a fresh install, that's guaranteed to work
+2014-07-02 08:38:52	+Will0401	My computer just shut down when it got to "Installing devices and setting up your system"
+2014-07-02 08:38:54	@pwner	lol Crazytiler
+2014-07-02 08:39:04	+Will0401	pwner: I've tried that too, it just bluescreens
+2014-07-02 08:39:24	@pwner	Will0401: you have a bad copy of win7, or shitty hardware
+2014-07-02 08:39:32	@Crazytiler	Shitty hardware
+2014-07-02 08:39:42	+Will0401	pwner: hardware should be fine, and the copy of windows 7 is clean
+2014-07-02 08:39:54	@pwner	that does not compute
+2014-07-02 08:40:02	@pwner	windows 7 is solid
+2014-07-02 08:40:07	+Will0401	I'm just as confused as you are.
+2014-07-02 08:40:13	@pwner	I even run it on this mac (bootcamp)
+2014-07-02 08:40:37	@pwner	have you done a ram test?
+2014-07-02 08:40:50	+Will0401	RAM test?
+2014-07-02 08:40:55	@pwner	yes
+2014-07-02 08:40:55	+Will0401	Explain, please
+2014-07-02 08:41:05	@pwner	hit f5 on boot
+2014-07-02 08:41:19	@pwner	one of the choices should be ram test
+2014-07-02 08:41:22	+Will0401	and that should start testing the RAM?
+2014-07-02 08:41:29	@pwner	or use a 3rd-party utility
+2014-07-02 08:41:41	-->	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-isopivcetfkprfat) has joined #jailbreakqa
+2014-07-02 08:41:42	+Will0401	wouldn't that vary with different BIOSes?
+2014-07-02 08:41:42	<--	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-isopivcetfkprfat) has quit (Changing host)
+2014-07-02 08:41:42	-->	JBkid|Cloud (uid28648@unaffiliated/jbguy) has joined #jailbreakqa
+2014-07-02 08:41:42	<--	JBkid|Cloud (uid28648@unaffiliated/jbguy) has quit (Changing host)
+2014-07-02 08:41:42	-->	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-isopivcetfkprfat) has joined #jailbreakqa
+2014-07-02 08:41:50	 *	pwner punches Will0401 in the trolling gland
+2014-07-02 08:42:00	 *	Will0401 headdesks
+2014-07-02 08:42:08	qabot	[anthony4114] Can't delete these. ( http://jbqa.me/questions/282123 )
+2014-07-02 08:42:16	@pwner	Will0401: it's a windows function, not bios
+2014-07-02 08:42:28	+Will0401	oh wait
+2014-07-02 08:42:37	+Will0401	Windows Memory Diagnostic
+2014-07-02 08:42:41	+Will0401	yeah I've done that
+2014-07-02 08:42:48	@pwner	although a bios ram test would be ok, they're usually not thorough though
+2014-07-02 08:42:49	+Will0401	didn't find anything
+2014-07-02 08:43:18	@pwner	well that's just weird
+2014-07-02 08:43:27	JBkid|Cloud	jailbreaking with pangu
+2014-07-02 08:43:43	JBkid|Cloud	pangu app stil there but no cydia
+2014-07-02 08:44:14	@pwner	start over
+2014-07-02 08:44:30	JBkid|Cloud	:/ ok iphone 5c
+2014-07-02 08:44:35	+Will0401	7.1.2 is out though so don't restore
+2014-07-02 08:44:44	JBkid|Cloud	im on 7.1.1
+2014-07-02 08:45:02	+Will0401	looking at the 7.1.2 changelog it's probably not jailbreakable
+2014-07-02 08:45:08	@pwner	Will0401: pangu breaks 712
+2014-07-02 08:45:15	JBkid|Cloud	i heard it wokrs
+2014-07-02 08:45:17	@pwner	I'm running it
+2014-07-02 08:45:24	+Will0401	oh.
+2014-07-02 08:45:25	+Will0401	lol
+2014-07-02 08:45:27	+Will0401	ok then
+2014-07-02 08:45:47	JBkid|Cloud	injecting budles, pangu app went but back on
+2014-07-02 08:45:49	+Will0401	I'm sticking with 7.0.6 mostly because I don't have any of my devices with me
+2014-07-02 08:46:04	JBkid|Cloud	btw apple logo when purple then restarted before
+2014-07-02 08:46:21	@pwner	Will0401: 7.1.2 will be signed until 8 is out, so you have time
+2014-07-02 08:46:33	JBkid|Cloud	7.1.1 is still signed
+2014-07-02 08:46:43	+Will0401	!shsh iphone 4,1
+2014-07-02 08:46:43	@pwner	yeah was yesterday
+2014-07-02 08:46:45	+Will0401	!shsh iphone 4,1
+2014-07-02 08:46:47	+Will0401	!shsh iphone4,1
+2014-07-02 08:46:54	@pwner	but won't be for long
+2014-07-02 08:46:56	+Will0401	i forgot about this bot
+2014-07-02 08:46:58	@pwner	!tss
+2014-07-02 08:46:58	fwlinksbot	pwner: incorrect parameters. !help for details
+2014-07-02 08:47:05	+Will0401	mostly how to use it :P
+2014-07-02 08:47:09	+Will0401	!tss iphone4,1
+2014-07-02 08:47:09	fwlinksbot	Will0401: Firmwares currently being signed for iphone4,1: 7.1.2 [11D257], 7.1.1 [11D201], 8.0b2 [12A4297e] and 8.0b1 [12A4265u].
+2014-07-02 08:47:22	JBkid|Cloud	:0o betas
+2014-07-02 08:47:23	@autocorrect	JBkid|Cloud: We don't discuss betas here (no, not the fish either).
+2014-07-02 08:47:30	+Will0401	lol the fish
+2014-07-02 08:47:39	JBkid|Cloud	rebooting
+2014-07-02 08:48:10	@pwner	it's cool you can use fingerprint recodnition in activator
+2014-07-02 08:48:19	@pwner	recognition
+2014-07-02 08:48:28	+Will0401	the only devices I have is my gameboy and my DS
+2014-07-02 08:48:29	+Will0401	lol
+2014-07-02 08:48:32	JBkid|Cloud	oh its cleaning up now
+2014-07-02 08:48:36	@pwner	I didn't even know the hardware was active all the time
+2014-07-02 08:48:39	JBkid|Cloud	didnt do that before
+2014-07-02 08:48:46	@pwner	my right thumb sleeps my phone
+2014-07-02 08:48:47	JBkid|Cloud	pangu working :D
+2014-07-02 08:48:58	@pwner	index finger turns on the flash
+2014-07-02 08:49:04	JBkid|Cloud	got the panguu screen :D
+2014-07-02 08:49:30	@pwner	JBkid|Cloud: sometimes you just have to run it a few times
+2014-07-02 08:49:37	JBkid|Cloud	it worrrrrrrk
+2014-07-02 08:49:44	JBkid|Cloud	gonna do the ip4s now lol
+2014-07-02 08:49:47	@pwner	had to do it twice on my 5s
+2014-07-02 08:50:21	+Will0401	let's see if find my iphone can find my iphone...
+2014-07-02 08:50:21	JBkid|Cloud	yes twice on this 5c
+2014-07-02 08:50:32	+Will0401	nope, can't do what it's supposed to
+2014-07-02 08:51:29	@pwner	lol
+2014-07-02 08:52:00	<--	Sagitt_ (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has quit (Quit: See you later!)
+2014-07-02 08:52:19	+Will0401	when I get that phone back, I need to disable "slide to power off" so I can find it when my dad takes it
+2014-07-02 08:52:34	@pwner	lol
+2014-07-02 08:54:13	iDaniel	Will0401: lol
+2014-07-02 08:54:25	iDaniel	coolsta* has a tweak for that
+2014-07-02 08:54:47	+Will0401	and what would that be?
+2014-07-02 08:55:15	+Will0401	ooh I wonder if I can ssh into it
+2014-07-02 08:55:19	-->	Sagitt (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has joined #jailbreakqa
+2014-07-02 08:55:29	@pwner	not if it's off
+2014-07-02 08:55:36	iDaniel	Will0401: go to cydia and search for coolsta r
+2014-07-02 08:55:57	+Will0401	pwner: yeah but i don't trust find my iphone sometimes
+2014-07-02 08:58:26	+Will0401	nope, everything is offline
+2014-07-02 08:58:39	-->	marvin (uid3963@gateway/web/irccloud.com/x-vaalmupkxmeyzysj) has joined #jailbreakqa
+2014-07-02 08:58:39	--	Mode #jailbreakqa [+o marvin] by ChanServ
+2014-07-02 09:00:12	+Will0401	is it possible to upgrade from windows vista to windows 8?
+2014-07-02 09:00:26	+Will0401	I've got the Windows 8 DVD downloaded
+2014-07-02 09:02:16	@pwner	I think 7 is the minimum, but not sure
+2014-07-02 09:02:26	@pwner	try it and see
+2014-07-02 09:02:41	+Will0401	and does microsoft office 2007 work with windows 8
+2014-07-02 09:02:47	 *	Will0401 hopes the answer is yes
+2014-07-02 09:04:19	+Will0401	http://windows.microsoft.com/en-us/windows-8/upgrade-from-windows-vista-xp-tutorial fuck.
+2014-07-02 09:04:28	+Will0401	To upgrade to Windows 8.1 from Windows Vista or Windows XP, you'll need to install it from a Windows 8.1 DVD and perform a clean installation. This means you won't be able to keep any files, settings, or programs when you upgrade.
+2014-07-02 09:04:58	+Will0401	ok so I need to get to windows 7 first
+2014-07-02 09:07:57	--	Mode #jailbreakqa [+v EnigmaFX] by ChanServ
+2014-07-02 09:11:51	smgs|z10	hi hack and crazytiler good news
+2014-07-02 09:12:15	smgs|z10	finally reviewed my account without giving credit card info
+2014-07-02 09:14:23	smgs|z10	connected device with pc > clicked itunes > logged in.
+2014-07-02 09:14:53	smgs|z10	previoulsy i was home sharing then reviewing. hope it helps people in here, just sharing
+2014-07-02 09:16:12	@marvin	5s on battery life is amazing. playing streamed video all night used 40%
+2014-07-02 09:16:13	@autocorrect	marvin: http://www.overthought.org/blog/2014/the-ultimate-guide-to-solving-ios-battery-drain
+2014-07-02 09:18:50	@marvin	smgs|z10: good to know
+2014-07-02 09:21:52	-->	thedude (865261d2@gateway/web/cgi-irc/kiwiirc.com/ip.134.82.97.210) has joined #jailbreakqa
+2014-07-02 09:24:24	thedude	iphone 3gs 6.1.6 made in week 14 of 2011:  I'm trying to unlock my 3gs.  I had cydia p0sixspwn and ultrasnow successfully installed but it wouldnt pick up a wireless signal.  found this: http://www.jailbreakqa.com/questions/32462/frequently-asked-questions?page=1&focusedAnswerId=153674#153674 and tried to follow it.  got a message saying "go back t
+2014-07-02 09:24:25	thedude	o redsnow and redo.  I rebooted it and now it is tuck on a loop of rebooting to the apple logo and shutting back off
+2014-07-02 09:24:34	@marvin	Going to the pool in a while, gotta test this LifeProof "Nuud" case. it doesn't cover the screen like previous models.
+2014-07-02 09:25:58	@marvin	thedude: did you install anything in cydia!
+2014-07-02 09:26:14	@marvin	? not !
+2014-07-02 09:26:43	 *	marvin cam't type on a phone
+2014-07-02 09:26:50	<--	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 09:26:55	@marvin	can't+
+2014-07-02 09:26:58	@marvin	see?
+2014-07-02 09:27:10	@marvin	can't*
+2014-07-02 09:27:33	thedude	haha originally yes I had ultrasn0w and p0sixspwn installed in cydia. but it wouldnt pick up a signal with the new sim so I kept looking.  I heard I should downgrade to ipad baseband, which were the directions i was trying to follow on that link
+2014-07-02 09:28:27	@marvin	well you upgrade to ipad bb, then dowgrade to 5.13.04
+2014-07-02 09:28:47	@marvin	what bb is on it npw?
+2014-07-02 09:29:41	thedude	i think the original is 5.16.08 (i cant check right now because its restoring)
+2014-07-02 09:30:13	@marvin	I know you can't check but did you only upgrade, ir upgrade then diwngrade
+2014-07-02 09:30:57	@marvin	boot holding volu-up butyon
+2014-07-02 09:31:06	@marvin	button
+2014-07-02 09:32:18	thedude	i tried to upgrade, it said jailbreak complete in redsnow, then on the phone screen it said it didnt work and to go back to redsnow and redo it.  then i tried to reboot and it got stuck at apple logo
+2014-07-02 09:32:27	thedude	now im doing factory restore in itunes
+2014-07-02 09:32:49	@marvin	What anyovirus do you have
+2014-07-02 09:32:58	@marvin	antivirus*
+2014-07-02 09:33:10	--	Mode #jailbreakqa [-b ismoketilers!*c7ffd30e@gateway/web/cgi-irc/kiwiirc.com/ip.199.255.211.14] by autocorrect
+2014-07-02 09:33:38	thedude	uhh not sure.  have a white macbook from like 5 years ago
+2014-07-02 09:33:53	@marvin	Oh nm then
+2014-07-02 09:34:05	@marvin	only applies to windows
+2014-07-02 09:34:10	+Will0401	marvin: very strange thing happening with the upgrade
+2014-07-02 09:34:23	+Will0401	give me a secd
+2014-07-02 09:34:25	+Will0401	sec*
+2014-07-02 09:34:25	@marvin	oh good I love strange
+2014-07-02 09:34:53	+Will0401	it's allowing me to keep personal files and settings
+2014-07-02 09:35:19	@marvin	that's not strange
+2014-07-02 09:35:32	-->	Davegr (31f49fe3@gateway/web/cgi-irc/kiwiirc.com/ip.49.244.159.227) has joined #jailbreakqa
+2014-07-02 09:35:38	@marvin	it's kinda the definition of upgrade
+2014-07-02 09:35:49	+Will0401	marvin: it said I could only do a custom installation, not an upgrade
+2014-07-02 09:36:07	@marvin	did you trick it?
+2014-07-02 09:36:08	--	Mode #jailbreakqa [-b *!*@*199.255.211.*] by autocorrect
+2014-07-02 09:36:15	+Will0401	nope
+2014-07-02 09:36:16	@marvin	eady to do
+2014-07-02 09:36:20	@marvin	easy*
+2014-07-02 09:37:02	Davegr	Is there 7.1.2 jailbreak available
+2014-07-02 09:37:04	+Will0401	http://take.ms/p3z57
+2014-07-02 09:37:16	@marvin	yes Davegr
+2014-07-02 09:37:17	JBkid|Cloud	lol gonna take off geeksn0w semi tether, then add the pangu untether
+2014-07-02 09:37:26	@marvin	find pangu
+2014-07-02 09:37:26	@autocorrect	download Windows: http://dl.pangu.25pp.com/jb/Pangu_v1.1.exe download OSX: http://dl.pangu.25pp.com/jb/Pangu_v1.1.dmg instructions: http://hackbook.us/main/pangu-jailbreak/
+2014-07-02 09:37:31	@marvin	Davegr: ^
+2014-07-02 09:37:45	JBkid|Cloud	waiting for iDaniel to upload deb
+2014-07-02 09:37:51	+Will0401	"making sure you're ready to install"
+2014-07-02 09:37:58	Davegr	Is it safe
+2014-07-02 09:38:00	+Will0401	watwatwatwat
+2014-07-02 09:38:06	JBkid|Cloud	marvin why does it have the piracy site download
+2014-07-02 09:38:10	+Will0401	http://take.ms/fgq0P
+2014-07-02 09:38:17	@marvin	Davegr: we're all using it :p
+2014-07-02 09:38:34	Davegr	Okay
+2014-07-02 09:38:37	Davegr	tnx
+2014-07-02 09:38:37	@marvin	JBkid|Cloud: they made it
+2014-07-02 09:38:49	Davegr	one more Q
+2014-07-02 09:38:51	JBkid|Cloud	25pp is the piracy store
+2014-07-02 09:38:51	JBkid|Cloud	tho
+2014-07-02 09:39:06	@marvin	that is the official link
+2014-07-02 09:39:35	+Will0401	should I go through with this upgrade and see if it works?
+2014-07-02 09:39:45	@marvin	Will0401: yes
+2014-07-02 09:39:54	+Will0401	ok, here goes...
+2014-07-02 09:40:07	<--	Will0401 (uid21789@gateway/web/irccloud.com/x-lrqjfyjpwdeowexx) has quit (Quit: upgrading...)
+2014-07-02 09:40:08	@marvin	if it doesn't, you can always format
+2014-07-02 09:40:38	<--	thedude (865261d2@gateway/web/cgi-irc/kiwiirc.com/ip.134.82.97.210) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-02 09:41:47	Davegr	I JAILBREAKed my iphn on ios 7.0.6 and i restore to 7.1.1. I notice that my storage is 13.3 but before jb it was 13.77
+2014-07-02 09:42:02	Davegr	where did i go
+2014-07-02 09:42:06	Davegr	it
+2014-07-02 09:42:13	-->	Will0401 (uid21789@gateway/web/irccloud.com/x-oshgqcnlprjqhlok) has joined #jailbreakqa
+2014-07-02 09:42:13	--	Mode #jailbreakqa [+v Will0401] by ChanServ
+2014-07-02 09:42:14	@marvin	friend of mine got his mobo fried by lightning. came in through ethernet jack (DSL). everything but the mobo was ok.
+2014-07-02 09:42:21	+Will0401	actually I want to see if office 2007 will work first
+2014-07-02 09:42:51	@marvin	Davegr: each ios gets bigger
+2014-07-02 09:43:24	Davegr	Oh
+2014-07-02 09:43:41	@marvin	Will0401: office 2007 should work pn win8.1
+2014-07-02 09:44:13	+Will0401	it better
+2014-07-02 09:44:15	+Will0401	or i'
+2014-07-02 09:44:18	@marvin	lol
+2014-07-02 09:44:20	+Will0401	i'm screwed*
+2014-07-02 09:44:37	+Will0401	hold on, what?
+2014-07-02 09:44:39	@marvin	there's always VM
+2014-07-02 09:44:45	+Will0401	the chinese government banned windows 8?
+2014-07-02 09:44:55	+Will0401	http://en.wikipedia.org/wiki/Windows_8#Chinese_government_ban
+2014-07-02 09:45:27	@marvin	they like banning things. almost as much as NY
+2014-07-02 09:45:32	<--	Davegr (31f49fe3@gateway/web/cgi-irc/kiwiirc.com/ip.49.244.159.227) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-02 09:45:40	+Will0401	marvin: yes, but i'm pretty sure my parents don't want to have to load up another operating system to work on a powerpoint or such
+2014-07-02 09:45:49	qabot	[Jeff1119] camera respring problem iOS 7.1.2 iPhone 5s ( http://jbqa.me/questions/282140 )
+2014-07-02 09:45:53	@marvin	NY stanfs for NannY
+2014-07-02 09:46:50	@marvin	Will0401: any windows should run previous office version
+2014-07-02 09:47:18	@marvin	i've never heard of one not
+2014-07-02 09:47:25	iDaniel	what's the bundleidentifier of blackgeeks semi-tether shit?
+2014-07-02 09:47:32	@marvin	especially with compat mpde
+2014-07-02 09:48:06	@marvin	iDaniel: irrelevant now
+2014-07-02 09:48:50	-->	ollkl (75c7cd44@gateway/web/cgi-irc/kiwiirc.com/ip.117.199.205.68) has joined #jailbreakqa
+2014-07-02 09:49:32	ollkl	guys
+2014-07-02 09:51:49	@marvin	Gals
+2014-07-02 09:52:06	ollkl	lol
+2014-07-02 09:52:13	ollkl	i just jbed my 7.1.2 4s
+2014-07-02 09:52:20	@marvin	woot
+2014-07-02 09:52:33	-->	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has joined #jailbreakqa
+2014-07-02 09:52:34	ollkl	and now my apps dissapeard..how to fix?
+2014-07-02 09:52:48	@marvin	they'll come back
+2014-07-02 09:52:58	@marvin	wait 5 mins
+2014-07-02 09:53:38	|337	ollkl: if they don't, follow the instructions on out Jailbreaking iOS 7
+2014-07-02 09:53:48	@marvin	did the same to me
+2014-07-02 09:53:52	|337	*our
+2014-07-02 09:54:30	ollkl	wtf
+2014-07-02 09:54:42	ollkl	i just saw my iphone and its i think shut down...
+2014-07-02 09:54:49	ollkl	its not coming on
+2014-07-02 09:55:03	hoodie	Better panic, just in case
+2014-07-02 09:55:11	smgs|z10	lol
+2014-07-02 09:55:15	@marvin	Hold home+power
+2014-07-02 09:55:27	smgs|z10	yes please panic
+2014-07-02 09:55:28	ollkl	it is getting recognized on itunes
+2014-07-02 09:55:31	smgs|z10	:-p
+2014-07-02 09:55:40	@marvin	in dfu prob
+2014-07-02 09:55:46	ollkl	i can sync/backup/restore/update...
+2014-07-02 09:55:51	ollkl	but screen wont turn on
+2014-07-02 09:56:02	@marvin	hold home+power for 30 secs
+2014-07-02 09:56:16	ollkl	with or without cable?
+2014-07-02 09:56:26	@marvin	dorsn 't matter
+2014-07-02 09:56:36	@marvin	doesn't*
+2014-07-02 09:56:41	-->	Yodah (~jailbroke@173-80-247-3.bclycmtk03.res.dyn.suddenlink.net) has joined #jailbreakqa
+2014-07-02 09:56:41	--	Mode #jailbreakqa [+v Yodah] by ChanServ
+2014-07-02 09:57:31	+Yodah	Sup all
+2014-07-02 09:57:32	smgs|z10	must be with
+2014-07-02 09:58:13	-->	gueriLLaPunK (~hi@guerillapunk.loves.bananas.and.being.inside.ur.seriesoftub.es) has joined #jailbreakqa
+2014-07-02 10:00:14	ollkl	ty guys..back to normal..
+2014-07-02 10:00:17	ollkl	:D
+2014-07-02 10:00:24	smgs|z10	hell yeah
+2014-07-02 10:00:26	@marvin	Cool
+2014-07-02 10:00:36	+Yodah	Hey marv
+2014-07-02 10:00:42	smgs|z10	maaaaai taaaarn! now
+2014-07-02 10:00:42	@marvin	sup
+2014-07-02 10:00:43	@autocorrect	ping
+2014-07-02 10:00:58	@marvin	Lol
+2014-07-02 10:01:39	+Yodah	So I've been trying to figure out a way to write a brightness schedule
+2014-07-02 10:02:05	@marvin	like f.lux?
+2014-07-02 10:02:16	+Yodah	But the SOB won't apply the schedule until after you open the app
+2014-07-02 10:02:20	smgs|z10	my kids are not bright, will it help?
+2014-07-02 10:02:26	+Yodah	Lol
+2014-07-02 10:02:27	@marvin	lmao
+2014-07-02 10:02:41	<--	ollkl (75c7cd44@gateway/web/cgi-irc/kiwiirc.com/ip.117.199.205.68) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-02 10:02:48	+Yodah	How do I push the profile if the app isn't open?
+2014-07-02 10:02:55	+Yodah	Cuz my current method sucks lol
+2014-07-02 10:03:16	@marvin	Yodah: has to be a substrate tweak not an app
+2014-07-02 10:03:55	@marvin	i no coder but I'm pretty sure that's what you'd need
+2014-07-02 10:03:58	+Yodah	Ahh so I have to attach to substrate then implement into settings
+2014-07-02 10:04:19	@marvin	my guess
+2014-07-02 10:04:25	+Yodah	I really gotta stop smoking so much when I code lol
+2014-07-02 10:04:39	@marvin	but ask someone who knows :p
+2014-07-02 10:04:42	+Yodah	Or maybe just in general lol
+2014-07-02 10:04:43	hoodie	I disagree.
+2014-07-02 10:05:17	@marvin	hoodie: woth which? lol
+2014-07-02 10:05:17	hoodie	Yodah: try dextromethorphan, about 300mg/day
+2014-07-02 10:05:28	@marvin	ah rofl
+2014-07-02 10:05:33	+Yodah	Not really into dXm
+2014-07-02 10:05:57	hoodie	Well, if you want your code to get better, a smart drug will help. Its impossible to OD on it, pretty safe stuff.
+2014-07-02 10:06:07	+Yodah	I do love dmt tho
+2014-07-02 10:06:16	hoodie	And cheap.
+2014-07-02 10:06:31	+Yodah	If I'm gonna take a smart drug I'm gonna do adderal lol
+2014-07-02 10:07:02	+Yodah	Just can't get my own script :(
+2014-07-02 10:07:06	--	smgs|z10 is now known as jacksparrow
+2014-07-02 10:07:07	hoodie	well... you might get tighter, have better concentration, but you wont make quantum leaps
+2014-07-02 10:07:22	--	jacksparrow is now known as jacksparrow_
+2014-07-02 10:07:32	hoodie	dxm... you'll wake up the next day and say... how the hell did I do that?
+2014-07-02 10:07:50	hoodie	The code will write itself
+2014-07-02 10:08:13	hoodie	but that's just a dissociative effect, not reality
+2014-07-02 10:08:25	@marvin	hoodie: cough medicine leads to better mental function, is that what you're saying?
+2014-07-02 10:08:25	hoodie	But to each his own.
+2014-07-02 10:09:13	hoodie	Hmm... not really. What I'm saying is, if you code on the right dose of dxm, your code will be better than you could even imagine it could be, and you will not believe that you wrote it.
+2014-07-02 10:09:14	+Yodah	That's what I was thinking. I know I've tripped balls on dXm before but never coded on it lol
+2014-07-02 10:09:29	@marvin	Lol
+2014-07-02 10:09:44	hoodie	What you want is the dose just under the tripping balls. You don't want to trip. You want to "roll"
+2014-07-02 10:09:55	+Yodah	I'll have to dose and bust out some Ruby on Rails.
+2014-07-02 10:10:01	hoodie	lol
+2014-07-02 10:10:04	+Yodah	See if I can't code some gems lol
+2014-07-02 10:10:14	hoodie	Ruby is a fucking mess.
+2014-07-02 10:10:19	hoodie	ooops... sorry
+2014-07-02 10:10:22	hoodie	but it is
+2014-07-02 10:10:24	+Yodah	That's the point
+2014-07-02 10:10:30	@marvin	COBOL FTW
+2014-07-02 10:10:48	hoodie	at least there aren't 20 different current versions of COBAL out there
+2014-07-02 10:10:52	+Yodah	If I can code ruby on dXm then I can code anything
+2014-07-02 10:11:50	@marvin	ruby on rails should rightly be done while snorting something
+2014-07-02 10:12:01	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 10:12:29	+Yodah	Hahaha
+2014-07-02 10:12:32	+Yodah	Nose candy
+2014-07-02 10:12:45	+Yodah	I'm not addicted to cocaine I just love the way it smells
+2014-07-02 10:13:11	@marvin	good at puthon?
+2014-07-02 10:13:21	@marvin	python*
+2014-07-02 10:13:42	@marvin	rewrite OSQA, it could use it
+2014-07-02 10:15:25	+Yodah	Lol
+2014-07-02 10:15:34	+Yodah	I haven't touched python in like 4 years
+2014-07-02 10:15:46	+Yodah	Could dust it off when I get my new laptop next week lol
+2014-07-02 10:19:59	<--	gi1 (~gi1@2-238-75-36.ip243.fastwebnet.it) has quit (Quit: gi1)
+2014-07-02 10:20:05	hoodie	I think you should... I would, if I could, abandon those projects... and instead port PC fixing tools to iOS, so I can mount PC drives over usb and fix the Windows installs from my iPad
+2014-07-02 10:20:48	hoodie	I really wish I had a team of developers. I have some fantastic ideas, that should be academic to implement
+2014-07-02 10:21:13	hoodie	getter done. thx
+2014-07-02 10:21:30	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 10:21:46	+Yodah	With the i5+ there are a lot of things I wish could be pushed in the reverse over the 8 pin
+2014-07-02 10:23:00	+dirkg	LOL
+2014-07-02 10:23:13	+dirkg	why would you want windows
+2014-07-02 10:23:15	hoodie	I'd like to be able to install Win7 from iOS... dd should do it... dd is unix, does Cydia have dd?
+2014-07-02 10:23:20	hoodie	To make money.
+2014-07-02 10:23:28	+dirkg	and apps don't?
+2014-07-02 10:23:32	hoodie	Windows breaks, needs fixing, charge money to do it.
+2014-07-02 10:23:39	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 10:23:46	+dirkg	building a business on a broken model seems risky
+2014-07-02 10:24:00	+dirkg	especially in an environment that strides to be better
+2014-07-02 10:24:11	+Yodah	I wanna see a male to make 8 pin that can be used to jailbreak other iOS devices!!!
+2014-07-02 10:24:15	+Will0401	marvin: guess what :)
+2014-07-02 10:24:20	hoodie	Ive been trying to get corporate america to abandon windows for 15 years. Not going to happen. I may as well make a buck.
+2014-07-02 10:24:28	+Will0401	windows 8 installed :D
+2014-07-02 10:24:36	hoodie	condolences
+2014-07-02 10:24:38	+dirkg	Yodah if one is already jailbroken that isn't hard
+2014-07-02 10:24:54	@marvin	hoodie: a few of us used dd way back, attempting ios image backups. failed.
+2014-07-02 10:25:02	+Yodah	Then why haven't we been developing the app?
+2014-07-02 10:25:03	+dirkg	LOL
+2014-07-02 10:25:12	+dirkg	Yodah because what would be the point
+2014-07-02 10:25:17	hoodie	yeah, but dd should be able to take data and just plaster it onto a external usb mounted drive.
+2014-07-02 10:25:29	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Remote host closed the connection)
+2014-07-02 10:25:33	+dirkg	hoodie not when you don't have mount points
+2014-07-02 10:25:35	hoodie	so ... the windows image would have to already be prepared... I can do that. I just can't port dd.
+2014-07-02 10:25:37	<--	jacksparrow_ (~yaaic@117.219.100.14) has quit (Read error: Connection reset by peer)
+2014-07-02 10:25:39	+Yodah	Cuz if I can use my iPhone &/or iPad to jailbreak other devices it would be MUCH quicker than using a PC
+2014-07-02 10:25:50	+dirkg	Yodah make it happen then
+2014-07-02 10:25:50	hoodie	iOS can't mount ntfs... good point.
+2014-07-02 10:25:54	@marvin	hoodie: the backup worked. restoring is the problm.
+2014-07-02 10:25:57	hoodie	so we need that bit ported too
+2014-07-02 10:25:59	+dirkg	actually it might be able to
+2014-07-02 10:26:04	+dirkg	it would just be read only
+2014-07-02 10:26:06	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 10:26:19	+dirkg	apple doesn't own a license to write to ntfs
+2014-07-02 10:26:26	+Yodah	Dirk I don't know enough of the exploit packaging to compile the app
+2014-07-02 10:26:27	hoodie	marvin: I'm not talking about imaging iOS
+2014-07-02 10:26:27	+dirkg	so they publish a read-only driver
+2014-07-02 10:26:37	hoodie	imaging Windows FROM iOS
+2014-07-02 10:26:58	+dirkg	hoodie yeah it is called a deployment server and a remote app
+2014-07-02 10:26:58	@marvin	hoodie: i know. just telling you cydia has it
+2014-07-02 10:27:17	+Will0401	should I use start8 or startisback?
+2014-07-02 10:27:20	hoodie	oh. cool... I'll be jb in moments. waiting for lion to install.
+2014-07-02 10:27:35	@marvin	Will0401: startisback ftw
+2014-07-02 10:27:37	+Yodah	Why not ML?
+2014-07-02 10:27:57	+dirkg	or mavericks
+2014-07-02 10:28:02	+Will0401	and there's a chrome OS mode for windows 8?
+2014-07-02 10:28:08	+Will0401	wow
+2014-07-02 10:28:17	@marvin	Will0401: there is?
+2014-07-02 10:28:18	hoodie	I just don't like carrying around a bunch of stuff.... I'd rather everything be stored on the iPad as data... like a triple boot installer usb drive, but I won't have to boot from it to install
+2014-07-02 10:28:24	+Yodah	Winblows 8
+2014-07-02 10:28:39	+dirkg	hoodie on a 32 or 64GB ipad
+2014-07-02 10:28:40	hoodie	I don't really care what the client is using... as long as I don't have tto use it too
+2014-07-02 10:28:43	+dirkg	as a deployment device
+2014-07-02 10:28:51	+dirkg	i think you need to learn about this thing called a USB drive
+2014-07-02 10:28:57	+Will0401	marvin: yeah, there's a relaunch google chrome in windows 8 mode button
+2014-07-02 10:29:02	hoodie	64gb ipad mini... with zaggs kb and camera connection kit and usb drive dock
+2014-07-02 10:29:05	-->	site (4244a1f5@gateway/web/cgi-irc/kiwiirc.com/ip.66.68.161.245) has joined #jailbreakqa
+2014-07-02 10:29:07	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Client Quit)
+2014-07-02 10:29:07	+Will0401	launches a chrome os type thing
+2014-07-02 10:29:13	hoodie	sure
+2014-07-02 10:29:18	hoodie	OS agnostic
+2014-07-02 10:29:20	@marvin	Will0401: oh that. meh
+2014-07-02 10:29:49	<--	site (4244a1f5@gateway/web/cgi-irc/kiwiirc.com/ip.66.68.161.245) has quit (Client Quit)
+2014-07-02 10:30:00	hoodie	so you pull he drive from the pc, mount it... copy the user data off... format, image, copy user data back, restore drivers and serials... done.
+2014-07-02 10:30:05	+dirkg	hoodie they wouldn't work like that
+2014-07-02 10:30:05	--	hack is now known as site
+2014-07-02 10:30:13	hoodie	they?
+2014-07-02 10:30:19	@marvin	i think i'll run mavericks in a windows vm on my mac
+2014-07-02 10:30:22	+dirkg	the device and connector kit
+2014-07-02 10:30:29	hoodie	they already do
+2014-07-02 10:30:31	@marvin	in bootcamp
+2014-07-02 10:30:32	hoodie	USB is USB
+2014-07-02 10:30:43	+dirkg	hoodie not when the host OS lacks the ability to mount drives like that
+2014-07-02 10:30:44	hoodie	anything that is USB compliant will mount wiht the camera connection kit
+2014-07-02 10:30:59	hoodie	right, as i said, iOS needs an ntfs driver
+2014-07-02 10:31:03	+dirkg	not just that
+2014-07-02 10:31:13	hoodie	what else?
+2014-07-02 10:31:14	+site	can't believe this nick is not taken
+2014-07-02 10:31:27	+dirkg	the device is super locked down from mounting storage like that
+2014-07-02 10:31:29	+Will0401	and I'm really surprised by how fluid windows 8 is running on this thing
+2014-07-02 10:31:30	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 10:31:30	@marvin	Lol
+2014-07-02 10:31:36	hoodie	what device?
+2014-07-02 10:31:40	+dirkg	IOS
+2014-07-02 10:31:43	+dirkg	the fucking ipad
+2014-07-02 10:31:49	<--	iDaniel (uid25588@gateway/web/irccloud.com/x-bviadkeaykkrpppx) has quit (Quit: Updating details, brb)
+2014-07-02 10:31:58	hoodie	dirkg: that's what the CCK is for... you can mount FAT32 and copy pics to it already
+2014-07-02 10:31:58	-->	iDaniel (uid25588@gateway/web/irccloud.com/x-iirfcsmvxuwotniz) has joined #jailbreakqa
+2014-07-02 10:32:15	hoodie	with an ntfs driver, you could image a drive with dd
+2014-07-02 10:32:17	+Yodah	But it doesn't allow the proper permissions
+2014-07-02 10:32:21	+dirkg	^
+2014-07-02 10:32:23	+Yodah	That's what he's getting at
+2014-07-02 10:32:25	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Read error: Connection reset by peer)
+2014-07-02 10:32:26	hoodie	Its jb
+2014-07-02 10:32:30	+dirkg	yes
+2014-07-02 10:32:33	hoodie	what permissions are you referring to?
+2014-07-02 10:32:34	+dirkg	because jb fixes EVERYTHING
+2014-07-02 10:32:40	+Yodah	So you would have to apply perms each mount
+2014-07-02 10:32:41	hoodie	no, it opens doors
+2014-07-02 10:32:43	+dirkg	including not being able to mount drives
+2014-07-02 10:32:46	+dirkg	MAGIC
+2014-07-02 10:32:51	+Yodah	Mount doesn't give +rw
+2014-07-02 10:32:56	+dirkg	there is a tweak for that!
+2014-07-02 10:32:56	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 10:33:00	+Yodah	It just gives +r
+2014-07-02 10:33:09	@marvin	dirkg: justin biener, yes!
+2014-07-02 10:33:15	+Yodah	You would have to gain +w each mount mate
+2014-07-02 10:33:18	@marvin	beaver*
+2014-07-02 10:33:26	hoodie	You can copy photos from the photo app, already, to an external SD Card. How the heck is THAT possible if what you say is true?
+2014-07-02 10:33:26	+Yodah	Which is much more complicated
+2014-07-02 10:33:34	hoodie	Of COURSE there is +w
+2014-07-02 10:33:54	+Yodah	Because pulling off iOS is easier than writing to a mount on iOS
+2014-07-02 10:33:57	hoodie	the CCK gives iOS USB
+2014-07-02 10:33:59	+dirkg	Yodah +1 never mind the fact that the process is super locked down with MFI program
+2014-07-02 10:34:00	hoodie	USB is USB
+2014-07-02 10:34:23	hoodie	once you have USB compliance, this all becomes possible... with ntfs driver
+2014-07-02 10:34:31	hoodie	and some one to code the utility apps
+2014-07-02 10:34:35	+Yodah	Dirk he has to get past the write issues before he can even start to kick himself in the nuts about MFI
+2014-07-02 10:34:35	+dirkg	hoodie who said they are 100% USB complient?
+2014-07-02 10:34:40	hoodie	USB IS USB
+2014-07-02 10:34:45	+dirkg	lol
+2014-07-02 10:34:47	hoodie	Apple didn't reinvent USB
+2014-07-02 10:35:04	+dirkg	no but you have to go through their proprietary systems to access it
+2014-07-02 10:35:08	@marvin	they kinda did on macbook
+2014-07-02 10:35:11	hoodie	EVERY SINGLE USB COMPLIENT DEVICE< drive, or kb , whatever,... you can connect through CCK
+2014-07-02 10:35:21	+Yodah	Most
+2014-07-02 10:35:23	+Yodah	Not all
+2014-07-02 10:35:24	+dirkg	hoodie clearly you haven't used the CCK enough
+2014-07-02 10:35:30	@marvin	upped the power to charge ipads
+2014-07-02 10:35:34	hoodie	If it doesn't connect, its not fully USB complient
+2014-07-02 10:35:35	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Remote host closed the connection)
+2014-07-02 10:35:36	hoodie	but a drive dock IS
+2014-07-02 10:35:45	+dirkg	more often than not they say this USB device isn't supported
+2014-07-02 10:36:11	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 10:36:14	+Yodah	Compliance doesn't = compatible
+2014-07-02 10:36:18	+dirkg	hoodie maybe if it doesn't request power over USB
+2014-07-02 10:36:20	hoodie	because its likely that its using some other library thus is not usb complient. DRive docks don't need drivers. they are fully usb 2 complient
+2014-07-02 10:36:21	<--	iDaniel (uid25588@gateway/web/irccloud.com/x-iirfcsmvxuwotniz) has quit (Client Quit)
+2014-07-02 10:36:24	+dirkg	but i'd need to see that for myself
+2014-07-02 10:36:30	-->	iDaniel (uid25588@gateway/web/irccloud.com/x-zhchejnjixxzuoiq) has joined #jailbreakqa
+2014-07-02 10:36:36	hoodie	external power is incidental
+2014-07-02 10:36:53	-->	columb (~c0lumb@176.125.198.144) has joined #jailbreakqa
+2014-07-02 10:37:17	hoodie	Pro audio is already adopting iOS devices for multitrack because these really complex 8 channel ADCs happen to be usb2 complient
+2014-07-02 10:37:35	hoodie	that's sort of really the same thing or less complex than a drive dock
+2014-07-02 10:37:38	+Yodah	I've got a IDE/Sata 2 USB converter
+2014-07-02 10:37:46	+Yodah	Full USB 2.0 compliant
+2014-07-02 10:37:55	+Yodah	Probably not cck compatible
+2014-07-02 10:38:00	hoodie	it is.
+2014-07-02 10:38:12	+dirkg	actually
+2014-07-02 10:38:16	hoodie	But the file system must be recongizable by iOS
+2014-07-02 10:38:18	+dirkg	i can totally test this theory
+2014-07-02 10:38:31	+dirkg	i can plug y HFS+ backup raid into my ipad
+2014-07-02 10:38:53	+Yodah	Lol
+2014-07-02 10:38:58	hoodie	go for it... its already tested. If it works with SD Cards, and usb thumb drives, a drive in a dock is effectively the same thing as a thumb drive
+2014-07-02 10:38:58	+Yodah	I can't wait to see this
+2014-07-02 10:39:03	+dirkg	that is, if i can find a male to male usb cable
+2014-07-02 10:39:39	hoodie	Yodah: if it works, and it will... would you consider porting some OSS tools for me? Because I can't take any more dxm
+2014-07-02 10:39:49	+dirkg	lulz
+2014-07-02 10:39:52	+Yodah	LOL
+2014-07-02 10:40:05	+Yodah	I won't be taking dXm to do it but maybe
+2014-07-02 10:40:20	hoodie	devs rule. I support them. I can't really dev.
+2014-07-02 10:40:24	+Yodah	I, unlike you, do have access to a development team. So maybe.
+2014-07-02 10:40:56	hoodie	Imagine iOS sweeping IT like a storm, and every admin walking around fixing Corporate Windows america from an iPhone 5
+2014-07-02 10:41:11	hoodie	and a CCK and a ddrive dock
+2014-07-02 10:41:23	hoodie	that is my dream
+2014-07-02 10:41:23	+Yodah	I'd rather carry my iPad lol
+2014-07-02 10:41:30	+Yodah	But I get the idea
+2014-07-02 10:41:32	hoodie	yeah, me too... but should work from all iOS devices
+2014-07-02 10:41:39	+dirkg	``ugh legit
+2014-07-02 10:41:47	+dirkg	i don't think i have a male to male usb
+2014-07-02 10:41:50	+dirkg	oh hold on
+2014-07-02 10:41:50	hoodie	THANK YOU FFOR UNDERSTANDING ME... I have such a hard time communicating
+2014-07-02 10:42:18	hoodie	I've never seen a female to female usb... only male to male, or male to female extension cord
+2014-07-02 10:42:32	+Yodah	No. You just have a hard time listening to those that know more of the actual application side of the ideas you have. :P
+2014-07-02 10:42:32	hoodie	a male to male usb cable is aka a usb cable
+2014-07-02 10:42:54	hoodie	You're talking to a systems administrator, pardner
+2014-07-02 10:42:56	+Yodah	I've seen m2m, m2f and f2f
+2014-07-02 10:43:01	hoodie	It break, I fix.
+2014-07-02 10:43:05	-->	HeathHayle (~heathhayl@176.24.100.168) has joined #jailbreakqa
+2014-07-02 10:43:05	<--	HeathHayle (~heathhayl@176.24.100.168) has quit (Changing host)
+2014-07-02 10:43:05	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 10:43:10	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 10:43:12	hoodie	Usually, with your tools.
+2014-07-02 10:43:13	+Yodah	Bud I was a sys admin at 12 lol
+2014-07-02 10:43:20	hoodie	you think so, huh
+2014-07-02 10:43:29	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 10:43:31	hoodie	everyone with a hot graphics card thinks they can do what I do
+2014-07-02 10:43:35	+Yodah	When I was a freshman I was outsmarting the net admin on the daily
+2014-07-02 10:43:43	hoodie	you're a dec
+2014-07-02 10:43:44	hoodie	devv
+2014-07-02 10:43:46	+Yodah	Lol
+2014-07-02 10:43:51	+Yodah	I'm a hacker.
+2014-07-02 10:43:56	+Yodah	Dev by hobby.
+2014-07-02 10:43:57	+dirkg	it isn't doing anything
+2014-07-02 10:44:02	hoodie	developers have certain insights, but its not the same as being able to troubleshoot anything at all
+2014-07-02 10:44:10	+dirkg	oh whoa
+2014-07-02 10:44:12	+dirkg	look out
+2014-07-02 10:44:14	+Yodah	I own my own tech shop
+2014-07-02 10:44:15	+dirkg	we got a badass over here
+2014-07-02 10:44:20	hoodie	ok, then you're an admin... if you wrote it up that way on your taxes
+2014-07-02 10:44:23	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 10:44:48	hoodie	I used to be a phreak and a cracker
+2014-07-02 10:44:53	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 10:44:56	hoodie	now I just fix stuff
+2014-07-02 10:45:01	+dirkg	boom namedrop
+2014-07-02 10:45:01	+Yodah	Phreaking was fun
+2014-07-02 10:45:02	+dirkg	i'm scared
+2014-07-02 10:45:15	hoodie	I miss that... immensely... it was ... music
+2014-07-02 10:45:32	+Yodah	Cracking was more of just a way to keep in dial up aol's and outbound pay phone calls lol
+2014-07-02 10:45:38	hoodie	Still have my red box, if I can find a coin operated AT&T phone booth, I can call anywhere
+2014-07-02 10:45:40	hoodie	free
+2014-07-02 10:46:01	+Yodah	Remember the 10102880 AT&T network hop?
+2014-07-02 10:46:05	hoodie	actually... there's ios tools for phreaking... if you could go back in time to be able to use them on something
+2014-07-02 10:46:06	-->	wcfields (~wcfields@209.36.40.50) has joined #jailbreakqa
+2014-07-02 10:46:13	+Yodah	Used to use that to swap country codes
+2014-07-02 10:46:30	+Yodah	I still have my whistle. ;)
+2014-07-02 10:47:30	hoodie	crud... who am I thining of.. the USB OSx86 dev... he's on here a lot... nick slips my mind...
+2014-07-02 10:47:35	+Yodah	Used to phreak conferences for dial out on the 10102880 hop
+2014-07-02 10:48:11	hoodie	he created a usb installer for chameleon... dang... stupid brain... he's the guy I need
+2014-07-02 10:48:28	+Yodah	Hoodie you remember the Paris Hilton mobile hack?
+2014-07-02 10:48:45	hoodie	that was after my time... I phreaked in the 80's
+2014-07-02 10:48:58	+Yodah	Those were the people I ran with in my day
+2014-07-02 10:49:26	hoodie	mobile.. and digital telephony in general, I think... not as attractive to me...
+2014-07-02 10:49:39	hoodie	bring back analog switching!
+2014-07-02 10:49:43	+Yodah	I <3 mobile tech
+2014-07-02 10:49:54	hoodie	Capt. Crunch, Woz... those are my heros
+2014-07-02 10:50:37	+Yodah	Nothing like finding old apache servers and using an iOS device to run 0 day sploits on the lol
+2014-07-02 10:51:04	+Yodah	K3v from Telnet sess's
+2014-07-02 10:51:23	+Yodah	Them*
+2014-07-02 10:52:00	+Yodah	Shit. Gotta run
+2014-07-02 10:52:04	+Yodah	Late for work
+2014-07-02 10:52:15	<--	Yodah (~jailbroke@173-80-247-3.bclycmtk03.res.dyn.suddenlink.net) has quit (Quit: Leaving)
+2014-07-02 10:52:24	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 10:53:56	hoodie	Left the building, Yodah has
+2014-07-02 10:54:05	@pwner	lol
+2014-07-02 10:54:23	@pwner	that should be his part message
+2014-07-02 10:55:21	@pwner	hoodie: conti?
+2014-07-02 10:55:29	hoodie	no....
+2014-07-02 10:55:32	hoodie	:/
+2014-07-02 10:55:43	hoodie	my google searches are coming up nill
+2014-07-02 10:55:50	@pwner	try #hackint0sh on irc.nspwn.com
+2014-07-02 10:56:08	hoodie	He's in here often enough
+2014-07-02 10:56:16	hoodie	nick just slipped my mind
+2014-07-02 10:56:31	@pwner	hmmm
+2014-07-02 10:56:39	-->	HeathHayle (~heathhayl@176.24.100.168) has joined #jailbreakqa
+2014-07-02 10:56:40	<--	HeathHayle (~heathhayl@176.24.100.168) has quit (Changing host)
+2014-07-02 10:56:40	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 10:56:41	hoodie	 but he not only did chameoloen usb installers... he created a bunch of phreaking tools... that don't really work on digital
+2014-07-02 10:57:18	hoodie	the name of his installer is "USB" something... its pretty famous, but that was a year or 2 ago, so ... way back in the dark ages
+2014-07-02 10:57:39	@pwner	someone in this channel?
+2014-07-02 10:58:13	hoodie	anyway, he knows phones, you all know him... he;s awesome... but hasn't been giving away a lot of work lately, probably working for realz and has no time
+2014-07-02 10:58:36	hoodie	last I was here.... idk a few months ago, he was logged in here
+2014-07-02 10:58:50	hoodie	he's probably an @
+2014-07-02 10:59:19	hoodie	not important... but I'll be preoccupied all day until I think of his nick
+2014-07-02 10:59:48	@pwner	I dunno of anyone in here who made anything osx86-wise
+2014-07-02 10:59:54	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 11:00:08	@pwner	use, yeah, but made?
+2014-07-02 11:00:19	 *	site has made many
+2014-07-02 11:00:35	+site	or picked and built
+2014-07-02 11:00:46	@pwner	we've all done that ;p
+2014-07-02 11:00:47	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 11:01:17	+site	kinda sucks to spend $1,500 on every top end then 2 years latter be out dated
+2014-07-02 11:01:20	+site	nothing like it
+2014-07-02 11:01:34	@pwner	wear cheaper tops
+2014-07-02 11:01:43	+site	o.o
+2014-07-02 11:01:54	+site	i wish they would
+2014-07-02 11:02:00	@pwner	oh nm I missed "end"
+2014-07-02 11:02:13	+site	lol
+2014-07-02 11:02:15	@pwner	lol
+2014-07-02 11:03:01	@pwner	hoodie: you mean hack?
+2014-07-02 11:03:10	hoodie	no, not hack
+2014-07-02 11:03:16	hoodie	thanks for helping tho
+2014-07-02 11:03:24	+site	:O
+2014-07-02 11:03:32	+site	i though hoodie was dead
+2014-07-02 11:03:35	@pwner	I know all the ops, been here since day 0 ;p
+2014-07-02 11:03:43	@pwner	and I dunno who you mean
+2014-07-02 11:03:45	hoodie	his chameleon installer... USBsoemthing... I used it to install snow on my foxconn box...
+2014-07-02 11:04:04	hoodie	works really well.. that's why he stopped developing it, and his last release was Dec 2011 I think
+2014-07-02 11:04:07	+site	myhack ?
+2014-07-02 11:04:12	hoodie	no
+2014-07-02 11:04:16	hoodie	that's all new stuff
+2014-07-02 11:04:21	hoodie	newer than 3 yrs old
+2014-07-02 11:04:27	+site	no it's not
+2014-07-02 11:04:33	+site	myhack is over 6 years old
+2014-07-02 11:04:42	hoodie	let me google... I
+2014-07-02 11:04:48	hoodie	lll be back
+2014-07-02 11:04:53	@pwner	lol ok
+2014-07-02 11:05:03	+dirkg	lol
+2014-07-02 11:06:01	@pwner	!tss iphone6,1
+2014-07-02 11:06:01	fwlinksbot	pwner: Firmwares currently being signed for iphone6,1: 7.1.2 [11D257], 7.1.1 [11D201], 8.0b2 [12A4297e] and 8.0b1 [12A4265u].
+2014-07-02 11:06:10	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 11:06:11	+site	youu ever feel like you're a part of the harry truman show ?
+2014-07-02 11:06:13	+site	o.o
+2014-07-02 11:06:22	@pwner	never saw that
+2014-07-02 11:06:26	@pwner	so, no ;p
+2014-07-02 11:06:32	+site	you're not missing much
+2014-07-02 11:06:41	@pwner	lol good
+2014-07-02 11:06:45	-->	HeathHayle (~heathhayl@176.24.100.168) has joined #jailbreakqa
+2014-07-02 11:06:45	<--	HeathHayle (~heathhayl@176.24.100.168) has quit (Changing host)
+2014-07-02 11:06:45	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 11:06:49	hoodie	nawcom
+2014-07-02 11:06:57	hoodie	that's the guy
+2014-07-02 11:06:57	@pwner	ahhh
+2014-07-02 11:06:58	+site	nawcoms mod cd ?
+2014-07-02 11:07:00	hoodie	yeah
+2014-07-02 11:07:06	+site	i have that on my server
+2014-07-02 11:07:08	@pwner	ne's never in here. other network
+2014-07-02 11:07:09	hoodie	he did some apps for phreaking
+2014-07-02 11:07:15	hoodie	ook, mystery solved
+2014-07-02 11:07:16	hoodie	thx
+2014-07-02 11:07:18	@pwner	irc.nspwn.com
+2014-07-02 11:07:18	+site	long ago
+2014-07-02 11:07:19	HeathHayle	pwner: U
+2014-07-02 11:07:23	hoodie	he rules
+2014-07-02 11:07:30	HeathHayle	pwner: Hi mate hows you?
+2014-07-02 11:07:40	@pwner	HeathHayle: sup
+2014-07-02 11:07:45	hoodie	he absolutely reigns supreme, and a nice guy, too
+2014-07-02 11:08:01	HeathHayle	pwner: How come you came back?
+2014-07-02 11:08:12	@pwner	I missed you desperately
+2014-07-02 11:08:27	HeathHayle	pwner: I knew it! Lol!
+2014-07-02 11:08:37	@pwner	lawl
+2014-07-02 11:08:49	HeathHayle	!g lawl
+2014-07-02 11:08:50	@autocorrect	Result: Urban Dictionary: lawl Link: http://www.urbandictionary.com/define.php?term=lawl
+2014-07-02 11:08:50	@autocorrect	Description: This is what "lol" sounds like irl. Say it with me, Laaaaaawwwwwlllll. Good job. Lawl.
+2014-07-02 11:08:57	 *	site bashed HeathHayle over the head with a rock, so pwner can have him stuffed
+2014-07-02 11:09:30	 *	hoodie loaded site and it crashed his browser
+2014-07-02 11:09:49	@pwner	osx text-to-speech pronounces it loll
+2014-07-02 11:09:52	+site	his site has been gone for a while hoodie
+2014-07-02 11:09:59	HeathHayle	site: Thanks mate I think you need you need to play your hiding game lol
+2014-07-02 11:10:03	hoodie	site's site?
+2014-07-02 11:10:14	+site	nawcoms site ?
+2014-07-02 11:10:24	hoodie	http://www.nawcom.com
+2014-07-02 11:10:25	+site	well blog page
+2014-07-02 11:10:27	hoodie	its still there
+2014-07-02 11:10:45	+site	you can't ever find anything on that
+2014-07-02 11:10:46	+site	lol
+2014-07-02 11:11:08	hoodie	I have the old links somewhere
+2014-07-02 11:11:16	+site	you need the mod cd?
+2014-07-02 11:11:28	+site	and kernel
+2014-07-02 11:11:38	HeathHayle	pwner: I wish I hadn't read about duolci and downgrading lol
+2014-07-02 11:11:48	hoodie	NO... I was just reminicing with Yodah about phreaking... not important... sorry for the dust
+2014-07-02 11:12:01	+site	lol
+2014-07-02 11:12:35	@pwner	you must be almost as old as me
+2014-07-02 11:12:38	hoodie	its how my mind works, I have nominal aphasia.... so I'll say "you know that movie with that guy... well the other guy in that movie was on a show, and his sister had the same name as what I'm thinking of... "its a pain
+2014-07-02 11:12:53	HeathHayle	pwner: Just another dev who wont release I bet lol
+2014-07-02 11:12:53	+site	hah
+2014-07-02 11:12:58	@pwner	6 degrees of kevin bacon
+2014-07-02 11:13:02	hoodie	yes
+2014-07-02 11:13:20	<--	Sagitt (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has quit (Quit: See you later!)
+2014-07-02 11:13:27	hoodie	Like when I was in trigonometry... I memorized only 3 formulas, and during tests would derive the rest from those
+2014-07-02 11:13:30	+site	i got to take clar to see earth to echo today
+2014-07-02 11:13:31	+site	:(
+2014-07-02 11:13:50	+site	hoping it's a good enough movie
+2014-07-02 11:14:04	@pwner	looks like great fx
+2014-07-02 11:14:04	HeathHayle	Anyone else herd of duolci?
+2014-07-02 11:14:06	+site	i hate going to theaters
+2014-07-02 11:14:10	hoodie	anyone recommend the relatively new xmen? I've been so out of touch
+2014-07-02 11:14:16	@pwner	HeathHayle: der where you been
+2014-07-02 11:14:18	+site	yes HeathHayle \he's a #fakr
+2014-07-02 11:14:25	@pwner	HeathHayle: and no, it doesn't work
+2014-07-02 11:14:42	+site	hush pwner
+2014-07-02 11:14:45	+site	:P
+2014-07-02 11:14:47	@pwner	lol
+2014-07-02 11:14:58	HeathHayle	site: You say eveyone is a fake I bet you even think apple are fake!
+2014-07-02 11:15:06	+site	indeed
+2014-07-02 11:15:21	@pwner	it's doulci anyway, thay can't even spell
+2014-07-02 11:15:25	+site	they stole the mouse idea from those poor guys
+2014-07-02 11:15:50	HeathHayle	pwner: How do you know it doesnt work and thats icloud backwards lol
+2014-07-02 11:16:04	@pwner	no it isn't, look again
+2014-07-02 11:16:09	+site	haha
+2014-07-02 11:16:29	HeathHayle	Icloud duolci
+2014-07-02 11:16:34	@pwner	that was the idea, but they couldn't even pull that off
+2014-07-02 11:16:53	@pwner	the site is doulci
+2014-07-02 11:16:53	HeathHayle	pwner: But that is icloud backwards?
+2014-07-02 11:17:23	+site	HeathHayle: how do you know i'm not doulci ?
+2014-07-02 11:17:23	@autocorrect	site: just give it back.
+2014-07-02 11:17:24	+site	:P
+2014-07-02 11:17:40	@pwner	http://doulci.net/
+2014-07-02 11:17:54	@pwner	HeathHayle: that is icluod backwards
+2014-07-02 11:18:14	@pwner	they fail at step 1
+2014-07-02 11:18:23	HeathHayle	site: Because if you was you would have blocked me for asking about downgrading! Lol
+2014-07-02 11:18:42	+site	not if it's just a backdoor
+2014-07-02 11:18:43	+site	:P
+2014-07-02 11:19:02	HeathHayle	site: Lol
+2014-07-02 11:19:04	+site	yes it works HeathHayle
+2014-07-02 11:19:08	+site	give it a try
+2014-07-02 11:19:10	+site	:)
+2014-07-02 11:19:22	+site	you can TRUST it
+2014-07-02 11:19:27	HeathHayle	site: You just want me to restore lol
+2014-07-02 11:19:36	+site	it's on youtube...
+2014-07-02 11:19:41	+site	^ proof
+2014-07-02 11:19:59	-->	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has joined #jailbreakqa
+2014-07-02 11:20:05	HeathHayle	Site snows proof was on youtube lol
+2014-07-02 11:20:14	+site	youtube = irl
+2014-07-02 11:20:18	qabot	[dragonbanshee] Can't add sources? ( http://jbqa.me/questions/282148 )
+2014-07-02 11:20:28	<--	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has quit (Client Quit)
+2014-07-02 11:20:32	HeathHayle	!g irl
+2014-07-02 11:20:32	@autocorrect	Result: Urban Dictionary: IRL Link: http://www.urbandictionary.com/define.php?term=IRL
+2014-07-02 11:20:34	@autocorrect	Description: Abbreviation for "In Real Life." Often used in internet chat rooms to let people you are talking about something in the real world and not in the i...
+2014-07-02 11:21:13	@pwner	really? you don't know what IRL means?
+2014-07-02 11:21:20	@pwner	oh wait
+2014-07-02 11:21:24	@pwner	nevermind
+2014-07-02 11:21:49	hoodie	metaphysics
+2014-07-02 11:21:57	HeathHayle	pwner: Go on what was you going to say?
+2014-07-02 11:21:58	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2014-07-02 11:21:59	hoodie	"real" HA
+2014-07-02 11:22:19	@pwner	HeathHayle: that was it
+2014-07-02 11:22:30	-->	JuergenWest (ac3820e1@gateway/web/cgi-irc/kiwiirc.com/ip.172.56.32.225) has joined #jailbreakqa
+2014-07-02 11:22:42	HeathHayle	pwner: Lol but you said nevermind
+2014-07-02 11:22:43	--	Mode #jailbreakqa [+v JuergenWest] by ChanServ
+2014-07-02 11:22:55	@pwner	exactly
+2014-07-02 11:23:43	-->	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has joined #jailbreakqa
+2014-07-02 11:23:46	+site	lo
+2014-07-02 11:23:48	+site	lol
+2014-07-02 11:23:57	@pwner	site: you have a lifeproof case?
+2014-07-02 11:24:06	+site	nope
+2014-07-02 11:24:20	<--	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has quit (Client Quit)
+2014-07-02 11:24:20	+site	might is 100% death proof
+2014-07-02 11:24:22	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Read error: Connection reset by peer)
+2014-07-02 11:24:26	-->	HeathHayle_ (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 11:24:49	@pwner	they have a covewr over the screen that tends to bubble and not be flush with the glass
+2014-07-02 11:25:00	-->	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has joined #jailbreakqa
+2014-07-02 11:25:05	@pwner	until the Nuud series. I got one last night
+2014-07-02 11:25:05	 *	HeathHayle_ wishes that os experience would stop crashing! 
+2014-07-02 11:25:35	@pwner	no screen cover, it seals around the glass with gaskets in the case frame
+2014-07-02 11:25:40	+site	same with otter box pwner
+2014-07-02 11:25:46	@pwner	really?
+2014-07-02 11:25:46	+site	that's the first thing i remove
+2014-07-02 11:25:59	+site	take that out and place your own screen protector on it
+2014-07-02 11:26:05	@pwner	oh I don't mean the removable ones
+2014-07-02 11:26:13	+site	you can't take it off ?
+2014-07-02 11:26:19	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 11:26:34	+site	otter box is just glued on
+2014-07-02 11:26:35	@pwner	not on the old lifeproof cases, that would make it not waterproof
+2014-07-02 11:26:48	+site	just install ios 7
+2014-07-02 11:26:50	+site	duhh
+2014-07-02 11:27:14	@pwner	this is the first waterproof case that doesn't have anything covering the screen
+2014-07-02 11:27:20	@pwner	hence "nuud"
+2014-07-02 11:27:27	+site	yeah i'd like one of those
+2014-07-02 11:27:42	@pwner	it's nice. going to the pool in a bit to test it
+2014-07-02 11:27:46	+site	that has to seal to the screen somehow
+2014-07-02 11:28:02	@pwner	yes, gasket. it fits tight
+2014-07-02 11:28:06	+site	they cover the phone if it fails ?
+2014-07-02 11:28:11	@pwner	nope
+2014-07-02 11:28:12	+site	lol
+2014-07-02 11:28:25	@pwner	but they didn't with the previous models and I was ok ;p
+2014-07-02 11:28:46	 *	site couldn't do it myself
+2014-07-02 11:29:07	+site	i'd be seating
+2014-07-02 11:29:07	@pwner	http://www.lifeproof.com/shop/us_en/iphone-5s-nuud-case/
+2014-07-02 11:29:18	+site	yeah i want one for my 4s
+2014-07-02 11:29:49	+site	they make pink, but not blue
+2014-07-02 11:29:51	+site	:(
+2014-07-02 11:30:04	+site	sexist people
+2014-07-02 11:30:07	@pwner	lol
+2014-07-02 11:30:19	@pwner	what surprises me is that touchID works
+2014-07-02 11:30:30	+site	o.o
+2014-07-02 11:30:43	+site	some type of membrane ?
+2014-07-02 11:30:48	@pwner	yeah
+2014-07-02 11:30:51	+site	nice
+2014-07-02 11:31:16	+site	kinda scary, but nice
+2014-07-02 11:31:54	@pwner	they sell water insurance ;p
+2014-07-02 11:32:12	+site	i'd like to insure my water
+2014-07-02 11:32:20	+site	i lose it every hour or so
+2014-07-02 11:32:23	@pwner	http://www.lifeproof.com/en/total-water-protection-program/
+2014-07-02 11:32:26	@pwner	lol
+2014-07-02 11:32:48	+site	:O
+2014-07-02 11:32:49	+site	http://www.lifeproof.com/shop/us_en/iphone-4s-4/iphone-4-4s/
+2014-07-02 11:33:28	<--	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has quit (Ping timeout: 260 seconds)
+2014-07-02 11:34:10	-->	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has joined #jailbreakqa
+2014-07-02 11:34:39	@pwner	yeah I had one on my 4
+2014-07-02 11:34:56	@pwner	those aren't new, they encase the phone, including the screen
+2014-07-02 11:35:10	<--	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has quit (Ping timeout: 264 seconds)
+2014-07-02 11:35:21	@pwner	waterproof but the slight bubble can be annoying
+2014-07-02 11:35:32	hoodie	there was a company that sold new waterproofed ipads... no case
+2014-07-02 11:35:45	hoodie	they were $100 over retail price
+2014-07-02 11:35:57	@pwner	coated with something?
+2014-07-02 11:36:01	hoodie	yeah
+2014-07-02 11:36:09	@pwner	I wouldn't trust it
+2014-07-02 11:36:16	hoodie	can't find the company, my google fu is not strong
+2014-07-02 11:36:27	hoodie	they garuntee it...
+2014-07-02 11:36:36	hoodie	obviously, if there is water damage, they replace it
+2014-07-02 11:36:39	<--	HeathHayle_ (~heathhayl@unaffiliated/heathhayle) has quit (Ping timeout: 248 seconds)
+2014-07-02 11:36:52	hoodie	lett me keep looking, sounds too good to be true, but I don't lie
+2014-07-02 11:36:59	@pwner	there's a service to do that for all devices
+2014-07-02 11:37:22	@pwner	I believe you, I just don't believe that method is sound
+2014-07-02 11:37:41	Neal_	hoodie: they relace it assuming they still exist :p
+2014-07-02 11:38:02	@pwner	liquipel: http://www.liquipel.com/
+2014-07-02 11:38:15	hoodie	story is only a year or two old, possible they went under... but it was sweet... cant even tell there was a covering... no case
+2014-07-02 11:39:02	Neal_	pwner: i saw a video about some coating like that and it was really cool how you just see water droplets slide off
+2014-07-02 11:39:16	@pwner	yeah, like rain-x ;p
+2014-07-02 11:39:41	@pwner	I just don't see how it could last through repeated connecting of the cable
+2014-07-02 11:39:47	Neal_	yeah, except on a PCB, it's a maze!
+2014-07-02 11:39:57	@pwner	yeah
+2014-07-02 11:43:52	hoodie	ok... obviously I was thinking of this http://waterfi.com/waterproof-kindle  false alarm
+2014-07-02 11:44:01	@pwner	lol
+2014-07-02 11:44:06	hoodie	wrong device
+2014-07-02 11:44:28	hoodie	stupid brain
+2014-07-02 11:44:39	Ninji	Neal_ ily
+2014-07-02 11:44:49	@pwner	whoa. you can read at a depth of 210 feet
+2014-07-02 11:45:08	hoodie	never know when that might come in handy
+2014-07-02 11:45:12	@pwner	hopefully you're reading an article about the dangers of the bends
+2014-07-02 11:45:17	hoodie	lol
+2014-07-02 11:45:43	hoodie	nitrogen in the blood at normal atmo pressures.... is fun. Ask your dentist.
+2014-07-02 11:45:47	@pwner	great for reading at the beach/pool though
+2014-07-02 11:46:02	@pwner	I love those e-ink displays
+2014-07-02 11:46:10	hoodie	they are sweet
+2014-07-02 11:46:20	hoodie	wish they were everywhere...
+2014-07-02 11:46:24	@pwner	ikr
+2014-07-02 11:46:39	hoodie	like the newspaper in that harry potter movie...
+2014-07-02 11:46:43	@pwner	apple should go OLED
+2014-07-02 11:46:54	hoodie	apple should go HMD
+2014-07-02 11:46:56	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 11:47:02	@pwner	what's hmd
+2014-07-02 11:47:07	hoodie	like google glass
+2014-07-02 11:47:11	@pwner	ooh
+2014-07-02 11:47:16	hoodie	head mounted yeah
+2014-07-02 11:47:32	HeathHayle	compilingEntropy: Are you around mate?
+2014-07-02 11:47:49	hoodie	or like a contact lens thing
+2014-07-02 11:48:00	@pwner	only a matter of time
+2014-07-02 11:48:13	hoodie	bionics... we can rebuild him
+2014-07-02 11:48:15	@pwner	internet via contact lenses
+2014-07-02 11:48:20	hoodie	helllz yes
+2014-07-02 11:48:21	@pwner	augmented reality
+2014-07-02 11:48:24	hoodie	YES
+2014-07-02 11:48:42	hoodie	imagine your waking world... filled with pr0n!!
+2014-07-02 11:48:46	@pwner	mitsuo kaku talks extensively about that in his book I'm reading
+2014-07-02 11:49:02	@pwner	it's closer than we think
+2014-07-02 11:49:16	hoodie	its here... just no great commercial applications
+2014-07-02 11:49:27	HeathHayle	pwner: I think this is _ room talk lol
+2014-07-02 11:49:27	@pwner	yeah
+2014-07-02 11:49:44	@pwner	hah
+2014-07-02 11:49:51	hoodie	who wants to look at blinking advertising everywhere they look? that's the only vector right now
+2014-07-02 11:50:00	@pwner	HeathHayle: no-one's asking for ios help atm
+2014-07-02 11:50:13	@pwner	hoodie: adblocker ftw
+2014-07-02 11:50:14	hoodie	that's what makes this chan great
+2014-07-02 11:50:17	hoodie	LOL
+2014-07-02 11:50:32	@pwner	except they'd rename it: adblinker
+2014-07-02 11:50:32	HeathHayle	pwner: Lol but I thought that wasnt pg13?
+2014-07-02 11:50:37	hoodie	joojoo banta peril sensitive advertising glasses... just black lenses
+2014-07-02 11:50:48	@pwner	42!
+2014-07-02 11:50:58	@pwner	do you know where your towel is?
+2014-07-02 11:51:22	@pwner	loved that guy
+2014-07-02 11:51:28	@pwner	he died too young
+2014-07-02 11:51:34	hoodie	true
+2014-07-02 11:51:59	@pwner	I've never laughed so hard reading a book
+2014-07-02 11:52:04	hoodie	his soul is likely caught up with eddies in the spacetime continuum
+2014-07-02 11:52:05	@pwner	or series of books
+2014-07-02 11:52:15	hoodie	and this is his couch
+2014-07-02 11:52:20	-->	J_W97_ (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 11:52:20	@pwner	did you read the dirks?
+2014-07-02 11:52:24	hoodie	YES
+2014-07-02 11:52:32	hoodie	wish there were more, great books
+2014-07-02 11:52:39	@pwner	nothing is is beautiful as an airport
+2014-07-02 11:52:46	hoodie	holistic detection
+2014-07-02 11:52:53	@pwner	cats
+2014-07-02 11:53:01	hoodie	ruler of the universe
+2014-07-02 11:53:34	hoodie	Vogon poetry... too many great ideas
+2014-07-02 11:53:34	@pwner	that guy was a genius
+2014-07-02 11:53:56	hoodie	He was a member of monty python at one point, well, he wrote for them
+2014-07-02 11:54:04	@pwner	yeah
+2014-07-02 11:54:24	hoodie	last work "Last Chance to See"
+2014-07-02 11:54:45	hoodie	not as funny, because sad, about species disappearing
+2014-07-02 11:54:52	hoodie	nonfiction
+2014-07-02 11:54:58	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2014-07-02 11:56:03	hoodie	I wonder if anyone is ever going to realize that once we fish all the fish, there will be no more fish
+2014-07-02 11:56:22	qabot	[Llapa] Unlock after jailbreak? ( http://jbqa.me/questions/282155 )
+2014-07-02 11:57:44	qabot	[Jamj] how to know iphone 3gs baseband if it is currently having an activation error due to upgrading? ( http://jbqa.me/questions/282156 )
+2014-07-02 11:58:18	@pwner	eric idle tweeted about douglas adams, and actually replied to me https://twitter.com/EricIdle/status/304137021104988161
+2014-07-02 11:59:05	hoodie	you're spockers? lol wondering where you got off it
+2014-07-02 11:59:07	hoodie	to
+2014-07-02 11:59:13	@pwner	lol
+2014-07-02 11:59:25	hoodie	nice, eric idle is a brilliant musician, love his work
+2014-07-02 11:59:54	HeathHayle	pwner: Lol
+2014-07-02 12:02:22	hoodie	https://www.youtube.com/watch?v=buqtdpuZxv my fav Eric Idl song
+2014-07-02 12:02:44	@pwner	here we go, the pic I was talking about https://twitter.com/EricIdle/status/304136937424449537
+2014-07-02 12:08:31	hoodie	who is that to the right? Freakin Santana?
+2014-07-02 12:08:59	@pwner	lol good question. eric didn't remember
+2014-07-02 12:09:04	hoodie	I was going to tineye it, but its obviously a print he just took a picture of, and is posted no where else
+2014-07-02 12:09:06	@pwner	read the comments
+2014-07-02 12:09:13	-->	IncredibleMango (~textual@pool-71-191-197-231.washdc.fios.verizon.net) has joined #jailbreakqa
+2014-07-02 12:09:52	hoodie	yeah, that's Sarduchi
+2014-07-02 12:09:55	hoodie	from SNL
+2014-07-02 12:10:50	hoodie	Shearer is a great musician too, not as good as Paul from Letterman, tho... he wrote all the Spinal Tap stuff
+2014-07-02 12:11:16	hoodie	sick talent... brings a single tear to my eye
+2014-07-02 12:11:58	hoodie	Adams was a really classy guy.... I hate that word "classy"... but he was, had miles of class
+2014-07-02 12:12:50	@pwner	never saw him on video/in person
+2014-07-02 12:13:28	@pwner	I met George harrison. Would much rather have met Douglas Adams. ;p
+2014-07-02 12:16:38	<--	minimoose (~minimoose@74-95-191-62-Philadelphia.hfc.comcastbusiness.net) has quit (Quit: minimoose)
+2014-07-02 12:18:33	<--	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has quit (Ping timeout: 240 seconds)
+2014-07-02 12:19:07	-->	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has joined #jailbreakqa
+2014-07-02 12:19:40	hoodie	he appears here for 5 seconds, the surgeon at 1:20 https://www.youtube.com/watch?v=hCFDvNuDWjU#t=1m20s
+2014-07-02 12:19:52	hoodie	one of his only video appearances
+2014-07-02 12:20:14	hoodie	tiny cameo... no lines
+2014-07-02 12:20:27	hoodie	can't even tell its him, looks like john cleese
+2014-07-02 12:22:16	hoodie	pwner: there are bbc radio versions of hgtg, little different from the books, worth listening too
+2014-07-02 12:22:33	Neal_	Ninji: ily
+2014-07-02 12:22:34	hoodie	idk if his voice is on them or not
+2014-07-02 12:22:38	Ninji	<3
+2014-07-02 12:24:29	hoodie	can someone tell me why my iPad3 (iOS5) with 512mb ram is 10 times more stable and has better memory management than my iPad4,4 mini with 1gb of ram? Why... why do commercial developers insist on the never ending feature creep and bloat?
+2014-07-02 12:25:00	hoodie	ios7 on this is like using the ipad1 with 128mb ram
+2014-07-02 12:25:27	+dirkg	seems fine to me
+2014-07-02 12:25:34	hoodie	where every tab must reload in mSafari every time you touch away from it and touch back
+2014-07-02 12:26:07	-->	OFWGKTA (47c5589a@gateway/web/cgi-irc/kiwiirc.com/ip.71.197.88.154) has joined #jailbreakqa
+2014-07-02 12:26:19	@pwner	yeah I know about the radio series
+2014-07-02 12:26:21	hoodie	actually, the last 2 updates improved stability immnesely in ios7, but not memory management
+2014-07-02 12:26:37	OFWGKTA	best tweaks?
+2014-07-02 12:26:57	Ninji	Does anyone have a copy of Unflod.dylib to download (yes that is a serious question)
+2014-07-02 12:27:02	@pwner	"force lowercase" is my fave
+2014-07-02 12:27:04	+dirkg	yes i do
+2014-07-02 12:27:07	+dirkg	why do you ask
+2014-07-02 12:27:11	Ninji	RE it
+2014-07-02 12:27:17	Ninji	To check it against something
+2014-07-02 12:27:19	HeathHayle	hoodie: I think ios 6 was the best os for a ipad lol
+2014-07-02 12:27:39	hoodie	You can have my iOS 5 devices when you pry them from my cold dead hands
+2014-07-02 12:27:49	hoodie	no youtube... no google maps in ios6
+2014-07-02 12:27:54	HeathHayle	hoodie: Lol
+2014-07-02 12:28:02	HeathHayle	hoodie: What do you mean?
+2014-07-02 12:28:16	+dirkg	Ninji https://gist.github.com/samdmarshall/721330244f61f7efd778 that is the source
+2014-07-02 12:28:19	hoodie	I mean the YouTube app is gone... replaced with Google's version whcih SUCKS
+2014-07-02 12:28:29	Ninji	Thanks, I forgot he did stuff on that hurr
+2014-07-02 12:28:31	hoodie	and apple maps blows, and the new google maps app sucks
+2014-07-02 12:28:38	+dirkg	Ninji thats me :P
+2014-07-02 12:28:52	Ninji	Oh I follow you on twitter lol
+2014-07-02 12:28:52	+dirkg	if you still need the dylib i think i still have it
+2014-07-02 12:28:53	HeathHayle	hoodie: Oh is why whats wrong with the youtube app?
+2014-07-02 12:29:03	hoodie	ARE YOU KIDDING?
+2014-07-02 12:29:05	Ninji	I just want to check it against some files found in a binary
+2014-07-02 12:29:12	HeathHayle	hoodie: No
+2014-07-02 12:29:14	Ninji	but that looks like it
+2014-07-02 12:29:20	+dirkg	here: http://cl.samdmarshall.com/WNqo
+2014-07-02 12:29:21	hoodie	ITs like it was coded by a 5 year old in html5
+2014-07-02 12:29:28	Ninji	Thanks
+2014-07-02 12:29:32	+dirkg	np
+2014-07-02 12:29:32	HeathHayle	hoodie: Lol
+2014-07-02 12:29:33	hoodie	the orig YouTube app was native
+2014-07-02 12:29:44	HeathHayle	hoodie: What do you mean?
+2014-07-02 12:30:02	hoodie	I guess that's my fav tweak, reinstalling the orig YouTube and Maps apps from cydia on iOS7
+2014-07-02 12:30:28	HeathHayle	hoodie: Why do you need the old youtube app?
+2014-07-02 12:30:30	hoodie	omg... the interface on the new yt app is terrible
+2014-07-02 12:30:33	hoodie	always fighting it
+2014-07-02 12:30:45	hoodie	the old app, the visual elements all stayed put
+2014-07-02 12:31:01	HeathHayle	hoodie: Not sure what you mean?
+2014-07-02 12:31:02	hoodie	and the maps app... idk wtf that is supposed to be
+2014-07-02 12:31:12	hoodie	have you seen the orig YouTube app?
+2014-07-02 12:31:18	hoodie	Apple actually made it
+2014-07-02 12:31:23	hoodie	its very minimalistic
+2014-07-02 12:31:40	hoodie	the new one... it tries to do too much, and I think it really is html5
+2014-07-02 12:31:49	HeathHayle	hoodie: Lol
+2014-07-02 12:32:04	hoodie	its really hard to search.... the video shrinks to the bottom right for no reason
+2014-07-02 12:32:18	hoodie	it has all this pointless flashy html5 stuff
+2014-07-02 12:32:21	HeathHayle	hoodie: How is it hard to search?
+2014-07-02 12:32:26	hoodie	the visual elements move around too much
+2014-07-02 12:32:50	hoodie	because you hit the search field, then it decides you didn' really want to search and makes another visual element come to focus
+2014-07-02 12:33:02	+dirkg	stop complaining and file radars
+2014-07-02 12:33:11	HeathHayle	hoodie: Not sure what do you mean
+2014-07-02 12:33:16	hoodie	and the maps app... you click on something, and instead of al little pop up, it takes over the whole screen, and you cant see the map anymore
+2014-07-02 12:33:28	hoodie	r u a bot? lol
+2014-07-02 12:34:48	hoodie	http://cdn.gsmarena.com/vv/newsimg/12/08/ios-youtube/gsmarena_001.jpg
+2014-07-02 12:34:50	hoodie	original...
+2014-07-02 12:34:58	Ninji	dirkg Do you know how they distributed Unflod? Cause I think I've been given something that goes after pirated apps lol
+2014-07-02 12:35:11	hoodie	every visual element stays put, its structured, its stable, it doesn't automatically do anything
+2014-07-02 12:35:21	+dirkg	Ninji i don't know, the theory was that it was distributed through some piracy repos
+2014-07-02 12:35:22	hoodie	http://www.iclarified.com/images/news/34206/142615/142615-1280.jpg
+2014-07-02 12:35:27	Ninji	but I didn't look into it at the time so I'm not sure how they were spreding.
+2014-07-02 12:35:30	hoodie	new one... disappearing menus
+2014-07-02 12:35:31	+dirkg	but honestly, anything could install something like that
+2014-07-02 12:35:37	+dirkg	even something on your computer
+2014-07-02 12:35:43	hoodie	stupid overly complex design
+2014-07-02 12:36:03	Ninji	dirkg looks like it's now being distributed through cracked apps
+2014-07-02 12:36:03	+dirkg	hoodie i used the app jasmine for youtube at one point
+2014-07-02 12:36:19	+dirkg	it was pretty good
+2014-07-02 12:36:23	hoodie	yeah, I found a third party youtube app I can live with, but its still not as good as the orig
+2014-07-02 12:36:32	HeathHayle	hoodie: Cant see a problem with the search http://imgur.com/JPzF9Tf
+2014-07-02 12:37:05	hoodie	uh
+2014-07-02 12:37:11	hoodie	the problem is the search results
+2014-07-02 12:37:14	hoodie	you can see 2
+2014-07-02 12:37:27	hoodie	in the old app, the results listed on the screen would number 8-10
+2014-07-02 12:37:32	hoodie	or moew
+2014-07-02 12:37:36	HeathHayle	hoodie: I havent typed anything lol
+2014-07-02 12:37:40	hoodie	it was 4 across, and scrolled infinately
+2014-07-02 12:37:57	hoodie	yeah.... that's a problem'
+2014-07-02 12:38:05	hoodie	you didn't search for anything yet there are still results
+2014-07-02 12:38:13	hoodie	in the old app
+2014-07-02 12:38:20	hoodie	if you typed in nothing... there would BE NOTHING
+2014-07-02 12:38:24	hoodie	as you should expect
+2014-07-02 12:38:30	HeathHayle	Does that matter?
+2014-07-02 12:38:33	hoodie	YES
+2014-07-02 12:38:36	HeathHayle	Why?
+2014-07-02 12:38:51	Ninji	Worst Obfusification Ever.
+2014-07-02 12:39:00	hoodie	its called "the difference between good interface design, and pointlessly complex interface design."
+2014-07-02 12:39:07	<--	J_W97_ (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 12:39:28	hoodie	Google is web happy. Everything has to be fn Ajax
+2014-07-02 12:39:38	hoodie	whcih is fine in a browser
+2014-07-02 12:39:46	hoodie	for a stand alone app... its being cheap
+2014-07-02 12:40:23	hoodie	just mho...
+2014-07-02 12:40:30	HeathHayle	hoodie: Well to me as long as it hasnt got a ios 7 layout I just use youtube to watch a video lol
+2014-07-02 12:41:56	HeathHayle	britta: Did you get my pm yesterday?
+2014-07-02 12:41:59	<--	OFWGKTA (47c5589a@gateway/web/cgi-irc/kiwiirc.com/ip.71.197.88.154) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-02 12:42:01	Neal_	Ninji: wow don't hate
+2014-07-02 12:42:27	Ninji	Neal_ I'm not but they're just putting it in the .app and changing .info lol
+2014-07-02 12:43:47	+dirkg	Ninji my theory has been someone was purposely testing the water
+2014-07-02 12:43:55	+dirkg	it was intentionally broken
+2014-07-02 12:44:51	qabot	[kenreaves] what's average data reading/writing rate of an iphone 5s ? ( http://jbqa.me/questions/282167 )
+2014-07-02 12:45:05	+dirkg	wtf
+2014-07-02 12:45:11	+dirkg	these questions
+2014-07-02 12:45:32	Neal_	...
+2014-07-02 12:45:37	Neal_	damn pangu
+2014-07-02 12:45:47	Neal_	*PUNGU
+2014-07-02 12:46:11	+dirkg	"what's average data reading/writing rate of an iphone 5s ?" -> really really fast
+2014-07-02 12:46:51	hoodie	wow that's fast
+2014-07-02 12:47:10	+JuergenWest	what does pangu mean..
+2014-07-02 12:47:40	hoodie	break it down
+2014-07-02 12:47:44	hoodie	pan   gu
+2014-07-02 12:47:48	hoodie	the gu of pan
+2014-07-02 12:48:01	hoodie	pretty gross, actually
+2014-07-02 12:48:02	+JuergenWest	which means...?
+2014-07-02 12:48:03	+JuergenWest	lol
+2014-07-02 12:48:10	hoodie	Pan, the god... GOO
+2014-07-02 12:48:14	hoodie	geez
+2014-07-02 12:48:29	hoodie	jk, I like chinese, but cannot understand it
+2014-07-02 12:48:56	hoodie	Its like they're speaking Chinese or something
+2014-07-02 12:49:50	hoodie	http://en.wikipedia.org/w/index.php?title=Pangu
+2014-07-02 12:53:10	hoodie	dig this...
+2014-07-02 12:53:26	hoodie	I ordered an incipio rubber case
+2014-07-02 12:53:41	hoodie	ate potato chips, and left permanent finger prints on it
+2014-07-02 12:53:45	hoodie	complained to incipio
+2014-07-02 12:53:52	hoodie	they sent a replacement, now I have 2
+2014-07-02 12:54:05	hoodie	then I complained to zaggs that the hinge on teh kb was getting loose
+2014-07-02 12:54:15	hoodie	they sent another one free of charge, now I have 2
+2014-07-02 12:54:33	hoodie	I have a use for the 2nd incipio case, as it fits under the zaggs kb nicely
+2014-07-02 12:54:46	hoodie	Who would like my old Zaggs kb for iPad mini? I have no use for it
+2014-07-02 12:55:48	-->	ImJustPro (633463a2@gateway/web/cgi-irc/kiwiirc.com/ip.99.52.99.162) has joined #jailbreakqa
+2014-07-02 12:56:03	ImJustPro	WTF
+2014-07-02 12:56:06	hoodie	hinge is not that bad...
+2014-07-02 12:56:12	ImJustPro	I got banned from modmyi!!!
+2014-07-02 12:56:18	ImJustPro	Fagmyi
+2014-07-02 12:56:27	hoodie	in the middle of the day? the indignity of it
+2014-07-02 12:56:43	ImJustPro	JailbreakQA FTW
+2014-07-02 12:56:53	ImJustPro	Boo, modmyi
+2014-07-02 12:57:44	hoodie	their loss, our gain
+2014-07-02 12:57:51	ImJustPro	Yup
+2014-07-02 12:58:33	hoodie	modmyi are a bunch of savages anyway
+2014-07-02 12:58:45	ImJustPro	Tv
+2014-07-02 12:58:45	 *	hoodie has no idea what he's talking about
+2014-07-02 12:58:49	ImJustPro	Whoops
+2014-07-02 12:59:54	<--	marvin (uid3963@gateway/web/irccloud.com/x-vaalmupkxmeyzysj) has quit (Quit: Connection closed for inactivity)
+2014-07-02 13:00:29	<--	ImJustPro (633463a2@gateway/web/cgi-irc/kiwiirc.com/ip.99.52.99.162) has quit (Client Quit)
+2014-07-02 13:05:20	-->	ImJustPro (633463a2@gateway/web/cgi-irc/kiwiirc.com/ip.99.52.99.162) has joined #jailbreakqa
+2014-07-02 13:05:39	ImJustPro	Back
+2014-07-02 13:06:16	<--	ImJustPro (633463a2@gateway/web/cgi-irc/kiwiirc.com/ip.99.52.99.162) has quit (Client Quit)
+2014-07-02 13:10:05	-->	Synergiance (~syn@24-151-101-8.dhcp.nwtn.ct.charter.com) has joined #jailbreakqa
+2014-07-02 13:13:28	<--	iDaniel (uid25588@gateway/web/irccloud.com/x-zhchejnjixxzuoiq) has quit (Quit: Connection closed for inactivity)
+2014-07-02 13:13:36	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 13:14:15	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 13:14:37	--	|337 is now known as Spydar007
+2014-07-02 13:15:17	<--	autocorrect (autocorrec@97-89-129-19.dhcp.gnvl.sc.charter.com) has quit (Ping timeout: 252 seconds)
+2014-07-02 13:15:53	Spydar007	autocorrect quit :(
+2014-07-02 13:15:53	-->	autocorrect (autocorrec@97-89-129-19.dhcp.gnvl.sc.charter.com) has joined #jailbreakqa
+2014-07-02 13:15:54	--	Mode #jailbreakqa [+o autocorrect] by ChanServ
+2014-07-02 13:16:00	Spydar007	Lol nevermind
+2014-07-02 13:16:59	hoodie	you can't quit! you're fired!
+2014-07-02 13:18:38	hoodie	ok, time to jb this sucker. Thanks all for entertaining me! THIS IS THE BEST CHAN EVAR!!
+2014-07-02 13:18:45	<--	hoodie (~hoodie@adsl-98-77-50-194.mia.bellsouth.net) has quit (Quit: Leaving)
+2014-07-02 13:22:25	-->	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has joined #jailbreakqa
+2014-07-02 13:22:31	JBkid|Cloud	Animate is glitchy on 7.1/1
+2014-07-02 13:22:36	JBkid|Cloud	7.1.1
+2014-07-02 13:23:07	JBkid|Cloud	My boot logo doesn't boot up only apple logo
+2014-07-02 13:23:32	JBkid|Cloud	And chronic dev logo alternates between original apple logo at boot
+2014-07-02 13:30:15	<--	rmc08 (~Rob@unaffiliated/rmc08) has quit (Ping timeout: 248 seconds)
+2014-07-02 13:30:48	Spydar007	JBkid|Cloud: do you have the fix installed?
+2014-07-02 13:31:21	JBkid|Cloud	Yep
+2014-07-02 13:31:40	Spydar007	Hmmmm
+2014-07-02 13:31:44	Spydar007	Works perfectly for me
+2014-07-02 13:31:46	JBkid|Cloud	https://i.imgur.com/zooqsqu.jpg made this
+2014-07-02 13:31:51	JBkid|Cloud	For my boot logo
+2014-07-02 13:32:01	JBkid|Cloud	Don't work:(
+2014-07-02 13:32:02	Spydar007	Nice
+2014-07-02 13:32:05	JBkid|Cloud	Lemme try one from Cydia
+2014-07-02 13:32:08	Spydar007	Strange
+2014-07-02 13:32:25	Spydar007	Just get iPhone Name Boot Logos
+2014-07-02 13:32:25	+site	that's why it don't work
+2014-07-02 13:32:28	Spydar007	That works
+2014-07-02 13:32:30	JBkid|Cloud	Lol not even centred right
+2014-07-02 13:32:41	+site	it do t like sucky wallpapers. :P
+2014-07-02 13:32:41	JBkid|Cloud	Site what
+2014-07-02 13:32:49	JBkid|Cloud	:/
+2014-07-02 13:32:49	Spydar007	Lol wtf did you change your nick site
+2014-07-02 13:32:51	Spydar007	?
+2014-07-02 13:33:02	+site	I do often
+2014-07-02 13:33:04	JBkid|Cloud	Who is site
+2014-07-02 13:33:09	Spydar007	But hack is better
+2014-07-02 13:33:18	Spydar007	:(
+2014-07-02 13:33:27	 *	site is not home
+2014-07-02 13:33:37	 *	Spydar007 isn't either
+2014-07-02 13:34:34	+site	I change my nick so I don't get Oma while gone
+2014-07-02 13:34:40	+site	pms*
+2014-07-02 13:35:11	-->	Gebus88 (56ae064f@gateway/web/cgi-irc/kiwiirc.com/ip.86.174.6.79) has joined #jailbreakqa
+2014-07-02 13:35:28	+site	that way only people that know can find me.
+2014-07-02 13:35:51	Spydar007	Yeah but you don't even answer PMs
+2014-07-02 13:35:58	+site	lol
+2014-07-02 13:36:00	Spydar007	I use |337
+2014-07-02 13:36:06	--	Spydar007 is now known as |337
+2014-07-02 13:36:11	|337	Like that
+2014-07-02 13:36:15	+site	depends who sends them, and what they're about.
+2014-07-02 13:36:20	--	|337 is now known as Spydar007
+2014-07-02 13:36:23	<--	Gebus88 (56ae064f@gateway/web/cgi-irc/kiwiirc.com/ip.86.174.6.79) has quit (Client Quit)
+2014-07-02 13:36:35	Spydar007	For example, if I send them, you completely ignore them. :P
+2014-07-02 13:36:47	+site	na I don't
+2014-07-02 13:37:04	-->	Gebus88 (56ae064f@gateway/web/cgi-irc/kiwiirc.com/ip.86.174.6.79) has joined #jailbreakqa
+2014-07-02 13:37:06	Spydar007	Yeah ya do
+2014-07-02 13:37:07	+site	I look at them, then ignore them.
+2014-07-02 13:37:11	+site	:p
+2014-07-02 13:37:15	Spydar007	Lol
+2014-07-02 13:37:40	Spydar007	So you have hack and markhack
+2014-07-02 13:37:48	Spydar007	So do you have marksite?
+2014-07-02 13:37:49	JBkid|Cloud	Any good boot logos?
+2014-07-02 13:37:49	+site	yep
+2014-07-02 13:37:57	JBkid|Cloud	Hi hack
+2014-07-02 13:38:02	+site	hi
+2014-07-02 13:38:04	Spydar007	JBkid|Cloud: iPhone Name Boot Logos
+2014-07-02 13:38:07	@autocorrect	I can't go to juvie. They use guys like me as currency.
+2014-07-02 13:38:13	Spydar007	Lol marksite
+2014-07-02 13:38:23	Gebus88	Hi guys iPhone 5 iOS 7.1.2. I have no manage tab, so how can I add sources?
+2014-07-02 13:38:29	seejy	ghost
+2014-07-02 13:38:34	seejy	aww
+2014-07-02 13:38:57	Spydar007	Gebus88: click Sources at the bottom
+2014-07-02 13:39:10	Spydar007	Gebus88: manage was removed in the latest Cydia
+2014-07-02 13:39:30	+site	Gebus88: didn't you ask that on the site ?
+2014-07-02 13:40:18	Gebus88	Thank you very much mate, yeah sorry it's been a while since I've used cydia!! Thanks again
+2014-07-02 13:41:35	<--	Gebus88 (56ae064f@gateway/web/cgi-irc/kiwiirc.com/ip.86.174.6.79) has quit (Client Quit)
+2014-07-02 13:42:36	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 13:43:16	+site	ok what's the best paid apps on Cydia ?
+2014-07-02 13:43:31	+site	I need to know how much to add to my card
+2014-07-02 13:43:57	+site	for iOS 7*
+2014-07-02 13:44:07	JBkid|Cloud	Spydar007: yours worked
+2014-07-02 13:44:27	JBkid|Cloud	What dimensions
+2014-07-02 13:44:36	@britta	site: list at http://www.reddit.com/r/jailbreak/wiki/escapeplan might be fun to look at
+2014-07-02 13:44:58	+site	Ty britta
+2014-07-02 13:44:58	JBkid|Cloud	Britta did you see what happens earlier today
+2014-07-02 13:45:08	<--	JuergenWest (ac3820e1@gateway/web/cgi-irc/kiwiirc.com/ip.172.56.32.225) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-02 13:45:14	@britta	JBkid|Cloud: yes
+2014-07-02 13:45:36	JBkid|Cloud	Some guy was on raging here saying he wants to fix his phone for his next bank Robert
+2014-07-02 13:45:48	JBkid|Cloud	I thought it was hack but who knows
+2014-07-02 13:45:56	@britta	when there are trolls, the best thing to do is ignore and not engage
+2014-07-02 13:46:10	@britta	they get bored
+2014-07-02 13:46:17	@britta	it's ok
+2014-07-02 13:46:29	Spydar007	Lol
+2014-07-02 13:46:39	Spydar007	It was funny though
+2014-07-02 13:46:47	Spydar007	He said he robbed a bank
+2014-07-02 13:47:20	+site	yea, just ignore them and hope they really go do it.
+2014-07-02 13:47:26	Spydar007	Lol
+2014-07-02 13:47:34	JBkid|Cloud	Spydar007: in mine there's only 1 png and I put it as 1.png rather than 0.png
+2014-07-02 13:47:46	JBkid|Cloud	Lemme change to 0.png
+2014-07-02 13:47:48	Spydar007	JBkid|Cloud: it needs to be 0.png
+2014-07-02 13:48:00	Spydar007	Use iFile to check my dimensions
+2014-07-02 13:48:06	Spydar007	I cba to check myself
+2014-07-02 13:48:31	+site	has anyone updated mywi ?
+2014-07-02 13:48:47	+site	I head you get a discount if you own the older ones
+2014-07-02 13:48:56	Spydar007	Lol site. You can count only in Intelliborn to do that.
+2014-07-02 13:48:59	+site	but mine shows 20$ still
+2014-07-02 13:49:03	Spydar007	Who likes Intelliborn anyway?
+2014-07-02 13:49:12	Spydar007	Just use TetherMe site
+2014-07-02 13:49:14	+site	I love mywi
+2014-07-02 13:49:23	+site	tether me sucks
+2014-07-02 13:49:30	Spydar007	TetherMe is native
+2014-07-02 13:49:32	Spydar007	Lol how?
+2014-07-02 13:49:42	@britta	site: which old version did you have? purchased on the same cydia id
+2014-07-02 13:49:43	@britta	?
+2014-07-02 13:49:49	+site	can you use bt?
+2014-07-02 13:50:05	+site	change the name of the ssid
+2014-07-02 13:50:27	+site	see connected devices and ect.
+2014-07-02 13:50:38	Spydar007	Mmm true
+2014-07-02 13:50:44	Spydar007	But MyWi is way to expensive
+2014-07-02 13:50:47	+site	I got 5.5 britta
+2014-07-02 13:51:01	Spydar007	Why the hell did saurik even allow that price?
+2014-07-02 13:51:11	JBkid|Cloud	Pdanet is awesome
+2014-07-02 13:51:13	+site	its a one time payment.
+2014-07-02 13:51:21	+site	it's not bad at all Spydar007
+2014-07-02 13:51:39	+site	just hope I don't have to pay another 20 for an update
+2014-07-02 13:52:19	@britta	http://intelliborn.com/mywi.html "Price: $19.99 ($4.99 upgrade for MyWi 4/5 Owners : Free for MyWi 6 Owners)"
+2014-07-02 13:52:29	JBkid|Cloud	What's some good online multiplayer games for ios?
+2014-07-02 13:52:36	Neal_	Spydar007: you certainly haven't been to the Mac App Store
+2014-07-02 13:52:41	+site	how do I go about upgrading ?
+2014-07-02 13:52:54	Neal_	Spydar007: why would saurik care how much a developer is selling their app for?
+2014-07-02 13:53:05	+site	true Neal_
+2014-07-02 13:53:14	@britta	site: logging in with the same cydia id (same facebook/google acccount) should allow you to buy an upgrade
+2014-07-02 13:54:39	+iAdam1n	site: I bought MyWi (5 I think) but then rarely used it so refused to pay the upgrade price
+2014-07-02 13:55:08	+site	I'll do it for sure. 5 is not bad for an update.
+2014-07-02 13:55:26	+iAdam1n	Yeah if you use it a lot :P
+2014-07-02 13:55:31	+site	Ty britta that did the trick. https://i.imgur.com/0sQKlqn.jpg
+2014-07-02 13:57:18	@britta	yay!
+2014-07-02 13:59:30	+site	guess I just logging in the wrong account
+2014-07-02 13:59:31	+site	lol
+2014-07-02 13:59:37	+dirkg	britta i pinged saurik a few days about about a potential issue with pangu, just want to follow up about it
+2014-07-02 14:00:17	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 14:00:21	@britta	hmm that was in #iphone right? it's maximally effective to PM him
+2014-07-02 14:00:30	+dirkg	yeah it was in #iphone
+2014-07-02 14:00:47	@britta	pings in channels can get sort of easily lost among other mentions of his name
+2014-07-02 14:01:07	+dirkg	i don't think it is an immediate or pressing issue, but something he should know incase issues do arrise
+2014-07-02 14:03:53	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Remote host closed the connection)
+2014-07-02 14:04:31	-->	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has joined #jailbreakqa
+2014-07-02 14:04:50	qabot	[Gregory1] My iPhone 4 won't turn on and won't connect to iTunes ( http://jbqa.me/questions/282187 )
+2014-07-02 14:04:51	@britta	yeah sending him a pm is reasonable for that kind of thing
+2014-07-02 14:15:01	<--	Will0401 (uid21789@gateway/web/irccloud.com/x-oshgqcnlprjqhlok) has quit (Quit: Connection closed for inactivity)
+2014-07-02 14:20:00	-->	Sagitt (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has joined #jailbreakqa
+2014-07-02 14:23:33	-->	forests (~forests@68-114-220-251.dhcp.mdsn.wi.charter.com) has joined #jailbreakqa
+2014-07-02 14:26:04	qabot	[KodakKid3] How do I get Winterboard? ( http://jbqa.me/questions/282190 )
+2014-07-02 14:34:40	qabot	[albertrix2000] My ipad dont startup cause appsync ( http://jbqa.me/questions/282191 )
+2014-07-02 14:35:19	qabot	[Javi11] Ota ( http://jbqa.me/questions/282192 )
+2014-07-02 14:36:07	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 14:36:32	HeathHayle	Does anyone think that sbsettings will be updated for ios 7?
+2014-07-02 14:37:49	<--	cool_name (uid15180@gateway/web/irccloud.com/x-fidiyziiimqelxpr) has quit (Quit: Connection closed for inactivity)
+2014-07-02 14:38:23	-->	satxmike (~Satxmike@cpe-70-114-9-92.satx.res.rr.com) has joined #jailbreakqa
+2014-07-02 14:38:26	-->	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has joined #jailbreakqa
+2014-07-02 14:39:40	+site	no HeathHayle
+2014-07-02 14:41:29	HeathHayle	site: Really doh!
+2014-07-02 14:42:56	+site	I got two hours.
+2014-07-02 14:43:09	+site	then I got to go see earth to echo
+2014-07-02 14:44:13	HeathHayle	site: What is earth to echo?
+2014-07-02 14:45:44	+site	a new movie that came out today
+2014-07-02 14:46:14	HeathHayle	site: You don't say I thought it was a downgrade tool lol
+2014-07-02 14:46:24	qabot	[Javi11] Help !! Ota update ( http://jbqa.me/questions/282195 )
+2014-07-02 14:46:36	+site	you think everything is about a downgrade tool
+2014-07-02 14:46:41	+site	lol
+2014-07-02 14:46:47	HeathHayle	site: Lol
+2014-07-02 14:47:08	HeathHayle	!g earth to echo imdb
+2014-07-02 14:47:08	@autocorrect	Result: Earth to Echo (2014) - IMDb Link: http://www.imdb.com/title/tt2183034/
+2014-07-02 14:47:09	@autocorrect	Description: Earth to Echo -- After receiving a bizarre series of encrypted messages, a group · Earth to Echo -- Director Dave Green and producer Andrew Panay discuss the ...
+2014-07-02 14:47:40	HeathHayle	site: Still none the wiser lol
+2014-07-02 14:49:06	-->	fs1 (~fs1@unaffiliated/fs1) has joined #jailbreakqa
+2014-07-02 14:49:12	HeathHayle	site: Who are you going with?
+2014-07-02 14:49:50	fs1	i am trying to jailbreak a 3gs but redsn0w reports it is un pwned dfu mode, hmm
+2014-07-02 14:50:12	fs1	I followed instructions and did right but it puts it in wrong mode
+2014-07-02 14:50:30	HeathHayle	fs1: how are you doing dfu?
+2014-07-02 14:50:35	+site	taking clar HeathHayle
+2014-07-02 14:51:02	fs1	press power button for 3 sec, then hold home button too for 10 sec then release power button
+2014-07-02 14:51:03	+site	fs1: your dfu timing from a clean power off is off
+2014-07-02 14:51:10	HeathHayle	site: Is that your other half?
+2014-07-02 14:51:46	HeathHayle	Fs1 and you press home and power
+2014-07-02 14:52:04	+site	one your device goes off you have to hit next in redsn0w and enter dfu before the device boots or you get that error fs1
+2014-07-02 14:52:18	fs1	i already jailbroke a 3gs 20 min ago, i did the same on this other one
+2014-07-02 14:52:35	fs1	so i know what im doing
+2014-07-02 14:52:40	+site	read what I just said fs1
+2014-07-02 14:52:54	HeathHayle	site: Oh fs1 is the error then lol
+2014-07-02 14:52:58	+site	and no you don't
+2014-07-02 14:53:15	HeathHayle	site: Dont what?
+2014-07-02 14:53:20	+site	you just lucky the first time fs1
+2014-07-02 14:53:29	HeathHayle	site: Lol
+2014-07-02 14:53:34	+site	keep up HeathHayle
+2014-07-02 14:53:48	HeathHayle	site: Lol
+2014-07-02 14:53:54	fs1	now it says exploit failed
+2014-07-02 14:54:08	+site	clear redsn0w cache
+2014-07-02 14:54:16	+site	and do what I said.
+2014-07-02 14:54:49	HeathHayle	Site why do people use redsn0w on a 3GS when you have got snows tools?
+2014-07-02 14:55:18	+site	his tools don't work for fixing the baseband HeathHayle
+2014-07-02 14:55:42	+site	redsn0w is best for 3G & 3GS
+2014-07-02 14:55:52	fs1	ok did as you said but still says exploit failed
+2014-07-02 14:56:28	+site	did you clear the redsn0w cache fs1 ?
+2014-07-02 14:56:34	fs1	y
+2014-07-02 14:56:36	HeathHayle	Site oh I always use snows so I dont get baseband probs cos it doesnt touch the baseband lol
+2014-07-02 14:56:44	+site	you need to ?
+2014-07-02 14:57:25	+site	it's not going to work unless you follow what I told you fs1
+2014-07-02 14:57:40	+site	if you don't want to follow steps don't ask for help
+2014-07-02 14:57:49	HeathHayle	site: Lol
+2014-07-02 14:58:11	HeathHayle	site: Well he did say he knew what hes doing lol
+2014-07-02 14:58:25	+site	lot of people like to think they do.
+2014-07-02 14:58:35	HeathHayle	site: Yes I bet
+2014-07-02 14:59:03	fs1	im not retarded, i followed your instructions, clear cache, exit redsn0w, start it again, select ipsw, jailbreak with ipad baseband, dfu, exploit failed
+2014-07-02 14:59:38	+site	reboot the system / clear cache / switch USB ports
+2014-07-02 14:59:46	+site	then try again.
+2014-07-02 15:00:02	+site	main part
+2014-07-02 15:00:24	fs1	ok, bbl
+2014-07-02 15:00:29	<--	fs1 (~fs1@unaffiliated/fs1) has quit (Quit: Leaving)
+2014-07-02 15:00:57	+site	once redsnow says slide to power off. you have to wait for drive to go off. once it does be ready to hit next in redsn0w and enter dfu before the drive boots.
+2014-07-02 15:01:08	HeathHayle	site so is clar you other half then?
+2014-07-02 15:01:25	HeathHayle	your
+2014-07-02 15:01:32	+site	timing is everything. if you miss that timing you get the wrong mode error
+2014-07-02 15:01:49	HeathHayle	site: Hes gone lol
+2014-07-02 15:01:57	+site	clar is my kid HeathHayle
+2014-07-02 15:02:21	HeathHayle	site: Oh cool is it a kids film then?
+2014-07-02 15:02:31	+site	YouTube it
+2014-07-02 15:02:54	<--	columb (~c0lumb@176.125.198.144) has quit (Remote host closed the connection)
+2014-07-02 15:03:09	HeathHayle	Will do well I will net it
+2014-07-02 15:03:09	+site	!g earth to echo
+2014-07-02 15:03:09	@autocorrect	Result: Earth to Echo (2014) - IMDb Link: http://www.imdb.com/title/tt2183034/
+2014-07-02 15:03:11	@autocorrect	Description: Earth to Echo -- After receiving a bizarre series of encrypted messages, a group · Earth to Echo -- Director Dave Green and producer Andrew Panay discuss the ...
+2014-07-02 15:05:00	HeathHayle	 site just read the info looks good
+2014-07-02 15:06:10	+site	yep
+2014-07-02 15:06:45	+site	I want that tone as a ringtone.
+2014-07-02 15:06:51	-->	rmc08 (~Rob@unaffiliated/rmc08) has joined #jailbreakqa
+2014-07-02 15:07:00	+site	might have to make that tonight.
+2014-07-02 15:07:23	HeathHayle	Site Oh I haven't watched the trailer yet lol
+2014-07-02 15:07:32	<--	shingshang (~shingshan@115-64-27-246.static.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2014-07-02 15:07:44	+site	I like the tone he makes
+2014-07-02 15:07:58	HeathHayle	site: Lol how old is she again?
+2014-07-02 15:08:08	+site	10
+2014-07-02 15:08:21	HeathHayle	Site bet she likes frozen lol
+2014-07-02 15:08:32	+site	yep
+2014-07-02 15:08:42	+site	we went and saw that in 3d
+2014-07-02 15:09:02	+dirkg	that movie is awesome
+2014-07-02 15:09:06	+site	and how to train your dragon 2
+2014-07-02 15:09:14	+site	that was good
+2014-07-02 15:09:22	HeathHayle	Lol cool haven't seen frozen in 3D yet is it worth it
+2014-07-02 15:09:31	+dirkg	frozen is magic
+2014-07-02 15:09:37	+site	lol
+2014-07-02 15:09:45	HeathHayle	Lol how old are you guys lol
+2014-07-02 15:09:57	+site	4
+2014-07-02 15:10:10	HeathHayle	site: Your older then me then
+2014-07-02 15:10:22	+site	yep
+2014-07-02 15:10:23	+dirkg	HeathHayle yes we are, and?
+2014-07-02 15:10:30	HeathHayle	Lol
+2014-07-02 15:10:50	HeathHayle	site: Didnt know dirkg was coolstar lol
+2014-07-02 15:10:56	+dirkg	wat
+2014-07-02 15:11:01	+site	I'm coolstar
+2014-07-02 15:11:19	--	site is now known as coolerstar
+2014-07-02 15:11:22	+coolerstar	:)
+2014-07-02 15:11:37	HeathHayle	dirkg: Just joking cos coolstar loves it lol
+2014-07-02 15:11:50	+coolerstar	indeed
+2014-07-02 15:12:06	--	HeathHayle is now known as coolerthenhackst
+2014-07-02 15:12:18	coolerthenhackst	Doh too short lol
+2014-07-02 15:12:51	--	coolerstar is now known as site
+2014-07-02 15:12:55	coolerthenhackst	ar thats the full nick lol
+2014-07-02 15:13:03	+site	someone is on hack
+2014-07-02 15:13:05	+site	lol
+2014-07-02 15:13:12	coolerthenhackst	Really?
+2014-07-02 15:13:57	coolerthenhackst	Site whos on hack?
+2014-07-02 15:14:09	--	site is now known as hack
+2014-07-02 15:14:14	--	coolerthenhackst is now known as HeathHayle
+2014-07-02 15:14:26	HeathHayle	Hack why site lol
+2014-07-02 15:14:40	+hack	why HeathHayle ?
+2014-07-02 15:14:47	HeathHayle	Lol
+2014-07-02 15:15:17	HeathHayle	Hack point taken lol
+2014-07-02 15:15:24	+hack	lol
+2014-07-02 15:15:57	HeathHayle	Got to go a mo
+2014-07-02 15:16:02	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 15:19:29	<--	h121h (~h121h@128-79-246-98.hfc.dyn.abo.bbox.fr) has quit
+2014-07-02 15:24:02	-->	patterson (~patterson@c-50-174-179-173.hsd1.ca.comcast.net) has joined #jailbreakqa
+2014-07-02 15:24:09	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 15:24:22	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 15:26:31	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 15:26:48	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 15:26:59	qabot	[TROMIN] Jailbreak Questions? ( http://jbqa.me/questions/282201 )
+2014-07-02 15:28:18	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 15:28:25	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 15:29:20	-->	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 15:30:22	HeathHayle	compilingEntropy: Are you around mate?
+2014-07-02 15:31:38	<--	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 15:31:47	-->	HeathHayle (u291187@unaffiliated/heathhayle) has joined #jailbreakqa
+2014-07-02 15:33:22	<--	HeathHayle (u291187@unaffiliated/heathhayle) has quit (Remote host closed the connection)
+2014-07-02 15:35:40	<--	satxmike (~Satxmike@cpe-70-114-9-92.satx.res.rr.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-02 15:37:29	<--	TheMadcapper (~TheMadcap@ip174-67-201-181.oc.oc.cox.net) has quit (Ping timeout: 244 seconds)
+2014-07-02 15:38:10	<--	IncredibleMango (~textual@pool-71-191-197-231.washdc.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2014-07-02 15:39:08	<--	Sagitt (~Sagitt@2-224-92-14.ip169.fastwebnet.it) has quit (Quit: See you later!)
+2014-07-02 15:41:10	-->	fs1 (~fs1@unaffiliated/fs1) has joined #jailbreakqa
+2014-07-02 15:43:26	fs1	this thing makes me pissed off, i jailbroke it and upgrade to ipad baseband but then had exploit failed after trying to downgrade, then when i managed to downgrade i get exploit failed on just boot option, LOL
+2014-07-02 15:43:55	fs1	So i have to spend 20 minutes trying until it suceeds
+2014-07-02 15:49:50	fs1	it seems to me that it works better without clicking next and following instrusctions, now i tried doing it on my own without clicking next and it worked
+2014-07-02 15:50:05	<--	J_W97 (~J_W97@cpc15-stkp7-2-0-cust1.10-2.cable.virginm.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 15:52:51	qabot	[TheSkepticNinja] Unintentionally getting my iPhone 3GS stuck while trying to update to ios 6.1 ( http://jbqa.me/questions/282208 )
+2014-07-02 15:55:04	-->	Rudench (n3rd@v6.TeamFortress.us) has joined #jailbreakqa
+2014-07-02 15:55:05	fs1	what if you hold power and home buttons for a while?
+2014-07-02 15:55:52	<--	pythech (uid34949@gateway/web/irccloud.com/x-nbeyykilvnznlliq) has quit (Quit: Connection closed for inactivity)
+2014-07-02 15:58:12	fs1	lol
+2014-07-02 15:58:15	fs1	it was the bot
+2014-07-02 16:00:30	<--	JBkid|Cloud (uid28648@gateway/web/irccloud.com/x-isopivcetfkprfat) has quit (Quit: Connection closed for inactivity)
+2014-07-02 16:04:12	<--	rmc08 (~Rob@unaffiliated/rmc08) has quit (Ping timeout: 255 seconds)
+2014-07-02 16:04:42	<--	fs1 (~fs1@unaffiliated/fs1) has quit (Quit: Leaving)
+2014-07-02 16:07:02	-->	JuergenWest (ac3820e1@gateway/web/cgi-irc/kiwiirc.com/ip.172.56.32.225) has joined #jailbreakqa
+2014-07-02 16:07:02	--	Mode #jailbreakqa [+v JuergenWest] by ChanServ
+2014-07-02 16:26:12	<--	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-07-02 16:29:02	-->	Euphrates (uid22843@gateway/web/irccloud.com/x-ibkjxacmfxnixdio) has joined #jailbreakqa
+2014-07-02 16:35:15	-->	cybr1d (uid5622@gateway/web/irccloud.com/x-muvqhdaxhswjpbph) has joined #jailbreakqa
+2014-07-02 16:35:15	--	Mode #jailbreakqa [+v cybr1d] by ChanServ
+2014-07-02 16:46:51	-->	satxmike (~Satxmike@cpe-70-114-9-92.satx.res.rr.com) has joined #jailbreakqa
+2014-07-02 17:08:34	<--	satxmike (~Satxmike@cpe-70-114-9-92.satx.res.rr.com) has quit (Quit: Later)
+2014-07-02 17:14:42	 *	hack bored waiting on the movie to start.
+2014-07-02 17:15:58	+hack	https://i.imgur.com/DfGYNep.jpg
+2014-07-02 17:17:16	-->	UnterPerro (~unter@c-50-140-198-18.hsd1.fl.comcast.net) has joined #jailbreakqa
+2014-07-02 17:29:54	<--	sjeezpwn (uid27855@gateway/web/irccloud.com/x-bnqsvaxgiivsjkdn) has quit (Quit: Connection closed for inactivity)

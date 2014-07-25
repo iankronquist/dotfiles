@@ -1,0 +1,435 @@
+2014-05-07 22:44:40	-->	muricula (kronquii@osuosl/staff/muricula) has joined ##c
+2014-05-07 22:44:40	--	Topic for ##c is "The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil"
+2014-05-07 22:44:40	--	Topic set by twkm on Fri, 08 Feb 2013 02:28:14
+2014-05-07 22:44:41	--	Nicks ##c: [[Awaxx] ^silence^ _5kg _Cody _daniel_ _graham_ aap AdmiralBumbleBee AeroNotix Affliction ahuemer AivarasK aksr alamar Albori AllenWWU Amadiro amaury_d amizraa amoe ampharmex AndrewX192 angstrom apeiros aphistic Apic aqz Ard1t ariscop armyriad asakura ashkan Averell AvianFlu Axord Bane^ bedouin ben1066 Bigcheese BillyZane Biohazard BlaDe^ BlastHardcheese blenny blinx bluehavana bluesm bmallred bolt BombStrike bone boos boru bove bps br1ckd brainproxy Brando753 BreadProduct BSWolf Buzzer bw_ byte48 C0D3_FR34K camerin candide caveat- CaZe cebor Celelibi Chaser ChickeNES Chris Chris7mas chrisdunder cjwelborn Cleo CMGauger cmircea codebrainz codyps1 compac ConnorM crazedpsyc crissae cross cruxeternus csviu cyberspace- Cyclohexane cysm dansan dardevelin DarthGandalf dasilvj datasmurf dawik dbtid ddvlad dead debris` Deep6 Defaultti Deithrian Devels devilirium dexter0 DexterLB dh DIDDAK diegoviola diod dirtydawg DistantStar divine dkcl dmi3on dorp dostoyevsky dozn Draconx Draconx|Laptop drdanick Drenferalis drjeats drobban dropdrive dumdedum dwayne dwts dxtr eagleflo eataix ec edk edude03 edwardly eigenlicht ejnahc ekneuss ELFrederich elmhire emacsnw emias emma Enthralled EntropyArchive enzinia eoss ESphynx euphoriaa exhibiton Exio4 f0lder farn Farow felipe Fill findiggle fisted fizzie floyin fluter fol_tempus Fractals frag4 fragMental FriskyKat Fullma fussman Fuxx Garen gbarboza Gentle gf3 GGMethos gl glenfe goldkatze goldwasser Goplat go|dfish Grauwolf Haffa Hansformer Haswell hays heinrich5991 hellyna HeN hl hohum hrnt hrnz huhlig huntercool hyphenated icedev impulse150 indigo int0x27h InvalidPacket iron_houzi ivan\ ivan` Ivo jack_rabbit Jakey james41382 jamiec Jaood jayne jcs222 jdiez jdolan jdoles jervo jesse jgeboski jhamren_ jlf jmarrero jmob johntramp jon_y jorj JPaul JPeterson jrib jtz Jupelius k-man kahtahs kakazza kate` kbsa kbtr_ kcm1700 kermit kerrick kesselhaus_ KevinSjoberg_ Khisanth Killerkid KindOne kirin` kkux klarrt kline kloeri kmder Kneferilis koollman Kostenko kothog kov Kovensky KrzaQ kst kurti kyrre L1THiuM larks Lasher` LeoNerd leprechau lhunath Lindrian lnxu1 Logical Lokomotiv LordAro LoRez LostDatagram ludkiller lyindArk M-ou-se mahmoud majuscule malik Mamizou mar77i Markaci marky marmalodak matp Maxdamantus maxpeck maxxe_ mbc McMAGIC--Copy Metaleer metalight mfranc mikeputnam milleja46 mist monty mordy_ mountaingoat Mr_Sheesh MrC mueslo mulvane muricula naboo Nahra NameLess-exe napsy naquad Natch neataroni neunon nhayashi nhmood Niamkik nicdev Nickeeh nickoe Nijumi Nik05 NIN101 nisstyre nitrix Norrin Nothing4You notion nuck nully nurupo oatha oberstein oblique Oddity ohama ohcibi Okiesmokie Olipro olspookishmagus orbitz ormaaj oskie overrider paracyst Paradox924X PaulePanter perry petern_ phantomcircuit pHcF PigDude pikaren pippijn Plasmastar plasticbag Platini Plazma pon1980 pragma- Praise presonic primepie project2501a przemoc psil psyprus pthomas pumba pwnz0r pythonsnake quinman22 R0b0t1 RageD rainbyte raj rascal999 rcombs reactormonk relaxed richardwhiuk Rickmasta riotz rkeene rob`` roberto- robink robinsmidsrod roboman2444 roentgen RohanRNS ross` rrn rsFF rudi94 ryanakca rylinaux Saiban samsoe sangeeths SecretAgent segy Senketsu shiftplusone shikhin SHODAN SiegeX SirCmpwn sivoais Six6siX sj_ sjohnson sjokkis ski Slackology SM0TVI Smilex Smirnov Spaceboy Spark Speed` Sprocklem squ sresu1 ss stack stan404 stram Su7 suiside SuperNoeMan sven^ Symbiosisz synapt Tabmow talanor talin Talisman tapout terabit Texnical Th0mas Th0masR0ss th1 thalassarche the-dude TheBeerinator TheBonsai_ TheJH theLion Thermi thommey Thorn tigger0jk timemage tm512 tomaw ToothlessGear toothrot Tordek Trashlord trinque Triskelios tsou Tutka Twey twkm twodayslate tzanger unreal urlgrabber urn ValicekB VaNNi Vbitz Vialas Vigud Virox W0rmDr1nk WaRLoRD786 wchun whaletechno widmo worblehat WSergio wting X-Scale xace Xgc XgF xrns yanagi775 yano yayachiken yeltzooo yokel yrdz yrter zack6849 zacts zan-ax zedsdeadbaby Zephyrus Zerith Zhivago Zimsky zoso zymurgy zz_drakythe]
+2014-05-07 22:44:41	--	Channel ##c: 508 nicks (0 ops, 0 halfops, 0 voices, 508 normals)
+2014-05-07 22:44:41	--	URL for ##c: http://www.iso-9899.info/
+2014-05-07 22:44:42	--	Channel created on Sat, 25 Nov 2006 22:42:39
+2014-05-07 22:45:14	<--	jdolan (~jdolan@c-98-238-22-196.hsd1.fl.comcast.net) has quit (Ping timeout: 255 seconds)
+2014-05-07 22:45:25	muricula	How do I tell whether a random pointer has been malloc'd? I know I can check malloc's return value, but I want to try something a bit more general
+2014-05-07 22:45:40	ESphynx	Zhivago: without copying it?
+2014-05-07 22:45:49	squ	Zhivago: someone gave me that answer: 総… 総長だぞ
+2014-05-07 22:45:52	pwnz0r	muricula: what do u random? generic?
+2014-05-07 22:46:32	Zhivago	squ: Your text is garbage here.
+2014-05-07 22:46:44	pwnz0r	muricula: checking malloc return value is pretty generic. what do u mean generic
+2014-05-07 22:47:05	pwnz0r	or sorry general
+2014-05-07 22:47:07	Zhivago	And the inability to spell "you" detects another moron.
+2014-05-07 22:47:11	rob``	muricula: Very likely the answer is "you can't"
+2014-05-07 22:47:35	pwnz0r	Zhivago: is the ##grammer?
+2014-05-07 22:47:40	pwnz0r	LOL
+2014-05-07 22:47:42	pwnz0r	this*
+2014-05-07 22:47:49	pwnz0r	that one you can get me for
+2014-05-07 22:47:49	ESphynx	muricula: you try to write at memory where the pointer is and you see if your app crashes
+2014-05-07 22:48:36	jack_rabbit	bad advice. :P
+2014-05-07 22:49:29	pwnz0r	Its funny how trying to help other people / trying to ask for help qualifies you as a moron these days.
+2014-05-07 22:49:32	ESphynx	muricula: you could write your own malloc implementation and then add query functions to it, it could be useful for debugging purposes, but it would be very bad for an application to rely on such a functionality :)
+2014-05-07 22:50:13	jack_rabbit	muricula, as far as I know, there's no way to determine if a pointer points to 'allocated' memory.
+2014-05-07 22:50:16	-->	bocaneri (~bocaneri_@about/linux/staff/sauvin) has joined ##c
+2014-05-07 22:50:19	Zhivago	pwn: Please learn how to spell "it's".
+2014-05-07 22:50:21	<--	emma (~em@unaffiliated/emma) has quit (Ping timeout: 276 seconds)
+2014-05-07 22:50:37	jack_rabbit	muricula, no pure C way, that is. I know GNU provides some handy malloc hooks that might prove useful for you.
+2014-05-07 22:50:48	Zhivago	muricula: Why do you want to test that?
+2014-05-07 22:51:00	-->	unixist (~unixist@unaffiliated/unixist) has joined ##c
+2014-05-07 22:51:21	pwnz0r	Haha. Another gotcha. I will be sure to touch up on my grammar in this channel.
+2014-05-07 22:51:32	-->	stealth`` (~stealth@HSI-KBW-46-223-73-72.hsi.kabel-badenwuerttemberg.de) has joined ##c
+2014-05-07 22:51:38	-->	kvda (~kvda@unaffiliated/kvda) has joined ##c
+2014-05-07 22:52:01	CaZe	pwnz0r: "what do u random?"
+2014-05-07 22:52:14	ESphynx	I random!
+2014-05-07 22:52:20	Zhivago	He's probably a doomed penguin.
+2014-05-07 22:52:38	ESphynx	Zhivago: what did you mean without copying it
+2014-05-07 22:53:36	Zhivago	esp: If you don't copy it, how many things can potentially refer to it?
+2014-05-07 22:53:58	-->	rvchangue (~rvchangue@unaffiliated/rvchangue) has joined ##c
+2014-05-07 22:54:02	jack_rabbit	muricula, http://www.gnu.org/software/libc/manual/html_node/Hooks-for-Malloc.html
+2014-05-07 22:54:24	-->	freanux (~freanux@unaffiliated/freanux) has joined ##c
+2014-05-07 22:55:16	ESphynx	Zhivago: I think I got back my thinking.
+2014-05-07 22:55:24	pwnz0r	CaZe: You like that one? You should print that out and pin it on your wall.
+2014-05-07 22:55:49	ESphynx	Zhivago: the idea was that you can have a string that owns the memory and one that doesn't
+2014-05-07 22:55:50	-->	sr (~smrgr@shellium/member/samruger) has joined ##c
+2014-05-07 22:56:17	ESphynx	a weak string, if you will, can be made equal to another string on the heap, but when that weak string goes out it doesn't free the string
+2014-05-07 22:56:45	edk	this sounds really stupid
+2014-05-07 22:56:51	ESphynx	really?
+2014-05-07 22:57:02	edk	yes
+2014-05-07 22:57:08	ESphynx	mwh
+2014-05-07 22:57:12	Zhivago	esp: And how do you tell when the one that owns the memory can be deleted?
+2014-05-07 22:57:23	-->	emma (~em@unaffiliated/emma) has joined ##c
+2014-05-07 22:57:23	 *	Zhivago waits for esp's brain to turn on.
+2014-05-07 22:57:33	ESphynx	Zhivago: it just gets deleted when it goes out of scope.
+2014-05-07 22:57:46	ESphynx	Zhivago: it can leave dangling pointers but that's not what I'm trying to solve here.
+2014-05-07 22:57:49	Zhivago	esp: And what memory do the ones that don't own the memory use?
+2014-05-07 22:57:56	ESphynx	they go dangling.
+2014-05-07 22:58:13	Zhivago	Ok, so what problem are you trying to solve?
+2014-05-07 22:58:14	edk	so you've introduced a lot of extra machinery to do... what?
+2014-05-07 22:58:16	ESphynx	if they didn't make a copy.
+2014-05-07 22:58:26	<--	maxpeck (~maxpeck@unaffiliated/maxpeck) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-05-07 22:58:27	edk	free things when they go out of scope?
+2014-05-07 22:58:35	ESphynx	edk: yes, strings...
+2014-05-07 22:59:18	ESphynx	edk: also, when an object containing them is deleted.
+2014-05-07 22:59:49	ESphynx	edk: another major goal of my string class is to avoid overflows, by being aware of the memory allocated for it
+2014-05-07 22:59:58	<--	EntropyArchive (~Thunderbi@cpe-071-071-210-252.carolina.res.rr.com) has quit (Quit: EntropyArchive)
+2014-05-07 23:00:05	-->	pretty_function (~pretty_fu@115.252.136.3) has joined ##c
+2014-05-07 23:00:07	ESphynx	and avoid having to recompute len when doing a concat
+2014-05-07 23:00:08	Zhivago	But not dangling pointers?
+2014-05-07 23:00:14	edk	so if i want to insert a string into a linked list (for example), i have to copy that string, otherwise it's going to die as soon as I return?
+2014-05-07 23:00:30	ESphynx	Zhivago: dangling pointers will be avoided by not writing silly code
+2014-05-07 23:00:38	Zhivago	So will overflows ...
+2014-05-07 23:00:50	Zhivago	Why don't you just not write silly code in the first place? :)
+2014-05-07 23:00:54	<--	jlf (~user@pdpc/supporter/active/jlf) has quit (Ping timeout: 240 seconds)
+2014-05-07 23:00:57	Zhivago	So, what problem are you trying to solve?
+2014-05-07 23:00:59	ESphynx	Zhivago: I'm not writing silly code :)
+2014-05-07 23:01:03	edk	If you reduce the silliness of the code sufficiently, the language will not need to compensate for any of its deficiencies
+2014-05-07 23:01:14	ESphynx	Zhivago: everyone and their mom asking me for strings in eC
+2014-05-07 23:01:53	Zhivago	esp: So, what problems are you trying to solve?
+2014-05-07 23:02:10	ESphynx	edk: if you insert a string into a linked list, it won't die it will still exist in the link list
+2014-05-07 23:02:16	edk	He just wants to get all the moms off his back.
+2014-05-07 23:02:26	CaZe	ESphynx: But what if it's weak?
+2014-05-07 23:02:29	edk	ESphynx: but the list doesn't have a strong reference to it, unless I copy the string.
+2014-05-07 23:02:46	CaZe	ESphynx: And the one that owns the string gets deleted?
+2014-05-07 23:02:51	ESphynx	CaZe: if it's weak it will die when whatever those weak strings refer to die
+2014-05-07 23:03:08	ESphynx	if you mean for the list to hold the string you make the string own it
+2014-05-07 23:03:09	CaZe	ESphynx: Which can be anytime?
+2014-05-07 23:03:21	ESphynx	make the list*
+2014-05-07 23:03:29	CaZe	How do you do that?
+2014-05-07 23:04:37	ESphynx	String s = "Hello " + "World"; List<String> l { }; l.Add({ s });
+2014-05-07 23:05:01	CaZe	Don't you think that would make weak references pointless and too hard to use?
+2014-05-07 23:05:14	CaZe	I mean, I would just make everything strong.
+2014-05-07 23:05:33	ESphynx	I'm getting confused
+2014-05-07 23:05:59	ESphynx	evertyime I start thinking about these string classes I go nuts :P
+2014-05-07 23:06:11	CaZe	So how would you make a weak reference?
+2014-05-07 23:06:17	-->	fdi11inger (~fdi11inge@pool-74-102-0-213.nwrknj.fios.verizon.net) has joined ##c
+2014-05-07 23:06:24	-->	nszceta (~nszceta@c-71-206-246-109.hsd1.pa.comcast.net) has joined ##c
+2014-05-07 23:06:44	ESphynx	CaZe: Well I had the idea of a weak reference, but I had the idea of 3 types: heap, stack, pointer
+2014-05-07 23:06:58	ESphynx	String s = "a";  // This would be pointer, just point to the literal, no need to copy
+2014-05-07 23:07:19	ESphynx	String<30> s = "a";  // This would be on the stack implemented with a char _s[30]  on the stack
+2014-05-07 23:08:43	ESphynx	String s { "a" }; // This could mean a copy...
+2014-05-07 23:09:09	<--	pretty_function (~pretty_fu@115.252.136.3) has quit (Read error: Connection reset by peer)
+2014-05-07 23:10:19	-->	ioggstream (~rpolli@93-42-81-99.ip85.fastwebnet.it) has joined ##c
+2014-05-07 23:10:39	<--	ioggstream (~rpolli@93-42-81-99.ip85.fastwebnet.it) has quit (Client Quit)
+2014-05-07 23:11:08	<--	fdi11inger (~fdi11inge@pool-74-102-0-213.nwrknj.fios.verizon.net) has quit (Ping timeout: 265 seconds)
+2014-05-07 23:11:33	ESphynx	String t = s; // This would need to do a copy if s is a 'heap' mode...
+2014-05-07 23:12:00	Chris	What is this crap?
+2014-05-07 23:12:11	ESphynx	Passing to functions/methods though would not require anything though because the String struct would always be passed by reference
+2014-05-07 23:12:22	ESphynx	Chris: where have you been! you missed out on all the fun
+2014-05-07 23:12:42	Chris	Doesn't look like fun.
+2014-05-07 23:12:57	ESphynx	Chris: I was bouncing off ideas for my string class :P
+2014-05-07 23:13:07	Chris	C doesn't have classes.
+2014-05-07 23:13:17	ESphynx	it doesn't. That's why I'm writing a string class :P
+2014-05-07 23:13:29	Chris	Maybe #eC will be interested.
+2014-05-07 23:14:48	ESphynx	Chris: how goes your evening
+2014-05-07 23:15:01	Chris	I don't know, it's afternoon.
+2014-05-07 23:15:02	-->	pretty_function (~pretty_fu@123.252.240.85) has joined ##c
+2014-05-07 23:15:26	-->	Cyp_ (~Cyp_@55e9f45b.rev.dansknet.dk) has joined ##c
+2014-05-07 23:19:47	<--	pretty_function (~pretty_fu@123.252.240.85) has quit (Read error: Connection reset by peer)
+2014-05-07 23:19:51	-->	ioggstream (~rpolli@93-42-81-99.ip85.fastwebnet.it) has joined ##c
+2014-05-07 23:21:04	-->	pretty_function (~pretty_fu@61.12.96.10) has joined ##c
+2014-05-07 23:22:16	<--	whaletechno (~whaletech@unaffiliated/whaletechno) has quit (Quit: ha det bra)
+2014-05-07 23:22:17	pwnz0r	ESphynx: #define char* string
+2014-05-07 23:22:20	pwnz0r	there is your string class
+2014-05-07 23:22:34	Chris	pwnz0r: that's invalid
+2014-05-07 23:22:40	pwnz0r	like Chris said theres no classes
+2014-05-07 23:22:40	-->	agjacome (~agjacome@1.217.11.37.dynamic.jazztel.es) has joined ##c
+2014-05-07 23:22:42	<--	pretty_function (~pretty_fu@61.12.96.10) has quit (Read error: Connection reset by peer)
+2014-05-07 23:22:59	pwnz0r	is it/
+2014-05-07 23:23:00	pwnz0r	?
+2014-05-07 23:23:09	pwnz0r	o
+2014-05-07 23:23:12	pwnz0r	whoops
+2014-05-07 23:23:12	-->	pretty_function (~pretty_fu@123.252.240.85) has joined ##c
+2014-05-07 23:23:14	pwnz0r	other way around
+2014-05-07 23:23:17	pwnz0r	had a few beers
+2014-05-07 23:23:18	--	Mode ##c [+o candide] by ChanServ
+2014-05-07 23:23:18	--	Mode ##c [+b *!~ragingger@c-107-3-169-108.hsd1.ca.comcast.net] by candide
+2014-05-07 23:23:44	-->	Rex357 (~rex357@blk-7-202-166.eastlink.ca) has joined ##c
+2014-05-07 23:23:53	--	Mode ##c [-b *!~ragingger@c-107-3-169-108.hsd1.ca.comcast.net] by candide
+2014-05-07 23:24:00	ESphynx	pwnz0r: that's currently exactly what my String type is :P
+2014-05-07 23:24:14	ESphynx	pwnz0r: however I want to take it a notch further :P firstly to avoid overflows :)
+2014-05-07 23:24:48	ESphynx	secondly to make DB code less of a pain or handling dynamic strings less of a pain.
+2014-05-07 23:25:48	<--	pretty_function (~pretty_fu@123.252.240.85) has quit (Read error: Connection reset by peer)
+2014-05-07 23:26:25	pwnz0r	making a string module i got ya now
+2014-05-07 23:27:09	rob``	if you build your sql queries with string operations, please die
+2014-05-07 23:28:11	<--	Rex357 (~rex357@blk-7-202-166.eastlink.ca) has quit (Ping timeout: 252 seconds)
+2014-05-07 23:28:23	--	Mode ##c [-o candide] by ChanServ
+2014-05-07 23:29:29	-->	elbeardmorez (~quassel@4e566258.skybroadband.com) has joined ##c
+2014-05-07 23:29:45	-->	wayne (~wayne@unaffiliated/wayne) has joined ##c
+2014-05-07 23:29:50	ESphynx	rob``: how do you build them?
+2014-05-07 23:30:00	-->	MaximLacrima (~mbreev@46.231.224.44) has joined ##c
+2014-05-07 23:30:40	-->	Judge_Dredd (~Judge_Dre@ip-95-221-13-51.bb.netbynet.ru) has joined ##c
+2014-05-07 23:30:41	rob``	http://en.wikipedia.org/wiki/Prepared_statement
+2014-05-07 23:30:43	rob``	bbl
+2014-05-07 23:31:13	<--	SiegeX (~SiegeX@unaffiliated/siegex) has quit (Ping timeout: 252 seconds)
+2014-05-07 23:31:41	-->	pretty_function (~pretty_fu@61.12.96.10) has joined ##c
+2014-05-07 23:31:42	--	Mode ##c [+o candide] by ChanServ
+2014-05-07 23:31:42	--	Mode ##c [+b *!~pretty_fu@61.*$##stop_join_flood] by candide
+2014-05-07 23:32:11	squ	Zhivago: 09:29:53 - albel727: squ: that's surely from the poklonskaya (prosecutor general of crimea) pic. http://rt.com/files/news/24/66/d0/00/4233818.png in the context 総長 is a part of 検事総長 , i.e. (prosecutor) general. 総… 総長だぞ is a stuttering rendering of the word + だぞ for additional cute assertiveness. like "I'm ge... general, you know!"
+2014-05-07 23:32:18	<--	sangeeths (~sangeeth@122.167.208.34) has quit (Quit: sangeeths)
+2014-05-07 23:32:25	ESphynx	rob``: I do use prepared statements in most places
+2014-05-07 23:32:40	<--	pretty_function (~pretty_fu@61.12.96.10) has quit (Client Quit)
+2014-05-07 23:32:48	ESphynx	just spotted a place where I build up queries though, custom reports with input from which fields to include...
+2014-05-07 23:34:48	-->	ari-_-e (~ari-_-e@unaffiliated/atrigent) has joined ##c
+2014-05-07 23:35:31	<--	drjeats (~drjeats@ool-18bfc6d8.dyn.optonline.net) has quit (Ping timeout: 252 seconds)
+2014-05-07 23:36:26	-->	Munnu (~timo@91-158-158-76.elisa-laajakaista.fi) has joined ##c
+2014-05-07 23:36:32	<--	Cyp_ (~Cyp_@55e9f45b.rev.dansknet.dk) has quit (Ping timeout: 255 seconds)
+2014-05-07 23:36:43	--	Mode ##c [-o candide] by ChanServ
+2014-05-07 23:38:49	-->	raj72616a (~raj72616a@203186187041.ctinets.com) has joined ##c
+2014-05-07 23:38:58	ESphynx	Yeah, my string stuff will all works... All I'm missing is struct destructors, and they won't have reference counts.
+2014-05-07 23:39:29	<--	Okiesmokie (Okiesmokie@unaffiliated/okiesmokie) has quit
+2014-05-07 23:40:54	pwnz0r	ESphynx: why sql in c? just curious there tons of high level languages to do this (not trying to tell you to not use C I am simply curious why you would do this in C)
+2014-05-07 23:41:27	<--	lnxu1 (~lnxu@2001:41d0:8:b330::1) has quit (Quit: Leaving)
+2014-05-07 23:41:40	ESphynx	pwnz0r: I have my own higher level language on top of C :P
+2014-05-07 23:41:48	-->	jdolan (~jdolan@c-98-238-22-196.hsd1.fl.comcast.net) has joined ##c
+2014-05-07 23:42:58	<--	Xgc (~Xgc@p-68-237-137-187.dsl1.rtr.chat.fpma.frpt.net) has quit (Ping timeout: 240 seconds)
+2014-05-07 23:46:01	-->	FunkyAss (~Funky@151.67.16.192) has joined ##c
+2014-05-07 23:46:11	<--	jdolan (~jdolan@c-98-238-22-196.hsd1.fl.comcast.net) has quit (Ping timeout: 255 seconds)
+2014-05-07 23:47:00	<--	raj72616a (~raj72616a@203186187041.ctinets.com) has left ##c
+2014-05-07 23:47:48	-->	SiegeX (~SiegeX@unaffiliated/siegex) has joined ##c
+2014-05-07 23:48:36	<--	Goplat (~goplat@reactos/developer/Goplat) has quit (Remote host closed the connection)
+2014-05-07 23:49:42	pwnz0r	interesting
+2014-05-07 23:50:17	<--	hellyna (~hellyna@58.71.156.184) has quit (Quit: leaving)
+2014-05-07 23:50:59	<--	BreadProduct (~chatzilla@209.188.5.226) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 29.0/20140421221237])
+2014-05-07 23:51:37	<--	olspookishmagus (~pookie@snf-137798.vm.okeanos.grnet.gr) has quit (Quit: All for nothing)
+2014-05-07 23:52:35	-->	Gue______ (~textual@fw.polopoly.com) has joined ##c
+2014-05-07 23:52:40	--	Gue______ is now known as Folkol
+2014-05-07 23:53:20	Zhivago	C isn't sufficiently horrific without SQL.
+2014-05-07 23:54:10	-->	damo22 (~damien@fsf/member/damo22) has joined ##c
+2014-05-07 23:55:59	damo22	how can i create a union that allows me to bitwise set some flags that are in a required ordering? will this work?
+2014-05-07 23:56:00	damo22	typedef union { struct{unsigned specialbit:1; unsigned otherbit:1;}; unsigned raw };
+2014-05-07 23:56:12	Zhivago	No.
+2014-05-07 23:56:15	Zhivago	And don't.
+2014-05-07 23:56:27	Zhivago	That's not what bitfields do; they're for packing.
+2014-05-07 23:57:29	damo22	Zhivago: is there a good way of handling this?
+2014-05-07 23:58:06	damo22	i want to be able to refer to a bit by name, the ability to clear them all in one go isnt important
+2014-05-07 23:58:08	-->	clynamen (~clynamen@net-2-36-61-167.cust.vodafonedsl.it) has joined ##c
+2014-05-07 23:59:11	damo22	s/a bit/ a bitfield
+2014-05-07 23:59:21	ESphynx	damo22: that's what I designed the Bit class for :P
+2014-05-07 23:59:32	<--	freanux (~freanux@unaffiliated/freanux) has quit (Quit: circ is leaving)
+2014-05-07 23:59:44	damo22	ESphynx: this is C not C++
+2014-05-07 23:59:44	CaZe	struct { unsigned specialbit:1; unsigned otherbit:1; };
+2014-05-08 00:00:05	-->	markand (~markand@unaffiliated/markand) has joined ##c
+2014-05-08 00:00:07	ESphynx	damo22: I know, but neither C nor C++ can do that :P
+2014-05-08 00:00:09	markand	hi there
+2014-05-08 00:00:17	markand	remove(3) is not recursive right?
+2014-05-08 00:00:44	damo22	CaZe: but when i read the whole flags, will it guarantee the ordering is preserved?
+2014-05-08 00:01:02	ESphynx	damo22: what do you mean read the whole flags?
+2014-05-08 00:02:11	damo22	ESphynx: i have 16 bits of packed bitfields whose order is critical, i need a way to set the bits individually, but also when im done,  i need the 16 bit word to send somewhere
+2014-05-08 00:02:41	damo22	i could use bitshifts, but i thought there was a clever way to do it with unions or structs
+2014-05-08 00:02:43	Chris	markand: how could a function that operates on files be recursive?
+2014-05-08 00:03:04	CaZe	struct members can't be reordered.
+2014-05-08 00:03:04	ESphynx	damo22: I don't think you can read bitfields at all as a single word?
+2014-05-08 00:03:06	markand	yes it also operates on directory
+2014-05-08 00:03:13	markand	I will couple it with fts_ functions
+2014-05-08 00:03:18	Chris	markand: not in C
+2014-05-08 00:03:23	ESphynx	Zhivago: can you?
+2014-05-08 00:03:43	damo22	thats why i thought shoving it in a union would allow that
+2014-05-08 00:03:44	Chris	markand: anyway, no, it's not.
+2014-05-08 00:04:07	ESphynx	damo22: ah I see.
+2014-05-08 00:04:40	ESphynx	damo22: that may work with your implementation but not follow the standard?
+2014-05-08 00:04:45	markand	yes but I don't need portability in that case :)
+2014-05-08 00:04:47	markand	fts is great
+2014-05-08 00:05:25	Chris	what's fts? do you mean ftw?
+2014-05-08 00:05:31	damo22	ESphynx: i mean, i wonder if the bits will stay in order regardless of endian
+2014-05-08 00:05:56	<--	suiside (tajnyman@unaffiliated/suiside) has quit (Ping timeout: 240 seconds)
+2014-05-08 00:06:12	ESphynx	damo22: I am not sure... I designed a construct in my language specifically for handling bit flag collections nicely :)
+2014-05-08 00:06:40	Chris	Ah, fts_* isn't even posix. At least ftw is
+2014-05-08 00:06:55	damo22	ah man, i think i'll just do bitshifts, sigh
+2014-05-08 00:06:59	ESphynx	damo22: you may want to read http://mjfrazer.org/mjfrazer/bitfields/
+2014-05-08 00:07:01	candide	Title of ESphynx's link: How Endianness Effects Bitfield Packing
+2014-05-08 00:08:00	ESphynx	damo22: my compiler essentially generates all the shifts and &/| automatically for you and output C code :P
+2014-05-08 00:08:14	-->	humbag (~humbag@host-92-7-164-158.as43234.net) has joined ##c
+2014-05-08 00:10:58	-->	sangeeths (~sangeeth@122.167.208.34) has joined ##c
+2014-05-08 00:11:42	SiegeX	is it UB to write to one member of a union and read from another?
+2014-05-08 00:11:48	-->	jack_rabbit_ (~jack_rabb@c-98-253-57-51.hsd1.il.comcast.net) has joined ##c
+2014-05-08 00:13:05	Chris	It depends.
+2014-05-08 00:13:12	muricula	jack_rabbit: Zhivago ESphynx thanks, I was mainly curious, but it may prove useful for testing some day
+2014-05-08 00:13:21	Zhivago	Yes, except for the exceptional case.
+2014-05-08 00:13:39	-->	pwnz0r831 (~pwnz0r@c-107-3-169-108.hsd1.ca.comcast.net) has joined ##c
+2014-05-08 00:13:58	jack_rabbit_	muricula, hopefully not. You should always know the storage duration of your objects without inspection.
+2014-05-08 00:14:13	SiegeX	what is the exceptional case? And am I correct this is known as 'type punning'?
+2014-05-08 00:14:15	damo22	i could reverse the bitfields for different endian machines :P
+2014-05-08 00:14:21	--	pon1980 is now known as nop0x07bc
+2014-05-08 00:14:33	-->	zmack (~zmack@84.117.10.56) has joined ##c
+2014-05-08 00:14:37	Zhivago	siege: Structures for a shared member prefix.
+2014-05-08 00:15:53	<--	jack_rabbit (~jack_rabb@c-98-253-57-51.hsd1.il.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-05-08 00:16:14	--	jack_rabbit_ is now known as jack_rabbit
+2014-05-08 00:17:25	<--	pwnz0r831 (~pwnz0r@c-107-3-169-108.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2014-05-08 00:17:35	damo22	what is the use of bitfields if you cant get and set them in one whole group?
+2014-05-08 00:17:50	ESphynx	damo22: for members to take less space?
+2014-05-08 00:17:55	SiegeX	I know those words, just not together in the same sentence
+2014-05-08 00:18:20	Zhivago	The use of bitfields, again, is packing.
+2014-05-08 00:18:26	Zhivago	That's it.
+2014-05-08 00:18:32	Zhivago	Any other use is a mistake.
+2014-05-08 00:18:51	ESphynx	or a hack :P
+2014-05-08 00:19:21	jack_rabbit	those two are usually synonymous.
+2014-05-08 00:19:58	Zhivago	Do you want a particular bit layout? If so, bitfields are wrong.
+2014-05-08 00:20:07	hyphenated	heh. https://groups.google.com/forum/#!msg/golang-nuts/Jsigfq-bWcg/snmuUK3Zg9sJ
+2014-05-08 00:20:10	hyphenated	related to bitfields
+2014-05-08 00:20:37	hyphenated	other gems from rob pike in that thread too
+2014-05-08 00:21:41	Chris	I don't think that's the only exception
+2014-05-08 00:24:18	Chris	6.2.6.1p7 - When a value is stored in a member of an object of union type, the bytes of the object representation that do not correspond to that member but do correspond to other members take unspecified values.
+2014-05-08 00:24:45	Chris	So if you have union { uint8_t x[4]; uint32_t y; } z; it's fine to write for y and read from x[0], etc.
+2014-05-08 00:25:26	Zhivago	Well, for C11, anyhow.
+2014-05-08 00:25:37	Chris	And C99 afaik.
+2014-05-08 00:26:07	Chris	6.2.6.1p7 in C99 is the same wording
+2014-05-08 00:26:08	ESphynx	Chris: that will vary with endian still though?
+2014-05-08 00:26:16	ESphynx	(obviously)
+2014-05-08 00:26:31	Zhivago	I think that was in a TC.
+2014-05-08 00:26:48	Chris	Zhivago: ah, you could be right.
+2014-05-08 00:27:50	<--	cmircea (~cmircea@79.117.197.69) has quit (Read error: Connection reset by peer)
+2014-05-08 00:28:42	SiegeX	Chris: so in C11 you can write to 'y' and read from x[0] through x[3] but writing to an element of x and reading from y is UB?
+2014-05-08 00:28:52	Chris	no, it's fine
+2014-05-08 00:29:17	<--	Zerith (~kvirc@unaffiliated/zerith) has quit (Ping timeout: 240 seconds)
+2014-05-08 00:30:20	Chris	the UB is if you have, say, union { uint8_t x; uint32_t y; } z; z.x = 42; the value of z.y is unspecified now, even if z.y was previously written to.
+2014-05-08 00:30:31	Chris	i.e. the other 3 octets would have unspecified values.
+2014-05-08 00:30:37	-->	shikhout (~shikhin@unaffiliated/shikhin) has joined ##c
+2014-05-08 00:30:40	-->	cmircea (~cmircea@79.117.197.69) has joined ##c
+2014-05-08 00:30:51	Chris	Well, I'm not even sure if it's UB as I don't understand the difference between the bytes having unspecified values and the value being indeterminate.
+2014-05-08 00:30:56	Chris	It's UB if the value is indeterminate.
+2014-05-08 00:32:03	<--	neataroni (~neataroni@c-67-171-200-129.hsd1.or.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-05-08 00:32:07	Zhivago	It's allowed to write junk there, so yeah.
+2014-05-08 00:32:22	<--	nszceta (~nszceta@c-71-206-246-109.hsd1.pa.comcast.net) has quit
+2014-05-08 00:33:11	<--	xace (~noname@unaffiliated/xace) has quit (Ping timeout: 252 seconds)
+2014-05-08 00:33:16	Chris	It's surprising that they use the term "unspecified values" instead of "indeterminate values" in 6.2.6.1p7 then.
+2014-05-08 00:33:41	<--	shikhin (~shikhin@unaffiliated/shikhin) has quit (Ping timeout: 255 seconds)
+2014-05-08 00:33:55	-->	xace (~noname@unaffiliated/xace) has joined ##c
+2014-05-08 00:34:08	-->	Beetny (~Beetny@14-202-48-200.tpgi.com.au) has joined ##c
+2014-05-08 00:34:55	-->	watermel0n (~watermel0@dynamic-adsl-78-12-59-215.clienti.tiscali.it) has joined ##c
+2014-05-08 00:36:16	CaZe	What about trap representations and such?
+2014-05-08 00:36:35	Chris	How can uint32_t x; have a trap?
+2014-05-08 00:36:38	Chris	it's required to have no padding bits.
+2014-05-08 00:36:47	CaZe	Oh, nevermind.
+2014-05-08 00:37:05	CaZe	What about things that do trap? :P
+2014-05-08 00:37:32	ESphynx	what's a trap?
+2014-05-08 00:37:48	CaZe	Ackbar
+2014-05-08 00:38:00	edk	(it's an object representation that doesn't map to a value)
+2014-05-08 00:38:15	ESphynx	lol
+2014-05-08 00:43:01	ESphynx	ah thanks edk
+2014-05-08 00:43:13	<--	RohanRNS (uid16024@gateway/web/irccloud.com/x-rurxgxwxqxjesjbj) has quit (Quit: Connection closed for inactivity)
+2014-05-08 00:43:52	mar77i	hmm. on one hand, I wanted to use my struct A directly in a different struct. on the other, I'd like to not export the members...
+2014-05-08 00:44:10	Zhivago	What does 'export the members' mean?
+2014-05-08 00:44:42	mar77i	well, I'd like to conceal them from whatever includes the header.
+2014-05-08 00:45:22	Zhivago	Why?
+2014-05-08 00:46:07	<--	bmallred (~bmallred@173.168.188.36) has quit (Ping timeout: 250 seconds)
+2014-05-08 00:46:16	<--	Talisman (~Talisman@am2.eu.twdev.net) has left ##c ("Leaving")
+2014-05-08 00:46:32	-->	Talisman (~Talisman@am2.eu.twdev.net) has joined ##c
+2014-05-08 00:46:54	-->	Xgc (~Xgc@p-69-195-59-157.dsl1.rtr.chat.fpma.frpt.net) has joined ##c
+2014-05-08 00:47:04	-->	Drew| (~drew@108.73.25.56) has joined ##c
+2014-05-08 00:47:29	mar77i	because whatever includes the header should not manipulate on them directly?
+2014-05-08 00:47:49	Zhivago	So, use the amazing power of documentation ...
+2014-05-08 00:47:58	Zhivago	Possibly as part of the member name.
+2014-05-08 00:48:21	Zhivago	Prefixing it with private_ should generally give a clue to even the stupidest programmer.
+2014-05-08 00:48:24	mar77i	buf->_canttouchthis ...
+2014-05-08 00:48:38	Zhivago	And if they still use it, then they really don't have a justification to complain when their code breaks.
+2014-05-08 00:49:59	-->	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##c
+2014-05-08 00:50:42	<--	ariscop (~Phase4@icookc.lnk.telstra.net) has quit (Quit: Leaving)
+2014-05-08 00:51:52	mar77i	hmm. the problem is, I put the implementation into source.c and only use the header in what is going to rely on the size of the implementation. I could just include source.c in other_source.c and then I'm both able to work with the size and not expose the struct.
+2014-05-08 00:52:26	mar77i	but I can't help thinking I sound dumb.
+2014-05-08 00:53:31	ESphynx	good night guys
+2014-05-08 00:53:34	<--	ESphynx (ESphynx@e120-pool-d89a4984.brdbnd.telnetcommunications.com) has left ##c
+2014-05-08 00:53:36	mar77i	or create a source_dev.h ...
+2014-05-08 00:54:19	edk	nothing wrong with internal header files
+2014-05-08 00:55:34	<--	zmack (~zmack@84.117.10.56) has quit (Remote host closed the connection)
+2014-05-08 00:55:55	mar77i	edk: do you have any working examples of that?
+2014-05-08 00:56:10	-->	zmack (~zmack@84.117.10.56) has joined ##c
+2014-05-08 00:57:22	edk	I don't think so; not that I can show you
+2014-05-08 00:57:41	Zhivago	mar: You can do that, but then no-one else can use auto storage, for example.
+2014-05-08 00:58:00	Zhivago	mar: I don't see the point of playing silly buggers when one line of documentation would do the trick.
+2014-05-08 00:58:23	mar77i	sure. except they decide to also use the internal header file.
+2014-05-08 00:58:53	Zhivago	In which case ... it isn't internal.
+2014-05-08 00:59:03	Zhivago	Or they're not 'someone else'.
+2014-05-08 00:59:24	mar77i	true.
+2014-05-08 00:59:26	wayne	mar77i: are you shipping code to monkeys?
+2014-05-08 00:59:26	edk	mar77i: you wouldn't normally put an internal header file in your include directory
+2014-05-08 00:59:32	edk	(so they can't include it)
+2014-05-08 00:59:48	-->	bmallred (~bmallred@173.168.188.36) has joined ##c
+2014-05-08 00:59:57	<--	pwnz0r (~ragingger@c-107-3-169-108.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2014-05-08 01:00:06	mar77i	wayne: good question. as far as science goes, the answer is 99% yes :D
+2014-05-08 01:03:03	-->	bebna (~bebna@p50993595.dip0.t-ipconnect.de) has joined ##c
+2014-05-08 01:05:34	<--	damo22 (~damien@fsf/member/damo22) has left ##c
+2014-05-08 01:07:03	-->	fdi11inger (~fdi11inge@pool-74-102-0-213.nwrknj.fios.verizon.net) has joined ##c
+2014-05-08 01:07:51	-->	olspookishmagus (~pookie@snf-137798.vm.okeanos.grnet.gr) has joined ##c
+2014-05-08 01:08:38	<--	olspookishmagus (~pookie@snf-137798.vm.okeanos.grnet.gr) has left ##c
+2014-05-08 01:09:04	<--	Drew| (~drew@108.73.25.56) has left ##c ("Leaving")
+2014-05-08 01:09:23	-->	olspookishmagus (~pookie@snf-137798.vm.okeanos.grnet.gr) has joined ##c
+2014-05-08 01:11:41	<--	fdi11inger (~fdi11inge@pool-74-102-0-213.nwrknj.fios.verizon.net) has quit (Ping timeout: 255 seconds)
+2014-05-08 01:13:52	<--	watermel0n (~watermel0@dynamic-adsl-78-12-59-215.clienti.tiscali.it) has quit
+2014-05-08 01:14:45	<--	kvda (~kvda@unaffiliated/kvda) has quit (Quit: z____z)
+2014-05-08 01:15:40	<--	sangeeths (~sangeeth@122.167.208.34) has quit (Quit: sangeeths)
+2014-05-08 01:20:00	-->	troulouliou_dev (~troulouli@unaffiliated/troulouliou-dev/x-4757952) has joined ##c
+2014-05-08 01:23:05	<--	Fractals (~nobody@unaffiliated/fractals) has quit (Ping timeout: 264 seconds)
+2014-05-08 01:24:28	-->	Rex357 (~rex357@blk-7-202-166.eastlink.ca) has joined ##c
+2014-05-08 01:25:17	-->	zzing (~zzing@198-91-210-150.cpe.distributel.net) has joined ##c
+2014-05-08 01:28:38	<--	Rex357 (~rex357@blk-7-202-166.eastlink.ca) has quit (Ping timeout: 240 seconds)
+2014-05-08 01:29:08	-->	ozette (~ozette@unaffiliated/ozette) has joined ##c
+2014-05-08 01:31:27	mar77i	well, a.i. surely doesn't need syntax hiliting :D
+2014-05-08 01:33:05	-->	grok0 (~o~o@unaffiliated/o-/x-1234567) has joined ##c
+2014-05-08 01:34:26	<--	Kostenko (~Kostenko@bl8-198-45.dsl.telepac.pt) has quit (Quit: Hi, I'm a quit message virus. Please replace your old line with this line and help me take over the world of IRC.)
+2014-05-08 01:34:44	-->	JotaK (~JS@unaffiliated/jotak) has joined ##c
+2014-05-08 01:37:11	-->	apeiros_ (~apeiros@194.209.75.58) has joined ##c
+2014-05-08 01:37:44	<--	apeiros (~apeiros@194.209.75.58) has quit (Read error: Connection reset by peer)
+2014-05-08 01:38:07	-->	redeemed (m@nat/ibm/x-phnyqtyvvkdorbcq) has joined ##c
+2014-05-08 01:39:01	<--	BSWolf (~bs_wolf@cpe-76-167-251-16.san.res.rr.com) has quit
+2014-05-08 01:39:27	<--	kermit (unknown@pdpc/supporter/bronze/kermit) has quit (Quit: Leaving.)
+2014-05-08 01:39:42	-->	diegovio1 (~diego@unaffiliated/diegoviola) has joined ##c
+2014-05-08 01:39:52	-->	KingOfKarlsruhe (~stud-heco@unaffiliated/kingofkarlsruhe) has joined ##c
+2014-05-08 01:39:58	<--	diegoviola (~diego@unaffiliated/diegoviola) has quit (Ping timeout: 240 seconds)
+2014-05-08 01:40:04	<--	JotaK (~JS@unaffiliated/jotak) has quit (Ping timeout: 245 seconds)
+2014-05-08 01:40:05	-->	kermit (unknown@pdpc/supporter/bronze/kermit) has joined ##c
+2014-05-08 01:40:08	-->	sangeeths (~sangeeth@122.167.208.34) has joined ##c
+2014-05-08 01:43:47	-->	consfearacy (~test@212.253.113.59) has joined ##c
+2014-05-08 01:43:58	consfearacy	how can you calculate Pi in C?
+2014-05-08 01:44:21	consfearacy	I cannot get more than 6 digits after the point
+2014-05-08 01:45:03	wayne	consfearacy: that's more of a math question than a C question
+2014-05-08 01:45:17	wayne	if you have a question about floats/doubles then please rephrase
+2014-05-08 01:45:45	consfearacy	how can i get a float number with the longest digits possible?
+2014-05-08 01:46:35	<--	ozette (~ozette@unaffiliated/ozette) has quit (Ping timeout: 255 seconds)
+2014-05-08 01:47:07	wayne	consfearacy: if you want arbitrary-precision floating number check out https://gmplib.org/ or other similar libs
+2014-05-08 01:47:11	candide	Title of wayne's link: The GNU MP Bignum Library
+2014-05-08 01:47:31	wayne	consfearacy: if you want the largest floating point C primitive, it's probably long double
+2014-05-08 01:48:07	consfearacy	wayne, i tried long double, this is a 64 bit linux system. it didn't work
+2014-05-08 01:48:08	wayne	its precision is machine-dependent though
+2014-05-08 01:48:19	consfearacy	wayne: it gave me 0.00000
+2014-05-08 01:48:51	mar77i	0 is an okay amount if your circles are all of radius 0...
+2014-05-08 01:49:34	wayne	consfearacy: 6 digits sounds about right for a float, but a double should be a bit more than twice that
+2014-05-08 01:49:58	consfearacy	could someone represent this long rational number in an array or linked link or something?
+2014-05-08 01:50:17	wayne	consfearacy: that's what numerical libraries like gmp do
+2014-05-08 01:50:40	wayne	by using their implementation instead of rolling your own, you have the benefit of tested and debugged code
+2014-05-08 01:50:41	consfearacy	wayne, cant i re-invent the wheel? it is just for learning purposes you see
+2014-05-08 01:50:50	wayne	then by all means go right ahead
+2014-05-08 01:50:55	consfearacy	wayne.. i am just killing time really
+2014-05-08 01:50:56	 *	edk links a link
+2014-05-08 01:52:02	consfearacy	i am using this method to calculate it: 3 + 4/2*3*4 - 4/4*5*6 + 4/6*7*8 - 4/8*9*10 + ....
+2014-05-08 01:52:19	consfearacy	it will eventually converge
+2014-05-08 01:52:26	<--	pikaren (~ren@unaffiliated/pikaren) has quit (Ping timeout: 255 seconds)
+2014-05-08 01:53:45	<--	kerrick (~kerrick@50-196-159-42-static.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2014-05-08 01:53:51	consfearacy	so what do you think? how would you do it?
+2014-05-08 01:55:27	<--	kurti (~kurti@unaffiliated/kurti) has quit (Ping timeout: 250 seconds)
+2014-05-08 01:55:37	-->	Superlokkus (~Superlokk@141.30.223.183) has joined ##c
+2014-05-08 01:56:55	<--	jack_rabbit (~jack_rabb@c-98-253-57-51.hsd1.il.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-05-08 01:57:56	-->	topriddy (~tfaro@41.58.130.86) has joined ##c
+2014-05-08 01:58:03	topriddy	heh :)
+2014-05-08 01:58:17	-->	JotaK (~OMG@unaffiliated/jotak) has joined ##c
+2014-05-08 01:59:27	-->	DoniRS (~DaRamirez@ip4da37ebf.direct-adsl.nl) has joined ##c
+2014-05-08 01:59:41	<--	robink (~quassel@unaffilated/robink) has quit (Ping timeout: 264 seconds)
+2014-05-08 02:00:17	<--	diegovio1 (~diego@unaffiliated/diegoviola) has quit (Quit: WeeChat 0.4.3)
+2014-05-08 02:00:57	-->	cantoma (~jduro@cspc-res-20.campus.bath.ac.uk) has joined ##c
+2014-05-08 02:02:04	-->	robink (~quassel@unaffilated/robink) has joined ##c
+2014-05-08 02:02:06	mar77i	...
+2014-05-08 02:02:17	consfearacy	come on, some ideas please
+2014-05-08 02:02:24	consfearacy	C must provide some techniques to make it possible
+2014-05-08 02:03:05	consfearacy	i just need to add and subtract large numbers..
+2014-05-08 02:03:09	-->	Skirmant (~Skirmant@78-60-20-68.static.zebra.lt) has joined ##c
+2014-05-08 02:03:16	mar77i	...your formula converges towards 3.121489222187065
+2014-05-08 02:03:29	mar77i	also we already pointed you to a number library
+2014-05-08 02:03:35	consfearacy	hmm, maybe i mistyped it... *checks*
+2014-05-08 02:03:44	<--	dardevelin (~dardeveli@a95-95-54-194.cpe.netcabo.pt) has quit (Quit: Leaving)
+2014-05-08 02:03:51	<--	markand (~markand@unaffiliated/markand) has left ##c
+2014-05-08 02:04:08	mar77i	oh, no, it was me who mistyped it.
+2014-05-08 02:05:03	consfearacy	mar77i: are you using a long double?
+2014-05-08 02:05:49	<--	Vialas (~Vialas@202.90.207.123) has quit (Read error: Connection reset by peer)
+2014-05-08 02:05:58	-->	Vialas_ (~Vialas@202.90.207.122) has joined ##c
+2014-05-08 02:07:02	mar77i	no
+2014-05-08 02:07:25	consfearacy	mar77i: you get twice as many digits than I can
+2014-05-08 02:08:36	consfearacy	this is my little program: http://paste.debian.net/98160/
+2014-05-08 02:08:48	-->	sigchild (~nobody@unaffiliated/zx10k1) has joined ##c
+2014-05-08 02:12:14	consfearacy	does it look smart?
+2014-05-08 02:12:37	<--	muricula (kronquii@osuosl/staff/muricula) has left ##c ("WeeChat 0.3.2")
+2014-05-11 19:04:17		irc: disconnected from server
+2014-05-11 19:05:01	--	##c: ##c-unregistered :Forwarding to another channel
+2014-05-14 22:12:11		irc: disconnected from server

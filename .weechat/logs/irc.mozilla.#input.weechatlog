@@ -1,0 +1,344 @@
+2014-06-30 12:58:16	-->	muricula (kronquii@moz-2F636E0B.onid.oregonstate.edu) has joined #input
+2014-06-30 12:58:16	--	Topic for #input is "input.mozilla.org developers | https://github.com/mozilla/fjord | https://wiki.mozilla.org/Firefox/Input | bug willkg if you have issues"
+2014-06-30 12:58:16	--	Topic set by willkg on Thu, 05 Sep 2013 09:39:19
+2014-06-30 12:58:16	--	Nicks #input: [@wenzel @willkg chofmann Cww espressive_afk firebot fjordprefect1 gavin inputprodpush inputstagepush jenkins joshua-s Matt_G MattN muricula mythmon qatestbot r1cky rogerroger rrayborn senicar vectorvictor X019]
+2014-06-30 12:58:16	--	Channel #input: 23 nicks (2 ops, 0 halfops, 0 voices, 21 normals)
+2014-06-30 12:58:18	--	Channel created on Mon, 12 Aug 2013 21:00:26
+2014-06-30 13:39:36	<--	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-06-30 13:40:51	-->	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has joined #input
+2014-06-30 13:42:28	<--	qatestbot (qatestbot@moz-EA3B95F6.mtv2.mozilla.net) has quit (Quit:)
+2014-06-30 13:43:08	-->	qatestbot (qatestbot@moz-EA3B95F6.mtv2.mozilla.net) has joined #input
+2014-06-30 13:50:01	<--	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-06-30 13:51:09	-->	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has joined #input
+2014-06-30 14:28:04	firebot	New Input - General bug 1032464 filed by willkg@mozilla.com.
+2014-06-30 14:28:08	firebot	https://bugzil.la/1032464 — NEW — analyze human vs. machine translation quality
+2014-06-30 14:58:49	fjordprefect1	willkg master: https://github.com/mozilla/fjord/compare/b6d36d289782...13ddeb8fccd8
+2014-06-30 14:58:49	fjordprefect1	willkg 13ddeb8f: Temporary ignore socket.error issues
+2014-06-30 14:58:56	inputprodpush	hey now, willkg is pushing input-prod 13ddeb8fccd87b56293912b9fadedd849cccbf08
+2014-06-30 14:58:56	inputprodpush	watching http://inputadm.private.phx1.mozilla.com/chief/input.prod/logs/13ddeb8fccd87b56293912b9fadedd849cccbf08.1404165536
+2014-06-30 14:58:56	inputprodpush	https://github.com/mozilla/fjord/compare/146ef51392a9af41b0888d78c0b0877fd07875cc
+2014-06-30 14:58:57	inputprodpush	...13ddeb8fccd87b56293912b9fadedd849cccbf08
+2014-06-30 14:59:02	inputprodpush	Finished: update_code (2.677s), update_info (1.678s), pre_update (4.356s), update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:06	inputprodpush	the push is now going to the webheads!! (13ddeb8fccd87b56293912b9fadedd849cccbf08 willkg)
+2014-06-30 14:59:07	inputprodpush	Finished: update_info (1.678s), pre_update (4.356s), update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:12	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:17	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:22	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:23	jenkins	Starting build #488 for job fjord
+2014-06-30 14:59:27	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:32	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:37	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:42	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:47	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 14:59:51	inputprodpush	Finished: update_cron (0.081s)
+2014-06-30 14:59:56	inputprodpush	Finished: update_cron (0.081s), rsync_project (3.733s), commit_www (0.702s), checkin_changes (4.472s), deploy_app (2.919s)
+2014-06-30 15:00:01	inputprodpush	Finished: update_cron (0.081s), rsync_project (3.733s), commit_www (0.702s), checkin_changes (4.472s), deploy_app (2.919s)
+2014-06-30 15:00:06	inputprodpush	Finished: update_cron (0.081s), rsync_project (3.733s), commit_www (0.702s), checkin_changes (4.472s), deploy_app (2.919s)
+2014-06-30 15:00:09	inputprodpush	willkg pushed input-prod 13ddeb8fccd87b56293912b9fadedd849cccbf08
+2014-06-30 15:00:10	vectorvictor	NR_DEPLOYMENT: [input.mozilla.org] No bugfixes--must be adding infinite loops.. https://rpm.newrelic.com/accounts/263620/applications/2784477/deployments/1234892
+2014-06-30 15:00:11	inputprodpush	Finished: update_cron (0.081s), rsync_project (3.733s), commit_www (0.702s), checkin_changes (4.472s), deploy_app (2.919s), update_celery (13.486s), deploy (20.959s)
+2014-06-30 15:01:26	jenkins	Project fjord build #488: SUCCESS in 2 min 27 sec: https://ci.mozilla.org/job/fjord/488/
+2014-06-30 15:14:00	<--	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-06-30 15:15:09	-->	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has joined #input
+2014-06-30 15:23:44	<--	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-06-30 15:25:24	-->	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has joined #input
+2014-06-30 15:35:35	<--	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-06-30 15:36:21	-->	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has joined #input
+2014-06-30 15:42:53	<--	chofmann (chatzilla@moz-24157589.mtv2.mozilla.com) has quit (Ping timeout)
+2014-06-30 15:46:58	<--	joshua-s (Thunderbir@moz-937AA41.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-06-30 15:54:24	-->	joshua-s (Thunderbir@moz-FC406B4E.syrcny.east.verizon.net) has joined #input
+2014-06-30 16:27:25	<--	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Ping timeout)
+2014-06-30 16:34:18	-->	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has joined #input
+2014-06-30 17:11:26	firebot	New Input - Submission bug 1032571 filed by willkg@mozilla.com.
+2014-06-30 17:11:27	firebot	https://bugzil.la/1032571 — NEW — firefox os responses stop on june 26th
+2014-06-30 17:11:38	firebot	willkg@mozilla.com changed the Assignee on bug 1032571 from nobody@mozilla.org to willkg@mozilla.com.
+2014-06-30 17:42:48	<--	joshua-s (Thunderbir@moz-FC406B4E.syrcny.east.verizon.net) has quit (Quit: Try Firetext (https://marketplace.firefox.com/app/firetext), a word processor for Firefox OS!)
+2014-06-30 17:44:33	-->	joshua-s (Thunderbir@moz-FC406B4E.syrcny.east.verizon.net) has joined #input
+2014-06-30 17:48:47	fjordprefect1	willkg master: https://github.com/mozilla/fjord/compare/13ddeb8fccd8...7ac1114f30b9
+2014-06-30 17:48:47	fjordprefect1	willkg 7ac1114f: [bug 1032571] CSRF exempt the API
+2014-06-30 17:48:49	firebot	https://bugzil.la/1032571 — NEW, willkg — Firefox OS responses stop on june 26th
+2014-06-30 17:49:28	inputstagepush	oh nice, willkg is pushing input-stage 7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-06-30 17:49:28	inputstagepush	watching http://inputadm.private.phx1.mozilla.com/chief/input.stage/logs/7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2.1404175768
+2014-06-30 17:49:28	inputstagepush	https://github.com/mozilla/fjord/compare/7480f873ac82a0f1b53e89be3bb05a273c43ecc1
+2014-06-30 17:49:28	inputstagepush	...7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-06-30 17:49:33	inputstagepush	Finished: update_code (4.646s)
+2014-06-30 17:49:36	inputstagepush	the push is now going to the webheads!! (7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2 willkg)
+2014-06-30 17:49:38	inputstagepush	Finished: update_info (3.572s), pre_update (8.218s)
+2014-06-30 17:49:43	inputstagepush	Finished: update_assets (3.817s)
+2014-06-30 17:50:18	inputstagepush	Finished: update_locales (35.642s), update_db (1.112s), update (40.571s), update_cron (0.083s)
+2014-06-30 17:50:28	inputstagepush	Finished: rsync_project (7.752s), commit_www (1.327s), checkin_changes (9.116s)
+2014-06-30 17:50:33	inputstagepush	Finished: deploy_app (5.151s)
+2014-06-30 17:50:45	inputstagepush	willkg pushed input-stage 7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-06-30 17:50:48	inputstagepush	Finished: update_celery (12.680s), deploy (27.031s)
+2014-06-30 17:51:28	inputprodpush	hey now, willkg is pushing input-prod 7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-06-30 17:51:28	inputprodpush	watching http://inputadm.private.phx1.mozilla.com/chief/input.prod/logs/7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2.1404175887
+2014-06-30 17:51:28	inputprodpush	https://github.com/mozilla/fjord/compare/13ddeb8fccd87b56293912b9fadedd849cccbf08
+2014-06-30 17:51:28	inputprodpush	...7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-06-30 17:51:32	inputprodpush	Finished: update_code (2.677s), update_info (1.678s), pre_update (4.356s), update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:51:34	inputprodpush	the push is now going to the webheads!! (7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2 willkg)
+2014-06-30 17:51:37	inputprodpush	Finished: update_info (1.678s), pre_update (4.356s), update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:51:42	inputprodpush	Finished: update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:51:47	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:51:52	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:51:57	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:52:02	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:52:07	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:52:12	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:52:17	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-06-30 17:52:17	inputprodpush	Finished: update_cron (0.082s)
+2014-06-30 17:52:22	inputprodpush	Finished: update_cron (0.082s), rsync_project (2.740s), commit_www (0.514s), checkin_changes (3.290s), deploy_app (2.678s)
+2014-06-30 17:52:27	inputprodpush	Finished: update_cron (0.082s), rsync_project (2.740s), commit_www (0.514s), checkin_changes (3.290s), deploy_app (2.678s)
+2014-06-30 17:52:32	inputprodpush	Finished: update_cron (0.082s), rsync_project (2.740s), commit_www (0.514s), checkin_changes (3.290s), deploy_app (2.678s)
+2014-06-30 17:52:35	inputprodpush	willkg pushed input-prod 7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-06-30 17:52:38	vectorvictor	NR_DEPLOYMENT: [input.mozilla.org] Fixing: bug #1032571. https://rpm.newrelic.com/accounts/263620/applications/2784477/deployments/1235195
+2014-06-30 18:08:40	firebot	willkg@mozilla.com changed the Resolution on bug 1032571 from --- to FIXED.
+2014-06-30 18:08:43	firebot	willkg@mozilla.com changed the Status on bug 1032571 from NEW to RESOLVED.
+2014-06-30 18:08:47	firebot	https://bugzil.la/1032571 — FIXED, willkg — Firefox OS responses stop on june 26th
+2014-06-30 18:16:05	firebot	willkg@mozilla.com requested needinfo from willkg@mozilla.co m on bug 1026019.
+2014-06-30 18:16:09	firebot	https://bugzil.la/1026019 — NEW — make bigram generation better
+2014-06-30 18:18:53	<--	willkg (willkg@moz-94C51305.bstnma.fios.verizon.net) has quit (Quit: Leaving)
+2014-07-01 00:21:41	--	espressive_afk is now known as espressive
+2014-07-01 03:51:09	<--	espressive (espressive@moz-C77E3820.access.mtnbusiness.co.za) has quit (Ping timeout)
+2014-07-01 03:52:20	-->	espressive (espressive@moz-C77E3820.access.mtnbusiness.co.za) has joined #input
+2014-07-01 04:18:45	<--	joshua-s (Thunderbir@moz-FC406B4E.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-07-01 04:29:52	-->	joshua-s (Thunderbir@moz-EB107B66.syrcny.east.verizon.net) has joined #input
+2014-07-01 04:48:34	<--	rogerroger (nodebot@moz-7B2D4AC6.compute-1.amazonaws.com) has quit (Client exited)
+2014-07-01 04:48:37	-->	rogerroger (nodebot@moz-FB63E725.compute-1.amazonaws.com) has joined #input
+2014-07-01 04:56:10	--	espressive is now known as espressive_lunch
+2014-07-01 06:00:37	-->	willkg (willkg@moz-94C51305.bstnma.fios.verizon.net) has joined #input
+2014-07-01 06:00:37	--	Mode #input [+qo willkg willkg] by ChanServ
+2014-07-01 06:42:19	<--	joshua-s (Thunderbir@moz-EB107B66.syrcny.east.verizon.net) has quit (Quit: Try Firetext (https://marketplace.firefox.com/app/firetext), a word processor for Firefox OS!)
+2014-07-01 06:43:26	-->	joshua-s (Thunderbir@moz-EB107B66.syrcny.east.verizon.net) has joined #input
+2014-07-01 06:51:32	fjordprefect1	willkg master: https://github.com/mozilla/fjord/compare/7ac1114f30b9...ac856eb3887d
+2014-07-01 06:51:32	fjordprefect1	willkg ac856eb3: [bug 1032571] Fix tests to catch csrf issues in the api
+2014-07-01 06:51:34	firebot	https://bugzil.la/1032571 — FIXED, willkg — Firefox OS responses stop on june 26th
+2014-07-01 07:11:00	<--	joshua-s (Thunderbir@moz-EB107B66.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-07-01 07:14:15	-->	joshua-s (Thunderbir@moz-301B5CCF.syrcny.east.verizon.net) has joined #input
+2014-07-01 07:21:14	<--	X019 (X019@E68024E8.A476FDFB.86783F77.IP) has quit (Ping timeout)
+2014-07-01 07:23:21	--	espressive_lunch is now known as espressive_afk
+2014-07-01 08:01:20	--	espressive_afk is now known as espressive
+2014-07-01 08:31:50	-->	fjordprefect (nodebot@moz-769663CD.compute-1.amazonaws.com) has joined #input
+2014-07-01 08:31:50	<--	fjordprefect1 (nodebot@moz-A54EE36D.compute-1.amazonaws.com) has quit (Client exited)
+2014-07-01 08:53:57	-->	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #input
+2014-07-01 09:43:39	<--	joshua-s (Thunderbir@moz-301B5CCF.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-07-01 09:46:35	-->	joshua-s (Thunderbir@moz-73BC5777.syrcny.east.verizon.net) has joined #input
+2014-07-01 10:20:27	@willkg	rogerroger: talked about automated human translation and the new GET API for Input at the webdev extravaganza.
+2014-07-01 10:20:27	rogerroger	Ok, submitted status #13117 for http://standu.ps/user/willkg
+2014-07-01 10:25:37	<--	joshua-s (Thunderbir@moz-73BC5777.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-07-01 10:31:22	-->	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has joined #input
+2014-07-01 10:52:37	<--	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Ping timeout)
+2014-07-01 11:09:16	fjordprefect	willkg master: https://github.com/mozilla/fjord/compare/ac856eb3887d...25d1341ebb5f
+2014-07-01 11:09:16	fjordprefect	willkg 25d1341e: Revert "Temporary ignore socket.error issues"
+2014-07-01 11:09:51	jenkins	Starting build #489 for job fjord
+2014-07-01 11:11:52	jenkins	Project fjord build #489: SUCCESS in 2 min 26 sec: https://ci.mozilla.org/job/fjord/489/
+2014-07-01 11:15:38	inputstagepush	oh god, willkg is pushing input-stage 25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-01 11:15:38	inputstagepush	watching http://inputadm.private.phx1.mozilla.com/chief/input.stage/logs/25d1341ebb5f4e4be0468e038247e32709e1a6ed.1404238538
+2014-07-01 11:15:39	inputstagepush	https://github.com/mozilla/fjord/compare/7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-07-01 11:15:39	inputstagepush	...25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-01 11:16:03	inputstagepush	Finished: update_code (19.785s)
+2014-07-01 11:16:05	inputstagepush	the push is now going to the webheads!! (25d1341ebb5f4e4be0468e038247e32709e1a6ed willkg)
+2014-07-01 11:16:08	inputstagepush	Finished: update_info (7.096s), pre_update (26.882s)
+2014-07-01 11:16:13	inputstagepush	Finished: update_assets (4.324s)
+2014-07-01 11:16:58	inputstagepush	Finished: update_locales (44.744s), update_db (2.682s), update (51.750s), update_cron (0.174s)
+2014-07-01 11:17:13	inputstagepush	Finished: rsync_project (11.646s), commit_www (1.719s), checkin_changes (13.446s)
+2014-07-01 11:17:23	inputstagepush	Finished: deploy_app (9.502s)
+2014-07-01 11:17:34	inputstagepush	willkg pushed input-stage 25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-01 11:17:38	inputstagepush	Finished: update_celery (13.253s), deploy (36.377s)
+2014-07-01 11:18:25	-->	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #input
+2014-07-01 11:20:42	inputprodpush	guess what, willkg is pushing input-prod 25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-01 11:20:43	inputprodpush	watching http://inputadm.private.phx1.mozilla.com/chief/input.prod/logs/25d1341ebb5f4e4be0468e038247e32709e1a6ed.1404238842
+2014-07-01 11:20:43	inputprodpush	https://github.com/mozilla/fjord/compare/7ac1114f30b96068c2cc01ac88cdc362d4c1b4b2
+2014-07-01 11:20:43	inputprodpush	...25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-01 11:20:52	inputprodpush	the push is now going to the webheads!! (25d1341ebb5f4e4be0468e038247e32709e1a6ed willkg)
+2014-07-01 11:20:52	inputprodpush	Finished: update_code (2.677s), update_info (1.678s), pre_update (4.356s), update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:20:57	inputprodpush	Finished: update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:02	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:07	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:12	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:17	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:22	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:27	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:32	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:37	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-01 11:21:37	inputprodpush	Finished: update_cron (0.087s)
+2014-07-01 11:21:42	inputprodpush	Finished: update_cron (0.087s), rsync_project (3.676s), commit_www (0.610s), checkin_changes (4.325s), deploy_app (3.000s)
+2014-07-01 11:21:47	inputprodpush	Finished: update_cron (0.087s), rsync_project (3.676s), commit_www (0.610s), checkin_changes (4.325s), deploy_app (3.000s)
+2014-07-01 11:21:52	inputprodpush	Finished: update_cron (0.087s), rsync_project (3.676s), commit_www (0.610s), checkin_changes (4.325s), deploy_app (3.000s)
+2014-07-01 11:21:55	inputprodpush	willkg pushed input-prod 25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-01 11:21:57	vectorvictor	NR_DEPLOYMENT: [input.mozilla.org] Fixing: bug #1032571. https://rpm.newrelic.com/accounts/263620/applications/2784477/deployments/1237357
+2014-07-01 11:21:59	firebot	https://bugzil.la/1032571 — FIXED, willkg — Firefox OS responses stop on june 26th
+2014-07-01 11:25:39	-->	X019 (X019@E68024E8.A476FDFB.86783F77.IP) has joined #input
+2014-07-01 11:36:42	firebot	New Input - General bug 1032951 filed by vivek.kiran@outlook.com.
+2014-07-01 11:36:46	firebot	https://bugzil.la/1032951 — UNCONFIRMED — Update lxml from 2.3.5 to 3.3.5
+2014-07-01 11:46:44	<--	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-07-01 11:47:11	-->	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has joined #input
+2014-07-01 11:49:17	<--	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has quit (Quit: Try Firetext (https://marketplace.firefox.com/app/firetext), a word processor for Firefox OS!)
+2014-07-01 12:07:58	firebot	New Input - Submission bug 1032967 filed by willkg@mozilla.com.
+2014-07-01 12:08:01	firebot	https://bugzil.la/1032967 — NEW — [traceback] GengoError: language service not supported
+2014-07-01 12:10:38	-->	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has joined #input
+2014-07-01 12:10:40	firebot	willkg@mozilla.com changed the Assignee on bug 1032967 from nobody@mozilla.org to willkg@mozilla.com.
+2014-07-01 12:30:38	--	joshua-s is now known as joshua-s|away
+2014-07-01 13:08:52	<--	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Ping timeout)
+2014-07-01 13:22:34	-->	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #input
+2014-07-01 13:51:27	muricula	willkg: I'm running vagrant on osx from the command line. I think it hung a few lines later during the node install, for whatever reason, so that message probably got pushed up the scrollback. It was yesterday so I can't just look at the scrollback and find out.
+2014-07-01 13:51:33	<--	espressive (espressive@moz-C77E3820.access.mtnbusiness.co.za) has quit (Client exited)
+2014-07-01 13:52:33	muricula	It hung on line 55 of bin/vagrant_provision.sh
+2014-07-01 13:52:51	@willkg	ok. so that message is for when it's trying to do the nfs mount and it's really about a version mismatch between virtualbox guest additions in the 12.04 image and the version of virtualbox being used.
+2014-07-01 13:53:38	@willkg	i think that's different than whatever it is you're referring to with "you really need to install the vagrant virtualbox addons".
+2014-07-01 13:53:48	@willkg	but i'm not positive. i'm not sure what "vagrant virtualbox addons" are.
+2014-07-01 13:54:45	muricula	Perhaps I meant to say "Virtualbox Guest Additions"
+2014-07-01 13:56:51	@willkg	so, it sounds like you're saying we really should have instructions on fixing the virtualbox guest additions/virtualbox version mismatch and probably everyone should run that first, then go through provisioning. does that sound right?
+2014-07-01 13:57:17	muricula	Yes.
+2014-07-01 13:57:23	@willkg	ok.
+2014-07-01 13:57:53	muricula	Basically the docs will need to be updated to reflect the vagrant way of doing things, and I can do that if you'd like
+2014-07-01 13:58:51	@willkg	i'm not sure what you mean by "the vagrant way of doing things"?
+2014-07-01 13:58:56	@willkg	is that documented somewhere?
+2014-07-01 14:00:59	muricula	I mean deploying input on a vm with vagrant as opposed to merely following the hacking howto.
+2014-07-01 14:02:16	@willkg	i don't understand what you mean by that.
+2014-07-01 14:02:24	@willkg	the hacking howto goes away in that vagrantify pr.
+2014-07-01 14:03:20	@willkg	well, er, let me rephrase. the document is removed from the TOC. i have it still physically there in the directory because there are a couple of tidbits i still want to pull from it and put elsewhere in the docs that will stick around.
+2014-07-01 14:03:35	muricula	Oh? I still see it under docs/hacking_howto.rst on the branch 1026503-vagrantify
+2014-07-01 14:03:46	muricula	Maybe I'm misunderstanding something
+2014-07-01 14:04:12	@willkg	the docs you want to read are the getting_started.rst ones. those are the new ones.
+2014-07-01 14:04:24	@willkg	if you look at index.rst, "hacking_howto" is no longer listed.
+2014-07-01 14:04:40	muricula	Okay, perhaps I was confused.
+2014-07-01 14:05:16	@willkg	sorry about that. i was on the fence about whether to remove it in the pr or whether to keep it a little longer just so i could do that last pass on it.
+2014-07-01 14:05:21	@willkg	probably should have just removed the file.
+2014-07-01 14:10:54	muricula	Okay, those docs are what I was looking for.
+2014-07-01 14:11:09	@willkg	sorry about that. i should have been clearer in the review directions. :(
+2014-07-01 14:11:52	muricula	no problem, they look great actually.
+2014-07-01 14:12:28	@willkg	i kind of wish we could simplify them a little more.
+2014-07-01 14:18:21	muricula	Also, django is complaining about deprecated options in manage.py Is this worth addressing?
+2014-07-01 14:21:56	@willkg	there's a bug for it.
+2014-07-01 14:22:01	@willkg	it needs to be fixed. it sucks.
+2014-07-01 14:22:37	@willkg	https://sumo-ernest.herokuapp.com/project/input/input-2014q3
+2014-07-01 14:23:08	@willkg	https://bugzilla.mozilla.org/show_bug.cgi?id=998726
+2014-07-01 14:23:09	firebot	Bug 998726 — NEW — quell the django 1.5 deprecation warnings
+2014-07-01 14:23:52	muricula	okay
+2014-07-01 14:25:15	@willkg	that ernest link shows a bunch of stuff i threw in this quarter to do. i haven't gone through and triaged it, yet. but some of those things cover technical debt we've been lugging around.
+2014-07-01 14:26:02	@willkg	i need to jet and do dinner. i'm in Eastern Daylight Time--so i'm 3 hours off from you. i'll be around late tonight. feel free to toss me email, bugmail, pr comments, etc.
+2014-07-01 14:26:18	@willkg	i think i can spend some more time on the vagrant stuff tomorrow. i do want to finish up what we can and land it this week.
+2014-07-01 14:26:46	@willkg	but i have this other bug i need to fix asap. so that takes priority.
+2014-07-01 14:26:58	muricula	okay, bon apetit
+2014-07-01 14:27:04	@willkg	if you have any other thoughts on the vagrantification stuff, toss them in the pr. it's good to know it mostly works with osx.
+2014-07-01 14:27:20	@willkg	on that note... afk a bit.
+2014-07-01 14:30:30	<--	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Connection reset by peer)
+2014-07-01 14:31:11	-->	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #input
+2014-07-01 15:53:27	<--	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has quit (Ping timeout)
+2014-07-01 16:24:00	-->	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has joined #input
+2014-07-01 16:54:19	--	Notice(qatestbot): Project gary.b2g.flame.b2g-inbound.tinderbox.ui build #1: ABORTED in 1 min 28 sec: http://selenium.qa.mtv2.mozilla.com:8080/job/gary.b2g.flame.b2g-inbound.tinderbox.ui/1/
+2014-07-01 16:58:03	--	Notice(qatestbot): Project gary.b2g.flame.b2g-inbound.tinderbox.ui build #2: FAILURE in 58 sec: http://selenium.qa.mtv2.mozilla.com:8080/job/gary.b2g.flame.b2g-inbound.tinderbox.ui/2/
+2014-07-01 17:22:22	<--	rrayborn (Rayborn@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Ping timeout)
+2014-07-01 17:30:54	firebot	ikronquist@mozilla.com changed the Assignee on bug 1030905 from nobody@mozilla.org to ikronquist@mozilla.com.
+2014-07-01 17:30:57	firebot	https://bugzil.la/1030905 — NEW, ikronquist — write missing Input API tests
+2014-07-01 17:31:45	firebot	ikronquist@mozilla.com changed the Assignee on bug 1032951 from nobody@mozilla.org to ikronquist@mozilla.com.
+2014-07-01 17:32:16	firebot	https://bugzil.la/1032951 — UNCONFIRMED, ikronquist — Update lxml from 2.3.5 to 3.3.5
+2014-07-01 17:35:30	@willkg	muricula: are you on the input-dev mailing list, yet?
+2014-07-01 17:43:22	<--	X019 (X019@E68024E8.A476FDFB.86783F77.IP) has quit (Quit: ~)
+2014-07-01 17:44:39	@willkg	muricula: you on?
+2014-07-01 17:47:02	@willkg	muricula: oh well. i commented in the bug and also on the pr.
+2014-07-01 17:50:39	@willkg	i'm off for the night. laters!
+2014-07-01 17:53:24	<--	willkg (willkg@moz-94C51305.bstnma.fios.verizon.net) has quit (Quit: Leaving)
+2014-07-01 17:54:02	firebot	ikronquist@mozilla.com changed the Resolution on bug 1032951 from --- to WONTFIX.
+2014-07-01 17:54:05	firebot	ikronquist@mozilla.com changed the Status on bug 1032951 from UNCONFIRMED to RESOLVED.
+2014-07-01 17:54:09	firebot	https://bugzil.la/1032951 — WONTFIX, ikronquist — Update lxml from 2.3.5 to 3.3.5
+2014-07-01 17:56:35	<--	r1cky (r1cky@moz-5351E215.slicehost.net) has quit (Quit: Bye!)
+2014-07-01 17:58:28	firebot	willkg@mozilla.com changed the Resolution on bug 1032951 from WONTFIX to ---.
+2014-07-01 17:58:32	firebot	willkg@mozilla.com changed the Status on bug 1032951 from RESOLVED to REOPENED.
+2014-07-01 20:12:16	--	joshua-s|away is now known as joshua-s|zzz
+2014-07-01 20:26:58	<--	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has quit (Ping timeout)
+2014-07-01 20:28:23	-->	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has joined #input
+2014-07-01 20:52:11	<--	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has quit (Ping timeout)
+2014-07-02 01:46:10	-->	espressive (espressive@moz-C77E3820.access.mtnbusiness.co.za) has joined #input
+2014-07-02 02:08:03	<--	espressive (espressive@moz-C77E3820.access.mtnbusiness.co.za) has quit (Client exited)
+2014-07-02 02:09:17	<--	joshua-s|zzz (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has quit (Ping timeout)
+2014-07-02 02:09:46	-->	joshua-s|zzz (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has joined #input
+2014-07-02 02:19:22	-->	espressive (espressive@moz-C77E3820.access.mtnbusiness.co.za) has joined #input
+2014-07-02 05:07:26	<--	rogerroger (nodebot@moz-FB63E725.compute-1.amazonaws.com) has quit (Client exited)
+2014-07-02 05:07:30	-->	rogerroger (nodebot@moz-457E1888.compute-1.amazonaws.com) has joined #input
+2014-07-02 05:45:05	-->	r1cky (r1cky@moz-5351E215.slicehost.net) has joined #input
+2014-07-02 06:03:13	--	espressive is now known as espressive_late_late_lunch
+2014-07-02 06:07:55	--	joshua-s|zzz is now known as joshua-s
+2014-07-02 06:20:26	-->	willkg (willkg@moz-94C51305.bstnma.fios.verizon.net) has joined #input
+2014-07-02 06:20:26	--	Mode #input [+qo willkg willkg] by ChanServ
+2014-07-02 06:25:51	--	espressive_late_late_lunch is now known as espressive
+2014-07-02 06:27:54	fjordprefect	willkg master: https://github.com/mozilla/fjord/compare/25d1341ebb5f...688bddbf2feb
+2014-07-02 06:27:54	fjordprefect	willkg 74e8e09b: [bug 1032967] Handle unsupported language pairs
+2014-07-02 06:27:54	fjordprefect	willkg 688bddbf: Merge pull request #318 from willkg/1032967-language-service-not-supported
+2014-07-02 06:27:56	firebot	https://bugzil.la/1032967 — NEW, willkg — [traceback] GengoError: language service not supported
+2014-07-02 06:28:27	jenkins	Starting build #490 for job fjord
+2014-07-02 06:29:12	inputstagepush	panic!, willkg is pushing input-stage 688bddbf2feb21a9f14841f039ef23476d4ac1ec
+2014-07-02 06:29:12	inputstagepush	watching http://inputadm.private.phx1.mozilla.com/chief/input.stage/logs/688bddbf2feb21a9f14841f039ef23476d4ac1ec.1404307752
+2014-07-02 06:29:12	inputstagepush	https://github.com/mozilla/fjord/compare/25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-02 06:29:12	inputstagepush	...688bddbf2feb21a9f14841f039ef23476d4ac1ec
+2014-07-02 06:29:21	inputstagepush	the push is now going to the webheads!! (688bddbf2feb21a9f14841f039ef23476d4ac1ec willkg)
+2014-07-02 06:29:22	inputstagepush	Finished: update_code (5.254s), update_info (3.962s), pre_update (9.216s)
+2014-07-02 06:29:27	inputstagepush	Finished: update_assets (4.044s)
+2014-07-02 06:30:07	inputstagepush	Finished: update_locales (37.534s), update_db (1.536s), update (43.115s), update_cron (0.127s)
+2014-07-02 06:30:17	inputstagepush	Finished: rsync_project (9.308s), commit_www (1.529s), checkin_changes (10.891s)
+2014-07-02 06:30:27	inputstagepush	Finished: deploy_app (6.340s)
+2014-07-02 06:30:31	jenkins	Project fjord build #490: SUCCESS in 2 min 26 sec: https://ci.mozilla.org/job/fjord/490/
+2014-07-02 06:30:35	inputstagepush	willkg pushed input-stage 688bddbf2feb21a9f14841f039ef23476d4ac1ec
+2014-07-02 06:30:37	inputstagepush	Finished: update_celery (13.188s), deploy (30.547s)
+2014-07-02 06:40:14	inputprodpush	guess what, willkg is pushing input-prod 688bddbf2feb21a9f14841f039ef23476d4ac1ec
+2014-07-02 06:40:14	inputprodpush	watching http://inputadm.private.phx1.mozilla.com/chief/input.prod/logs/688bddbf2feb21a9f14841f039ef23476d4ac1ec.1404308414
+2014-07-02 06:40:14	inputprodpush	https://github.com/mozilla/fjord/compare/25d1341ebb5f4e4be0468e038247e32709e1a6ed
+2014-07-02 06:40:14	inputprodpush	...688bddbf2feb21a9f14841f039ef23476d4ac1ec
+2014-07-02 06:40:22	inputprodpush	Finished: update_info (1.678s), pre_update (4.356s), update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:40:22	inputprodpush	the push is now going to the webheads!! (688bddbf2feb21a9f14841f039ef23476d4ac1ec willkg)
+2014-07-02 06:40:27	inputprodpush	Finished: update_assets (2.885s), update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:40:32	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:40:37	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:40:42	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:40:47	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:40:52	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:40:57	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:41:02	inputprodpush	Finished: update_locales (28.899s), update_db (1396.601s), update (1428.386s)
+2014-07-02 06:41:04	inputprodpush	Finished: update_cron (0.079s)
+2014-07-02 06:41:09	inputprodpush	Finished: update_cron (0.079s), rsync_project (3.307s), commit_www (0.607s), checkin_changes (3.953s)
+2014-07-02 06:41:14	inputprodpush	Finished: update_cron (0.079s), rsync_project (3.307s), commit_www (0.607s), checkin_changes (3.953s), deploy_app (2.788s)
+2014-07-02 06:41:19	inputprodpush	Finished: update_cron (0.079s), rsync_project (3.307s), commit_www (0.607s), checkin_changes (3.953s), deploy_app (2.788s)
+2014-07-02 06:41:23	inputprodpush	willkg pushed input-prod 688bddbf2feb21a9f14841f039ef23476d4ac1ec
+2014-07-02 06:41:24	inputprodpush	Finished: update_cron (0.079s), rsync_project (3.307s), commit_www (0.607s), checkin_changes (3.953s), deploy_app (2.788s), update_celery (12.821s), deploy (19.643s)
+2014-07-02 06:41:26	vectorvictor	NR_DEPLOYMENT: [input.mozilla.org] Fixing: bug #1032967. https://rpm.newrelic.com/accounts/263620/applications/2784477/deployments/1239399
+2014-07-02 06:41:29	firebot	https://bugzil.la/1032967 — NEW, willkg — [traceback] GengoError: language service not supported
+2014-07-02 06:45:10	firebot	willkg@mozilla.com changed the Resolution on bug 1032967 from --- to FIXED.
+2014-07-02 06:45:14	firebot	willkg@mozilla.com changed the Status on bug 1032967 from NEW to RESOLVED.
+2014-07-02 06:47:59	@willkg	rogerroger: fixed the problem where we were getting "language service not supported" errors because we were trying to translate unsupported (src, dst) language pairs (bug #1032967).
+2014-07-02 06:48:00	rogerroger	Ok, submitted status #13145 for http://standu.ps/user/willkg
+2014-07-02 07:26:59	--	espressive is now known as espressive_afk
+2014-07-02 07:41:52	fjordprefect	willkg master: https://github.com/mozilla/fjord/compare/688bddbf2feb...2d3112a1b3a9
+2014-07-02 07:41:52	fjordprefect	willkg 74a409ee: [bug 1026503] First pass at vagrantification
+2014-07-02 07:41:52	fjordprefect	willkg a7a440fa: Continued working on docs; ditched hacking howto
+2014-07-02 07:41:52	fjordprefect	willkg a7e958ea: Assume VB mismatch and codify the fix in the docs
+2014-07-02 07:41:52	fjordprefect	willkg 2d3112a1: Merge pull request #314 from willkg/1026503-vagrantify
+2014-07-02 07:41:54	firebot	https://bugzil.la/1026503 — NEW, willkg — vagrantify fjord
+2014-07-02 07:42:18	jenkins	Starting build #491 for job fjord
+2014-07-02 07:44:00	jenkins	Project fjord build #491: SUCCESS in 1 min 57 sec: https://ci.mozilla.org/job/fjord/491/
+2014-07-02 07:44:15	firebot	willkg@mozilla.com changed the Resolution on bug 1026503 from --- to FIXED.
+2014-07-02 07:44:20	firebot	willkg@mozilla.com changed the Status on bug 1026503 from NEW to RESOLVED.
+2014-07-02 07:54:26	@willkg	rogerroger: fixed the issues that @muricula found with the new vagrant stuff and landed it (bug #1026503). yay for our new vagrant overlords!
+2014-07-02 07:54:26	rogerroger	Ok, submitted status #13152 for http://standu.ps/user/willkg
+2014-07-02 07:54:28	firebot	https://bugzil.la/1026503 — FIXED, willkg — vagrantify fjord
+2014-07-02 08:17:11	-->	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has joined #input
+2014-07-02 08:37:11	firebot	New Input - Submission bug 1033419 filed by willkg@mozilla.com.
+2014-07-02 08:37:15	firebot	https://bugzil.la/1033419 — NEW — build backend for heartbeat project prototype
+2014-07-02 08:37:43	firebot	willkg@mozilla.com changed the Assignee on bug 1033419 from nobody@mozilla.org to willkg@mozilla.com.
+2014-07-02 08:48:38	<--	fjordprefect (nodebot@moz-769663CD.compute-1.amazonaws.com) has quit (Client exited)
+2014-07-02 08:48:39	-->	fjordprefect (nodebot@moz-9B5EF8C7.compute-1.amazonaws.com) has joined #input
+2014-07-02 09:30:00	-->	rrayborn (Rayborn@moz-509EC4E3.sfba.hfc.comcastbusiness.net) has joined #input
+2014-07-02 09:32:55	<--	rrayborn (Rayborn@moz-509EC4E3.sfba.hfc.comcastbusiness.net) has quit (Ping timeout)
+2014-07-02 09:35:57	-->	rrayborn (Rayborn@moz-B5A3ACB4.tmodns.net) has joined #input
+2014-07-02 10:13:58	<--	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has quit (Quit: Try Firetext (https://marketplace.firefox.com/app/firetext), a word processor for Firefox OS!)
+2014-07-02 10:15:53	<--	rrayborn (Rayborn@moz-B5A3ACB4.tmodns.net) has quit (Ping timeout)
+2014-07-02 10:19:18	-->	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has joined #input
+2014-07-02 11:06:13	<--	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has quit (Ping timeout)
+2014-07-02 11:16:14	-->	rrayborn (Rayborn@moz-62518563.mtv2.mozilla.com) has joined #input
+2014-07-02 13:03:36	<--	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has quit (Quit: Try Firetext (https://marketplace.firefox.com/app/firetext), a word processor for Firefox OS!)
+2014-07-02 13:04:39	-->	joshua-s (Thunderbir@moz-6F9E4F77.syrcny.east.verizon.net) has joined #input
+2014-07-02 13:43:25	-->	chofmann (chatzilla@moz-C02AA459.lightspeed.mtryca.sbcglobal.net) has joined #input
+2014-07-02 16:35:29	<--	espressive_afk (espressive@moz-C77E3820.access.mtnbusiness.co.za) has quit (Client exited)
+2014-07-02 16:38:56	<--	rrayborn (Rayborn@moz-62518563.mtv2.mozilla.com) has quit (Ping timeout)
+2014-07-02 16:57:42	firebot	New Input - General bug 1033852 filed by willkg@mozilla.com.
+2014-07-02 16:57:46	firebot	https://bugzil.la/1033852 — NEW — [traceback] GengoError: machine translation language service not supported
+2014-07-02 17:31:25	<--	willkg (willkg@moz-94C51305.bstnma.fios.verizon.net) has quit (Quit: Leaving)
