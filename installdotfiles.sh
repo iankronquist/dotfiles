@@ -8,17 +8,14 @@ if [[ $(uname) == "Darwin" ]]; then
 	echo "Installing Xcode"
 	xcode-select --install
 	echo "Installing Homebrew"
-	curl https://raw.github.com/Homebrew/homebrew/go/install > brewinstall
-	cat brewinstall
-	echo "Should I run this script?"
-	read CONFIRM
+	curl -L https://raw.github.com/Homebrew/homebrew/go/install > brewinstall && less brewinstall && echo "Should I run this script?" && read CONFIRM
 	if [[ $CONFIRM == "yes" ]]; then 
 		chmod +x brewinstall
 		./brewinstall
-		rm brewinstall
 		echo "Installing Homebrew packages"
 		brew install $(cat osx/brewfiles)
 	fi
+	rm brewinstall
 	echo "Copying plists"
 	cp osx/com.apple.Terminal.plist ~/Library/Preferences/com.apple.Terminal.plist
 elif [[ $(uname) == "Linux" ]]; then
@@ -31,8 +28,8 @@ fi
 
 mkdir $HOME/git
 
-for file in "$(ls -a)"; do
-	if [[ $file != "osx" && $file != "linux" && $file != "$0" ]]; then
+for file in $(ls -a); do
+	if [[ $file != "." && $file != ".." && $file != "osx" && $file != "linux" && $file != "$0" ]]; then
 		ln $file $HOME/$file
 	fi
 done
