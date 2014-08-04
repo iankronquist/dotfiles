@@ -24,6 +24,7 @@ fi
 # If there is a requirements.txt
 if [[ -e requirements.txt || -e requirements/requirements.txt ]]; then
 	PROJ_NAME=${PWD##*/}
+	export PYTHONPATH=.
 	# if a virtualenv exists source it, else create, install, and source it
 	if [ -d "$HOME/venv/$PROJ_NAME" ]; then
 		source $HOME/venv/$PROJ_NAME/bin/activate
@@ -32,4 +33,12 @@ if [[ -e requirements.txt || -e requirements/requirements.txt ]]; then
 		source $HOME/venv/$PROJ_NAME/bin/activate
 		pip install -r requirements*
 	fi
+fi
+
+# If there is a package.json
+if [[ -e package.json ]]; then
+	if [[ ! -e node_modules ]]; then
+		npm install
+	fi
+	export PATH="$(pwd)/node_modules/.bin/:$PATH"
 fi
