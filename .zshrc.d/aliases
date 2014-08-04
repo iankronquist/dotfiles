@@ -2,12 +2,13 @@
 
 alias venv=virtualenv
 alias v='vim'
+alias py='python'
 alias pp='echo cd `pwd` | pbcopy'
 alias sl='ls'
 #alias opn=xdg-open
 alias rebash="source ~/.bashrc"
 alias gg='source gg'
-alias gcc='gcc-4.8'
+alias gcc='gcc-4.9'
 #alias test="./manage.py test -s --noinput --logging-clear-handlers --with-id --with-progressive --progressive-advisories"
 #alias onid='ssh kronquii@shell.onid.oregonstate.edu'
 #alias ash='ssh -i ~/.ssh/ashkeys/id_rsa iankronquist@ash.osuosl.org'
