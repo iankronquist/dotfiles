@@ -25,10 +25,10 @@ else
 fi
 
 
-link_files (dir) {
-	for file in $(ls -a $dir); do
+link_files () {
+	for file in $(ls -a $1); do
 		if [[ $file != "." && $file != ".." && $file != "osx" && $file != "linux" && $file != "$0" ]]; then
-			ln -s $file $HOME/$file
+			ln -s `pwd`/$file $HOME/$file
 		fi
 	done
 }
