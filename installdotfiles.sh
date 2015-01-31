@@ -8,7 +8,7 @@ if [[ $(uname) == "Darwin" ]]; then
 	echo "Installing Xcode"
 	xcode-select --install
 	echo "Installing Homebrew"
-	curl -L https://raw.github.com/Homebrew/homebrew/go/install > brewinstall && less brewinstall && echo "Should I run this script?" && read CONFIRM
+	curl -L https://raw.githubusercontent.com/Homebrew/install/master/install > brewinstall && less brewinstall && echo "Should I run this script?" && read CONFIRM
 	if [[ $CONFIRM == "yes" ]]; then 
 		chmod +x brewinstall
 		./brewinstall
@@ -27,7 +27,7 @@ fi
 
 link_files () {
 	for file in $(ls -a $1); do
-		if [[ $file != "." && $file != ".." && $file != "osx" && $file != "linux" && $file != "$0" ]]; then
+		if [[ $file != "." && $file != ".." && $file != "osx" && $file != "linux" && $file != "$0" && $file != ".git" ]]; then
 			ln -s `pwd`/$file $HOME/$file
 		fi
 	done
