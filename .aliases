@@ -1,26 +1,28 @@
 # vim: set ft=bash
 
-alias ll='ls -la'
-alias l=ls
-alias grep='grep --color=auto'
-alias venv=virtualenv
 alias v='vim'
-alias vus='vagrant up && vagrant ssh'
-alias pp='echo cd `pwd` | pbcopy'
+alias l=ls
+alias ll='ls -la'
 alias sl='ls'
 alias opn=open
+alias venv=virtualenv
+alias grep='grep --color=auto'
+alias vus='vagrant up && vagrant ssh'
+alias pp='echo cd `pwd` | pbcopy'
+
 alias rebash="exec bash"
-source ~/gg/gg/gg
+alias redoc='$(boot2docker shellinit)'
+
 alias gcc='gcc-4.9'
 alias 'g++'='g++-4.9'
+
+alias py=python
+alias py3=python3
+
 alias gco='git checkout'
 alias gd='git diff'
 alias gs='git status'
 alias gb='git branch'
 alias gn='git net'
 alias gp='git pull'
-alias pg_start='postgres -D /usr/local/var/postgres'
-alias redoc='$(boot2docker shellinit)'
 alias gitgraph="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(black)- %an%C(reset)%C(bold red)%d%C(reset)' --all"
-alias py=python
-alias py3=python3
