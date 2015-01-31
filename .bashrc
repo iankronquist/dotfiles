@@ -7,6 +7,9 @@
 # Get all of my aliases
 source $HOME/.aliases
 
+# Source my workflow script
+source ~/gg/gg/gg
+
 # Source git auto complete script from the git git repo.
 source ~/bin/git-completion.bash
 
