@@ -1,3 +1,5 @@
+
+
 #
 # ~/.bashrc
 #
@@ -9,15 +11,30 @@
 #alias ls='ls --color=auto'
 
 alias ll='ls -la'
+alias l=ls
+alias grep='grep --color=auto'
 alias venv=virtualenv
 alias v='vim'
+alias vus='vagrant up && vagrant ssh'
 alias pp='echo cd `pwd` | pbcopy'
 alias sl='ls'
-alias opn=xdg-open
-alias rebash="source ~/.bashrc"
+alias opn=open
+alias rebash="exec bash"
 #alias gg="cd ~/git"
-alias gg='. gg'
-alias gcc='gcc-4.8'
+source ~/gg/gg/gg
+#source ~/bin/gg_autocomplete.sh
+alias gcc='gcc-4.9'
+alias 'g++'='g++-4.9'
+CC=gcc
+CXX=g++
+alias gco='git checkout'
+alias gd='git diff'
+alias gs='git status'
+alias gb='git branch'
+alias gn='git net'
+alias gp='git pull'
+alias pg_start='postgres -D /usr/local/var/postgres'
+alias redoc='$(boot2docker shellinit)'
 #alias test="./manage.py test -s --noinput --logging-clear-handlers --with-id --with-progressive --progressive-advisories"
 #alias onid='ssh kronquii@shell.onid.oregonstate.edu'
 #alias ash='ssh -i ~/.ssh/ashkeys/id_rsa iankronquist@ash.osuosl.org'
@@ -26,21 +43,27 @@ alias gcc='gcc-4.8'
 alias gitgraph="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(black)- %an%C(reset)%C(bold red)%d%C(reset)' --all"
 alias gitlines="git ls-files | xargs wc -l"
 #alias wifi='sudo wifi-menu'
-alias p='fc -ln -2 | pbcopy'
-alias connect='nmcli -p dev wifi connect'
+#alias p='fc -ln -2 | pbcopy'
+alias py=python
+alias py3=python3
+#alias connect='nmcli -p dev wifi connect'
 #alias connect\ access='connect OSU_Access'
 #alias connect\ resnet='connect OSU_ResNet'
-alias wifilist='nmcli -p dev wifi list'
-alias wifimodinmodout='sudo rmmod iwldvm && sudo rmmod iwlwifi && sleep 3 && sudo modprobe iwldvm && sudo modprobe iwlwifi'
+#alias wifilist='nmcli -p dev wifi list'
+#alias wifimodinmodout='sudo rmmod iwldvm && sudo rmmod iwlwifi && sleep 3 && sudo modprobe iwldvm && sudo modprobe iwlwifi'
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
-export WORKON_HOME=~/venv
-export PATH="/usr/local/bin:$PATH:~/bin:~/.gem/ruby/2.1.0/bin/"
+export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
+export GOPATH=$HOME/gopath
+export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+
+export PATH="/usr/local/bin:$PATH:$HOME/bin/:$HOME/bin/bin:$GOPATH"
 # Add cabal binaries to your PATH:
-export PATH=~/.cabal/bin:$PATH
+#export PATH=~/.cabal/bin:$PATH
+#export PATH=$PATH:$GOPATH/bin
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 #export RUBYOPT=rubygems
-export PYTHONSTARTUP=$HOME/.pythonrc.py
+#export PYTHONSTARTUP=$HOME/.pythonrc.py
 
 #to get the current git branch, if any
 __git_ps1 () 
@@ -60,7 +83,7 @@ man() {
     LESS_TERMCAP_md=$'\E[01;38;5;74m' \
     LESS_TERMCAP_me=$'\E[0m' \
     LESS_TERMCAP_se=$'\E[0m' \
-    LESS_TERMCAP_so=$'\E[38;5;246m' \
+    LESS_TERMCAP_so=$'\E[38;5;46m' \
     LESS_TERMCAP_ue=$'\E[0m' \
     LESS_TERMCAP_us=$'\E[04;38;5;146m' \
  	man "$@"  
@@ -71,6 +94,7 @@ source ~/bin/git-completion.bash
 
 #PS1='\[\033[0;32m\]\u:\[\033[0;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]\$ \[\033[00m\]'
 PS1='\[\033[0;32m\]\u:\[\033[0;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
+#PS1='\[\033[0;32m\]\u:\W$ \[\033[00m\]'
 
 TERM='xterm-color'
 export EDITOR=vim
