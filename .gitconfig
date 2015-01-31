@@ -4,3 +4,7 @@
 [core]
 	editor = vim
 	excludesfile = /home/ian/.gitignore
+[push]
+	default = simple
+[alias]
+	net = log --graph --all --decorate
