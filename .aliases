@@ -25,4 +25,3 @@ alias gs='git status'
 alias gb='git branch'
 alias gn='git net'
 alias gp='git pull'
-alias gitgraph="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(black)- %an%C(reset)%C(bold red)%d%C(reset)' --all"
