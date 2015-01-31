@@ -46,7 +46,7 @@ PS1='\[\033[0;32m\]\u:\[\033[0;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]â
 
 # Look up a word
 function dict () {
-	curl dict://dict.org/d:$1 | less
+	curl -s dict://dict.org/d:$1 | less
 }
 
 # Color man pages
