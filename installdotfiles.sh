@@ -34,4 +34,6 @@ link_files () {
 }
 
 mkdir $HOME/gg
+mkdir $HOME/.ssh
 link_files "."
+mv $HOME/.sshconfig $HOME/.ssh/config
