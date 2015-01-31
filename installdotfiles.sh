@@ -4,7 +4,7 @@
 
 if [[ $(uname) == "Darwin" ]]; then
 	echo "Installing OSX specific configuration files"
-	echo "Installing dev tools"
+	link_files "osx"
 	echo "Installing Xcode"
 	xcode-select --install
 	echo "Installing Homebrew"
@@ -16,20 +16,22 @@ if [[ $(uname) == "Darwin" ]]; then
 		brew install $(cat osx/brewfiles)
 	fi
 	rm brewinstall
-	echo "Copying plists"
-	cp osx/com.apple.Terminal.plist ~/Library/Preferences/com.apple.Terminal.plist
 elif [[ $(uname) == "Linux" ]]; then
 	echo "Installing Linux specific configuration files"
-	mv linux/.* .
+	link_files "linux"
 else
 	echo "Unknown system. exiting"
 	exit
 fi
 
-mkdir $HOME/git
 
-for file in $(ls -a); do
-	if [[ $file != "." && $file != ".." && $file != "osx" && $file != "linux" && $file != "$0" ]]; then
-		ln $file $HOME/$file
-	fi
-done
+link_files (dir) {
+	for file in $(ls -a $dir); do
+		if [[ $file != "." && $file != ".." && $file != "osx" && $file != "linux" && $file != "$0" ]]; then
+			ln -s $file $HOME/$file
+		fi
+	done
+}
+
+mkdir $HOME/gg
+link_files "."
