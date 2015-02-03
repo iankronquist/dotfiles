@@ -60,3 +60,9 @@ man() {
     LESS_TERMCAP_us=$'\E[04;38;5;146m' \
  	man "$@"  
 }
+
+# Add ssh keys
+if [[ `ssh-add -l` != *'id_rsa_github'* ]]
+then
+	ssh-add ~/.ssh/id_rsa_github
+fi
