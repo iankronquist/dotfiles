@@ -26,3 +26,5 @@ alias gs='git status'
 alias gb='git branch'
 alias gn='git net'
 alias gp='git pull'
+
+alias ggp='cd ~/prose'
