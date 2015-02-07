@@ -11,7 +11,7 @@ autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile Makefile setlocal shiftwidth=4 tabstop=4
-autocmd BufRead,BufNewFile *yaml setlocal shiftwidth=2 tabstop=2
+autocmd BufRead,BufNewFile *yml setlocal shiftwidth=2 tabstop=2 expandtab
 " TODO: add actual golang syntax, don't just set the syntax to be like c
 autocmd BufRead,BufNewFile *.go setlocal shiftwidth=4 tabstop=4 syntax=c
 
