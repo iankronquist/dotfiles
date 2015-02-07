@@ -18,7 +18,6 @@ export EDITOR=vim
 
 # Set special colors for various things
 export CLICOLOR=1
-export LSCOLORS=GxFxCxDxBxegedabagaced
 # For GCC 4.9
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
