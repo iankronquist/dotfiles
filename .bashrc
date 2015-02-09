@@ -61,7 +61,11 @@ man() {
 }
 
 # Add ssh keys
-if [[ `ssh-add -l` != *'id_rsa_github'* ]]
+if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
 then
 	ssh-add ~/.ssh/id_rsa_github
+fi
+if ! [[ `ssh-add -l` =~ 'id_rsa_workstation' ]]
+then
+	ssh-add ~/.ssh/id_rsa_workstation
 fi
