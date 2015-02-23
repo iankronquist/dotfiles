@@ -8,3 +8,7 @@
 	default = simple
 [alias]
 	net = log --graph --all --decorate
+[color]
+    branch = auto
+    diff = auto
+    status = auto

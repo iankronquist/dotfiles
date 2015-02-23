@@ -8,10 +8,10 @@
 source $HOME/.aliases
 
 # Source my workflow script
-source ~/gg/gg/gg
+#source ~/gg/gg/gg
 
 # Source git auto complete script from the git git repo.
-source ~/bin/git-completion.bash
+#source ~/bin/git-completion.bash
 
 # Set editor
 export EDITOR=vim
@@ -24,9 +24,9 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 
 # Path munging!
 # Get the go version from brew
-export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
-export GOPATH=$HOME/gopath
-export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+#export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
+#export GOPATH=$HOME/gopath
+#export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
 
 export PATH="/usr/local/bin:$PATH:$HOME/bin/:$HOME/bin/bin:$GOPATH"
 
@@ -40,7 +40,7 @@ __git_ps1 ()
         printf "(%s)" "${b##refs/heads/}";
     fi
 }
-PS1='\[\033[0;32m\]\u:\[\033[0;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
+PS1='\[\033[0;32m\]\u:\[\033[0;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]$ \[\033[00m\]'
 
 # Handy scripts
 
@@ -61,8 +61,8 @@ man() {
  	man "$@"  
 }
 
-# Add ssh keys
-if [[ `ssh-add -l` != *'id_rsa_github'* ]]
-then
-	ssh-add ~/.ssh/id_rsa_github
-fi
+## Add ssh keys
+#if [[ `ssh-add -l` != *'id_rsa_github'* ]]
+#then
+#	ssh-add ~/.ssh/id_rsa_github
+#fi

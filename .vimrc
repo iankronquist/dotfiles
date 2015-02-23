@@ -21,7 +21,6 @@ autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell
 
 " Default settings for anything else
-set cc=80
 set shiftwidth=4
 set tabstop=4
 set ai
