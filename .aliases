@@ -29,3 +29,6 @@ alias gp='git pull'
 alias gf='git fetch'
 
 alias ggp='cd ~/prose'
+
+# This is prone to change and depends on both my .ssh/config and screen session
+alias irc="ssh -t onid 'screen -DR '19657"
