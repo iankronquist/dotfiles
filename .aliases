@@ -2,13 +2,14 @@
 
 alias v='vim'
 alias l=ls
+alias ls='ls --color=auto'
 alias ll='ls -la'
 alias sl='ls'
-alias opn=open
+alias opn=xdg-open
 alias venv=virtualenv
 alias grep='grep --color=auto'
 alias vus='vagrant up && vagrant ssh'
-alias pp='echo cd `pwd` | pbcopy'
+alias pp='echo cd `pwd` | xclip'
 
 alias rebash="exec bash"
 alias redoc='$(boot2docker shellinit)'
@@ -26,5 +27,8 @@ alias gs='git status'
 alias gb='git branch'
 alias gn='git net'
 alias gp='git pull'
+alias gf='git fetch'
 
 alias ggp='cd ~/prose'
+
+alias tkc="KITCHEN_YAML=.kitchen.cloud.yml kitchen $@"
