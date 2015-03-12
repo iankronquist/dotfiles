@@ -22,6 +22,9 @@ autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell
 
+" The file name for git commit messages
+autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
+
 " Default settings for anything else
 set cc=80
 set shiftwidth=4
