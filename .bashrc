@@ -16,6 +16,10 @@ source ~/bin/git-completion.bash
 # Set editor
 export EDITOR=vim
 
+# Log bash history
+export HISTTIMEFORMAT="%d/%m/%y %T "
+export HISTSIZE=10000
+
 # Set special colors for various things
 export CLICOLOR=1
 # For GCC 4.9
