@@ -32,3 +32,5 @@ alias gf='git fetch'
 alias ggp='cd ~/prose'
 
 alias tkc="KITCHEN_YAML=.kitchen.cloud.yml kitchen $@"
+
+alias irc="ssh -t puck 'screen -DR irc'"
