@@ -42,3 +42,8 @@ Host coreos
 	HostName 10.1.0.150
 	User iankronquist
 	IdentityFile ~/.ssh/id_rsa_osl_coreos
+
+Host puck
+	HostName 104.236.171.53
+	User ian
+	IdentitiesOnly=yes
