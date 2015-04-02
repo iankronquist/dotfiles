@@ -22,8 +22,8 @@ autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell
 
-" The file name for git commit messages
-autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
+" The file where git commit messages are stored while they're being edited
+autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
 
 " Default settings for anything else
 set cc=80
@@ -32,3 +32,6 @@ set tabstop=4
 set ai
 
 colorscheme seoul256
+autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
+
+set list listchars=tab:→\ ,trail:·
