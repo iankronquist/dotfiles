@@ -12,6 +12,7 @@ autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile Makefile setlocal shiftwidth=4 tabstop=4
 autocmd BufRead,BufNewFile *yml setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd BufRead,BufNewFile *rb setlocal shiftwidth=2 tabstop=2 expandtab
 " TODO: add actual golang syntax, don't just set the syntax to be like c
 autocmd BufRead,BufNewFile *.go setlocal shiftwidth=4 tabstop=4 syntax=c
 
@@ -21,6 +22,9 @@ autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell
 
+" The file where git commit messages are stored while they're being edited
+autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
+
 " Default settings for anything else
 set cc=80
 set shiftwidth=4
@@ -28,3 +32,6 @@ set tabstop=4
 set ai
 
 colorscheme seoul256
+autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
+
+set list listchars=tab:→\ ,trail:·
