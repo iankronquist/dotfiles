@@ -15,6 +15,8 @@ source $HOME/.aliases
 
 # Set editor
 export EDITOR=vim
+export HISTTIMEFORMAT="%d/%m/%y %T "
+export HISTSIZE=10000
 
 # Set special colors for various things
 #export CLICOLOR=1
