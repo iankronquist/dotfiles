@@ -31,4 +31,4 @@ alias gf='git fetch'
 alias ggp='cd ~/prose'
 
 # This is prone to change and depends on both my .ssh/config and screen session
-alias irc="ssh -t onid 'screen -DR '19657"
+alias irc="ssh -t puck 'screen -DR irc'"
