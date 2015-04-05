@@ -32,3 +32,5 @@ alias ggp='cd ~/prose'
 
 # This is prone to change and depends on both my .ssh/config and screen session
 alias irc="ssh -t puck 'screen -DR irc'"
+
+alias asleep='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
