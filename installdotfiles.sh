@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# A little hacky, but a lot simpler than some I've seen
-
 if [[ $(uname) == "Darwin" ]]; then
 	echo "Installing OSX specific configuration files"
 	link_files "osx"
@@ -16,24 +14,47 @@ if [[ $(uname) == "Darwin" ]]; then
 		brew install $(cat osx/brewfiles)
 	fi
 	rm brewinstall
+	brew install osx/brewfiles
 elif [[ $(uname) == "Linux" ]]; then
-	echo "Installing Linux specific configuration files"
-	link_files "linux"
-else
-	echo "Unknown system. exiting"
-	exit
+	linux = [".xinitrc,.xinitrc", ".Xresources,.Xresources",
+		".Xmodmap,.Xmodmap"]
+	linux_dirs = [".i3,.i3", ".backgrounds,.backgrounds"]
+	link_files $linux
+	link_directories $linux_dirs
 fi
 
+PREFIX=$HOME
+mkdir "$PREFIX/.ssh"
+mkdir $HOME/gg
 
-link_files () {
-	for file in $(ls -a $1); do
-		if [[ $file != "." && $file != ".." && $file != "osx" && $file != "linux" && $file != "$0" && $file != ".git" ]]; then
-			ln -s `pwd`/$file $HOME/$file
-		fi
+# All systems:
+all_systems = [".ssh/config,.sshconfig", ".gitconfig,.gitconfig",
+	".inputrc,.inputrc", ".bashrc,.bashrc", ".aliases,.aliases",
+	".vimrc,.vimrc"]
+all_systems_dirs = ["bin,bin", ".vim,.vim"]
+
+link_files $all_systems
+link_directories $all_systems_dirs
+
+link_files() {
+	HERE=$(PWD)
+	# $1 should be a list of comma separated src,dest tuples
+	for tuple in $1; do IFS=",";
+		set $tuple
+		echo $PREFIX/$1, $HERE/$2
+		#rm $PREFIX/$1
+		#ln -s $PREFIX/$1 $2
 	done
 }
 
-mkdir $HOME/gg
-mkdir $HOME/.ssh
-link_files "."
-mv $HOME/.sshconfig $HOME/.ssh/config
+
+link_directories() {
+	HERE=$(PWD)
+	# $1 should be a list of comma separated src,dest tuples
+	for tuple in $1; do IFS=",";
+		set $tuple
+		echo $PREFIX/$1, $HERE/$2
+		#rm $PREFIX/$1
+		#ln $PREFIX/$1 $2
+	done
+}
