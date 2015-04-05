@@ -1,0 +1,24 @@
+files:
+  bashrc:
+    dest: '.bashrc'
+    src: '.bashrc'
+  vimrc:
+    dest: '.vimrc'
+    src: '.vimrc'
+  inputrc:
+    dest: '.inputrc'
+    src: '.inputrc'
+  aliases:
+    dest: '.aliases'
+    src: '.aliases'
+  sshconfig:
+    dest: '.ssh/config'
+    src: '.sshconfig'
+
+directories:
+  bin:
+    dest: 'bin'
+    src: 'bin'
+  vim:
+    dest: '.vim'
+    src: '.vim'

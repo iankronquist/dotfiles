@@ -1,0 +1,41 @@
+---
+- hosts: puck
+  sudo: yes
+  tasks:
+
+  - name: 'rhel misc setup'
+      yum: name=git state=latest
+      yum: name=vim state=latest
+      when: ansible_os_family == 'RedHat'
+
+    - name: 'rhel C dev setup'
+      yum: name=make state=latest
+      yum: name=gcc state=latest
+      yum: name=gcc-c++ state=latest
+      when: ansible_os_family == 'RedHat'
+
+    - name: 'rhel python dev setup'
+      yum: name=python 
+      yum: name=python-devel state=latest
+      yum: name=python3 state=latest
+      yum: name=python3-devel state=latest
+      yum: name=pypy state=latest
+      when: ansible_os_family == 'RedHat'
+
+    - name: 'osx misc setup'
+      yum: name=git state=latest
+      yum: name=vim state=latest
+      when: ansible_os_family == 'Darwin'
+
+    - name: 'osx C dev setup'
+      yum: name=make state=latest
+      yum: name=gcc state=latest
+      when: ansible_os_family == 'Darwin'
+
+    - name: 'osx python dev setup'
+      yum: name=python 
+      yum: name=python-devel state=latest
+      yum: name=python3 state=latest
+      yum: name=python3-devel state=latest
+      yum: name=pypy state=latest
+      when: ansible_os_family == 'Darwin'
