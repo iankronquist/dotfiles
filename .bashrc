@@ -64,6 +64,10 @@ man() {
  	man "$@"  
 }
 
+function ash () {
+	ssh -t ash "bash -i -c \"ssh $@.workstation.osuosl.bak\""
+}
+
 # Add ssh keys
 if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
 then
