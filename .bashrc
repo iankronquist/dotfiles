@@ -25,11 +25,13 @@ export CLICOLOR=1
 # For GCC 4.9
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# Path munging!
-# Get the go version from brew
-export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
-export GOPATH=$HOME/gopath
-export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+if [[ $(uname) == "Darwin" ]]; then
+	# Path munging!
+	# Get the go version from brew
+	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
+	export GOPATH=$HOME/gopath
+	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+fi
 
 export PATH="/usr/local/bin:$PATH:$HOME/bin/:$HOME/bin/bin:$GOPATH"
 
@@ -68,12 +70,14 @@ function ash () {
 	ssh -t ash "bash -i -c \"ssh $@.workstation.osuosl.bak\""
 }
 
-# Add ssh keys
-if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
-then
-	ssh-add ~/.ssh/id_rsa_github
+if [[ $(uname) == "Darwin" ]]; then
+	# Add ssh keys
+	if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
+	then
+		ssh-add ~/.ssh/id_rsa_github
+	fi
+	if ! [[ `ssh-add -l` =~ 'id_rsa_workstation' ]]
+	then
+		ssh-add ~/.ssh/id_rsa_workstation
 fi
-if ! [[ `ssh-add -l` =~ 'id_rsa_workstation' ]]
-then
-	ssh-add ~/.ssh/id_rsa_workstation
-fi
+	fi
