@@ -14,6 +14,9 @@ if [[ $(uname) == "Darwin" ]]; then
 		brew install $(cat osx/brewfiles)
 	fi
 	rm brewinstall
+
+	osx = [".bash_profile,.bash_profile"]
+	link_files $osx
 	brew install osx/brewfiles
 elif [[ $(uname) == "Linux" ]]; then
 	linux = [".xinitrc,.xinitrc", ".Xresources,.Xresources",
