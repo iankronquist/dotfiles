@@ -24,6 +24,7 @@ elif [[ $(uname) == "Linux" ]]; then
 	alias opn='xdg-open'
 	alias pp='echo cd `pwd` | xclip'
 	alias ls='ls --color'
+	alias tkc="KITCHEN_YAML=.kitchen.cloud.yml kitchen $@"
 fi
 
 alias py=python
