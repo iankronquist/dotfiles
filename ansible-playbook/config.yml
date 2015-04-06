@@ -3,6 +3,11 @@
   tasks:
     - include_vars: vars.yml
 
+    - name: 'install gg'
+      git: repo=https://github.com/iankronquist/gg
+           dest={{ ansible_env.HOME }}/gg/gg
+           update=yes
+
     - name: 'get dotfiles'
       git: repo=https://github.com/iankronquist/dotfiles
            dest={{ ansible_env.HOME }}/dotfiles
