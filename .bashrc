@@ -31,6 +31,24 @@ if [[ $(uname) == "Darwin" ]]; then
 	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+elif [[ $(uname) == "Linux" ]]; then
+	#workstation specific settings
+	# OpenStack Variables
+	export OS_USERNAME=iankronquist
+	export OS_TENANT=OSL
+	#export OS_FLOATING_IP=10.1.100.90i # make sure to rename the ip to your name in the dns
+	export OS_SSH_PRIVATE_KEY=~/.ssh/workstation.pem # I suggest creating an openstack specific ssh key
+	export OS_SSH_PUBLIC_KEY=~/.ssh/workstation.pem.pub # I suggest creating an openstack specific ssh key
+	export OS_SSH_KEYPAIR=workstation # name it the same as your openstack account
+	export OS_PASSWORD=W8R09SRmqQNUS3zIiebg
+	export OS_AUTH_URL=http://openstack.osuosl.org:35357/v2.0/
+	export OS_SECURITY_GROUP_NO_FIREWALL=no-firewall
+	export OS_FLOATING_IP_POOL=nova
+	export OS_FLAVOR_REF=m1.small
+	#export KITCHEN_YAML=.kitchen.cloud.yml
+
+	export PATH=/home/iankronquist/.chefdk/gem/ruby/2.1.0/bin:/home/iankronquist/.chefdk/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/home/tschuy/.chefdk/gem/ruby/2.1.0/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin
+	export PATH=/opt/chefdk/bin:$PATH
 fi
 
 export PATH="/usr/local/bin:$PATH:$HOME/bin/:$HOME/bin/bin:$GOPATH"
@@ -79,5 +97,5 @@ if [[ $(uname) == "Darwin" ]]; then
 	if ! [[ `ssh-add -l` =~ 'id_rsa_workstation' ]]
 	then
 		ssh-add ~/.ssh/id_rsa_workstation
-fi
 	fi
+fi
