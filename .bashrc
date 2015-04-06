@@ -39,8 +39,8 @@ elif [[ $(uname) == "Linux" ]]; then
 	export OS_USERNAME=iankronquist
 	export OS_TENANT=OSL
 	#export OS_FLOATING_IP=10.1.100.90i # make sure to rename the ip to your name in the dns
-	export OS_SSH_PRIVATE_KEY=~/.ssh/workstation.pem # I suggest creating an openstack specific ssh key
-	export OS_SSH_PUBLIC_KEY=~/.ssh/workstation.pem.pub # I suggest creating an openstack specific ssh key
+	export OS_PRIVATE_SSH_KEY=~/.ssh/workstation.pem # I suggest creating an openstack specific ssh key
+	export OS_PUBLIC_SSH_KEY=~/.ssh/workstation.pem.pub # I suggest creating an openstack specific ssh key
 	export OS_SSH_KEYPAIR=workstation # name it the same as your openstack account
 	export OS_PASSWORD=W8R09SRmqQNUS3zIiebg
 	export OS_AUTH_URL=http://openstack.osuosl.org:35357/v2.0/
