@@ -22,6 +22,12 @@ be run with:
 	$ ansible-playbook ansible-playbook/install_packages.yml -i 'ash,puck,'
 ```
 
+To run ansible on your local machine:
+
+```sh
+	$ ansible-playbook config.yml -i 'localhost,' --connection=local
+```
+
 2. Just execute the inadequately tested `installdotfiles.sh` script.
 
 Files and their purposes
