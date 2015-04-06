@@ -33,8 +33,8 @@ if [[ $(uname) == "Darwin" ]]; then
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
 elif [[ $(uname) == "Linux" ]]; then
 	#workstation specific settings
-	keychain --quiet ~/.ssh/fir_rsa
-	keychain --quiet ~/.ssh/id_rsa_github
+	eval `keychain --eval id_rsa fir_rsa`
+	ssh-add ~/.ssh/workstation.pem
 	# OpenStack Variables
 	export OS_USERNAME=iankronquist
 	export OS_TENANT=OSL
