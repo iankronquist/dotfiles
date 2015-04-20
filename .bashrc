@@ -25,6 +25,8 @@ export CLICOLOR=1
 # For GCC 4.9
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+export N_PREFIX=$HOME/bin
+
 if [[ $(uname) == "Darwin" ]]; then
 	# Path munging!
 	# Get the go version from brew
@@ -51,6 +53,7 @@ elif [[ $(uname) == "Linux" ]]; then
 
 	export PATH=/home/iankronquist/.chefdk/gem/ruby/2.1.0/bin:/home/iankronquist/.chefdk/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/home/tschuy/.chefdk/gem/ruby/2.1.0/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin
 	export PATH=/opt/chefdk/bin:$PATH
+	export PATH=/home/iankronquist/bin/n/versions/node/0.12.2/bin:$PATH
 	export GG_NO_AUTOCOMPLETE=1
 fi
 
