@@ -7,6 +7,8 @@ au BufRead,BufNewFile *.rs setfiletype rust
 autocmd BufRead,BufNewFile *.py setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.js setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd BufRead,BufNewFile *.ts setlocal shiftwidth=2 tabstop=2 expandtab syntax=javascript
+autocmd BufRead,BufNewFile *.json setlocal shiftwidth=2 tabstop=2 expandtab syntax=javascript
 autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
