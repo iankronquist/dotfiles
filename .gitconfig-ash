@@ -1,0 +1,10 @@
+[user]
+	email = iankronquist@teleport.com
+	name = Ian Kronquist
+[core]
+	editor = vim
+	excludesfile = /home/ian/.gitignore
+[push]
+	default = matching
+[alias]
+	net = log --graph --all --decorate

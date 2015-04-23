@@ -18,6 +18,14 @@ files:
     dest: '.gitconfig'
     src: '.gitconfig'
 
+ash:
+  gitconfig:
+    dest: '.gitconfig'
+    src: '.gitconfig-ash'
+  vimrc:
+    dest: '.vimrc'
+    src: '.vimrc-ash'
+  
 
 directories:
   bin:
