@@ -7,6 +7,8 @@ au BufRead,BufNewFile *.rs setfiletype rust
 autocmd BufRead,BufNewFile *.py setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.js setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd BufRead,BufNewFile *.ts setlocal shiftwidth=2 tabstop=2 expandtab syntax=javascript
+autocmd BufRead,BufNewFile *.json setlocal shiftwidth=2 tabstop=2 expandtab syntax=javascript
 autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
@@ -30,6 +32,14 @@ set cc=80
 set shiftwidth=4
 set tabstop=4
 set ai
+set hlsearch
+
+" line numbers toggle
+nma <leader>n :set invnumber<CR>
+" wrapping toggle
+nma <leader>w :set wrap!<CR>
+" remove search highlights
+nma <leader>h :noh<CR>
 
 colorscheme seoul256
 autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell

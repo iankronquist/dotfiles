@@ -25,6 +25,8 @@ export CLICOLOR=1
 # For GCC 4.9
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+export N_PREFIX=$HOME/bin
+
 if [[ $(uname) == "Darwin" ]]; then
 	# Path munging!
 	# Get the go version from brew
@@ -39,8 +41,8 @@ elif [[ $(uname) == "Linux" ]]; then
 	export OS_USERNAME=iankronquist
 	export OS_TENANT=OSL
 	#export OS_FLOATING_IP=10.1.100.90i # make sure to rename the ip to your name in the dns
-	export OS_SSH_PRIVATE_KEY=~/.ssh/workstation.pem # I suggest creating an openstack specific ssh key
-	export OS_SSH_PUBLIC_KEY=~/.ssh/workstation.pem.pub # I suggest creating an openstack specific ssh key
+	export OS_PRIVATE_SSH_KEY=~/.ssh/workstation.pem # I suggest creating an openstack specific ssh key
+	export OS_PUBLIC_SSH_KEY=~/.ssh/workstation.pem.pub # I suggest creating an openstack specific ssh key
 	export OS_SSH_KEYPAIR=workstation # name it the same as your openstack account
 	export OS_PASSWORD=W8R09SRmqQNUS3zIiebg
 	export OS_AUTH_URL=http://openstack.osuosl.org:35357/v2.0/
@@ -51,6 +53,8 @@ elif [[ $(uname) == "Linux" ]]; then
 
 	export PATH=/home/iankronquist/.chefdk/gem/ruby/2.1.0/bin:/home/iankronquist/.chefdk/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/home/tschuy/.chefdk/gem/ruby/2.1.0/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin
 	export PATH=/opt/chefdk/bin:$PATH
+	export PATH=/home/iankronquist/bin/n/versions/node/0.12.2/bin:$PATH
+	export GG_NO_AUTOCOMPLETE=1
 fi
 
 export PATH="/usr/local/bin:$PATH:$HOME/bin/:$HOME/bin/bin:$GOPATH"
@@ -65,7 +69,7 @@ __git_ps1 ()
         printf "(%s)" "${b##refs/heads/}";
     fi
 }
-PS1='\[\033[0;32m\]\u@\h:\[\033[0;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
+PS1='\[\033[1;32m\]\u@\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
 
 # Handy scripts
 
@@ -84,10 +88,6 @@ man() {
     LESS_TERMCAP_ue=$'\E[0m' \
     LESS_TERMCAP_us=$'\E[04;38;5;146m' \
  	man "$@"  
-}
-
-function ash () {
-	ssh -t ash "bash -i -c \"ssh $@.workstation.osuosl.bak\""
 }
 
 if [[ $(uname) == "Darwin" ]]; then
