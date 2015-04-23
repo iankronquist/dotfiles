@@ -42,4 +42,4 @@
             src={{ ansible_env.HOME }}/dotfiles/{{ item.value.src }}
             state=link
             force=yes
-      with_dict: files
+      with_dict: ash
