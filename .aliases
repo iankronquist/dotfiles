@@ -19,12 +19,17 @@ if [[ $(uname) == "Darwin" ]]; then
 	alias gcc='gcc-4.9'
 	alias 'g++'='g++-4.9'
 
+	# This is prone to change and depends on both my .ssh/config and screen session
+	alias irc="mosh puck -- screen -DR irc"
 	alias asleep='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 elif [[ $(uname) == "Linux" ]]; then
 	alias opn='xdg-open'
 	alias pp='echo cd `pwd` | xclip'
 	alias ls='ls --color'
 	alias tkc="KITCHEN_YAML=.kitchen.cloud.yml kitchen $@"
+
+	# This is prone to change and depends on both my .ssh/config and screen session
+	alias irc="ssh puck -t \"screen -DR irc\""
 fi
 
 alias py=python
@@ -40,7 +45,4 @@ alias gp='git pull'
 alias gf='git fetch'
 
 alias ggp='cd ~/prose'
-
-# This is prone to change and depends on both my .ssh/config and screen session
-alias irc="ssh -t puck 'screen -DR irc'"
 
