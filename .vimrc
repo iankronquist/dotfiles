@@ -32,6 +32,14 @@ set cc=80
 set shiftwidth=4
 set tabstop=4
 set ai
+set hlsearch
+
+" line numbers toggle
+nma <leader>n :set invnumber<CR>
+" wrapping toggle
+nma <leader>w :set wrap!<CR>
+" remove search highlights
+nma <leader>h :noh<CR>
 
 colorscheme seoul256
 autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
