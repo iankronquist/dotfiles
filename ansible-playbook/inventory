@@ -1,6 +1,7 @@
 ash
 puck
 onid
+localhost  ansible_connection=local
 
 [old_vim]
 ash
