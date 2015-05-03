@@ -18,10 +18,12 @@ files:
     dest: '.gitconfig'
     src: '.gitconfig'
 
-ash:
+old_git:
   gitconfig:
     dest: '.gitconfig'
     src: '.gitconfig-ash'
+
+old_vim:
   vimrc:
     dest: '.vimrc'
     src: '.vimrc-ash'
