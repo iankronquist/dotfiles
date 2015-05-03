@@ -19,7 +19,7 @@ autocmd BufRead,BufNewFile *rb setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd BufRead,BufNewFile *.go setlocal shiftwidth=4 tabstop=4 syntax=c
 
 " Human readable files which typically contain prose
-autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t tw=79 syntax=off spell
+autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t tw=79 syntax=markdown spell
 autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t tw=79 spell
 autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell
