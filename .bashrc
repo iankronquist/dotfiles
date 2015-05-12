@@ -59,7 +59,7 @@ elif [[ $WORKSTATIONS =~ $(hostname) ]]; then
 	export GG_NO_AUTOCOMPLETE=1
 fi
 
-export PATH="/usr/local/bin:$PATH:$HOME/bin/:$HOME/bin/bin:$GOPATH"
+export PATH="/usr/local/bin:$HOME/bin/:$HOME/bin/bin:$GOPATH:$PATH"
 
 # Mess with my prompt
 
