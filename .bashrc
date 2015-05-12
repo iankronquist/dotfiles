@@ -27,13 +27,15 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 
 export N_PREFIX=$HOME/bin
 
+WORKSTATIONS="aqua blue cyan diamond emerald honey neon orange pink silver taupe violet xray yellow"
+
 if [[ $(uname) == "Darwin" ]]; then
 	# Path munging!
 	# Get the go version from brew
 	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
-elif [[ $(uname) == "Linux" ]]; then
+elif [[ $WORKSTATIONS =~ $(hostname) ]]; then
 	#workstation specific settings
 	eval `keychain --eval id_rsa fir_rsa`
 	ssh-add ~/.ssh/workstation.pem
