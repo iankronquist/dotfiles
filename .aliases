@@ -16,8 +16,8 @@ if [[ $(uname) == "Darwin" ]]; then
 	alias pp='echo cd `pwd` | pbcopy'
 	alias redoc='$(boot2docker shellinit)'
 
-	alias gcc='gcc-4.9'
-	alias 'g++'='g++-4.9'
+	alias gcc='gcc-5'
+	alias 'g++'='g++-5'
 
 	# This is prone to change and depends on both my .ssh/config and screen session
 	alias irc="mosh puck -- screen -DR irc"
