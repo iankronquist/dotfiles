@@ -27,7 +27,7 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 
 export N_PREFIX=$HOME/bin
 
-WORKSTATIONS="aqua blue cyan diamond emerald honey neon orange pink silver taupe violet xray yellow"
+WORKSTATIONS="aqua green blue cyan diamond emerald honey neon orange pink silver taupe violet xray yellow"
 
 if [[ $(uname) == "Darwin" ]]; then
 	# Path munging!
