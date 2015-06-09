@@ -34,6 +34,8 @@ set tabstop=4
 set ai
 set hlsearch
 
+" toggle paste
+nma <leader>p :set paste!<CR>
 " line numbers toggle
 nma <leader>n :set invnumber<CR>
 " wrapping toggle
