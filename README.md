@@ -7,11 +7,13 @@ Installation
 ------------
 There are two ways to install these dotfiles:
 1. Use ansible. This is the recommended method. Obviously ansible will need to
-be installed.
-If I have hosts named ash and puck in my ssh config, I can install my dotfiles
-on them by running:
+be installed using pip or your package manager of choice.
+To install these dotfiles to the hosts specified in the inventory in
+`ansible-playbook/inventory`, just run:
+
 ```sh
-	$ ansible-playbook ansible-playbook/config.yml -i 'ash,puck,'
+	$ ansible-playbook ~/dotfiles/ansible-playbook/config.yml -i ~/dotfiles/ansible-playbook/inventory
+
 ```
 
 Some packages like git will need to be installed to install the dotfiles. A
