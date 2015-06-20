@@ -9,3 +9,12 @@ ash
 [old_git]
 ash
 onid
+
+[new_git]
+puck
+localhost  ansible_connection=local
+
+[new_vim]
+puck
+onid
+localhost  ansible_connection=local

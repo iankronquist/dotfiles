@@ -33,6 +33,26 @@
             force=yes
       with_dict: directories
 
+- hosts: new_git
+  tasks:
+    - name: 'install configs for a new version of git'
+      file: path={{ ansible_env.HOME }}/item.value.dest state=absent
+      file: path={{ ansible_env.HOME }}/{{ item.value.dest }}
+            src={{ ansible_env.HOME }}/dotfiles/{{ item.value.src }}
+            state=link
+            force=yes
+      with_dict: new_git
+
+- hosts: new_vim
+  tasks:
+    - name: 'install configs for a new version of vim'
+      file: path={{ ansible_env.HOME }}/item.value.dest state=absent
+      file: path={{ ansible_env.HOME }}/{{ item.value.dest }}
+            src={{ ansible_env.HOME }}/dotfiles/{{ item.value.src }}
+            state=link
+            force=yes
+      with_dict: new_vim
+
 
 - hosts: old_git
   tasks:

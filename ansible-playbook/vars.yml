@@ -2,9 +2,6 @@ files:
   bashrc:
     dest: '.bashrc'
     src: '.bashrc'
-  vimrc:
-    dest: '.vimrc'
-    src: '.vimrc'
   inputrc:
     dest: '.inputrc'
     src: '.inputrc'
@@ -14,9 +11,6 @@ files:
   sshconfig:
     dest: '.ssh/config'
     src: '.sshconfig'
-  gitconfig:
-    dest: '.gitconfig'
-    src: '.gitconfig'
 
 old_git:
   gitconfig:
@@ -27,7 +21,16 @@ old_vim:
   vimrc:
     dest: '.vimrc'
     src: '.vimrc-ash'
-  
+
+new_git:
+  gitconfig:
+    dest: '.gitconfig'
+    src: '.gitconfig'
+
+new_vim:
+  vimrc:
+    dest: '.vimrc'
+    src: '.vimrc'
 
 directories:
   bin:
