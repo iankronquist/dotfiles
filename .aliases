@@ -23,6 +23,7 @@ if [[ $(uname) == "Darwin" ]]; then
 	# This is prone to change and depends on both my .ssh/config and screen session
 	alias irc="mosh puck -- screen -DR irc"
 	alias asleep='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+	alias deploy-dotfiles="ansible-playbook ~/dotfiles/ansible-playbook/config.yml -i ~/dotfiles/ansible-playbook/inventory"
 elif [[ $(uname) == "Linux" ]]; then
 	alias opn='xdg-open'
 	alias pp='echo cd `pwd` | xclip'
