@@ -72,7 +72,7 @@ __git_ps1 ()
     fi
 }
 
-hostnamecolor=$(hostname | od | tr ' ' '\n' | awk '{total = total + $1}END{print 31 + (total % 6)}')
+hostnamecolor=$(echo $(hostname) $(whoami) | od | tr ' ' '\n' | awk '{total = total + $1}END{print 31 + (total % 6)}')
 PS1="\[\033[1;32m\]\u@\[\033[${hostnamecolor}m\]\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]"
 
 # Handy scripts
