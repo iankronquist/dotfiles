@@ -48,7 +48,7 @@ Host puck
 	User ian
 	IdentityFile ~/.ssh/id_ecdsa_digital_ocean
 
-Host aqua blue cyan diamond emerald honey neon orange pink silver taupe violet xray yellow
+Host aqua blue cyan diamond emerald green honey neon orange pink silver taupe violet xray yellow
 	ProxyCommand ssh ash nc %h %p
 	User iankronquist
 	Hostname %h.workstation.osuosl.bak
