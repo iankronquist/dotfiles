@@ -35,6 +35,7 @@ if [[ $(uname) == "Darwin" ]]; then
 	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+	export PATH=/usr/local/opt/llvm/bin:$PATH
 elif [[ $WORKSTATIONS =~ $(hostname) ]]; then
 	#workstation specific settings
 	eval `keychain --eval id_rsa fir_rsa`
@@ -70,7 +71,9 @@ __git_ps1 ()
         printf "(%s)" "${b##refs/heads/}";
     fi
 }
-PS1='\[\033[1;32m\]\u@\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
+
+hostnamecolor=$(hostname | od | tr ' ' '\n' | awk '{total = total + $1}END{print 31 + (total % 6)}')
+PS1="\[\033[1;32m\]\u@\[\033[${hostnamecolor}m\]\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]"
 
 # Handy scripts
 
