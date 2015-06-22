@@ -52,3 +52,7 @@ Host aqua blue cyan diamond emerald green honey neon orange pink silver taupe vi
 	ProxyCommand ssh ash nc %h %p
 	User iankronquist
 	Hostname %h.workstation.osuosl.bak
+
+Host puppet
+	HostName mac-c02pr0bgg8wp.corp.puppetlabs.net
+	User iankronquist
