@@ -1,4 +1,5 @@
 " This is a comment
+set spell
 syntax on
 set number
 au BufRead,BufNewFile *.rs setfiletype rust
