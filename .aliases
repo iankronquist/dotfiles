@@ -50,3 +50,5 @@ alias gf='git fetch'
 alias ggp='cd ~/prose'
 alias jcheck="python -c 'import json; import sys; print(json.load(open(sys.argv[1])))'"
 alias cri="screen -DR irc"
+
+alias ppuppet="BUNDLE_GEMFILE=~/gg/puppet/Gemfile bundle exec puppet"
