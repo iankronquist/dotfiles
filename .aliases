@@ -46,6 +46,7 @@ alias gb='git branch'
 alias gn='git net'
 alias gp='git pull'
 alias gf='git fetch'
+alias gr='git grep'
 
 alias ggp='cd ~/prose'
 alias jcheck="python -c 'import json; import sys; print(json.load(open(sys.argv[1])))'"
