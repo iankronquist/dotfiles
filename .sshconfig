@@ -56,3 +56,7 @@ Host aqua blue cyan diamond emerald green honey neon orange pink silver taupe vi
 Host puppet
 	HostName mac-c02pr0bgg8wp.corp.puppetlabs.net
 	User iankronquist
+
+Host os-class
+	Hostname os-class.engr.oregonstate.edu
+	ProxyCommand ssh onid nc %h %p
