@@ -11,6 +11,9 @@ files:
   sshconfig:
     dest: '.ssh/config'
     src: '.sshconfig'
+  tmuxconf:
+    dest: '.tmux.conf'
+    src: '.tmux.conf'
 
 old_git:
   gitconfig:
