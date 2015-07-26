@@ -1,3 +1,6 @@
+#!/usr/local/bin/python
+# Use the brew python
+
 import json
 from os import path
 import subprocess
