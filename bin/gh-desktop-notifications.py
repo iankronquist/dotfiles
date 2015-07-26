@@ -11,7 +11,6 @@ config_path = '~/.gh-desktop-notifications.json'
 title = 'GitHub Notifications'
 
 
-
 def main():
     config_file = path.expanduser(config_path)
     with open(config_file, 'r') as f:
@@ -21,12 +20,15 @@ def main():
     r = requests.get(url)
     notifications = r.json()
     if notifications != []:
-        text = map(lambda s: shlex.quote(s), notifications)
-        text = ' '.join(text)
+        repo_names = map(lambda obj: "{}: {}".format(
+                         obj.get('repository').get('name'),
+                         obj.get('subject').get('title')),
+                         notifications
+                         )
+        text = ' '.join(repo_names)
         full_command = config.get('script').format(title=title, text=text)
         full_command = shlex.split(full_command)
         subprocess.call(full_command)
-
 
 
 if __name__ == '__main__':
