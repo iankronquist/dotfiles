@@ -73,3 +73,10 @@
             state=link
             force=yes
       with_dict: old_vim
+
+- hosts: laptops
+  tasks:
+    - name: 'GitHub notifications'
+      cron: name='GitHub notifications'
+            minute='*/5'
+            job='bin/gh-desktop-notifications.py'
