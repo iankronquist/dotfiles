@@ -72,6 +72,26 @@ __git_ps1 ()
 }
 PS1='\[\033[1;32m\]\u@\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
 
+
+if [[ $(hostname) =~ "puppettop" ]]; then
+	listvm()
+	{
+		curl --url http://vcloud.delivery.puppetlabs.net/vm 2> /dev/null | ruby -e 'require "json"; JSON.parse(STDIN.read).each { |vm| puts vm }'
+	}
+	getvm() {
+		curl -d --url http://vcloud.delivery.puppetlabs.net/vm/$1 2> /dev/null | ruby -e 'require "json"; resp = JSON.parse(STDIN.read); puts resp["'$1'"]["hostname"]'
+	}
+	sshvm() {
+		ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa-acceptance root@$1 "${@:2}"
+	}
+	rmvm() {
+		curl -X DELETE --url http://vcloud.delivery.puppetlabs.net/vm/$1
+	}
+	winsshvm() {
+		# msiexec /i http://downloads.puppetlabs.com/windows/puppet-agent-x64-latest.msi
+		ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa-acceptance Administrator@$1 "${@:2}"
+	}
+fi
 # Handy scripts
 
 # Look up a word
