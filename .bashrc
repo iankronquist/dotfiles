@@ -35,6 +35,7 @@ if [[ $(uname) == "Darwin" ]]; then
 	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+	export PATH=/usr/local/opt/llvm/bin:$PATH:/usr/local/opt/llvm/share/llvm
 elif [[ $WORKSTATIONS =~ $(hostname) ]]; then
 	#workstation specific settings
 	eval `keychain --eval id_rsa fir_rsa`
@@ -53,6 +54,7 @@ elif [[ $WORKSTATIONS =~ $(hostname) ]]; then
 	export OS_FLAVOR_REF=m1.small
 	#export KITCHEN_YAML=.kitchen.cloud.yml
 
+	# FIXME: clean this mess up.
 	export PATH=/home/iankronquist/.chefdk/gem/ruby/2.1.0/bin:/home/iankronquist/.chefdk/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/home/tschuy/.chefdk/gem/ruby/2.1.0/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin
 	export PATH=/opt/chefdk/bin:$PATH
 	export PATH=/home/iankronquist/bin/n/versions/node/0.12.2/bin:$PATH
@@ -73,21 +75,27 @@ __git_ps1 ()
 PS1='\[\033[1;32m\]\u@\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
 
 
+# FIXME: This is a hack, and I should be smarter about my configuration management
 if [[ $(hostname) =~ "puppettop" ]]; then
-	listvm()
+	command -v rbenv
+	if [[ $? == 0 ]]; then
+		eval "$(rbenv init -)";
+	fi
+
+	vmlist()
 	{
 		curl --url http://vcloud.delivery.puppetlabs.net/vm 2> /dev/null | ruby -e 'require "json"; JSON.parse(STDIN.read).each { |vm| puts vm }'
 	}
-	getvm() {
+	vmget() {
 		curl -d --url http://vcloud.delivery.puppetlabs.net/vm/$1 2> /dev/null | ruby -e 'require "json"; resp = JSON.parse(STDIN.read); puts resp["'$1'"]["hostname"]'
 	}
-	sshvm() {
+	vmssh() {
 		ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa-acceptance root@$1 "${@:2}"
 	}
-	rmvm() {
+	vmrm() {
 		curl -X DELETE --url http://vcloud.delivery.puppetlabs.net/vm/$1
 	}
-	winsshvm() {
+	vmwinssh() {
 		# msiexec /i http://downloads.puppetlabs.com/windows/puppet-agent-x64-latest.msi
 		ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa-acceptance Administrator@$1 "${@:2}"
 	}
