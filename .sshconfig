@@ -1,3 +1,5 @@
+IdentitiesOnly yes
+
 Host onid
 	HostName shell.onid.oregonstate.edu
 	User kronquii
