@@ -39,6 +39,7 @@ alias py=python
 alias py3=python3
 
 alias gco='git checkout'
+alias gcb='git checkout -b'
 alias ga='git add'
 alias gd='git diff'
 alias gs='git status'
@@ -48,6 +49,7 @@ alias gp='git pull'
 alias gf='git fetch'
 alias gr='git grep'
 alias gfwl='git push --force-with-lease'
+alias gdn='git diff --name-only'
 
 alias ggp='cd ~/prose'
 alias jcheck="python -c 'import json; import sys; print(json.load(open(sys.argv[1])))'"
