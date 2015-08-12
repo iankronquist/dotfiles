@@ -77,10 +77,7 @@ PS1='\[\033[1;32m\]\u@\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m
 
 # FIXME: This is a hack, and I should be smarter about my configuration management
 if [[ $(hostname) =~ "puppettop" ]]; then
-	command -v rbenv
-	if [[ $? == 0 ]]; then
-		eval "$(rbenv init -)";
-	fi
+	eval "$(rbenv init -)";
 
 	vmlist()
 	{
