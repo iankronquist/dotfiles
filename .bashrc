@@ -116,14 +116,15 @@ man() {
  	man "$@"  
 }
 
-if [[ $(uname) == "Darwin" ]]; then
+if [[ $(hostname) == "kartal" ]]; then
 	# Add ssh keys
-	if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
-	then
-		ssh-add ~/.ssh/id_rsa_github
-	fi
 	if ! [[ `ssh-add -l` =~ 'id_rsa_workstation' ]]
 	then
 		ssh-add ~/.ssh/id_rsa_workstation
 	fi
+fi
+
+if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
+then
+	ssh-add ~/.ssh/id_rsa_github
 fi
