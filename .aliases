@@ -1,6 +1,6 @@
 # vim: set ft=bash
 
-alias v='vim'
+alias v='vim -p'
 alias l=ls
 alias ll='ls -la'
 alias sl='ls'
