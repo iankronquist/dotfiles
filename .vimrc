@@ -5,18 +5,24 @@ set number
 au BufRead,BufNewFile *.rs setfiletype rust
 
 " Tab settings for various languages
+" Python follows pep8
 autocmd BufRead,BufNewFile *.py setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 expandtab
+" javascript follows AirBnB style guide, which the OSL uses
 autocmd BufRead,BufNewFile *.js setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd BufRead,BufNewFile *.ts setlocal shiftwidth=2 tabstop=2 expandtab syntax=javascript
 autocmd BufRead,BufNewFile *.json setlocal shiftwidth=2 tabstop=2 expandtab syntax=javascript
+" C++ follows whatever style Puppet uses
 autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
+autocmd BufRead,BufNewFile *.cc setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
+" Make actually uses tabs
 autocmd BufRead,BufNewFile Makefile setlocal shiftwidth=4 tabstop=4
 autocmd BufRead,BufNewFile *yml setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd BufRead,BufNewFile *rb setlocal shiftwidth=2 tabstop=2 expandtab
-autocmd BufRead,BufNewFile *pp setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
+" These are ruby DSLs, or very similar to ruby
+autocmd BufRead,BufNewFile *.pp setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
 autocmd BufRead,BufNewFile Gemfile setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
 autocmd BufRead,BufNewFile Vagrantfile setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
 " TODO: add actual golang syntax, don't just set the syntax to be like c
