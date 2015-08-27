@@ -40,6 +40,7 @@ alias py3=python3
 
 alias gco='git checkout'
 alias gcb='git checkout -b'
+alias gc='git commit'
 alias ga='git add'
 alias gd='git diff'
 alias gs='git status'
