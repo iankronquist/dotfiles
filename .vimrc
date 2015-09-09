@@ -43,6 +43,7 @@ set shiftwidth=4
 set tabstop=4
 set ai
 set hlsearch
+let @g = "Orequire 'pry';binding.pry"
 
 " toggle paste
 nma <leader>p :set paste!<CR>
