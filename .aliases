@@ -59,3 +59,5 @@ alias cri="screen -DR irc"
 alias ppuppet="BUNDLE_GEMFILE=~/gg/puppet/Gemfile bundle exec puppet"
 
 alias grind='find . | grep '
+
+alias pyclean="find . -type f -name '*.pyc' -delete"
