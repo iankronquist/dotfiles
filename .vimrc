@@ -44,6 +44,7 @@ set tabstop=4
 set ai
 set hlsearch
 let @g = "Orequire 'pry';binding.pry"
+let @h = "Oimport pdb;pdb.set_trace()"
 
 " toggle paste
 nma <leader>p :set paste!<CR>
