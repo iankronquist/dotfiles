@@ -43,8 +43,13 @@ set shiftwidth=4
 set tabstop=4
 set ai
 set hlsearch
+
+" Insert breakpoints
 let @g = "Orequire 'pry';binding.pry"
 let @h = "Oimport pdb;pdb.set_trace()"
+
+" Clear trailing whitespace
+let @w = ":%s/\\s\\+$//"
 
 " toggle paste
 nma <leader>p :set paste!<CR>
