@@ -65,11 +65,14 @@ set incsearch           " search as characters are entered
 
 " za folds
 
-" Set breakpoints
+" Insert breakpoints
 let @g = "Orequire 'pry';binding.pry"
 let @h = "Oimport pdb;pdb.set_trace()"
 " Clean trailing whitespace
 let @w = ":%s/\s\+$//g"
+
+" Clear trailing whitespace
+let @w = ":%s/\\s\\+$//"
 
 " toggle paste
 nma <leader>p :set paste!<CR>
