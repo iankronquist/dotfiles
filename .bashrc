@@ -116,6 +116,22 @@ man() {
  	man "$@"  
 }
 
+# Taken from "rbenv init -"
+rbenv() {
+  typeset command
+  command="$1"
+  if [ "$#" -gt 0 ]; then
+    shift
+  fi
+
+  case "$command" in
+  rehash|shell)
+    eval `rbenv "sh-$command" "$@"`;;
+  *)
+    command rbenv "$command" "$@";;
+  esac
+}
+
 if [[ $(hostname) == "kartal" ]]; then
 	# Add ssh keys
 	if ! [[ `ssh-add -l` =~ 'id_rsa_workstation' ]]
