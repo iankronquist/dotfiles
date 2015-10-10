@@ -6,29 +6,30 @@ It's handy to keep your dotfiles under source control
 Installation
 ------------
 There are two ways to install these dotfiles:
+
 1. Use ansible. This is the recommended method. Obviously ansible will need to
-be installed using pip or your package manager of choice.
-To install these dotfiles to the hosts specified in the inventory in
-`ansible-playbook/inventory`, just run:
-
-```sh
-	$ ansible-playbook ~/dotfiles/ansible-playbook/config.yml -i ~/dotfiles/ansible-playbook/inventory
-
-```
-
-Some packages like git will need to be installed to install the dotfiles. A
-playbook to install git and some common C, C++, and Python developer tools can
-be run with:
-
-```sh
-	$ ansible-playbook ansible-playbook/install_packages.yml -i 'ash,puck,'
-```
-
-To run ansible on your local machine:
-
-```sh
-	$ ansible-playbook config.yml -i 'localhost,' --connection=local
-```
+   be installed using pip or your package manager of choice.
+   To install these dotfiles to the hosts specified in the inventory in
+   `ansible-playbook/inventory`, just run:
+   
+   ```sh
+   	$ ansible-playbook ~/dotfiles/ansible-playbook/config.yml -i ~/dotfiles/ansible-playbook/inventory
+   
+   ```
+   
+   Some packages like git will need to be installed to install the dotfiles. A
+   playbook to install git and some common C, C++, and Python developer tools can
+   be run with:
+   
+   ```sh
+   	$ ansible-playbook ansible-playbook/install_packages.yml -i 'ash,puck,'
+   ```
+   
+   To run ansible on your local machine:
+   
+   ```sh
+   	$ ansible-playbook config.yml -i 'localhost,' --connection=local
+   ```
 
 2. Just execute the inadequately tested `installdotfiles.sh` script.
 
