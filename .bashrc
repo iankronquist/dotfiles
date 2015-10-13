@@ -29,6 +29,7 @@ export N_PREFIX=$HOME/bin
 
 WORKSTATIONS="aqua green blue cyan diamond emerald honey neon orange pink silver taupe violet xray yellow"
 
+export PATH=$HOME/.rbenv/shims:$PATH
 if [[ $(uname) == "Darwin" ]]; then
 	# Path munging!
 	# Get the go version from brew
