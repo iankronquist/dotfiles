@@ -1,7 +1,7 @@
 ash
 puck
 onid
-localhost  ansible_connection=local
+localhost  ansible_connection=local ansible_python_interpreter=python2
 
 [old_vim]
 ash
@@ -12,12 +12,12 @@ onid
 
 [new_git]
 puck
-localhost  ansible_connection=local
+localhost  ansible_connection=local ansible_python_interpreter=python2
 
 [new_vim]
 puck
 onid
-localhost  ansible_connection=local
+localhost  ansible_connection=local ansible_python_interpreter=python2
 
 [laptops]
-localhost  ansible_connection=local
+localhost  ansible_connection=local ansible_python_interpreter=python2
