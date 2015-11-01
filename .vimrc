@@ -36,7 +36,7 @@ augroup configgroup
 	" Human readable files which typically contain prose
 	autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t tw=79 syntax= spell
 	autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
-	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t tw=79 spell expandtab
+	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
 	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell
 
 	" The file where git commit messages are stored while they're being edited
@@ -68,8 +68,6 @@ set incsearch           " search as characters are entered
 " Insert breakpoints
 let @g = "Orequire 'pry';binding.pry"
 let @h = "Oimport pdb;pdb.set_trace()"
-" Clean trailing whitespace
-let @w = ":%s/\s\+$//g"
 
 " Clear trailing whitespace
 let @w = ":%s/\\s\\+$//"
