@@ -1,0 +1,25 @@
+---
+- hosts: localhost
+  sudo: true
+  tasks:
+
+    - name: 'arch misc setup'
+      pacman: name=git state=latest
+      pacman: name=vim state=latest
+      when: ansible_os_family == 'Archlinux'
+
+    - name: 'arch C dev setup'
+      pacman: name=make state=latest
+      pacman: name=gcc state=latest
+      pacman: name=clang state=latest
+      when: ansible_os_family == 'Archlinux'
+
+    - name: 'arch python dev setup'
+      pacman: name=python
+      pacman: name=python-dev state=latest
+      pacman: name=python2 state=latest
+      pacman: name=python2-dev state=latest
+      pacman: name=pypy state=latest
+      when: ansible_os_family == 'Archlinux'
+
+
