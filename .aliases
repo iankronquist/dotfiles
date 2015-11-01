@@ -19,6 +19,10 @@ if [[ $(uname) == "Darwin" ]]; then
 
 	alias gcc='gcc-5'
 	alias 'g++'='g++-5'
+	alias gcov=gcov-5
+
+	# Use special homebrew llvm gcov
+	alias lcov='/usr/local/opt/llvm/bin/llvm-cov'
 
 	# This is prone to change and depends on both my .ssh/config and screen session
 	alias irc="mosh puck -- screen -DR irc"
@@ -52,12 +56,21 @@ alias gr='git grep'
 alias gfwl='git push --force-with-lease'
 alias gdn='git diff --name-only'
 
+alias :tabe='vim -p'
+
 alias ggp='cd ~/prose'
-alias jcheck="python -c 'import json; import sys; print(json.load(open(sys.argv[1])))'"
+alias jcheck="python -m json.tool"
+
 alias cri="screen -DR irc"
 
 alias ppuppet="BUNDLE_GEMFILE=~/gg/puppet/Gemfile bundle exec puppet"
 
-alias grind='find . | grep '
+grind () {
+	find ${2:-.} | grep $1
+}
+
+alias hgr='history | grep'
 
 alias pyclean="find . -type f -name '*.pyc' -delete"
+
+alias people='scp $1 onid:public_html'
