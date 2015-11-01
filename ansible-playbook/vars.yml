@@ -1,4 +1,7 @@
 files:
+  bash_profile:
+    dest: '.bash_profile'
+    src: '.bash_profile'
   bashrc:
     dest: '.bashrc'
     src: '.bashrc'
