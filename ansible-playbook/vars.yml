@@ -15,6 +15,19 @@ files:
     dest: '.tmux.conf'
     src: '.tmux.conf'
 
+linuxfiles:
+  .xinitrc:
+    dest: '.xinitrc'
+    src: 'linux/.xinitrc'
+  .Xmodmap:
+    dest: '.Xmodmap'
+    src: 'linux/.Xmodmap'
+
+linuxdirs:
+  .i3:
+    dest: '.i3'
+    src: 'linux/.i3'
+
 old_git:
   gitconfig:
     dest: '.gitconfig'
