@@ -1,5 +1,14 @@
 XTerm*faceName: Liberation Mono
-xterm*faceSize: 18
+
+Xft.dpi: 180
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+xterm*faceSize: 14
 !xterm*vt100*geometry: 80x60
 xterm*saveLines: 16000
 xterm*loginShell: true
