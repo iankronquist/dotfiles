@@ -19,6 +19,9 @@ files:
     src: '.tmux.conf'
 
 linuxfiles:
+  .Xresources:
+    dest: '.Xresources'
+    src: 'linux/.Xresources'
   .xinitrc:
     dest: '.xinitrc'
     src: 'linux/.xinitrc'
