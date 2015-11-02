@@ -44,6 +44,7 @@
       pacman: name=dmenu state=latest
       pacman: name=nvidia state=latest
       pacman: name=xterm state=latest
+      pacman: name=firefox state=latest
       when: ansible_os_family == 'Archlinux'
 
 
