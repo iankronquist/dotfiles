@@ -56,9 +56,10 @@
       pacman: name=xorg-xinit state=latest
       pacman: name=i3 state=latest
       pacman: name=dmenu state=latest
-      pacman: name=nvidia state=latest
+      pacman: name=nouveau state=latest
       pacman: name=xclip state=latest
-      pacman: name=xterm state=latest
+      pacman: name=rxvt-unicode state=latest
+      pacman: name=urxvt-perls state=latest
       pacman: name=firefox state=latest
       when: ansible_os_family == 'Archlinux'
 
