@@ -30,6 +30,12 @@
             force=yes
       when: ansible_os_family == 'Archlinux'
 
+    - name: 'copy configs to /etc'
+      copy: src={{ item }} dest=/etc
+      with_fileglob:
+        - ../arch/etc/*
+      when: ansible_os_family == 'Archlinux'
+
 
     - name: 'Set up gui'
       pacman: name=xorg state=latest
