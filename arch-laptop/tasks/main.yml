@@ -33,7 +33,7 @@
     - name: 'copy configs to /etc'
       copy: src={{ item }} dest=/etc
       with_fileglob:
-        - ../arch/etc
+        - etc
       when: ansible_os_family == 'Archlinux'
 
     # Hack because ansible doesn't do recursive copy -- what the hell??
