@@ -15,11 +15,29 @@
       when: ansible_os_family == 'Archlinux'
 
     - name: 'arch python dev setup'
-      pacman: name=python
+      pacman: name=python state=latest
       pacman: name=python-dev state=latest
       pacman: name=python2 state=latest
       pacman: name=python2-dev state=latest
       pacman: name=pypy state=latest
+      when: ansible_os_family == 'Archlinux'
+
+    - name: 'symlink localtime'
+      file: path=/etc/localtime state=absent
+      file: path=/etc/localtime
+            src=/usr/share/zoneinfo/America/Los_Angeles
+            state=link
+            force=yes
+      when: ansible_os_family == 'Archlinux'
+
+
+    - name: 'Set up gui'
+      pacman: name=xorg state=latest
+      pacman: name=xorg-xinit state=latest
+      pacman: name=i3 state=latest
+      pacman: name=dmenu state=latest
+      pacman: name=nvidia state=latest
+      pacman: name=xterm state=latest
       when: ansible_os_family == 'Archlinux'
 
 
