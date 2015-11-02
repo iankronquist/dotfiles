@@ -36,3 +36,59 @@ xterm.color6: #93d1b2
 xterm*color14: #17d1b2
 xterm*color7: #eeeeee
 xterm*color15: #ffffff
+
+
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.imLocale: en_US.utf8
+URxvt.termName: screen-256color-bce
+URxvt.fading: 0
+URxvt.saveLines: 65535
+URxvt.visualBall: true
+URxvt.lineSpace: 1
+
+URxvt.perl-ext-common: default,url-select,font-size
+
+URxvt.font: xft:monaco:size=9,
+!URxvt.font: xft:Source Code Pro for Powerline:style=regular:size=24, \
+!            xft:Ubuntu Mono:style=Regular:size=24
+! launchers
+URxvt.url-select.launcher: urxvt_launcher
+URxvt.url-select.underline: true
+URxvt.url-select.button: 3
+URxvt.matcher.pattern.1: \\b(https?:\/\/[^ ]+)\\b
+URxvt.matcher.pattern.2: \\b(([Bb][Uu][Gg]) ?#?[0-9]+)\\b
+
+URxvt.iso14755_52: false
+URxvt.iso14755: false
+
+! Fake transparency
+URxvt.inheritPixmap: true
+URxvt.transparent: true
+URxvt.shading: 0
+URxvt.tintColor: white
+
+! Bindings
+URxvt.keysym.C-Up: perl:font-size:increase
+URxvt.keysym.C-Down: perl:font-size:decrease
+
+URxvt*background: #333333
+URxvt*foreground: #ffffe2
+URxvt.color0: #333333
+URxvt*color8: #666666
+URxvt.color1: #d15517
+URxvt*color9: #d11723
+URxvt.color2: #36b217
+URxvt*color10: #00d56a
+URxvt.color3: #d1b217
+URxvt*color11: #ffea55
+URxvt*color4: #55aaff
+URxvt*color12: #1793d1
+URxvt*color5: #b217d1
+URxvt*color13: #d11793
+URxvt.color6: #93d1b2
+URxvt*color14: #17d1b2
+URxvt*color7: #eeeeee
+URxvt*color15: #ffffff
+
+
