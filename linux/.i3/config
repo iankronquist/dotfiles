@@ -194,5 +194,3 @@ bindsym $mod+x exec --no-startup-id i3lock
 
 #exec --no-startup-id feh --bg-stretch ~/.backgrounds/background.png
 exec --no-startup-id feh --bg-scale ~/.backgrounds/background
-
-exec --no-startup-id dropboxd start
