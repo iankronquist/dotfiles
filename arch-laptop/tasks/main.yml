@@ -30,14 +30,37 @@
             force=yes
       when: ansible_os_family == 'Archlinux'
 
+    - name: 'copy configs to /etc'
+      copy: src={{ item }} dest=/etc
+      with_fileglob:
+        - etc
+      when: ansible_os_family == 'Archlinux'
+
+    # Hack because ansible doesn't do recursive copy -- what the hell??
+    # - name: 'copy xorg configs to /etc'
+    #   copy: src={{ item }} dest=/etc/X11/xorg.conf.d
+    #   with_fileglob:
+    #     - ../arch/etc/X11/xorg.conf.d/*
+    #   when: ansible_os_family == 'Archlinux'
+
+    # - name: 'copy xorg configs to /etc'
+    #   copy: src={{ item }} dest=/etc/modprobe.d
+    #   with_fileglob:
+    #     - ../arch/etc/modprobe.d/*
+    #   when: ansible_os_family == 'Archlinux'
+
+
 
     - name: 'Set up gui'
       pacman: name=xorg state=latest
       pacman: name=xorg-xinit state=latest
       pacman: name=i3 state=latest
       pacman: name=dmenu state=latest
-      pacman: name=nvidia state=latest
-      pacman: name=xterm state=latest
+      pacman: name=nouveau state=latest
+      pacman: name=xclip state=latest
+      pacman: name=rxvt-unicode state=latest
+      pacman: name=urxvt-perls state=latest
+      pacman: name=firefox state=latest
       when: ansible_os_family == 'Archlinux'
 
 

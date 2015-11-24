@@ -1,3 +1,4 @@
 .vim/.netrwhist
 bin/*
 .openstack_password
+.*.swp
