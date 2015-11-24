@@ -37,7 +37,7 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t tw=79 syntax= spell
 	autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
-	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell
+	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
 
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
