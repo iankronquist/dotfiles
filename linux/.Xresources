@@ -41,7 +41,7 @@ xterm*color15: #ffffff
 URxvt.scrollBar: false
 URxvt.cursorBlink: true
 URxvt.imLocale: en_US.utf8
-URxvt.termName: screen-256color-bce
+URxvt.termName: screen-256color
 URxvt.fading: 0
 URxvt.saveLines: 65535
 URxvt.visualBall: true
