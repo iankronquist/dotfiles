@@ -1,4 +1,6 @@
 XTerm*faceName: Liberation Mono
+Xcursor.size: 32
+
 
 Xft.dpi: 180
 Xft.autohint: 0
@@ -39,7 +41,7 @@ xterm*color15: #ffffff
 
 
 URxvt.scrollBar: false
-URxvt.cursorBlink: true
+URxvt.cursorBlink: false
 URxvt.imLocale: en_US.utf8
 URxvt.termName: screen-256color
 URxvt.fading: 0

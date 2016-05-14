@@ -28,6 +28,10 @@ linuxfiles:
   .Xmodmap:
     dest: '.Xmodmap'
     src: 'linux/.Xmodmap'
+  .Xmodmap:
+    dest: '.i3status.conf'
+    src: 'linux/.3status.conf'
+
 
 linuxdirs:
   .i3:

@@ -27,9 +27,6 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 
 export N_PREFIX=$HOME/bin
 
-WORKSTATIONS="aqua green blue cyan diamond emerald honey neon orange pink silver taupe violet xray yellow"
-
-export PATH=$HOME/.rbenv/shims:$PATH
 if [[ $(uname) == "Darwin" ]]; then
 	export HOMEBREW_NO_ANALYTICS=1
 	# Path munging!
@@ -38,28 +35,6 @@ if [[ $(uname) == "Darwin" ]]; then
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
 	export PATH=/Library/TeX/Root/bin/x86_64-darwin/:$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin:$GOPATH/bin
-elif [[ $WORKSTATIONS =~ $(hostname) ]]; then
-	#workstation specific settings
-	eval `keychain --eval id_rsa fir_rsa`
-	ssh-add ~/.ssh/workstation.pem
-	# OpenStack Variables
-	export OS_USERNAME=iankronquist
-	export OS_TENANT=OSL
-	#export OS_FLOATING_IP=10.1.100.90i # make sure to rename the ip to your name in the dns
-	export OS_PRIVATE_SSH_KEY=~/.ssh/workstation.pem # I suggest creating an openstack specific ssh key
-	export OS_PUBLIC_SSH_KEY=~/.ssh/workstation.pem.pub # I suggest creating an openstack specific ssh key
-	export OS_SSH_KEYPAIR=workstation # name it the same as your openstack account
-	export OS_PASSWORD=`cat $HOME/.openstack_password`
-	export OS_AUTH_URL=http://openstack.osuosl.org:35357/v2.0/
-	export OS_SECURITY_GROUP_NO_FIREWALL=no-firewall
-	export OS_FLOATING_IP_POOL=nova
-	export OS_FLAVOR_REF=m1.small
-	#export KITCHEN_YAML=.kitchen.cloud.yml
-
-	# FIXME: clean this mess up.
-	export PATH=/home/iankronquist/.chefdk/gem/ruby/2.1.0/bin:/home/iankronquist/.chefdk/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/home/tschuy/.chefdk/gem/ruby/2.1.0/bin:/usr/local/bin:/home/iankronquist/bin:/home/iankronquist/.rvm/bin:/opt/chef/bin:/opt/chef/embedded/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin::/home/iankronquist/bin/:/home/iankronquist/bin/bin
-	export PATH=/opt/chefdk/bin:$PATH
-	export PATH=/home/iankronquist/bin/n/versions/node/0.12.2/bin:$PATH
 fi
 
 export PATH="/usr/local/bin:$HOME/bin/:$HOME/bin/bin:$GOPATH:$PATH"
@@ -77,28 +52,6 @@ __git_ps1 ()
 PS1='\[\033[1;32m\]\u@\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
 
 
-# FIXME: This is a hack, and I should be smarter about my configuration management
-if [[ $(hostname) =~ "puppettop" ]]; then
-	eval "$(rbenv init -)";
-
-	vmlist()
-	{
-		curl --url http://vcloud.delivery.puppetlabs.net/vm 2> /dev/null | ruby -e 'require "json"; JSON.parse(STDIN.read).each { |vm| puts vm }'
-	}
-	vmget() {
-		curl -d --url http://vcloud.delivery.puppetlabs.net/vm/$1 2> /dev/null | ruby -e 'require "json"; resp = JSON.parse(STDIN.read); puts resp["'$1'"]["hostname"]'
-	}
-	vmssh() {
-		ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa-acceptance root@$1 "${@:2}"
-	}
-	vmrm() {
-		curl -X DELETE --url http://vcloud.delivery.puppetlabs.net/vm/$1
-	}
-	vmwinssh() {
-		# msiexec /i http://downloads.puppetlabs.com/windows/puppet-agent-x64-latest.msi
-		ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa-acceptance Administrator@$1 "${@:2}"
-	}
-fi
 # Handy scripts
 
 # Look up a word
@@ -119,6 +72,10 @@ man() {
 }
 
 # Taken from "rbenv init -"
+export PATH=$HOME/.rbenv/shims:$PATH
+export RBENV_SHELL=bash
+source '/home/ian/gg/rbenv/libexec/../completions/rbenv.bash'
+
 rbenv() {
   typeset command
   command="$1"
@@ -134,16 +91,14 @@ rbenv() {
   esac
 }
 
-if [[ $(hostname) == "kartal" ]]; then
+if [[ $(uname) == "Darwin" ]]; then
 
 	# Add ssh keys
-	if ! [[ `ssh-add -l` =~ 'id_rsa_workstation' ]]
-	then
-		ssh-add ~/.ssh/id_rsa_workstation
-	fi
 	export DOCKER_HOST=tcp://192.168.59.103:2376
 	export DOCKER_CERT_PATH=/Users/Ian/.boot2docker/certs/boot2docker-vm
 	export DOCKER_TLS_VERIFY=1
+	# Source bash completion
+	source /usr/share/bash-completion/bash_completion
 fi
 
 if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
