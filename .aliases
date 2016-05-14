@@ -1,12 +1,17 @@
 # vim: set ft=bash
 
 alias v='vim -p'
+# Weird habits from vim
+alias tabe='vim -p'
+alias :tabe='vim -p'
+
 alias l=ls
 alias ll='ls -la'
 alias sl='ls'
 alias venv=virtualenv
 alias grep='grep --color=auto'
 alias vus='vagrant up && vagrant ssh'
+alias vs='vagrant ssh'
 alias fig='docker-compose'
 
 alias rebash="exec bash"
@@ -56,6 +61,8 @@ alias gr='git grep'
 alias gfwl='git push --force-with-lease'
 alias gdn='git diff --name-only'
 
+alias matlab='/Applications/MATLAB_R2015b.app/bin/matlab  -nodisplay -nosplash -nodesktop -nojvm '
+
 alias :tabe='vim -p'
 
 alias ggp='cd ~/prose'
@@ -74,3 +81,7 @@ alias hgr='history | grep'
 alias pyclean="find . -type f -name '*.pyc' -delete"
 
 alias people='scp $1 onid:public_html'
+
+alias ':w'='echo this is not vim'
+alias ':q'='echo this is not vim'
+alias ':wq'='echo this is not vim'
