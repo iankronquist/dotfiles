@@ -71,4 +71,6 @@ Host puppet
 
 Host os-class
 	Hostname os-class.engr.oregonstate.edu
-	ProxyCommand ssh onid nc %h %p
+	ProxyCommand ssh onid nc %h %p -w 8
+	IdentityFile ~/.ssh/id_rsa_os_class
+	User kronquii
