@@ -31,13 +31,16 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.pp setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
 	autocmd BufRead,BufNewFile Gemfile setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
 	autocmd BufRead,BufNewFile Vagrantfile setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
-	autocmd BufRead,BufNewFile *.go setlocal shiftwidth=4 tabstop=4
+	autocmd BufRead,BufNewFile *.go setlocal shiftwidth=4 tabstop=4 syntax=java
 
 	" Human readable files which typically contain prose
 	autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t tw=79 syntax= spell
 	autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
 	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
+
+	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell
+	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t tw=79 spell
 
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
