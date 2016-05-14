@@ -31,12 +31,13 @@ WORKSTATIONS="aqua green blue cyan diamond emerald honey neon orange pink silver
 
 export PATH=$HOME/.rbenv/shims:$PATH
 if [[ $(uname) == "Darwin" ]]; then
+	export HOMEBREW_NO_ANALYTICS=1
 	# Path munging!
 	# Get the go version from brew
 	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
-	export PATH=/usr/local/opt/llvm/bin:$PATH:/usr/local/opt/llvm/share/llvm
+	export PATH=/Library/TeX/Root/bin/x86_64-darwin/:$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin:$GOPATH/bin
 elif [[ $WORKSTATIONS =~ $(hostname) ]]; then
 	#workstation specific settings
 	eval `keychain --eval id_rsa fir_rsa`
