@@ -169,14 +169,13 @@ bindsym $mod+F1 exec setxkbmap us
 #bind alt+F2 to Turkish keyboard layout
 bindsym $mod+F2 exec setxkbmap tr
 
-#change brightness
-#bindcode 232 exec xbacklight -dec 10
-#bindcode 232 exec xbacklight -dec 10
-bindsym $mod+F9 exec xbacklight -dec 10
-bindsym $mod+F10 exec xbacklight -inc 10
-bindsym $mod+F11 exec amixer --quiet set Master 1-
-bindsym $mod+F12 exec amixer --quiet set Master 1+
-bindcode 78 exec amixer --quiet set Master toggle
+bindcode 238 exec kbdlight up 20%
+bindcode 237 exec kbdlight down 20%
+bindsym XF86AudioLowerVolume exec amixer --quiet set Master 2-
+bindsym XF86AudioRaiseVolume exec amixer --quiet set Master 2+
+bindsym XF86AudioMute exec amixer --quiet set Master toggle
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10
 
 bindsym $mod+z exec --no-startup-id i3exit suspend
 bindsym $mod+x exec --no-startup-id i3lock
