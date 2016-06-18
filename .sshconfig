@@ -60,6 +60,12 @@ Host puck
 	User ian
 	IdentityFile ~/.ssh/id_ecdsa_digital_ocean
 
+Host elsiethesis
+	HostName 45.55.23.233
+#	User ian
+	IdentityFile ~/.ssh/id_ecdsa_digital_ocean
+
+
 Host aqua blue cyan diamond emerald green honey neon orange pink silver taupe violet xray yellow
 	ProxyCommand ssh ash nc %h %p -w 8
 	User iankronquist

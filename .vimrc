@@ -11,7 +11,8 @@ augroup configgroup
 	" Tab settings for various languages
 	" Python follows PEP8
 	autocmd BufRead,BufNewFile *.py setlocal shiftwidth=4 tabstop=4 expandtab
-	autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 expandtab
+	autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 noexpandtab
+	autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 noexpandtab
 	" Haskell is allergic to tabs.
 	autocmd BufRead,BufNewFile *.hs setlocal shiftwidth=2 tabstop=2 expandtab nospell
 	" JavaScript follows AirBnB style guide, which the OSL uses
@@ -21,7 +22,6 @@ augroup configgroup
 	" C++ follows whatever style Puppet uses
 	autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.cc setlocal shiftwidth=4 tabstop=4 expandtab
-	autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
 	" Make actually uses tabs
 	autocmd BufRead,BufNewFile Makefile setlocal shiftwidth=4 tabstop=4

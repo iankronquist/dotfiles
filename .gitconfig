@@ -3,7 +3,7 @@
 	name = Ian Kronquist
 [core]
 	editor = vim
-	excludesfile = /home/ian/.gitignore
+	excludesfile = /Users/Ian/.gitignore
 [push]
 	default = simple
 [alias]

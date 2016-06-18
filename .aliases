@@ -5,6 +5,9 @@ alias v='vim -p'
 alias tabe='vim -p'
 alias :tabe='vim -p'
 
+# Don't search ctags files
+alias ag='ag --ignore ./tags --ignore ./tags-e'
+
 alias l=ls
 alias ll='ls -la'
 alias sl='ls'
@@ -22,9 +25,9 @@ if [[ $(uname) == "Darwin" ]]; then
 	alias pp='echo cd `pwd` | pbcopy'
 	alias redoc='$(boot2docker shellinit)'
 
-	alias gcc='gcc-5'
-	alias 'g++'='g++-5'
-	alias gcov=gcov-5
+	alias gcc='gcc-6'
+	alias 'g++'='g++-6'
+	alias gcov=gcov-6
 
 	# Use special homebrew llvm gcov
 	alias lcov='/usr/local/opt/llvm/bin/llvm-cov'
