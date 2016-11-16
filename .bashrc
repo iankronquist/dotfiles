@@ -25,7 +25,6 @@ export CLICOLOR=1
 # For GCC 4.9
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-export N_PREFIX=$HOME/bin
 
 if [[ $(uname) == "Darwin" ]]; then
 	export HOMEBREW_NO_ANALYTICS=1
@@ -34,7 +33,12 @@ if [[ $(uname) == "Darwin" ]]; then
 	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
-	export PATH=/Developer/NVIDIA/CUDA-7.5/bin/:/Library/TeX/Root/bin/x86_64-darwin/:$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin:$GOPATH/bin
+	export PATH=/usr/local/cross/bin/:/Library/TeX/Root/bin/x86_64-darwin/:$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin:$GOPATH/bin
+
+	#if [[ -d $HOME/.nix-profile ]]; then
+	#	export N_PREFIX=$HOME/bin
+	#	#source $HOME/.nix-profile/etc/profile.d/nix.sh
+	#fi
 fi
 
 export PATH="/usr/local/bin:$HOME/bin/:$HOME/bin/bin:$GOPATH:$PATH"
