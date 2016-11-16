@@ -10,11 +10,13 @@ alias ag='ag --ignore ./tags --ignore ./tags-e'
 
 alias l=ls
 alias ll='ls -la'
+alias la='ls -a'
 alias sl='ls'
 alias venv=virtualenv
 alias grep='grep --color=auto'
 alias vus='vagrant up && vagrant ssh'
 alias vs='vagrant ssh'
+alias vu='vagrant up'
 alias fig='docker-compose'
 
 alias rebash="exec bash"
@@ -51,8 +53,10 @@ alias py=python
 alias py3=python3
 
 alias ga='git add'
+alias gap='git add -up'
 alias gb='git branch'
 alias gc='git commit'
+alias gcp='git commit -p'
 alias gcb='git checkout -b'
 alias gco='git checkout'
 alias gd='git diff'
@@ -62,8 +66,11 @@ alias gfwl='git push --force-with-lease'
 alias gl='git log'
 alias gn='git net'
 alias gp='git pull'
+alias gpu='git push -u origin `git rev-parse --abbrev-ref HEAD`'
 alias gr='git grep'
 alias gs='git status'
+
+alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
 
 alias matlab='/Applications/MATLAB_R2015b.app/bin/matlab  -nodisplay -nosplash -nodesktop -nojvm '
 
@@ -77,7 +84,7 @@ alias cri="screen -DR irc"
 alias ppuppet="BUNDLE_GEMFILE=~/gg/puppet/Gemfile bundle exec puppet"
 
 grind () {
-	find ${2:-.} | grep $1
+	find ${2:-.} | grep -i $1
 }
 
 alias hgr='history | grep'
@@ -89,3 +96,11 @@ alias people='scp $1 onid:public_html'
 alias ':w'='echo this is not vim'
 alias ':q'='echo this is not vim'
 alias ':wq'='echo this is not vim'
+
+alias 'objdump'='gobjdump'
+
+git-authors () {
+	git ls-tree -r -z --name-only HEAD --full-tree | xargs -0 -n1 git blame --line-porcelain HEAD | grep  "^author "|sort|uniq -c|sort -nr
+}
+
+alias makerv='make CP=gcp CC=x86_64-elf-gcc LD=x86_64-elf-ld STRIP=gstrip -j8'
