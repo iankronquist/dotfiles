@@ -9,9 +9,18 @@ Host flip
 	HostName access.engr.oregonstate.edu
 	User kronquii
 
+Host flip3
+	HostName flip3.engr.oregonstate.edu
+	User kronquii
+
 Host github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa_github
+
+Host gitla.in
+	User git
+	IdentityFile ~/.ssh/id_rsa_lain
+
 
 Host gist.github.com
 	User git
