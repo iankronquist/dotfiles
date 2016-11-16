@@ -8,3 +8,5 @@
 	default = simple
 [alias]
 	net = log --graph --all --decorate
+	# Stolen from https://github.com/GitAlias/gitalias/blob/master/gitalias.txt
+	churn = !git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort
