@@ -56,7 +56,8 @@
       pacman: name=xorg-xinit state=latest
       pacman: name=i3 state=latest
       pacman: name=dmenu state=latest
-      pacman: name=nouveau state=latest
+      pacman: name=xf86-video-intel state=latest
+      pacman: name=mesa state=latest
       pacman: name=xclip state=latest
       pacman: name=rxvt-unicode state=latest
       pacman: name=urxvt-perls state=latest
