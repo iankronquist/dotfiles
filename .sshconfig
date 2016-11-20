@@ -9,65 +9,22 @@ Host flip
 	HostName access.engr.oregonstate.edu
 	User kronquii
 
-Host ash
-	HostName ash.osuosl.org
-	User iankronquist
-	IdentityFile ~/.ssh/id_rsa_osl
-
-Host *.mozilla.*
-	User ikronquist
-	IdentityFile ~/.ssh/id_rsa_mozilla
-
-Host people
-	HostName people.mozilla.com
-	User ikronquist
-	IdentityFile ~/.ssh/id_rsa_mozilla
+Host flip3
+	HostName flip3.engr.oregonstate.edu
+	User kronquii
 
 Host github.com
 	User git
 	IdentityFile ~/.ssh/id_ecdsa_github
 
-Host gitlab.com
+Host gitla.in
 	User git
-	IdentityFile ~/.ssh/id_rsa_gitlab
+	IdentityFile ~/.ssh/id_rsa_lain
 
 
 Host gist.github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa_github
-
-
-Host git.osuosl.org
-	User git
-	IdentityFile ~/.ssh/id_rsa_workstation
-
-Host basement
-	HostName home.tarobot.org
-	User ian
-
-Host openpower
-	HostName openpower8.osuosl.org
-	User ian
-	IdentityFile ~/.ssh/id_ppc_funsies
-
-Host coreos
-	HostName 10.1.0.150
-	User iankronquist
-	IdentityFile ~/.ssh/id_rsa_osl_coreos
-
-Host puck
-	HostName 104.236.171.53
-	User ian
-	IdentityFile ~/.ssh/id_ecdsa_digital_ocean
-
-Host aqua blue cyan diamond emerald green honey neon orange pink silver taupe violet xray yellow
-	ProxyCommand ssh ash nc %h %p -w 8
-	User iankronquist
-	Hostname %h.workstation.osuosl.bak
-
-Host puppet
-	HostName mac-c02pr0bgg8wp.corp.puppetlabs.net
-	User iankronquist
 
 Host os-class
 	Hostname os-class.engr.oregonstate.edu

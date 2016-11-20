@@ -5,13 +5,18 @@ alias v='vim -p'
 alias tabe='vim -p'
 alias :tabe='vim -p'
 
+# Don't search ctags files
+alias ag='ag --ignore ./tags --ignore ./tags-e'
+
 alias l=ls
 alias ll='ls -la'
+alias la='ls -a'
 alias sl='ls'
 alias venv=virtualenv
 alias grep='grep --color=auto'
 alias vus='vagrant up && vagrant ssh'
 alias vs='vagrant ssh'
+alias vu='vagrant up'
 alias fig='docker-compose'
 
 alias rebash="exec bash"
@@ -22,9 +27,9 @@ if [[ $(uname) == "Darwin" ]]; then
 	alias pp='echo cd `pwd` | pbcopy'
 	alias redoc='$(boot2docker shellinit)'
 
-	alias gcc='gcc-5'
-	alias 'g++'='g++-5'
-	alias gcov=gcov-5
+	alias gcc='gcc-6'
+	alias 'g++'='g++-6'
+	alias gcov=gcov-6
 
 	# Use special homebrew llvm gcov
 	alias lcov='/usr/local/opt/llvm/bin/llvm-cov'
@@ -47,19 +52,25 @@ alias deploy-dotfiles="ansible-playbook ~/dotfiles/ansible-playbook/config.yml -
 alias py=python
 alias py3=python3
 
-alias gco='git checkout'
-alias gcb='git checkout -b'
-alias gc='git commit'
 alias ga='git add'
-alias gd='git diff'
-alias gs='git status'
+alias gap='git add -up'
 alias gb='git branch'
+alias gc='git commit'
+alias gcp='git commit -p'
+alias gcb='git checkout -b'
+alias gco='git checkout'
+alias gd='git diff'
+alias gdn='git diff --name-only'
+alias gf='git fetch'
+alias gfwl='git push --force-with-lease'
+alias gl='git log'
 alias gn='git net'
 alias gp='git pull'
-alias gf='git fetch'
+alias gpu='git push -u origin `git rev-parse --abbrev-ref HEAD`'
 alias gr='git grep'
-alias gfwl='git push --force-with-lease'
-alias gdn='git diff --name-only'
+alias gs='git status'
+
+alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
 
 alias matlab='/Applications/MATLAB_R2015b.app/bin/matlab  -nodisplay -nosplash -nodesktop -nojvm '
 
@@ -73,7 +84,7 @@ alias cri="screen -DR irc"
 alias ppuppet="BUNDLE_GEMFILE=~/gg/puppet/Gemfile bundle exec puppet"
 
 grind () {
-	find ${2:-.} | grep $1
+	find ${2:-.} | grep -i $1
 }
 
 alias hgr='history | grep'
@@ -85,3 +96,11 @@ alias people='scp $1 onid:public_html'
 alias ':w'='echo this is not vim'
 alias ':q'='echo this is not vim'
 alias ':wq'='echo this is not vim'
+
+alias 'objdump'='gobjdump'
+
+git-authors () {
+	git ls-tree -r -z --name-only HEAD --full-tree | xargs -0 -n1 git blame --line-porcelain HEAD | grep  "^author "|sort|uniq -c|sort -nr
+}
+
+alias makerv='make CP=gcp CC=x86_64-elf-gcc LD=x86_64-elf-ld STRIP=gstrip -j8'
