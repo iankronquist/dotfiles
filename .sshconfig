@@ -25,7 +25,7 @@ Host people
 
 Host github.com
 	User git
-	IdentityFile ~/.ssh/id_rsa_github
+	IdentityFile ~/.ssh/id_ecdsa_github
 
 Host gitlab.com
 	User git
