@@ -9,6 +9,10 @@ Host flip
 	HostName access.engr.oregonstate.edu
 	User kronquii
 
+Host flip1
+	HostName flip1.engr.oregonstate.edu
+	User kronquii
+
 Host flip3
 	HostName flip3.engr.oregonstate.edu
 	User kronquii
