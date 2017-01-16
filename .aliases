@@ -35,7 +35,8 @@ if [[ $(uname) == "Darwin" ]]; then
 	alias lcov='/usr/local/opt/llvm/bin/llvm-cov'
 
 	# This is prone to change and depends on both my .ssh/config and screen session
-	alias irc="mosh puck -- screen -DR irc"
+	#alias irc="mosh puck -- screen -DR irc"
+	alias irc="ssh onid -t \"screen -DR\""
 	alias asleep='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 elif [[ $(uname) == "Linux" ]]; then
 	alias opn='xdg-open'
