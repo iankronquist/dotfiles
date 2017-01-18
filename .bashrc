@@ -141,7 +141,10 @@ if [[ $(uname) == "Darwin" ]]; then
 	}
 fi
 
-if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
-then
-	ssh-add ~/.ssh/id_rsa_github
+if [[ $(hostname) == "kartal" ]]; then
+	if ! [[ $(ssh-add -l) =~ 'id_rsa_github' ]]; then
+		ssh-add ~/.ssh/id_rsa_github
+	elif ! [[ $(ssh-add -l) =~ 'id_ecdsa_github' ]]; then
+		ssh-add ~/.ssh/id_ecdsa_github
+	fi
 fi
