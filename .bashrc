@@ -22,7 +22,7 @@ export HISTSIZE=10000
 
 # Set special colors for various things
 export CLICOLOR=1
-# For GCC 4.9
+# For GCC 4.9+
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 
@@ -33,15 +33,23 @@ if [[ $(uname) == "Darwin" ]]; then
 	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	export GOPATH=$HOME/gopath
 	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
-	export PATH=/usr/local/cross/bin/:/Library/TeX/Root/bin/x86_64-darwin/:$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin:$GOPATH/bin
+	# Homebrew
+	export PATH="/usr/local/bin:$PATH"
+	# Homebrew cross compilers
+	export PATH="$PATH:/usr/local/cross/bin/"
+	# Homebrew custom LLVM
+	export PATH="$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin"
+	# MacTex
+	export PATH="$PATH:/Library/TeX/Root/bin/x86_64-darwin/"
 
-	#if [[ -d $HOME/.nix-profile ]]; then
-	#	export N_PREFIX=$HOME/bin
-	#	#source $HOME/.nix-profile/etc/profile.d/nix.sh
-	#fi
 fi
 
-export PATH="/usr/local/bin:$HOME/bin/:$HOME/bin/bin:$GOPATH:$PATH"
+# Dotfile scripts
+export PATH="$PATH:$HOME/bin"
+# Go
+export PATH="$PATH:$GOPATH"
+# Rust
+export PATH="$PATH:$HOME/.cargo/bin"
 
 # Mess with my prompt
 
@@ -111,5 +119,5 @@ then
 fi
 if ! [[ `ssh-add -l` =~ 'id_ecdsa_github' ]]
 then
-	ssh-add ~/.ssh/id_rsa_github
+	ssh-add ~/.ssh/id_ecdsa_github
 fi
