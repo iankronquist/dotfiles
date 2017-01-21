@@ -22,7 +22,11 @@ alias fig='docker-compose'
 alias rebash="exec bash"
 
 
+# This is prone to change and depends on both my .ssh/config and screen session
+alias irc="ssh onid -- screen -DR"
+
 if [[ $(uname) == "Darwin" ]]; then
+	alias 'objdump'='gobjdump'
 	alias opn='open'
 	alias pp='echo cd `pwd` | pbcopy'
 	alias redoc='$(boot2docker shellinit)'
@@ -34,17 +38,11 @@ if [[ $(uname) == "Darwin" ]]; then
 	# Use special homebrew llvm gcov
 	alias lcov='/usr/local/opt/llvm/bin/llvm-cov'
 
-	# This is prone to change and depends on both my .ssh/config and screen session
-	alias irc="mosh puck -- screen -DR irc"
 	alias asleep='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 elif [[ $(uname) == "Linux" ]]; then
 	alias opn='xdg-open'
 	alias pp='echo cd `pwd` | xclip'
 	alias ls='ls --color'
-	alias tkc="KITCHEN_YAML=.kitchen.cloud.yml kitchen $@"
-
-	# This is prone to change and depends on both my .ssh/config and screen session
-	alias irc="ssh puck -t \"screen -DR irc\""
 fi
 
 alias deploy-dotfiles="ansible-playbook ~/dotfiles/ansible-playbook/config.yml -i ~/dotfiles/ansible-playbook/inventory"
@@ -97,7 +95,6 @@ alias ':w'='echo this is not vim'
 alias ':q'='echo this is not vim'
 alias ':wq'='echo this is not vim'
 
-alias 'objdump'='gobjdump'
 
 git-authors () {
 	git ls-tree -r -z --name-only HEAD --full-tree | xargs -0 -n1 git blame --line-porcelain HEAD | grep  "^author "|sort|uniq -c|sort -nr
