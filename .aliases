@@ -23,7 +23,7 @@ alias rebash="exec bash"
 
 
 # This is prone to change and depends on both my .ssh/config and screen session
-alias irc="ssh onid -- screen -DR"
+alias irc="ssh onid -- \"screen -DR\""
 
 if [[ $(uname) == "Darwin" ]]; then
 	alias 'objdump'='gobjdump'

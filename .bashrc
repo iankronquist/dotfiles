@@ -61,7 +61,43 @@ __git_ps1 ()
         printf "(%s)" "${b##refs/heads/}";
     fi
 }
-PS1='\[\033[1;32m\]\h:\[\033[1;34m\](\W)\[\033[00m\]$(__git_ps1) \[\033[0;34m\]→ \[\033[00m\]'
+
+export LAST_COMMAND_TIME="-1"
+export PROMPT_COMMAND=__prompt_command
+
+__prompt_command() {
+
+	local NOW=$(date +%s)
+	local EXIT="$?"
+	local RED='\[\033[0;31m\]'
+	local BOLD_GREEN='\[\033[1;32m\]'
+	local BOLD_BLUE='\[\033[1;34m\]'
+	local RESET_COLOR='\[\033[0;00m\]'
+	local FANCY_SYMBOL='→'
+	PS1=""
+
+	# If the last command failed, display the return code in red.
+	if [ $EXIT != 0 ]; then
+		PS1+="${RED}${EXIT} ${RESET_COLOR}"
+	fi
+
+	# If the last command took more than 10 seconds, display the time it took.
+	if [ $LAST_COMMAND_TIME -gt 0 ]; then
+		local ELAPSED_TIME=$((NOW-LAST_COMMAND_TIME))
+		if [ $ELAPSED_TIME -gt 10 ]; then
+			local FORMATTED_ELAPSED_TIME=$(date -u -r $ELAPSED_TIME +"%T")
+			PS1+="${BOLD_BLUE}$FORMATTED_ELAPSED_TIME${RESET_COLOR} "
+		fi
+	fi
+	LAST_COMMAND_TIME=$NOW
+
+	# Only display username on wide terminals
+	if [ $COLUMNS -gt 150 ]; then
+		PS1+="${BOLD_GREEN}\u@${RESET_COLOR}"
+	fi
+
+	PS1+="${BOLD_GREEN}\h:${BOLD_BLUE}(\W)${RESET_COLOR}$(__git_ps1) ${BOLD_BLUE}${FANCY_SYMBOL} ${RESET_COLOR}"
+}
 
 
 # Handy scripts
@@ -113,9 +149,12 @@ if [[ $(uname) == "Darwin" ]]; then
 	}
 fi
 
-if ! [[ `ssh-add -l` =~ 'id_rsa_github' ]]
-then
-	ssh-add ~/.ssh/id_rsa_github
+if [[ $(hostname) == "kartal" ]]; then
+	if ! [[ $(ssh-add -l) =~ 'id_rsa_github' ]]; then
+		ssh-add ~/.ssh/id_rsa_github
+	elif ! [[ $(ssh-add -l) =~ 'id_ecdsa_github' ]]; then
+		ssh-add ~/.ssh/id_ecdsa_github
+	fi
 fi
 if ! [[ `ssh-add -l` =~ 'id_ecdsa_github' ]]
 then
