@@ -169,8 +169,8 @@ bindsym $mod+F1 exec setxkbmap us
 #bind alt+F2 to Turkish keyboard layout
 bindsym $mod+F2 exec setxkbmap tr
 
-bindcode 238 exec kbdlight up 20%
-bindcode 237 exec kbdlight down 20%
+bindcode 238 exec kbdlight up 15%
+bindcode 237 exec kbdlight down 15%
 bindsym XF86AudioLowerVolume exec amixer --quiet set Master 2-
 bindsym XF86AudioRaiseVolume exec amixer --quiet set Master 2+
 bindsym XF86AudioMute exec amixer --quiet set Master toggle
