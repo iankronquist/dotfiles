@@ -2,6 +2,7 @@
 set spell
 syntax on
 set number
+set clipboard+=unnamed
 
 " Put language specific settings in a config group so they won't get
 " evaluated twice.
