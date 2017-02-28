@@ -135,16 +135,12 @@ if [[ $(uname) == "Darwin" ]]; then
 				command rbenv "$command" "$@";;
 		esac
 	}
-fi
-
-if [[ $(hostname) == "kartal" ]]; then
-	if ! [[ $(ssh-add -l) =~ 'id_rsa_github' ]]; then
-		ssh-add ~/.ssh/id_rsa_github
-	elif ! [[ $(ssh-add -l) =~ 'id_ecdsa_github' ]]; then
-		ssh-add ~/.ssh/id_ecdsa_github
+elif [[ $(uname) == "Linux" ]]; then
+	if [[ $(hostname) == "kartal" ]]; then
+		if ! [[ $(ssh-add -l) =~ 'id_rsa_github' ]]; then
+			ssh-add ~/.ssh/id_rsa_github
+		elif ! [[ $(ssh-add -l) =~ 'id_ecdsa_github' ]]; then
+			ssh-add ~/.ssh/id_ecdsa_github
+		fi
 	fi
-fi
-if ! [[ `ssh-add -l` =~ 'id_ecdsa_github' ]]
-then
-	ssh-add ~/.ssh/id_ecdsa_github
 fi
