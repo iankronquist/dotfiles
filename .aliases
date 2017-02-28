@@ -1,9 +1,6 @@
 # vim: set ft=bash
 
 alias v='vim -p'
-# Weird habits from vim
-alias tabe='vim -p'
-alias :tabe='vim -p'
 
 # Don't search ctags files
 alias ag='ag --ignore ./tags --ignore ./tags-e'
@@ -17,7 +14,6 @@ alias grep='grep --color=auto'
 alias vus='vagrant up && vagrant ssh'
 alias vs='vagrant ssh'
 alias vu='vagrant up'
-alias fig='docker-compose'
 
 alias rebash="exec bash"
 
@@ -35,9 +31,6 @@ if [[ $(uname) == "Darwin" ]]; then
 	alias 'g++'='g++-6'
 	alias gcov=gcov-6
 
-	# Use special homebrew llvm gcov
-	alias lcov='/usr/local/opt/llvm/bin/llvm-cov'
-
 	alias asleep='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 elif [[ $(uname) == "Linux" ]]; then
 	alias opn='xdg-open'
@@ -45,7 +38,6 @@ elif [[ $(uname) == "Linux" ]]; then
 	alias ls='ls --color'
 fi
 
-alias deploy-dotfiles="ansible-playbook ~/dotfiles/ansible-playbook/config.yml -i ~/dotfiles/ansible-playbook/inventory"
 
 alias py=python
 alias py3=python3
@@ -70,16 +62,11 @@ alias gs='git status'
 
 alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
 
-alias matlab='/Applications/MATLAB_R2015b.app/bin/matlab  -nodisplay -nosplash -nodesktop -nojvm '
-
 alias :tabe='vim -p'
 
-alias ggp='cd ~/prose'
 alias jcheck="python -m json.tool"
 
 alias cri="screen -DR irc"
-
-alias ppuppet="BUNDLE_GEMFILE=~/gg/puppet/Gemfile bundle exec puppet"
 
 grind () {
 	find ${2:-.} | grep -i $1
@@ -87,10 +74,9 @@ grind () {
 
 alias hgr='history | grep'
 
-alias pyclean="find . -type f -name '*.pyc' -delete"
-
-alias people='scp $1 onid:public_html'
-
+# Weird habits from vim
+alias tabe='vim -p'
+alias :tabe='vim -p'
 alias ':w'='echo this is not vim'
 alias ':q'='echo this is not vim'
 alias ':wq'='echo this is not vim'
