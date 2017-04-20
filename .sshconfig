@@ -19,7 +19,7 @@ Host flip3
 
 Host github.com
 	User git
-	IdentityFile ~/.ssh/id_ecdsa_github
+	IdentityFile ~/.ssh/id_rsa_github
 
 Host gitla.in
 	User git

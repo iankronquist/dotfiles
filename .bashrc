@@ -62,12 +62,10 @@ __git_ps1 ()
     fi
 }
 
-export LAST_COMMAND_TIME="-1"
 export PROMPT_COMMAND=__prompt_command
 
 __prompt_command() {
 
-	local NOW=$(date +%s)
 	local EXIT="$?"
 	local RED='\[\033[0;31m\]'
 	local BOLD_GREEN='\[\033[1;32m\]'
@@ -80,16 +78,6 @@ __prompt_command() {
 	if [ $EXIT != 0 ]; then
 		PS1+="${RED}${EXIT} ${RESET_COLOR}"
 	fi
-
-	# If the last command took more than 10 seconds, display the time it took.
-	if [ $LAST_COMMAND_TIME -gt 0 ]; then
-		local ELAPSED_TIME=$((NOW-LAST_COMMAND_TIME))
-		if [ $ELAPSED_TIME -gt 10 ]; then
-			local FORMATTED_ELAPSED_TIME=$(date -u -r $ELAPSED_TIME +"%T")
-			PS1+="${BOLD_BLUE}$FORMATTED_ELAPSED_TIME${RESET_COLOR} "
-		fi
-	fi
-	LAST_COMMAND_TIME=$NOW
 
 	# Only display username on wide terminals
 	if [ $COLUMNS -gt 150 ]; then
@@ -147,16 +135,12 @@ if [[ $(uname) == "Darwin" ]]; then
 				command rbenv "$command" "$@";;
 		esac
 	}
-fi
-
-if [[ $(hostname) == "kartal" ]]; then
-	if ! [[ $(ssh-add -l) =~ 'id_rsa_github' ]]; then
-		ssh-add ~/.ssh/id_rsa_github
-	elif ! [[ $(ssh-add -l) =~ 'id_ecdsa_github' ]]; then
-		ssh-add ~/.ssh/id_ecdsa_github
+elif [[ $(uname) == "Linux" ]]; then
+	if [[ $(hostname) == "kartal" ]]; then
+		if ! [[ $(ssh-add -l) =~ 'id_rsa_github' ]]; then
+			ssh-add ~/.ssh/id_rsa_github
+		elif ! [[ $(ssh-add -l) =~ 'id_ecdsa_github' ]]; then
+			ssh-add ~/.ssh/id_ecdsa_github
+		fi
 	fi
-fi
-if ! [[ `ssh-add -l` =~ 'id_ecdsa_github' ]]
-then
-	ssh-add ~/.ssh/id_ecdsa_github
 fi
