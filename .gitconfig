@@ -10,8 +10,5 @@
 	net = log --graph --all --decorate
 	# Stolen from https://github.com/GitAlias/gitalias/blob/master/gitalias.txt
 	churn = !git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+	stash-all = stash save --include-untracked
+	prune = fetch --prune

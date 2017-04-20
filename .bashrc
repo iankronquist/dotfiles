@@ -42,6 +42,8 @@ if [[ $(uname) == "Darwin" ]]; then
 	# MacTex
 	export PATH="$PATH:/Library/TeX/Root/bin/x86_64-darwin/"
 
+elif ! [[ $(uname) =~ 'Linux' ]]; then
+	export PATH="$PATH:$HOME/cross/bin/"
 fi
 
 # Dotfile scripts
