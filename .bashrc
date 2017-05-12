@@ -150,3 +150,7 @@ elif [[ $(uname) == "Linux" ]]; then
 		fi
 	fi
 fi
+
+if [[ $(hostname) == "barkly" ]]; then
+	source ~/.barkly
+fi
