@@ -87,3 +87,7 @@ git-authors () {
 }
 
 alias makerv='make CP=gcp CC=x86_64-elf-gcc LD=x86_64-elf-ld STRIP=gstrip -j8'
+
+godoc () {
+	env godoc $@ | less
+}
