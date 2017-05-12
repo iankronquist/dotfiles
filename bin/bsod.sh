@@ -6,10 +6,10 @@ set -e
 
 cd ~
 
-if ! [ -d /Volumes/Logs/dumps ]; then
-	mkdir -p /Volumes/Logs
-	mount_smbfs //172.16.100.11/Logs /Volumes/Logs
-fi
+#if ! [ -d /Volumes/Logs/dumps ]; then
+#	mkdir -p /Volumes/Logs
+#	mount_smbfs //synology.barkly.local/Logs /Volumes/Logs
+#fi
 
 recent_bsod=$(ls -Art /Volumes/Logs/dumps/ | grep "$1$" | tail -n 1)
 
@@ -17,6 +17,7 @@ recent_bsod=$(ls -Art /Volumes/Logs/dumps/ | grep "$1$" | tail -n 1)
 echo $recent_bsod
 
 mkdir -p ~/gg/bsod/$recent_bsod
+echo cd ~/gg/bsod/$recent_bsod
 cd ~/gg/bsod/$recent_bsod
 
 
@@ -28,6 +29,8 @@ if [ -e memory.dmp ]; then
 
 	~/gg/RV-Tools/Debugging/PanicParser.py panic.txt > parsed.txt
 	cat parsed.txt
+
+	bugcheckinfo.py memory.dmp
 else
-	echo "No memory dump. Go look in WinDbg"
+	echo "No memory dump. Go look in logs."
 fi
