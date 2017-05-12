@@ -76,17 +76,21 @@ __prompt_command() {
 	local FANCY_SYMBOL='→'
 	PS1=""
 
+	if [ ! -z $VIRTUAL_ENV ]; then
+		PS1+="${BOLD_BLUE}($(basename $VIRTUAL_ENV))${RESET_COLOR} "
+	fi
+
 	# If the last command failed, display the return code in red.
 	if [ $EXIT != 0 ]; then
 		PS1+="${RED}${EXIT} ${RESET_COLOR}"
 	fi
 
 	# Only display username on wide terminals
-	if [ $COLUMNS -gt 150 ]; then
+	if [ ${COLUMNS:-80} -gt 150 ]; then
 		PS1+="${BOLD_GREEN}\u@${RESET_COLOR}"
 	fi
 
-	PS1+="${BOLD_GREEN}\h:${BOLD_BLUE}(\W)${RESET_COLOR}$(__git_ps1) ${BOLD_BLUE}${FANCY_SYMBOL} ${RESET_COLOR}"
+	PS1+="${BOLD_GREEN}\h ${BOLD_BLUE}(\W)${RESET_COLOR}$(__git_ps1) ${BOLD_BLUE}${FANCY_SYMBOL} ${RESET_COLOR}"
 }
 
 
