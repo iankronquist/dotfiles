@@ -26,6 +26,7 @@ unzip *.zip
 
 if [ -e memory.dmp ]; then
 	grep -a '\[Barkly:0x[a-z0-9]\+\]' memory.dmp | strings | sort > panic.txt
+	cat panic.txt
 
 	~/gg/RV-Tools/Debugging/PanicParser.py panic.txt > parsed.txt
 	cat parsed.txt
