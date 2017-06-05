@@ -60,6 +60,27 @@ alias gpu='git push -u origin `git rev-parse --abbrev-ref HEAD`'
 alias gr='git grep'
 alias gs='git status'
 
+if [[ "$(type -t __git_complete)" == 'function' ]]; then
+	__git_complete ga _git_add
+	__git_complete gap _git_add
+	__git_complete gb _git_branch
+	__git_complete gc _git_commit
+	__git_complete gcp _git_commit
+	__git_complete gcb _git_checkout
+	__git_complete gco _git_checkout
+	__git_complete gd _git_diff
+	__git_complete gdn _git_diff
+	__git_complete gf _git_fetch
+	__git_complete gfwl _git_push
+	__git_complete gl _git_log
+	__git_complete gn _git_log
+	__git_complete gp _git_pull
+	__git_complete gpu _git_push
+	__git_complete gr _git_grep
+else
+	echo shorthand git completions not added
+fi
+
 alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
 
 alias :tabe='vim -p'
