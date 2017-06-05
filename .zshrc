@@ -1,9 +1,17 @@
+# Log bash history
+export HISTTIMEFORMAT="%d/%m/%y %T "
+export HISTSIZE=10000
+REPORTTIME=1
+
+# Set editor
+export EDITOR=vim
+
+
 export CLICOLOR=1
 export LS_COLORS=exfxcxdxbxegedabagacad
-#export WORKON_HOME=~/venv
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
 export PYTHONSTARTUP=$HOME/.pythonrc.py
-REPORTTIME=1
 
 autoload compinit
 compinit
