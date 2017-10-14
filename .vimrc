@@ -12,7 +12,7 @@ augroup configgroup
 	" Tab settings for various languages
 	" Python follows PEP8
 	autocmd BufRead,BufNewFile *.py setlocal shiftwidth=4 tabstop=4 expandtab
-	autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 noexpandtab
+	autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 noexpandtab
 	" Haskell is allergic to tabs.
 	autocmd BufRead,BufNewFile *.hs setlocal shiftwidth=2 tabstop=2 expandtab nospell
