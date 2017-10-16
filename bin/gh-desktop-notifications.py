@@ -1,1 +1,1 @@
-/Users/Ian/gg/gh-desktop-notifications/gh-desktop-notifications.py
+/Users/iankronquist/gg/gh-desktop-notifications/gh-desktop-notifications.py

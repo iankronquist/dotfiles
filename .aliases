@@ -60,6 +60,35 @@ alias gpu='git push -u origin `git rev-parse --abbrev-ref HEAD`'
 alias gr='git grep'
 alias gs='git status'
 
+if [[ "$(type -t __git_complete)" == 'function' ]]; then
+	__git_complete ga _git_add
+	__git_complete gap _git_add
+	__git_complete gb _git_branch
+	__git_complete gc _git_commit
+	__git_complete gcp _git_commit
+	__git_complete gcb _git_checkout
+	__git_complete gco _git_checkout
+	__git_complete gd _git_diff
+	__git_complete gdn _git_diff
+	__git_complete gf _git_fetch
+	__git_complete gfwl _git_push
+	__git_complete gl _git_log
+	__git_complete gn _git_log
+	__git_complete gp _git_pull
+	__git_complete gpu _git_push
+	__git_complete gr _git_grep
+
+	# FIXME make this work for git space barkly and not just git dash barkly
+	if [[ -x $(command -v git-barkly) ]]; then
+		__git_complete git-barkly __git_main
+	fi
+
+else
+	echo shorthand git completions not added
+fi
+
+
+
 alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
 
 alias :tabe='vim -p'
@@ -72,6 +101,10 @@ grind () {
 	find ${2:-.} | grep -i $1
 }
 
+usage () {
+	du -d1 ${@:-.} | awk '$1 > 10000' | sort -n | awk '{ split( "KB MB GB" , v ); s=1; while( $1 > 1024 ){ $1/=1024; s++ } print int($1)/2 v[s] "\t" $2 }'
+}
+
 alias hgr='history | grep'
 
 # Weird habits from vim
@@ -80,6 +113,8 @@ alias :tabe='vim -p'
 alias ':w'='echo this is not vim'
 alias ':q'='echo this is not vim'
 alias ':wq'='echo this is not vim'
+alias 'pycheck'='python -m py_compile'
+alias rtags='ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --exclude=Include/*/*'
 
 
 git-authors () {
@@ -87,3 +122,11 @@ git-authors () {
 }
 
 alias makerv='make CP=gcp CC=x86_64-elf-gcc LD=x86_64-elf-ld STRIP=gstrip -j8'
+
+godoc () {
+	env godoc $@ | less
+}
+
+#objdump () {
+#	env objdump $@ | less
+#}
