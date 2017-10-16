@@ -37,6 +37,10 @@ linuxdirs:
   .i3:
     dest: '.i3'
     src: 'linux/.i3'
+  .sway:
+    dest: '.config/sway/config'
+    src: 'linux/.i3'
+
 
 old_git:
   gitconfig:
