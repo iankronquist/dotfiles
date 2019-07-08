@@ -28,7 +28,7 @@ linuxfiles:
   .Xmodmap:
     dest: '.Xmodmap'
     src: 'linux/.Xmodmap'
-  .Xmodmap:
+  .i3status.conf:
     dest: '.i3status.conf'
     src: 'linux/.3status.conf'
 
@@ -37,6 +37,10 @@ linuxdirs:
   .i3:
     dest: '.i3'
     src: 'linux/.i3'
+  .sway:
+    dest: '.config/sway/config'
+    src: 'linux/.i3'
+
 
 old_git:
   gitconfig:
