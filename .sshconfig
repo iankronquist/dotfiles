@@ -1,5 +1,10 @@
 IdentitiesOnly yes
 
+Host zerogravitas
+	User iankronquist
+	HostName 35.185.67.63
+	IdentityFile ~/.ssh/id_rsa_zg
+
 Host onid
 	HostName shell.onid.oregonstate.edu
 	User kronquii

@@ -30,9 +30,11 @@ if [[ $(uname) == "Darwin" ]]; then
 	export HOMEBREW_NO_ANALYTICS=1
 	# Path munging!
 	# Get the go version from brew
-	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
+
+	#export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
+	#export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+	export GOROOT=/usr/local/Cellar/go/1.6.2/libexec/
 	export GOPATH=$HOME/gopath
-	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
 	# Homebrew
 	export PATH="/usr/local/bin:$PATH"
 	# Homebrew cross compilers
@@ -149,8 +151,4 @@ elif [[ $(uname) == "Linux" ]]; then
 			ssh-add ~/.ssh/id_ecdsa_github
 		fi
 	fi
-fi
-
-if [[ $(hostname) == "barkly" ]]; then
-	source ~/.barkly
 fi

@@ -1,6 +1,9 @@
 " This is a comment
 set spell
 syntax on
+set ignorecase
+set smartcase
+"set mouse=a
 set number
 set clipboard+=unnamed
 
@@ -12,7 +15,7 @@ augroup configgroup
 	" Tab settings for various languages
 	" Python follows PEP8
 	autocmd BufRead,BufNewFile *.py setlocal shiftwidth=4 tabstop=4 expandtab
-	autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 noexpandtab
+	autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 noexpandtab
 	" Haskell is allergic to tabs.
 	autocmd BufRead,BufNewFile *.hs setlocal shiftwidth=2 tabstop=2 expandtab nospell
@@ -41,7 +44,7 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
 	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
 
-	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell
+	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell syntax=fasm
 	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t tw=79 spell
 
 	" The file where git commit messages are stored while they're being edited
@@ -77,16 +80,16 @@ let @h = "Oimport pdb;pdb.set_trace()"
 " Clear trailing whitespace
 let @w = ":%s/\\s\\+$//"
 
-let s:uname = system("uname -s")
-if s:uname == "Darwin"
-	" On OS X
-	" Copy selection to clipboard
-	nma <leader>c :'<,'>w!pbcopy<CR>
-else
-	" On Linux
-	" Copy selection to clipboard
-	nma <leader>c :'<,'>w!xclip<CR>
-endif
+"let s:uname = system("uname -s")
+"if s:uname == "Darwin"
+"	" On OS X
+"	" Copy selection to clipboard
+"	nma <leader>c :'<,'>w!pbcopy<CR>
+"else
+"	" On Linux
+"	" Copy selection to clipboard
+"	nma <leader>c :'<,'>w!xclip<CR>
+"endif
 
 " toggle paste
 nma <leader>p :set paste!<CR>
