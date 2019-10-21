@@ -41,7 +41,7 @@ function Reset-Path {
 # Slow. Takes ~150ms.
 # I could try to do all of this in one go by making Add-Path take a list.
 # Add dumpbin.exe and friends to powershell path.
-Add-Path 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\Hostx64\x64'
+Add-Path 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64'
 # Add devenv.exe etc.
 Add-Path "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7"
 # Add gvim to path
@@ -56,6 +56,8 @@ Add-Path "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7
 # Git unix tools like less.
 Add-Path 'C:\Program Files\Git\usr\bin'
 Add-Path 'C:\Program Files\Git\bin'
+# Sysinternals
+Add-Path-Prefix 'C:\Users\iakronqu\SysinternalsSuite'
 
 
 # Aliases
@@ -64,10 +66,14 @@ function l { ls $args }
 
 function hex { echo ('0x{0:x}' -f $args[0]) }
 
+function title () {
+    $host.ui.RawUI.WindowTitle = "$args"
+}
+
 function Show-ErrorCode {
     if (!$?) {
         if ($LASTEXITCODE) {
-            Write-Host -ForegroundColor Red -NoNewline ("{0:x} " -f $LASTEXITCODE)
+            Write-Host -ForegroundColor Red -NoNewline ("0x{0:x} " -f $LASTEXITCODE)
         } else {
             Write-Host -ForegroundColor Red -NoNewline "$? "
         }
@@ -115,6 +121,9 @@ if (Get-ChildItem env:SDXROOT -ErrorAction SilentlyContinue) {
         }
         return "$(Get-Location)>"
     }
+    title "Razzle $sdxroot"
+    # Multi-threaded compilation. Isn't this the default?
+    Set-Item Env:BUILD_CL_MP 1
 } else {
     function asan() {
         pushd C:\Users\iakronqu\source\asan\asan-utc\
@@ -131,27 +140,40 @@ if (Get-ChildItem env:SDXROOT -ErrorAction SilentlyContinue) {
     }
 }
 
-$msvc='~/source/msvc'
+$msvc='C:\Users\iakronqu\source\msvc'
+$utc="$msvc\src\vctools\Compiler\Utc"
 function msvc { pushd $msvc }
 
 # Open the file(s) in a new tab in the existing gvim instance.
 function v {
-    # Special case -t 'open tag' because vim command parsing is weird.
-    if ($args[0] -Eq '-t') {
+    if ($args.length -Eq 0) {
+        gvim
+    } elseif ($args[0] -Eq '-t') {
+        # Special case -t 'open tag' because vim command parsing is weird.
         $tag = $args[1]
 
         gvim --remote-send ":execute('tab tag $tag')<CR>"
     } else {
-        gvim -p --remote-tab-silent $args
+
+        # FIXME Loop through and expand args, and open each individually?
+        gvim --remote-tab-silent $args
+        # Apparently -p doesn't work?
+        # For each argument
+        #$args | ForEach-Object {
+        #    # For each expanded item in the argument
+        #    Get-ChildItem $_ | ForEach-Object {
+        #        gvim --remote-tab-silent $_
+        #    }
+        #}
     }
 }
 
-# Open each file under source control which has been modified in a new tab in gvim.
+## Open each file under source control which has been modified in a new tab in gvim.
 function vg {
     # Take the output of git status -s, match anything which has been modified, and for each match,
     # convert it to a string, and remove the match marker from the front.
     # Then feed all that to gvim as a series of command line arguments
-    gvim -p $(git status -s | Select-String " M " | ForEach-Object { $_.ToString().trim(" M ") })
+    gvim --remote-tab-silent  $(git status -s | Select-String " M " | ForEach-Object { $_.ToString().trim(" M ") })
 }
 
 # Git Aliases
@@ -175,12 +197,12 @@ function grind($regex, $file) {
     Get-ChildItem $file -recurse -filter $regex -file | foreach-object { $_.fullname.tostring() }
 }
 
-function pydoc () {
-    python -m pydoc $args
+function py2 () {
+    c:\python27\python.exe $args
 }
 
-function title () {
-    $host.ui.RawUI.WindowTitle = "$args"
+function pydoc () {
+    python -m pydoc $args
 }
 
 # Thanks Nate.
@@ -221,8 +243,29 @@ Set-PSReadlineOption -Colors @{
     "Parameter" = [ConsoleColor]::Yellow
 }
 
+# Bash style line editing
+# ctl+e goes to end of line
+# ctl+a goes to beginning
+# alt+f goes forward one word
+# alt+b goes backward
+#Set-PSReadLineOption -EditMode Emacs
+# This is buggy and breaks autocomplete.
+
 # Does not work well with ctrl-r
 #Set-PSReadlineOption -EditMode vi
 #Set-PSReadlineOption -HistorySearchCursorMovesToEnd False
+#
+## Not sure about these next two, but I'd like something better than ctrl+leftarrow.
+Set-PSReadlineKeyHandler -Key ctrl+b -Function BackwardWord
+Set-PSReadlineKeyHandler -Key ctrl+q -Function BackwardWord
+
+# Not sure about this one, vim uses 'w', which is a good pneumonic, but this is different.
+Set-PSReadlineKeyHandler -Key ctrl+w -Function NextWord
+# Unapologetically bash like.
+Set-PSReadlineKeyHandler -Key ctrl+a -Function BeginningOfLine
+Set-PSReadlineKeyHandler -Key ctrl+e -Function EndOfLine
+
+# Python scripts are executables.
+$env:PATHEXT += ";.py"
 
 $ORIGINAL_PATH = $env:PATH
