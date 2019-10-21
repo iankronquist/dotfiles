@@ -18,14 +18,10 @@ alias vu='vagrant up'
 alias rebash="exec bash"
 
 
-# This is prone to change and depends on both my .ssh/config and screen session
-alias irc="ssh onid -- \"screen -DR\""
-
 if [[ $(uname) == "Darwin" ]]; then
 	alias 'objdump'='gobjdump'
 	alias opn='open'
 	alias pp='echo cd `pwd` | pbcopy'
-	alias redoc='$(boot2docker shellinit)'
 
 	alias gcc='gcc-6'
 	alias 'g++'='g++-6'
@@ -78,16 +74,9 @@ if [[ "$(type -t __git_complete)" == 'function' ]]; then
 	__git_complete gpu _git_push
 	__git_complete gr _git_grep
 
-	# FIXME make this work for git space barkly and not just git dash barkly
-	if [[ -x $(command -v git-barkly) ]]; then
-		__git_complete git-barkly __git_main
-	fi
-
 else
 	echo shorthand git completions not added
 fi
-
-
 
 alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
 
@@ -95,7 +84,6 @@ alias :tabe='vim -p'
 
 alias jcheck="python -m json.tool"
 
-alias cri="screen -DR irc"
 
 grind () {
 	find ${2:-.} | grep -i $1
@@ -114,14 +102,11 @@ alias ':w'='echo this is not vim'
 alias ':q'='echo this is not vim'
 alias ':wq'='echo this is not vim'
 alias 'pycheck'='python -m py_compile'
-alias rtags='ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --exclude=Include/*/*'
 
 
 git-authors () {
 	git ls-tree -r -z --name-only HEAD --full-tree | xargs -0 -n1 git blame --line-porcelain HEAD | grep  "^author "|sort|uniq -c|sort -nr
 }
-
-alias makerv='make CP=gcp CC=x86_64-elf-gcc LD=x86_64-elf-ld STRIP=gstrip -j8'
 
 godoc () {
 	env godoc $@ | less
