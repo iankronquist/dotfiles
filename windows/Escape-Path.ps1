@@ -9,7 +9,11 @@ Param(
 
         [Switch]
         [alias("w")]
-        $Windowsify
+        $Windowsify,
+
+        [Switch]
+        [alias("s")]
+        $WSLify
      )
 
   <#
@@ -43,6 +47,11 @@ if ($Unixify) {
     $path -replace "\\", "/" #"
 } elseif ($Windowsify) {
     $path -replace "/", "\" #"
+} elseif ($WSLify) {
+    # FIXME should work for drives other than C:
+    $path = $path -replace "C:", ""
+    $path = $path -replace "\\", "/" #"
+    "/mnt/c" + $path
 } else {
     $path -replace "\\", "\\"
 }

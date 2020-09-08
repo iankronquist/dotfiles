@@ -1,42 +1,9 @@
 IdentitiesOnly yes
 
-Host zerogravitas
-	User iankronquist
-	HostName 35.185.67.63
-	IdentityFile ~/.ssh/id_rsa_zg
-
-Host onid
-	HostName shell.onid.oregonstate.edu
-	User kronquii
-	IdentityFile ~/.ssh/id_rsa_onid
-
-Host flip
-	HostName access.engr.oregonstate.edu
-	User kronquii
-
-Host flip1
-	HostName flip1.engr.oregonstate.edu
-	User kronquii
-
-Host flip3
-	HostName flip3.engr.oregonstate.edu
-	User kronquii
-
 Host github.com
 	User git
 	IdentityFile ~/.ssh/id_ecdsa_github
 
-Host gitla.in
-	User git
-	IdentityFile ~/.ssh/id_rsa_lain
-
-
 Host gist.github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa_github
-
-Host os-class
-	Hostname os-class.engr.oregonstate.edu
-	ProxyCommand ssh onid nc %h %p -w 8
-	IdentityFile ~/.ssh/id_rsa_os_class
-	User kronquii
