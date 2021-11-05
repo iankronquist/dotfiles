@@ -13,7 +13,11 @@ Param(
 
         [Switch]
         [alias("s")]
-        $WSLify
+        $WSLify,
+
+        [Switch]
+        [alias("r")]
+        $URLify
      )
 
   <#
@@ -24,15 +28,16 @@ Param(
   tools which choke on the wrong type of path.
 
   .DESCRIPTION
-  This function queries the speculation control settings for the system.
+  This function naively reformats path separators
 
   .PARAMETER path
-  The path to escape. By default, all backslashes will be escaped by a
+  The path to escape. By default, all backslashes will be escaped with a
   backslash.
 
   .PARAMETER Unixify
   Given a windows-style path, format it as a unix-style path by replacing all
-  backslashes with forward slashes.
+  backslashes with forward slashes. Do not adjust the drive letter, if it
+  exists.
   Alias u.
 
   .PARAMETER Windowsify
@@ -52,6 +57,10 @@ if ($Unixify) {
     $path = $path -replace "C:", ""
     $path = $path -replace "\\", "/" #"
     "/mnt/c" + $path
+} elseif ($URLify) {
+    $path -replace "\\", "%2F" #"
+    # FIXME should I use a different escape code for actual forward slashes?
+    $path -replace "/", "%2F" #"
 } else {
     $path -replace "\\", "\\"
 }

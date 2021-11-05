@@ -33,9 +33,12 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.hxx setlocal shiftwidth=4 tabstop=4 expandtab
 	" Special preprocessor files part of the windows build system which are basically headers with magic annotations.
-	autocmd BufRead,BufNewFile *.w setlocal shiftwidth=4 tabstop=4 expandtab syntax=c
-	autocmd BufRead,BufNewFile *.api setlocal shiftwidth=4 tabstop=4 expandtab syntax=c
-	autocmd BufRead,BufNewFile *.tpl setlocal shiftwidth=4 tabstop=4 expandtab syntax=c
+	autocmd BufRead,BufNewFile *.w setlocal shiftwidth=4 tabstop=4 expandtab syntax=cpp
+	autocmd BufRead,BufNewFile *.api setlocal shiftwidth=4 tabstop=4 expandtab syntax=cpp
+	autocmd BufRead,BufNewFile *.apx setlocal shiftwidth=4 tabstop=4 expandtab syntax=cpp
+	autocmd BufRead,BufNewFile *.tpl setlocal shiftwidth=4 tabstop=4 expandtab syntax=cpp
+	" Windows manifests
+	autocmd BufRead,BufNewFile *.man setlocal syntax=xml
 	" Powershell. Use csh syntax highlighting since that's close enough.
 	autocmd BufRead,BufNewFile *.ps1 setlocal shiftwidth=4 tabstop=4 expandtab syntax=csh
 	" :hi Error NONE
@@ -47,6 +50,8 @@ augroup configgroup
 	autocmd BufRead,BufNewFile dirs setlocal noexpandtab syntax=make
 	" Prose
 	autocmd BufRead,BufNewFile *.txt setlocal spell
+	" Semmle/CodeQL
+	autocmd BufRead,BufNewFile *.ql setlocal spell syntax=sql noexpandtab
 augroup END
 
 "  http://www.panozzaj.com/blog/2016/03/21/ignore-urls-and-acroynms-while-spell-checking-vim/
@@ -111,11 +116,10 @@ filetype plugin on
 let @w = ":%s/\\s\\+$//"
 
 " Remap common typos
-command WA wa
-command Wa wa
-command WQ wq
-command Wq wq
-command Q q
+command! -nargs=* -bang W w<bang> <args>
+command! -nargs=* -bang Q q<bang> <args>
+" X is for encrypt, maybe change this later?
+"command! -nargs=* -bang X x<bang> <args>
 
 " toggle paste
 nma <leader>p :set paste!<CR>
@@ -136,6 +140,7 @@ function! Concentrate()
 	set spell!
 	set hlsearch!
 	set number!
+	set ruler!
 	" Should have an undo option for this
 	"match Ignore /\r$/
 endfunction
@@ -169,7 +174,11 @@ if has("clipboard")
     " CTRL-V and SHIFT-Insert are Paste
     " no, I like CTRL-V as is thanks.
     "map <C-V>		"+gP
+    " CTRL-W is paste, try and see if I like it.
+    " Insert is paste?
+    map <C-W>		"+gP
     map <S-Insert>		"+gP
+    map <Insert>		"+gP
 
     "cmap <C-V>		<C-R>+
     cmap <S-Insert>		<C-R>+
@@ -252,3 +261,6 @@ let mapleader = ","
 
 " zg on misspelled word will add it to the dictionary
 " zw on misspelled word will add it to the dictionary as misspelled (wrong)
+:set fencs=ucs-bom,utf-16le,utf-8,default,latin1
+
+set colorcolumn=80

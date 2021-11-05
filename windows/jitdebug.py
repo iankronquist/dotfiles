@@ -37,8 +37,9 @@ if __name__ == '__main__':
         print('Current WOW64 JIT Debugger value:')
         print(get_key(winreg.HKEY_LOCAL_MACHINE, JIT_WOW64_DEBUGGER_KEY, JIT_DEBUGGER_LEAF)[0])
     elif len(sys.argv) == 2 and sys.argv[1] in DEBUGGERS.keys():
-        set_key(winreg.HKEY_LOCAL_MACHINE, JIT_DEBUGGER_KEY, JIT_DEBUGGER_LEAF, DEBUGGERS[sys.argv[1]])
-        set_key(winreg.HKEY_LOCAL_MACHINE, JIT_WOW64_DEBUGGER_KEY, JIT_DEBUGGER_LEAF, DEBUGGERS[sys.argv[1]])
+        debugger = DEBUGGERS[sys.argv[1]]
+        set_key(winreg.HKEY_LOCAL_MACHINE, JIT_DEBUGGER_KEY, JIT_DEBUGGER_LEAF, debugger)
+        set_key(winreg.HKEY_LOCAL_MACHINE, JIT_WOW64_DEBUGGER_KEY, JIT_DEBUGGER_LEAF, debugger)
     else:
         show_help()
 

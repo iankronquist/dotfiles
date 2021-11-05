@@ -13,6 +13,15 @@
 # Get-Content cats a file.
 #
 # To run something which is in a string, use Invoke-Expression
+#
+# Check if smb is alive on port 445:
+# test-NetConnection $YOURHOST -Port 445
+#
+# Better than ping because ping is unreliable
+#
+# Get-Clipboard
+# Set-Clipboard
+# Set-Clipboard -path ntdll.dll # Slurp ntdll file to paste into vm etc.
 
 # Check perf with:
 #$sw = [system.diagnostics.stopwatch]::startNew()
@@ -33,6 +42,14 @@ function Add-Path {
     }
 }
 
+# Slow and doesn't work if $in==$out
+function Convert-UTF8 ($in, $out) {
+    #if (!$out) {
+    #    $out = $in
+    #}
+    cat $in | set-content -Encoding UTF8 $out
+}
+
 function Reset-Path {
     $env:PATH = $ORIGINAL_PATH
 }
@@ -45,19 +62,19 @@ Add-Path 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tool
 # Add devenv.exe etc.
 Add-Path "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7"
 # Add gvim to path
-Add-Path "C:\Program Files (x86)\Vim\vim80"
+#Add-Path "C:\Program Files (x86)\Vim\vim80"
 # Scripts
-Add-Path "$home\scripts"
+#Add-Path "$home\scripts"
 # WinDbg and WinDbgX
-Add-Path "C:\Debuggers"
-Add-Path "C:\Users\iakronqu\AppData\Local\dbg\UI"
+#Add-Path "C:\Debuggers"
+#Add-Path "$home\AppData\Local\dbg\UI"
 # devenv
 Add-Path "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE"
 # Git unix tools like less.
-Add-Path 'C:\Program Files\Git\usr\bin'
-Add-Path 'C:\Program Files\Git\bin'
+#Add-Path 'C:\Program Files\Git\usr\bin'
+#Add-Path 'C:\Program Files\Git\bin'
 # Sysinternals
-Add-Path-Prefix 'C:\Users\iakronqu\SysinternalsSuite'
+#Add-Path-Prefix "$home\SysinternalsSuite"
 
 
 # Aliases
@@ -87,7 +104,10 @@ if (Get-ChildItem env:SDXROOT -ErrorAction SilentlyContinue) {
     $checkedness = (Get-ChildItem Env:build.type).Value
     $flavor = "$arch$checkedness"
     function root { pushd $sdxroot }
-
+    function src { pushd $sdxroot }
+    function ntdll { pushd $sdxroot\minkernel\ntdll }
+    function rtl { pushd $sdxroot\minkernel\ntos\rtl }
+    function ntos { pushd $sdxroot\minkernel\ntos }
     function ntgdi { pushd $sdxroot\windows\Core\ntgdi }
     function ntusr { pushd $sdxroot\windows\Core\ntuser }
     function bin { pushd $sdxroot\..\bin\$flavor }
@@ -109,15 +129,21 @@ if (Get-ChildItem env:SDXROOT -ErrorAction SilentlyContinue) {
     function prompt {
         try {
             Show-ErrorCode
-            $_=$(Get-Content $sdxroot\.git\HEAD) -match 'refs/heads.*/(.*)$'
-                if ($matches[1]) {
-                    Write-Host -ForegroundColor DarkGreen -NoNewline "$($matches[1]) "
-                } else {
-                    Write-Host -ForegroundColor DarkGreen -NoNewline "$($matches[0]) "
-                }
+            $_dead=$(Get-Content $sdxroot\.git\HEAD) -match 'refs/heads.*/(.*)$'
+            if ($matches[1]) {
+                $ref=$matches[1]
+            } else {
+                $ref=$matches[0]
+            }
+            $end = (($ref.Length, 32) | Measure-Object -min).minimum
+            $path = $ref.SubString(0, $end)
+            if ($end -lt $ref.Length) {
+                $path = $path + '…'
+            }
+            Write-Host -ForegroundColor DarkGreen -NoNewline "$($path) "
         }
         catch {
-            Write-Host -ForegroundColor DarkGreen -NoNewline "Detatched HEAD? "
+            Write-Host -ForegroundColor DarkGreen -NoNewline "Detached HEAD? "
         }
         return "$(Get-Location)>"
     }
@@ -125,12 +151,12 @@ if (Get-ChildItem env:SDXROOT -ErrorAction SilentlyContinue) {
     # Multi-threaded compilation. Isn't this the default?
     Set-Item Env:BUILD_CL_MP 1
 } else {
-    function asan() {
-        pushd C:\Users\iakronqu\source\asan\asan-utc\
-    }
-    function llvm() {
-        pushd C:\Users\iakronqu\source\llvm\
-    }
+    #function asan() {
+    #    pushd C:\Users\iakronqu\source\asan\asan-utc\
+    #}
+    #function llvm() {
+    #    pushd C:\Users\iakronqu\source\llvm\
+    #}
 
     # Updating the prompt is slow, ~150ms.
     # Change prompt to include the last exit code
@@ -140,23 +166,31 @@ if (Get-ChildItem env:SDXROOT -ErrorAction SilentlyContinue) {
     }
 }
 
-$msvc='C:\Users\iakronqu\source\msvc'
-$utc="$msvc\src\vctools\Compiler\Utc"
-function msvc { pushd $msvc }
+#$msvc='C:\Users\iakronqu\source\msvc'
+#$utc="$msvc\src\vctools\Compiler\Utc"
+#function msvc { pushd $msvc }
 
 # Open the file(s) in a new tab in the existing gvim instance.
 function v {
+    #$sw = [system.diagnostics.stopwatch]::startNew()
+    #echo $sw.Elapsed
     if ($args.length -Eq 0) {
+        #echo $sw.Elapsed
         gvim
+        #echo $sw.Elapsed
     } elseif ($args[0] -Eq '-t') {
+        #echo $sw.Elapsed
         # Special case -t 'open tag' because vim command parsing is weird.
         $tag = $args[1]
 
         gvim --remote-send ":execute('tab tag $tag')<CR>"
+        #echo $sw.Elapsed
     } else {
 
+        #echo $sw.Elapsed
         # FIXME Loop through and expand args, and open each individually?
         gvim --remote-tab-silent $args
+        #echo $sw.Elapsed
         # Apparently -p doesn't work?
         # For each argument
         #$args | ForEach-Object {
@@ -190,11 +224,24 @@ function gco { git checkout $args }
 function gcp { git checkout -p $args }
 
 function grind($regex, $file) {
-    #if ("$PWD".startswith($sdxroot, "CurrentCultureIgnoreCase")) {
-    #    Write-Host -ForegroundColor Red -NoNewline "Don't search the GVFS repo!"
-    #    return
-    #}
-    Get-ChildItem $file -recurse -filter $regex -file | foreach-object { $_.fullname.tostring() }
+    if ("$PWD".startswith('d:\os\src', "CurrentCultureIgnoreCase")) {
+        Write-Host -ForegroundColor Red -NoNewline "Don't search the GVFS repo!"
+        return
+    }
+    #Get-ChildItem $file -recurse -filter $regex -file | foreach-object { $_.fullname.tostring() }
+    #Get-ChildItem $file -recurse -file | foreach-object { $_.fullname.tostring() } | grep $regex
+    &'c:\program files\git\usr\bin\find.exe' $file |grep -i $regex
+}
+
+function refact($search, $replace, $files) {
+    if (!$dir) {
+        $dir = '.'
+    }
+    ls $files | ForEach-Object {
+        $bkp=$_.FullName + '.bkp'
+        cp $_.FullName $bkp
+        (Get-Content -Path $_.FullName) -replace $search, $replace | Set-Content $_.FullName
+    }
 }
 
 function py2 () {
@@ -237,6 +284,11 @@ function Invoke-CmdScript {
     }
 }
 
+# Debug msarmsim
+#function armdbg() {
+#    C:\Debuggers\wow64\windbg.exe -noredirect -kx 'exdi:CLSID={BF2163B8-97D0-4E71-B328-EBA8C1A99C04},Kd=Ioctl,DataBreaks=Exdi'
+#}
+
 # Changing the PSReadline options takes ~250ms, very slow.
 Set-PSReadlineOption -Colors @{
     "Operator" = [ConsoleColor]::Yellow
@@ -264,6 +316,9 @@ Set-PSReadlineKeyHandler -Key ctrl+w -Function NextWord
 # Unapologetically bash like.
 Set-PSReadlineKeyHandler -Key ctrl+a -Function BeginningOfLine
 Set-PSReadlineKeyHandler -Key ctrl+e -Function EndOfLine
+Set-PSReadLineKeyHandler -Key Ctrl+u -Function DeleteLineToFirstChar
+# A nice alternative to bash & powershell style autocomplete to explore
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 # Python scripts are executables.
 $env:PATHEXT += ";.py"
