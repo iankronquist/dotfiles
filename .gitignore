@@ -1,3 +1,5 @@
-.vim/.netrwhist
-.openstack_password
 .*.swp
+.*.swo
+.*.swn
+tags
+.ignore

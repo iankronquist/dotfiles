@@ -1,3 +1,3 @@
-#set editing-mode vi
-#set keymap vi-command
-set completion-ignore-case on
+#bindkey '^A' beginning-of-line
+#bindkey '^E' end-of-line
+#set completion-ignore-case on

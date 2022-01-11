@@ -1,0 +1,39 @@
+
+if [[ -z $PROJECTS_DIR ]]; then 
+	PROJECTS_DIR=$HOME/gg
+fi
+
+gg() {
+	# If there is no argument go to $PROJECTS_DIR, show some stuff, and leave
+	if [[ $1 == "" ]]; then 
+		cd $PROJECTS_DIR
+		ls
+		return 0
+		# else if the argument is a git url clone it and go to it
+	elif [[ $1 =~ 'http' || $1 =~ 'git@' || $1 =~ 'git://' ]]; then
+		cd $PROJECTS_DIR
+		# Run git clone and save messages on stdout and stderr
+		CLONE_OUTPUT=$(git clone $1 $2 2>&1 | tee /dev/tty)
+
+	# If the clone succeeded, find the directory created from the message
+	# git wrote on stderr. Else, print git's problem and return with its exit
+	# code.
+	if [[ $? == 0 ]]; then
+		GIT_CLONE_DIR=$(echo $CLONE_OUTPUT |
+			sed "s/^[^']*'//; s/'[^']*$//")
+					cd $GIT_CLONE_DIR
+				else
+					echo $CLONE_OUTPUT
+					return $?
+	fi
+	# else if a directory in PROJECTS_DIR exists, go to it
+elif [[ -d $PROJECTS_DIR/$1 ]]; then 
+	cd $PROJECTS_DIR/$1
+else
+	echo "No project named" $1 "was found."
+	return 0
+	fi
+}
+
+
+compdef '_files -W ~/gg' gg

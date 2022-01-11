@@ -19,7 +19,7 @@ alias rebash="exec bash"
 
 
 if [[ $(uname) == "Darwin" ]]; then
-	alias 'objdump'='gobjdump'
+	#alias 'objdump'='gobjdump'
 	alias opn='open'
 	alias pp='echo cd `pwd` | pbcopy'
 
@@ -35,7 +35,6 @@ elif [[ $(uname) == "Linux" ]]; then
 
 	alias ff='/Applications/FirefoxNightly.app/Contents/MacOS/firefox'
 fi
-
 
 alias py=python
 alias py3=python3
@@ -58,27 +57,27 @@ alias gpu='git push -u origin `git rev-parse --abbrev-ref HEAD`'
 alias gr='git grep'
 alias gs='git status'
 
-if [[ "$(type -t __git_complete)" == 'function' ]]; then
-	__git_complete ga _git_add
-	__git_complete gap _git_add
-	__git_complete gb _git_branch
-	__git_complete gc _git_commit
-	__git_complete gcp _git_commit
-	__git_complete gcb _git_checkout
-	__git_complete gco _git_checkout
-	__git_complete gd _git_diff
-	__git_complete gdn _git_diff
-	__git_complete gf _git_fetch
-	__git_complete gfwl _git_push
-	__git_complete gl _git_log
-	__git_complete gn _git_log
-	__git_complete gp _git_pull
-	__git_complete gpu _git_push
-	__git_complete gr _git_grep
-
-else
-	echo shorthand git completions not added
-fi
+#if [[ "$(type -t __git_complete)" == 'function' ]]; then
+#	__git_complete ga _git_add
+#	__git_complete gap _git_add
+#	__git_complete gb _git_branch
+#	__git_complete gc _git_commit
+#	__git_complete gcp _git_commit
+#	__git_complete gcb _git_checkout
+#	__git_complete gco _git_checkout
+#	__git_complete gd _git_diff
+#	__git_complete gdn _git_diff
+#	__git_complete gf _git_fetch
+#	__git_complete gfwl _git_push
+#	__git_complete gl _git_log
+#	__git_complete gn _git_log
+#	__git_complete gp _git_pull
+#	__git_complete gpu _git_push
+#	__git_complete gr _git_grep
+#
+#else
+#	echo shorthand git completions not added
+#fi
 
 alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
 
@@ -117,4 +116,41 @@ godoc () {
 #objdump () {
 #	env objdump $@ | less
 #}
+
+# If I'm writing too much asm :P
 alias mov=mv
+
+# Alias windows commands to unix
+alias dir=ls
+alias cls=clear
+
+# Case sensitive recursive search
+# One character for convenience like 'l' and 'v'
+
+alias s='rg -n'
+alias si='rg -in'
+
+#if ! type "rg" > /dev/null; then
+#alias s='rg -n'
+#alias si='rg -in'
+#else
+#if ! type "ag" > /dev/null; then
+#alias s='ag -s'
+#alias si='ag'
+#else
+#
+#alias s='grep -Rn'
+#alias si='grep -Rin'
+#fi
+#fi
+
+hbrun() {
+OLDPATH=$PATH
+PATH=/opt/homebrew/bin:$PATH
+#echo $@
+"${@:1}"
+PATH=$OLDPATH
+
+}
+
+

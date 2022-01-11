@@ -1,75 +1,72 @@
-# Log bash history
-export HISTTIMEFORMAT="%d/%m/%y %T "
-export HISTSIZE=10000
-REPORTTIME=1
+
+autoload compinit
+compinit
+
+bindkey -e
+bindkey \^U backward-kill-line
+bindkey \^W forward-word
+bindkey \^B backward-word
+
+
+
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+export PATH=$PATH:$HOME/bin:'/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/'
+
+source ~/.aliases
+source ~/bin/gg
+
+# Set special colors for various things
+export CLICOLOR=1
+# For GCC 4.9+
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # Set editor
 export EDITOR=vim
 
 
-export CLICOLOR=1
-export LS_COLORS=exfxcxdxbxegedabagacad
-export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# My goodness, zsh prompts are almost as bad as bash prompts.
 
-export PYTHONSTARTUP=$HOME/.pythonrc.py
+# $? is return value of the previous command
+# %F{blue} makes the prompt foreground blue. Reset to the previous foreground with %f.
+# ${...:0:15} takes a slice of the first 15 characters
+# $(git rev-parse ...) gets the current git branch/commit
+# $'\n' makes a literal newline so it's a multi line prompt
+# %# makes a % for normal users and a # for root
+# %f resets the foreground color to whatever it was originally
+setopt prompt_subst
+prompt='$? %F{blue}%~ $(git rev-parse --abbrev-ref HEAD 2>/dev/null)'$'\n''%# %f'
 
-autoload compinit
-compinit
+export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 
-zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
-zstyle ':completion:*' expoand prefix
-zstyle ':completion:*' ignore-parents parent pwd ..
-zstyle ':completion:*' list-suffixes
-zstyle ':completion:*' max-errors 2
-zstyle ':completion:*' menu select
-zstyle ':completion:*:default' list-colors  yes
-zstyle ':completion:*:descriptions' format "Completing %B%d%B"
-
-export PATH="/usr/local/bin:$HOME/bin:$PATH"
-#export PATH="$PATH:~/.cabal/bin"
-#for file in $( ls $HOME/.zshrc.d/*  | grep -ve ".swp$" | grep -ve ".bak$")
-#do
-#	source $file
-#done
-
-__git_ps1 () {
-    local b="$(git symbolic-ref HEAD 2>/dev/null)";
-    if [ -n "$b" ]; then
-        printf "%s" "${b##refs/heads/}";
-    fi
+projver () {
+    BUILD=$1
+    PROJ=$2
+    TRAIN=`echo "$BUILD" | grep -oE '^[A-Z][a-zA-Z]+'`
+    echo "ls -l ~rc/Software/$TRAIN/Updates/$BUILD/Projects/$PROJ"
+    ls -l ~rc/Software/$TRAIN/Updates/$BUILD/Projects/$PROJ
 }
 
-autoload -U colors && colors
-PS1="%{$fg[green]%}%m %{$fg[blue]%}%~ %{$reset_color%}$(__git_ps1) %{$fg[blue]%}z %{$reset_color%}"
 
-if [[ $(uname) == "Darwin" ]]; then
-	export HOMEBREW_NO_ANALYTICS=1
-	# Path munging!
-	# Get the go version from brew
-	export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
-	export GOPATH=$HOME/gopath
-	export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
-	# Cross compilers
-	export PATH=/usr/local/cross/bin/:$PATH
-	# Latex
-	export PATH=/Library/TeX/Root/bin/x86_64-darwin/:$PATH
-	# Golang
-	export PATH=$PATH:$GOPATH/bin
+export PYTHONPATH=$PYTHONPATH:/opt/homebrew/lib/python3.9/site-packages/
+# Shorthands for Astris ports
+ACC=8000
+ISP=8006
+GFX=8008
+DISP=8009
+SIODMA=8010
+PMP=8011
+SMC=8012
+AOP=8013
+MTP=8014
+SEP=8015
+AVEASC=8016
+ANE=8017
+ANS2=8018
 
-	# Does not play nice with brew
-	#if [[ -d $HOME/.nix-profile ]]; then
-	#	#source $HOME/.nix-profile/etc/profile.d/nix.sh
-	#fi
-fi
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
+setopt INC_APPEND_HISTORY
+setopt EXTENDED_HISTORY
 
-# Color man pages
-man() {
-	env LESS_TERMCAP_mb=$'\E[01;31m' \
-		LESS_TERMCAP_md=$'\E[01;38;5;74m' \
-		LESS_TERMCAP_me=$'\E[0m' \
-		LESS_TERMCAP_se=$'\E[0m' \
-		LESS_TERMCAP_so=$'\E[38;5;46m' \
-		LESS_TERMCAP_ue=$'\E[0m' \
-		LESS_TERMCAP_us=$'\E[04;38;5;146m' \
-		man "$@"
-}
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+NOTE_DIR=$HOME/gg/notes/
+TODAY=`date "+%Y-%m-%d-%A"`
+vim $NOTE_DIR/$TODAY.txt

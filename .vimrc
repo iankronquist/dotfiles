@@ -7,6 +7,14 @@ set smartcase
 set number
 set clipboard+=unnamed
 
+" AUDIT should be highlighted
+" https://stackoverflow.com/questions/11709965/vim-highlight-the-word-todo-for-every-filetype
+augroup HiglightAudit
+    autocmd!
+    autocmd WinEnter,VimEnter * :silent! call matchadd('Todo', 'AUDIT', -1)
+augroup END
+
+
 " Put language specific settings in a config group so they won't get
 " evaluated twice.
 augroup configgroup
@@ -28,6 +36,8 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.cc setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
+
+	autocmd BufRead,BufNewFile *.m setlocal shiftwidth=4 tabstop=4 expandtab filetype=objc
 	" Make actually uses tabs
 	autocmd BufRead,BufNewFile Makefile setlocal shiftwidth=4 tabstop=4
 	autocmd BufRead,BufNewFile *yml setlocal shiftwidth=2 tabstop=2 expandtab
@@ -44,14 +54,25 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
 	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
 
-	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell syntax=fasm
-	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t tw=79 spell
+	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell syntax=C
+	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t tw=79 spell syntax=C
+	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t tw=79 spell syntax=C
 
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
 	autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
 
 augroup END
+
+"  http://www.panozzaj.com/blog/2016/03/21/ignore-urls-and-acroynms-while-spell-checking-vim/
+" Don't mark URL-like things as spelling errors
+syn match UrlNoSpell '\w\+:\/\/[^[:space:]]\+' contains=@NoSpell
+" Don't count acronyms / abbreviations as spelling errors
+" (all upper-case letters, at least three characters)
+" Also will not count acronym with 's' at the end a spelling error
+" Also will not count numbers that are part of this
+" Recognizes the following as correct:
+syn match AcronymNoSpell '\<\(\u\|\d\)\{3,}s\?\>' contains=@NoSpell
 
 set cursorline          " highlight current line
 filetype indent on      " load filetype-specific indent files
@@ -70,6 +91,9 @@ set tabstop=4
 set ai
 set hlsearch            " Highlight search matches
 set incsearch           " search as characters are entered
+" show line/char number
+set ruler
+
 
 " za folds
 
@@ -91,6 +115,16 @@ let @w = ":%s/\\s\\+$//"
 "	nma <leader>c :'<,'>w!xclip<CR>
 "endif
 
+" Remap common typos
+map :WA<cr> :wa<cr>
+map :Wa<cr> :wa<cr>
+map :WQ<cr> :wq<cr>
+map :Wq<cr> :wq<cr>
+map :W<cr> :w<cr>
+map :Q<cr> :q<cr>
+
+
+
 " toggle paste
 nma <leader>p :set paste!<CR>
 " line numbers toggle
@@ -102,6 +136,13 @@ nma <leader>h :noh<CR>
 " remove search highlights
 nma <leader>t :set expandtab!<CR>
 
+" space=page down, shift space=page up
+nnoremap <Space> <C-d>
+nnoremap <S-Space> <C-u>
+
+
+
+
 colorscheme seoul256
 
 set list listchars=tab:→\ ,trail:·
@@ -109,3 +150,12 @@ set list listchars=tab:→\ ,trail:·
 " Bash like autocomplete.
 set wildmode=longest,list,full
 set wildmenu
+" Experiment with different autcomplete
+set completeopt=longest,menuone
+
+syn keyword AuditHighlightGroup AUDIT
+hi link AuditHighlightGroup Todo
+"hi AuditHighlightGroup guifg=Blue ctermfg=Blue term=bold
+
+
+
