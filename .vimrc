@@ -52,15 +52,16 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t syntax= spell
 	autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
-	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
+	"autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
 
 	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell syntax=C
 	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t tw=79 spell syntax=C
 	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t tw=79 spell syntax=C
-
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
 	autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
+	au BufRead,BufNewFile *.zig setfiletype rust
+	autocmd BufRead,BufNewFile *.zig setlocal expandtab
 
 augroup END
 
@@ -103,6 +104,17 @@ let @h = "Oimport pdb;pdb.set_trace()"
 
 " Clear trailing whitespace
 let @w = ":%s/\\s\\+$//"
+
+
+"" Convert each NAME_LIKE_THIS to NameLikeThis in the current line.
+"let @c =":s#_*\(\u\)\(\u*\)#\1\L\2#g"
+"
+"" Convert each name_like_this to NameLikeThis in current line.
+"let @c = ":s#\(\%(\<\l\+\)\%(_\)\@=\)\|_\(\l\)#\u\1\2#g"
+
+" Convert each name-like-this to NameLikeThis in current line.
+let @c = ":s#\(\%(\<\l\+\)\%(-\)\@=\)\|-\(\l\)#\u\1\2#g"
+
 
 "let s:uname = system("uname -s")
 "if s:uname == "Darwin"
@@ -159,3 +171,15 @@ hi link AuditHighlightGroup Todo
 
 
 
+
+" space=page down, shift space=page up
+nnoremap <Space> <C-d>
+nnoremap <S-Space> <C-u>
+
+"if executable('rls')
+"    au User lsp_setup call lsp#register_server({
+"        \ 'name': 'rls',
+"        \ 'cmd': {server_info->['rustup', 'run', 'nightly', 'rls']},
+"        \ 'whitelist': ['rust'],
+"        \ })
+"endif

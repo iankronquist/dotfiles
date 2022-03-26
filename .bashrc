@@ -33,25 +33,29 @@ if [[ $(uname) == "Darwin" ]]; then
 
 	#export GOVERSION=$(brew list go | head -n 1 | cut -d '/' -f 6)
 	#export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
-	export GOROOT=/usr/local/Cellar/go/1.6.2/libexec/
-	export GOPATH=$HOME/gopath
+	#export GOROOT=/usr/local/Cellar/go/1.6.2/libexec/
+	#export GOPATH=$HOME/gopath
 	# Homebrew
-	export PATH="/usr/local/bin:$PATH"
-	# Homebrew cross compilers
-	export PATH="$PATH:/usr/local/cross/bin/"
-	# Homebrew custom LLVM
-	export PATH="$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin"
-	# MacTex
-	export PATH="$PATH:/Library/TeX/Root/bin/x86_64-darwin/"
+	#export PATH="/usr/local/bin:$PATH"
+	export PATH="$PATH:/usr/local/bin"
+	export PATH=$PATH:$HOME/cross/bin
+	## Homebrew cross compilers
+	#export PATH="$PATH:/usr/local/cross/bin/"
+	## Homebrew custom LLVM
+	#export PATH="$PATH:/usr/local/opt/llvm/share/llvm:/usr/local/opt/llvm/bin"
+	## MacTex
+	#export PATH="$PATH:/Library/TeX/Root/bin/x86_64-darwin/"
+	# XCode Fuckery. Remove later with new OSX?
+	#export PATH="/Library/Developer/CommandLineTools/usr/bin/:$PATH"
 
 elif ! [[ $(uname) =~ 'Linux' ]]; then
 	export PATH="$PATH:$HOME/cross/bin/"
 fi
 
 # Dotfile scripts
-export PATH="$PATH:$HOME/bin"
-# Go
-export PATH="$PATH:$GOPATH"
+#export PATH="$PATH:$HOME/bin"
+## Go
+#export PATH="$PATH:$GOPATH"
 # Rust
 export PATH="$PATH:$HOME/.cargo/bin"
 
@@ -75,7 +79,7 @@ __prompt_command() {
 	local BOLD_GREEN='\[\033[1;32m\]'
 	local BOLD_BLUE='\[\033[1;34m\]'
 	local RESET_COLOR='\[\033[0;00m\]'
-	local FANCY_SYMBOL='→'
+	local FANCY_SYMBOL='$'
 	PS1=""
 
 	if [ ! -z $VIRTUAL_ENV ]; then
@@ -126,7 +130,7 @@ if [[ $(uname) == "Darwin" ]]; then
 	#source /usr/share/bash-completion/bash_completion
 
 	# Taken from "rbenv init -"
-	export PATH=$HOME/.rbenv/shims:$PATH
+	#export PATH=$HOME/.rbenv/shims:$PATH
 	export RBENV_SHELL=bash
 
 	rbenv() {

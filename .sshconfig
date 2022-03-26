@@ -6,4 +6,4 @@ Host github.com
 
 Host gist.github.com
 	User git
-	IdentityFile ~/.ssh/id_rsa_github
+	IdentityFile ~/.ssh/id_rsa
