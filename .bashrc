@@ -150,3 +150,4 @@ elif [[ $(uname) == "Linux" ]]; then
 		fi
 	fi
 fi
+. "$HOME/.cargo/env"

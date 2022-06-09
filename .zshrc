@@ -34,7 +34,7 @@ export EDITOR=vim
 # %# makes a % for normal users and a # for root
 # %f resets the foreground color to whatever it was originally
 setopt prompt_subst
-prompt='$? %F{blue}%~ $(git rev-parse --abbrev-ref HEAD 2>/dev/null)'$'\n''%# %f'
+prompt='$? %F{blue}%~ %* $(git rev-parse --abbrev-ref HEAD 2>/dev/null)'$'\n''%# %f'
 
 export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
 export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
@@ -48,7 +48,7 @@ projver () {
 }
 
 
-export PYTHONPATH=$PYTHONPATH:/opt/homebrew/lib/python3.9/site-packages/
+#export PYTHONPATH=$PYTHONPATH:/opt/homebrew/lib/python3.9/site-packages/
 # Shorthands for Astris ports
 ACC=8000
 ISP=8006
@@ -64,9 +64,25 @@ AVEASC=8016
 ANE=8017
 ANS2=8018
 
-export HISTFILESIZE=1000000000
-export HISTSIZE=1000000000
+#export HISTFILESIZE=1000000000
+#export HISTSIZE=1000000000
+#export HISTIGNORE=&
+export HISTSIZE=100000
+export HISTFILESIZE=100000
+export SAVEHIST=100000
+export HISTCONTROL=ignoreboth
 setopt INC_APPEND_HISTORY
 setopt EXTENDED_HISTORY
+setopt extendedhistory
+setopt histexpiredupsfirst
+#setopt histfindnodups
+#setopt histignorealldups
+#setopt histignoredups
+#setopt histignorespace
+#setopt histreduceblanks
+setopt histsavenodups
+setopt histverify
+setopt incappendhistory
+setopt sharehistory
 
 

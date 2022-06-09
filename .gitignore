@@ -3,3 +3,4 @@
 .*.swn
 tags
 .ignore
+cscope.out

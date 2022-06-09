@@ -13,7 +13,7 @@ gg() {
 	elif [[ $1 =~ 'http' || $1 =~ 'git@' || $1 =~ 'git://' ]]; then
 		cd $PROJECTS_DIR
 		# Run git clone and save messages on stdout and stderr
-		CLONE_OUTPUT=$(git clone $1 $2 2>&1 | tee /dev/tty)
+		CLONE_OUTPUT=$(git clone $1 $2 2>&1 | tee /dev/tty | head -n 1)
 
 	# If the clone succeeded, find the directory created from the message
 	# git wrote on stderr. Else, print git's problem and return with its exit

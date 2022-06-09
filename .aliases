@@ -23,10 +23,6 @@ if [[ $(uname) == "Darwin" ]]; then
 	alias opn='open'
 	alias pp='echo cd `pwd` | pbcopy'
 
-	alias gcc='gcc-8'
-	alias 'g++'='g++-8'
-	alias gcov=gcov-8
-
 	alias asleep='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 elif [[ $(uname) == "Linux" ]]; then
 	alias opn='xdg-open'
@@ -153,4 +149,15 @@ PATH=$OLDPATH
 
 }
 
+alias hist='history 0'
 
+alias le='less -r'
+
+ring_decode() {
+xcrun -sdk iphoneos.internal embedded_device_map -query "select Platform, PlatformGeneration,PlatformName, Target, ProductType, ProductDescription from Targets" | grep -i $@
+}
+
+dis() {
+	 xcrun -sdk iphoneos.internal  otool -xV $@ | less
+}
+alias rfind=~/Library/Python/3.8/bin/rfind
