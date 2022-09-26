@@ -1,0 +1,4 @@
+#!/bin/bash
+fname=$(realpath $(pwd) --relative-base=$HOME/gg | sed 's/\//_/g')
+pushd ~/gg/dnote
+vim -p $fname.txt
