@@ -19,15 +19,13 @@ links = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 
-#os.chdir(os.path.expanduser('~'))
 for (source_file, symlink) in links.items():
 	source_file = os.path.realpath(os.path.join(here, source_file))
 	print(symlink)
 	symlink = os.path.expanduser(symlink)
 	print(symlink)
 	print(source_file, symlink)
-	if os.path.islink(symlink):
-		if os.readlink(symlink) == source_file:
+	if os.path.islink(symlink) and os.readlink(symlink) == source_file:
 			print('link exists, continuing')
 			continue
 	elif os.path.exists(symlink):
