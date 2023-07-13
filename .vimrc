@@ -1,5 +1,5 @@
 " This is a comment
-set spell
+"set spell
 syntax on
 set ignorecase
 set smartcase
@@ -52,20 +52,34 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t syntax= spell
 	autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
-	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
+	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t spell expandtab
 
-	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell syntax=C
-	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t tw=79 spell syntax=C
-	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t tw=79 spell syntax=C
+	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t spell syntax=C
+	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t spell syntax=C
+	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t spell syntax=C
 
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
 	autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
 
 	autocmd BufNewFile,BufRead *.cidl4 setlocal spell syntax=swift
-	autocmd BufNewFile,BufRead *.tightbeam setlocal spell syntax=swift
+	autocmd BufNewFile,BufRead *.tightbeam setlocal nospell syntax=swift
 	autocmd BufNewFile,BufRead *.swift setlocal nospell syntax=swift
+
+	autocmd BufNewFile,BufRead *.diff setlocal nospell
 augroup END
+
+hi clear SpellBad
+hi SpellBad cterm=underline	ctermfg=red
+" Set style for gVim
+hi SpellBad gui=undercurl ctermfg=red
+
+hi clear SpellCap
+hi SpellCap cterm=underline	ctermfg=blue
+" Set style for gVim
+hi SpellCap gui=undercurl ctermfg=blue
+
+
 
 "  http://www.panozzaj.com/blog/2016/03/21/ignore-urls-and-acroynms-while-spell-checking-vim/
 " Don't mark URL-like things as spelling errors
@@ -77,7 +91,7 @@ syn match UrlNoSpell '\w\+:\/\/[^[:space:]]\+' contains=@NoSpell
 " Recognizes the following as correct:
 syn match AcronymNoSpell '\<\(\u\|\d\)\{3,}s\?\>' contains=@NoSpell
 
-set cursorline          " highlight current line
+"set cursorline          " highlight current line
 filetype indent on      " load filetype-specific indent files
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to.
@@ -88,7 +102,7 @@ nnoremap k gk
 
 
 " Default settings for anything else
-set cc=80
+"set cc=80
 set shiftwidth=4
 set tabstop=4
 set ai
@@ -155,9 +169,9 @@ nnoremap <S-Space> <C-u>
 
 
 
-colorscheme seoul256
+"colorscheme seoul256
 
-set list listchars=tab:→\ ,trail:·
+"set list listchars=tab:→\ ,trail:·
 
 " Bash like autocomplete.
 set wildmode=longest,list,full
@@ -194,7 +208,7 @@ if has("cscope")
 
     nmap <C-@>s :tab cs find s <C-R>=expand("<cword>")<CR><CR>
     nmap <C-@>g :tab cs find g <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-@>c :tab cs find c <C-R>=expand("<cword>")<CR><CR>
+	nmap <C-@>c :tab cs find c <C-R>=expand("<cword>")<CR><CR>
     nmap <C-@>t :tab cs find t <C-R>=expand("<cword>")<CR><CR>
     nmap <C-@>e :tab cs find e <C-R>=expand("<cword>")<CR><CR>
     nmap <C-@>f :tab cs find f <C-R>=expand("<cfile>")<CR><CR>
@@ -226,3 +240,5 @@ if executable('clangd')
         autocmd FileType objcpp setlocal omnifunc=lsp#complete
     augroup end
 endif
+
+hi Search cterm=NONE ctermfg=black ctermbg=blue

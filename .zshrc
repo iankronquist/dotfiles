@@ -1,6 +1,11 @@
 
+setopt BASH_REMATCH
+
 autoload compinit
 compinit
+# Autocomplete targets for Makefiles
+zstyle ':completion:*:*:make:*' tag-order 'targets'
+
 
 bindkey -e
 bindkey \^U backward-kill-line
@@ -67,22 +72,36 @@ ANS2=8018
 #export HISTFILESIZE=1000000000
 #export HISTSIZE=1000000000
 #export HISTIGNORE=&
-export HISTSIZE=100000
-export HISTFILESIZE=100000
-export SAVEHIST=100000
-export HISTCONTROL=ignoreboth
-setopt INC_APPEND_HISTORY
-setopt EXTENDED_HISTORY
-setopt extendedhistory
-setopt histexpiredupsfirst
+export HISTSIZE=1000000000
+export HISTFILESIZE=1000000000
+export SAVEHIST=1000000000
+#export HISTCONTROL=ignoreboth
+#setopt INC_APPEND_HISTORY
+#setopt EXTENDED_HISTORY
+#setopt extendedhistory
+#setopt histexpiredupsfirst
 #setopt histfindnodups
 #setopt histignorealldups
 #setopt histignoredups
 #setopt histignorespace
 #setopt histreduceblanks
-setopt histsavenodups
-setopt histverify
+#setopt histsavenodups
+#setopt histverify
 setopt incappendhistory
-setopt sharehistory
+#setopt sharehistory
 
+# Braindead zsh defaults
+alias history='history 0'
 
+# zsh shell expansion won't pass * down to the command, which makes it so you
+# have to always put grep arguments which use * in quotes, which is annoying
+# for every day command line use.
+setopt +o nomatch
+test -e /Users/ian/.iterm2_shell_integration.zsh && source /Users/ian/.iterm2_shell_integration.zsh || true
+
+if ! grep -q "pam_tid.so" /etc/pam.d/sudo ; then
+	echo "touch ID no longer enabled for sudo. Insert the following line as line 2 in /etc/pam.d/sudo:"
+	echo "  auth   sufficient  pam_tid.so  # enables touch id auth for sudo"
+fi
+
+test -e ~/.iterm2_shell_integration.zsh && source ~/.iterm2_shell_integration.zsh || true

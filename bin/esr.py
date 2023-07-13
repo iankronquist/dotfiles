@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+'''
 def ifsc_decode(ifsc):
     # FIXME This is only for data aborts
     ifsc_table = {
@@ -80,3 +81,5 @@ if __name__ == '__main__':
     import sys
     esr_decode(int(sys.argv[1], 0))
 
+
+    '''
