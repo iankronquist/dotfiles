@@ -1,6 +1,7 @@
 " vim: set et ft=vim sw=2 sts=2 ts=8 tw=80 :
 " Script:   arm64asm.vim
 " Author:   Saleem Abdulrasool <compnerd@compnerd.org>
+" 			With modifications by Ian Kronquist
 " Homepage: http://github.com/compnerd/arm64asm
 " Requires: Vim 7
 " License:  Redistribute under the same terms as Vim itself
@@ -93,6 +94,16 @@ syntax match AArch64Modifier /:gottprel_g0_nc:/ contained
 syntax match AArch64Modifier /@PAGE/ contained
 syntax match AArch64Modifier /@PAGEOFF/ contained
 
+syntax match AArch64Number /#\?-\?\d\+/
+syntax match AArch64Number /#\?([^)]\+)/
+
+" upstream does not support hex or binary constants??
+syntax match AArch64Number /#\?-\?0x\x\+/
+syntax match AArch64Number /#-\?0b[01]\+/
+
+
+syntax match AArch64Macro  /#\?[_a-zA-Z][_a-zA-Z0-9]*/
+
 syntax match AArch64Identifier /[-_$.A-Za-z0-9]\+/
 syntax match AArch64Identifier /:.*:[-_$.A-Za-z0-9]\+/ contains=AArch64Modifier
 " MachO uses @modifiers
@@ -135,7 +146,8 @@ syntax keyword AArch64Mnemonic LDTRH LDTRSB LDTRSH LDTRSW LDUR LDURB LDURH
 syntax keyword AArch64Mnemonic LDURSB LDURSH LDURSW LDXP LDXR LDXRB LDXRH LSL
 syntax keyword AArch64Mnemonic LSLV LSR LSRV
 
-syntax keyword AArch64Mnemonic MADD MNEG MOV MOVK MOVN MOVZ MRS MSUB MUL MVN
+syntax keyword AArch64Mnemonic MADD MNEG MOV MOVK MOVN MOVZ MSR MRS MSUB MUL
+syntax keyword AArch64Mnemonic MVN
 
 syntax keyword AArch64Mnemonic NEGS NGC NGCS NOP
 
@@ -227,9 +239,9 @@ syntax keyword AArch64Mnemonic XTN XTN2
 
 syntax keyword AArch64Mnemonic ZIP1 ZIP2
 
-syntax match AArch64Macro  /#[_a-zA-Z][_a-zA-Z0-9]*/
-syntax match AArch64Number /#-\?\d\+/
-syntax match AArch64Number /#([^)]\+)/
+" Interesting extensions
+syntax keyword AArch64Mnemonic GENTER GEXIT
+
 " TODO(compnerd) add floating point and hexadecimal numeric literal
 
 " NOTE(compnerd) this must be matched after numerics

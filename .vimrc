@@ -56,9 +56,9 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
 	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t spell expandtab
 
-	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t spell syntax=C
-	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t spell syntax=C
-	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t spell syntax=C
+	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t spell syntax=arm64
+	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t spell syntax=arm64
+	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t spell syntax=arm64
 
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
