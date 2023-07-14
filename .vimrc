@@ -1,5 +1,5 @@
 " This is a comment
-set spell
+"set spell
 syntax on
 set ignorecase
 set smartcase
@@ -24,7 +24,7 @@ augroup configgroup
 	" Python follows PEP8
 	autocmd BufRead,BufNewFile *.py setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.c setlocal shiftwidth=4 tabstop=4 expandtab
-	autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 noexpandtab
+	autocmd BufRead,BufNewFile *.h setlocal shiftwidth=4 tabstop=4 expandtab
 	" Haskell is allergic to tabs.
 	autocmd BufRead,BufNewFile *.hs setlocal shiftwidth=2 tabstop=2 expandtab nospell
 	" JavaScript follows AirBnB style guide, which the OSL uses
@@ -48,24 +48,42 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.pp setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
 	autocmd BufRead,BufNewFile Gemfile setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
 	autocmd BufRead,BufNewFile Vagrantfile setlocal shiftwidth=2 tabstop=2 expandtab syntax=ruby
-	autocmd BufRead,BufNewFile *.go setlocal shiftwidth=4 tabstop=4 syntax=java
+	autocmd BufRead,BufNewFile *.go setlocal shiftwidth=4 tabstop=4 syntax=go
 
 	" Human readable files which typically contain prose
 	autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t syntax= spell
 	autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
-	"autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t tw=79 spell expandtab
+	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t spell expandtab
 
-	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t tw=79 spell syntax=C
-	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t tw=79 spell syntax=C
-	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t tw=79 spell syntax=C
+	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t spell syntax=C
+	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t spell syntax=C
+	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t spell syntax=C
+
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
 	autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
 	au BufRead,BufNewFile *.zig setfiletype rust
 	autocmd BufRead,BufNewFile *.zig setlocal expandtab
 
+	autocmd BufNewFile,BufRead *.cidl4 setlocal spell syntax=swift
+	autocmd BufNewFile,BufRead *.tightbeam setlocal nospell syntax=swift
+	autocmd BufNewFile,BufRead *.swift setlocal nospell syntax=swift
+
+	autocmd BufNewFile,BufRead *.diff setlocal nospell
 augroup END
+
+hi clear SpellBad
+hi SpellBad cterm=underline	ctermfg=red
+" Set style for gVim
+hi SpellBad gui=undercurl ctermfg=red
+
+hi clear SpellCap
+hi SpellCap cterm=underline	ctermfg=blue
+" Set style for gVim
+hi SpellCap gui=undercurl ctermfg=blue
+
+
 
 "  http://www.panozzaj.com/blog/2016/03/21/ignore-urls-and-acroynms-while-spell-checking-vim/
 " Don't mark URL-like things as spelling errors
@@ -77,7 +95,7 @@ syn match UrlNoSpell '\w\+:\/\/[^[:space:]]\+' contains=@NoSpell
 " Recognizes the following as correct:
 syn match AcronymNoSpell '\<\(\u\|\d\)\{3,}s\?\>' contains=@NoSpell
 
-set cursorline          " highlight current line
+"set cursorline          " highlight current line
 filetype indent on      " load filetype-specific indent files
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to.
@@ -88,7 +106,7 @@ nnoremap k gk
 
 
 " Default settings for anything else
-set cc=80
+"set cc=80
 set shiftwidth=4
 set tabstop=4
 set ai
@@ -130,12 +148,21 @@ let @c = ":s#\(\%(\<\l\+\)\%(-\)\@=\)\|-\(\l\)#\u\1\2#g"
 "endif
 
 " Remap common typos
-map :WA<cr> :wa<cr>
-map :Wa<cr> :wa<cr>
-map :WQ<cr> :wq<cr>
-map :Wq<cr> :wq<cr>
-map :W<cr> :w<cr>
-map :Q<cr> :q<cr>
+"map :WA<cr> :wa<cr>
+"map :Wa<cr> :wa<cr>
+"map :WQ<cr> :wq<cr>
+"map :Wq<cr> :wq<cr>
+"map :W<cr> :w<cr>
+"map :Q<cr> :q<cr>
+"map :Qa<cr> :qa<cr>
+command Q q
+command QA qa
+command Qa qa
+command W w
+command WA wa
+command Wa wa
+command WQ wq
+command Wq wq
 
 
 
@@ -157,9 +184,9 @@ nnoremap <S-Space> <C-u>
 
 
 
-colorscheme seoul256
+"colorscheme seoul256
 
-set list listchars=tab:→\ ,trail:·
+"set list listchars=tab:→\ ,trail:·
 
 " Bash like autocomplete.
 set wildmode=longest,list,full
@@ -172,12 +199,6 @@ hi link AuditHighlightGroup Todo
 "hi AuditHighlightGroup guifg=Blue ctermfg=Blue term=bold
 
 
-
-
-" space=page down, shift space=page up
-nnoremap <Space> <C-d>
-nnoremap <S-Space> <C-u>
-
 "if executable('rls')
 "    au User lsp_setup call lsp#register_server({
 "        \ 'name': 'rls',
@@ -185,3 +206,61 @@ nnoremap <S-Space> <C-u>
 "        \ 'whitelist': ['rust'],
 "        \ })
 "endif
+
+let c_no_curly_error=1
+
+if has("cscope")
+
+    """"""""""""" Standard cscope/vim boilerplate
+
+    " use both cscope and ctag for 'ctrl-]', ':ta', and 'vim -t'
+    set cscopetag
+
+    " check cscope for definition of a symbol before checking ctags: set to 1
+    " if you want the reverse search order.
+    set csto=0
+
+    " add any cscope database in current directory
+    if filereadable("cscope.out")
+        cs add cscope.out
+    " else add the database pointed to by environment variable
+    elseif $CSCOPE_DB != ""
+        cs add $CSCOPE_DB
+    endif
+
+    nmap <C-@>s :tab cs find s <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@>g :tab cs find g <C-R>=expand("<cword>")<CR><CR>
+	nmap <C-@>c :tab cs find c <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@>t :tab cs find t <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@>e :tab cs find e <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@>f :tab cs find f <C-R>=expand("<cfile>")<CR><CR>
+    nmap <C-@>i :tab cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+    nmap <C-@>d :tab cs find d <C-R>=expand("<cword>")<CR><CR>
+
+    nmap <C-@><C-@>s :tab cs find s <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@><C-@>g :tab cs find g <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@><C-@>c :tab cs find c <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@><C-@>t :tab cs find t <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@><C-@>e :tab cs find e <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-@><C-@>f :tab cs find f <C-R>=expand("<cfile>")<CR><CR>
+    nmap <C-@><C-@>i :tab cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+    nmap <C-@><C-@>d :tab cs find d <C-R>=expand("<cword>")<CR><CR>
+
+endif
+
+if executable('clangd')
+    augroup lsp_clangd
+        autocmd!
+        autocmd User lsp_setup call lsp#register_server({
+                    \ 'name': 'clangd',
+                    \ 'cmd': {server_info->['clangd']},
+                    \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp'],
+                    \ })
+        autocmd FileType c setlocal omnifunc=lsp#complete
+        autocmd FileType cpp setlocal omnifunc=lsp#complete
+        autocmd FileType objc setlocal omnifunc=lsp#complete
+        autocmd FileType objcpp setlocal omnifunc=lsp#complete
+    augroup end
+endif
+
+hi Search cterm=NONE ctermfg=black ctermbg=blue

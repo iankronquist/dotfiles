@@ -1,17 +1,39 @@
 [user]
-	email = i_kronquist@apple.com
-	name = Ian Kronquist
+email = i_kronquist@apple.com
+name = "Ian Kronquist"
+
 [core]
-	editor = vim
-	excludesfile = ~/.gitignore
-	autocrlf = input
+editor = vim
+excludesfile = ~/.gitignore
+autocrlf = false
+eol = lf
+sparsecheckout = true
+
 [push]
-	default = simple
+default = simple
+
 [alias]
-	net = log --graph --all --decorate
-	# Stolen from https://github.com/GitAlias/gitalias/blob/master/gitalias.txt
-	churn = !git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort
-	stash-all = stash save --include-untracked
-	prune = fetch --prune
+net = log --graph --all --decorate
+# Stolen from https://github.com/GitAlias/gitalias/blob/master/gitalias.txt
+churn = !git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort
+stash-all = stash save --include-untracked
+prune = fetch --prune
+
+[color]
+ui = auto
+
 [init]
-	defaultBranch = main
+defaultBranch = main
+
+[gpg]
+format = x509
+
+#[gpg "x509"]
+#program = /usr/local/bin/ac-sign
+
+#[commit]
+#gpgsign = true
+
+[review "gerrit.sd.apple.com"]
+username = i_kronquist
+

@@ -1,4 +1,5 @@
-IdentitiesOnly yes
+Host *
+  IdentitiesOnly                   yes
 
 Host github.com
 	User git
@@ -7,3 +8,4 @@ Host github.com
 Host gist.github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa
+

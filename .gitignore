@@ -3,3 +3,5 @@
 .*.swn
 tags
 .ignore
+cscope.out
+compile_commands.json*

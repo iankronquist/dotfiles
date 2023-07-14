@@ -34,6 +34,10 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 
 echo L $LINENO
 if [[ $(uname) == "Darwin" ]]; then
+	if ! grep -q "pam_tid.so" /etc/pam.d/sudo ; then
+		echo "touch ID no longer enabled for sudo. Insert the following line as line 2 in /etc/pam.d/sudo:"
+		echo "  auth   sufficient  pam_tid.so  # enables touch id auth for sudo"
+	fi
 	export HOMEBREW_NO_ANALYTICS=1
 	# Path munging!
 	# Get the go version from brew
@@ -174,3 +178,5 @@ elif [[ $(uname) == "Linux" ]]; then
 	fi
 fi
 echo L $LINENO
+
+. "$HOME/.cargo/env"
