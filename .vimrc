@@ -36,6 +36,8 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.cc setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
+	autocmd BufRead,BufNewFile *.cppm setlocal shiftwidth=4 tabstop=4 expandtab
+	autocmd BufRead,BufNewFile *.ixx setlocal shiftwidth=4 tabstop=4 expandtab
 
 	autocmd BufRead,BufNewFile *.m setlocal shiftwidth=4 tabstop=4 expandtab filetype=objc
 	" Make actually uses tabs

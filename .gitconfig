@@ -13,3 +13,5 @@
 	churn = !git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort
 	stash-all = stash save --include-untracked
 	prune = fetch --prune
+[init]
+	defaultBranch = main
