@@ -1,6 +1,5 @@
 # vim: set ft=bash
 
-echo A $LINENO
 
 alias vt='vim -t'
 
@@ -44,7 +43,6 @@ alias grep='grep --color=auto'
 
 alias rebash="exec bash"
 
-echo A $LINENO
 
 if [[ $(uname) == "Darwin" ]]; then
 	#alias 'objdump'='gobjdump'
@@ -58,10 +56,8 @@ elif [[ $(uname) == "Linux" ]]; then
 	alias ls='ls --color'
 
 	alias ff='/Applications/FirefoxNightly.app/Contents/MacOS/firefox'
-echo A $LINENO
 fi
 
-echo A $LINENO
 alias py=python
 alias py3=python3
 
@@ -146,13 +142,11 @@ alias ':wq'='echo this is not vim'
 alias 'pycheck'='python -m py_compile'
 
 
-echo A $LINENO
 git-authors () {
 	echo 'lines        name'
 	git ls-tree -r -z --name-only HEAD --full-tree | xargs -0 -n1 git blame --line-porcelain HEAD | grep  "^author "|sort|uniq -c|sort -nr
 }
 
-echo A $LINENO
 godoc () {
 	env godoc $@ | less
 }
@@ -188,7 +182,6 @@ alias si='rg -in'
 #fi
 #fi
 
-echo A $LINENO
 hbrun() {
 OLDPATH=$PATH
 PATH=/opt/homebrew/bin:$PATH
@@ -199,12 +192,10 @@ PATH=$OLDPATH
 }
 
 
-echo A $LINENO
 alias le=less
 dis() {
 	objdump -CD $@ | less
 }
-echo A $LINENO
 alias hist='history 0'
 
 alias le='less -R'
