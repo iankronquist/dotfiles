@@ -1,5 +1,5 @@
 " This is a comment
-"set spell
+set spell
 syntax on
 set ignorecase
 set smartcase
@@ -67,6 +67,8 @@ augroup configgroup
 	autocmd BufNewFile,BufRead *.swift setlocal nospell syntax=swift
 
 	autocmd BufNewFile,BufRead *.diff setlocal nospell
+	autocmd BufNewFile,BufRead *.v setlocal filetype=verilog
+	autocmd BufNewFile,BufRead *.thy setlocal filetype=isabelle
 augroup END
 
 hi clear SpellBad
@@ -242,3 +244,5 @@ if executable('clangd')
 endif
 
 hi Search cterm=NONE ctermfg=black ctermbg=blue
+
+command Link :exe "!stashlink.py " . expand("%") . " " . line(".") . " | pbcopy"

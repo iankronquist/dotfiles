@@ -1,7 +1,5 @@
 # vim: set ft=bash
 
-alias vt='vim -t'
-alias v='vim -p'
 # zsh and bash behavior differ, effing "backwards compatible shell"
 # Slow as hell, just as ugly ugh
 #v() {
@@ -32,11 +30,11 @@ alias l=ls
 alias ll='ls -hla'
 alias la='ls -a'
 alias sl='ls'
-alias venv=virtualenv
+#alias venv=virtualenv
 alias grep='grep --color=auto'
-alias vus='vagrant up && vagrant ssh'
-alias vs='vagrant ssh'
-alias vu='vagrant up'
+#alias vus='vagrant up && vagrant ssh'
+#alias vs='vagrant ssh'
+#alias vu='vagrant up'
 
 alias rebash="exec bash"
 
@@ -98,15 +96,30 @@ alias gs='git status'
 #	echo shorthand git completions not added
 #fi
 
-alias vgs='vim -p `git status -s | grep " M " | cut -d" " -f 3`'
-
 alias :tabe='vim -p'
 
 alias jcheck="python -m json.tool"
 
 
 grind () {
-	find ${2:-.} | grep -i $1
+	find ${2:-.} -type d -name .git -prune -o -print | grep -i $1
+
+	# The following is an experiment with filtering the output
+	# through .gitignore
+	# local OUTPUT=$(find ${2:-.} | grep -i $1)
+	# echo $OUTPUT | wc -l
+	# if git rev-parse ; then
+	# 	for line in $OUTPUT; do
+	# 		if git check-ignore -q $line; then
+	# 			echo $line
+	# 		else
+	# 			echo ignoring $line
+	# 			;
+	# 		fi
+	# 	done
+	# else
+	# 	echo $OUTPUT
+	# fi
 }
 
 usage () {
@@ -125,6 +138,7 @@ alias 'pycheck'='python -m py_compile'
 
 
 git-authors () {
+	echo 'lines        name'
 	git ls-tree -r -z --name-only HEAD --full-tree | xargs -0 -n1 git blame --line-porcelain HEAD | grep  "^author "|sort|uniq -c|sort -nr
 }
 
@@ -175,32 +189,62 @@ PATH=$OLDPATH
 alias hist='history 0'
 
 alias le='less -R'
+export BREW_PREFIX=$(brew --prefix)
 
-ring_decode() {
-xcrun -sdk iphoneos.internal embedded_device_map -query "select Platform, PlatformGeneration,PlatformName, Target, ProductType, ProductDescription from Targets" | grep -i $@
-}
+if [ -d "/AppleInternal" ]; then
 
-dis() {
-	 xcrun -sdk iphoneos.internal  otool -xV $@ | less
-}
-alias rfind=~/Library/Python/3.8/bin/rfind
+	ring_decode() {
+	xcrun -sdk iphoneos.internal embedded_device_map -query "select Platform, PlatformGeneration,PlatformName, Target, ProductType, ProductDescription from Targets" | grep -i $@
+	}
 
-alias runm='xcrun -sdk macosx.internal'
+	export XCODE_IPHONE_SDK=iphoneos.internal
+	export XCODE_MAC_SDK=macosx.internal
+
+else
+
+	export XCODE_MAC_SDK=macosx
+	export XCODE_IPHONE_SDK=iphoneos
+
+fi
+
+alias runm="xcrun -sdk $XCODE_MAC_SDK"
 alias mrun=runm
-alias runi='xcrun -sdk iphoneos.internal'
+alias runi="xcrun -sdk $XCODE_IPHONE_SDK"
 alias irun=runi
 
 sdkheader() {
-	xcrun --sdk macosx.internal clang -x c -include ptrcheck.h /dev/null -E | grep $@
+	xcrun --sdk $XCODE_IPHONE_SDK clang -x c -include ptrcheck.h /dev/null -E | grep $@
 }
+
+
+
+dis() {
+	 xcrun -sdk $XCODE_IPHONE_SDK  otool -xV $@ | less -R
+}
+
+odis() {
+$BREW_PREFIX/opt/binutils/bin/objdump --visualize-jumps=extended-color --disassembler-color=extended -CD $@ | less -R
+}
+
+
+alias rfind=~/Library/Python/3.8/bin/rfind
 alias xcpretty=/Users/ian/.gem/ruby/2.6.0/bin/xcpretty
 export RIPGREP_CONFIG_PATH=~/gg/dotfiles/.ripgrepconfig
 
 retag() {
-cscope -b -R
-hbrun ctags -R . --fields=+iaS --links=no
+cscope -b `git ls-files` `~/bin/clang_path.py -I`
+hbrun ctags -R . --fields=+iaS --links=no --exclude="@.gitignore" --exclude="@$HOME/.gitignore"
 }
 
+
+alias vt='$EDITOR -t'
+alias v='$EDITOR -p'
+alias vgs='$EDITOR -p `git status -s | grep " M " | cut -d" " -f 3`'
+
 vg () {
-	vim -p `grind $@`
+	$EDITOR -p `grind $@ | grep -v '\..*\.sw.'`
+}
+
+odis () {
+arm-none-eabi-objdump -CD  --disassembler-color=on --visualize-jumps=extended-color $@ | less -R
 }

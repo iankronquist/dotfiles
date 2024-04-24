@@ -10,13 +10,14 @@ parser.add_argument('--width', type=int)
 parser.add_argument('--set', action='store_true',)
 parser.add_argument('--clear', action='store_true',)
 args = parser.parse_args()
-print(args)
+# print(args)
 
 show_set = args.set or (not args.clear)
 show_clear = args.clear
 
 for n in args.integers:
     print(hex(n))
+    print(n)
     maximum = int(math.log(n, 2))
     print('max is', maximum)
     iterate_until = args.width or (maximum + 1)

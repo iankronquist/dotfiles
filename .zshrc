@@ -1,4 +1,7 @@
+# To profile shell startup time, uncomment the next line and the final line
+# zmodload zsh/zprof
 
+export ZSHRC_LOAD_START=$(python -c 'from time import time; print int(round(time() * 1000))')
 setopt BASH_REMATCH
 
 autoload compinit
@@ -15,6 +18,8 @@ bindkey \^B backward-word
 
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+
 export PATH=$PATH:$HOME/bin:'/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/'
 
 source ~/.aliases
@@ -27,6 +32,8 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 
 # Set editor
 export EDITOR=vim
+export NVIM_LISTEN_ADDRESS=$TMPDIR/nvimsocket
+
 
 
 # My goodness, zsh prompts are almost as bad as bash prompts.
@@ -97,11 +104,15 @@ alias history='history 0'
 # have to always put grep arguments which use * in quotes, which is annoying
 # for every day command line use.
 setopt +o nomatch
-test -e /Users/ian/.iterm2_shell_integration.zsh && source /Users/ian/.iterm2_shell_integration.zsh || true
 
 if ! grep -q "pam_tid.so" /etc/pam.d/sudo ; then
 	echo "touch ID no longer enabled for sudo. Insert the following line as line 2 in /etc/pam.d/sudo:"
 	echo "  auth   sufficient  pam_tid.so  # enables touch id auth for sudo"
 fi
 
-test -e ~/.iterm2_shell_integration.zsh && source ~/.iterm2_shell_integration.zsh || true
+if [ "$TERM_PROGRAM" = 'iTerm.app' ] ; then
+	test -e ~/.iterm2_shell_integration.zsh && source ~/.iterm2_shell_integration.zsh || true
+fi
+# zprof
+
+#alias [A=!!

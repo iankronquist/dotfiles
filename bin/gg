@@ -1,3 +1,4 @@
+# vim: set syntax=bash:
 
 if [[ -z $PROJECTS_DIR ]]; then 
 	PROJECTS_DIR=$HOME/gg
@@ -36,4 +37,21 @@ else
 }
 
 
+if [ -n "$ZSH_VERSION" ]; then
+
 compdef '_files -W ~/gg' gg
+
+elif [ -n "$BASH_VERSION" ]; then
+__gg_autocomplete () {
+	tmp=($(compgen -W "$(find "$PROJECTS_DIR"/* -maxdepth 0 | awk -F/ '{ print $NF }')" -- "${COMP_WORDS[$COMP_CWORD]}" ))
+	COMPREPLY=( "${tmp[@]// /\ }" )
+}
+
+complete -F __gg_autocomplete gg
+
+
+else
+
+echo "Not setting auto complete for gg for shell $SHELL"
+
+fi

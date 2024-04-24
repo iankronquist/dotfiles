@@ -11,7 +11,7 @@ source ~/bin/git-completion.bash
 source $HOME/.aliases
 
 # Source my workflow script
-source ~/gg/gg/gg
+source ~/bin/gg
 
 # Set editor
 export EDITOR=vim
