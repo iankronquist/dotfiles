@@ -36,6 +36,8 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.cpp setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.cc setlocal shiftwidth=4 tabstop=4 expandtab
 	autocmd BufRead,BufNewFile *.hpp setlocal shiftwidth=4 tabstop=4 expandtab
+	autocmd BufRead,BufNewFile *.cppm setlocal shiftwidth=4 tabstop=4 expandtab
+	autocmd BufRead,BufNewFile *.ixx setlocal shiftwidth=4 tabstop=4 expandtab
 
 	autocmd BufRead,BufNewFile *.m setlocal shiftwidth=4 tabstop=4 expandtab filetype=objc
 	" Make actually uses tabs
@@ -54,13 +56,15 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
 	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t spell expandtab
 
-	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t spell syntax=C
-	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t spell syntax=C
-	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t spell syntax=C
+	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t spell syntax=arm64
+	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t spell syntax=arm64
+	autocmd BufRead,BufNewFile *.s setlocal formatoptions+=t spell syntax=arm64
 
 	" The file where git commit messages are stored while they're being edited
 	autocmd BufRead,BufNewFile COMMIT_EDITMSG setlocal formatoptions+=t tw=79 spell
 	autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell
+	au BufRead,BufNewFile *.zig setfiletype rust
+	autocmd BufRead,BufNewFile *.zig setlocal expandtab
 
 	autocmd BufNewFile,BufRead *.cidl4 setlocal spell syntax=swift
 	autocmd BufNewFile,BufRead *.tightbeam setlocal nospell syntax=swift
@@ -122,6 +126,17 @@ let @h = "Oimport pdb;pdb.set_trace()"
 
 " Clear trailing whitespace
 let @w = ":%s/\\s\\+$//"
+
+
+"" Convert each NAME_LIKE_THIS to NameLikeThis in the current line.
+"let @c =":s#_*\(\u\)\(\u*\)#\1\L\2#g"
+"
+"" Convert each name_like_this to NameLikeThis in current line.
+"let @c = ":s#\(\%(\<\l\+\)\%(_\)\@=\)\|_\(\l\)#\u\1\2#g"
+
+" Convert each name-like-this to NameLikeThis in current line.
+let @c = ":s#\(\%(\<\l\+\)\%(-\)\@=\)\|-\(\l\)#\u\1\2#g"
+
 
 "let s:uname = system("uname -s")
 "if s:uname == "Darwin"
@@ -186,6 +201,13 @@ hi link AuditHighlightGroup Todo
 "hi AuditHighlightGroup guifg=Blue ctermfg=Blue term=bold
 
 
+"if executable('rls')
+"    au User lsp_setup call lsp#register_server({
+"        \ 'name': 'rls',
+"        \ 'cmd': {server_info->['rustup', 'run', 'nightly', 'rls']},
+"        \ 'whitelist': ['rust'],
+"        \ })
+"endif
 
 let c_no_curly_error=1
 

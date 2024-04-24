@@ -28,11 +28,11 @@ defaultBranch = main
 [gpg]
 format = x509
 
-[gpg "x509"]
-program = /usr/local/bin/ac-sign
+#[gpg "x509"]
+#program = /usr/local/bin/ac-sign
 
-[commit]
-gpgsign = true
+#[commit]
+#gpgsign = true
 
 [review "gerrit.sd.apple.com"]
 username = i_kronquist

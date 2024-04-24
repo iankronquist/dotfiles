@@ -5,12 +5,12 @@ Host *
   IdentitiesOnly                   yes
 
 Host github.com
-  User                             git
-  IdentityFile                     ~/.ssh/id_ecdsa_github
+	User git
+	IdentityFile ~/.ssh/id_rsa
 
 Host gist.github.com
-  User                             git
-  IdentityFile                     ~/.ssh/id_rsa_github
+	User git
+	IdentityFile ~/.ssh/id_rsa
 
 Host stash.sd.apple.com
   User                             git
@@ -83,4 +83,5 @@ Host gerrit-acsf
   IdentityFile                     ~/.ssh/i_kronquist@apple.com
   StrictHostKeyChecking            no
   ForwardX11                       no
+
 

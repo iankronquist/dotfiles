@@ -37,21 +37,17 @@ else
 }
 
 
-if [ -n "$ZSH_VERSION" ]; then
+# FIXME this is a crappy way to decide which completions to load
+if ! [ -z "${ZSH_VERSION}" ]; then
+	compdef '_files -W ~/gg' gg
+elif ! [ -z "${BASH_VERSION}" ]; then
 
-compdef '_files -W ~/gg' gg
+	__gg_autocomplete () {
+		tmp=($(compgen -W "$(find "$PROJECTS_DIR"/* -maxdepth 0 | awk -F/ '{ print $NF }')" -- "${COMP_WORDS[$COMP_CWORD]}" ))
+		COMPREPLY=( "${tmp[@]// /\ }" )
+	}
 
-elif [ -n "$BASH_VERSION" ]; then
-__gg_autocomplete () {
-	tmp=($(compgen -W "$(find "$PROJECTS_DIR"/* -maxdepth 0 | awk -F/ '{ print $NF }')" -- "${COMP_WORDS[$COMP_CWORD]}" ))
-	COMPREPLY=( "${tmp[@]// /\ }" )
-}
-
-complete -F __gg_autocomplete gg
-
-
+	complete -F __gg_autocomplete gg
 else
-
-echo "Not setting auto complete for gg for shell $SHELL"
-
+	echo "Shell is not bash or zsh, not loading completions"
 fi
