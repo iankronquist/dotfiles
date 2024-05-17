@@ -283,7 +283,7 @@ vim.api.nvim_create_autocmd({"FileType", "BufWinEnter", "BufEnter"}, {
 	end,
 })
 vim.api.nvim_create_autocmd({"FileType", "BufWinEnter", "BufEnter"}, {
- 	pattern = { "*.swift", "*.c", "*.h", "*.cc", "*.cxx", "*.hxx", "*.hh", "*.hpp", "*.cpp" },
+ 	pattern = { "*.swift", "*.m", "*.mm", "*.c", "*.h", "*.cc", "*.cxx", "*.hxx", "*.hh", "*.hpp", "*.cpp" },
  	callback = function()
 		local sdk = os.getenv("XCODE_SDK") or "iphoneos.internal"
 		-- print(string.format('event fired: %s', vim.inspect(ev)))
