@@ -31,7 +31,13 @@ export CLICOLOR=1
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # Set editor
+if command -v nvim &> /dev/null
+then
+export EDITOR=nvim
+else
 export EDITOR=vim
+fi
+
 export NVIM_LISTEN_ADDRESS=$TMPDIR/nvimsocket
 
 

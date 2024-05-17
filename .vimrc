@@ -73,6 +73,7 @@ augroup configgroup
 	autocmd BufNewFile,BufRead *.diff setlocal nospell
 	autocmd BufNewFile,BufRead *.v setlocal filetype=verilog
 	autocmd BufNewFile,BufRead *.thy setlocal filetype=isabelle
+	au BufRead,BufNewFile *.thy set conceallevel=2
 augroup END
 
 hi clear SpellBad

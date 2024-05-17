@@ -107,7 +107,9 @@ alias jcheck="python -m json.tool"
 
 
 grind () {
-	find ${2:-.} -type d -name .git -prune -o -print | grep -i $1
+# echo searching "${2:-.}"
+# echo "${@:2}"
+	find "${2:-.}" -type d -name .git -prune -o -print | grep -i "$1"
 
 	# The following is an experiment with filtering the output
 	# through .gitignore
@@ -216,6 +218,7 @@ else
 	export XCODE_IPHONE_SDK=iphoneos
 
 fi
+export XCODE_SDK=$XCODE_IPHONE_SDK
 
 alias runm="xcrun -sdk $XCODE_MAC_SDK"
 alias mrun=runm
@@ -241,8 +244,12 @@ alias rfind=~/Library/Python/3.8/bin/rfind
 alias xcpretty=/Users/ian/.gem/ruby/2.6.0/bin/xcpretty
 export RIPGREP_CONFIG_PATH=~/gg/dotfiles/.ripgrepconfig
 
+rescope() {
+cscope -b $(git ls-files | sed 's: :\\\\ :') $(~/bin/clang_path.py -I)
+}
+
 retag() {
-cscope -b `git ls-files` `~/bin/clang_path.py -I`
+rescope
 hbrun ctags -R . --fields=+iaS --links=no --exclude="@.gitignore" --exclude="@$HOME/.gitignore"
 }
 
@@ -254,8 +261,9 @@ alias vgs='$EDITOR -p `git status -s | grep " M " | cut -d" " -f 3`'
 vg () {
 	$EDITOR -p `grind $@ | grep -v '\..*\.sw.'`
 }
+alias vgrind=vg
 
 odis () {
 arm-none-eabi-objdump -CD  --disassembler-color=on --visualize-jumps=extended-color $@ | less -R
 }
-
+alias idot="dot -Gmargin=0.7 '-Gbgcolor=#ffffff00' -Gcolor=white -Gfontcolor=white -Ncolor=white -Nfontcolor=white -Ecolor=white -Nfontname=Helvetica -Nfontsize=14pt -T png | kitty +kitten icat"
