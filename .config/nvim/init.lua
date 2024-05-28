@@ -79,6 +79,10 @@ vim.cmd([[ nnoremap <C-;> :lua vim.diagnostic.goto_next()<CR>]])
 vim.cmd([[ nnoremap <C-'> :lua vim.diagnostic.goto_prev()<CR>]])
 
 
+vim.cmd([[imap <c-space> <c-x><c-o>]])
+-- https://neovim.io/doc/user/insert.html#complete-functions
+-- vim.cmd([[set tags+=~/.config/nvim/systags]])
+
 
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.opt.ignorecase = true
@@ -99,6 +103,7 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.scrolloff = 10
 
 vim.cmd([[command Link :exe "!stashlink.py " . expand("%") . " " . line(".") . " | pbcopy <CR>"]])
+vim.cmd([[command Linkm :exe "!stashlink.py --markdown " . expand("%") . " " . line(".") . " | pbcopy <CR>"]])
 -- command Link :exe "!stashlink.py " . expand("%") . " " . line(".") . " | pbcopy"
 --
 -- vim.api.nvim_command('exe !stashlink.py ' .. expand('%') .. ' ' .. line('.') .. ' | pbcopy')
@@ -294,23 +299,52 @@ vim.api.nvim_create_autocmd({"FileType", "BufWinEnter", "BufEnter"}, {
 			'.clangd',
  			".git",
  		}, { upward = true })[1])
+		-- print(string.format('root_dir: %s', root_dir))
+
+		if root_dir == nil then
+			root_dir = vim.fs.dirname('.')
+		end
  		local client = vim.lsp.start({
  			name = "sourcekit-lsp",
  			cmd = { "xcrun", "-sdk", sdk, "sourcekit-lsp" },
  			root_dir = root_dir,
-			capabilities = default_capabilities,
-			commands = {
-				ClangdSwitchSourceHeader = {
-					function()
-						switch_source_header(0)
-					end,
-					description = 'Switch between source/header',
-				},
-			},
+			-- capabilities = default_capabilities,
+			-- commands = {
+			-- 	ClangdSwitchSourceHeader = {
+			-- 		function()
+			-- 			switch_source_header(0)
+			-- 		end,
+			-- 		description = 'Switch between source/header',
+			-- 	},
+			-- },
 
  		})
  		vim.lsp.buf_attach_client(0, client)
  	end,
  })
 
+
+ -- these are already set?
+-- vim.cmd [[ set tagfunc=v:lua.vim.lsp.tagfunc ]]
+-- vim.cmd [[ set omnifunc=v:lua.vim.lsp.omnifunc ]]
+
+local map = function(type, key, value)
+	vim.api.nvim_buf_set_keymap(0,type,key,value,{noremap = true, silent = true});
+end
+map('n','gD','<cmd>lua vim.lsp.buf.declaration()<CR>')
+map('n','gd','<cmd>lua vim.lsp.buf.definition()<CR>')
+map('n','K','<cmd>lua vim.lsp.buf.hover()<CR>')
+map('n','gr','<cmd>lua vim.lsp.buf.references()<CR>')
+map('n','gs','<cmd>lua vim.lsp.buf.signature_help()<CR>')
+map('n','gi','<cmd>lua vim.lsp.buf.implementation()<CR>')
+map('n','gt','<cmd>lua vim.lsp.buf.type_definition()<CR>')
+map('n','<leader>gw','<cmd>lua vim.lsp.buf.document_symbol()<CR>')
+map('n','<leader>gW','<cmd>lua vim.lsp.buf.workspace_symbol()<CR>')
+map('n','<leader>ah','<cmd>lua vim.lsp.buf.hover()<CR>')
+map('n','<leader>af','<cmd>lua vim.lsp.buf.code_action()<CR>')
+map('n','<leader>ee','<cmd>lua vim.lsp.util.show_line_diagnostics()<CR>')
+map('n','<leader>ar','<cmd>lua vim.lsp.buf.rename()<CR>')
+map('n','<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>')
+map('n','<leader>ai','<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
+map('n','<leader>ao','<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
 
