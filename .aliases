@@ -263,7 +263,15 @@ vg () {
 }
 alias vgrind=vg
 
+vs () {
+	$EDITOR -p `s --files-with-matches $@ | grep -v '\..*\.sw.'`
+}
+
+
+
 odis () {
 arm-none-eabi-objdump -CD  --disassembler-color=on --visualize-jumps=extended-color $@ | less -R
 }
 alias idot="dot -Gmargin=0.7 '-Gbgcolor=#ffffff00' -Gcolor=white -Gfontcolor=white -Ncolor=white -Nfontcolor=white -Ecolor=white -Nfontname=Helvetica -Nfontsize=14pt -T png | kitty +kitten icat"
+
+alias browser='open -a "Google Chrome"'

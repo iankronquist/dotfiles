@@ -3,7 +3,7 @@
 #
 #settings set target.x86-disassembly-flavor intel
 #settings set interpreter.save-session-on-quit true
-##settings set interpreter.save-session-directory ~/gg/lldb
+#settings set interpreter.save-session-directory ~/gg/lldb
 #
 set set stop-disassembly-display always
 set set stop-disassembly-count 3

@@ -42,3 +42,7 @@ username = i_kronquist
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[gpg "x509"]
+	program = /usr/local/bin/ac-sign
+[commit]
+	gpgsign = true

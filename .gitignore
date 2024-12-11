@@ -7,3 +7,7 @@ tags
 cscope.out
 compile_commands.json*
 DerivedData/
+.cache/clangd/
+generate_compile_commands.txt
+.vscode/
+*.pyc

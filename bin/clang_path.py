@@ -12,13 +12,15 @@ def cmd(cmd: str) -> subprocess.CompletedProcess:
     return subprocess.run(args, capture_output=True)
 
 
-def clang_paths(args=None):
-    if args:
-        sdk = args.sdk
-    else:
+def clang_paths(sdk, frameworks, language='c', verbose=False):
+    if not sdk:
         sdk = os.environ.get('XCODE_SDK') or 'iphoneos.internal'
     sdk_arg = f'-sdk {sdk}'
-    result = cmd(f'xcrun {sdk_arg} clang -x c -c -### /dev/null')
+    frameworks = '-framework '.join(frameworks) if frameworks else ''
+    command_line = f'xcrun {sdk_arg} clang++ -x {language} -c -### /dev/null {frameworks}'
+    if verbose:
+        print(command_line)
+    result = cmd(command_line)
 
     if result.returncode != 0:
         sys.stderr.write(result.stderr.decode('utf8'))
@@ -43,9 +45,12 @@ def clang_paths(args=None):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="get sdk path")
     parser.add_argument("-I", help="print output with c compiler style '-I' before every argument", action="store_true")
-    parser.add_argument("-sdk", help="specify sdk", nargs='?', default='iphoneos.internal')
+    parser.add_argument("-sdk", help="specify sdk", nargs='?', default=None)
+    parser.add_argument("-framework", help="specify sdk", nargs='*')
+    parser.add_argument("-verbose", help="verbose", action='store_true')
+    parser.add_argument("-language", help="verbose", nargs='?', default='c')
     args = parser.parse_args()
-    headers = clang_paths(args)
+    headers = clang_paths(args.sdk, args.framework, args.language, args.verbose)
 
     separator = ' -I ' if args.I else '\n'
     print(separator.join(headers))

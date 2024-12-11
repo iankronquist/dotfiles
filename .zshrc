@@ -52,7 +52,7 @@ export NVIM_LISTEN_ADDRESS=$TMPDIR/nvimsocket
 # %# makes a % for normal users and a # for root
 # %f resets the foreground color to whatever it was originally
 setopt prompt_subst
-prompt='$? %F{blue}%~ %* $(git rev-parse --abbrev-ref HEAD 2>/dev/null)'$'\n''%# %f'
+prompt='$? %F{blue}%~ %* $(git symbolic-ref -q --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD 2>/dev/null)'$'\n''%# %f'
 
 export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
 export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
