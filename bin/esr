@@ -1,0 +1,3 @@
+#!/bin/sh
+
+open https://esr.arm64.dev/#$1
