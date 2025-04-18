@@ -58,8 +58,12 @@ elif [[ $(uname) == "Linux" ]]; then
 	alias ff='/Applications/FirefoxNightly.app/Contents/MacOS/firefox'
 fi
 
-alias py=python
+alias py=python3
+alias py2=python2
 alias py3=python3
+alias pdb='python3 -m pdb'
+# typos
+alias py4=python3
 
 alias ga='git add'
 alias gap='git add -up'
@@ -109,7 +113,7 @@ alias jcheck="python -m json.tool"
 grind () {
 # echo searching "${2:-.}"
 # echo "${@:2}"
-	find "${2:-.}" -type d -name .git -prune -o -print | grep -i "$1"
+	find "${2:-.}" -type d -name .git -prune -type d -name DerivedData -prune -o -print | grep -i "$1"
 
 	# The following is an experiment with filtering the output
 	# through .gitignore
@@ -220,10 +224,8 @@ else
 fi
 export XCODE_SDK=$XCODE_IPHONE_SDK
 
-alias runm="xcrun -sdk $XCODE_MAC_SDK"
-alias mrun=runm
-alias runi="xcrun -sdk $XCODE_IPHONE_SDK"
-alias irun=runi
+alias mrun="xcrun -sdk $XCODE_MAC_SDK"
+alias irun="xcrun -sdk $XCODE_IPHONE_SDK"
 
 sdkheader() {
 	xcrun --sdk $XCODE_IPHONE_SDK clang -x c -include ptrcheck.h /dev/null -E | grep $@

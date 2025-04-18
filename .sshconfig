@@ -4,6 +4,10 @@ Include config.d/config_iosmenu
 Host *
   IdentitiesOnly                   yes
 
+Host 21jumpbox.corp.apple.com
+	User ian
+	IdentityFile ~/.ssh/jumpbox.corp.apple.com
+
 Host github.com
 	User git
 	IdentityFile ~/.ssh/id_ecdsa_github
@@ -11,6 +15,10 @@ Host github.com
 Host gist.github.com
 	User git
 	IdentityFile ~/.ssh/id_ecdsa_github
+
+Host hf.co
+	User git
+	IdentityFile ~/.ssh/huggingface
 
 Host stash.sd.apple.com
   User                             git

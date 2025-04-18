@@ -64,7 +64,7 @@ def markdown(repo_root, file_name, url, symbol_info, line):
     else:
         line_txt = ''
         if line:
-            line_txt = ' line {line}'
+            line_txt = f' line {line}'
         return f'[Git tag: {description} file {file_name}{line_txt}]({url})'
 
 def html(repo_root, file_name, url, line, symbol_info):
@@ -80,6 +80,11 @@ def summary(repo_root, file_name, url, line, symbol_info):
     if symbol_info:
         symbol_info += ' '
     return f'{symbol_info}Git tag: {description}\n{url}'
+
+def file_name_extension_to_fence_suffix(file_name_extension):
+    if file_name_extension == 'h':
+        return 'cpp'
+    return file_name_extension
 
 def read_file_range(file_name, selection_start, selection_end, declaration_line=None):
     selection_start = json.loads(args.selection_start)

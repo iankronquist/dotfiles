@@ -391,9 +391,14 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
---require'lspconfig'.sourcekit.setup{}
+-- require'lspconfig'.sourcekit.setup{}
 -- require'lspconfig'.clangd.setup{}
 require'lspconfig'.pylsp.setup{}
 -- require'lspconfig'.rust_analyzer.setup{}
 
+vim.filetype.add({
+  extension = {
+    metal = "cpp",
+  },
+})
 

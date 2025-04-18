@@ -20,10 +20,9 @@ bindkey \^B backward-word
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 
-export PATH=$PATH:$HOME/bin:'/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/'
+export PATH=$PATH:$HOME/scripts:$HOME/bin:'/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/'
 
 source ~/.aliases
-source ~/bin/gg
 
 # Set special colors for various things
 export CLICOLOR=1
@@ -122,3 +121,8 @@ fi
 # zprof
 
 #alias [A=!!
+
+#### Added by green-restore install-tools
+autoload -Uz compinit && compinit
+####
+source ~/bin/gg

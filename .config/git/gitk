@@ -1,5 +1,5 @@
-set mainfont {{Lucida Grande} 9}
-set textfont {Monaco 9}
+set mainfont {{Lucida Grande} 11}
+set textfont {Monaco 11}
 set uifont {{Lucida Grande} 9 bold}
 set tabstop 8
 set findmergefiles 0
@@ -57,8 +57,8 @@ set geometry(main) 1723x1046+5+43
 set geometry(state) zoomed
 set geometry(topwidth) 1723
 set geometry(topheight) 408
-set geometry(pwsash0) "569 1"
-set geometry(pwsash1) "852 1"
+set geometry(pwsash0) "1106 1"
+set geometry(pwsash1) "1114 1"
 set geometry(botwidth) 706
 set geometry(botheight) 633
 set permviews {}

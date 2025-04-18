@@ -11,3 +11,4 @@ DerivedData/
 generate_compile_commands.txt
 .vscode/
 *.pyc
+build/

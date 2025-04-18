@@ -8,6 +8,18 @@ def list_get(list, index):
         return None
     return list[index]
 
+
+'''
+TAG_KINDS: dict[str, dict[str, str]] = dict()
+
+def add_tag_kind_description(line: str):
+    matched = re.match(r'!_TAG_KIND_DESCRIPTION!(\w\)+\t(\w),(\w)+\t/(.*)/.*', line)
+    if not matched:
+        return
+    _, language, letter, kind, description = matched.groups()
+    TAG_KINDS[language][letter] = description
+'''
+
 # See man 5 tags
 def symbol_type_to_name(symbol_type):
     return {
@@ -23,10 +35,14 @@ def symbol_type_to_name(symbol_type):
             'u': 'union',
             'v': 'variable',
             'F': 'file name',
+            # Custom, see ~/bin/ctags_db_build.sh
+            'X': 'extension',
+            'C': 'component',
+            'S': 'service',
             }.get(symbol_type[0]) or ' symbol '
 
 def is_interesting(symbol_type):
-    return symbol_type[0] in { 'p', 'e', 'f', 'c', 'd', 's', 'u' }
+    return symbol_type[0] in { 'p', 'e', 'f', 'c', 'd', 's', 'u', 'X', 'C', 'S' }
 
 
 def format_symbol(symbol):
@@ -45,6 +61,9 @@ def find_symbols(ctagdb, requested_file_path, requested_line, verbose=False, fil
     ctagdb = open(ctagdb)
     entries = list()
     for line in ctagdb.readlines():
+        #if line.startswith('!_TAG_KIND_DESCRIPTION!'):
+        #    add_tag_kind_description(line)
+        #    continue
         if not line or line.startswith('!'):
             continue
         entry = tuple(line.split('\t'))

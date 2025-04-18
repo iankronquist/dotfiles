@@ -97,7 +97,7 @@ def create_compile_commands(path, gitignore, subdirs, clang_c_headers, clang_cpp
             if gitignore and is_git_ignored(file_path):
                 continue
             root_args = ['-I', root]
-            output = os.path.join('/tmp/bs/', file_path)
+            output = os.path.join('/tmp/bs/', file_path) + '.o'
             if file_path.endswith('.c'):
                 headers = clang_c_headers
             else:

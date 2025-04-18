@@ -3,7 +3,7 @@
 
 enum UbsanCheck {
 #define UBSAN_CHECK(name, _type, _info) name,
-#include "../../llvm-project/compiler-rt/lib/ubsan/ubsan_checks.inc"
+#include "../../public-llvm/compiler-rt/lib/ubsan/ubsan_checks.inc"
 #undef UBSAN_CHECK
 };
 struct UbsanCheckInfo {
@@ -14,7 +14,7 @@ struct UbsanCheckInfo {
 
 #define UBSAN_CHECK(_name, _type, _info) [_name] = { .name = _name, .type = _type, .info = _info },
 
-#include "../../llvm-project/compiler-rt/lib/ubsan/ubsan_checks.inc"
+#include "../../public-llvm/compiler-rt/lib/ubsan/ubsan_checks.inc"
 #undef UBSAN_CHECK
 };
 

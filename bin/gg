@@ -14,7 +14,8 @@ gg() {
 	elif [[ $1 =~ 'http' || $1 =~ 'git.*@' || $1 =~ 'git://' ]]; then
 		cd $PROJECTS_DIR
 		# Run git clone and save messages on stdout and stderr
-		CLONE_OUTPUT=$(git clone --depth=1 --recurse-submodules $1 $2 2>&1 | tee /dev/tty | head -n 1)
+		#CLONE_OUTPUT=$(git clone --depth=1 --recurse-submodules $1 $2 2>&1 | tee /dev/tty | head -n 1)
+		CLONE_OUTPUT=$(git clone --recurse-submodules $1 $2 2>&1 | tee /dev/tty | head -n 1)
 
 		# FIXME since I added the broken tee tty stuff, $? is the exit code of
 		# the last thing in the pipeline to run, head, which is always 0
@@ -41,8 +42,9 @@ gg() {
 
 # FIXME this is a crappy way to decide which completions to load
 if ! [ -z "${ZSH_VERSION}" ]; then
-	compdef '_files -W ~/gg' gg
+	compdef "_files -W $PROJECTS_DIR" gg
 elif ! [ -z "${BASH_VERSION}" ]; then
+echo bash cmp
 
 	__gg_autocomplete () {
 		tmp=($(compgen -W "$(find "$PROJECTS_DIR"/* -maxdepth 0 | awk -F/ '{ print $NF }')" -- "${COMP_WORDS[$COMP_CWORD]}" ))
