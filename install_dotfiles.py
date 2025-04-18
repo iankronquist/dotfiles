@@ -14,6 +14,7 @@ links = {
 	".vimrc": "~/.vimrc",
 	".vim": "~/.vim",
 	"bin": "~/bin",
+	".ctags.d": "~/.ctags.d",
 }
 
 
