@@ -1,0 +1,2 @@
+# export RIPGREP_CONFIG_PATH=~/gg/dotfiles/.ripgrepconfig
+--ignore-file=/Users/ian/.gitignore

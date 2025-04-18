@@ -15,6 +15,7 @@ links = {
 	".vim": "~/.vim",
 	"bin": "~/bin",
 	".ctags.d": "~/.ctags.d",
+    ".ripgrepconfig": "~/.ripgrepconfig",
 }
 
 
