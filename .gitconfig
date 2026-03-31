@@ -46,3 +46,5 @@ username = i_kronquist
 	program = /usr/local/bin/ac-sign
 [commit]
 	gpgsign = true
+[credential]
+	helper = cache

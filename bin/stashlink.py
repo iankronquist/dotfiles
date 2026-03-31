@@ -2,45 +2,66 @@
 import subprocess
 import re
 import os
+import sys
 import json
 import urllib.parse
 import find_symbols
 
 
 def get_git_url():
-    cmd = ['git', 'remote', 'get-url', '--push', 'origin']
-    result = subprocess.run(cmd, stdout=subprocess.PIPE)
-    return result.stdout.decode("utf-8")
+    try:
+        cmd = ['git', 'remote', 'get-url', '--push', 'origin']
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        return result.stdout.decode("utf-8")
+    except subprocess.CalledProcessError as e:
+        print(f"Error getting git remote URL: {e.stderr.decode('utf-8').strip()}", file=sys.stderr)
+        return ""
 
 def get_git_describe():
-    cmd = ['git', 'describe']
-    result = subprocess.run(cmd, stdout=subprocess.PIPE)
-    return result.stdout.decode("utf-8").strip()
+    try:
+        cmd = ['git', 'describe']
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        return result.stdout.decode("utf-8").strip()
+    except subprocess.CalledProcessError as e:
+        print(f"Error getting git describe: {e.stderr.decode('utf-8').strip()}", file=sys.stderr)
+        return ""
 
 
 
 def get_git_head():
-    #cmd = ['git', 'symbolic-ref', 'HEAD']
-    cmd = ['git', 'rev-parse', '--short', 'HEAD']
-    result = subprocess.run(cmd, stdout=subprocess.PIPE)
-    return result.stdout.decode("utf-8").strip()
+    try:
+        #cmd = ['git', 'symbolic-ref', 'HEAD']
+        cmd = ['git', 'rev-parse', '--short', 'HEAD']
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        return result.stdout.decode("utf-8").strip()
+    except subprocess.CalledProcessError as e:
+        print(f"Error getting git HEAD: {e.stderr.decode('utf-8').strip()}", file=sys.stderr)
+        return ""
 
 def get_path_to_repo_root():
-    cmd = ['git', 'rev-parse', '--show-prefix']
-    result = subprocess.run(cmd, stdout=subprocess.PIPE)
-    path = result.stdout.decode("utf-8").strip()
-    #root = os.path.basename(path)
-    #return root
-    return path
+    try:
+        cmd = ['git', 'rev-parse', '--show-prefix']
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        path = result.stdout.decode("utf-8").strip()
+        #root = os.path.basename(path)
+        #return root
+        return path
+    except subprocess.CalledProcessError as e:
+        print(f"Error getting path to repo root: {e.stderr.decode('utf-8').strip()}", file=sys.stderr)
+        return ""
 
 def get_path_to_toplevel():
-    cmd = ['git', 'rev-parse', '--show-toplevel']
-    result = subprocess.run(cmd, stdout=subprocess.PIPE)
-    path = result.stdout.decode("utf-8").strip()
-    root = os.path.basename(path)
-    if not root:
-        import pdb;pdb.set_trace()
-    return root
+    try:
+        cmd = ['git', 'rev-parse', '--show-toplevel']
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        path = result.stdout.decode("utf-8").strip()
+        root = os.path.basename(path)
+        if not root:
+            import pdb;pdb.set_trace()
+        return root
+    except subprocess.CalledProcessError as e:
+        print(f"Error getting path to toplevel: {e.stderr.decode('utf-8').strip()}", file=sys.stderr)
+        return ""
 
 
 
@@ -59,27 +80,39 @@ def rewrite_url(url):
 
 def markdown(repo_root, file_name, url, symbol_info, line):
     description = get_git_describe()
+    if description:
+        git_description = f'Git tag: {description}'
+    else:
+        git_description = ''
     if symbol_info:
-        return f'[Git tag: {description} {symbol_info}]({url})'
+        return f'[{git_description} {symbol_info}]({url})'
     else:
         line_txt = ''
         if line:
             line_txt = f' line {line}'
-        return f'[Git tag: {description} file {file_name}{line_txt}]({url})'
+        return f'[{git_description} file {file_name}{line_txt}]({url})'
 
 def html(repo_root, file_name, url, line, symbol_info):
     description = get_git_describe()
+    if description:
+        git_description = f'Git tag: {description}'
+    else:
+        git_description = ''
     if symbol_info:
-        return f'<a href="{url}">Git tag: {description} {symbol_info}</a>'
+        return f'<a href="{url}">{git_description} {symbol_info}</a>'
     else:
         line = ':' + str(line) if line else ''
-        return f'<a href="{url}">{symbol_info} Git tag: {description} {file_name}{line}</a>'
+        return f'<a href="{url}">{symbol_info} {git_description} {file_name}{line}</a>'
 
 def summary(repo_root, file_name, url, line, symbol_info):
     description = get_git_describe()
+    if description:
+        git_description = f'Git tag: {description}'
+    else:
+        git_description = ''
     if symbol_info:
         symbol_info += ' '
-    return f'{symbol_info}Git tag: {description}\n{url}'
+    return f'{symbol_info}{git_description}\n{url}'
 
 def file_name_extension_to_fence_suffix(file_name_extension):
     if file_name_extension == 'h':
@@ -102,10 +135,12 @@ def read_file_range(file_name, selection_start, selection_end, declaration_line=
             if file_name_extension:
                 fence_suffix = file_name_extension[1:]
 
-            #import pdb;pdb.set_trace()
             txt = ('```' + fence_suffix + '\n')
             if declaration:
-                txt += declaration + '...\n'
+                txt += '\t' + declaration
+                # Only add ellipses if the declaration is not adjacent to the start of the selection
+                if (selection_start_number-1) - declaration_line > 1:
+                    txt += '\t...\n'
             txt += '\t' + ('\t'.join(lines[selection_start_number-1:selection_end_number-1+1]))
             txt += ('```\n')
             return txt

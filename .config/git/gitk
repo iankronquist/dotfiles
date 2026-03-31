@@ -7,6 +7,8 @@ set maxgraphpct 50
 set maxwidth 16
 set cmitmode patch
 set wrapcomment none
+set wrapdefault none
+set autocopy 0
 set autoselect 1
 set autosellen 40
 set showneartags 1
@@ -57,8 +59,8 @@ set geometry(main) 1723x1046+5+43
 set geometry(state) zoomed
 set geometry(topwidth) 1723
 set geometry(topheight) 408
-set geometry(pwsash0) "1106 1"
-set geometry(pwsash1) "1114 1"
+set geometry(pwsash0) "921 1"
+set geometry(pwsash1) "1126 1"
 set geometry(botwidth) 706
 set geometry(botheight) 633
 set permviews {}

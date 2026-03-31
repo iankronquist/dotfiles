@@ -61,26 +61,26 @@ fi
 alias py=python3
 alias py2=python2
 alias py3=python3
-alias pdb='python3 -m pdb'
+alias pdb='python3 -m pdb -c continue'
 # typos
 alias py4=python3
 
-alias ga='git add'
-alias gap='git add -up'
-alias gb='git branch'
-alias gc='git commit'
-alias gcp='git commit -p'
-alias gcb='git checkout -b'
-alias gco='git checkout'
+#alias ga='git add'
+#alias gap='git add -up'
+#alias gb='git branch'
+#alias gc='git commit'
+#alias gcp='git commit -p'
+#alias gcb='git checkout -b'
+#alias gco='git checkout'
 alias gd='git diff'
-alias gdn='git diff --name-only'
-alias gf='git fetch'
-alias gfwl='git push --force-with-lease'
-alias gl='git log'
-alias gn='git net'
-alias gp='git pull'
-alias gpu='git push -u origin `git rev-parse --abbrev-ref HEAD`'
-alias gr='git grep'
+#alias gdn='git diff --name-only'
+#alias gf='git fetch'
+#alias gfwl='git push --force-with-lease'
+#alias gl='git log'
+#alias gn='git net'
+#alias gp='git pull'
+#alias gpu='git push -u origin `git rev-parse --abbrev-ref HEAD`'
+#alias gr='git grep'
 alias gs='git status'
 
 #if [[ "$(type -t __git_complete)" == 'function' ]]; then
@@ -251,8 +251,14 @@ cscope -b $(git ls-files | sed 's: :\\\\ :') $(~/bin/clang_path.py -I)
 }
 
 retag() {
-rescope
-hbrun ctags -R . --fields=+iaS --links=no --exclude="@.gitignore" --exclude="@$HOME/.gitignore"
+  local exclude_args=()
+
+  if [[ -f .gitignore ]]; then
+    exclude_args+=(--exclude="@.gitignore")
+  fi
+
+  hbrun ctags -R . --kinds-C++=+f --fields=+afilsSe --links=no "${exclude_args[@]}" --exclude="@$HOME/.gitignore"
+
 }
 
 
@@ -269,11 +275,18 @@ vs () {
 	$EDITOR -p `s --files-with-matches $@ | grep -v '\..*\.sw.'`
 }
 
-
-
-odis () {
-arm-none-eabi-objdump -CD  --disassembler-color=on --visualize-jumps=extended-color $@ | less -R
+xl () {
+    xxd $@ | less
 }
+
+
+#odis () {
+#arm-none-eabi-objdump -CD  --disassembler-color=on --visualize-jumps=extended-color $@ | less -R
+#}
 alias idot="dot -Gmargin=0.7 '-Gbgcolor=#ffffff00' -Gcolor=white -Gfontcolor=white -Ncolor=white -Nfontcolor=white -Ecolor=white -Nfontname=Helvetica -Nfontsize=14pt -T png | kitty +kitten icat"
 
 alias browser='open -a "Google Chrome"'
+
+alias useful='fc -ln -1 | tee -a ~/gg/notes/useful_commands.txt'
+
+alias rm='echo Avoid rm. Use trash or move files to an archive folder'

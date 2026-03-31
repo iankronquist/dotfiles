@@ -52,6 +52,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     headers = clang_paths(args.sdk, args.framework, args.language, args.verbose)
 
-    separator = ' -I ' if args.I else '\n'
-    print(separator.join(headers))
+    if args.I:
+        print(' '.join(f'-I {h}' for h in headers))
+    else:
+        print('\n'.join(headers))
 

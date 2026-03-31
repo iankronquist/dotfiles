@@ -3,5 +3,5 @@
 import random
 import string
 
-pw = ''.join(random.sample(string.printable, 32))
+pw = ''.join(random.sample(list(set(string.printable) - set(string.whitespace)), 32))
 print(pw)

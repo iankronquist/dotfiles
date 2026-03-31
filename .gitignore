@@ -14,4 +14,4 @@ generate_compile_commands.txt
 build/
 .claude/
 *.dSYM/
-
+CLAUDE.md

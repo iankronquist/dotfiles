@@ -74,9 +74,13 @@ vim.filetype.indent = 'on'
 -- vim.wildmenu = true
 
 
-vim.cmd([[ nnoremap <C-p> :find ./**/*]])
-vim.cmd([[ nnoremap <C-;> :lua vim.diagnostic.goto_next()<CR>]])
-vim.cmd([[ nnoremap <C-'> :lua vim.diagnostic.goto_prev()<CR>]])
+-- vim.cmd([[ nnoremap <C-p> :find ./**/*]])
+-- vim.keymap.set('n', '<C-l>', ':tab tag <cword> <CR>')
+-- vim.cmd([[ nnoremap <C-'> :lua print("hello") <CR>]])
+-- vim.cmd([[ nnoremap <C-;> :lua print("hello") <CR>]])
+-- vim.cmd([[ nnoremap <C-;> :tab tag <cword> <CR>]])
+-- vim.cmd([[ nnoremap <C-;> :lua vim.diagnostic.goto_next()<CR>]])
+-- vim.cmd([[ nnoremap <C-'> :lua vim.diagnostic.goto_prev()<CR>]])
 
 
 vim.cmd([[imap <c-space> <c-x><c-o>]])
@@ -103,8 +107,8 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.scrolloff = 10
 
 
-vim.cmd([[command T :tab tag expand("%")]])
-vim.cmd([[command Tv :tab tag expand("%")]])
+vim.cmd([[command T :tab tag ]])
+vim.cmd([[command Tv :tab tag ]])
 vim.cmd([[command Linkv :exe "!stashlink.py --summary " . expand("%") . " " . line(".") . " --selection_start \"" . string(getpos("'<")) . "\" --selection_end \"" . string(getpos("'>")) . "\" | pbcopy <CR>"]])
 vim.cmd([[command Link :exe "!stashlink.py --summary " . expand("%") . " " . line(".") . " | pbcopy <CR>"]])
 vim.cmd([[command Linkm :exe "!stashlink.py --markdown " . expand("%") . " " . line(".") . " | pbcopy <CR>"]])
@@ -401,4 +405,28 @@ vim.filetype.add({
     metal = "cpp",
   },
 })
+
+vim.keymap.set(
+  'n',                                    -- normal mode
+  '<C-;>',                -- key sequence
+  function()
+    -- build the command :tab tag <word>
+    --local word = vim.fn.expand('<cword>')   -- word under cursor
+    --vim.cmd('tab tag ' .. word)
+    print("hello")
+  end,
+  { noremap = true, silent = true }        -- options
+)
+
+vim.keymap.set(
+  'n',                                    -- normal mode
+  '<C-l>',                            -- the key sequence
+  function()
+    -- build the command :tab tag <word>
+    local word = vim.fn.expand('<cword>')   -- word under cursor
+    print("Looking for tag " .. word)
+    vim.cmd('tab tag ' .. word)
+  end,
+  { noremap = true, silent = true }        -- options
+)
 

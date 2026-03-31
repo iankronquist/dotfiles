@@ -1,5 +1,5 @@
 " This is a comment
-set spell
+"set spell
 syntax on
 set ignorecase
 set smartcase
@@ -54,7 +54,7 @@ augroup configgroup
 	autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t syntax= spell
 	autocmd BufRead,BufNewFile *.rst setlocal formatoptions+=t tw=79 spell
 	autocmd BufRead,BufNewFile *.tex setlocal formatoptions+=t spell expandtab
-	autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t spell expandtab
+	"autocmd BufRead,BufNewFile *.txt setlocal formatoptions+=t spell expandtab
 
 	autocmd BufRead,BufNewFile *.asm setlocal formatoptions+=t spell syntax=arm64
 	autocmd BufRead,BufNewFile *.S setlocal formatoptions+=t spell syntax=arm64
@@ -188,6 +188,7 @@ nnoremap <S-Space> <C-u>
 
 
 "colorscheme seoul256
+colorscheme lunaperche
 
 "set list listchars=tab:→\ ,trail:·
 

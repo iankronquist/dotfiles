@@ -56,10 +56,13 @@ def format_symbol(symbol):
     container = symbol['container']
     return (f'{symbol_type_name} {symbol_name} at {requested_file_path}:{requested_line} {container}')
 
-
 def find_symbols(ctagdb, requested_file_path, requested_line, verbose=False, filter_symbol_types=True):
     ctagdb = open(ctagdb)
     entries = list()
+
+    # Cache canonicalized ctags paths as a perf optimization to shave off nearly half a second.
+    canonical_requested_path = os.path.realpath(requested_file_path)
+    canonical_ctags_paths = dict()
     for line in ctagdb.readlines():
         #if line.startswith('!_TAG_KIND_DESCRIPTION!'):
         #    add_tag_kind_description(line)
@@ -68,8 +71,14 @@ def find_symbols(ctagdb, requested_file_path, requested_line, verbose=False, fil
             continue
         entry = tuple(line.split('\t'))
         path = entry[1]
-        if os.path.exists(path) and os.path.samefile(path, requested_file_path):
+
+
+        if path not in canonical_ctags_paths:
+            canonical_ctags_paths[path] = os.path.realpath(path)
+        #if os.path.exists(path) and canonical_requested_path == canonical_ctags_paths[path]:
+        if canonical_requested_path == canonical_ctags_paths[path]:
             entries.append(entry)
+
 
     found = []
     with open(requested_file_path) as source_file:
@@ -95,11 +104,16 @@ def find_symbols(ctagdb, requested_file_path, requested_line, verbose=False, fil
     if verbose:
         print(found)
 
-    best = None
+    best = 0 if len(found) > 0 else None
+    diff = float('inf')
+    #best = None
     for (index, (line_number, entry)) in enumerate(found):
+
         if line_number > requested_line:
             break
-        best = index
+        if requested_line - line_number  < diff:
+            best = index
+            diff = requested_line - line_number
 
     if best is not None:
         line_number, entry = found[best]
@@ -113,6 +127,7 @@ def find_symbols(ctagdb, requested_file_path, requested_line, verbose=False, fil
         #return (f'{symbol_type_name} {symbol} at {requested_file_path}:{requested_line} {container}')
         return { 'symbol': symbol, 'symbol_type_name': symbol_type_name, 'symbol_line': line_number, 'requested_file_path': requested_file_path, 'requested_line': requested_line, 'container': container }
     else:
+
         return None
 
 if __name__ == '__main__':

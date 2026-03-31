@@ -20,7 +20,7 @@ bindkey \^B backward-word
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 
-export PATH=$PATH:$HOME/scripts:$HOME/bin:'/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/'
+export PATH=$PATH:$HOME/scripts:$HOME/bin:$HOME/Library/Python/3.9/bin:'/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/'
 
 source ~/.aliases
 
@@ -89,7 +89,7 @@ export HISTFILESIZE=1000000000
 export SAVEHIST=1000000000
 #export HISTCONTROL=ignoreboth
 #setopt INC_APPEND_HISTORY
-#setopt EXTENDED_HISTORY
+setopt EXTENDED_HISTORY
 #setopt extendedhistory
 #setopt histexpiredupsfirst
 #setopt histfindnodups
