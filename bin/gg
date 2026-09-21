@@ -1,7 +1,7 @@
 # vim: set syntax=bash:
 
 if [[ -z $PROJECTS_DIR ]]; then 
-	PROJECTS_DIR=$HOME/gg
+	PROJECTS_DIR=$HOME/src
 fi
 
 gg() {

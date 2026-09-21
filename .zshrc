@@ -1,7 +1,7 @@
 # To profile shell startup time, uncomment the next line and the final line
 # zmodload zsh/zprof
 
-export ZSHRC_LOAD_START=$(python -c 'from time import time; print int(round(time() * 1000))')
+#export ZSHRC_LOAD_START=$(python -c 'from time import time; print int(round(time() * 1000))')
 setopt BASH_REMATCH
 
 autoload compinit
@@ -37,7 +37,7 @@ else
 export EDITOR=vim
 fi
 
-export NVIM_LISTEN_ADDRESS=$TMPDIR/nvimsocket
+#export NVIM_LISTEN_ADDRESS=$TMPDIR/nvimsocket
 
 
 
@@ -51,7 +51,44 @@ export NVIM_LISTEN_ADDRESS=$TMPDIR/nvimsocket
 # %# makes a % for normal users and a # for root
 # %f resets the foreground color to whatever it was originally
 setopt prompt_subst
-prompt='$? %F{blue}%~ %* $(git symbolic-ref -q --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD 2>/dev/null)'$'\n''%# %f'
+# Original prompt — kept for easy revert.
+# prompt='$? %F{blue}%n %~ %* $(git symbolic-ref -q --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD 2>/dev/null)'$'\n''%# %f'
+
+# Labeled prompt with OSC 133 semantic shell integration markers.
+# Labels (exit=, user=, cwd=, time=, branch=) make the prompt parseable by
+# AI agents / scripts reading scrollback without positional guessing.
+# OSC 133 markers let terminals (iTerm2, Ghostty, Kitty, WezTerm, VS Code,
+# Zed) semantically parse prompts: jump-by-prompt, select-output-of-last-
+# command, exit-code badges, scrollbar marks.
+#   A — prompt start (emitted in precmd)
+#   C — command output start (emitted in preexec, after Enter)
+#   D;<exit> — previous command finished, carries its exit code
+autoload -Uz add-zsh-hook
+_osc133_precmd() {
+  local last=$?
+  print -n $'\e]133;D;'"${last}"$'\e\\\e]133;A\e\\'
+}
+_osc133_preexec() {
+  print -n $'\e]133;C\e\\'
+}
+# Set _git_branch_display in precmd so the prompt itself stays a simple
+# parameter expansion. Empty string when not in a repo so " branch=…" drops
+# out cleanly. Wraps the value (not the label) in %F{blue}…%f.
+_update_git_branch() {
+  local b
+  b=$(git symbolic-ref -q --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD 2>/dev/null)
+  if [[ -n $b ]]; then
+    _git_branch_display=" branch=%F{blue}${b}%f"
+  else
+    _git_branch_display=""
+  fi
+}
+add-zsh-hook precmd _osc133_precmd
+add-zsh-hook precmd _update_git_branch
+add-zsh-hook preexec _osc133_preexec
+# Labels in default color; cwd and branch values in blue; exit code red iff non-zero.
+# %(?.A.B) is zsh's ternary on $? — A when 0, B otherwise.
+prompt='exit=%(?.%?.%F{red}%?%f) user=%n cwd=%F{blue}%~%f time=%*${_git_branch_display}'$'\n''%F{blue}%#%f '
 
 export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
 export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
@@ -126,3 +163,24 @@ fi
 autoload -Uz compinit && compinit
 ####
 source ~/bin/gg
+export HWTGENIE_TOKEN=$(cat ~/.hwtgenie)
+
+
+# Opam disabled since I'm not using it now
+# # BEGIN opam configuration
+# # This is useful if you're using opam as it adds:
+# #   - the correct directories to the PATH
+# #   - auto-completion for the opam binary
+# # This section can be safely removed at any time if needed.
+# [[ ! -r '/Users/ian/.opam/opam-init/init.zsh' ]] || source '/Users/ian/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
+# # END opam configuration
+export PATH="$PATH:/Users/ian/shared/ravena/prebuilt/darwin-arm64"
+
+#echo 'getting radar api token'
+#export RADAR_API_TOKEN=$(appleconnect getToken -a $(appleconnect currentUser) -E PROD -I 900731       -t oauth -G pkce -C 41rih2rtlg4zyax6eztzug6ftnhkun -u https://radar-webservices.apple.com)
+
+#export RADAR_API_TOKEN=$(/Users/ian/shared/ravena/.claude/skills/radar/scripts/radar-auth.sh ikronquist)
+#
+#
+# Source the environment variables file if it exists. Mostly there to set up a hugging face read only access token.
+[ -f ~/.env ] && source ~/.env

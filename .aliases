@@ -1,10 +1,6 @@
 # vim: set ft=bash
 
 
-alias vt='vim -t'
-
-alias v='vim -p'
-
 # zsh and bash behavior differ, effing "backwards compatible shell"
 # Slow as hell, just as ugly ugh
 #v() {
@@ -289,4 +285,18 @@ alias browser='open -a "Google Chrome"'
 
 alias useful='fc -ln -1 | tee -a ~/gg/notes/useful_commands.txt'
 
-alias rm='echo Avoid rm. Use trash or move files to an archive folder'
+alias rm='echo Avoid rm. Use the command "trash"'
+#alias rm='echo Avoid rm. Use the command "trash" or move files to an archive folder'
+
+
+mdview() {
+    local out="$(mktemp -t mdview).html"
+    pandoc -s --metadata title="$1" \
+      -H <(printf '%s' '<style>
+        body{max-width:none;margin:2rem 3rem;}
+        table{border-collapse:collapse;width:auto;}
+        th,td{border:1px solid #ccc;padding:4px 10px;}
+        thead{background:#f0f0f0;}
+      </style>') \
+      "$1" -o "$out" && open "$out"
+  }

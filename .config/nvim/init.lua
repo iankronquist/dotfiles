@@ -26,6 +26,12 @@
 vim.g.mapleader = '\\'
 vim.g.maplocalleader = '\\'
 
+-- Skip the python3 provider probe. Without this, opening any .py file makes
+-- nvim spawn each python3.{9..14} on $PATH looking for a pynvim install
+-- (~580ms after the OS upgrade re-pointed /usr/local/bin/python3 to
+-- AppleInternal Python 3.9, which doesn't have pynvim).
+vim.g.loaded_python3_provider = 0
+
 vim.opt.mouse = 'a'
 -- share system clipboard
 vim.opt.clipboard = 'unnamedplus'

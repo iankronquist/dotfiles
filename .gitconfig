@@ -48,3 +48,6 @@ username = i_kronquist
 	gpgsign = true
 [credential]
 	helper = cache
+[safe]
+	directory = /Users/ian/shared/applesepos-pr1
+	directory = /Users/ian/shared/applesepos-base

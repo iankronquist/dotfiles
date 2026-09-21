@@ -15,3 +15,5 @@ build/
 .claude/
 *.dSYM/
 CLAUDE.md
+.env
+__pycache__/

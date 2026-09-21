@@ -11,12 +11,11 @@ def get_authentication_strategy():
     """Get authentication strategy similar to radartool."""
     environment = radarclient.RadarEnvironment('production')
 
-    # Try SPNego first
     accounts = radarclient.AppleDirectoryQuery.logged_in_appleconnect_accounts(radar_environment=environment)
-    spnego_available = radarclient.AuthenticationStrategySPNego.available()
+    appleconnect_available = radarclient.AuthenticationStrategyAppleConnect.available()
 
-    if spnego_available and accounts:
-        return radarclient.AuthenticationStrategySPNego(radar_environment=environment)
+    if appleconnect_available and accounts:
+        return radarclient.AuthenticationStrategyAppleConnect(radar_environment=environment)
 
     print("Unable to get credentials. Make sure you're logged in to AppleConnect.")
     sys.exit(1)
@@ -94,6 +93,9 @@ State: {radar.state}
 Assignee: {radar.assignee.firstName} {radar.assignee.lastName}
 ## Discussion
 {descriptions}
+
+---
+
 ## Diagnosis
 {diagnoses}
 '''
