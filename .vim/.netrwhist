@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/ian/gg/ane_transformers'
+let g:netrw_dirhist_1='/Users/ian/gg/eisp/src/fidAlg/d9x/dump'
+let g:netrw_dirhist_0='/Users/ian/gg/eisp/src/fidAlg/d8x/dump'
+let g:netrw_dirhist_9='/Users/ian/gg/appleembeddedgpudrivers/Firmware/Arm/BRNs'
+let g:netrw_dirhist_8='/Users/ian/gg/r/init'
+let g:netrw_dirhist_7='/Users/ian/gg/r'
+let g:netrw_dirhist_6='/Users/ian/gg/r/kernel'
+let g:netrw_dirhist_5='/Users/ian/gg/xnu/osfmk/arm'
+let g:netrw_dirhist_4='/Users/ian/gg/learnllm/quantizer'
+let g:netrw_dirhist_3='/Users/ian/gg/exclavesharedmemory/DerivedData/ExclaveSharedMemory/Build/Intermediates.noindex/InstallIntermediates/exclavecore.iphoneos/InstallableProducts/System/ExclaveCore/usr/local/lib/tightbeam'

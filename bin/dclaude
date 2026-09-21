@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "⚠️  Highway to the danger zone ⚠️"
+
+REAL_PWD=$(realpath "$PWD")
+SHARED_PREFIX="/Users/ian/shared"
+
+if [[ "$REAL_PWD" == "$SHARED_PREFIX"/* ]]; then
+    REL="${REAL_PWD#$SHARED_PREFIX/}"
+    TARGET="/Users/claude/src/$REL"
+else
+    TARGET="/Users/claude/src/claude"
+fi
+
+echo "Switching to the user named 'claude' and directory $TARGET and running claude code with dangerously skip permissions"
+
+sudo su claude -c "cd \"$TARGET\" && claude --dangerously-skip-permissions $@"

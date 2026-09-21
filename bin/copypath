@@ -1,0 +1,25 @@
+#!/bin/bash
+set -eu
+set -o pipefail
+
+NO_CLAUDE=0
+if [[ "${1:-}" == "--no-claude" ]]; then
+  NO_CLAUDE=1
+  shift
+fi
+
+PATH_TO_COPY=${1:?usage: copypath [--no-claude] <path>}
+
+RESOLVED=$(realpath "$PATH_TO_COPY")
+
+if [[ "$NO_CLAUDE" != 1 ]]; then
+  # ~/shared is where projects are shared with claude, and
+  # /Users/claude/src -> /Users/ian/shared. Rewrite shared paths so they
+  # point at claude's view of the tree.
+  SHARED="$HOME/shared"
+  if [[ "$RESOLVED" == "$SHARED" || "$RESOLVED" == "$SHARED/"* ]]; then
+    RESOLVED="/Users/claude/src${RESOLVED#"$SHARED"}"
+  fi
+fi
+
+printf '%s\n' "$RESOLVED" | pbcopy
