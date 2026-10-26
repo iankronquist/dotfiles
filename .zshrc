@@ -1,5 +1,8 @@
 # To profile shell startup time, uncomment the next line and the final line
 # zmodload zsh/zprof
+#
+
+setopt interactive_comments
 
 #export ZSHRC_LOAD_START=$(python -c 'from time import time; print int(round(time() * 1000))')
 setopt BASH_REMATCH

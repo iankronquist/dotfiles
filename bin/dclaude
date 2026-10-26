@@ -14,4 +14,5 @@ fi
 
 echo "Switching to the user named 'claude' and directory $TARGET and running claude code with dangerously skip permissions"
 
-sudo su claude -c "cd \"$TARGET\" && claude --dangerously-skip-permissions $@"
+#sudo su claude -c "cd \"$TARGET\" && claude --dangerously-skip-permissions $@"
+su claude -c "cd \"$TARGET\" && claude --dangerously-skip-permissions $@"
